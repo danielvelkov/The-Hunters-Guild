@@ -1,0 +1,33 @@
+{
+  "name": "the-hunters-guild",
+  "version": "1.0.0",
+  "description": "A simple express app serving as an LFG hub, specifically made for \"Monster Hunter Wilds\"",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielvelkov/The-Hunters-Guild.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "postgreSQL"
+  ],
+  "author": "daniel_velkov <danielvelkov13@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danielvelkov/The-Hunters-Guild/issues"
+  },
+  "homepage": "https://github.com/danielvelkov/The-Hunters-Guild#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
