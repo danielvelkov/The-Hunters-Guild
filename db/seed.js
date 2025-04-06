@@ -71,6 +71,13 @@ async function seed() {
       fs.unlinkSync(tempFilePath);
       console.log('Temp File deleted after use');
     }
+
+    // no references for some icons anywhere, so they're manually added
+    const setStatusIconsNamesSQL = fs.readFileSync(
+      'manual-seed/updateStatusIconsNames.sql'
+    );
+    await client.query(setStatusIconsNamesSQL);
+
     await client.query('COMMIT');
     console.log('done');
   } catch (err) {
