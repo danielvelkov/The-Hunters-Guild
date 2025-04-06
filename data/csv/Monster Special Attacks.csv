@@ -1,0 +1,59 @@
+"Index","ID","Name","Description"
+0,"ROAR_MINIOR","Weak Roar","Temporarily immobilizes you."
+1,"ROAR_MAJOR","Strong Roar","Temporarily immobilizes you."
+2,"TREMORS_MINIOR","Minor Tremor","Temporarily immobilizes you."
+3,"TREMORS_MAJOR","Major Tremor","Temporarily immobilizes you."
+4,"WIND_PRESSURE_MINIOR","Minor Wind Pressure","Temporarily immobilizes you."
+5,"WIND_PRESSURE_MAJOR","Major Wind Pressure","Temporarily immobilizes you."
+6,"WIND_PRESSURE_DRAGON","Dragon Wind Pressure","Temporarily immobilizes you."
+7,"ATTRIBUTE_DAMAGE_FIRE","Fireblight","Temporarily causes your health
+to deplete. Evading repeatedly
+removes the condition."
+8,"ATTRIBUTE_DAMAGE_WATER","Waterblight","Temporarily slows down stamina
+recovery. Evading repeatedly
+removes the condition."
+9,"ATTRIBUTE_DAMAGE_SUNDER","Thunderblight","Temporarily makes you easier to
+stun. Evading repeatedly removes
+the condition."
+10,"ATTRIBUTE_DAMAGE_ICE","Iceblight","Temporarily increases stamina
+consumption. Evading repeatedly
+removes the condition."
+11,"ATTRIBUTE_DAMAGE_DRAGON","Dragonblight","Temporarily negates weapon
+elements/ailments. Evading
+repeatedly removes the condition."
+12,"POISON","Poison","Temporarily causes your health
+to deplete."
+13,"DEADLY_POISON","Noxious Poison","Temporarily causes your health
+to deplete. Effects are more
+severe than ordinary poison."
+14,"STUN","Stun","Temporarily immobilizes you.
+Moving, pressing buttons, or
+taking a hit removes the condition."
+15,"FLASH","Flash","Temporarily immobilizes you.
+Moving, pressing buttons, or
+taking a hit removes the condition."
+16,"PARALYSIS","Paralysis","Temporarily immobilizes you.
+Moving, pressing buttons, or
+taking a hit removes the condition."
+17,"SLEEP","Sleep","Temporarily puts you to sleep,
+immobilizing you."
+18,"WEBBED","Webbed","Temporarily immobilizes you.
+Moving, pressing buttons, or
+taking a hit removes the condition."
+19,"BLAST","Blastblight","Triggers an explosion after a
+period of time elapses, or if you
+take a hit that causes knockback."
+20,"DEFENSE_DOWN","Defense Down","Temporarily reduces your defense."
+21,"RESISTANCE_DOWN","Resistance Down","Temporarily lowers all your
+resistances."
+22,"STENCH","Stench","Temporarily prevents the use of
+health or stamina recovery items."
+23,"LACERATION","Bleeding","Depletes health when moving.
+Crouching or holding still for
+a while removes the condition."
+24,"VIRUS","Frenzy","If the Frenzy Virus fully infects
+you, you will temporarily take
+more damage."
+25,"FRIEZE","Frostblight","Temporarily immobilizes you.
+Moving, pressing buttons, or taking
+a hit removes the condition."

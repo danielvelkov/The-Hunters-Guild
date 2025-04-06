@@ -1,0 +1,159 @@
+"Index","DataId","AmuletType","Lv","KeyItemId","KeyEnemyId","KeyStoryNo","FlagHunterRank","ItemId 1","ItemId 2","ItemId 3","ItemId 4","ItemNum 1","ItemNum 2","ItemNum 3","ItemNum 4"
+0,1,"34DACC40",1,"---","-","D9C1E4C0",0,"Guardian Doshaguma Fur","Guardian Doshaguma Claw","Guardian Doshaguma Fang","Guardian Seikret Feather",2,1,1,1
+1,2,"34DACC40",2,"---","Gypceros","00000000",9,"Rubbery Hide+","Gypceros Head","Chatacabra Scale+","Bird Wyvern Gem",4,3,3,1
+2,3,"34DACC40",3,"---","Guardian Fulgur Anjanath","00000000",0,"Guardian Fulgur Scale+","Guardian Fulgur Fang+","Doshaguma Claw+","Guardian Fulgur Gem",6,4,3,1
+3,4,"67FAC800",1,"---","-","00000000",5,"Ajarakan Scale","Ajarakan Jewel","Ajarakan Ridge","Kranodath Skull",2,1,1,1
+4,5,"67FAC800",2,"---","-","00000000",9,"Kut-Ku Scale+","Kut-Ku Wing","Kut-Ku Ear","Carbalite Ore",6,4,3,5
+5,6,"67FAC800",3,"Guardian Ebony Scale+","-","00000000",21,"Guardian Ebony Claw+","Guardian Ebony Fang+","Guardian Doshaguma Claw+","Beast Gem",4,3,3,1
+6,7,"67FAC800",4,"---","Gore Magala","00000000",0,"Gore Magala Wing+","Gore Magala Tail","Guardian Ebony Gem","Gore Magala Nyctgem",4,2,1,1
+8,9,"DA42AF80",1,"---","-","00000000",5,"Hirabami Tail Claw","Balahara Scale","Balahara Skull","Dragonite Ore",1,2,1,2
+9,10,"DA42AF80",2,"Rompopolo Hide+","-","00000000",9,"Spotted Poison Hide+","Rompopolo Beak+","Kranodath Skull+","Ajarakan Marrow",4,3,5,1
+10,11,"DA42AF80",3,"Guardian Fulgur Scale+","-","00000000",21,"Guardian Fulgur Fang+","Guardian Fulgur Nosebone+","Guardian Rathalos Wing","Guardian Fulgur Gem",4,3,3,1
+11,12,"A4DED500",1,"---","Rathian","00000000",16,"Rathian Scale+","Rathian Webbing","Kut-Ku Scale+","Wyvern Gem",6,3,5,1
+12,13,"A4DED500",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Uth Duna Watergem","Guardian Rathalos Ruby",5,3,1,1
+14,15,"9FAA7380",1,"Hirabami Scale+","-","00000000",16,"Hirabami Scale+","Hirabami Webbing+","Vibrant Pelt+","Beast Gem",6,4,3,1
+15,16,"9FAA7380",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Jin Dahaad Icegem","Gravios Medulla",5,3,1,2
+17,18,"699F1E00",1,"Nerscylla Carapace","-","00000000",16,"Nerscylla Carapace","Nerscylla Spike+","Rompopolo Beak+","Wyvern Gem",6,4,3,1
+18,19,"699F1E00",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Nu Udra Flamegem","Ajarakan Medulla",5,3,1,1
+20,21,"77C54D00",1,"Rathian Carapace","-","00000000",16,"Rathian Carapace","Rathian Spike+","Chatacabra Carapace","Rathian Ruby",6,3,4,1
+21,22,"77C54D00",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Arkveld Gem","Guardian Rathalos Ruby",5,3,1,1
+23,24,"C90218C0",1,"Hirabami Scale+","-","00000000",16,"Hirabami Scale+","Quematrice Igniter+","Quematrice Crest+","Wyvern Gem",6,3,3,1
+24,25,"C90218C0",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Rey Dau Boltgem","Guardian Fulgur Gem",5,3,1,1
+26,27,"AE361800",1,"Nerscylla Carapace","-","00000000",16,"Nerscylla Claw+","Nerscylla Shear","Gypceros Head","Bird Wyvern Gem",6,3,3,1
+27,28,"AE361800",2,"Hunter Symbol III","-","00000000",41,"Hunter Symbol III","Hunter Symbol II","Xu Wu Umbragem","Rey Dau Boltgem",5,3,1,1
+29,30,"C6EC2E40",1,"---","Xu Wu","00000000",0,"Xu Wu Hide","Xu Wu Claw","Nu Udra Hide","Xu Wu Cerebrospinal Fluid",2,1,1,1
+30,31,"C6EC2E40",2,"---","Gypceros","00000000",9,"Rubbery Hide+","Gypceros Tail","Lightcrystal","Bird Wyvern Gem",4,2,2,1
+31,32,"C6EC2E40",3,"Xu Wu Hide+","-","00000000",21,"Golden Corneum+","Xu Wu Claw+","Doshaguma Fang+","Xu Wu Umbragem",6,4,3,1
+32,33,"CC7EAFC0",1,"---","-","97DC3400",0,"Doshaguma Claw","Balahara Shell","Balahara Skull","Machalite Ore",1,2,1,2
+33,34,"CC7EAFC0",2,"---","-","D9C1E4C0",0,"Guardian Doshaguma Hide","Guardian Doshaguma Claw","Guardian Doshaguma Fang","Dragonite Ore",2,1,1,2
+34,35,"CC7EAFC0",3,"Chatacabra Scale+","-","00000000",9,"Chatacabra Carapace","Chatacabra Scale+","Quematrice Crest+","Firecell Stone",3,4,2,1
+35,36,"CC7EAFC0",4,"---","Gravios","00000000",21,"Gravios Carapace","Gravios Wing","Guardian Doshaguma Hide+","Guardian Doshaguma Claw+",2,2,4,2
+37,38,"4BA00B00",1,"---","-","97DC3400",0,"Chatacabra Scale","Quematrice Scale","Lala Barina Mucus","Earth Crystal",2,1,1,2
+38,39,"4BA00B00",2,"---","-","00000000",5,"Hirabami Hide","Hirabami Webbing","Uth Duna Tentacle","Dragonite Ore",1,1,2,2
+39,40,"4BA00B00",3,"Hirabami Scale+","-","00000000",16,"Hirabami Webbing+","Rathian Spike+","Novacrystal","Wyvern Gem",4,3,1,1
+40,41,"64DED900",1,"---","-","00000000",3,"Lala Barina Floret","Lala Barina Mucus","Congalala Pelt","Sturdy Bone",2,1,1,2
+41,42,"64DED900",2,"---","-","00000000",5,"Nerscylla Claw","Nerscylla Chelicera","Spotted Poison Hide","Charred Oilbone",2,1,1,2
+42,43,"64DED900",3,"Lala Barina Floret+","-","00000000",9,"Lala Barina Floret+","Lala Barina Mucus+","Giant Beak","Bird Wyvern Gem",6,4,3,1
+43,44,"64C57E00",1,"---","-","97DC3400",0,"Doshaguma Hide","Doshaguma Fang","Chatacabra Hide","Brute Bone",2,1,1,1
+44,45,"64C57E00",2,"---","-","00000000",5,"Hirabami Hide","Hirabami Webbing","Lala Barina Certificate","Frozen Icebone",2,1,1,2
+45,46,"64C57E00",3,"---","Gypceros","00000000",9,"Gypceros Wing","Gypceros Tail","Rompopolo Beak+","Dragonbone Relic",4,1,2,1
+46,47,"A45C6400",1,"---","-","97DC3400",0,"Doshaguma Fur","Doshaguma Fang","Chatacabra Scale","Brute Bone",2,1,1,1
+47,48,"A45C6400",2,"---","Guardian Ebony Odogaron","00000000",0,"Guardian Ebony Claw","Guardian Ebony Fang","Nu Udra Horn","Tough Guardian Bone",1,1,2,1
+48,49,"A45C6400",3,"Guardian Fulgur Scale+","-","00000000",21,"Guardian Fulgur Fang+","Rathian Webbing","Chatacabra Jaw+","Rath Medulla",4,2,4,1
+49,50,"BC338080",1,"Rathalos Carapace","-","00000000",21,"Rathalos Carapace","Rathalos Wing","Kut-Ku Ear","Rathalos Ruby",6,4,2,1
+51,52,"83BE9480",1,"---","-","00000000",6,"Guardian Doshaguma Hide","Guardian Doshaguma Fang","Congalala Pelt","Dragonite Ore",2,1,1,2
+52,53,"83BE9480",2,"---","-","00000000",9,"Kut-Ku Carapace","Kut-Ku Wing","Giant Beak","Bird Wyvern Gem",6,4,2,1
+53,54,"83BE9480",3,"Guardian Rathalos Scale+","-","00000000",21,"Guardian Rathalos Carapace","Guardian Rathalos Wing","Rathian Spike+","Rathian Ruby",6,4,3,1
+54,55,"35FB7D00",1,"---","-","00000000",5,"Ajarakan Shell","Ajarakan Ridge","Congalala Claw","Dragonite Ore",2,1,1,2
+55,56,"35FB7D00",2,"Balahara Carapace","-","00000000",16,"Balahara Carapace","Chatacabra Hide+","Chatacabra Carapace","Carbalite Ore",4,6,4,4
+56,57,"35FB7D00",3,"---","Gravios","00000000",21,"Gravios Carapace","Gravios Pleura+","Guardian Doshaguma Claw+","Firecell Stone",6,3,3,2
+57,58,"A5486880",1,"---","-","00000000",5,"Hirabami Scale","Hirabami Tail Claw","Doshaguma Claw","Icium",2,1,1,2
+58,59,"A5486880",2,"Hirabami Scale+","-","00000000",16,"Hirabami Hide+","Hirabami Tail Claw+","Herbivore Carapace","Firecell Stone",6,3,5,1
+59,60,"A5486880",3,"Rathalos Scale+","-","00000000",21,"Rathalos Scale+","Rathalos Wing","Ajarakan Ridge+","Rathalos Ruby",6,4,3,1
+61,62,"9BC0B080",1,"---","-","00000000",5,"Balahara Shell","Balahara Skull","Nerscylla Claw","Dragonite Ore",2,1,1,2
+62,63,"9BC0B080",2,"Balahara Carapace","-","00000000",16,"Balahara Carapace","Lala Barina Claw+","Talioth Scale+","Wyvern Gem",6,4,5,1
+63,64,"9BC0B080",3,"---","Rathalos","00000000",21,"Rathalos Carapace","Rathalos Wing","Ajarakan Ridge+","Rathalos Ruby",6,4,3,1
+64,65,"93AF7900",1,"---","-","97DC3400",0,"Quematrice Scale","Quematrice Igniter","Iron Ore","---",2,1,2,0
+65,66,"93AF7900",2,"---","-","00000000",5,"Ajarakan Scale","Ajarakan Jewel","Kranodath Skull","Firestone",2,1,2,1
+66,67,"93AF7900",3,"Quematrice Scale+","-","00000000",16,"Quematrice Scale+","Quematrice Igniter+","Talioth Scale+","Firecell Stone",4,3,3,1
+67,68,"DDB0A080",1,"---","-","97DC3400",0,"Balahara Scale","Balahara Skull","Earth Crystal","---",2,1,2,0
+68,69,"DDB0A080",2,"---","-","00000000",5,"Uth Duna Scale","Uth Duna Cilia","Piragill Fin","Icium",2,1,2,2
+69,70,"DDB0A080",3,"Balahara Carapace","-","00000000",16,"Balahara Carapace","Balahara Scale+","Piragill Fin+","Gracium",4,3,3,4
+70,71,"C575E700",1,"---","Rompopolo","00000000",0,"Rompopolo Hide","Spotted Poison Hide","Earth Crystal","---",2,1,2,0
+71,72,"C575E700",2,"---","-","00000000",5,"Rey Dau Scale","Rey Dau Wingtalon","Bulaqchi Shell","Machalite Ore",2,1,2,2
+72,73,"C575E700",3,"Rompopolo Hide+","-","00000000",16,"Rompopolo Hide+","Spotted Poison Hide+","Talioth Scale+","Lightcrystal",4,3,3,2
+73,74,"F2B063B0",1,"---","-","00000000",3,"Congalala Pelt","Congalala Fang","Earth Crystal","---",2,1,2,0
+74,75,"F2B063B0",2,"---","Hirabami","00000000",0,"Hirabami Scale","Hirabami Webbing","Comaqchi Shell","Icium",2,1,2,2
+75,76,"F2B063B0",3,"Hirabami Scale+","-","00000000",16,"Hirabami Scale+","Hirabami Webbing+","Blango Pelt+","Gracium",4,3,3,4
+76,77,"7785DF00",1,"---","-","00000000",3,"Lala Barina Shell","Lala Barina Mucus","Earth Crystal","---",2,1,2,0
+77,78,"7785DF00",2,"---","-","D9C1E4C0",5,"Guardian Doshaguma Fur","Guardian Doshaguma Claw","Vespoid Shell","Firestone",2,1,2,1
+78,79,"7785DF00",3,"Nerscylla Carapace","-","00000000",16,"Nerscylla Carapace","Nerscylla Shear","Vespoid Carapace","Novacrystal",4,2,2,1
+79,80,"EA456FE0",1,"---","Blangonga","00000000",21,"Blangonga Pelt+","Guardian Fulgur Pelt+","Balahara Scale+","Hirabami Scale+",4,4,2,2
+80,81,"EA456FE0",2,"---","Arkveld","00000000",41,"Arkveld Scale+","White Arkveld Pelt","Novacrystal","Wyvern Gem",6,4,1,1
+82,83,"CCFD9980",1,"---","Rompopolo","00000000",0,"Rompopolo Claw","Rompopolo Beak","Monster Fluid","---",2,1,1,0
+83,84,"CCFD9980",2,"---","Nerscylla","00000000",0,"Nerscylla Shell","Nerscylla Spike","Bulaqchi Shell","Sturdy Bone",2,1,2,2
+84,85,"CCFD9980",3,"Rompopolo Hide+","-","00000000",16,"Rompopolo Claw+","Kut-Ku Carapace","Vespoid Carapace","Quality Bone",4,3,3,4
+85,86,"B9DA5500",1,"---","-","97DC3400",0,"Lala Barina Floret","Lala Barina Mucus","Vespoid Shell","---",2,1,1,0
+86,87,"B9DA5500",2,"---","Nerscylla","00000000",0,"Nerscylla Claw","Lala Barina Shell","Vespoid Wing","Charred Oilbone",2,1,2,2
+87,88,"B9DA5500",3,"Nerscylla Carapace","-","00000000",16,"Nerscylla Spike+","Lala Barina Floret+","Vespoid Carapace","Colossal Bone",3,4,3,4
+88,89,"A21F0E00",1,"---","-","00000000",3,"Congalala Claw","Congalala Pelt","Bulaqchi Shell","---",2,1,1,0
+89,90,"A21F0E00",2,"---","Nerscylla","00000000",0,"Nerscylla Claw","Nerscylla Chelicera","Comaqchi Shell","Frozen Icebone",3,2,3,3
+90,91,"A21F0E00",3,"Nerscylla Carapace","-","00000000",16,"Nerscylla Claw+","Nerscylla Shear","Comaqchi Carapace","Quality Bone",4,2,3,4
+91,92,"AE64CD80",1,"---","-","00000000",3,"Balahara Skull","Balahara Shell","Talioth Scale","---",2,1,1,0
+92,93,"AE64CD80",2,"---","-","00000000",5,"Ajarakan Ridge","Ajarakan Shell","Kranodath Skull","Sturdy Bone",2,2,2,2
+93,94,"AE64CD80",3,"Balahara Carapace","-","00000000",16,"Balahara Skull+","Balahara Carapace","Kranodath Skull+","Dragonbone Relic",4,3,3,4
+94,95,"A639B280",1,"---","-","00000000",3,"Quematrice Hide","Quematrice Igniter","Wingdrake Hide","---",2,1,1,0
+95,96,"A639B280",2,"---","-","00000000",5,"Ajarakan Scale","Ajarakan Ridge","Herbivore Shell","Firestone",2,1,2,1
+96,97,"A639B280",3,"Ajarakan Scale+","-","00000000",21,"Ajarakan Scale+","Rathian Scale+","Wingdrake Hide+","Firecell Stone",5,3,3,1
+97,98,"75B62E00",1,"---","-","97DC3400",0,"Congalala Claw","Congalala Fang","Conga Pelt","---",2,1,1,0
+98,99,"75B62E00",2,"---","-","00000000",5,"Nerscylla Claw","Congalala Pelt","Herbivore Shell","Brute Bone",2,1,2,2
+99,100,"75B62E00",3,"---","-","00000000",7,"Guardian Rathalos Scale","Nerscylla Spike","Comaqchi Shell","Charred Oilbone",2,2,2,2
+100,101,"75B62E00",4,"Nerscylla Carapace","-","00000000",16,"Nerscylla Spike+","Congalala Fang+","Conga Pelt+","Dragonbone Relic",4,4,5,1
+101,102,"7067B000",1,"---","-","97DC3400",0,"Balahara Scale","Balahara Shell","Sturdy Bone","---",2,1,2,0
+102,103,"7067B000",2,"---","-","00000000",5,"Rompopolo Claw","Rompopolo Beak","Machalite Ore","Dragonite Ore",2,2,2,2
+103,104,"7067B000",3,"Balahara Scale+","-","00000000",16,"Balahara Scale+","Balahara Skull+","Novacrystal","Wyvern Gem",6,4,1,1
+104,105,"003E2F69",1,"Balahara Scale+","-","00000000",16,"Balahara Skull+","Chatacabra Carapace","Piragill Fin+","Beast Gem",3,4,4,1
+105,106,"003E2F69",2,"Rey Dau Scale+","-","00000000",31,"Rey Dau Bolthorn","Ajarakan Jewel+","Kranodath Skull+","Ajarakan Medulla",3,4,5,1
+107,108,"45E09300",1,"---","-","00000000",5,"Ajarakan Shell","Ajarakan Jewel","Kranodath Skull","Firestone",2,1,1,1
+108,109,"45E09300",2,"Quematrice Scale+","-","00000000",9,"Quematrice Scale+","Quematrice Igniter+","Kranodath Skull+","Firecell Stone",3,2,4,1
+109,110,"45E09300",3,"Ajarakan Carapace","-","00000000",21,"Ajarakan Carapace","Ajarakan Jewel+","Inferno Sac","Beast Gem",4,2,2,1
+110,111,"1EB11940",1,"---","-","00000000",5,"Nerscylla Chelicera","Congalala Claw","Conga Pelt","Charred Oilbone",1,2,1,2
+111,112,"1EB11940",2,"Guardian Doshaguma Fur+","-","00000000",21,"Guardian Doshaguma Fang+","Guardian Doshaguma Claw+","Congalala Fang+","Beast Gem",4,3,3,1
+112,113,"1EB11940",3,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Guardian Fulgur Gem","Uth Duna Watergem",5,3,1,1
+113,114,"EEB175A0",1,"---","-","00000000",3,"Chatacabra Scale","Chatacabra Hide","Herbivore Shell","Iron Ore",2,1,1,2
+114,115,"EEB175A0",2,"---","-","00000000",5,"Spotted Poison Hide","Doshaguma Hide","Bulaqchi Shell","Dragonite Ore",2,1,2,2
+115,116,"EEB175A0",3,"Chatacabra Scale+","-","00000000",9,"Chatacabra Scale+","Chatacabra Jaw+","Lala Barina Mucus+","Novacrystal",4,2,2,1
+116,117,"E2503580",1,"---","-","00000000",3,"Rompopolo Hide","Spotted Poison Hide","Wingdrake Hide","Earth Crystal",2,1,1,2
+117,118,"E2503580",2,"---","-","00000000",5,"Hirabami Hide","Hirabami Tail Claw","Herbivore Shell","Machalite Ore",2,1,2,2
+118,119,"E2503580",3,"---","-","D9C1E4C0",5,"Guardian Rathalos Scale","Guardian Rathalos Tail","Comaqchi Shell","Dragonite Ore",3,1,3,2
+119,120,"E2503580",4,"Hirabami Scale+","-","00000000",16,"Hirabami Tail Claw+","Spotted Poison Hide+","Wingdrake Hide+","Wyvern Gem",3,4,5,1
+121,122,"9A14C400",1,"---","-","D9C1E4C0",5,"Guardian Doshaguma Fang","Doshaguma Claw","Talioth Scale","Brute Bone",1,2,1,1
+122,123,"9A14C400",2,"Congalala Pelt+","-","00000000",9,"Congalala Pelt+","Congalala Fang+","Conga Pelt+","Quality Bone",4,2,3,1
+123,124,"9A14C400",3,"Doshaguma Fur+","-","00000000",21,"Doshaguma Fur+","Doshaguma Claw+","Ajarakan Scale+","Dragonbone Relic",4,2,4,1
+124,125,"98081380",1,"---","-","D9C1E4C0",0,"Guardian Doshaguma Fur","Guardian Doshaguma Claw","Guardian Seikret Feather","Dragonite Ore",2,1,2,2
+125,126,"98081380",2,"Guardian Doshaguma Fur+","-","00000000",21,"Guardian Doshaguma Fur+","Guardian Doshaguma Claw+","Guardian Seikret Feather+","Firecell Stone",6,4,5,1
+126,127,"98081380",3,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Rey Dau Bolthorn","Xu Wu Claw+","Xu Wu Umbragem",3,3,4,1
+128,129,"1E6E1F00",1,"---","-","00000000",3,"Quematrice Scale","Quematrice Hide","Kranodath Skull","Iron Ore",2,1,2,2
+129,130,"1E6E1F00",2,"---","-","D9C1E4C0",5,"Guardian Rathalos Shell","Guardian Rathalos Webbing","Piragill Fin","Machalite Ore",2,1,2,2
+130,131,"1E6E1F00",3,"Quematrice Scale+","-","00000000",9,"Quematrice Scale+","Quematrice Crest+","Piragill Fin+","Dragonbone Relic",4,2,4,1
+131,132,"93DB8E00",1,"---","-","97DC3400",0,"Balahara Scale","Balahara Tail","Sharp Fang","---",2,1,1,0
+132,133,"93DB8E00",2,"---","-","00000000",5,"Hirabami Scale","Hirabami Webbing","Talioth Scale","Frozen Icebone",2,1,2,2
+133,134,"93DB8E00",3,"Chatacabra Scale+","-","00000000",9,"Chatacabra Scale+","Chatacabra Carapace","Congalala Fang+","Dragonbone Relic",4,2,1,1
+134,135,"D209A9C0",1,"---","Rathian","00000000",16,"Rathian Webbing","Gypceros Head","Talioth Scale+","Bird Wyvern Gem",3,3,5,1
+135,136,"D209A9C0",2,"---","Blangonga","00000000",21,"Blangonga Pelt+","Blangonga Whisker","Blango Pelt+","Beast Gem",6,3,5,1
+136,137,"D209A9C0",3,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Nu Udra Horn+","Guardian Rathalos Wing","Rathalos Ruby",3,3,4,1
+137,138,"77E10F00",1,"---","Rompopolo","00000000",0,"Spotted Poison Hide","Lala Barina Floret","Vespoid Wing","Earth Crystal",2,1,2,2
+138,139,"77E10F00",2,"Hunter Symbol II","-","00000000",31,"Hunter Symbol II","Gravios Pleura+","Rathian Spike+","Rathian Ruby",3,4,3,1
+140,141,"428FA680",1,"Guardian Rathalos Scale+","-","00000000",21,"Guardian Rathalos Wing","Xu Wu Tentacle+","Guardian Seikret Feather+","Beast Gem",4,3,5,1
+141,142,"428FA680",2,"---","Gore Magala","00000000",0,"Gore Magala Scale+","Gore Magala Wing+","Gore Magala Feeler+","Gore Magala Nyctgem",6,4,3,1
+143,144,"7C8CAF80",1,"Nerscylla Carapace","-","00000000",16,"Nerscylla Shear","Nerscylla Claw+","Congalala Claw+","Beast Gem",3,4,6,1
+144,145,"7C8CAF80",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Guardian Ebony Gem","Nu Udra Flamegem",5,3,1,1
+146,147,"2B6F4C00",1,"Hirabami Scale+","-","00000000",16,"Hirabami Webbing+","Hirabami Tail Claw+","Lala Barina Stinger+","Wyvern Gem",4,3,2,1
+147,148,"2B6F4C00",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Hunter Symbol II","Rathalos Ruby","Gore Magala Nyctgem",5,3,1,1
+149,150,"4F24B200",1,"---","Xu Wu","00000000",0,"Golden Corneum","Xu Wu Tentacle","Xu Wu Fang","Firestone",2,1,1,1
+150,151,"4F24B200",2,"Xu Wu Hide+","-","00000000",21,"Golden Corneum+","Xu Wu Tentacle+","Xu Wu Fang+","Xu Wu Umbragem",6,4,2,1
+152,153,"463F0800",1,"---","Guardian Ebony Odogaron","00000000",5,"Guardian Ebony Sinew","Guardian Ebony Scale","Talioth Scale","Iron Ore",2,1,1,2
+153,154,"463F0800",2,"Hirabami Hide+","-","00000000",16,"Hirabami Hide+","Hirabami Webbing+","Blango Pelt+","Carbalite Ore",6,4,5,4
+154,155,"463F0800",3,"Guardian Ebony Scale+","-","00000000",21,"Guardian Ebony Scale+","Guardian Ebony Sinew+","Guardian Seikret Feather+","Beast Gem",6,4,5,1
+155,156,"4E656080",1,"---","-","00000000",3,"Doshaguma Hide","Doshaguma Fang","Piragill Fin","Iron Ore",2,1,1,2
+156,157,"4E656080",2,"Balahara Scale+","-","00000000",16,"Balahara Scale+","Balahara Skull+","Piragill Fin+","Carbalite Ore",6,3,5,4
+157,158,"4E656080",3,"Guardian Doshaguma Hide+","-","00000000",21,"Guardian Doshaguma Hide+","Guardian Doshaguma Fang+","Guardian Seikret Feather+","Beast Gem",6,4,5,1
+159,160,"BA24B200",1,"---","-","00000000",3,"Lala Barina Floret","Lala Barina Shell","Vespoid Shell","---",2,1,1,0
+160,161,"BA24B200",2,"Lala Barina Floret+","-","00000000",9,"Lala Barina Floret+","Lala Barina Carapace","Herbivore Carapace","Carbalite Ore",5,3,4,4
+161,162,"BA24B200",3,"---","Blangonga","00000000",21,"Blangonga Pelt+","Blangonga Fang+","Vespoid Innerwing","Dragonbone Relic",5,3,3,1
+162,163,"8ECA0100",1,"---","-","00000000",4,"Uth Duna Scale","Uth Duna Cilia","Piragill Fin","Machalite Ore",2,1,2,2
+163,164,"8ECA0100",2,"---","Gravios","00000000",21,"Gravios Carapace","Gravios Skull","Vibrant Pelt+","Gravios Medulla",6,3,2,1
+164,165,"8ECA0100",3,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Uth Duna Scale+","Uth Duna Tentacle+","Uth Duna Watergem",3,4,2,1
+165,166,"1C83BA80",1,"---","-","00000000",3,"Doshaguma Fur","Doshaguma Claw","Monster Fluid","Iron Ore",2,1,2,2
+166,167,"1C83BA80",2,"---","Rathian","00000000",16,"Rathian Scale+","Rathian Webbing","Monster Broth","Carbalite Ore",5,3,3,4
+167,168,"1C83BA80",3,"Guardian Rathalos Scale+","-","00000000",21,"Guardian Rathalos Scale+","Guardian Rathalos Wing","Guardian Rathalos Tail","Firecell Stone",5,3,1,2
+168,169,"61636500",1,"---","Nerscylla","00000000",0,"Nerscylla Shell","Nerscylla Claw","Vespoid Shell","Earth Crystal",2,1,1,2
+169,170,"61636500",2,"Guardian Ebony Scale+","-","00000000",21,"Guardian Ebony Sinew+","Guardian Ebony Claw+","Nerscylla Spike+","Carbalite Ore",4,3,2,4
+170,171,"61636500",3,"Jin Dahaad Scale+","-","00000000",31,"Jin Dahaad Iceplate","Jin Dahaad Claw+","Blangonga Fang+","Freezer Sac",4,3,4,4
+171,172,"361B2B00",1,"---","Guardian Arkveld","00000000",0,"Guardian Blood","Guardian Scale","Guardian Pelt","Guardian Seikret Feather",2,1,1,1
+172,173,"361B2B00",2,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Arkveld Armorplate","Arkveld Calloushell","Arkveld Gem",5,5,3,1
+175,176,"50CCF100",1,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","White Arkveld Pelt","Arkveld Tail","Arkveld Gem",5,4,2,1
+177,178,"4A53E700",1,"Hunter Symbol III","-","00000000",0,"Hunter Symbol III","Arkveld Scale+","Arkveld Horn+","Arkveld Gem",5,4,3,1
+179,180,"15E71580",1,"Frenzy Shard","-","00000000",0,"Frenzy Shard","Nerscylla Shear","Hirabami Tail Claw+","Carbalite Ore",5,2,2,4
+180,181,"15E71580",2,"Frenzy Crystal","-","00000000",0,"Frenzy Crystal","Blangonga Pelt+","Blangonga Whisker","Novacrystal",5,4,3,1
+181,182,"15E71580",3,"---","Gore Magala","00000000",0,"Gore Magala Scale+","Gore Magala Ripclaw+","Gore Magala Feeler+","Gore Magala Nyctgem",6,4,2,1

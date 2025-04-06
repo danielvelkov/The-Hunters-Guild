@@ -1,0 +1,805 @@
+"Sort ID","ID","Series","Name","Model ID","Price","Type Sort ID","Type","Rarity","Attack","True Attack","Affinity","Defense Bonus","Element","Element Attack","Sharpness Bar","Sharpness Bar (Handicraft)","Slot 1","Slot 2","Slot 3","Hunting Horn Type","Notes","Melodies","Echo Wave","Echo Bubble","Shelling Type","Shell Level","Switch Axe Phial Type","Switch Axe Phial Value","Charge Blade Phial Type","Kinsect Lv","Skill 1","Skill 1 Level","Skill 2","Skill 2 Level"
+0,"LongSword_000","Expedition Tree","Hope Blade I",4,200,1,"Great Sword",1,432,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"LongSword_001","Expedition Tree","Hope Blade II",4,500,1,"Great Sword",1,480,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"LongSword_002","Expedition Tree","Hope Blade III",4,1500,1,"Great Sword",3,624,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"LongSword_003","Expedition Tree","Hope Blade IV",4,4000,1,"Great Sword",5,768,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"LongSword_004","Expedition Tree","Hope Blade V",4,14000,1,"Great Sword",7,912,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"LongSword_155","Expedition Tree","Esperanza Blade",4,20000,1,"Great Sword",8,1008,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"LongSword_051","G. Rathalos Tree","Albirath Wing I",100000,2600,1,"Great Sword",4,768,160,0.15,0,"Fire",280,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"LongSword_052","G. Rathalos Tree","Albirath Wing II",100000,10000,1,"Great Sword",6,864,180,0.15,0,"Fire",340,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"LongSword_053","G. Rathalos Tree","Whitefire Rathguard",100000,20000,1,"Great Sword",8,1008,210,0.15,0,"Fire",400,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"LongSword_036","Ore Tree","Buster Sword I",10004,800,1,"Great Sword",2,576,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+10,"LongSword_037","Ore Tree","Buster Sword II",10004,2600,1,"Great Sword",4,768,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Critical Draw",2,"",""
+11,"LongSword_038","Ore Tree","Buster Sword III",10004,10000,1,"Great Sword",6,912,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Critical Draw",3,"",""
+12,"LongSword_039","Ore Tree","Ravager Blade",10006,20000,1,"Great Sword",8,1056,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"",""
+13,"LongSword_044","Jin Dahaad Tree","Jin Dhavaar I",19,14000,1,"Great Sword",7,912,190,0,0,"Ice",550,"","",3,2,0,"","","","","","","","","","","","Focus",2,"",""
+14,"LongSword_045","Jin Dahaad Tree","Precipice Metallam",19,20000,1,"Great Sword",8,1008,210,0,0,"Ice",600,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+15,"LongSword_023","Quematrice Tree","Quematrice Espada I",6,500,1,"Great Sword",1,480,100,0.05,0,"Fire",140,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"",""
+16,"LongSword_024","Quematrice Tree","Quematrice Espada II",6,1500,1,"Great Sword",3,672,140,0.05,0,"Fire",180,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+17,"LongSword_025","Quematrice Tree","Quematrice Espada III",6,4000,1,"Great Sword",5,816,170,0.05,0,"Fire",230,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+18,"LongSword_026","Quematrice Tree","Quematrice Espada IV",6,14000,1,"Great Sword",7,1008,210,0.05,0,"Fire",270,"","",3,2,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+19,"LongSword_027","Quematrice Tree","Firetrail Blaisdell",7,20000,1,"Great Sword",8,1152,240,0.05,0,"Fire",300,"","",3,2,1,"","","","","","","","","","","","Punishing Draw",3,"",""
+20,"LongSword_144","Paralysis Tree","Paretic Blade I",23,500,1,"Great Sword",1,432,90,0,0,"Paralysis",250,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+21,"LongSword_145","Paralysis Tree","Paretic Blade II",23,1500,1,"Great Sword",3,576,120,0,0,"Paralysis",310,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",2,"",""
+22,"LongSword_146","Paralysis Tree","Paretic Blade III",23,4000,1,"Great Sword",5,720,150,0,0,"Paralysis",410,"","",2,1,1,"","","","","","","","","","","","Speed Sharpening",2,"",""
+23,"LongSword_147","Paralysis Tree","Paretic Blade IV",23,14000,1,"Great Sword",7,864,180,0,0,"Paralysis",470,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"",""
+24,"LongSword_148","Paralysis Tree","Destructive Torpor",23,20000,1,"Great Sword",8,960,200,0,0,"Paralysis",500,"","",3,3,1,"","","","","","","","","","","","Speed Sharpening",2,"",""
+25,"LongSword_077","Bone Tree","Bone Blade I",10002,500,1,"Great Sword",1,528,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"",""
+26,"LongSword_078","Bone Tree","Bone Blade II",10002,800,1,"Great Sword",2,624,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"Attack Boost",1
+27,"LongSword_079","Bone Tree","Bone Blade III",10002,2600,1,"Great Sword",4,816,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Focus",2,"Attack Boost",1
+28,"LongSword_080","Bone Tree","Bone Blade IV",10002,10000,1,"Great Sword",6,960,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+29,"LongSword_081","Bone Tree","Bone Slasher",10002,20000,1,"Great Sword",8,1104,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+30,"LongSword_085","Nu Udra Tree","Nu Krake I",11,2600,1,"Great Sword",4,816,170,-0.15,0,"Fire",270,"","",1,0,0,"","","","","","","","","","","","Protective Polish",2,"Speed Sharpening",1
+31,"LongSword_086","Nu Udra Tree","Nu Krake II",11,14000,1,"Great Sword",7,1008,210,-0.15,0,"Fire",370,"","",3,2,0,"","","","","","","","","","","","Protective Polish",2,"Speed Sharpening",2
+32,"LongSword_087","Nu Udra Tree","Abaddonian Krake",11,20000,1,"Great Sword",8,1104,230,-0.15,0,"Fire",400,"","",3,2,1,"","","","","","","","","","","","Protective Polish",3,"Speed Sharpening",2
+33,"LongSword_064","Nerscylla Tree","Immane Blade I",10,1500,1,"Great Sword",3,576,120,0.1,0,"Sleep",210,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",1,"Guard",1
+34,"LongSword_065","Nerscylla Tree","Immane Blade II",10,5000,1,"Great Sword",5,720,150,0.15,0,"Sleep",310,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",1,"Guard",1
+35,"LongSword_066","Nerscylla Tree","Immane Blade III",10,14000,1,"Great Sword",7,864,180,0.15,0,"Sleep",370,"","",3,2,0,"","","","","","","","","","","","Offensive Guard",2,"Guard",1
+36,"LongSword_067","Nerscylla Tree","Immolator Blade",10,20000,1,"Great Sword",8,960,200,0.15,0,"Sleep",400,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",2,"Guard",1
+37,"LongSword_018","Xu Wu Tree","Nihil Great Sword I",20,2600,1,"Great Sword",4,768,160,0,0,"Water",200,"","",1,0,0,"","","","","","","","","","","","Critical Draw",2,"",""
+38,"LongSword_019","Xu Wu Tree","Nihil Great Sword II",20,10000,1,"Great Sword",6,912,190,0,0,"Water",260,"","",2,1,1,"","","","","","","","","","","","Critical Draw",2,"",""
+39,"LongSword_020","Xu Wu Tree","Prinvrilo's Dissolution",20,20000,1,"Great Sword",8,1056,220,0,0,"Water",300,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"",""
+40,"LongSword_098","Doshaguma Tree","Dosha Fellslayer I",1,800,1,"Great Sword",2,672,140,-0.1,20,"-",0,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"",""
+41,"LongSword_099","Doshaguma Tree","Dosha Fellslayer II",1,2600,1,"Great Sword",4,864,180,-0.1,20,"-",0,"","",1,0,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+42,"LongSword_100","Doshaguma Tree","Dosha Fellslayer III",1,10000,1,"Great Sword",6,1008,210,-0.1,20,"-",0,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+43,"LongSword_159","Doshaguma Tree","Fellslayer Dangeom",3,20000,1,"Great Sword",8,1152,240,-0.1,20,"-",0,"","",3,2,1,"","","","","","","","","","","","Punishing Draw",3,"",""
+44,"LongSword_120","G. Arkveld Tree","G. Veldian Gladius I",17,2600,1,"Great Sword",4,816,170,-0.1,0,"Dragon",200,"","",1,1,0,"","","","","","","","","","","","Focus",2,"",""
+45,"LongSword_121","G. Arkveld Tree","G. Veldian Gladius II",17,10000,1,"Great Sword",6,1008,210,-0.1,0,"Dragon",260,"","",2,2,0,"","","","","","","","","","","","Focus",2,"",""
+46,"LongSword_122","G. Arkveld Tree","G. Stalwart Lamorak",17,20000,1,"Great Sword",8,1152,240,-0.1,0,"Dragon",300,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+47,"LongSword_128","Arkveld Tree","Veldian Gladius I",24,14000,1,"Great Sword",7,960,200,0,0,"Dragon",470,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+48,"LongSword_160","Arkveld Tree","Stalwart Lamorak",24,20000,1,"Great Sword",8,1056,220,0,0,"Dragon",500,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+49,"LongSword_107","G. Doshaguma Tree","Dosha Grimslayer I",100001,2600,1,"Great Sword",4,864,180,-0.2,0,"-",0,"","",1,1,0,"","","","","","","","","","","","Focus",1,"",""
+50,"LongSword_108","G. Doshaguma Tree","Dosha Grimslayer II",100001,10000,1,"Great Sword",6,1056,220,-0.2,0,"-",0,"","",2,1,1,"","","","","","","","","","","","Focus",2,"",""
+51,"LongSword_109","G. Doshaguma Tree","Grimslayer Urgeom",100001,20000,1,"Great Sword",8,1200,250,-0.2,0,"-",0,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+52,"LongSword_013","Yian Kut-Ku Tree","Chicken Decapitator I",12,4000,1,"Great Sword",5,864,180,0,0,"Fire",450,"","",2,1,0,"","","","","","","","","","","","Focus",1,"Charge Master",1
+53,"LongSword_014","Yian Kut-Ku Tree","Chicken Decapitator II",12,14000,1,"Great Sword",7,1008,210,0,0,"Fire",550,"","",2,1,0,"","","","","","","","","","","","Focus",2,"Charge Master",2
+54,"LongSword_015","Yian Kut-Ku Tree","Rooster Decapitator",12,20000,1,"Great Sword",8,1056,220,0,0,"Fire",600,"","",3,2,1,"","","","","","","","","","","","Focus",2,"Charge Master",2
+55,"LongSword_115","G. Fulgur Tree","Smiting Fulgur I",100002,10000,1,"Great Sword",6,864,180,0.15,0,"Thunder",440,"","",2,1,0,"","","","","","","","","","","","Critical Element",2,"",""
+56,"LongSword_116","G. Fulgur Tree","Fulgurcleaver Guardiana",100002,20000,1,"Great Sword",8,1008,210,0.15,0,"Thunder",500,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+57,"LongSword_093","Gypceros Tree","Slaughter I",13,4000,1,"Great Sword",5,864,180,0,0,"Poison",410,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Punishing Draw",1
+58,"LongSword_094","Gypceros Tree","Slaughter II",13,10000,1,"Great Sword",6,960,200,0,0,"Poison",440,"","",2,1,0,"","","","","","","","","","","","Critical Draw",2,"Punishing Draw",1
+59,"LongSword_095","Gypceros Tree","Poison King",13,20000,1,"Great Sword",8,1104,230,0,0,"Poison",500,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Punishing Draw",2
+60,"LongSword_008","Rathian Tree","Valkyrie Blade I",5,5000,1,"Great Sword",5,768,160,0.15,0,"Poison",210,"","",2,1,0,"","","","","","","","","","","","Critical Status",2,"Poison Duration Up",1
+61,"LongSword_009","Rathian Tree","Valkyrie Blade II",5,14000,1,"Great Sword",7,912,190,0.15,0,"Poison",270,"","",3,2,0,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+62,"LongSword_010","Rathian Tree","Sieglinde",5,20000,1,"Great Sword",8,1008,210,0.15,0,"Poison",300,"","",3,2,1,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+63,"LongSword_059","Rathalos Tree","Red Wing I",8,10000,1,"Great Sword",6,864,180,0.1,0,"Fire",440,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+64,"LongSword_060","Rathalos Tree","Rathalos Firesword",8,20000,1,"Great Sword",8,960,200,0.1,0,"Fire",500,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+65,"LongSword_072","Gore Magala Tree","Schattenstolz I",9,14000,1,"Great Sword",7,864,180,0.2,0,"Dragon",370,"","",3,2,1,"","","","","","","","","","","","Critical Element",2,"",""
+66,"LongSword_073","Gore Magala Tree","Düsterstolz",9,20000,1,"Great Sword",8,1008,210,0.2,0,"Dragon",400,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+67,"LongSword_141","Speartuna Tree","Frozen Speartuna I",27,2600,1,"Great Sword",4,720,150,0,0,"Ice",500,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+68,"LongSword_142","Speartuna Tree","Frozen Speartuna II",27,10000,1,"Great Sword",6,864,180,0,0,"Ice",600,"","",2,0,0,"","","","","","","","","","","","Punishing Draw",3,"Slugger",1
+69,"LongSword_143","Speartuna Tree","Freezer Speartuna",27,20000,1,"Great Sword",8,1056,220,0,0,"Ice",700,"","",3,2,0,"","","","","","","","","","","","Punishing Draw",3,"Slugger",2
+70,"LongSword_164","Workshop Tree","Jawblade I",0,10000,1,"Great Sword",6,960,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Focus",2,"Protective Polish",2
+71,"LongSword_165","Workshop Tree","Giant Jawblade",0,20000,1,"Great Sword",8,1152,240,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Focus",2,"Protective Polish",2
+100,"LongSword_149","","Artian Blade I",100003,40,1,"Great Sword",6,816,170,0.05,0,"-",300,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"LongSword_150","","Artian Blade II",100003,100,1,"Great Sword",7,864,180,0.05,0,"-",300,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"LongSword_151","","Varianza",100003,200,1,"Great Sword",8,912,190,0.05,0,"-",450,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"ShortSword_000","Expedition Tree","Hope Sword I",7,200,2,"Sword & Shield",1,126,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"ShortSword_001","Expedition Tree","Hope Sword II",7,500,2,"Sword & Shield",1,140,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"ShortSword_002","Expedition Tree","Hope Sword III",7,1500,2,"Sword & Shield",3,182,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"ShortSword_003","Expedition Tree","Hope Sword IV",7,4000,2,"Sword & Shield",5,224,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"ShortSword_004","Expedition Tree","Hope Sword V",7,14000,2,"Sword & Shield",7,266,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"ShortSword_177","Expedition Tree","Esperanza Sword",7,20000,2,"Sword & Shield",8,294,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"ShortSword_063","G. Rathalos Tree","Albirath Edge I",100000,2600,2,"Sword & Shield",4,224,160,0.15,0,"Fire",120,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"ShortSword_064","G. Rathalos Tree","Albirath Edge II",100000,10000,2,"Sword & Shield",6,252,180,0.15,0,"Fire",170,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"ShortSword_065","G. Rathalos Tree","Melting Point",100000,20000,2,"Sword & Shield",8,294,210,0.15,0,"Fire",200,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"ShortSword_047","Ore Tree","Iron Beater I",10002,800,2,"Sword & Shield",2,168,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard",1,"",""
+10,"ShortSword_048","Ore Tree","Iron Beater II",10002,2600,2,"Sword & Shield",4,224,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Guard",2,"",""
+11,"ShortSword_049","Ore Tree","Iron Beater III",10002,10000,2,"Sword & Shield",6,266,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Guard",3,"",""
+12,"ShortSword_050","Ore Tree","Smithy's Pride",10002,20000,2,"Sword & Shield",8,308,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+13,"ShortSword_055","Jin Dahaad Tree","Jin Dhaklab I",23,14000,2,"Sword & Shield",7,266,190,0,0,"Ice",320,"","",3,2,0,"","","","","","","","","","","","Guard",3,"",""
+14,"ShortSword_056","Jin Dahaad Tree","Precipice Mateptro",23,20000,2,"Sword & Shield",8,294,210,0,0,"Ice",350,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+15,"ShortSword_089","Balahara Tree","Balahara Blade I",8,800,2,"Sword & Shield",2,154,110,0.1,0,"Water",100,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",1,"",""
+16,"ShortSword_090","Balahara Tree","Balahara Blade II",8,2600,2,"Sword & Shield",4,210,150,0.1,0,"Water",120,"","",1,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+17,"ShortSword_091","Balahara Tree","Balahara Blade III",8,5000,2,"Sword & Shield",5,224,160,0.1,0,"Water",150,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+18,"ShortSword_092","Balahara Tree","Balahara Blade IV",8,14000,2,"Sword & Shield",7,266,190,0.1,0,"Water",170,"","",3,2,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+19,"ShortSword_093","Balahara Tree","Sandsea Katduva",9,20000,2,"Sword & Shield",8,294,210,0.1,0,"Water",200,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+20,"ShortSword_008","Rey Dau Tree","Rey Kuara I",10,2000,2,"Sword & Shield",3,196,140,0,0,"Thunder",120,"","",0,0,0,"","","","","","","","","","","","Guard",1,"Offensive Guard",1
+21,"ShortSword_009","Rey Dau Tree","Rey Kuara II",10,4000,2,"Sword & Shield",5,238,170,0,0,"Thunder",150,"","",2,1,0,"","","","","","","","","","","","Guard",1,"Offensive Guard",1
+22,"ShortSword_010","Rey Dau Tree","Rey Kuara III",10,14000,2,"Sword & Shield",7,280,200,0,0,"Thunder",170,"","",3,2,0,"","","","","","","","","","","","Guard",2,"Offensive Guard",1
+23,"ShortSword_011","Rey Dau Tree","Kuara Clairsword",10,20000,2,"Sword & Shield",8,308,220,0,0,"Thunder",200,"","",3,2,1,"","","","","","","","","","","","Guard",2,"Offensive Guard",1
+24,"ShortSword_034","Quematrice Tree","Quematrice Cuchillo I",2,500,2,"Sword & Shield",1,140,100,0.05,0,"Fire",100,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",1,"",""
+25,"ShortSword_035","Quematrice Tree","Quematrice Cuchillo II",2,1500,2,"Sword & Shield",3,196,140,0.05,0,"Fire",120,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+26,"ShortSword_036","Quematrice Tree","Quematrice Cuchillo III",2,4000,2,"Sword & Shield",5,238,170,0.05,0,"Fire",140,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+27,"ShortSword_037","Quematrice Tree","Quematrice Cuchillo IV",2,14000,2,"Sword & Shield",7,294,210,0.05,0,"Fire",160,"","",3,2,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+28,"ShortSword_038","Quematrice Tree","Firetrail Fornax",3,20000,2,"Sword & Shield",8,336,240,0.05,0,"Fire",180,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+29,"ShortSword_128","Chatacabra Tree","Chata Club I",4,500,2,"Sword & Shield",1,154,110,0,15,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard",1,"",""
+30,"ShortSword_129","Chatacabra Tree","Chata Club II",4,1500,2,"Sword & Shield",3,210,150,0,15,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard",2,"",""
+31,"ShortSword_130","Chatacabra Tree","Chata Club III",4,4000,2,"Sword & Shield",5,252,180,0,15,"-",0,"","",2,1,0,"","","","","","","","","","","","Guard",2,"",""
+32,"ShortSword_131","Chatacabra Tree","Chata Club IV",4,14000,2,"Sword & Shield",7,294,210,0,15,"-",0,"","",3,2,0,"","","","","","","","","","","","Guard",2,"Guard Up",1
+33,"ShortSword_178","Chatacabra Tree","Shrouded Katalo",5,20000,2,"Sword & Shield",8,322,230,0,15,"-",0,"","",3,2,1,"","","","","","","","","","","","Guard",3,"Guard Up",1
+34,"ShortSword_144","G. Arkveld Tree","G. Veldian Mucro I",22,2600,2,"Sword & Shield",4,238,170,-0.1,0,"Dragon",120,"","",1,1,0,"","","","","","","","","","","","Guard",2,"",""
+35,"ShortSword_145","G. Arkveld Tree","G. Veldian Mucro II",22,10000,2,"Sword & Shield",6,294,210,-0.1,0,"Dragon",150,"","",2,2,0,"","","","","","","","","","","","Guard",2,"",""
+36,"ShortSword_146","G. Arkveld Tree","G. Guiding Artorius",22,20000,2,"Sword & Shield",8,336,240,-0.1,0,"Dragon",180,"","",3,3,1,"","","","","","","","","","","","Guard",2,"",""
+37,"ShortSword_152","Arkveld Tree","Veldian Mucro I",28,14000,2,"Sword & Shield",7,280,200,0,0,"Dragon",220,"","",3,2,0,"","","","","","","","","","","","Guard",3,"",""
+38,"ShortSword_179","Arkveld Tree","Guiding Artorius",28,20000,2,"Sword & Shield",8,308,220,0,0,"Dragon",250,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+39,"ShortSword_097","Bone Tree","Bone Kukri I",10001,500,2,"Sword & Shield",1,154,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Stamina Thief",1,"",""
+40,"ShortSword_098","Bone Tree","Bone Kukri II",10001,800,2,"Sword & Shield",2,182,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Stamina Thief",1,"Attack Boost",1
+41,"ShortSword_099","Bone Tree","Bone Kukri III",10001,2600,2,"Sword & Shield",4,238,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Stamina Thief",2,"Attack Boost",1
+42,"ShortSword_100","Bone Tree","Bone Kukri IV",10001,10000,2,"Sword & Shield",6,280,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Stamina Thief",3,"Attack Boost",1
+43,"ShortSword_101","Bone Tree","Chief Kukri",10001,20000,2,"Sword & Shield",8,322,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Stamina Thief",3,"Attack Boost",1
+44,"ShortSword_115","Ajarakan Tree","Ajara Saber I",15,1500,2,"Sword & Shield",3,182,130,0.1,0,"Blast",120,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+45,"ShortSword_116","Ajarakan Tree","Ajara Saber II",15,10000,2,"Sword & Shield",6,252,180,0.1,0,"Blast",150,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+46,"ShortSword_117","Ajarakan Tree","Ajara-Subinda",15,20000,2,"Sword & Shield",8,294,210,0.1,0,"Blast",180,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+47,"ShortSword_026","Lala Barina Tree","Barina Dague I",27,500,2,"Sword & Shield",1,140,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+48,"ShortSword_027","Lala Barina Tree","Barina Dague II",27,1500,2,"Sword & Shield",3,168,120,0.1,0,"Paralysis",120,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+49,"ShortSword_028","Lala Barina Tree","Barina Dague III",27,4000,2,"Sword & Shield",5,210,150,0.15,0,"Paralysis",150,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+50,"ShortSword_029","Lala Barina Tree","Barina Dague IV",27,14000,2,"Sword & Shield",7,252,180,0.15,0,"Paralysis",170,"","",3,2,0,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+51,"ShortSword_030","Lala Barina Tree","Lala Acanthopelm",33,20000,2,"Sword & Shield",8,280,200,0.15,0,"Paralysis",200,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+52,"ShortSword_081","Nerscylla Tree","Scaly Sword I",14,1500,2,"Sword & Shield",3,168,120,0.1,0,"Sleep",120,"","",0,0,0,"","","","","","","","","","","","Guard",2,"",""
+53,"ShortSword_082","Nerscylla Tree","Scaly Sword II",14,5000,2,"Sword & Shield",5,210,150,0.15,0,"Sleep",150,"","",2,1,0,"","","","","","","","","","","","Guard",2,"",""
+54,"ShortSword_083","Nerscylla Tree","Scaly Sword III",14,14000,2,"Sword & Shield",7,252,180,0.15,0,"Sleep",170,"","",3,2,0,"","","","","","","","","","","","Guard",3,"",""
+55,"ShortSword_084","Nerscylla Tree","Nerskiller",14,20000,2,"Sword & Shield",8,280,200,0.15,0,"Sleep",200,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+56,"ShortSword_136","Xu Wu Tree","Nihil Sword I",24,2600,2,"Sword & Shield",4,224,160,0,0,"Water",120,"","",1,0,0,"","","","","","","","","","","","Guard",2,"",""
+57,"ShortSword_137","Xu Wu Tree","Nihil Sword II",24,10000,2,"Sword & Shield",6,266,190,0,0,"Water",150,"","",2,1,0,"","","","","","","","","","","","Guard",3,"",""
+58,"ShortSword_138","Xu Wu Tree","Cordayle's Revocation",24,20000,2,"Sword & Shield",8,308,220,0,0,"Water",180,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+59,"ShortSword_110","Gypceros Tree","Venom's Pain I",16,4000,2,"Sword & Shield",5,252,180,0,0,"Poison",160,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",2,"Critical Draw",1
+60,"ShortSword_111","Gypceros Tree","Venom's Pain II",16,10000,2,"Sword & Shield",6,280,200,0,0,"Poison",190,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",2,"Critical Draw",2
+61,"ShortSword_112","Gypceros Tree","Viperine Saber",16,20000,2,"Sword & Shield",8,322,230,0,0,"Poison",250,"","",3,3,1,"","","","","","","","","","","","Punishing Draw",3,"Critical Draw",2
+62,"ShortSword_105","G. Fulgur Tree","Rending Fulgur I",100002,10000,2,"Sword & Shield",6,252,180,0.15,0,"Thunder",210,"","",2,1,0,"","","","","","","","","","","","Critical Element",3,"",""
+63,"ShortSword_106","G. Fulgur Tree","Fulgursword Guardiana",100002,20000,2,"Sword & Shield",8,294,210,0.15,0,"Thunder",250,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+64,"ShortSword_076","Rathian Tree","Princess Rapier I",11,5000,2,"Sword & Shield",5,224,160,0.15,0,"Poison",120,"","",2,1,0,"","","","","","","","","","","","Critical Status",2,"Poison Duration Up",1
+65,"ShortSword_077","Rathian Tree","Princess Rapier II",11,14000,2,"Sword & Shield",7,266,190,0.15,0,"Poison",150,"","",3,2,0,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+66,"ShortSword_078","Rathian Tree","Queen Rapier",11,20000,2,"Sword & Shield",8,294,210,0.15,0,"Poison",180,"","",3,2,1,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+67,"ShortSword_071","Rathalos Tree","Heat Edge I",12,10000,2,"Sword & Shield",6,252,180,0.1,0,"Fire",210,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+68,"ShortSword_072","Rathalos Tree","Corona",12,20000,2,"Sword & Shield",8,280,200,0.1,0,"Fire",250,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+69,"ShortSword_021","Gore Magala Tree","Sucher-Ankh I",13,14000,2,"Sword & Shield",7,252,180,0.2,0,"Dragon",160,"","",3,2,0,"","","","","","","","","","","","Critical Element",3,"",""
+70,"ShortSword_022","Gore Magala Tree","Jäger-Ankh",13,20000,2,"Sword & Shield",8,294,210,0.2,0,"Dragon",200,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+71,"ShortSword_123","Blangonga Tree","Snow-white Jambiya I",20,10000,2,"Sword & Shield",6,280,200,-0.1,0,"Ice",140,"","",2,1,0,"","","","","","","","","","","","Critical Draw",2,"Offensive Guard",1
+72,"ShortSword_124","Blangonga Tree","Snow Lion Jambiya",20,20000,2,"Sword & Shield",8,322,230,-0.1,0,"Ice",180,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Offensive Guard",1
+73,"ShortSword_042","Gravios Tree","Gravios Syphos I",19,10000,2,"Sword & Shield",6,294,210,-0.15,30,"Blast",190,"","",2,2,0,"","","","","","","","","","","","Guard Up",3,"",""
+74,"ShortSword_043","Gravios Tree","Titan's Armament",19,20000,2,"Sword & Shield",8,336,240,-0.15,30,"Blast",250,"","",3,3,1,"","","","","","","","","","","","Guard Up",3,"",""
+100,"ShortSword_165","","Artian Sword I",100003,40,2,"Sword & Shield",6,238,170,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"ShortSword_166","","Artian Sword II",100003,100,2,"Sword & Shield",7,252,180,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"ShortSword_167","","Verdoloto",100003,200,2,"Sword & Shield",8,266,190,0.05,0,"-",260,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"TwinSword_000","Expedition Tree","Hope Daggers I",28,200,3,"Dual Blades",1,126,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"TwinSword_001","Expedition Tree","Hope Daggers II",28,500,3,"Dual Blades",1,140,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"TwinSword_002","Expedition Tree","Hope Daggers III",28,1500,3,"Dual Blades",3,182,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"TwinSword_003","Expedition Tree","Hope Daggers IV",28,4000,3,"Dual Blades",5,224,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"TwinSword_004","Expedition Tree","Hope Daggers V",28,14000,3,"Dual Blades",7,266,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"TwinSword_077","Expedition Tree","Esperanza Daggers",28,20000,3,"Dual Blades",8,294,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"TwinSword_040","G. Rathalos Tree","Twin Albiraths I",100000,2600,3,"Dual Blades",4,224,160,0.15,0,"Fire",90,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"TwinSword_041","G. Rathalos Tree","Twin Albiraths II",100000,10000,3,"Dual Blades",6,252,180,0.15,0,"Fire",120,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"TwinSword_042","G. Rathalos Tree","Wyvern Sentinels",100000,20000,3,"Dual Blades",8,294,210,0.15,0,"Fire",150,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"TwinSword_074","Water Element Tree","Guild Knight Sabers I",2,2600,3,"Dual Blades",4,182,130,0.1,0,"Water",140,"","",1,0,0,"","","","","","","","","","","","Focus",2,"",""
+10,"TwinSword_075","Water Element Tree","Guild Knight Sabers II",2,10000,3,"Dual Blades",6,224,160,0.1,0,"Water",170,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+11,"TwinSword_076","Water Element Tree","Master Sabers",2,20000,3,"Dual Blades",8,280,200,0.1,0,"Water",200,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+12,"TwinSword_010","Ore Tree","Dual Hatchets I",10001,800,3,"Dual Blades",2,168,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",1,"",""
+13,"TwinSword_011","Ore Tree","Dual Hatchets II",10001,2600,3,"Dual Blades",4,224,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+14,"TwinSword_012","Ore Tree","Dual Hatchets III",10001,10000,3,"Dual Blades",6,266,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+15,"TwinSword_013","Ore Tree","Dual Cleavers",10001,20000,3,"Dual Blades",8,308,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+16,"TwinSword_043","Jin Dahaad Tree","Jin Dhakoo I",23,14000,3,"Dual Blades",7,266,190,0,0,"Ice",270,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+17,"TwinSword_044","Jin Dahaad Tree","Precipice Ulokiem",23,20000,3,"Dual Blades",8,294,210,0,0,"Ice",300,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+18,"TwinSword_047","G. Ebony Tree","Chthonian Kusarigamas I",100001,2600,3,"Dual Blades",4,196,140,0.1,0,"Dragon",140,"","",1,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+19,"TwinSword_048","G. Ebony Tree","Chthonian Kusarigamas II",100001,10000,3,"Dual Blades",6,238,170,0.1,0,"Dragon",170,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+20,"TwinSword_049","G. Ebony Tree","Bequeathed Oblivion",100001,20000,3,"Dual Blades",8,294,210,0.1,0,"Dragon",200,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+21,"TwinSword_014","Quematrice Tree","Quematrice Silexes I",3,500,3,"Dual Blades",1,140,100,0.05,0,"Fire",70,"","",0,0,0,"","","","","","","","","","","","Focus",1,"",""
+22,"TwinSword_015","Quematrice Tree","Quematrice Silexes II",3,1500,3,"Dual Blades",3,196,140,0.05,0,"Fire",90,"","",0,0,0,"","","","","","","","","","","","Focus",2,"",""
+23,"TwinSword_016","Quematrice Tree","Quematrice Silexes III",3,4000,3,"Dual Blades",5,238,170,0.05,0,"Fire",110,"","",2,1,0,"","","","","","","","","","","","Focus",2,"",""
+24,"TwinSword_017","Quematrice Tree","Quematrice Silexes IV",3,14000,3,"Dual Blades",7,294,210,0.05,0,"Fire",130,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+25,"TwinSword_018","Quematrice Tree","Firetrail Magnesiae",4,20000,3,"Dual Blades",8,336,240,0.05,0,"Fire",150,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+26,"TwinSword_005","Bone Tree","Bone Hatchets I",10004,500,3,"Dual Blades",1,154,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"",""
+27,"TwinSword_006","Bone Tree","Bone Hatchets II",10004,800,3,"Dual Blades",2,182,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"Attack Boost",1
+28,"TwinSword_007","Bone Tree","Bone Hatchets III",10004,2600,3,"Dual Blades",4,238,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Focus",2,"Attack Boost",1
+29,"TwinSword_008","Bone Tree","Bone Hatchets IV",10004,10000,3,"Dual Blades",6,280,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+30,"TwinSword_009","Bone Tree","Wild Hatchets",10004,20000,3,"Dual Blades",8,322,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+31,"TwinSword_030","Uth Duna Tree","Uth Ngarpatu I",10,2000,3,"Dual Blades",3,224,160,-0.15,0,"Water",100,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+32,"TwinSword_031","Uth Duna Tree","Uth Ngarpatu II",10,4000,3,"Dual Blades",5,266,190,-0.15,0,"Water",140,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+33,"TwinSword_032","Uth Duna Tree","Uth Ngarpatu III",10,14000,3,"Dual Blades",7,308,220,-0.15,0,"Water",170,"","",3,2,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+34,"TwinSword_033","Uth Duna Tree","Ngarpatu-of-the-Waves",10,20000,3,"Dual Blades",8,336,240,-0.15,0,"Water",200,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+35,"TwinSword_024","Congalala Tree","Pink Maracas I",7,800,3,"Dual Blades",2,168,120,0.05,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"Critical Draw",1
+36,"TwinSword_025","Congalala Tree","Pink Maracas II",7,4000,3,"Dual Blades",5,238,170,0.05,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",2,"Critical Draw",1
+37,"TwinSword_026","Congalala Tree","Funky Maracas",7,20000,3,"Dual Blades",8,308,220,0.05,0,"-",0,"","",3,3,1,"","","","","","","","","","","","Punishing Draw",3,"Critical Draw",2
+38,"TwinSword_034","Ajarakan Tree","Ajara Twin Edges I",13,1500,3,"Dual Blades",3,182,130,0.1,0,"Blast",90,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+39,"TwinSword_035","Ajarakan Tree","Ajara Twin Edges II",13,10000,3,"Dual Blades",6,252,180,0.1,0,"Blast",120,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+40,"TwinSword_036","Ajarakan Tree","Ajara-Panthaka",13,20000,3,"Dual Blades",8,294,210,0.1,0,"Blast",150,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+41,"TwinSword_027","Doshaguma Tree","Dosha Fastflayers I",8,800,3,"Dual Blades",2,196,140,-0.05,20,"-",0,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",1,"",""
+42,"TwinSword_028","Doshaguma Tree","Dosha Fastflayers II",8,2600,3,"Dual Blades",4,252,180,-0.05,20,"-",0,"","",1,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+43,"TwinSword_029","Doshaguma Tree","Dosha Fastflayers III",8,10000,3,"Dual Blades",6,294,210,-0.05,20,"-",0,"","",2,2,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+44,"TwinSword_081","Doshaguma Tree","Fastflayers Jambastra",9,20000,3,"Dual Blades",8,336,240,-0.05,20,"-",0,"","",3,3,1,"","","","","","","","","","","","Power Prolonger",2,"",""
+45,"TwinSword_050","G. Arkveld Tree","G. Veldian Harpes I",21,2600,3,"Dual Blades",4,238,170,-0.1,0,"Dragon",90,"","",1,1,0,"","","","","","","","","","","","Focus",2,"",""
+46,"TwinSword_051","G. Arkveld Tree","G. Veldian Harpes II",21,10000,3,"Dual Blades",6,294,210,-0.1,0,"Dragon",120,"","",2,2,0,"","","","","","","","","","","","Focus",2,"",""
+47,"TwinSword_052","G. Arkveld Tree","G. Inspired Ywain",21,20000,3,"Dual Blades",8,336,240,-0.1,0,"Dragon",150,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+48,"TwinSword_073","Arkveld Tree","Veldian Harpes I",26,14000,3,"Dual Blades",7,280,200,0,0,"Dragon",160,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+49,"TwinSword_082","Arkveld Tree","Inspired Ywain",26,20000,3,"Dual Blades",8,308,220,0,0,"Dragon",200,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+50,"TwinSword_037","G. Doshaguma Tree","Dosha Guardflayers I",100002,2600,3,"Dual Blades",4,252,180,-0.15,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Focus",2,"",""
+51,"TwinSword_038","G. Doshaguma Tree","Dosha Guardflayers II",100002,10000,3,"Dual Blades",6,308,220,-0.15,0,"-",0,"","",2,2,0,"","","","","","","","","","","","Focus",2,"",""
+52,"TwinSword_039","G. Doshaguma Tree","Guardflayers Urbastra",100002,20000,3,"Dual Blades",8,350,250,-0.15,0,"-",0,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+53,"TwinSword_019","Lala Barina Tree","Barina Faucilles I",5,500,3,"Dual Blades",1,140,100,0.1,0,"Paralysis",60,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+54,"TwinSword_020","Lala Barina Tree","Barina Faucilles II",5,1500,3,"Dual Blades",3,168,120,0.1,0,"Paralysis",80,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+55,"TwinSword_021","Lala Barina Tree","Barina Faucilles III",5,4000,3,"Dual Blades",5,210,150,0.15,0,"Paralysis",110,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+56,"TwinSword_022","Lala Barina Tree","Barina Faucilles IV",5,14000,3,"Dual Blades",7,252,180,0.15,0,"Paralysis",130,"","",3,2,0,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+57,"TwinSword_023","Lala Barina Tree","Lala Harpactirs",6,20000,3,"Dual Blades",8,280,200,0.15,0,"Paralysis",150,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+58,"TwinSword_055","Yian Kut-Ku Tree","Kut-Ku Pair I",15,4000,3,"Dual Blades",5,252,180,0,0,"Fire",180,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+59,"TwinSword_056","Yian Kut-Ku Tree","Kut-Ku Pair II",15,14000,3,"Dual Blades",7,294,210,0,0,"Fire",220,"","",3,2,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+60,"TwinSword_057","Yian Kut-Ku Tree","Dual Kut-Ku",15,20000,3,"Dual Blades",8,308,220,0,0,"Fire",250,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+61,"TwinSword_069","Rathalos Tree","Twin Flames I",11,10000,3,"Dual Blades",6,252,180,0.1,0,"Fire",160,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+62,"TwinSword_070","Rathalos Tree","Wyvern Lovers",11,20000,3,"Dual Blades",8,280,200,0.1,0,"Fire",200,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+63,"TwinSword_071","Gore Magala Tree","Fledderklauen I",12,14000,3,"Dual Blades",7,252,180,0.2,0,"Dragon",120,"","",3,2,0,"","","","","","","","","","","","Critical Element",3,"",""
+64,"TwinSword_072","Gore Magala Tree","Hungerklauen",12,20000,3,"Dual Blades",8,280,200,0.2,0,"Dragon",150,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+65,"TwinSword_058","Gypceros Tree","Dual Battleaxes I",16,4000,3,"Dual Blades",5,252,180,0,0,"Poison",140,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+66,"TwinSword_059","Gypceros Tree","Dual Battleaxes II",16,10000,3,"Dual Blades",6,280,200,0,0,"Poison",170,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+67,"TwinSword_060","Gypceros Tree","Final Battleaxes",16,20000,3,"Dual Blades",8,322,230,0,0,"Poison",200,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+68,"TwinSword_061","G. Fulgur Tree","Whirling Fulgur I",100003,10000,3,"Dual Blades",6,252,180,0.15,0,"Thunder",160,"","",2,1,0,"","","","","","","","","","","","Critical Element",3,"",""
+69,"TwinSword_062","G. Fulgur Tree","Fulgurtwins Guardiana",100003,20000,3,"Dual Blades",8,294,210,0.15,0,"Thunder",200,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+70,"TwinSword_063","Blangonga Tree","Blango Sai I",19,10000,3,"Dual Blades",6,280,200,-0.1,0,"Ice",110,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+71,"TwinSword_064","Blangonga Tree","Blango Trishula",19,20000,3,"Dual Blades",8,322,230,-0.1,0,"Ice",150,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+72,"TwinSword_065","Gravios Tree","Gravios Warmakers I",18,10000,3,"Dual Blades",6,294,210,-0.15,30,"Blast",170,"","",2,1,0,"","","","","","","","","","","","Focus",3,"",""
+73,"TwinSword_066","Gravios Tree","Gravios Conquerors",18,20000,3,"Dual Blades",8,336,240,-0.15,30,"Blast",200,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+100,"TwinSword_078","","Artian Edges I",100004,40,3,"Dual Blades",6,238,170,0.05,0,"-",220,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"TwinSword_079","","Artian Edges II",100004,100,3,"Dual Blades",7,252,180,0.05,0,"-",220,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"TwinSword_080","","Tiltkreise",100004,200,3,"Dual Blades",8,266,190,0.05,0,"-",250,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"Tachi_000","Expedition Tree","Hope Edge I",3,200,4,"Long Sword",1,297,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"Tachi_001","Expedition Tree","Hope Edge II",3,500,4,"Long Sword",1,330,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"Tachi_002","Expedition Tree","Hope Edge III",3,1500,4,"Long Sword",3,429,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"Tachi_003","Expedition Tree","Hope Edge IV",3,4000,4,"Long Sword",5,528,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"Tachi_004","Expedition Tree","Hope Edge V",3,14000,4,"Long Sword",7,627,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"Tachi_167","Expedition Tree","Esperanza Edge",3,20000,4,"Long Sword",8,693,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"Tachi_058","G. Rathalos Tree","Wyvern Blade ""Ash"" I",100000,2600,4,"Long Sword",4,528,160,0.15,0,"Fire",210,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"Tachi_059","G. Rathalos Tree","Wyvern Blade ""Ash"" II",100000,10000,4,"Long Sword",6,594,180,0.15,0,"Fire",260,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"Tachi_060","G. Rathalos Tree","Wyvern Blade ""Lily",100000,20000,4,"Long Sword",8,693,210,0.15,0,"Fire",300,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"Tachi_050","Ore Tree","Iron Katana I",10000,800,4,"Long Sword",2,396,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+10,"Tachi_051","Ore Tree","Iron Katana II",10000,2600,4,"Long Sword",4,528,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Critical Draw",2,"",""
+11,"Tachi_052","Ore Tree","Iron Katana III",10000,10000,4,"Long Sword",6,627,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Critical Draw",3,"",""
+12,"Tachi_053","Ore Tree","Keen Edge",10002,20000,4,"Long Sword",8,726,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"",""
+13,"Tachi_105","Rompopolo Tree","Rompo Hacker I",9,1500,4,"Long Sword",3,462,140,0,0,"Poison",150,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+14,"Tachi_106","Rompopolo Tree","Rompo Hacker II",9,4000,4,"Long Sword",5,561,170,0,0,"Poison",190,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+15,"Tachi_107","Rompopolo Tree","Rompo Hacker III",9,14000,4,"Long Sword",7,660,200,0,0,"Poison",220,"","",3,2,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+16,"Tachi_108","Rompopolo Tree","Rompo Mytoxin",9,20000,4,"Long Sword",8,726,220,0,0,"Poison",250,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+17,"Tachi_034","Hirabami Tree","Windclaw Blade I",15,1500,4,"Long Sword",3,462,140,0,0,"Ice",180,"","",0,0,0,"","","","","","","","","","","","Focus",2,"Airborne",1
+18,"Tachi_035","Hirabami Tree","Windclaw Blade II",15,5000,4,"Long Sword",5,561,170,0,0,"Ice",230,"","",2,1,0,"","","","","","","","","","","","Focus",2,"Airborne",1
+19,"Tachi_036","Hirabami Tree","Windclaw Blade III",15,14000,4,"Long Sword",7,660,200,0,0,"Ice",270,"","",3,2,0,"","","","","","","","","","","","Focus",3,"Airborne",1
+20,"Tachi_037","Hirabami Tree","Windclaw Kiribami",15,20000,4,"Long Sword",8,726,220,0,0,"Ice",300,"","",3,2,1,"","","","","","","","","","","","Focus",3,"Airborne",1
+21,"Tachi_042","Quematrice Tree","Quematrice Lima I",4,500,4,"Long Sword",1,330,100,0.05,0,"Fire",100,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"",""
+22,"Tachi_043","Quematrice Tree","Quematrice Lima II",4,1500,4,"Long Sword",3,462,140,0.05,0,"Fire",120,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+23,"Tachi_044","Quematrice Tree","Quematrice Lima III",4,4000,4,"Long Sword",5,561,170,0.05,0,"Fire",150,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+24,"Tachi_045","Quematrice Tree","Quematrice Lima IV",4,14000,4,"Long Sword",7,693,210,0.05,0,"Fire",170,"","",3,2,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+25,"Tachi_046","Quematrice Tree","Firetrail Ferrocere",5,20000,4,"Long Sword",8,759,230,0.05,0,"Fire",200,"","",3,2,1,"","","","","","","","","","","","Punishing Draw",3,"",""
+26,"Tachi_008","Rey Dau Tree","Rey Tonitrus I",10,2000,4,"Long Sword",3,462,140,0,0,"Thunder",150,"","",0,0,0,"","","","","","","","","","","","Focus",1,"Punishing Draw",1
+27,"Tachi_009","Rey Dau Tree","Rey Tonitrus II",10,4000,4,"Long Sword",5,561,170,0,0,"Thunder",190,"","",2,1,0,"","","","","","","","","","","","Focus",1,"Punishing Draw",1
+28,"Tachi_010","Rey Dau Tree","Rey Tonitrus III",10,14000,4,"Long Sword",7,660,200,0,0,"Thunder",220,"","",3,2,0,"","","","","","","","","","","","Focus",2,"Punishing Draw",1
+29,"Tachi_011","Rey Dau Tree","Tonitrus Clairblade",10,20000,4,"Long Sword",8,726,220,0,0,"Thunder",250,"","",3,2,1,"","","","","","","","","","","","Focus",2,"Punishing Draw",1
+30,"Tachi_092","Bone Tree","Bone Shotel I",10004,500,4,"Long Sword",1,363,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"",""
+31,"Tachi_093","Bone Tree","Bone Shotel II",10004,800,4,"Long Sword",2,429,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"Attack Boost",1
+32,"Tachi_094","Bone Tree","Bone Shotel III",10004,2600,4,"Long Sword",4,561,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Focus",2,"Attack Boost",1
+33,"Tachi_095","Bone Tree","Bone Shotel IV",10004,10000,4,"Long Sword",6,660,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+34,"Tachi_096","Bone Tree","Hard Bone Shotel",10004,20000,4,"Long Sword",8,759,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+35,"Tachi_026","Uth Duna Tree","Uth Khlunda I",8,2000,4,"Long Sword",3,528,160,-0.15,0,"Water",200,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+36,"Tachi_027","Uth Duna Tree","Uth Khlunda II",8,4000,4,"Long Sword",5,627,190,-0.15,0,"Water",260,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+37,"Tachi_028","Uth Duna Tree","Uth Khlunda III",8,14000,4,"Long Sword",7,726,220,-0.15,0,"Water",320,"","",3,2,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+38,"Tachi_029","Uth Duna Tree","Khlunda-of-the-Waves",8,20000,4,"Long Sword",8,792,240,-0.15,0,"Water",350,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+39,"Tachi_113","Doshaguma Tree","Dosha Fatecleaver I",0,800,4,"Long Sword",2,462,140,-0.05,20,"-",0,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"",""
+40,"Tachi_114","Doshaguma Tree","Dosha Fatecleaver II",0,2600,4,"Long Sword",4,594,180,-0.05,20,"-",0,"","",1,0,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+41,"Tachi_115","Doshaguma Tree","Dosha Fatecleaver III",0,10000,4,"Long Sword",6,693,210,-0.05,20,"-",0,"","",2,1,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+42,"Tachi_168","Doshaguma Tree","Fatecleaver Kimkemush",1,20000,4,"Long Sword",8,792,240,-0.05,20,"-",0,"","",3,2,1,"","","","","","","","","","","","Punishing Draw",3,"",""
+43,"Tachi_134","G. Arkveld Tree","G. Veldian Ensis I",21,2600,4,"Long Sword",4,561,170,-0.1,0,"Dragon",140,"","",1,1,0,"","","","","","","","","","","","Focus",2,"",""
+44,"Tachi_135","G. Arkveld Tree","G. Veldian Ensis II",21,10000,4,"Long Sword",6,693,210,-0.1,0,"Dragon",170,"","",2,2,0,"","","","","","","","","","","","Focus",2,"",""
+45,"Tachi_136","G. Arkveld Tree","G. Righteous Lancelot",21,20000,4,"Long Sword",8,792,240,-0.1,0,"Dragon",200,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+46,"Tachi_142","Arkveld Tree","Veldian Ensis I",24,14000,4,"Long Sword",7,660,200,0,0,"Dragon",320,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+47,"Tachi_169","Arkveld Tree","Righteous Lancelot",24,20000,4,"Long Sword",8,726,220,0,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+48,"Tachi_126","G. Doshaguma Tree","Dosha Gravecleaver I",100001,2600,4,"Long Sword",4,594,180,-0.15,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+49,"Tachi_127","G. Doshaguma Tree","Dosha Gravecleaver II",100001,10000,4,"Long Sword",6,726,220,-0.15,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+50,"Tachi_128","G. Doshaguma Tree","Gravecleaver Urkemush",100001,20000,4,"Long Sword",8,825,250,-0.15,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+51,"Tachi_076","","Barina Flamberge I",6,500,4,"Long Sword",1,330,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+52,"Tachi_077","","Barina Flamberge II",6,1500,4,"Long Sword",3,396,120,0.1,0,"Paralysis",130,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+53,"Tachi_078","","Barina Flamberge III",6,4000,4,"Long Sword",5,495,150,0.15,0,"Paralysis",180,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+54,"Tachi_079","","Barina Flamberge IV",6,14000,4,"Long Sword",7,594,180,0.15,0,"Paralysis",210,"","",3,2,0,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+55,"Tachi_080","","Lala Ornithocton",7,20000,4,"Long Sword",8,660,200,0.15,0,"Paralysis",250,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+56,"Tachi_084","","Blood Cry I",14,1500,4,"Long Sword",3,396,120,0.1,0,"Sleep",130,"","",0,0,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+57,"Tachi_085","","Blood Cry II",14,5000,4,"Long Sword",5,495,150,0.15,0,"Sleep",180,"","",2,1,0,"","","","","","","","","","","","Power Prolonger",2,"",""
+58,"Tachi_086","","Blood Cry III",14,14000,4,"Long Sword",7,594,180,0.15,0,"Sleep",220,"","",3,2,0,"","","","","","","","","","","","Power Prolonger",3,"",""
+59,"Tachi_087","","Blood Scream",14,20000,4,"Long Sword",8,660,200,0.15,0,"Sleep",250,"","",3,2,1,"","","","","","","","","","","","Power Prolonger",3,"",""
+60,"Tachi_071","Rathian Tree","Wyvern Blade ""Verde"" I",11,5000,4,"Long Sword",5,528,160,0.15,0,"Poison",140,"","",2,1,0,"","","","","","","","","","","","Critical Status",2,"Poison Duration Up",1
+61,"Tachi_072","Rathian Tree","Wyvern Blade ""Verde"" II",11,14000,4,"Long Sword",7,627,190,0.15,0,"Poison",170,"","",3,2,0,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+62,"Tachi_073","Rathian Tree","Wyvern Blade ""Holly",11,20000,4,"Long Sword",8,693,210,0.15,0,"Poison",200,"","",3,2,1,"","","","","","","","","","","","Critical Status",3,"Poison Duration Up",1
+63,"Tachi_066","Rathalos Tree","Wyvern Blade ""Blood"" I",12,10000,4,"Long Sword",6,594,180,0.1,0,"Fire",290,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+64,"Tachi_067","Rathalos Tree","Wyvern Blade ""Maple",12,20000,4,"Long Sword",8,660,200,0.1,0,"Fire",350,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+65,"Tachi_021","Gore Magala Tree","Stahlfakt I",13,14000,4,"Long Sword",7,594,180,0.2,0,"Dragon",270,"","",3,2,0,"","","","","","","","","","","","Critical Element",3,"",""
+66,"Tachi_022","Gore Magala Tree","Stahlrecht",13,20000,4,"Long Sword",8,693,210,0.2,0,"Dragon",300,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+67,"Tachi_100","G. Fulgur Tree","Gnashing Fulgur I",100002,10000,4,"Long Sword",6,594,180,0.2,0,"Thunder",290,"","",2,1,0,"","","","","","","","","","","","Critical Element",3,"",""
+68,"Tachi_101","G. Fulgur Tree","Fulgurblade Guardiana",100002,20000,4,"Long Sword",8,693,210,0.2,0,"Thunder",350,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+69,"Tachi_121","Blangonga Tree","Blanberge I",19,10000,4,"Long Sword",6,660,200,-0.1,0,"Ice",160,"","",2,1,0,"","","","","","","","","","","","Critical Draw",3,"",""
+70,"Tachi_122","Blangonga Tree","Blangongaberge",19,20000,4,"Long Sword",8,759,230,-0.1,0,"Ice",200,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"",""
+100,"Tachi_155","","Artian Saber I",100003,40,4,"Long Sword",6,561,170,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"Tachi_156","","Artian Saber II",100003,100,4,"Long Sword",7,594,180,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"Tachi_157","","Dimensius",100003,200,4,"Long Sword",8,627,190,0.05,0,"-",270,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"Hammer_000","Expedition Tree","Hope Hammer I",2,200,5,"Hammer",1,468,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"Hammer_001","Expedition Tree","Hope Hammer II",2,500,5,"Hammer",2,520,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"Hammer_002","Expedition Tree","Hope Hammer III",2,1500,5,"Hammer",3,676,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"Hammer_003","Expedition Tree","Hope Hammer IV",2,4000,5,"Hammer",5,832,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"Hammer_004","Expedition Tree","Hope Hammer V",2,14000,5,"Hammer",7,988,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"Hammer_076","Expedition Tree","Esperanza Hammer",2,20000,5,"Hammer",8,1092,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"Hammer_034","G. Rathalos Tree","Albirath Bludgeon I",100000,2600,5,"Hammer",4,832,160,0.15,0,"Fire",210,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"Hammer_035","G. Rathalos Tree","Albirath Bludgeon II",100000,10000,5,"Hammer",6,936,180,0.15,0,"Fire",260,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"Hammer_036","G. Rathalos Tree","Gibil Hammer",100000,20000,5,"Hammer",8,1092,210,0.15,0,"Fire",300,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"Hammer_010","Ore Tree","Iron Hammer I",10000,800,5,"Hammer",2,624,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+10,"Hammer_011","Ore Tree","Iron Hammer II",10000,2600,5,"Hammer",4,832,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Critical Draw",2,"",""
+11,"Hammer_012","Ore Tree","Iron Hammer III",10000,10000,5,"Hammer",6,988,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Critical Draw",2,"",""
+12,"Hammer_013","Ore Tree","Iron Devil",10000,20000,5,"Hammer",8,1144,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"",""
+13,"Hammer_037","Jin Dahaad Tree","Jin Dhauda I",21,14000,5,"Hammer",7,988,190,0,0,"Ice",470,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+14,"Hammer_038","Jin Dahaad Tree","Precipice Logamtu",21,20000,5,"Hammer",8,1092,210,0,0,"Ice",500,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+15,"Hammer_023","Rompopolo Tree","Rompo Wrecker I",7,1500,5,"Hammer",3,728,140,0,0,"Poison",170,"","",0,0,0,"","","","","","","","","","","","Focus",2,"",""
+16,"Hammer_024","Rompopolo Tree","Rompo Wrecker II",7,4000,5,"Hammer",5,884,170,0,0,"Poison",240,"","",2,1,0,"","","","","","","","","","","","Focus",2,"",""
+17,"Hammer_025","Rompopolo Tree","Rompo Wrecker III",7,14000,5,"Hammer",7,1040,200,0,0,"Poison",270,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+18,"Hammer_026","Rompopolo Tree","Rompo Robustox",7,20000,5,"Hammer",8,1144,220,0,0,"Poison",300,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+19,"Hammer_068","Paralysis Tree","Jail Hammer I",4,500,5,"Hammer",1,520,100,0,0,"Paralysis",150,"","",0,0,0,"","","","","","","","","","","","Stamina Thief",1,"",""
+20,"Hammer_069","Paralysis Tree","Jail Hammer II",4,1500,5,"Hammer",3,728,140,0,0,"Paralysis",170,"","",0,0,0,"","","","","","","","","","","","Stamina Thief",2,"",""
+21,"Hammer_070","Paralysis Tree","Jail Hammer III",4,4000,5,"Hammer",5,884,170,0,0,"Paralysis",200,"","",2,1,0,"","","","","","","","","","","","Stamina Thief",2,"",""
+22,"Hammer_071","Paralysis Tree","Jail Hammer IV",4,14000,5,"Hammer",7,1040,200,0,0,"Paralysis",220,"","",3,2,1,"","","","","","","","","","","","Stamina Thief",3,"",""
+23,"Hammer_072","Paralysis Tree","Binder Mace",4,20000,5,"Hammer",8,1144,220,0,0,"Paralysis",250,"","",3,3,1,"","","","","","","","","","","","Stamina Thief",3,"",""
+24,"Hammer_014","Chatacabra Tree","Chata Clobberer I",0,500,5,"Hammer",1,572,110,0,15,"-",0,"","",0,0,0,"","","","","","","","","","","","Charge Up",1,"",""
+25,"Hammer_015","Chatacabra Tree","Chata Clobberer II",0,1500,5,"Hammer",3,780,150,0,15,"-",0,"","",0,0,0,"","","","","","","","","","","","Charge Up",1,"Stamina Thief",1
+26,"Hammer_016","Chatacabra Tree","Chata Clobberer III",0,4000,5,"Hammer",5,936,180,0,15,"-",0,"","",2,1,0,"","","","","","","","","","","","Charge Up",1,"Stamina Thief",1
+27,"Hammer_017","Chatacabra Tree","Chata Clobberer IV",0,14000,5,"Hammer",7,1092,210,0,15,"-",0,"","",3,2,0,"","","","","","","","","","","","Charge Up",1,"Stamina Thief",2
+28,"Hammer_077","Chatacabra Tree","Shrouded Aghaturi",1,20000,5,"Hammer",8,1196,230,0,15,"-",0,"","",3,2,1,"","","","","","","","","","","","Charge Up",1,"Stamina Thief",3
+29,"Hammer_044","G. Arkveld Tree","G. Veldian Malleus I",19,2600,5,"Hammer",4,884,170,-0.1,0,"Dragon",160,"","",1,1,0,"","","","","","","","","","","","Focus",2,"",""
+30,"Hammer_045","G. Arkveld Tree","G. Veldian Malleus II",19,10000,5,"Hammer",6,1092,210,-0.1,0,"Dragon",210,"","",2,2,0,"","","","","","","","","","","","Focus",2,"",""
+31,"Hammer_046","G. Arkveld Tree","G. Exultant Bedivere",19,20000,5,"Hammer",8,1248,240,-0.1,0,"Dragon",250,"","",3,3,1,"","","","","","","","","","","","Focus",2,"",""
+32,"Hammer_067","Arkveld Tree","Veldian Malleus I",25,14000,5,"Hammer",7,1040,200,0,0,"Dragon",320,"","",3,2,0,"","","","","","","","","","","","Focus",3,"",""
+33,"Hammer_078","Arkveld Tree","Exultant Bedivere",25,20000,5,"Hammer",8,1144,220,0,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+34,"Hammer_005","Bone Tree","Bone Bludgeon I",10003,500,5,"Hammer",1,572,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",1,"",""
+35,"Hammer_006","Bone Tree","Bone Bludgeon II",10003,800,5,"Hammer",2,676,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Focus",2,"Attack Boost",1
+36,"Hammer_007","Bone Tree","Bone Bludgeon III",10003,2600,5,"Hammer",4,884,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Focus",2,"Attack Boost",1
+37,"Hammer_008","Bone Tree","Bone Bludgeon IV",10003,10000,5,"Hammer",6,1040,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+38,"Hammer_009","Bone Tree","Heavy Bone Bludgeon",10003,20000,5,"Hammer",8,1196,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Focus",3,"Attack Boost",1
+39,"Hammer_031","Nu Udra Tree","Nu Pulpo I",11,2600,5,"Hammer",4,884,170,-0.15,0,"Fire",200,"","",1,0,0,"","","","","","","","","","","","Protective Polish",2,"Speed Sharpening",1
+40,"Hammer_032","Nu Udra Tree","Nu Pulpo II",11,14000,5,"Hammer",7,1092,210,-0.15,0,"Fire",270,"","",3,2,0,"","","","","","","","","","","","Protective Polish",2,"Speed Sharpening",2
+41,"Hammer_033","Nu Udra Tree","Abaddonian Pulpo",11,20000,5,"Hammer",8,1196,230,-0.15,0,"Fire",300,"","",3,2,1,"","","","","","","","","","","","Protective Polish",3,"Speed Sharpening",2
+42,"Hammer_027","Nerscylla Tree","Cluster Hammer I",10,1500,5,"Hammer",3,624,120,0.1,0,"Sleep",150,"","",0,0,0,"","","","","","","","","","","","Charge Master",1,"Focus",1
+43,"Hammer_028","Nerscylla Tree","Cluster Hammer II",10,5000,5,"Hammer",5,780,150,0.15,0,"Sleep",210,"","",2,1,0,"","","","","","","","","","","","Charge Master",1,"Focus",1
+44,"Hammer_029","Nerscylla Tree","Cluster Hammer III",10,14000,5,"Hammer",7,936,180,0.15,0,"Sleep",270,"","",3,2,0,"","","","","","","","","","","","Charge Master",2,"Focus",1
+45,"Hammer_030","Nerscylla Tree","Nerscrapper",10,20000,5,"Hammer",8,1040,200,0.15,0,"Sleep",300,"","",3,2,1,"","","","","","","","","","","","Charge Master",2,"Focus",1
+46,"Hammer_041","Xu Wu Tree","Nihil Hammer I",22,2600,5,"Hammer",4,832,160,0,0,"Water",160,"","",1,0,0,"","","","","","","","","","","","Focus",2,"",""
+47,"Hammer_042","Xu Wu Tree","Nihil Hammer II",22,10000,5,"Hammer",6,988,190,0,0,"Water",210,"","",2,1,0,"","","","","","","","","","","","Focus",3,"",""
+48,"Hammer_043","Xu Wu Tree","Zaccio's Execution",22,20000,5,"Hammer",8,1144,220,0,0,"Water",250,"","",3,2,1,"","","","","","","","","","","","Focus",3,"",""
+49,"Hammer_018","Balahara Tree","Balahara Hammer I",5,800,5,"Hammer",2,572,110,0.1,0,"Water",160,"","",0,0,0,"","","","","","","","","","","","Slugger",1,"",""
+50,"Hammer_019","Balahara Tree","Balahara Hammer II",5,2600,5,"Hammer",4,780,150,0.1,0,"Water",200,"","",1,0,0,"","","","","","","","","","","","Slugger",2,"",""
+51,"Hammer_020","Balahara Tree","Balahara Hammer III",5,5000,5,"Hammer",5,832,160,0.1,0,"Water",230,"","",2,1,0,"","","","","","","","","","","","Slugger",2,"",""
+52,"Hammer_021","Balahara Tree","Balahara Hammer IV",5,14000,5,"Hammer",7,988,190,0.1,0,"Water",270,"","",3,2,0,"","","","","","","","","","","","Slugger",3,"",""
+53,"Hammer_022","Balahara Tree","Sandsea Siamitiya",6,20000,5,"Hammer",8,1092,210,0.1,0,"Water",300,"","",3,2,1,"","","","","","","","","","","","Slugger",3,"",""
+54,"Hammer_049","Yian Kut-Ku Tree","Kut-Ku Pick I",13,4000,5,"Hammer",5,936,180,0,0,"Fire",410,"","",2,1,0,"","","","","","","","","","","","Charge Master",2,"",""
+55,"Hammer_050","Yian Kut-Ku Tree","Kut-Ku Pick II",13,14000,5,"Hammer",7,1092,210,0,0,"Fire",470,"","",3,2,0,"","","","","","","","","","","","Charge Master",3,"",""
+56,"Hammer_051","Yian Kut-Ku Tree","Kut-Ku Thwap",13,20000,5,"Hammer",8,1144,220,0,0,"Fire",500,"","",3,2,1,"","","","","","","","","","","","Charge Master",3,"",""
+57,"Hammer_063","Rathalos Tree","Red Bludgeon I",8,10000,5,"Hammer",6,936,180,0.1,0,"Fire",340,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+58,"Hammer_064","Rathalos Tree","Huracan Hammer",8,20000,5,"Hammer",8,1040,200,0.1,0,"Fire",400,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+59,"Hammer_065","Gore Magala Tree","Wuchtblick I",9,14000,5,"Hammer",7,936,180,0.2,0,"Dragon",270,"","",3,2,0,"","","","","","","","","","","","Critical Element",3,"",""
+60,"Hammer_066","Gore Magala Tree","Grimmblick",9,20000,5,"Hammer",8,1092,210,0.2,0,"Dragon",300,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+61,"Hammer_052","Gypceros Tree","Venom Monster I",14,4000,5,"Hammer",5,936,180,0,0,"Poison",310,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Charge Up",1
+62,"Hammer_053","Gypceros Tree","Venom Monster II",14,10000,5,"Hammer",6,1040,200,0,0,"Poison",340,"","",2,1,0,"","","","","","","","","","","","Critical Draw",2,"Charge Up",1
+63,"Hammer_054","Gypceros Tree","Death Venom Hammer",14,20000,5,"Hammer",8,1196,230,0,0,"Poison",400,"","",3,3,1,"","","","","","","","","","","","Critical Draw",3,"Charge Up",1
+64,"Hammer_055","G. Fulgur Tree","Crashing Fulgur I",100001,10000,5,"Hammer",6,936,180,0.15,0,"Thunder",390,"","",2,1,0,"","","","","","","","","","","","Critical Element",3,"",""
+65,"Hammer_056","G. Fulgur Tree","Fulgurhammer Guardiana",100001,20000,5,"Hammer",8,1092,210,0.15,0,"Thunder",450,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+66,"Hammer_057","Blangonga Tree","Blan Gada I",17,10000,5,"Hammer",6,1040,200,-0.1,0,"Ice",210,"","",2,1,0,"","","","","","","","","","","","Slugger",3,"",""
+67,"Hammer_058","Blangonga Tree","Singha Gada",17,20000,5,"Hammer",8,1196,230,-0.1,0,"Ice",250,"","",3,2,1,"","","","","","","","","","","","Slugger",3,"",""
+68,"Hammer_059","Gravios Tree","Shell Hammer I",16,10000,5,"Hammer",6,1092,210,-0.2,30,"Blast",340,"","",2,1,0,"","","","","","","","","","","","Charge Master",3,"",""
+69,"Hammer_060","Gravios Tree","Graviton Hammer",26,20000,5,"Hammer",8,1300,250,-0.2,30,"Blast",400,"","",3,2,1,"","","","","","","","","","","","Charge Master",3,"",""
+100,"Hammer_073","","Artian Hammer I",100002,40,5,"Hammer",6,884,170,0.05,0,"-",270,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"Hammer_074","","Artian Hammer II",100002,100,5,"Hammer",7,936,180,0.05,0,"-",270,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"Hammer_075","","Moteurvankel",100002,200,5,"Hammer",8,988,190,0.05,0,"-",320,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"Whistle_000","Expedition Tree","Hope Horn I",4,200,6,"Hunting Horn",1,378,90,0,0,"-",0,"","",0,0,0,"TYPE_4","White, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","","","",""
+1,"Whistle_001","Expedition Tree","Hope Horn II",4,500,6,"Hunting Horn",1,420,100,0,0,"-",0,"","",0,0,0,"TYPE_4","White, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Speed Sharpening",1,"",""
+2,"Whistle_002","Expedition Tree","Hope Horn III",4,1500,6,"Hunting Horn",3,546,130,0,0,"-",0,"","",0,0,0,"TYPE_4","White, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"Whistle_003","Expedition Tree","Hope Horn IV",4,4000,6,"Hunting Horn",5,672,160,0,0,"-",0,"","",2,1,0,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"Whistle_004","Expedition Tree","Hope Horn V",4,14000,6,"Hunting Horn",7,798,190,0,0,"-",0,"","",3,2,0,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"Whistle_076","Expedition Tree","Esperanza Horn",4,20000,6,"Hunting Horn",8,882,210,0,0,"-",0,"","",3,2,1,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"Whistle_035","G. Rathalos Tree","Albirath Feroce I",100000,2600,6,"Hunting Horn",4,672,160,0.15,0,"Fire",210,"","",1,0,0,"TYPE_0","White, Red, Blue","Self-Improvement, Attack Up (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Master's Touch",1,"Critical Element",1
+7,"Whistle_036","G. Rathalos Tree","Albirath Feroce II",100000,10000,6,"Hunting Horn",6,714,170,0.15,0,"Fire",260,"","",2,1,0,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Master's Touch",1,"Critical Element",1
+8,"Whistle_037","G. Rathalos Tree","G. Rathalos Tree Feroce",100000,20000,6,"Hunting Horn",8,840,200,0.15,0,"Fire",300,"","",3,2,1,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Master's Touch",1,"Critical Element",1
+9,"Whistle_010","Ore Tree","Metal Bagpipe I",10002,800,6,"Hunting Horn",2,504,120,0,0,"-",0,"","",0,0,0,"TYPE_2","White, Red, Sky","Self-Improvement, Attack Up (S), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Slash)","Evasion & Movement Speed Up","","","","","","","Critical Draw",1,"Horn Maestro",1
+10,"Whistle_011","Ore Tree","Metal Bagpipe II",10002,2600,6,"Hunting Horn",4,672,160,0,0,"-",0,"","",1,0,0,"TYPE_2","White, Red, Sky","Self-Improvement, Attack Up (S), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Slash)","Evasion & Movement Speed Up","","","","","","","Critical Draw",2,"Horn Maestro",1
+11,"Whistle_012","Ore Tree","Metal Bagpipe III",10002,10000,6,"Hunting Horn",6,756,180,0,0,"-",0,"","",2,1,0,"TYPE_3","Purple, Red, Sky","Self-Improvement, Attack Up (L), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Slash)","Evasion & Movement Speed Up","","","","","","","Critical Draw",3,"Horn Maestro",1
+12,"Whistle_013","Ore Tree","Great Bagpipe",10002,20000,6,"Hunting Horn",8,882,210,0,0,"-",0,"","",3,2,1,"TYPE_3","Purple, Red, Sky","Self-Improvement, Attack Up (L), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Slash)","Evasion & Movement Speed Up","","","","","","","Critical Draw",3,"Horn Maestro",1
+13,"Whistle_038","Jin Dahaad Tree","Jin Dhaang I",19,14000,6,"Hunting Horn",7,798,190,0,0,"Ice",470,"","",3,2,0,"TYPE_21","Purple, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Elem Attack Boost, Divine Protection, Thunder Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Ice)","26BEF740: Status Immunity?","","","","","","","Slugger",3,"",""
+14,"Whistle_039","Jin Dahaad Tree","Precipice Kovira",19,20000,6,"Hunting Horn",8,882,210,0,0,"Ice",500,"","",3,2,1,"TYPE_21","Purple, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Elem Attack Boost, Divine Protection, Thunder Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Ice)","26BEF740: Status Immunity?","","","","","","","Slugger",3,"",""
+15,"Whistle_029","Ajarakan Tree","Ajara Reverberator I",12,1500,6,"Hunting Horn",3,546,130,0.1,0,"Blast",140,"","",0,0,0,"TYPE_2","White, Red, Sky","Self-Improvement, Attack Up (S), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Blast)","Evasion & Movement Speed Up","","","","","","","Slugger",2,"",""
+16,"Whistle_030","Ajarakan Tree","Ajara Reverberator II",12,10000,6,"Hunting Horn",6,756,180,0.1,0,"Blast",190,"","",2,1,0,"TYPE_3","Purple, Red, Sky","Self-Improvement, Attack Up (L), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Blast)","Evasion & Movement Speed Up","","","","","","","Slugger",3,"",""
+17,"Whistle_031","Ajarakan Tree","Ajara-Jivaka",12,20000,6,"Hunting Horn",8,882,210,0.1,0,"Blast",250,"","",3,2,1,"TYPE_3","Purple, Red, Sky","Self-Improvement, Attack Up (L), Earplugs (S), Muck Resistance, Environment Damage Negated, Echo Wave, Offset Melody","Echo Wave (Blast)","Evasion & Movement Speed Up","","","","","","","Slugger",3,"",""
+18,"Whistle_042","Xu Wu Tree","Nihil Chord I",20,2600,6,"Hunting Horn",4,672,160,0,0,"Water",160,"","",1,0,0,"TYPE_12","White, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (S) + Antidote, Stamina Use Reduced (S), Defense Up (S), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Stamina Thief",2,"Horn Maestro",1
+19,"Whistle_043","Xu Wu Tree","Nihil Chord II",20,10000,6,"Hunting Horn",6,798,190,0,0,"Water",210,"","",2,1,0,"TYPE_13","Purple, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (M) + Antidote, Stamina Use Reduced (L), Defense Up (L), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+20,"Whistle_044","Xu Wu Tree","Kae-Jin's Lament",20,20000,6,"Hunting Horn",8,924,220,0,0,"Water",250,"","",3,2,1,"TYPE_13","Purple, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (M) + Antidote, Stamina Use Reduced (L), Defense Up (L), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+21,"Whistle_017","Balahara Tree","Balahara Horn I",0,800,6,"Hunting Horn",2,462,110,0.1,0,"Water",160,"","",0,0,0,"TYPE_20","White, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Thunder Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Water)","Evasion & Movement Speed Up","","","","","","","Slugger",1,"",""
+22,"Whistle_018","Balahara Tree","Balahara Horn II",0,2600,6,"Hunting Horn",4,630,150,0.1,0,"Water",200,"","",1,0,0,"TYPE_20","White, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Thunder Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Water)","Evasion & Movement Speed Up","","","","","","","Slugger",2,"",""
+23,"Whistle_019","Balahara Tree","Balahara Horn III",0,5000,6,"Hunting Horn",5,672,160,0.1,0,"Water",230,"","",2,1,0,"TYPE_21","Purple, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Elem Attack Boost, Divine Protection, Thunder Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Water)","Evasion & Movement Speed Up","","","","","","","Slugger",2,"",""
+24,"Whistle_020","Balahara Tree","Balahara Horn IV",0,14000,6,"Hunting Horn",7,798,190,0.1,0,"Water",270,"","",3,2,0,"TYPE_21","Purple, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Elem Attack Boost, Divine Protection, Thunder Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Water)","Evasion & Movement Speed Up","","","","","","","Slugger",3,"",""
+25,"Whistle_021","Balahara Tree","Sandsea Ghantisil",1,20000,6,"Hunting Horn",8,882,210,0.1,0,"Water",300,"","",3,2,1,"TYPE_21","Purple, Green, Yellow","Self-Improvement, Health Recovery (S), Recovery Speed (S), Elem Attack Boost, Divine Protection, Thunder Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Water)","Evasion & Movement Speed Up","","","","","","","Slugger",3,"",""
+26,"Whistle_025","Rey Dau Tree","Rey Perun I",8,2000,6,"Hunting Horn",3,588,140,0,0,"Thunder",180,"","",0,0,0,"TYPE_4","White, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (S), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Thunder)","DEE86300: Regen?","","","","","","","Stamina Thief",2,"Horn Maestro",1
+27,"Whistle_026","Rey Dau Tree","Rey Perun II",8,4000,6,"Hunting Horn",5,714,170,0,0,"Thunder",230,"","",2,1,0,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Thunder)","DEE86300: Regen?","","","","","","","Stamina Thief",2,"Horn Maestro",1
+28,"Whistle_027","Rey Dau Tree","Rey Perun III",8,14000,6,"Hunting Horn",7,840,200,0,0,"Thunder",270,"","",3,2,0,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Thunder)","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+29,"Whistle_028","Rey Dau Tree","Perun Clairhorn",8,20000,6,"Hunting Horn",8,924,220,0,0,"Thunder",300,"","",3,2,1,"TYPE_5","Purple, Red, Yellow","Self-Improvement, Attack Up (S), Fire Res (L), Sonic Waves, Echo Wave, Offset Melody","Echo Wave (Thunder)","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+30,"Whistle_068","Vespoid Tree","Sonic Horn I",10004,500,6,"Hunting Horn",1,378,90,0,0,"Paralysis",150,"","",0,0,0,"TYPE_10","White, Blue, Yellow","Self-Improvement, Stamina Use Reduced (S), Defense Up (S), Ice Res (S), Sonic Waves, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Paralysis)","Evasion & Movement Speed Up","","","","","","","Protective Polish",1,"",""
+31,"Whistle_069","Vespoid Tree","Sonic Horn II",10004,1500,6,"Hunting Horn",3,504,120,0,0,"Paralysis",210,"","",0,0,0,"TYPE_10","White, Blue, Yellow","Self-Improvement, Stamina Use Reduced (S), Defense Up (S), Ice Res (S), Sonic Waves, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Paralysis)","Evasion & Movement Speed Up","","","","","","","Protective Polish",2,"Speed Sharpening",1
+32,"Whistle_070","Vespoid Tree","Sonic Horn III",10004,4000,6,"Hunting Horn",5,630,150,0,0,"Paralysis",310,"","",2,1,0,"TYPE_11","Purple, Blue, Yellow","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), Ice Res (L), All Wind Pressure Negated, Sonic Waves, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Paralysis)","Evasion & Movement Speed Up","","","","","","","Protective Polish",2,"Speed Sharpening",1
+33,"Whistle_071","Vespoid Tree","Sonic Horn IV",10004,14000,6,"Hunting Horn",7,756,180,0,0,"Paralysis",370,"","",3,2,0,"TYPE_11","Purple, Blue, Yellow","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), Ice Res (L), All Wind Pressure Negated, Sonic Waves, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Paralysis)","Evasion & Movement Speed Up","","","","","","","Protective Polish",3,"Speed Sharpening",1
+34,"Whistle_072","Vespoid Tree","Glass Royale",27,20000,6,"Hunting Horn",8,840,200,0,0,"Paralysis",400,"","",3,2,1,"TYPE_11","Purple, Blue, Yellow","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), Ice Res (L), All Wind Pressure Negated, Sonic Waves, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Paralysis)","Evasion & Movement Speed Up","","","","","","","Protective Polish",3,"Speed Sharpening",2
+35,"Whistle_005","Bone Tree","Bone Horn I",10001,500,6,"Hunting Horn",1,462,110,0,0,"-",0,"","",0,0,0,"TYPE_0","White, Red, Blue","Self-Improvement, Attack Up (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Stamina Thief",1,"",""
+36,"Whistle_006","Bone Tree","Bone Horn II",10001,800,6,"Hunting Horn",2,546,130,0,0,"-",0,"","",0,0,0,"TYPE_0","White, Red, Blue","Self-Improvement, Attack Up (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Stamina Thief",1,"Attack Boost",1
+37,"Whistle_007","Bone Tree","Bone Horn III",10001,2600,6,"Hunting Horn",4,714,170,0,0,"-",0,"","",1,0,0,"TYPE_0","White, Red, Blue","Self-Improvement, Attack Up (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Stamina Thief",2,"Attack Boost",1
+38,"Whistle_008","Bone Tree","Bone Horn IV",10001,10000,6,"Hunting Horn",6,798,190,0,0,"-",0,"","",2,1,0,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Stamina Thief",3,"Attack Boost",1
+39,"Whistle_009","Bone Tree","Hardened Bone Horn",10001,20000,6,"Hunting Horn",8,924,220,0,0,"-",0,"","",3,2,1,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Blunt)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Stamina Thief",3,"Attack Boost",1
+40,"Whistle_022","Doshaguma Tree","Dosha Farsounder I",2,800,6,"Hunting Horn",2,588,140,-0.05,20,"-",0,"","",0,0,0,"TYPE_8","White, Blue, Sky","Self-Improvement, Stamina Use Reduced (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, Offset Melody","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Slugger",1,"",""
+41,"Whistle_023","Doshaguma Tree","Dosha Farsounder II",2,2600,6,"Hunting Horn",4,756,180,-0.05,20,"-",0,"","",1,0,0,"TYPE_8","White, Blue, Sky","Self-Improvement, Stamina Use Reduced (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, Offset Melody","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Slugger",1,"Horn Maestro",1
+42,"Whistle_024","Doshaguma Tree","Dosha Farsounder III",2,10000,6,"Hunting Horn",6,882,210,-0.05,20,"-",0,"","",2,1,0,"TYPE_9","Purple, Blue, Sky","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), Stun Resistance, Wind Pressure Negated, Sonic Barrier, Echo Wave, Offset Melody","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Slugger",2,"Horn Maestro",1
+43,"Whistle_077","Doshaguma Tree","Farsounder Honga",3,20000,6,"Hunting Horn",8,1008,240,-0.05,20,"-",0,"","",3,2,1,"TYPE_9","Purple, Blue, Sky","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), Stun Resistance, Wind Pressure Negated, Sonic Barrier, Echo Wave, Offset Melody","Echo Wave (Blunt)","F101B070: Stamina?","","","","","","","Slugger",2,"Horn Maestro",1
+44,"Whistle_045","G. Arkveld Tree","G. Veldian Sibilus I",18,2600,6,"Hunting Horn",4,714,170,-0.1,0,"Dragon",160,"","",1,1,0,"TYPE_0","White, Red, Blue","Self-Improvement, Attack Up (S), Defense Up (S), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","Horn Maestro",2,"",""
+45,"Whistle_046","G. Arkveld Tree","G. Veldian Sibilus II",18,10000,6,"Hunting Horn",6,840,200,-0.1,0,"Dragon",210,"","",2,2,0,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","Horn Maestro",2,"",""
+46,"Whistle_047","G. Arkveld Tree","G. Resounding Galahad",18,20000,6,"Hunting Horn",8,966,230,-0.1,0,"Dragon",250,"","",3,3,1,"TYPE_1","Purple, Red, Blue","Self-Improvement, Attack Up (L), Defense Up (L), Wind Pressure Negated, Sonic Barrier, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","Horn Maestro",2,"",""
+47,"Whistle_067","Arkveld Tree","Veldian Sibilus I",24,14000,6,"Hunting Horn",7,798,190,0,0,"Dragon",370,"","",3,2,0,"TYPE_7","Purple, Red, Orange","Self-Improvement, Attack Up (L), Knockback Negated, Melody Effects Extended, Sharpness Regeneration, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Dragon)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Slugger",2,"Horn Maestro",2
+48,"Whistle_078","Arkveld Tree","Resounding Galahad",24,20000,6,"Hunting Horn",8,882,210,0,0,"Dragon",400,"","",3,2,1,"TYPE_7","Purple, Red, Orange","Self-Improvement, Attack Up (L), Knockback Negated, Melody Effects Extended, Sharpness Regeneration, Echo Wave, SP_PENETRATE_SOUND_ATTACK","Echo Wave (Dragon)","5C06E100: Defense Up, Elemental Defense Up?","","","","","","","Slugger",2,"Horn Maestro",2
+49,"Whistle_032","G. Doshaguma Tree","Dosha Grudgesounder I",100001,2600,6,"Hunting Horn",4,756,180,-0.15,0,"-",0,"","",1,0,0,"TYPE_15","White, Green, Sky","Self-Improvement, Health Recovery (S), Health Recovery (M), Earplugs (S), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Stamina Thief",2,"Horn Maestro",1
+50,"Whistle_033","G. Doshaguma Tree","Dosha Grudgesounder II",100001,10000,6,"Hunting Horn",6,924,220,-0.15,0,"-",0,"","",2,1,0,"TYPE_16","Purple, Green, Sky","Self-Improvement, Health Recovery (S), Health Recovery (L), Earplugs (L), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+51,"Whistle_034","G. Doshaguma Tree","Grudgesounder Urga",100001,20000,6,"Hunting Horn",8,1050,250,-0.15,0,"-",0,"","",3,2,1,"TYPE_16","Purple, Green, Sky","Self-Improvement, Health Recovery (S), Health Recovery (L), Earplugs (L), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+52,"Whistle_014","Congalala Tree","War Bongo I",5,800,6,"Hunting Horn",2,462,110,0.05,0,"-",0,"","",0,0,0,"TYPE_12","White, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (S) + Antidote, Stamina Use Reduced (S), Defense Up (S), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","6150B580: Attack Up, Crit Up?","","","","","","","Horn Maestro",1,"",""
+53,"Whistle_015","Congalala Tree","War Bongo II",5,4000,6,"Hunting Horn",5,672,160,0.05,0,"-",0,"","",2,1,1,"TYPE_13","Purple, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (M) + Antidote, Stamina Use Reduced (L), Defense Up (L), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","6150B580: Attack Up, Crit Up?","","","","","","","Horn Maestro",1,"Speed Sharpening",1
+54,"Whistle_016","Congalala Tree","War Conga",5,20000,6,"Hunting Horn",8,882,210,0.05,0,"-",0,"","",3,3,1,"TYPE_13","Purple, Blue, Green","Self-Improvement, Health Recovery (S), Health Recovery (M) + Antidote, Stamina Use Reduced (L), Defense Up (L), Wind Pressure Negated, Echo Wave, SP_HEAL","Echo Wave (Blunt)","6150B580: Attack Up, Crit Up?","","","","","","","Horn Maestro",2,"Speed Sharpening",1
+55,"Whistle_050","Yian Kut-Ku Tree","Kut-Ku's Song I",15,4000,6,"Hunting Horn",5,798,190,0,0,"Fire",410,"","",2,1,0,"TYPE_18","Purple, Sky, Yellow","Self-Improvement, Elem Attack Boost, Water Res (L), Dragon Res (L), Tremors Negated, Paralysis Negated, Sonic Waves, SP_HEAL","-","DEE86300: Regen?","","","","","","","Stamina Thief",2,"Horn Maestro",1
+56,"Whistle_051","Yian Kut-Ku Tree","Kut-Ku's Song II",15,14000,6,"Hunting Horn",7,924,220,0,0,"Fire",470,"","",3,2,0,"TYPE_18","Purple, Sky, Yellow","Self-Improvement, Elem Attack Boost, Water Res (L), Dragon Res (L), Tremors Negated, Paralysis Negated, Sonic Waves, SP_HEAL","-","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+57,"Whistle_052","Yian Kut-Ku Tree","Kut-Ku Cantabile",15,20000,6,"Hunting Horn",8,966,230,0,0,"Fire",500,"","",3,2,1,"TYPE_18","Purple, Sky, Yellow","Self-Improvement, Elem Attack Boost, Water Res (L), Dragon Res (L), Tremors Negated, Paralysis Negated, Sonic Waves, SP_HEAL","-","DEE86300: Regen?","","","","","","","Stamina Thief",3,"Horn Maestro",1
+58,"Whistle_059","G. Fulgur Tree","Deafening Fulgur I",100002,10000,6,"Hunting Horn",6,756,180,0.15,0,"Thunder",340,"","",2,1,0,"TYPE_18","Purple, Sky, Yellow","Self-Improvement, Elem Attack Boost, Water Res (L), Dragon Res (L), Tremors Negated, Paralysis Negated, Sonic Waves, SP_HEAL","-","Evasion & Movement Speed Up","","","","","","","Critical Element",3,"",""
+59,"Whistle_060","G. Fulgur Tree","Fulgurhowl Guardiana",100002,20000,6,"Hunting Horn",8,882,210,0.15,0,"Thunder",400,"","",3,2,1,"TYPE_18","Purple, Sky, Yellow","Self-Improvement, Elem Attack Boost, Water Res (L), Dragon Res (L), Tremors Negated, Paralysis Negated, Sonic Waves, SP_HEAL","-","Evasion & Movement Speed Up","","","","","","","Critical Element",3,"",""
+60,"Whistle_053","Gypceros Tree","Poisoned Capri I",6,4000,6,"Hunting Horn",5,756,180,0,0,"Poison",310,"","",2,1,0,"TYPE_19","Purple, Sky, Orange","Self-Improvement, Status Attack Up, Divine Protection, All Ailments Negated, Echo Wave, Offset Melody","Echo Wave (Poison)","F101B070: Stamina?","","","","","","","Critical Draw",2,"Horn Maestro",1
+61,"Whistle_054","Gypceros Tree","Poisoned Capri II",6,10000,6,"Hunting Horn",6,840,200,0,0,"Poison",340,"","",2,1,0,"TYPE_19","Purple, Sky, Orange","Self-Improvement, Status Attack Up, Divine Protection, All Ailments Negated, Echo Wave, Offset Melody","Echo Wave (Poison)","F101B070: Stamina?","","","","","","","Critical Draw",3,"Horn Maestro",1
+62,"Whistle_055","Gypceros Tree","Crazed Melody",6,20000,6,"Hunting Horn",8,966,230,0,0,"Poison",400,"","",3,2,1,"TYPE_19","Purple, Sky, Orange","Self-Improvement, Status Attack Up, Divine Protection, All Ailments Negated, Echo Wave, Offset Melody","Echo Wave (Poison)","F101B070: Stamina?","","","","","","","Critical Draw",3,"Horn Maestro",1
+63,"Whistle_056","Rathian Tree","Valkyrie Chordmaker I",9,5000,6,"Hunting Horn",5,630,150,0.15,0,"Poison",190,"","",2,1,0,"TYPE_6","Purple, Red, Green","Self-Improvement, Attack Up (L), Health Recovery (S), Recovery Speed (L), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Critical Status",2,"Poison Duration Up",1
+64,"Whistle_057","Rathian Tree","Valkyrie Chordmaker II",9,14000,6,"Hunting Horn",7,756,180,0.15,0,"Poison",220,"","",3,2,0,"TYPE_6","Purple, Red, Green","Self-Improvement, Attack Up (L), Health Recovery (S), Recovery Speed (L), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Critical Status",3,"Poison Duration Up",1
+65,"Whistle_058","Rathian Tree","Queen Chordmaker",9,20000,6,"Hunting Horn",8,840,200,0.15,0,"Poison",250,"","",3,2,1,"TYPE_6","Purple, Red, Green","Self-Improvement, Attack Up (L), Health Recovery (S), Recovery Speed (L), Echo Wave, SP_HEAL","Echo Wave (Blunt)","DEE86300: Regen?","","","","","","","Critical Status",3,"Poison Duration Up",1
+66,"Whistle_063","Rathalos Tree","Flame Feroce I",10,10000,6,"Hunting Horn",6,756,180,0.1,0,"Fire",340,"","",2,1,0,"TYPE_14","Purple, Blue, Orange","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), All Wind Pressure Negated, Attack and Defense Up, Echo Wave, Offset Melody","Echo Wave (Fire)","Evasion & Movement Speed Up","","","","","","","Critical Boost",3,"",""
+67,"Whistle_064","Rathalos Tree","Rathalos Feroce",10,20000,6,"Hunting Horn",8,840,200,0.1,0,"Fire",400,"","",3,2,1,"TYPE_14","Purple, Blue, Orange","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), All Wind Pressure Negated, Attack and Defense Up, Echo Wave, Offset Melody","Echo Wave (Fire)","Evasion & Movement Speed Up","","","","","","","Critical Boost",3,"",""
+68,"Whistle_065","Gore Magala Tree","Kummerklang I",11,14000,6,"Hunting Horn",7,714,170,0.2,0,"Dragon",270,"","",3,2,0,"TYPE_22","Purple, Green, Orange","Self-Improvement, Health Recovery (S), Earplugs (L), Affinity Up (S) / Health Recovery (S), Echo Wave, SP_HEAL","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Critical Element",3,"",""
+69,"Whistle_066","Gore Magala Tree","Gramklang",11,20000,6,"Hunting Horn",8,840,200,0.2,0,"Dragon",300,"","",3,2,1,"TYPE_22","Purple, Green, Orange","Self-Improvement, Health Recovery (S), Earplugs (L), Affinity Up (S) / Health Recovery (S), Echo Wave, SP_HEAL","Echo Wave (Blunt)","Evasion & Movement Speed Up","","","","","","","Critical Element",3,"",""
+100,"Whistle_073","","Artian Sounder I",100003,40,6,"Hunting Horn",6,714,170,0.05,0,"-",270,"","",2,2,2,"TYPE_14","Purple, Blue, Orange","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), All Wind Pressure Negated, Attack and Defense Up, Echo Wave, Offset Melody","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","","","",""
+101,"Whistle_074","","Artian Sounder II",100003,100,6,"Hunting Horn",7,756,180,0.05,0,"-",270,"","",2,2,2,"TYPE_14","Purple, Blue, Orange","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), All Wind Pressure Negated, Attack and Defense Up, Echo Wave, Offset Melody","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","","","",""
+102,"Whistle_075","","Omiltika",100003,200,6,"Hunting Horn",8,798,190,0.05,0,"-",320,"","",3,3,3,"TYPE_14","Purple, Blue, Orange","Self-Improvement, Stamina Use Reduced (L), Defense Up (L), All Wind Pressure Negated, Attack and Defense Up, Echo Wave, Offset Melody","Echo Wave (Slash)","26BEF740: Status Immunity?","","","","","","","","","",""
+0,"Lance_000","Expedition Tree","Hope Lance I",4,200,7,"Lance",1,207,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","","","",""
+1,"Lance_001","Expedition Tree","Hope Lance II",4,500,7,"Lance",1,230,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"",""
+2,"Lance_002","Expedition Tree","Hope Lance III",4,1500,7,"Lance",3,299,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Speed Sharpening",1,"Critical Eye",1
+3,"Lance_003","Expedition Tree","Hope Lance IV",4,4000,7,"Lance",5,368,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+4,"Lance_004","Expedition Tree","Hope Lance V",4,14000,7,"Lance",7,437,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",1
+5,"Lance_073","Expedition Tree","Esperanza Lance",4,20000,7,"Lance",8,483,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Speed Sharpening",2,"Critical Eye",2
+6,"Lance_050","G. Rathalos Tree","Albirath Tail I",100000,2600,7,"Lance",4,368,160,0.15,0,"Fire",160,"","",1,0,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+7,"Lance_051","G. Rathalos Tree","Albirath Tail II",100000,10000,7,"Lance",6,414,180,0.15,0,"Fire",210,"","",2,1,0,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+8,"Lance_052","G. Rathalos Tree","Shining Pillar",100000,20000,7,"Lance",8,506,220,0.15,0,"Fire",250,"","",3,2,1,"","","","","","","","","","","","Master's Touch",1,"Critical Element",1
+9,"Lance_024","Balahara Tree","Balahara Lance I",2,800,7,"Lance",2,253,110,0.1,0,"Water",140,"","",0,0,0,"","","","","","","","","","","","Offensive Guard",1,"",""
+10,"Lance_025","Balahara Tree","Balahara Lance II",2,2600,7,"Lance",4,345,150,0.1,0,"Water",160,"","",1,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+11,"Lance_026","Balahara Tree","Balahara Lance III",2,5000,7,"Lance",5,368,160,0.1,0,"Water",200,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+12,"Lance_027","Balahara Tree","Balahara Lance IV",2,14000,7,"Lance",7,437,190,0.1,0,"Water",220,"","",3,2,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+13,"Lance_028","Balahara Tree","Sandsea Prallaya",3,20000,7,"Lance",8,483,210,0.1,0,"Water",250,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+14,"Lance_036","Rey Dau Tree","Rey Indra I",10,2000,7,"Lance",3,322,140,0,0,"Thunder",150,"","",0,0,0,"","","","","","","","","","","","Guard",1,"Offensive Guard",1
+15,"Lance_037","Rey Dau Tree","Rey Indra II",10,4000,7,"Lance",5,391,170,0,0,"Thunder",190,"","",2,1,0,"","","","","","","","","","","","Guard",1,"Offensive Guard",1
+16,"Lance_038","Rey Dau Tree","Rey Indra III",10,14000,7,"Lance",7,460,200,0,0,"Thunder",220,"","",3,2,0,"","","","","","","","","","","","Guard",2,"Offensive Guard",1
+17,"Lance_039","Rey Dau Tree","Indra Clairlance",10,20000,7,"Lance",8,506,220,0,0,"Thunder",250,"","",3,2,1,"","","","","","","","","","","","Guard",2,"Offensive Guard",1
+18,"Lance_010","Ore Tree","Chrome Drill I",10002,800,7,"Lance",2,276,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard Up",1,"",""
+19,"Lance_011","Ore Tree","Chrome Drill II",10002,2600,7,"Lance",4,368,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Guard Up",2,"",""
+20,"Lance_012","Ore Tree","Chrome Drill III",10002,10000,7,"Lance",6,437,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Guard Up",2,"",""
+21,"Lance_013","Ore Tree","Chrome Lance",10002,20000,7,"Lance",8,506,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Guard Up",3,"",""
+22,"Lance_032","Rompopolo Tree","Rompo Piercer I",9,2000,7,"Lance",3,322,140,0,0,"Poison",150,"","",0,0,0,"","","","","","","","","","","","Guard Up",2,"",""
+23,"Lance_033","Rompopolo Tree","Rompo Piercer II",9,4000,7,"Lance",5,391,170,0,0,"Poison",190,"","",2,1,0,"","","","","","","","","","","","Guard Up",2,"",""
+24,"Lance_034","Rompopolo Tree","Rompo Piercer III",9,14000,7,"Lance",7,460,200,0,0,"Poison",220,"","",3,2,0,"","","","","","","","","","","","Guard Up",3,"",""
+25,"Lance_035","Rompopolo Tree","Rompo Tetrotox",9,20000,7,"Lance",8,506,220,0,0,"Poison",250,"","",3,2,1,"","","","","","","","","","","","Guard Up",3,"",""
+26,"Lance_044","Nu Udra Tree","Nu Osminog I",14,2600,7,"Lance",4,391,170,-0.15,0,"Fire",150,"","",1,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+27,"Lance_045","Nu Udra Tree","Nu Osminog II",14,14000,7,"Lance",7,483,210,-0.15,0,"Fire",220,"","",3,2,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+28,"Lance_046","Nu Udra Tree","Abaddonian Osminog",14,20000,7,"Lance",8,529,230,-0.15,0,"Fire",250,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+29,"Lance_005","Bone Tree","Bone Lance I",10004,500,7,"Lance",1,253,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard",1,"",""
+30,"Lance_006","Bone Tree","Bone Lance II",10004,800,7,"Lance",2,299,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","","","Guard",1,"Attack Boost",1
+31,"Lance_007","Bone Tree","Bone Lance III",10004,2600,7,"Lance",4,391,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Guard",2,"Attack Boost",1
+32,"Lance_008","Bone Tree","Bone Lance IV",10004,10000,7,"Lance",6,460,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Guard",3,"Attack Boost",1
+33,"Lance_009","Bone Tree","Hard Bone Lance",10004,20000,7,"Lance",8,529,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Guard",3,"Attack Boost",1
+34,"Lance_040","Hirabami Tree","Windpierce Lance I",13,1500,7,"Lance",3,322,140,0,0,"Ice",150,"","",0,0,0,"","","","","","","","","","","","Guard",2,"Airborne",1
+35,"Lance_041","Hirabami Tree","Windpierce Lance II",13,5000,7,"Lance",5,391,170,0,0,"Ice",190,"","",2,1,0,"","","","","","","","","","","","Guard",2,"Airborne",1
+36,"Lance_042","Hirabami Tree","Windpierce Lance III",13,14000,7,"Lance",7,460,200,0,0,"Ice",220,"","",3,2,0,"","","","","","","","","","","","Guard",3,"Airborne",1
+37,"Lance_043","Hirabami Tree","Windpierce Tsukibami",13,20000,7,"Lance",8,506,220,0,0,"Ice",250,"","",3,2,1,"","","","","","","","","","","","Guard",3,"Airborne",1
+38,"Lance_053","G. Ebony Tree","Chthonian Firewheel I",100001,2600,7,"Lance",4,322,140,0.1,0,"Dragon",260,"","",1,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+39,"Lance_054","G. Ebony Tree","Chthonian Firewheel II",100001,10000,7,"Lance",6,391,170,0.1,0,"Dragon",310,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+40,"Lance_055","G. Ebony Tree","Bequeathed Regret",100001,20000,7,"Lance",8,483,210,0.1,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+41,"Lance_014","Quematrice Tree","Quematrice Lanza I",5,500,7,"Lance",1,230,100,0.05,0,"Fire",100,"","",0,0,0,"","","","","","","","","","","","Guard",1,"",""
+42,"Lance_015","Quematrice Tree","Quematrice Lanza II",5,1500,7,"Lance",3,322,140,0.05,0,"Fire",120,"","",0,0,0,"","","","","","","","","","","","Guard",2,"",""
+43,"Lance_016","Quematrice Tree","Quematrice Lanza III",5,4000,7,"Lance",5,391,170,0.05,0,"Fire",150,"","",2,1,0,"","","","","","","","","","","","Guard",2,"",""
+44,"Lance_017","Quematrice Tree","Quematrice Lanza IV",5,14000,7,"Lance",7,483,210,0.05,0,"Fire",170,"","",3,2,0,"","","","","","","","","","","","Guard",3,"",""
+45,"Lance_018","Quematrice Tree","Firetrail Kaminet",6,20000,7,"Lance",8,552,240,0.05,0,"Fire",200,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+46,"Lance_029","Doshaguma Tree","Dosha Fierceborer I",0,800,7,"Lance",2,322,140,-0.05,20,"-",0,"","",0,0,0,"","","","","","","","","","","","Punishing Draw",1,"",""
+47,"Lance_030","Doshaguma Tree","Dosha Fierceborer II",0,2600,7,"Lance",4,414,180,-0.05,20,"-",0,"","",1,1,0,"","","","","","","","","","","","Punishing Draw",2,"",""
+48,"Lance_031","Doshaguma Tree","Dosha Fierceborer III",0,10000,7,"Lance",6,483,210,-0.05,20,"-",0,"","",2,2,0,"","","","","","","","","","","","Punishing Draw",3,"",""
+49,"Lance_074","Doshaguma Tree","Fierceborer Dubhanith",1,20000,7,"Lance",8,552,240,-0.05,20,"-",0,"","",3,3,1,"","","","","","","","","","","","Punishing Draw",3,"",""
+50,"Lance_056","G. Arkveld Tree","G. Veldian Lancea I",21,2600,7,"Lance",4,391,170,-0.1,0,"Dragon",140,"","",1,1,0,"","","","","","","","","","","","Guard",2,"",""
+51,"Lance_057","G. Arkveld Tree","G. Veldian Lancea II",21,10000,7,"Lance",6,483,210,-0.1,0,"Dragon",170,"","",2,2,0,"","","","","","","","","","","","Guard",2,"",""
+52,"Lance_058","G. Arkveld Tree","G. Purifying Beaumains",21,20000,7,"Lance",8,552,240,-0.1,0,"Dragon",200,"","",3,3,1,"","","","","","","","","","","","Guard",2,"",""
+53,"Lance_069","Arkveld Tree","Veldian Lancea I",24,14000,7,"Lance",7,460,200,0,0,"Dragon",320,"","",3,2,0,"","","","","","","","","","","","Guard",3,"",""
+54,"Lance_075","Arkveld Tree","Purifying Beaumains",24,20000,7,"Lance",8,506,220,0,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","","","Guard",3,"",""
+55,"Lance_047","G. Doshaguma Tree","Dosha Gloomborer I",100002,2600,7,"Lance",4,414,180,-0.15,0,"-",0,"","",1,0,0,"","","","","","","","","","","","Offensive Guard",2,"",""
+56,"Lance_048","G. Doshaguma Tree","Dosha Gloomborer II",100002,10000,7,"Lance",6,506,220,-0.15,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Offensive Guard",3,"",""
+57,"Lance_049","G. Doshaguma Tree","Gloomborer Urshanith",100002,20000,7,"Lance",8,575,250,-0.15,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Offensive Guard",3,"",""
+58,"Lance_019","Lala Barina Tree","Barina Sarissa I",7,500,7,"Lance",1,230,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"",""
+59,"Lance_020","Lala Barina Tree","Barina Sarissa II",7,1500,7,"Lance",3,276,120,0.1,0,"Paralysis",130,"","",0,0,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+60,"Lance_021","Lala Barina Tree","Barina Sarissa III",7,4000,7,"Lance",5,345,150,0.15,0,"Paralysis",180,"","",2,1,0,"","","","","","","","","","","","Critical Draw",1,"Critical Status",1
+61,"Lance_022","Lala Barina Tree","Barina Sarissa IV",7,14000,7,"Lance",7,414,180,0.15,0,"Paralysis",210,"","",3,2,0,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+62,"Lance_023","Lala Barina Tree","Lala Aviculari",8,20000,7,"Lance",8,460,200,0.15,0,"Paralysis",250,"","",3,2,1,"","","","","","","","","","","","Critical Draw",2,"Critical Status",1
+63,"Lance_065","Rathalos Tree","Red Tail I",11,10000,7,"Lance",6,437,190,0.1,0,"Fire",290,"","",2,1,0,"","","","","","","","","","","","Critical Boost",3,"",""
+64,"Lance_066","Rathalos Tree","Spear of Prominence",11,20000,7,"Lance",8,483,210,0.1,0,"Fire",350,"","",3,2,1,"","","","","","","","","","","","Critical Boost",3,"",""
+65,"Lance_067","Gore Magala Tree","Eiferschild I",12,14000,7,"Lance",7,414,180,0.2,0,"Dragon",220,"","",3,2,0,"","","","","","","","","","","","Critical Element",3,"",""
+66,"Lance_068","Gore Magala Tree","Fieberschild",12,20000,7,"Lance",8,483,210,0.2,0,"Dragon",250,"","",3,2,1,"","","","","","","","","","","","Critical Element",3,"",""
+67,"Lance_061","Gravios Tree","Gravios Spear I",19,10000,7,"Lance",6,483,210,-0.15,30,"Blast",290,"","",2,1,0,"","","","","","","","","","","","Guard Up",3,"",""
+68,"Lance_062","Gravios Tree","Gravios Lance",19,20000,7,"Lance",8,575,250,-0.15,30,"Blast",350,"","",3,2,1,"","","","","","","","","","","","Guard Up",3,"",""
+69,"Lance_092","Workshop Tree","Paladin Lance I",30,10000,7,"Lance",6,437,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","","","Critical Draw",3,"Guard",1
+70,"Lance_093","Workshop Tree","Babel Spear",25,20000,7,"Lance",8,506,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","","","Critical Draw",3,"Guard",1
+100,"Lance_070","","Artian Lance I",100003,40,7,"Lance",6,391,170,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+101,"Lance_071","","Artian Lance II",100003,100,7,"Lance",7,414,180,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","","","","","",""
+102,"Lance_072","","Skyscraper",100003,200,7,"Lance",8,437,190,0.05,0,"-",270,"","",3,3,3,"","","","","","","","","","","","","","",""
+0,"GunLance_000","Expedition Tree","Hope Gunlance I",0,200,8,"Gunlance",1,207,90,0,0,"-",0,"","",0,0,0,"","","","","","Normal",2,"","","","","","","",""
+1,"GunLance_001","Expedition Tree","Hope Gunlance II",0,500,8,"Gunlance",1,230,100,0,0,"-",0,"","",0,0,0,"","","","","","Normal",2,"","","","","Speed Sharpening",1,"",""
+2,"GunLance_002","Expedition Tree","Hope Gunlance III",0,1500,8,"Gunlance",3,299,130,0,0,"-",0,"","",0,0,0,"","","","","","Normal",2,"","","","","Speed Sharpening",1,"Critical Eye",1
+3,"GunLance_003","Expedition Tree","Hope Gunlance IV",0,4000,8,"Gunlance",5,368,160,0,0,"-",0,"","",2,1,0,"","","","","","Normal",2,"","","","","Speed Sharpening",2,"Critical Eye",1
+4,"GunLance_004","Expedition Tree","Hope Gunlance V",0,14000,8,"Gunlance",7,437,190,0,0,"-",0,"","",3,2,0,"","","","","","Normal",2,"","","","","Speed Sharpening",2,"Critical Eye",1
+5,"GunLance_072","Expedition Tree","Esperanza Gunlance",0,20000,8,"Gunlance",8,483,210,"",0,"-",0,"","",3,2,1,"","","","","","Normal",2,"","","","","Speed Sharpening",2,"Critical Eye",2
+6,"GunLance_035","G. Rathalos Tree","Albirath Rook I",100000,2600,8,"Gunlance",4,368,160,0.15,0,"Fire",210,"","",1,0,0,"","","","","","Wide",3,"","","","","Master's Touch",1,"Critical Element",1
+7,"GunLance_036","G. Rathalos Tree","Albirath Rook II",100000,10000,8,"Gunlance",6,414,180,0.15,0,"Fire",260,"","",2,1,0,"","","","","","Wide",3,"","","","","Master's Touch",1,"Critical Element",1
+8,"GunLance_037","G. Rathalos Tree","Shining Rook",100000,20000,8,"Gunlance",8,483,210,0.15,0,"Fire",300,"","",3,2,1,"","","","","","Wide",3,"","","","","Master's Touch",1,"Critical Element",1
+9,"GunLance_010","Ore Tree","Triple Bayonet I",10002,800,8,"Gunlance",2,276,120,0,0,"-",0,"","",0,0,0,"","","","","","Long",2,"","","","","Guard Up",1,"",""
+10,"GunLance_011","Ore Tree","Triple Bayonet II",10002,2600,8,"Gunlance",4,368,160,0,0,"-",0,"","",1,0,0,"","","","","","Long",2,"","","","","Guard Up",2,"",""
+11,"GunLance_012","Ore Tree","Triple Bayonet III",10002,10000,8,"Gunlance",6,437,190,0,0,"-",0,"","",2,1,0,"","","","","","Long",2,"","","","","Guard Up",2,"",""
+12,"GunLance_013","Ore Tree","Triumvirate Edge",10002,20000,8,"Gunlance",8,506,220,0,0,"-",0,"","",3,2,1,"","","","","","Long",2,"","","","","Guard Up",3,"",""
+13,"GunLance_038","Jin Dahaad Tree","Jin Dhatop I",20,14000,8,"Gunlance",7,437,190,0,0,"Ice",470,"","",3,2,0,"","","","","","Wide",3,"","","","","Guard",3,"",""
+14,"GunLance_039","Jin Dahaad Tree","Precipice Lohamata",20,20000,8,"Gunlance",8,483,210,0,0,"Ice",500,"","",3,2,1,"","","","","","Wide",3,"","","","","Guard",3,"",""
+15,"GunLance_032","Ajarakan Tree","Ajara Gunpike I",10,1500,8,"Gunlance",3,299,130,0.1,0,"Blast",190,"","",0,0,0,"","","","","","Wide",2,"","","","","Load Shells",1,"Offensive Guard",1
+16,"GunLance_033","Ajarakan Tree","Ajara Gunpike II",10,10000,8,"Gunlance",6,414,180,0.1,0,"Blast",220,"","",2,1,0,"","","","","","Wide",2,"","","","","Load Shells",2,"Offensive Guard",1
+17,"GunLance_034","Ajarakan Tree","Ajara-Kalika",10,20000,8,"Gunlance",8,483,210,0.1,0,"Blast",250,"","",3,2,1,"","","","","","Wide",2,"","","","","Load Shells",2,"Offensive Guard",1
+18,"GunLance_019","Balahara Tree","Balahara Exploder I",3,800,8,"Gunlance",2,253,110,0.1,0,"Water",160,"","",0,0,0,"","","","","","Wide",2,"","","","","Offensive Guard",1,"",""
+19,"GunLance_020","Balahara Tree","Balahara Exploder II",3,2600,8,"Gunlance",4,345,150,0.1,0,"Water",200,"","",1,0,0,"","","","","","Wide",2,"","","","","Offensive Guard",2,"",""
+20,"GunLance_021","Balahara Tree","Balahara Exploder III",3,5000,8,"Gunlance",5,368,160,0.1,0,"Water",230,"","",2,1,0,"","","","","","Wide",2,"","","","","Offensive Guard",2,"",""
+21,"GunLance_022","Balahara Tree","Balahara Exploder IV",3,14000,8,"Gunlance",7,437,190,0.1,0,"Water",270,"","",3,2,0,"","","","","","Wide",2,"","","","","Offensive Guard",3,"",""
+22,"GunLance_023","Balahara Tree","Sandsea Visponan",4,20000,8,"Gunlance",8,483,210,0.1,0,"Water",300,"","",3,2,1,"","","","","","Wide",2,"","","","","Offensive Guard",3,"",""
+23,"GunLance_064","Paralysis Tree","Paretic Gunlance I",23,500,8,"Gunlance",1,230,100,0,0,"Paralysis",150,"","",0,0,0,"","","","","","Normal",1,"","","","","Offensive Guard",1,"",""
+24,"GunLance_065","Paralysis Tree","Paretic Gunlance II",23,1500,8,"Gunlance",3,299,130,"",0,"Paralysis",210,"","",0,0,0,"","","","","","Normal",1,"","","","","Offensive Guard",2,"",""
+25,"GunLance_066","Paralysis Tree","Paretic Gunlance III",23,4000,8,"Gunlance",5,368,160,"",0,"Paralysis",310,"","",2,1,0,"","","","","","Normal",1,"","","","","Offensive Guard",2,"",""
+26,"GunLance_067","Paralysis Tree","Paretic Gunlance IV",23,14000,8,"Gunlance",7,437,190,"",0,"Paralysis",370,"","",3,2,0,"","","","","","Normal",1,"","","","","Offensive Guard",3,"",""
+27,"GunLance_068","Paralysis Tree","Debilitating Torpor",23,20000,8,"Gunlance",8,483,210,"",0,"Paralysis",400,"","",3,2,1,"","","","","","Normal",1,"","","","","Offensive Guard",3,"",""
+28,"GunLance_005","Bone Tree","Bone Gunlance I",10004,500,8,"Gunlance",1,253,110,0,0,"-",0,"","",0,0,0,"","","","","","Wide",2,"","","","","Guard",1,"",""
+29,"GunLance_006","Bone Tree","Bone Gunlance II",10004,800,8,"Gunlance",2,299,130,0,0,"-",0,"","",0,0,0,"","","","","","Wide",2,"","","","","Guard",1,"Attack Boost",1
+30,"GunLance_007","Bone Tree","Bone Gunlance III",10004,2600,8,"Gunlance",4,391,170,0,0,"-",0,"","",1,0,0,"","","","","","Wide",2,"","","","","Guard",2,"Attack Boost",1
+31,"GunLance_008","Bone Tree","Bone Gunlance IV",10004,10000,8,"Gunlance",6,460,200,0,0,"-",0,"","",2,1,0,"","","","","","Wide",2,"","","","","Guard",3,"Attack Boost",1
+32,"GunLance_009","Bone Tree","Great Bone Gunlance",10004,20000,8,"Gunlance",8,529,230,0,0,"-",0,"","",3,2,1,"","","","","","Wide",2,"","","","","Guard",3,"Attack Boost",1
+33,"GunLance_028","Nerscylla Tree","Shell Gunberd I",9,1500,8,"Gunlance",3,276,120,0.1,0,"Sleep",150,"","",0,0,0,"","","","","","Long",2,"","","","","Critical Draw",1,"Critical Status",1
+34,"GunLance_029","Nerscylla Tree","Shell Gunberd II",9,5000,8,"Gunlance",5,345,150,0.15,0,"Sleep",210,"","",2,1,0,"","","","","","Long",2,"","","","","Critical Draw",1,"Critical Status",1
+35,"GunLance_030","Nerscylla Tree","Shell Gunberd III",9,14000,8,"Gunlance",7,414,180,0.15,0,"Sleep",270,"","",3,2,0,"","","","","","Long",2,"","","","","Critical Draw",2,"Critical Status",1
+36,"GunLance_031","Nerscylla Tree","Solid Gunberd",9,20000,8,"Gunlance",8,460,200,0.15,0,"Sleep",300,"","",3,2,1,"","","","","","Long",2,"","","","","Critical Draw",2,"Critical Status",1
+37,"GunLance_024","Uth Duna Tree","Uth Falarmata I",5,2000,8,"Gunlance",3,391,170,-0.15,0,"Water",250,"","",0,0,0,"","","","","","Normal",1,"","","","","Guard",2,"",""
+38,"GunLance_025","Uth Duna Tree","Uth Falarmata II",5,4000,8,"Gunlance",5,460,200,-0.15,0,"Water",310,"","",2,1,0,"","","","","","Normal",1,"","","","","Guard",2,"",""
+39,"GunLance_026","Uth Duna Tree","Uth Falarmata III",5,14000,8,"Gunlance",7,529,230,-0.15,0,"Water",370,"","",3,2,0,"","","","","","Normal",1,"","","","","Guard",3,"",""
+40,"GunLance_027","Uth Duna Tree","Falarmata-of-the-Waves",5,20000,8,"Gunlance",8,575,250,-0.15,0,"Water",400,"","",3,2,1,"","","","","","Normal",1,"","","","","Guard",3,"",""
+41,"GunLance_014","Quematrice Tree","Quematrice Culebrina I",1,500,8,"Gunlance",1,230,100,0.05,0,"Fire",140,"","",0,0,0,"","","","","","Normal",3,"","","","","Guard",1,"",""
+42,"GunLance_015","Quematrice Tree","Quematrice Culebrina II",1,1500,8,"Gunlance",3,322,140,0.05,0,"Fire",160,"","",0,0,0,"","","","","","Normal",3,"","","","","Guard",2,"",""
+43,"GunLance_016","Quematrice Tree","Quematrice Culebrina III",1,4000,8,"Gunlance",5,391,170,0.05,0,"Fire",200,"","",2,1,0,"","","","","","Normal",3,"","","","","Guard",2,"",""
+44,"GunLance_017","Quematrice Tree","Quematrice Culebrina IV",1,14000,8,"Gunlance",7,460,200,0.05,0,"Fire",220,"","",3,2,0,"","","","","","Normal",3,"","","","","Guard",3,"",""
+45,"GunLance_018","Quematrice Tree","Firetrail Quemador",2,20000,8,"Gunlance",8,506,220,0.05,0,"Fire",250,"","",3,2,1,"","","","","","Normal",3,"","","","","Guard",3,"",""
+46,"GunLance_042","G. Arkveld Tree","G. Veldian Hasta I",18,2600,8,"Gunlance",4,391,170,-0.1,0,"Dragon",160,"","",1,1,0,"","","","","","Wide",3,"","","","","Guard",2,"",""
+47,"GunLance_043","G. Arkveld Tree","G. Veldian Hasta II",18,10000,8,"Gunlance",6,483,210,-0.1,0,"Dragon",210,"","",2,2,0,"","","","","","Wide",3,"","","","","Guard",2,"",""
+48,"GunLance_044","G. Arkveld Tree","G. Lawful Bors",18,20000,8,"Gunlance",8,552,240,-0.1,0,"Dragon",250,"","",3,3,1,"","","","","","Wide",3,"","","","","Guard",2,"",""
+49,"GunLance_063","Arkveld Tree","Veldian Hasta I",24,14000,8,"Gunlance",7,460,200,0,0,"Dragon",370,"","",3,2,0,"","","","","","Long",2,"","","","","Guard",3,"",""
+50,"GunLance_073","Arkveld Tree","Lawful Bors",24,20000,8,"Gunlance",8,506,220,"",0,"Dragon",400,"","",3,2,1,"","","","","","Long",2,"","","","","Guard",3,"",""
+51,"GunLance_047","Gypceros Tree","Hard Hitter I",13,4000,8,"Gunlance",5,414,180,0,0,"Poison",310,"","",2,1,0,"","","","","","Long",3,"","","","","Punishing Draw",2,"Critical Draw",1
+52,"GunLance_048","Gypceros Tree","Hard Hitter II",13,10000,8,"Gunlance",6,460,200,0,0,"Poison",340,"","",2,1,0,"","","","","","Long",3,"","","","","Punishing Draw",2,"Critical Draw",2
+53,"GunLance_049","Gypceros Tree","Big Slugger",13,20000,8,"Gunlance",8,529,230,0,0,"Poison",400,"","",3,2,1,"","","","","","Long",3,"","","","","Punishing Draw",3,"Critical Draw",2
+54,"GunLance_053","G. Fulgur Tree","Warring Fulgur I",100002,10000,8,"Gunlance",6,414,180,0.15,0,"Thunder",340,"","",2,1,0,"","","","","","Wide",3,"","","","","Critical Element",3,"",""
+55,"GunLance_054","G. Fulgur Tree","Fulgurcannon Guardiana",100002,20000,8,"Gunlance",8,483,210,0.15,0,"Thunder",400,"","",3,2,1,"","","","","","Wide",3,"","","","","Critical Element",3,"",""
+56,"GunLance_050","Rathian Tree","Princess Panoply I",6,5000,8,"Gunlance",5,368,160,0.15,0,"Poison",190,"","",2,1,0,"","","","","","Normal",2,"","","","","Critical Status",2,"Poison Duration Up",1
+57,"GunLance_051","Rathian Tree","Princess Panoply II",6,14000,8,"Gunlance",7,437,190,0.15,0,"Poison",220,"","",3,2,0,"","","","","","Normal",2,"","","","","Critical Status",3,"Poison Duration Up",1
+58,"GunLance_052","Rathian Tree","Ortlinde",6,20000,8,"Gunlance",8,483,210,0.15,0,"Poison",250,"","",3,2,1,"","","","","","Normal",2,"","","","","Critical Status",3,"Poison Duration Up",1
+59,"GunLance_059","Rathalos Tree","Red Rook I",7,10000,8,"Gunlance",6,414,180,0.1,0,"Fire",340,"","",2,1,0,"","","","","","Long",2,"","","","","Critical Boost",3,"",""
+60,"GunLance_060","Rathalos Tree","Crimson Rook",7,20000,8,"Gunlance",8,460,200,0.1,0,"Fire",400,"","",3,2,1,"","","","","","Long",2,"","","","","Critical Boost",3,"",""
+61,"GunLance_061","Gore Magala Tree","Tyrannenarm I",8,14000,8,"Gunlance",7,414,180,0.2,0,"Dragon",270,"","",3,2,0,"","","","","","Normal",2,"","","","","Critical Element",3,"",""
+62,"GunLance_062","Gore Magala Tree","Verräterarm",8,20000,8,"Gunlance",8,460,200,0.2,0,"Dragon",300,"","",3,2,1,"","","","","","Normal",2,"","","","","Critical Element",3,"",""
+63,"GunLance_055","Gravios Tree","White Gunlance I",16,10000,8,"Gunlance",6,506,220,-0.15,30,"Blast",340,"","",2,1,0,"","","","","","Long",3,"","","","","Guard Up",3,"",""
+64,"GunLance_056","Gravios Tree","White Cannon",16,20000,8,"Gunlance",8,552,240,-0.15,30,"Blast",400,"","",3,2,1,"","","","","","Long",3,"","","","","Guard Up",3,"",""
+100,"GunLance_069","","Artian Cannon I",100001,40,8,"Gunlance",6,391,170,"",0,"-",270,"","",2,2,2,"","","","","","Normal",2,"","","","","","","",""
+101,"GunLance_070","","Artian Cannon II",100001,100,8,"Gunlance",7,414,180,"",0,"-",270,"","",2,2,2,"","","","","","Normal",2,"","","","","","","",""
+102,"GunLance_071","","Argenesis",100001,200,8,"Gunlance",8,437,190,"",0,"-",320,"","",3,3,3,"","","","","","Normal",2,"","","","","","","",""
+0,"SlashAxe_000","Expedition Tree","Hope Axe I",0,200,9,"Switch Axe",1,315,90,0,0,"-",0,"","",0,0,0,"","","","","","","","Power Phial",0,"","","","","",""
+1,"SlashAxe_001","Expedition Tree","Hope Axe II",0,500,9,"Switch Axe",1,350,100,0,0,"-",0,"","",0,0,0,"","","","","","","","Power Phial",0,"","","Speed Sharpening",1,"",""
+2,"SlashAxe_002","Expedition Tree","Hope Axe III",0,1500,9,"Switch Axe",3,455,130,0,0,"-",0,"","",0,0,0,"","","","","","","","Power Phial",0,"","","Speed Sharpening",1,"Critical Eye",1
+3,"SlashAxe_003","Expedition Tree","Hope Axe IV",0,4000,9,"Switch Axe",5,560,160,0,0,"-",0,"","",2,1,0,"","","","","","","","Power Phial",0,"","","Speed Sharpening",2,"Critical Eye",1
+4,"SlashAxe_004","Expedition Tree","Hope Axe V",0,14000,9,"Switch Axe",7,665,190,0,0,"-",0,"","",3,2,0,"","","","","","","","Power Phial",0,"","","Speed Sharpening",2,"Critical Eye",1
+5,"SlashAxe_068","Expedition Tree","Esperanza Axe",0,20000,9,"Switch Axe",8,735,210,0,0,"-",0,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Speed Sharpening",2,"Critical Eye",2
+6,"SlashAxe_039","G. Rathalos Tree","Albirath Flamesplitter I",100000,2600,9,"Switch Axe",4,560,160,0.15,0,"Fire",140,"","",1,0,0,"","","","","","","","Element Phial",0,"","","Master's Touch",1,"Critical Element",1
+7,"SlashAxe_040","G. Rathalos Tree","Albirath Flamesplitter II",100000,10000,9,"Switch Axe",6,630,180,0.15,0,"Fire",170,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Master's Touch",1,"Critical Element",1
+8,"SlashAxe_041","G. Rathalos Tree","Albirath Blaze Splitter",100000,20000,9,"Switch Axe",8,735,210,0.15,0,"Fire",200,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Master's Touch",1,"Critical Element",1
+9,"SlashAxe_010","Ore Tree","Iron Accelerator I",10001,800,9,"Switch Axe",2,420,120,0,0,"-",0,"","",0,0,0,"","","","","","","","Poison Phial",180,"","","Rapid Morph",1,"",""
+10,"SlashAxe_011","Ore Tree","Iron Accelerator II",10001,2600,9,"Switch Axe",4,560,160,0,0,"-",0,"","",1,0,0,"","","","","","","","Poison Phial",200,"","","Rapid Morph",2,"",""
+11,"SlashAxe_012","Ore Tree","Iron Accelerator III",10001,10000,9,"Switch Axe",6,665,190,0,0,"-",0,"","",2,1,0,"","","","","","","","Poison Phial",230,"","","Rapid Morph",3,"",""
+12,"SlashAxe_013","Ore Tree","Chrome Accelerator",10001,20000,9,"Switch Axe",8,770,220,0,0,"-",0,"","",3,2,1,"","","","","","","","Poison Phial",250,"","","Rapid Morph",3,"",""
+13,"SlashAxe_029","Hirabami Tree","Windsunder Axe I",10,1500,9,"Switch Axe",3,490,140,0,0,"Ice",120,"","",0,0,0,"","","","","","","","Element Phial",0,"","","Focus",2,"Airborne",1
+14,"SlashAxe_030","Hirabami Tree","Windsunder Axe II",10,5000,9,"Switch Axe",5,595,170,0,0,"Ice",150,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Focus",2,"Airborne",1
+15,"SlashAxe_031","Hirabami Tree","Windsunder Axe III",10,14000,9,"Switch Axe",7,700,200,0,0,"Ice",170,"","",3,2,0,"","","","","","","","Element Phial",0,"","","Focus",3,"Airborne",1
+16,"SlashAxe_032","Hirabami Tree","Windsunder Sakibami",10,20000,9,"Switch Axe",8,770,220,0,0,"Ice",200,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Focus",3,"Airborne",1
+17,"SlashAxe_042","Xu Wu Tree","Nihil Switch Axe I",19,2600,9,"Switch Axe",4,560,160,0,0,"Water",120,"","",1,0,0,"","","","","","","","Power Phial",0,"","","Power Prolonger",2,"",""
+18,"SlashAxe_043","Xu Wu Tree","Nihil Switch Axe II",19,10000,9,"Switch Axe",6,665,190,0,0,"Water",150,"","",2,1,0,"","","","","","","","Power Phial",0,"","","Power Prolonger",3,"",""
+19,"SlashAxe_044","Xu Wu Tree","Brutus's Abolishment",19,20000,9,"Switch Axe",8,735,210,0,0,"Water",180,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Power Prolonger",3,"",""
+20,"SlashAxe_005","Bone Tree","Bone Axe I",10003,500,9,"Switch Axe",1,385,110,0,0,"-",0,"","",0,0,0,"","","","","","","","Fatigue Phial",150,"","","Focus",1,"",""
+21,"SlashAxe_006","Bone Tree","Bone Axe II",10003,800,9,"Switch Axe",2,455,130,0,0,"-",0,"","",0,0,0,"","","","","","","","Fatigue Phial",180,"","","Focus",1,"Attack Boost",1
+22,"SlashAxe_007","Bone Tree","Bone Axe III",10003,2600,9,"Switch Axe",4,595,170,0,0,"-",0,"","",1,0,0,"","","","","","","","Fatigue Phial",200,"","","Focus",2,"Attack Boost",1
+23,"SlashAxe_008","Bone Tree","Bone Axe IV",10003,10000,9,"Switch Axe",6,700,200,0,0,"-",0,"","",2,1,0,"","","","","","","","Fatigue Phial",230,"","","Focus",3,"Attack Boost",1
+24,"SlashAxe_009","Bone Tree","Bone Smasher",10003,20000,9,"Switch Axe",8,805,230,0,0,"-",0,"","",3,2,1,"","","","","","","","Fatigue Phial",250,"","","Focus",3,"Attack Boost",1
+25,"SlashAxe_033","Nu Udra Tree","Nu Zhangyu I",11,2600,9,"Switch Axe",4,595,170,-0.15,0,"Fire",120,"","",1,0,0,"","","","","","","","Power Phial",0,"","","Rapid Morph",2,"",""
+26,"SlashAxe_034","Nu Udra Tree","Nu Zhangyu II",11,14000,9,"Switch Axe",7,700,200,-0.15,0,"Fire",170,"","",3,2,0,"","","","","","","","Power Phial",0,"","","Rapid Morph",3,"",""
+27,"SlashAxe_035","Nu Udra Tree","Abaddonian Zhangyu",11,20000,9,"Switch Axe",8,770,220,-0.15,0,"Fire",200,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Rapid Morph",3,"",""
+28,"SlashAxe_019","Congalala Tree","Golba Vandal I",3,800,9,"Switch Axe",2,420,120,0.05,0,"-",0,"","",0,0,0,"","","","","","","","Paralysis Phial",160,"","","Punishing Draw",1,"Critical Draw",1
+29,"SlashAxe_020","Congalala Tree","Golba Vandal II",3,4000,9,"Switch Axe",5,595,170,0.05,0,"-",0,"","",2,1,0,"","","","","","","","Paralysis Phial",180,"","","Punishing Draw",2,"Critical Draw",1
+30,"SlashAxe_021","Congalala Tree","Gundava Vandal",3,20000,9,"Switch Axe",8,770,220,0.05,0,"-",0,"","",3,2,1,"","","","","","","","Paralysis Phial",200,"","","Punishing Draw",2,"Critical Draw",2
+31,"SlashAxe_025","Uth Duna Tree","Uth Olacha I",6,2000,9,"Switch Axe",3,560,160,-0.15,0,"Water",150,"","",0,0,0,"","","","","","","","Element Phial",0,"","","Power Prolonger",2,"",""
+32,"SlashAxe_026","Uth Duna Tree","Uth Olacha II",6,4000,9,"Switch Axe",5,665,190,-0.15,0,"Water",190,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Power Prolonger",2,"",""
+33,"SlashAxe_027","Uth Duna Tree","Uth Olacha III",6,14000,9,"Switch Axe",7,770,220,-0.15,0,"Water",220,"","",3,2,0,"","","","","","","","Element Phial",0,"","","Power Prolonger",3,"",""
+34,"SlashAxe_028","Uth Duna Tree","Olacha-of-the-Waves",6,20000,9,"Switch Axe",8,840,240,-0.15,0,"Water",250,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Power Prolonger",3,"",""
+35,"SlashAxe_022","Doshaguma Tree","Dosha Fleshhacker I",4,800,9,"Switch Axe",2,490,140,-0.05,20,"-",0,"","",0,0,0,"","","","","","","","Power Phial",0,"","","Power Prolonger",1,"",""
+36,"SlashAxe_023","Doshaguma Tree","Dosha Fleshhacker II",4,2600,9,"Switch Axe",4,630,180,-0.05,20,"-",0,"","",1,0,0,"","","","","","","","Power Phial",0,"","","Power Prolonger",2,"",""
+37,"SlashAxe_024","Doshaguma Tree","Dosha Fleshhacker III",4,10000,9,"Switch Axe",6,735,210,-0.05,20,"-",0,"","",2,1,0,"","","","","","","","Power Phial",0,"","","Power Prolonger",3,"",""
+38,"SlashAxe_069","Doshaguma Tree","Fleshhacker Yaogahaac",5,20000,9,"Switch Axe",8,805,230,-0.05,20,"-",0,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Power Prolonger",3,"",""
+39,"SlashAxe_045","G. Arkveld Tree","G. Veldian Securis I",17,2600,9,"Switch Axe",4,595,170,-0.1,0,"Dragon",120,"","",1,1,0,"","","","","","","","Power Phial",0,"","","Focus",2,"",""
+40,"SlashAxe_046","G. Arkveld Tree","G. Veldian Securis II",17,10000,9,"Switch Axe",6,735,210,-0.1,0,"Dragon",150,"","",2,2,0,"","","","","","","","Power Phial",0,"","","Focus",2,"",""
+41,"SlashAxe_047","G. Arkveld Tree","G. Indomitable Perceval",17,20000,9,"Switch Axe",8,805,230,-0.1,0,"Dragon",180,"","",3,3,1,"","","","","","","","Power Phial",0,"","","Focus",2,"",""
+42,"SlashAxe_064","Arkveld Tree","Veldian Securis I",22,14000,9,"Switch Axe",7,700,200,0,0,"Dragon",220,"","",3,2,0,"","","","","","","","Element Phial",0,"","","Focus",3,"",""
+43,"SlashAxe_070","Arkveld Tree","Indomitable Perceval",22,20000,9,"Switch Axe",8,770,220,0,0,"Dragon",250,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Focus",3,"",""
+44,"SlashAxe_036","G. Doshaguma Tree","Dosha Gorehacker I",100001,2600,9,"Switch Axe",4,630,180,-0.15,0,"-",0,"","",1,0,0,"","","","","","","","Dragon Phial",320,"","","Focus",2,"",""
+45,"SlashAxe_037","G. Doshaguma Tree","Dosha Gorehacker II",100001,10000,9,"Switch Axe",6,770,220,-0.15,0,"-",0,"","",2,2,0,"","","","","","","","Dragon Phial",360,"","","Focus",2,"",""
+46,"SlashAxe_038","G. Doshaguma Tree","Gorehacker Urgahaac",100001,20000,9,"Switch Axe",8,875,250,-0.15,0,"-",0,"","",3,3,1,"","","","","","","","Dragon Phial",400,"","","Focus",2,"",""
+47,"SlashAxe_014","Lala Barina Tree","Barina Hache I",1,500,9,"Switch Axe",1,350,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","Power Phial",0,"","","Critical Draw",1,"",""
+48,"SlashAxe_015","Lala Barina Tree","Barina Hache II",1,1500,9,"Switch Axe",3,420,120,0.1,0,"Paralysis",120,"","",0,0,0,"","","","","","","","Power Phial",0,"","","Critical Draw",1,"Critical Status",1
+49,"SlashAxe_016","Lala Barina Tree","Barina Hache III",1,4000,9,"Switch Axe",5,525,150,0.15,0,"Paralysis",150,"","",2,1,0,"","","","","","","","Power Phial",0,"","","Critical Draw",1,"Critical Status",1
+50,"SlashAxe_017","Lala Barina Tree","Barina Hache IV",1,14000,9,"Switch Axe",7,630,180,0.15,0,"Paralysis",170,"","",3,2,0,"","","","","","","","Power Phial",0,"","","Critical Draw",2,"Critical Status",1
+51,"SlashAxe_018","Lala Barina Tree","Lala Selenocosmi",2,20000,9,"Switch Axe",8,700,200,0.15,0,"Paralysis",200,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Critical Draw",2,"Critical Status",1
+52,"SlashAxe_050","Yian Kut-Ku Tree","Beak Axe I",13,4000,9,"Switch Axe",5,630,180,0,0,"Fire",260,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Power Prolonger",2,"",""
+53,"SlashAxe_051","Yian Kut-Ku Tree","Beak Axe II",13,14000,9,"Switch Axe",7,735,210,0,0,"Fire",320,"","",3,2,0,"","","","","","","","Element Phial",0,"","","Power Prolonger",3,"",""
+54,"SlashAxe_052","Yian Kut-Ku Tree","Sawbill Axe",13,20000,9,"Switch Axe",8,770,220,0,0,"Fire",350,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Power Prolonger",3,"",""
+55,"SlashAxe_056","G. Fulgur Tree","Morphing Fulgur I",100002,10000,9,"Switch Axe",6,630,180,0.15,0,"Thunder",210,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Critical Element",3,"",""
+56,"SlashAxe_057","G. Fulgur Tree","Fulgurswitch Guardiana",100002,20000,9,"Switch Axe",8,735,210,0.15,0,"Thunder",250,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Critical Element",3,"",""
+57,"SlashAxe_053","Rathian Tree","Dragonmaiden Axe I",7,5000,9,"Switch Axe",5,560,160,0.15,0,"Poison",120,"","",2,1,0,"","","","","","","","Element Phial",0,"","","Critical Status",2,"Poison Duration Up",1
+58,"SlashAxe_054","Rathian Tree","Dragonmaiden Axe II",7,14000,9,"Switch Axe",7,665,190,0.15,0,"Poison",150,"","",3,2,0,"","","","","","","","Element Phial",0,"","","Critical Status",3,"Poison Duration Up",1
+59,"SlashAxe_055","Rathian Tree","Gríðr's Landmaker",7,20000,9,"Switch Axe",8,735,210,0.15,0,"Poison",180,"","",3,2,1,"","","","","","","","Element Phial",0,"","","Critical Status",3,"Poison Duration Up",1
+60,"SlashAxe_060","Rathalos Tree","Rath Flamesplitter I",8,10000,9,"Switch Axe",6,630,180,0.1,0,"Fire",210,"","",2,1,0,"","","","","","","","Power Phial",0,"","","Critical Boost",3,"",""
+61,"SlashAxe_061","Rathalos Tree","Rath Blaze Splitter",8,20000,9,"Switch Axe",8,700,200,0.1,0,"Fire",250,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Critical Boost",3,"",""
+62,"SlashAxe_062","Gore Magala Tree","Eisenleib I",9,14000,9,"Switch Axe",7,630,180,0.2,0,"Dragon",160,"","",3,2,0,"","","","","","","","Power Phial",0,"","","Critical Element",3,"",""
+63,"SlashAxe_063","Gore Magala Tree","Eisengeist",9,20000,9,"Switch Axe",8,700,200,0.2,0,"Dragon",200,"","",3,2,1,"","","","","","","","Power Phial",0,"","","Critical Element",3,"",""
+100,"SlashAxe_065","","Artian Saw I",100003,40,9,"Switch Axe",6,595,170,0.05,0,"-",220,"","",2,2,2,"","","","","","","","Dragon Phial",120,"","","","","",""
+101,"SlashAxe_066","","Artian Saw II",100003,100,9,"Switch Axe",7,630,180,0.05,0,"-",220,"","",2,2,2,"","","","","","","","Dragon Phial",120,"","","","","",""
+102,"SlashAxe_067","","Mundus Altus",100003,200,9,"Switch Axe",8,665,190,0.05,0,"-",260,"","",3,3,3,"","","","","","","","Dragon Phial",220,"","","","","",""
+0,"ChargeAxe_000","Expedition Tree","Hope Strongarm I",2,200,10,"Charge Blade",1,324,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","","","",""
+1,"ChargeAxe_001","Expedition Tree","Hope Strongarm II",2,500,10,"Charge Blade",1,360,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Speed Sharpening",1,"",""
+2,"ChargeAxe_002","Expedition Tree","Hope Strongarm III",2,1500,10,"Charge Blade",3,468,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Speed Sharpening",1,"Critical Eye",1
+3,"ChargeAxe_003","Expedition Tree","Hope Strongarm IV",2,4000,10,"Charge Blade",5,576,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","Impact Phial","","Speed Sharpening",2,"Critical Eye",1
+4,"ChargeAxe_004","Expedition Tree","Hope Strongarm V",2,14000,10,"Charge Blade",7,684,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","Impact Phial","","Speed Sharpening",2,"Critical Eye",1
+5,"ChargeAxe_073","Expedition Tree","Esperanza Strongarm",2,20000,10,"Charge Blade",8,756,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","Impact Phial","","Speed Sharpening",2,"Critical Eye",2
+6,"ChargeAxe_046","G. Rathalos Tree","Albirath Blade I",100000,2600,10,"Charge Blade",4,576,160,0.15,0,"Fire",160,"","",1,0,0,"","","","","","","","","","Impact Phial","","Master's Touch",1,"Critical Element",1
+7,"ChargeAxe_047","G. Rathalos Tree","Albirath Blade II",100000,10000,10,"Charge Blade",6,648,180,0.15,0,"Fire",210,"","",2,1,0,"","","","","","","","","","Impact Phial","","Master's Touch",1,"Critical Element",1
+8,"ChargeAxe_048","G. Rathalos Tree","Guardian Albathos",100000,20000,10,"Charge Blade",8,792,220,0.15,0,"Fire",250,"","",3,2,1,"","","","","","","","","","Impact Phial","","Master's Touch",1,"Critical Element",1
+9,"ChargeAxe_010","Ore Tree","Hyperguard I",10000,800,10,"Charge Blade",2,432,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Rapid Morph",1,"",""
+10,"ChargeAxe_011","Ore Tree","Hyperguard II",10000,2600,10,"Charge Blade",4,576,160,0,0,"-",0,"","",1,0,0,"","","","","","","","","","Impact Phial","","Rapid Morph",2,"",""
+11,"ChargeAxe_012","Ore Tree","Hyperguard III",10000,10000,10,"Charge Blade",6,684,190,0,0,"-",0,"","",2,1,0,"","","","","","","","","","Impact Phial","","Rapid Morph",3,"",""
+12,"ChargeAxe_013","Ore Tree","Regas Hyper",10000,20000,10,"Charge Blade",8,792,220,0,0,"-",0,"","",3,2,1,"","","","","","","","","","Impact Phial","","Rapid Morph",3,"",""
+13,"ChargeAxe_027","Rompopolo Tree","Rompo Shielder I",6,1500,10,"Charge Blade",3,504,140,0,0,"Poison",150,"","",0,0,0,"","","","","","","","","","Impact Phial","","Guard Up",2,"",""
+14,"ChargeAxe_028","Rompopolo Tree","Rompo Shielder II",6,4000,10,"Charge Blade",5,612,170,0,0,"Poison",190,"","",2,1,0,"","","","","","","","","","Impact Phial","","Guard Up",2,"",""
+15,"ChargeAxe_029","Rompopolo Tree","Rompo Shielder III",6,14000,10,"Charge Blade",7,720,200,0,0,"Poison",220,"","",3,2,0,"","","","","","","","","","Impact Phial","","Guard Up",3,"",""
+16,"ChargeAxe_030","Rompopolo Tree","Rompo Dendrotox",6,20000,10,"Charge Blade",8,792,220,0,0,"Poison",250,"","",3,2,1,"","","","","","","","","","Impact Phial","","Guard Up",3,"",""
+17,"ChargeAxe_049","G. Ebony Tree","Chthonian Flame I",100001,2600,10,"Charge Blade",4,504,140,0.1,0,"Dragon",260,"","",1,0,0,"","","","","","","","","","Element Phial","","Offensive Guard",2,"",""
+18,"ChargeAxe_050","G. Ebony Tree","Chthonian Flame II",100001,10000,10,"Charge Blade",6,612,170,0.1,0,"Dragon",310,"","",2,1,0,"","","","","","","","","","Element Phial","","Offensive Guard",3,"",""
+19,"ChargeAxe_051","G. Ebony Tree","Bequeathed Enmity",100001,20000,10,"Charge Blade",8,756,210,0.1,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","Element Phial","","Offensive Guard",3,"",""
+20,"ChargeAxe_031","Rey Dau Tree","Rey Astrapi I",7,2000,10,"Charge Blade",3,504,140,0,0,"Thunder",150,"","",0,0,0,"","","","","","","","","","Element Phial","","Focus",1,"Load Shells",1
+21,"ChargeAxe_032","Rey Dau Tree","Rey Astrapi II",7,4000,10,"Charge Blade",5,612,170,0,0,"Thunder",190,"","",2,1,0,"","","","","","","","","","Element Phial","","Focus",1,"Load Shells",1
+22,"ChargeAxe_033","Rey Dau Tree","Rey Astrapi III",7,14000,10,"Charge Blade",7,720,200,0,0,"Thunder",220,"","",3,2,0,"","","","","","","","","","Element Phial","","Focus",2,"Load Shells",1
+23,"ChargeAxe_034","Rey Dau Tree","Astrapi Clairaxe",7,20000,10,"Charge Blade",8,792,220,0,0,"Thunder",250,"","",3,2,1,"","","","","","","","","","Element Phial","","Focus",2,"Load Shells",1
+24,"ChargeAxe_014","Chatacabra Tree","Chata Strongarm I",0,500,10,"Charge Blade",1,396,110,0,15,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Guard",1,"",""
+25,"ChargeAxe_015","Chatacabra Tree","Chata Strongarm II",0,1500,10,"Charge Blade",3,540,150,0,15,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Guard",1,"Artillery",1
+26,"ChargeAxe_016","Chatacabra Tree","Chata Strongarm III",0,4000,10,"Charge Blade",5,648,180,0,15,"-",0,"","",2,1,0,"","","","","","","","","","Impact Phial","","Guard",2,"Artillery",1
+27,"ChargeAxe_017","Chatacabra Tree","Chata Strongarm IV",0,14000,10,"Charge Blade",7,720,200,0,15,"-",0,"","",3,2,0,"","","","","","","","","","Impact Phial","","Guard",2,"Artillery",1
+28,"ChargeAxe_074","Chatacabra Tree","Shrouded Kutharja",1,20000,10,"Charge Blade",8,792,220,0,15,"-",0,"","",3,2,1,"","","","","","","","","","Impact Phial","","Guard",3,"Artillery",1
+29,"ChargeAxe_052","G. Arkveld Tree","G. Veldian Labrys I",20,2600,10,"Charge Blade",4,612,170,-0.1,0,"Dragon",140,"","",1,1,0,"","","","","","","","","","Impact Phial","","Guard",2,"",""
+30,"ChargeAxe_053","G. Arkveld Tree","G. Veldian Labrys II",20,10000,10,"Charge Blade",6,756,210,-0.1,0,"Dragon",170,"","",2,2,0,"","","","","","","","","","Impact Phial","","Guard",2,"",""
+31,"ChargeAxe_054","G. Arkveld Tree","G. Abiding Gawain",20,20000,10,"Charge Blade",8,864,240,-0.1,0,"Dragon",200,"","",3,3,1,"","","","","","","","","","Impact Phial","","Guard",2,"",""
+32,"ChargeAxe_069","Arkveld Tree","Veldian Labrys I",23,14000,10,"Charge Blade",7,720,200,0,0,"Dragon",320,"","",3,2,0,"","","","","","","","","","Impact Phial","","Guard",3,"",""
+33,"ChargeAxe_075","Arkveld Tree","Abiding Gawain",23,20000,10,"Charge Blade",8,792,220,0,0,"Dragon",350,"","",3,2,1,"","","","","","","","","","Impact Phial","","Guard",3,"",""
+34,"ChargeAxe_005","Bone Tree","Bone Strongarm I",10003,500,10,"Charge Blade",1,396,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Load Shells",1,"",""
+35,"ChargeAxe_006","Bone Tree","Bone Strongarm II",10003,800,10,"Charge Blade",2,468,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","Impact Phial","","Load Shells",1,"Attack Boost",1
+36,"ChargeAxe_007","Bone Tree","Bone Strongarm III",10003,2600,10,"Charge Blade",4,612,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","Impact Phial","","Load Shells",2,"Attack Boost",1
+37,"ChargeAxe_008","Bone Tree","Bone Strongarm IV",10003,10000,10,"Charge Blade",6,720,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","Impact Phial","","Load Shells",2,"Attack Boost",1
+38,"ChargeAxe_009","Bone Tree","Hard Bone Strongarm",10003,20000,10,"Charge Blade",8,828,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","Impact Phial","","Load Shells",2,"Attack Boost",2
+39,"ChargeAxe_039","Hirabami Tree","Windthrash Charger I",12,1500,10,"Charge Blade",3,504,140,0,0,"Ice",150,"","",0,0,0,"","","","","","","","","","Element Phial","","Focus",2,"Airborne",1
+40,"ChargeAxe_040","Hirabami Tree","Windthrash Charger II",12,5000,10,"Charge Blade",5,612,170,0,0,"Ice",190,"","",2,1,0,"","","","","","","","","","Element Phial","","Focus",2,"Airborne",1
+41,"ChargeAxe_041","Hirabami Tree","Windthrash Charger III",12,14000,10,"Charge Blade",7,720,200,0,0,"Ice",220,"","",3,2,0,"","","","","","","","","","Element Phial","","Focus",3,"Airborne",1
+42,"ChargeAxe_042","Hirabami Tree","Windthrash Tamebami",12,20000,10,"Charge Blade",8,792,220,0,0,"Ice",250,"","",3,2,1,"","","","","","","","","","Element Phial","","Focus",3,"Airborne",1
+43,"ChargeAxe_043","Nu Udra Tree","Nu Pweza I",13,2600,10,"Charge Blade",4,612,170,-0.15,0,"Fire",150,"","",1,0,0,"","","","","","","","","","Element Phial","","Rapid Morph",2,"",""
+44,"ChargeAxe_044","Nu Udra Tree","Nu Pweza II",13,14000,10,"Charge Blade",7,756,210,-0.15,0,"Fire",220,"","",3,2,0,"","","","","","","","","","Element Phial","","Rapid Morph",3,"",""
+45,"ChargeAxe_045","Nu Udra Tree","Abaddonian Pweza",13,20000,10,"Charge Blade",8,828,230,-0.15,0,"Fire",250,"","",3,2,1,"","","","","","","","","","Element Phial","","Rapid Morph",3,"",""
+46,"ChargeAxe_023","Uth Duna Tree","Uth Valeroje I",5,2000,10,"Charge Blade",3,576,160,-0.15,0,"Water",200,"","",0,0,0,"","","","","","","","","","Element Phial","","Power Prolonger",2,"",""
+47,"ChargeAxe_024","Uth Duna Tree","Uth Valeroje II",5,4000,10,"Charge Blade",5,684,190,-0.15,0,"Water",260,"","",2,1,0,"","","","","","","","","","Element Phial","","Power Prolonger",2,"",""
+48,"ChargeAxe_025","Uth Duna Tree","Uth Valeroje III",5,14000,10,"Charge Blade",7,792,220,-0.15,0,"Water",320,"","",3,2,0,"","","","","","","","","","Element Phial","","Power Prolonger",3,"",""
+49,"ChargeAxe_026","Uth Duna Tree","Valeroje-of-the-Waves",5,20000,10,"Charge Blade",8,864,240,-0.15,0,"Water",350,"","",3,2,1,"","","","","","","","","","Element Phial","","Power Prolonger",3,"",""
+50,"ChargeAxe_018","Lala Barina Tree","Barina Bouclier I",3,500,10,"Charge Blade",1,360,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","","","Impact Phial","","Critical Draw",1,"",""
+51,"ChargeAxe_019","Lala Barina Tree","Barina Bouclier II",3,1500,10,"Charge Blade",3,432,120,0.1,0,"Paralysis",130,"","",0,0,0,"","","","","","","","","","Impact Phial","","Critical Draw",1,"Critical Status",1
+52,"ChargeAxe_020","Lala Barina Tree","Barina Bouclier III",3,4000,10,"Charge Blade",5,540,150,0.15,0,"Paralysis",180,"","",2,1,0,"","","","","","","","","","Impact Phial","","Critical Draw",1,"Critical Status",1
+53,"ChargeAxe_021","Lala Barina Tree","Barina Bouclier IV",3,14000,10,"Charge Blade",7,648,180,0.15,0,"Paralysis",210,"","",3,2,0,"","","","","","","","","","Impact Phial","","Critical Draw",2,"Critical Status",1
+54,"ChargeAxe_022","Lala Barina Tree","Lala Eumenophor",4,20000,10,"Charge Blade",8,720,200,0.15,0,"Paralysis",250,"","",3,2,1,"","","","","","","","","","Impact Phial","","Critical Draw",2,"Critical Status",1
+55,"ChargeAxe_035","Nerscylla Tree","Arachnoscale I",11,1500,10,"Charge Blade",3,432,120,0.1,0,"Sleep",130,"","",0,0,0,"","","","","","","","","","Impact Phial","","Offensive Guard",1,"Guard",1
+56,"ChargeAxe_036","Nerscylla Tree","Arachnoscale II",11,5000,10,"Charge Blade",5,540,150,0.15,0,"Sleep",180,"","",2,1,0,"","","","","","","","","","Impact Phial","","Offensive Guard",1,"Guard",1
+57,"ChargeAxe_037","Nerscylla Tree","Arachnoscale III",11,14000,10,"Charge Blade",7,648,180,0.15,0,"Sleep",220,"","",3,2,0,"","","","","","","","","","Impact Phial","","Offensive Guard",2,"Guard",1
+58,"ChargeAxe_038","Nerscylla Tree","Arachnoscythe",11,20000,10,"Charge Blade",8,720,200,0.15,0,"Sleep",250,"","",3,2,1,"","","","","","","","","","Impact Phial","","Offensive Guard",2,"Guard",1
+59,"ChargeAxe_060","Rathian Tree","Dear Lutemis I",8,5000,10,"Charge Blade",5,576,160,0.15,0,"Poison",140,"","",2,1,0,"","","","","","","","","","Impact Phial","","Critical Status",2,"Poison Duration Up",1
+60,"ChargeAxe_061","Rathian Tree","Dear Lutemis II",8,14000,10,"Charge Blade",7,684,190,0.15,0,"Poison",170,"","",3,2,0,"","","","","","","","","","Impact Phial","","Critical Status",3,"Poison Duration Up",1
+61,"ChargeAxe_062","Rathian Tree","Dear Lutemia",8,20000,10,"Charge Blade",8,756,210,0.15,0,"Poison",200,"","",3,2,1,"","","","","","","","","","Impact Phial","","Critical Status",3,"Poison Duration Up",1
+62,"ChargeAxe_065","Rathalos Tree","Axelion Blade I",9,10000,10,"Charge Blade",6,684,190,0.1,0,"Fire",290,"","",2,1,0,"","","","","","","","","","Element Phial","","Critical Boost",3,"",""
+63,"ChargeAxe_066","Rathalos Tree","Bardichion Blade",9,20000,10,"Charge Blade",8,756,210,0.1,0,"Fire",350,"","",3,2,1,"","","","","","","","","","Element Phial","","Critical Boost",3,"",""
+64,"ChargeAxe_067","Gore Magala Tree","Elendskraft I",10,14000,10,"Charge Blade",7,648,180,0.2,0,"Dragon",220,"","",3,2,0,"","","","","","","","","","Impact Phial","","Critical Element",3,"",""
+65,"ChargeAxe_068","Gore Magala Tree","Leidenskraft",10,20000,10,"Charge Blade",8,756,210,0.2,0,"Dragon",250,"","",3,2,1,"","","","","","","","","","Impact Phial","","Critical Element",3,"",""
+66,"ChargeAxe_057","Gypceros Tree","Poison Blade I",16,4000,10,"Charge Blade",5,648,180,0,0,"Poison",260,"","",2,1,0,"","","","","","","","","","Impact Phial","","Punishing Draw",2,"Critical Draw",1
+67,"ChargeAxe_058","Gypceros Tree","Poison Blade II",16,10000,10,"Charge Blade",6,720,200,0,0,"Poison",290,"","",2,1,0,"","","","","","","","","","Impact Phial","","Punishing Draw",2,"Critical Draw",2
+68,"ChargeAxe_059","Gypceros Tree","Venom's Kiss",16,20000,10,"Charge Blade",8,828,230,0,0,"Poison",350,"","",3,2,1,"","","","","","","","","","Impact Phial","","Punishing Draw",3,"Critical Draw",2
+100,"ChargeAxe_070","","Artian Defender I",100002,40,10,"Charge Blade",6,612,170,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","Impact Phial","","","","",""
+101,"ChargeAxe_071","","Artian Defender II",100002,100,10,"Charge Blade",7,648,180,0.05,0,"-",230,"","",2,2,2,"","","","","","","","","","Impact Phial","","","","",""
+102,"ChargeAxe_072","","Chrono Gear",100002,200,10,"Charge Blade",8,684,190,0.05,0,"-",270,"","",3,3,3,"","","","","","","","","","Impact Phial","","","","",""
+0,"Rod_000","Expedition Tree","Hope Glaive I",2,200,11,"Insect Glaive",1,279,90,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",1,"","","",""
+1,"Rod_001","Expedition Tree","Hope Glaive II",2,500,11,"Insect Glaive",1,310,100,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",1,"Speed Sharpening",1,"",""
+2,"Rod_002","Expedition Tree","Hope Glaive III",2,1500,11,"Insect Glaive",3,403,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",3,"Speed Sharpening",1,"Critical Eye",1
+3,"Rod_003","Expedition Tree","Hope Glaive IV",2,4000,11,"Insect Glaive",5,496,160,0,0,"-",0,"","",2,1,0,"","","","","","","","","","",5,"Speed Sharpening",2,"Critical Eye",1
+4,"Rod_004","Expedition Tree","Hope Glaive V",2,14000,11,"Insect Glaive",7,589,190,0,0,"-",0,"","",3,2,0,"","","","","","","","","","",7,"Speed Sharpening",2,"Critical Eye",1
+5,"Rod_076","Expedition Tree","Esperanza Glaive",2,20000,11,"Insect Glaive",8,651,210,0,0,"-",0,"","",3,2,1,"","","","","","","","","","",8,"Speed Sharpening",2,"Critical Eye",2
+6,"Rod_039","G. Rathalos Tree","Guardian Rathmaul I",100000,2600,11,"Insect Glaive",4,496,160,0.15,0,"Fire",120,"","",1,0,0,"","","","","","","","","","",4,"Master's Touch",1,"Critical Element",1
+7,"Rod_040","G. Rathalos Tree","Guardian Rathmaul II",100000,10000,11,"Insect Glaive",6,558,180,0.15,0,"Fire",170,"","",2,1,0,"","","","","","","","","","",6,"Master's Touch",1,"Critical Element",1
+8,"Rod_041","G. Rathalos Tree","Alabaster Rathmaul",100000,20000,11,"Insect Glaive",8,651,210,0.15,0,"Fire",200,"","",3,2,1,"","","","","","","","","","",8,"Master's Touch",1,"Critical Element",1
+9,"Rod_010","Ore Tree","Iron Gale I",10001,800,11,"Insect Glaive",2,372,120,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",2,"Critical Draw",1,"",""
+10,"Rod_011","Ore Tree","Iron Gale II",10001,2600,11,"Insect Glaive",4,496,160,0,0,"-",0,"","",1,1,0,"","","","","","","","","","",4,"Critical Draw",2,"",""
+11,"Rod_012","Ore Tree","Iron Gale III",10001,10000,11,"Insect Glaive",6,589,190,0,0,"-",0,"","",2,2,0,"","","","","","","","","","",6,"Critical Draw",2,"",""
+12,"Rod_013","Ore Tree","Chrome Gale",10001,20000,11,"Insect Glaive",8,682,220,0,0,"-",0,"","",3,3,1,"","","","","","","","","","",8,"Critical Draw",3,"",""
+13,"Rod_042","Jin Dahaad Tree","Jin Dhachhad",20,14000,11,"Insect Glaive",7,589,190,0,0,"Ice",320,"","",3,2,0,"","","","","","","","","","",7,"Power Prolonger",3,"",""
+14,"Rod_043","Jin Dahaad Tree","Precipice Geumgel",20,20000,11,"Insect Glaive",8,651,210,0,0,"Ice",350,"","",3,2,1,"","","","","","","","","","",8,"Power Prolonger",3,"",""
+15,"Rod_046","G. Ebony Tree","Chthonian Vajra I",100001,2600,11,"Insect Glaive",4,434,140,0.1,0,"Dragon",160,"","",1,0,0,"","","","","","","","","","",4,"Focus",2,"",""
+16,"Rod_047","G. Ebony Tree","Chthonian Vajra II",100001,10000,11,"Insect Glaive",6,527,170,0.1,0,"Dragon",210,"","",2,1,0,"","","","","","","","","","",6,"Focus",3,"",""
+17,"Rod_048","G. Ebony Tree","Bequeathed Testament",100001,20000,11,"Insect Glaive",8,651,210,0.1,0,"Dragon",250,"","",3,2,1,"","","","","","","","","","",8,"Focus",3,"",""
+18,"Rod_023","Balahara Tree","Balahara Glaive I",5,800,11,"Insect Glaive",2,341,110,0.1,0,"Water",100,"","",0,0,0,"","","","","","","","","","",2,"Power Prolonger",1,"",""
+19,"Rod_024","Balahara Tree","Balahara Glaive II",5,2600,11,"Insect Glaive",4,465,150,0.1,0,"Water",120,"","",1,0,0,"","","","","","","","","","",4,"Power Prolonger",2,"",""
+20,"Rod_025","Balahara Tree","Balahara Glaive III",5,5000,11,"Insect Glaive",5,496,160,0.1,0,"Water",150,"","",2,1,0,"","","","","","","","","","",5,"Power Prolonger",2,"",""
+21,"Rod_026","Balahara Tree","Balahara Glaive IV",5,14000,11,"Insect Glaive",7,589,190,0.1,0,"Water",170,"","",3,2,0,"","","","","","","","","","",7,"Power Prolonger",3,"",""
+22,"Rod_027","Balahara Tree","Sandsea Uchaltiya",6,20000,11,"Insect Glaive",8,651,210,0.1,0,"Water",200,"","",3,2,1,"","","","","","","","","","",8,"Power Prolonger",3,"",""
+23,"Rod_028","Rey Dau Tree","Rey Halilintar I",7,2000,11,"Insect Glaive",3,434,140,0,0,"Thunder",120,"","",0,0,0,"","","","","","","","","","",3,"Focus",1,"Charge Master",1
+24,"Rod_029","Rey Dau Tree","Rey Halilintar II",7,4000,11,"Insect Glaive",5,527,170,0,0,"Thunder",150,"","",2,1,0,"","","","","","","","","","",5,"Focus",1,"Charge Master",1
+25,"Rod_030","Rey Dau Tree","Rey Halilintar III",7,14000,11,"Insect Glaive",7,620,200,0,0,"Thunder",170,"","",3,2,0,"","","","","","","","","","",7,"Focus",2,"Charge Master",1
+26,"Rod_031","Rey Dau Tree","Halilintar Clairglaive",7,20000,11,"Insect Glaive",8,682,220,0,0,"Thunder",200,"","",3,2,1,"","","","","","","","","","",8,"Focus",2,"Charge Master",1
+27,"Rod_014","Chatacabra Tree","Chata Glaive I",0,500,11,"Insect Glaive",1,341,110,0,15,"-",0,"","",0,0,0,"","","","","","","","","","",1,"Power Prolonger",1,"",""
+28,"Rod_015","Chatacabra Tree","Chata Glaive II",0,1500,11,"Insect Glaive",3,465,150,0,15,"-",0,"","",0,0,0,"","","","","","","","","","",3,"Power Prolonger",2,"",""
+29,"Rod_016","Chatacabra Tree","Chata Glaive III",0,4000,11,"Insect Glaive",5,558,180,0,15,"-",0,"","",2,1,0,"","","","","","","","","","",5,"Power Prolonger",2,"",""
+30,"Rod_017","Chatacabra Tree","Chata Glaive IV",0,14000,11,"Insect Glaive",7,651,210,0,15,"-",0,"","",3,2,0,"","","","","","","","","","",7,"Power Prolonger",3,"",""
+31,"Rod_077","Chatacabra Tree","Shrouded Laphoka",1,20000,11,"Insect Glaive",8,713,230,0,15,"-",0,"","",3,2,1,"","","","","","","","","","",8,"Power Prolonger",3,"",""
+32,"Rod_049","G. Arkveld Tree","G. Veldian Trudis I",19,2600,11,"Insect Glaive",4,527,170,-0.1,0,"Dragon",120,"","",1,1,0,"","","","","","","","","","",4,"Power Prolonger",2,"",""
+33,"Rod_050","G. Arkveld Tree","G. Veldian Trudis II",19,10000,11,"Insect Glaive",6,651,210,-0.1,0,"Dragon",150,"","",2,2,0,"","","","","","","","","","",6,"Power Prolonger",2,"",""
+34,"Rod_051","G. Arkveld Tree","G. Enduring Tor",19,20000,11,"Insect Glaive",8,744,240,-0.1,0,"Dragon",180,"","",3,3,1,"","","","","","","","","","",8,"Power Prolonger",2,"",""
+35,"Rod_072","Arkveld Tree","Veldian Trudis I",23,14000,11,"Insect Glaive",7,620,200,0,0,"Dragon",220,"","",3,2,0,"","","","","","","","","","",7,"Power Prolonger",3,"",""
+36,"Rod_078","Arkveld Tree","Enduring Tor",23,20000,11,"Insect Glaive",8,682,220,0,0,"Dragon",250,"","",3,2,1,"","","","","","","","","","",9,"Power Prolonger",3,"",""
+37,"Rod_005","Bone Tree","Bone Staff I",10003,500,11,"Insect Glaive",1,341,110,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",1,"Focus",1,"",""
+38,"Rod_006","Bone Tree","Bone Staff II",10003,800,11,"Insect Glaive",2,403,130,0,0,"-",0,"","",0,0,0,"","","","","","","","","","",3,"Focus",1,"Attack Boost",1
+39,"Rod_007","Bone Tree","Bone Staff III",10003,2600,11,"Insect Glaive",4,527,170,0,0,"-",0,"","",1,0,0,"","","","","","","","","","",5,"Focus",2,"Attack Boost",1
+40,"Rod_008","Bone Tree","Bone Staff IV",10003,10000,11,"Insect Glaive",6,620,200,0,0,"-",0,"","",2,1,0,"","","","","","","","","","",7,"Focus",3,"Attack Boost",1
+41,"Rod_009","Bone Tree","Aerial Glaive",10003,20000,11,"Insect Glaive",8,713,230,0,0,"-",0,"","",3,2,1,"","","","","","","","","","",10,"Focus",3,"Attack Boost",1
+42,"Rod_036","Ajarakan Tree","Ajara Trident I",12,1500,11,"Insect Glaive",3,403,130,0.1,0,"Blast",120,"","",0,0,0,"","","","","","","","","","",3,"Power Prolonger",2,"",""
+43,"Rod_037","Ajarakan Tree","Ajara Trident II",12,10000,11,"Insect Glaive",6,558,180,0.1,0,"Blast",150,"","",2,1,0,"","","","","","","","","","",6,"Power Prolonger",3,"",""
+44,"Rod_038","Ajarakan Tree","Ajara-Bhadra",12,20000,11,"Insect Glaive",8,651,210,0.1,0,"Blast",180,"","",3,2,1,"","","","","","","","","","",8,"Power Prolonger",3,"",""
+45,"Rod_018","Lala Barina Tree","Barina Perche I",3,500,11,"Insect Glaive",1,310,100,0.1,0,"Paralysis",100,"","",0,0,0,"","","","","","","","","","",1,"Critical Draw",1,"",""
+46,"Rod_019","Lala Barina Tree","Barina Perche II",3,1500,11,"Insect Glaive",3,372,120,0.1,0,"Paralysis",120,"","",0,0,0,"","","","","","","","","","",4,"Critical Draw",1,"Critical Status",1
+47,"Rod_020","Lala Barina Tree","Barina Perche III",3,4000,11,"Insect Glaive",5,465,150,0.15,0,"Paralysis",150,"","",2,1,0,"","","","","","","","","","",6,"Critical Draw",1,"Critical Status",1
+48,"Rod_021","Lala Barina Tree","Barina Perche IV",3,14000,11,"Insect Glaive",7,558,180,0.15,0,"Paralysis",170,"","",3,2,0,"","","","","","","","","","",9,"Critical Draw",2,"Critical Status",1
+49,"Rod_022","Lala Barina Tree","Lala Stromatopelm",4,20000,11,"Insect Glaive",8,620,200,0.15,0,"Paralysis",200,"","",3,2,1,"","","","","","","","","","",10,"Critical Draw",2,"Critical Status",1
+50,"Rod_032","Nerscylla Tree","Stealth Glaive I",11,1500,11,"Insect Glaive",3,372,120,0.1,0,"Sleep",120,"","",0,0,0,"","","","","","","","","","",4,"Charge Master",1,"Focus",1
+51,"Rod_033","Nerscylla Tree","Stealth Glaive II",11,5000,11,"Insect Glaive",5,465,150,0.15,0,"Sleep",150,"","",2,1,0,"","","","","","","","","","",6,"Charge Master",1,"Focus",1
+52,"Rod_034","Nerscylla Tree","Stealth Glaive III",11,14000,11,"Insect Glaive",7,558,180,0.15,0,"Sleep",170,"","",3,2,0,"","","","","","","","","","",9,"Charge Master",2,"Focus",1
+53,"Rod_035","Nerscylla Tree","Stealth Glaive Redux",11,20000,11,"Insect Glaive",8,620,200,0.15,0,"Sleep",200,"","",3,2,1,"","","","","","","","","","",10,"Charge Master",2,"Focus",1
+54,"Rod_054","Yian Kut-Ku Tree","Kut-Ku Pike I",14,4000,11,"Insect Glaive",5,558,180,0,0,"Fire",260,"","",2,1,0,"","","","","","","","","","",6,"Power Prolonger",2,"",""
+55,"Rod_055","Yian Kut-Ku Tree","Kut-Ku Pike II",14,14000,11,"Insect Glaive",7,651,210,0,0,"Fire",320,"","",3,2,0,"","","","","","","","","","",9,"Power Prolonger",3,"",""
+56,"Rod_056","Yian Kut-Ku Tree","Toucan Pike",14,20000,11,"Insect Glaive",8,682,220,0,0,"Fire",350,"","",3,2,1,"","","","","","","","","","",10,"Power Prolonger",3,"",""
+57,"Rod_060","G. Fulgur Tree","Rising Fulgur I",100002,10000,11,"Insect Glaive",6,558,180,0.15,0,"Thunder",210,"","",2,1,0,"","","","","","","","","","",6,"Critical Element",3,"",""
+58,"Rod_061","G. Fulgur Tree","Fulgurglaive Guardiana",100002,20000,11,"Insect Glaive",8,651,210,0.15,0,"Thunder",250,"","",3,2,1,"","","","","","","","","","",8,"Critical Element",3,"",""
+59,"Rod_057","Rathian Tree","Princess Regalia I",8,5000,11,"Insect Glaive",5,496,160,0.15,0,"Poison",120,"","",2,1,0,"","","","","","","","","","",5,"Critical Status",2,"Poison Duration Up",1
+60,"Rod_058","Rathian Tree","Princess Regalia II",8,14000,11,"Insect Glaive",7,589,190,0.15,0,"Poison",150,"","",3,2,0,"","","","","","","","","","",7,"Critical Status",3,"Poison Duration Up",1
+61,"Rod_059","Rathian Tree","Queen Regalia",8,20000,11,"Insect Glaive",8,651,210,0.15,0,"Poison",180,"","",3,2,1,"","","","","","","","","","",8,"Critical Status",3,"Poison Duration Up",1
+62,"Rod_068","Rathalos Tree","Rathmaul I",9,10000,11,"Insect Glaive",6,558,180,0.1,0,"Fire",210,"","",2,1,0,"","","","","","","","","","",6,"Critical Boost",3,"",""
+63,"Rod_069","Rathalos Tree","Firedance Rathmaul",9,20000,11,"Insect Glaive",8,620,200,0.1,0,"Fire",250,"","",3,2,1,"","","","","","","","","","",8,"Critical Boost",3,"",""
+64,"Rod_070","Gore Magala Tree","Leumundslist",10,14000,11,"Insect Glaive",7,558,180,0.2,0,"Dragon",160,"","",3,2,0,"","","","","","","","","","",9,"Critical Element",3,"",""
+65,"Rod_071","Gore Magala Tree","Leumundsgift",10,20000,11,"Insect Glaive",8,620,200,0.2,0,"Dragon",200,"","",3,2,1,"","","","","","","","","","",10,"Critical Element",3,"",""
+66,"Rod_062","Blangonga Tree","Blizzard Glaive I",17,10000,11,"Insect Glaive",6,620,200,-0.1,0,"Ice",140,"","",2,1,0,"","","","","","","","","","",7,"Focus",3,"",""
+67,"Rod_063","Blangonga Tree","Immaculate Blizzard",17,20000,11,"Insect Glaive",8,713,230,-0.1,0,"Ice",180,"","",3,2,1,"","","","","","","","","","",10,"Focus",3,"",""
+68,"Rod_064","Gravios Tree","Graviafaren I",16,10000,11,"Insect Glaive",6,682,220,-0.15,30,"Blast",190,"","",2,2,0,"","","","","","","","","","",5,"Punishing Draw",3,"",""
+69,"Rod_065","Gravios Tree","Gravordius",16,20000,11,"Insect Glaive",8,775,250,-0.15,30,"Blast",250,"","",3,3,1,"","","","","","","","","","",6,"Punishing Draw",3,"",""
+100,"Rod_073","","Artian Glaive I",100003,40,11,"Insect Glaive",6,527,170,0.05,0,"-",220,"","",2,2,2,"","","","","","","","","","",6,"","","",""
+101,"Rod_074","","Artian Glaive II",100003,100,11,"Insect Glaive",7,558,180,0.05,0,"-",220,"","",2,2,2,"","","","","","","","","","",7,"","","",""
+102,"Rod_075","","Diprielcha",100003,200,11,"Insect Glaive",8,589,190,0.05,0,"-",260,"","",3,3,3,"","","","","","","","","","",8,"","","",""

@@ -1,0 +1,1771 @@
+"Monster ID","Monster","Data ID","Reward Type ID","Reward Type","Parts Index","Rank","Item","Number","Probability"
+"EM0001_00_0","Rathian",100,"RW000","Carving",-1,"HIGH","Rathian Scale+",1,0.3
+"EM0001_00_0","Rathian",101,"RW000","Carving",-1,"HIGH","Rathian Carapace",1,0.23
+"EM0001_00_0","Rathian",102,"RW000","Carving",-1,"HIGH","Rathian Webbing",1,0.18
+"EM0001_00_0","Rathian",103,"RW000","Carving",-1,"HIGH","Rathian Spike+",1,0.13
+"EM0001_00_0","Rathian",104,"RW000","Carving",-1,"HIGH","Rath Medulla",1,0.11
+"EM0001_00_0","Rathian",105,"RW000","Carving",-1,"HIGH","Rathian Ruby",1,0.05
+"EM0001_00_0","Rathian",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rathian Scale+",1,0.4
+"EM0001_00_0","Rathian",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rathian Carapace",1,0.3
+"EM0001_00_0","Rathian",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Inferno Sac",1,0.3
+"EM0001_00_0","Rathian",200,"RW001","Carving (Severed Part)",-1,"HIGH","Rathian Spike+",1,0.8
+"EM0001_00_0","Rathian",201,"RW001","Carving (Severed Part)",-1,"HIGH","Rath Medulla",1,0.13
+"EM0001_00_0","Rathian",202,"RW001","Carving (Severed Part)",-1,"HIGH","Rathian Ruby",1,0.07
+"EM0001_00_0","Rathian",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rathian Scale+",1,0.6
+"EM0001_00_0","Rathian",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rathian Spike+",1,0.4
+"EM0001_00_0","Rathian",300,"RW005","Broken Part Rewards",1,"HIGH","Rathian Webbing",1,1
+"EM0001_00_0","Rathian",310,"RW005","Broken Part Rewards",2,"HIGH","Rathian Webbing",1,1
+"EM0001_00_0","Rathian",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Rathian Scale+",1,0.5
+"EM0001_00_0","Rathian",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Rathian Carapace",1,0.42
+"EM0001_00_0","Rathian",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Rathian Spike+",1,0.08
+"EM0001_00_0","Rathian",500,"RW004","Target Rewards",-1,"HIGH","Rathian Certificate S",1,0.08
+"EM0001_00_0","Rathian",500,"RW004","Target Rewards",-1,"HIGH","Rathian Scale+",1,0.23
+"EM0001_00_0","Rathian",500,"RW004","Target Rewards",-1,"HIGH","Rathian Webbing",1,0.33
+"EM0001_00_0","Rathian",500,"RW004","Target Rewards",-1,"HIGH","Rathian Ruby",1,1
+"EM0001_00_0","Rathian",501,"RW004","Target Rewards",-1,"HIGH","Rathian Scale+",1,0.2
+"EM0001_00_0","Rathian",501,"RW004","Target Rewards",-1,"HIGH","Rathian Carapace",1,0.23
+"EM0001_00_0","Rathian",501,"RW004","Target Rewards",-1,"HIGH","Rathian Spike+",1,0.21
+"EM0001_00_0","Rathian",502,"RW004","Target Rewards",-1,"HIGH","Rathian Carapace",1,0.2
+"EM0001_00_0","Rathian",502,"RW004","Target Rewards",-1,"HIGH","Rathian Webbing",1,0.16
+"EM0001_00_0","Rathian",502,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.21
+"EM0001_00_0","Rathian",503,"RW004","Target Rewards",-1,"HIGH","Rathian Webbing",1,0.15
+"EM0001_00_0","Rathian",503,"RW004","Target Rewards",-1,"HIGH","Rathian Spike+",1,0.1
+"EM0001_00_0","Rathian",503,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",2,0.18
+"EM0001_00_0","Rathian",504,"RW004","Target Rewards",-1,"HIGH","Rathian Spike+",1,0.08
+"EM0001_00_0","Rathian",504,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.1
+"EM0001_00_0","Rathian",504,"RW004","Target Rewards",-1,"HIGH","Rathian Ruby",1,0.07
+"EM0001_00_0","Rathian",505,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.08
+"EM0001_00_0","Rathian",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.15
+"EM0001_00_0","Rathian",506,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.18
+"EM0001_00_0","Rathian",506,"RW004","Target Rewards",-1,"HIGH","Rathian Ruby",1,0.03
+"EM0001_00_0","Rathian",507,"RW004","Target Rewards",-1,"HIGH","Rathian Ruby",1,0.03
+"EM0001_00_0","Rathian",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.65
+"EM0001_00_0","Rathian",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0002_00_0","Rathalos",100,"RW000","Carving",-1,"HIGH","Rathalos Scale+",1,0.3
+"EM0002_00_0","Rathalos",101,"RW000","Carving",-1,"HIGH","Rathalos Carapace",1,0.23
+"EM0002_00_0","Rathalos",102,"RW000","Carving",-1,"HIGH","Rathalos Wing",1,0.18
+"EM0002_00_0","Rathalos",103,"RW000","Carving",-1,"HIGH","Rathalos Tail",1,0.13
+"EM0002_00_0","Rathalos",104,"RW000","Carving",-1,"HIGH","Rath Medulla",1,0.11
+"EM0002_00_0","Rathalos",105,"RW000","Carving",-1,"HIGH","Rathalos Ruby",1,0.05
+"EM0002_00_0","Rathalos",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rathalos Scale+",1,0.4
+"EM0002_00_0","Rathalos",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rathalos Carapace",1,0.3
+"EM0002_00_0","Rathalos",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Inferno Sac",1,0.3
+"EM0002_00_0","Rathalos",200,"RW001","Carving (Severed Part)",-1,"HIGH","Rathalos Tail",1,0.8
+"EM0002_00_0","Rathalos",201,"RW001","Carving (Severed Part)",-1,"HIGH","Rath Medulla",1,0.13
+"EM0002_00_0","Rathalos",202,"RW001","Carving (Severed Part)",-1,"HIGH","Rathalos Ruby",1,0.07
+"EM0002_00_0","Rathalos",250,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rathalos Scale+",1,0.6
+"EM0002_00_0","Rathalos",251,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rathalos Tail",1,0.4
+"EM0002_00_0","Rathalos",300,"RW005","Broken Part Rewards",1,"HIGH","Rathalos Wing",1,1
+"EM0002_00_0","Rathalos",310,"RW005","Broken Part Rewards",2,"HIGH","Rathalos Wing",1,1
+"EM0002_00_0","Rathalos",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Rathalos Scale+",1,0.5
+"EM0002_00_0","Rathalos",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Rathalos Carapace",1,0.5
+"EM0002_00_0","Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Rathalos Certificate S",1,0.08
+"EM0002_00_0","Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Rathalos Scale+",1,0.23
+"EM0002_00_0","Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Rathalos Wing",1,0.33
+"EM0002_00_0","Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Rathalos Ruby",1,1
+"EM0002_00_0","Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Rathalos Scale+",1,0.2
+"EM0002_00_0","Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Rathalos Carapace",1,0.23
+"EM0002_00_0","Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Rathalos Tail",1,0.21
+"EM0002_00_0","Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Rathalos Carapace",1,0.2
+"EM0002_00_0","Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Rathalos Wing",1,0.16
+"EM0002_00_0","Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.21
+"EM0002_00_0","Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Rathalos Wing",1,0.15
+"EM0002_00_0","Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Rathalos Tail",1,0.1
+"EM0002_00_0","Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",2,0.18
+"EM0002_00_0","Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Rathalos Tail",1,0.08
+"EM0002_00_0","Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.1
+"EM0002_00_0","Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Rathalos Ruby",1,0.07
+"EM0002_00_0","Rathalos",505,"RW004","Target Rewards",-1,"HIGH","Rath Medulla",1,0.08
+"EM0002_00_0","Rathalos",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.15
+"EM0002_00_0","Rathalos",506,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.18
+"EM0002_00_0","Rathalos",506,"RW004","Target Rewards",-1,"HIGH","Rathalos Ruby",1,0.03
+"EM0002_00_0","Rathalos",508,"RW004","Target Rewards",-1,"HIGH","Rathalos Ruby",1,0.03
+"EM0002_00_0","Rathalos",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0002_00_0","Rathalos",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0002_00_0","Rathalos",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0002_50_0","Guardian Rathalos",100,"RW000","Carving",-1,"LOW","Guardian Rathalos Scale",1,0.33
+"EM0002_50_0","Guardian Rathalos",101,"RW000","Carving",-1,"LOW","Guardian Rathalos Shell",1,0.27
+"EM0002_50_0","Guardian Rathalos",102,"RW000","Carving",-1,"LOW","Guardian Rathalos Webbing",1,0.22
+"EM0002_50_0","Guardian Rathalos",103,"RW000","Carving",-1,"LOW","Guardian Rathalos Tail",1,0.13
+"EM0002_50_0","Guardian Rathalos",104,"RW000","Carving",-1,"LOW","Guardian Rathalos Plate",1,0.05
+"EM0002_50_0","Guardian Rathalos",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Rathalos Scale",1,0.4
+"EM0002_50_0","Guardian Rathalos",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Rathalos Shell",1,0.3
+"EM0002_50_0","Guardian Rathalos",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Flame Sac",1,0.3
+"EM0002_50_0","Guardian Rathalos",120,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Crushed Crystal",1,0.75
+"EM0002_50_0","Guardian Rathalos",121,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Cloudy Crystal",1,0.25
+"EM0002_50_0","Guardian Rathalos",200,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Rathalos Tail",1,0.93
+"EM0002_50_0","Guardian Rathalos",201,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Rathalos Plate",1,0.07
+"EM0002_50_0","Guardian Rathalos",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Rathalos Scale",1,0.6
+"EM0002_50_0","Guardian Rathalos",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Rathalos Tail",1,0.4
+"EM0002_50_0","Guardian Rathalos",300,"RW005","Broken Part Rewards",0,"LOW","Guardian Rathalos Webbing",1,1
+"EM0002_50_0","Guardian Rathalos",310,"RW005","Broken Part Rewards",1,"LOW","Guardian Rathalos Webbing",1,1
+"EM0002_50_0","Guardian Rathalos",400,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Rathalos Scale",1,0.45
+"EM0002_50_0","Guardian Rathalos",401,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Rathalos Shell",1,0.35
+"EM0002_50_0","Guardian Rathalos",402,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Scale",1,0.12
+"EM0002_50_0","Guardian Rathalos",403,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Blood",1,0.08
+"EM0002_50_0","Guardian Rathalos",500,"RW004","Target Rewards",-1,"LOW","G. Rathalos Certificate",1,0.08
+"EM0002_50_0","Guardian Rathalos",501,"RW004","Target Rewards",-1,"LOW","Guardian Rathalos Scale",1,0.22
+"EM0002_50_0","Guardian Rathalos",502,"RW004","Target Rewards",-1,"LOW","Guardian Rathalos Shell",1,0.22
+"EM0002_50_0","Guardian Rathalos",503,"RW004","Target Rewards",-1,"LOW","Guardian Rathalos Webbing",1,0.15
+"EM0002_50_0","Guardian Rathalos",504,"RW004","Target Rewards",-1,"LOW","Guardian Rathalos Tail",1,0.1
+"EM0002_50_0","Guardian Rathalos",505,"RW004","Target Rewards",-1,"LOW","Flame Sac",1,0.2
+"EM0002_50_0","Guardian Rathalos",506,"RW004","Target Rewards",-1,"LOW","Guardian Rathalos Plate",1,0.03
+"EM0002_50_0","Guardian Rathalos",100,"RW000","Carving",-1,"HIGH","Guardian Rathalos Scale+",1,0.33
+"EM0002_50_0","Guardian Rathalos",101,"RW000","Carving",-1,"HIGH","Guardian Rathalos Carapace",1,0.27
+"EM0002_50_0","Guardian Rathalos",102,"RW000","Carving",-1,"HIGH","Guardian Rathalos Wing",1,0.24
+"EM0002_50_0","Guardian Rathalos",103,"RW000","Carving",-1,"HIGH","Guardian Rathalos Tail",1,0.11
+"EM0002_50_0","Guardian Rathalos",104,"RW000","Carving",-1,"HIGH","Guardian Rathalos Ruby",1,0.05
+"EM0002_50_0","Guardian Rathalos",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Rathalos Scale+",1,0.4
+"EM0002_50_0","Guardian Rathalos",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Rathalos Carapace",1,0.3
+"EM0002_50_0","Guardian Rathalos",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Inferno Sac",1,0.3
+"EM0002_50_0","Guardian Rathalos",120,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Cloudy Crystal",1,0.83
+"EM0002_50_0","Guardian Rathalos",121,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Coruscating Crystal",1,0.17
+"EM0002_50_0","Guardian Rathalos",200,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Rathalos Tail",1,0.93
+"EM0002_50_0","Guardian Rathalos",201,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Rathalos Ruby",1,0.07
+"EM0002_50_0","Guardian Rathalos",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Rathalos Scale+",1,0.6
+"EM0002_50_0","Guardian Rathalos",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Rathalos Tail",1,0.4
+"EM0002_50_0","Guardian Rathalos",300,"RW005","Broken Part Rewards",0,"HIGH","Guardian Rathalos Wing",1,1
+"EM0002_50_0","Guardian Rathalos",310,"RW005","Broken Part Rewards",1,"HIGH","Guardian Rathalos Wing",1,1
+"EM0002_50_0","Guardian Rathalos",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Rathalos Scale+",1,0.45
+"EM0002_50_0","Guardian Rathalos",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Rathalos Carapace",1,0.35
+"EM0002_50_0","Guardian Rathalos",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Scale+",1,0.12
+"EM0002_50_0","Guardian Rathalos",403,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Blood+",1,0.08
+"EM0002_50_0","Guardian Rathalos",500,"RW004","Target Rewards",-1,"HIGH","G. Rathalos Certificate S",1,0.08
+"EM0002_50_0","Guardian Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Scale+",1,0.23
+"EM0002_50_0","Guardian Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Wing",1,0.3
+"EM0002_50_0","Guardian Rathalos",500,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Ruby",1,1
+"EM0002_50_0","Guardian Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Scale+",1,0.2
+"EM0002_50_0","Guardian Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Carapace",1,0.23
+"EM0002_50_0","Guardian Rathalos",501,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Tail",1,0.27
+"EM0002_50_0","Guardian Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Carapace",1,0.2
+"EM0002_50_0","Guardian Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Wing",1,0.15
+"EM0002_50_0","Guardian Rathalos",502,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",2,0.15
+"EM0002_50_0","Guardian Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Wing",1,0.15
+"EM0002_50_0","Guardian Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Tail",1,0.09
+"EM0002_50_0","Guardian Rathalos",503,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Plate",1,0.21
+"EM0002_50_0","Guardian Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Tail",1,0.1
+"EM0002_50_0","Guardian Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.2
+"EM0002_50_0","Guardian Rathalos",504,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Ruby",1,0.07
+"EM0002_50_0","Guardian Rathalos",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.17
+"EM0002_50_0","Guardian Rathalos",505,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Plate",1,0.07
+"EM0002_50_0","Guardian Rathalos",506,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Plate",1,0.07
+"EM0002_50_0","Guardian Rathalos",506,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Ruby",1,0.03
+"EM0002_50_0","Guardian Rathalos",507,"RW004","Target Rewards",-1,"","","",""
+"EM0002_50_0","Guardian Rathalos",507,"RW004","Target Rewards",-1,"HIGH","Guardian Rathalos Ruby",1,0.03
+"EM0002_50_0","Guardian Rathalos",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0002_50_0","Guardian Rathalos",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0002_50_0","Guardian Rathalos",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0005_00_0","Gravios",100,"RW000","Carving",-1,"HIGH","Gravios Carapace",1,0.3
+"EM0005_00_0","Gravios",101,"RW000","Carving",-1,"HIGH","Gravios Wing",1,0.23
+"EM0005_00_0","Gravios",102,"RW000","Carving",-1,"HIGH","Gravios Pleura+",1,0.18
+"EM0005_00_0","Gravios",103,"RW000","Carving",-1,"HIGH","Gravios Skull",1,0.13
+"EM0005_00_0","Gravios",104,"RW000","Carving",-1,"HIGH","Gravios Medulla",1,0.11
+"EM0005_00_0","Gravios",105,"RW000","Carving",-1,"HIGH","Wyvern Gem",1,0.05
+"EM0005_00_0","Gravios",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Gravios Carapace",1,0.4
+"EM0005_00_0","Gravios",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Inferno Sac",1,0.3
+"EM0005_00_0","Gravios",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Coma Sac",1,0.3
+"EM0005_00_0","Gravios",200,"RW001","Carving (Severed Part)",-1,"HIGH","Gravios Carapace",1,0.78
+"EM0005_00_0","Gravios",201,"RW001","Carving (Severed Part)",-1,"HIGH","Gravios Medulla",1,0.22
+"EM0005_00_0","Gravios",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Gravios Carapace",1,1
+"EM0005_00_0","Gravios",300,"RW005","Broken Part Rewards",0,"HIGH","Gravios Skull",1,1
+"EM0005_00_0","Gravios",310,"RW005","Broken Part Rewards",2,"HIGH","Gravios Pleura+",1,1
+"EM0005_00_0","Gravios",320,"RW005","Broken Part Rewards",3,"HIGH","Gravios Carapace",1,0.6
+"EM0005_00_0","Gravios",321,"RW005","Broken Part Rewards",3,"HIGH","Firecell Stone",1,0.4
+"EM0005_00_0","Gravios",330,"RW005","Broken Part Rewards",6,"HIGH","Gravios Wing",1,1
+"EM0005_00_0","Gravios",331,"RW005","Broken Part Rewards",7,"HIGH","Gravios Wing",1,1
+"EM0005_00_0","Gravios",340,"RW005","Broken Part Rewards",4,"HIGH","Gravios Carapace",1,0.6
+"EM0005_00_0","Gravios",341,"RW005","Broken Part Rewards",4,"HIGH","Firecell Stone",1,0.4
+"EM0005_00_0","Gravios",345,"RW005","Broken Part Rewards",5,"HIGH","Gravios Carapace",1,0.6
+"EM0005_00_0","Gravios",346,"RW005","Broken Part Rewards",5,"HIGH","Firecell Stone",1,0.4
+"EM0005_00_0","Gravios",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Gravios Carapace",1,0.8
+"EM0005_00_0","Gravios",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Firecell Stone",1,0.2
+"EM0005_00_0","Gravios",500,"RW004","Target Rewards",-1,"HIGH","Gravios Certificate S",1,0.08
+"EM0005_00_0","Gravios",500,"RW004","Target Rewards",-1,"HIGH","Gravios Carapace",1,0.21
+"EM0005_00_0","Gravios",500,"RW004","Target Rewards",-1,"HIGH","Gravios Wing",1,0.21
+"EM0005_00_0","Gravios",500,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,1
+"EM0005_00_0","Gravios",501,"RW004","Target Rewards",-1,"HIGH","Gravios Carapace",1,0.2
+"EM0005_00_0","Gravios",501,"RW004","Target Rewards",-1,"HIGH","Gravios Wing",1,0.2
+"EM0005_00_0","Gravios",501,"RW004","Target Rewards",-1,"HIGH","Gravios Pleura+",1,0.2
+"EM0005_00_0","Gravios",502,"RW004","Target Rewards",-1,"HIGH","Gravios Wing",1,0.2
+"EM0005_00_0","Gravios",502,"RW004","Target Rewards",-1,"HIGH","Gravios Pleura+",1,0.16
+"EM0005_00_0","Gravios",502,"RW004","Target Rewards",-1,"HIGH","Gravios Skull",1,0.2
+"EM0005_00_0","Gravios",503,"RW004","Target Rewards",-1,"HIGH","Gravios Pleura+",1,0.15
+"EM0005_00_0","Gravios",503,"RW004","Target Rewards",-1,"HIGH","Gravios Skull",1,0.1
+"EM0005_00_0","Gravios",503,"RW004","Target Rewards",-1,"HIGH","Gravios Medulla",1,0.18
+"EM0005_00_0","Gravios",504,"RW004","Target Rewards",-1,"HIGH","Gravios Medulla",1,0.08
+"EM0005_00_0","Gravios",504,"RW004","Target Rewards",-1,"HIGH","Gravios Medulla",1,0.1
+"EM0005_00_0","Gravios",504,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",2,0.07
+"EM0005_00_0","Gravios",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.13
+"EM0005_00_0","Gravios",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.1
+"EM0005_00_0","Gravios",505,"RW004","Target Rewards",-1,"HIGH","Coma Sac",2,0.07
+"EM0005_00_0","Gravios",506,"RW004","Target Rewards",-1,"HIGH","Coma Sac",1,0.13
+"EM0005_00_0","Gravios",506,"RW004","Target Rewards",-1,"HIGH","Coma Sac",1,0.1
+"EM0005_00_0","Gravios",506,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0005_00_0","Gravios",507,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0005_00_0","Gravios",507,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0005_00_0","Gravios",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0005_00_0","Gravios",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0005_00_0","Gravios",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0008_00_0","Yian Kut-Ku",100,"RW000","Carving",-1,"HIGH","Kut-Ku Scale+",1,0.3
+"EM0008_00_0","Yian Kut-Ku",101,"RW000","Carving",-1,"HIGH","Kut-Ku Carapace",1,0.23
+"EM0008_00_0","Yian Kut-Ku",102,"RW000","Carving",-1,"HIGH","Kut-Ku Wing",1,0.18
+"EM0008_00_0","Yian Kut-Ku",103,"RW000","Carving",-1,"HIGH","Kut-Ku Ear",1,0.13
+"EM0008_00_0","Yian Kut-Ku",104,"RW000","Carving",-1,"HIGH","Giant Beak",1,0.11
+"EM0008_00_0","Yian Kut-Ku",105,"RW000","Carving",-1,"HIGH","Bird Wyvern Gem",1,0.05
+"EM0008_00_0","Yian Kut-Ku",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Kut-Ku Scale+",1,0.4
+"EM0008_00_0","Yian Kut-Ku",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Kut-Ku Carapace",1,0.3
+"EM0008_00_0","Yian Kut-Ku",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Inferno Sac",1,0.3
+"EM0008_00_0","Yian Kut-Ku",260,"RW005","Broken Part Rewards",0,"HIGH","Kut-Ku Ear",1,1
+"EM0008_00_0","Yian Kut-Ku",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Kut-Ku Scale+",1,0.5
+"EM0008_00_0","Yian Kut-Ku",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Kut-Ku Carapace",1,0.5
+"EM0008_00_0","Yian Kut-Ku",500,"RW004","Target Rewards",-1,"HIGH","Yian Kut-Ku Certificate S",1,0.08
+"EM0008_00_0","Yian Kut-Ku",500,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Scale+",1,0.23
+"EM0008_00_0","Yian Kut-Ku",500,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Wing",1,0.33
+"EM0008_00_0","Yian Kut-Ku",500,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,1
+"EM0008_00_0","Yian Kut-Ku",501,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Scale+",1,0.2
+"EM0008_00_0","Yian Kut-Ku",501,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Carapace",1,0.23
+"EM0008_00_0","Yian Kut-Ku",501,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Ear",1,0.21
+"EM0008_00_0","Yian Kut-Ku",502,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Carapace",1,0.2
+"EM0008_00_0","Yian Kut-Ku",502,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Wing",1,0.16
+"EM0008_00_0","Yian Kut-Ku",502,"RW004","Target Rewards",-1,"HIGH","Giant Beak",1,0.21
+"EM0008_00_0","Yian Kut-Ku",503,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Wing",1,0.15
+"EM0008_00_0","Yian Kut-Ku",503,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Ear",1,0.1
+"EM0008_00_0","Yian Kut-Ku",503,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",2,0.18
+"EM0008_00_0","Yian Kut-Ku",504,"RW004","Target Rewards",-1,"HIGH","Kut-Ku Ear",1,0.08
+"EM0008_00_0","Yian Kut-Ku",504,"RW004","Target Rewards",-1,"HIGH","Giant Beak",1,0.1
+"EM0008_00_0","Yian Kut-Ku",504,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.07
+"EM0008_00_0","Yian Kut-Ku",505,"RW004","Target Rewards",-1,"HIGH","Giant Beak",1,0.08
+"EM0008_00_0","Yian Kut-Ku",505,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.15
+"EM0008_00_0","Yian Kut-Ku",506,"RW004","Target Rewards",-1,"HIGH","Inferno Sac",1,0.18
+"EM0008_00_0","Yian Kut-Ku",506,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.03
+"EM0008_00_0","Yian Kut-Ku",507,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.03
+"EM0008_00_0","Yian Kut-Ku",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0008_00_0","Yian Kut-Ku",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0008_00_0","Yian Kut-Ku",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0009_00_0","Gypceros",100,"RW000","Carving",-1,"HIGH","Rubbery Hide+",1,0.33
+"EM0009_00_0","Gypceros",101,"RW000","Carving",-1,"HIGH","Gypceros Wing",1,0.27
+"EM0009_00_0","Gypceros",102,"RW000","Carving",-1,"HIGH","Gypceros Tail",1,0.2
+"EM0009_00_0","Gypceros",103,"RW000","Carving",-1,"HIGH","Gypceros Head",1,0.15
+"EM0009_00_0","Gypceros",104,"RW000","Carving",-1,"HIGH","Bird Wyvern Gem",1,0.05
+"EM0009_00_0","Gypceros",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rubbery Hide+",1,0.4
+"EM0009_00_0","Gypceros",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Dash Extract",1,0.3
+"EM0009_00_0","Gypceros",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Toxin Sac",1,0.3
+"EM0009_00_0","Gypceros",300,"RW005","Broken Part Rewards",0,"HIGH","Gypceros Head",1,0.7
+"EM0009_00_0","Gypceros",301,"RW005","Broken Part Rewards",0,"HIGH","Novacrystal",1,0.3
+"EM0009_00_0","Gypceros",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Rubbery Hide+",1,0.45
+"EM0009_00_0","Gypceros",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Dash Extract",1,0.43
+"EM0009_00_0","Gypceros",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Novacrystal",1,0.12
+"EM0009_00_0","Gypceros",500,"RW004","Target Rewards",-1,"HIGH","Gypceros Certificate S",1,0.08
+"EM0009_00_0","Gypceros",500,"RW004","Target Rewards",-1,"HIGH","Rubbery Hide+",1,0.26
+"EM0009_00_0","Gypceros",500,"RW004","Target Rewards",-1,"HIGH","Gypceros Tail",1,0.38
+"EM0009_00_0","Gypceros",500,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,1
+"EM0009_00_0","Gypceros",501,"RW004","Target Rewards",-1,"HIGH","Rubbery Hide+",1,0.22
+"EM0009_00_0","Gypceros",501,"RW004","Target Rewards",-1,"HIGH","Gypceros Wing",1,0.26
+"EM0009_00_0","Gypceros",501,"RW004","Target Rewards",-1,"HIGH","Gypceros Head",1,0.3
+"EM0009_00_0","Gypceros",502,"RW004","Target Rewards",-1,"HIGH","Gypceros Wing",1,0.22
+"EM0009_00_0","Gypceros",502,"RW004","Target Rewards",-1,"HIGH","Gypceros Tail",1,0.15
+"EM0009_00_0","Gypceros",502,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",2,0.25
+"EM0009_00_0","Gypceros",503,"RW004","Target Rewards",-1,"HIGH","Gypceros Tail",1,0.15
+"EM0009_00_0","Gypceros",503,"RW004","Target Rewards",-1,"HIGH","Gypceros Head",1,0.1
+"EM0009_00_0","Gypceros",503,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.07
+"EM0009_00_0","Gypceros",504,"RW004","Target Rewards",-1,"HIGH","Gypceros Head",1,0.1
+"EM0009_00_0","Gypceros",504,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",1,0.2
+"EM0009_00_0","Gypceros",505,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",1,0.2
+"EM0009_00_0","Gypceros",505,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.03
+"EM0009_00_0","Gypceros",506,"RW004","Target Rewards",-1,"HIGH","Bird Wyvern Gem",1,0.03
+"EM0009_00_0","Gypceros",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0009_00_0","Gypceros",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0009_00_0","Gypceros",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0021_00_0","Congalala",100,"RW000","Carving",-1,"LOW","Congalala Pelt",1,0.35
+"EM0021_00_0","Congalala",101,"RW000","Carving",-1,"LOW","Congalala Fang",1,0.3
+"EM0021_00_0","Congalala",102,"RW000","Carving",-1,"LOW","Congalala Claw",1,0.2
+"EM0021_00_0","Congalala",103,"RW000","Carving",-1,"LOW","Vibrant Pelt",1,0.15
+"EM0021_00_0","Congalala",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Congalala Pelt",1,0.4
+"EM0021_00_0","Congalala",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Congalala Fang",1,0.3
+"EM0021_00_0","Congalala",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Brute Bone",1,0.3
+"EM0021_00_0","Congalala",300,"RW005","Broken Part Rewards",0,"LOW","Vibrant Pelt",1,1
+"EM0021_00_0","Congalala",310,"RW005","Broken Part Rewards",1,"LOW","Congalala Claw",1,1
+"EM0021_00_0","Congalala",320,"RW005","Broken Part Rewards",2,"LOW","Congalala Claw",1,1
+"EM0021_00_0","Congalala",330,"RW005","Broken Part Rewards",3,"LOW","Congalala Pelt",1,1
+"EM0021_00_0","Congalala",400,"RW006","Wound Destroyed Reward",-1,"LOW","Congalala Pelt",1,1
+"EM0021_00_0","Congalala",500,"RW004","Target Rewards",-1,"LOW","Congalala Certificate",1,0.08
+"EM0021_00_0","Congalala",501,"RW004","Target Rewards",-1,"LOW","Congalala Pelt",1,0.27
+"EM0021_00_0","Congalala",502,"RW004","Target Rewards",-1,"LOW","Congalala Fang",1,0.27
+"EM0021_00_0","Congalala",503,"RW004","Target Rewards",-1,"LOW","Congalala Claw",1,0.23
+"EM0021_00_0","Congalala",504,"RW004","Target Rewards",-1,"LOW","Vibrant Pelt",1,0.15
+"EM0021_00_0","Congalala",100,"RW000","Carving",-1,"HIGH","Congalala Pelt+",1,0.33
+"EM0021_00_0","Congalala",101,"RW000","Carving",-1,"HIGH","Congalala Fang+",1,0.27
+"EM0021_00_0","Congalala",102,"RW000","Carving",-1,"HIGH","Congalala Claw+",1,0.2
+"EM0021_00_0","Congalala",103,"RW000","Carving",-1,"HIGH","Vibrant Pelt+",1,0.15
+"EM0021_00_0","Congalala",104,"RW000","Carving",-1,"HIGH","Beast Gem",1,0.05
+"EM0021_00_0","Congalala",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Congalala Pelt+",1,0.4
+"EM0021_00_0","Congalala",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Congalala Fang+",1,0.3
+"EM0021_00_0","Congalala",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Stoutbone",1,0.3
+"EM0021_00_0","Congalala",300,"RW005","Broken Part Rewards",0,"HIGH","Vibrant Pelt+",1,1
+"EM0021_00_0","Congalala",310,"RW005","Broken Part Rewards",1,"HIGH","Congalala Claw+",1,1
+"EM0021_00_0","Congalala",320,"RW005","Broken Part Rewards",2,"HIGH","Congalala Claw+",1,1
+"EM0021_00_0","Congalala",330,"RW005","Broken Part Rewards",3,"HIGH","Congalala Pelt+",1,1
+"EM0021_00_0","Congalala",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Congalala Pelt+",1,1
+"EM0021_00_0","Congalala",500,"RW004","Target Rewards",-1,"HIGH","Congalala Certificate S",1,0.08
+"EM0021_00_0","Congalala",500,"RW004","Target Rewards",-1,"HIGH","Congalala Pelt+",1,0.31
+"EM0021_00_0","Congalala",500,"RW004","Target Rewards",-1,"HIGH","Congalala Claw+",1,0.54
+"EM0021_00_0","Congalala",500,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,1
+"EM0021_00_0","Congalala",501,"RW004","Target Rewards",-1,"HIGH","Congalala Pelt+",1,0.27
+"EM0021_00_0","Congalala",501,"RW004","Target Rewards",-1,"HIGH","Congalala Fang+",1,0.31
+"EM0021_00_0","Congalala",501,"RW004","Target Rewards",-1,"HIGH","Vibrant Pelt+",1,0.39
+"EM0021_00_0","Congalala",502,"RW004","Target Rewards",-1,"HIGH","Congalala Fang+",1,0.27
+"EM0021_00_0","Congalala",502,"RW004","Target Rewards",-1,"HIGH","Congalala Claw+",1,0.2
+"EM0021_00_0","Congalala",502,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.07
+"EM0021_00_0","Congalala",503,"RW004","Target Rewards",-1,"HIGH","Congalala Claw+",1,0.2
+"EM0021_00_0","Congalala",503,"RW004","Target Rewards",-1,"HIGH","Vibrant Pelt+",1,0.15
+"EM0021_00_0","Congalala",504,"RW004","Target Rewards",-1,"HIGH","Vibrant Pelt+",1,0.15
+"EM0021_00_0","Congalala",504,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0021_00_0","Congalala",505,"RW004","Target Rewards",-1,"","","",""
+"EM0021_00_0","Congalala",505,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0021_00_0","Congalala",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0021_00_0","Congalala",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0021_00_0","Congalala",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0022_00_0","Blangonga",100,"RW000","Carving",-1,"HIGH","Blangonga Pelt+",1,0.33
+"EM0022_00_0","Blangonga",101,"RW000","Carving",-1,"HIGH","Blangonga Whisker",1,0.27
+"EM0022_00_0","Blangonga",102,"RW000","Carving",-1,"HIGH","Blangonga Fang+",1,0.2
+"EM0022_00_0","Blangonga",103,"RW000","Carving",-1,"HIGH","Blangonga Tail",1,0.15
+"EM0022_00_0","Blangonga",104,"RW000","Carving",-1,"HIGH","Beast Gem",1,0.05
+"EM0022_00_0","Blangonga",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Blangonga Pelt+",1,0.4
+"EM0022_00_0","Blangonga",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Blangonga Whisker",1,0.3
+"EM0022_00_0","Blangonga",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Great Stoutbone",1,0.3
+"EM0022_00_0","Blangonga",300,"RW005","Broken Part Rewards",0,"HIGH","Blangonga Fang+",1,1
+"EM0022_00_0","Blangonga",305,"RW005","Broken Part Rewards",1,"HIGH","Blangonga Fang+",1,1
+"EM0022_00_0","Blangonga",310,"RW005","Broken Part Rewards",2,"HIGH","Blangonga Tail",1,1
+"EM0022_00_0","Blangonga",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Blangonga Pelt+",1,1
+"EM0022_00_0","Blangonga",500,"RW004","Target Rewards",-1,"HIGH","Blangonga Certificate S",1,0.08
+"EM0022_00_0","Blangonga",500,"RW004","Target Rewards",-1,"HIGH","Blangonga Pelt+",1,0.31
+"EM0022_00_0","Blangonga",500,"RW004","Target Rewards",-1,"HIGH","Blangonga Fang+",1,0.54
+"EM0022_00_0","Blangonga",500,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,1
+"EM0022_00_0","Blangonga",501,"RW004","Target Rewards",-1,"HIGH","Blangonga Pelt+",1,0.27
+"EM0022_00_0","Blangonga",501,"RW004","Target Rewards",-1,"HIGH","Blangonga Whisker",1,0.31
+"EM0022_00_0","Blangonga",501,"RW004","Target Rewards",-1,"HIGH","Blangonga Tail",1,0.39
+"EM0022_00_0","Blangonga",502,"RW004","Target Rewards",-1,"HIGH","Blangonga Whisker",1,0.27
+"EM0022_00_0","Blangonga",502,"RW004","Target Rewards",-1,"HIGH","Blangonga Fang+",1,0.2
+"EM0022_00_0","Blangonga",502,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.07
+"EM0022_00_0","Blangonga",503,"RW004","Target Rewards",-1,"HIGH","Blangonga Fang+",1,0.2
+"EM0022_00_0","Blangonga",503,"RW004","Target Rewards",-1,"HIGH","Blangonga Tail",1,0.15
+"EM0022_00_0","Blangonga",504,"RW004","Target Rewards",-1,"HIGH","Blangonga Tail",1,0.15
+"EM0022_00_0","Blangonga",504,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0022_00_0","Blangonga",505,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0022_00_0","Blangonga",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0022_00_0","Blangonga",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0022_00_0","Blangonga",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0070_00_0","Nerscylla",100,"RW000","Carving",-1,"LOW","Nerscylla Shell",1,0.35
+"EM0070_00_0","Nerscylla",101,"RW000","Carving",-1,"LOW","Nerscylla Chelicera",1,0.3
+"EM0070_00_0","Nerscylla",102,"RW000","Carving",-1,"LOW","Nerscylla Claw",1,0.2
+"EM0070_00_0","Nerscylla",103,"RW000","Carving",-1,"LOW","Nerscylla Spike",1,0.15
+"EM0070_00_0","Nerscylla",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Nerscylla Shell",1,0.4
+"EM0070_00_0","Nerscylla",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Nerscylla Chelicera",1,0.3
+"EM0070_00_0","Nerscylla",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Sleep Sac",1,0.3
+"EM0070_00_0","Nerscylla",220,"RW005","Broken Part Rewards",1,"LOW","Nerscylla Spike",1,1
+"EM0070_00_0","Nerscylla",230,"RW005","Broken Part Rewards",2,"LOW","Rubbery Hide",1,1
+"EM0070_00_0","Nerscylla",240,"RW005","Broken Part Rewards",3,"LOW","Nerscylla Claw",1,1
+"EM0070_00_0","Nerscylla",300,"RW006","Wound Destroyed Reward",-1,"LOW","Nerscylla Shell",1,0.5
+"EM0070_00_0","Nerscylla",301,"RW006","Wound Destroyed Reward",-1,"LOW","Rubbery Hide",1,0.38
+"EM0070_00_0","Nerscylla",302,"RW006","Wound Destroyed Reward",-1,"LOW","Nerscylla Spike",1,0.12
+"EM0070_00_0","Nerscylla",500,"RW004","Target Rewards",-1,"LOW","Nerscylla Certificate",1,0.08
+"EM0070_00_0","Nerscylla",501,"RW004","Target Rewards",-1,"LOW","Nerscylla Shell",1,0.2
+"EM0070_00_0","Nerscylla",502,"RW004","Target Rewards",-1,"LOW","Nerscylla Chelicera",1,0.2
+"EM0070_00_0","Nerscylla",503,"RW004","Target Rewards",-1,"LOW","Nerscylla Claw",1,0.15
+"EM0070_00_0","Nerscylla",504,"RW004","Target Rewards",-1,"LOW","Rubbery Hide",1,0.08
+"EM0070_00_0","Nerscylla",505,"RW004","Target Rewards",-1,"LOW","Nerscylla Spike",1,0.08
+"EM0070_00_0","Nerscylla",506,"RW004","Target Rewards",-1,"LOW","Sleep Sac",1,0.21
+"EM0070_00_0","Nerscylla",100,"RW000","Carving",-1,"HIGH","Nerscylla Carapace",1,0.35
+"EM0070_00_0","Nerscylla",101,"RW000","Carving",-1,"HIGH","Nerscylla Shear",1,0.3
+"EM0070_00_0","Nerscylla",102,"RW000","Carving",-1,"HIGH","Nerscylla Claw+",1,0.2
+"EM0070_00_0","Nerscylla",103,"RW000","Carving",-1,"HIGH","Nerscylla Spike+",1,0.15
+"EM0070_00_0","Nerscylla",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Nerscylla Carapace",1,0.4
+"EM0070_00_0","Nerscylla",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Nerscylla Shear",1,0.3
+"EM0070_00_0","Nerscylla",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Coma Sac",1,0.3
+"EM0070_00_0","Nerscylla",220,"RW005","Broken Part Rewards",1,"HIGH","Nerscylla Spike+",1,1
+"EM0070_00_0","Nerscylla",230,"RW005","Broken Part Rewards",2,"HIGH","Rubbery Hide+",1,1
+"EM0070_00_0","Nerscylla",240,"RW005","Broken Part Rewards",3,"HIGH","Nerscylla Claw+",1,1
+"EM0070_00_0","Nerscylla",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Nerscylla Carapace",1,0.63
+"EM0070_00_0","Nerscylla",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Nerscylla Spike+",1,0.25
+"EM0070_00_0","Nerscylla",302,"RW006","Wound Destroyed Reward",-1,"HIGH","Rubbery Hide+",1,0.12
+"EM0070_00_0","Nerscylla",500,"RW004","Target Rewards",-1,"HIGH","Nerscylla Certificate S",1,0.08
+"EM0070_00_0","Nerscylla",500,"RW004","Target Rewards",-1,"HIGH","Nerscylla Carapace",1,0.23
+"EM0070_00_0","Nerscylla",500,"RW004","Target Rewards",-1,"HIGH","Nerscylla Claw+",1,0.41
+"EM0070_00_0","Nerscylla",500,"RW004","Target Rewards",-1,"HIGH","Nerscylla Spike+",3,1
+"EM0070_00_0","Nerscylla",501,"RW004","Target Rewards",-1,"HIGH","Nerscylla Carapace",1,0.2
+"EM0070_00_0","Nerscylla",501,"RW004","Target Rewards",-1,"HIGH","Nerscylla Shear",1,0.23
+"EM0070_00_0","Nerscylla",501,"RW004","Target Rewards",-1,"HIGH","Nerscylla Spike+",1,0.33
+"EM0070_00_0","Nerscylla",502,"RW004","Target Rewards",-1,"HIGH","Nerscylla Shear",1,0.2
+"EM0070_00_0","Nerscylla",502,"RW004","Target Rewards",-1,"HIGH","Nerscylla Claw+",1,0.18
+"EM0070_00_0","Nerscylla",502,"RW004","Target Rewards",-1,"HIGH","Coma Sac",2,0.26
+"EM0070_00_0","Nerscylla",503,"RW004","Target Rewards",-1,"HIGH","Nerscylla Claw+",1,0.15
+"EM0070_00_0","Nerscylla",503,"RW004","Target Rewards",-1,"HIGH","Nerscylla Spike+",1,0.11
+"EM0070_00_0","Nerscylla",504,"RW004","Target Rewards",-1,"HIGH","Rubbery Hide+",1,0.08
+"EM0070_00_0","Nerscylla",504,"RW004","Target Rewards",-1,"HIGH","Coma Sac",1,0.25
+"EM0070_00_0","Nerscylla",505,"RW004","Target Rewards",-1,"HIGH","Nerscylla Spike+",1,0.08
+"EM0070_00_0","Nerscylla",506,"RW004","Target Rewards",-1,"HIGH","Coma Sac",1,0.21
+"EM0070_00_0","Nerscylla",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.65
+"EM0070_00_0","Nerscylla",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0071_00_0","Gore Magala",100,"RW000","Carving",-1,"HIGH","Gore Magala Scale+",1,0.24
+"EM0071_00_0","Gore Magala",101,"RW000","Carving",-1,"HIGH","Gore Magala Carapace",1,0.21
+"EM0071_00_0","Gore Magala",102,"RW000","Carving",-1,"HIGH","Gore Magala Ripclaw+",1,0.16
+"EM0071_00_0","Gore Magala",103,"RW000","Carving",-1,"HIGH","Gore Magala Wing+",1,0.13
+"EM0071_00_0","Gore Magala",104,"RW000","Carving",-1,"HIGH","Gore Magala Tail",1,0.11
+"EM0071_00_0","Gore Magala",105,"RW000","Carving",-1,"HIGH","Gore Magala Feeler+",1,0.11
+"EM0071_00_0","Gore Magala",106,"RW000","Carving",-1,"HIGH","Gore Magala Nyctgem",1,0.04
+"EM0071_00_0","Gore Magala",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Gore Magala Scale+",1,0.4
+"EM0071_00_0","Gore Magala",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Gore Magala Carapace",1,0.3
+"EM0071_00_0","Gore Magala",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Frenzy Crystal",1,0.3
+"EM0071_00_0","Gore Magala",200,"RW001","Carving (Severed Part)",-1,"HIGH","Gore Magala Tail",1,0.93
+"EM0071_00_0","Gore Magala",201,"RW001","Carving (Severed Part)",-1,"HIGH","Gore Magala Nyctgem",1,0.07
+"EM0071_00_0","Gore Magala",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Gore Magala Scale+",1,0.6
+"EM0071_00_0","Gore Magala",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Gore Magala Tail",1,0.4
+"EM0071_00_0","Gore Magala",220,"RW005","Broken Part Rewards",1,"HIGH","Gore Magala Feeler+",1,1
+"EM0071_00_0","Gore Magala",230,"RW005","Broken Part Rewards",2,"HIGH","Gore Magala Wing+",1,1
+"EM0071_00_0","Gore Magala",240,"RW005","Broken Part Rewards",3,"HIGH","Gore Magala Wing+",1,1
+"EM0071_00_0","Gore Magala",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Gore Magala Scale+",1,0.38
+"EM0071_00_0","Gore Magala",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Gore Magala Carapace",1,0.38
+"EM0071_00_0","Gore Magala",302,"RW006","Wound Destroyed Reward",-1,"HIGH","Frenzy Crystal",1,0.24
+"EM0071_00_0","Gore Magala",500,"RW004","Target Rewards",-1,"HIGH","Gore Magala Certificate S",1,0.08
+"EM0071_00_0","Gore Magala",500,"RW004","Target Rewards",-1,"HIGH","Gore Magala Scale+",1,0.24
+"EM0071_00_0","Gore Magala",500,"RW004","Target Rewards",-1,"HIGH","Gore Magala Ripclaw+",1,0.25
+"EM0071_00_0","Gore Magala",500,"RW004","Target Rewards",-1,"HIGH","Gore Magala Nyctgem",1,1
+"EM0071_00_0","Gore Magala",501,"RW004","Target Rewards",-1,"HIGH","Gore Magala Scale+",1,0.22
+"EM0071_00_0","Gore Magala",501,"RW004","Target Rewards",-1,"HIGH","Gore Magala Carapace",1,0.24
+"EM0071_00_0","Gore Magala",501,"RW004","Target Rewards",-1,"HIGH","Gore Magala Wing+",1,0.25
+"EM0071_00_0","Gore Magala",502,"RW004","Target Rewards",-1,"HIGH","Gore Magala Carapace",1,0.22
+"EM0071_00_0","Gore Magala",502,"RW004","Target Rewards",-1,"HIGH","Gore Magala Ripclaw+",1,0.22
+"EM0071_00_0","Gore Magala",502,"RW004","Target Rewards",-1,"HIGH","Gore Magala Tail",1,0.18
+"EM0071_00_0","Gore Magala",503,"RW004","Target Rewards",-1,"HIGH","Gore Magala Ripclaw+",1,0.21
+"EM0071_00_0","Gore Magala",503,"RW004","Target Rewards",-1,"HIGH","Gore Magala Wing+",1,0.16
+"EM0071_00_0","Gore Magala",503,"RW004","Target Rewards",-1,"HIGH","Gore Magala Feeler+",1,0.25
+"EM0071_00_0","Gore Magala",504,"RW004","Target Rewards",-1,"HIGH","Gore Magala Wing+",1,0.13
+"EM0071_00_0","Gore Magala",504,"RW004","Target Rewards",-1,"HIGH","Gore Magala Tail",1,0.11
+"EM0071_00_0","Gore Magala",504,"RW004","Target Rewards",-1,"HIGH","Gore Magala Nyctgem",1,0.07
+"EM0071_00_0","Gore Magala",505,"RW004","Target Rewards",-1,"HIGH","Gore Magala Tail",1,0.11
+"EM0071_00_0","Gore Magala",505,"RW004","Target Rewards",-1,"HIGH","Gore Magala Nyctgem",1,0.03
+"EM0071_00_0","Gore Magala",506,"RW004","Target Rewards",-1,"HIGH","Gore Magala Nyctgem",1,0.03
+"EM0071_00_0","Gore Magala",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
+"EM0071_00_0","Gore Magala",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
+"EM0071_00_0","Gore Magala",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0100_51_0","Guardian Fulgur Anjanath",100,"RW000","Carving",-1,"HIGH","Guardian Fulgur Scale+",1,0.3
+"EM0100_51_0","Guardian Fulgur Anjanath",101,"RW000","Carving",-1,"HIGH","Guardian Fulgur Pelt+",1,0.23
+"EM0100_51_0","Guardian Fulgur Anjanath",102,"RW000","Carving",-1,"HIGH","Guardian Fulgur Fang+",1,0.18
+"EM0100_51_0","Guardian Fulgur Anjanath",103,"RW000","Carving",-1,"HIGH","Guardian Fulgur Nosebone+",1,0.13
+"EM0100_51_0","Guardian Fulgur Anjanath",104,"RW000","Carving",-1,"HIGH","Guardian Fulgur Tail",1,0.11
+"EM0100_51_0","Guardian Fulgur Anjanath",105,"RW000","Carving",-1,"HIGH","Guardian Fulgur Gem",1,0.05
+"EM0100_51_0","Guardian Fulgur Anjanath",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Fulgur Scale+",1,0.4
+"EM0100_51_0","Guardian Fulgur Anjanath",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Fulgur Pelt+",1,0.3
+"EM0100_51_0","Guardian Fulgur Anjanath",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Thunder Sac",1,0.3
+"EM0100_51_0","Guardian Fulgur Anjanath",120,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Cloudy Crystal",1,0.83
+"EM0100_51_0","Guardian Fulgur Anjanath",121,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Coruscating Crystal",1,0.17
+"EM0100_51_0","Guardian Fulgur Anjanath",200,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Fulgur Tail",1,0.93
+"EM0100_51_0","Guardian Fulgur Anjanath",201,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Fulgur Gem",1,0.07
+"EM0100_51_0","Guardian Fulgur Anjanath",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Fulgur Scale+",1,0.6
+"EM0100_51_0","Guardian Fulgur Anjanath",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Fulgur Tail",1,0.4
+"EM0100_51_0","Guardian Fulgur Anjanath",220,"RW005","Broken Part Rewards",0,"HIGH","Guardian Fulgur Fang+",2,0.3
+"EM0100_51_0","Guardian Fulgur Anjanath",221,"RW005","Broken Part Rewards",0,"HIGH","Guardian Fulgur Nosebone+",1,0.7
+"EM0100_51_0","Guardian Fulgur Anjanath",230,"RW005","Broken Part Rewards",1,"HIGH","Guardian Fulgur Scale+",1,1
+"EM0100_51_0","Guardian Fulgur Anjanath",240,"RW005","Broken Part Rewards",2,"HIGH","Guardian Fulgur Scale+",1,1
+"EM0100_51_0","Guardian Fulgur Anjanath",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Fulgur Scale+",1,0.45
+"EM0100_51_0","Guardian Fulgur Anjanath",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Fulgur Pelt+",1,0.35
+"EM0100_51_0","Guardian Fulgur Anjanath",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Pelt+",1,0.12
+"EM0100_51_0","Guardian Fulgur Anjanath",403,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Blood+",1,0.08
+"EM0100_51_0","Guardian Fulgur Anjanath",500,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Certificate S",1,0.08
+"EM0100_51_0","Guardian Fulgur Anjanath",500,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Scale+",1,0.23
+"EM0100_51_0","Guardian Fulgur Anjanath",500,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Fang+",1,0.33
+"EM0100_51_0","Guardian Fulgur Anjanath",500,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Gem",1,1
+"EM0100_51_0","Guardian Fulgur Anjanath",501,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Scale+",1,0.2
+"EM0100_51_0","Guardian Fulgur Anjanath",501,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Pelt+",1,0.23
+"EM0100_51_0","Guardian Fulgur Anjanath",501,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Nosebone+",1,0.21
+"EM0100_51_0","Guardian Fulgur Anjanath",502,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Pelt+",1,0.2
+"EM0100_51_0","Guardian Fulgur Anjanath",502,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Fang+",1,0.16
+"EM0100_51_0","Guardian Fulgur Anjanath",502,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Tail",1,0.21
+"EM0100_51_0","Guardian Fulgur Anjanath",503,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Fang+",1,0.15
+"EM0100_51_0","Guardian Fulgur Anjanath",503,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Nosebone+",1,0.1
+"EM0100_51_0","Guardian Fulgur Anjanath",503,"RW004","Target Rewards",-1,"HIGH","Thunder Sac",2,0.18
+"EM0100_51_0","Guardian Fulgur Anjanath",504,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Nosebone+",1,0.08
+"EM0100_51_0","Guardian Fulgur Anjanath",504,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Tail",1,0.1
+"EM0100_51_0","Guardian Fulgur Anjanath",504,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Gem",1,0.07
+"EM0100_51_0","Guardian Fulgur Anjanath",505,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Tail",1,0.08
+"EM0100_51_0","Guardian Fulgur Anjanath",505,"RW004","Target Rewards",-1,"HIGH","Thunder Sac",1,0.15
+"EM0100_51_0","Guardian Fulgur Anjanath",506,"RW004","Target Rewards",-1,"HIGH","Thunder Sac",1,0.18
+"EM0100_51_0","Guardian Fulgur Anjanath",506,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Gem",1,0.03
+"EM0100_51_0","Guardian Fulgur Anjanath",507,"RW004","Target Rewards",-1,"HIGH","Guardian Fulgur Gem",1,0.03
+"EM0100_51_0","Guardian Fulgur Anjanath",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0100_51_0","Guardian Fulgur Anjanath",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0100_51_0","Guardian Fulgur Anjanath",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0113_51_0","Guardian Ebony Odogaron",100,"RW000","Carving",-1,"LOW","Guardian Ebony Scale",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",101,"RW000","Carving",-1,"LOW","Guardian Ebony Sinew",1,0.23
+"EM0113_51_0","Guardian Ebony Odogaron",102,"RW000","Carving",-1,"LOW","Guardian Ebony Claw",1,0.18
+"EM0113_51_0","Guardian Ebony Odogaron",103,"RW000","Carving",-1,"LOW","Guardian Ebony Fang",1,0.13
+"EM0113_51_0","Guardian Ebony Odogaron",104,"RW000","Carving",-1,"LOW","Guardian Ebony Tail",1,0.11
+"EM0113_51_0","Guardian Ebony Odogaron",105,"RW000","Carving",-1,"LOW","Guardian Ebony Plate",1,0.05
+"EM0113_51_0","Guardian Ebony Odogaron",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Ebony Scale",1,0.4
+"EM0113_51_0","Guardian Ebony Odogaron",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Ebony Sinew",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Tough Guardian Bone",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",120,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Crushed Crystal",1,0.75
+"EM0113_51_0","Guardian Ebony Odogaron",121,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Cloudy Crystal",1,0.25
+"EM0113_51_0","Guardian Ebony Odogaron",200,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Ebony Tail",1,0.93
+"EM0113_51_0","Guardian Ebony Odogaron",201,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Ebony Plate",1,0.07
+"EM0113_51_0","Guardian Ebony Odogaron",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Ebony Scale",1,0.6
+"EM0113_51_0","Guardian Ebony Odogaron",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Ebony Tail",1,0.4
+"EM0113_51_0","Guardian Ebony Odogaron",220,"RW005","Broken Part Rewards",0,"LOW","Guardian Ebony Fang",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",230,"RW005","Broken Part Rewards",1,"LOW","Guardian Ebony Claw",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",240,"RW005","Broken Part Rewards",2,"LOW","Guardian Ebony Claw",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",250,"RW005","Broken Part Rewards",3,"LOW","Guardian Ebony Sinew",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",400,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Ebony Scale",1,0.45
+"EM0113_51_0","Guardian Ebony Odogaron",401,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Ebony Sinew",1,0.35
+"EM0113_51_0","Guardian Ebony Odogaron",402,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Scale",1,0.12
+"EM0113_51_0","Guardian Ebony Odogaron",403,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Blood",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",500,"RW004","Target Rewards",-1,"LOW","G. Ebony Odogaron Certificate",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",501,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Scale",1,0.2
+"EM0113_51_0","Guardian Ebony Odogaron",502,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Sinew",1,0.2
+"EM0113_51_0","Guardian Ebony Odogaron",503,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Claw",1,0.15
+"EM0113_51_0","Guardian Ebony Odogaron",504,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Fang",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",505,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Tail",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",506,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.18
+"EM0113_51_0","Guardian Ebony Odogaron",507,"RW004","Target Rewards",-1,"LOW","Guardian Ebony Plate",1,0.03
+"EM0113_51_0","Guardian Ebony Odogaron",100,"RW000","Carving",-1,"HIGH","Guardian Ebony Scale+",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",101,"RW000","Carving",-1,"HIGH","Guardian Ebony Sinew+",1,0.23
+"EM0113_51_0","Guardian Ebony Odogaron",102,"RW000","Carving",-1,"HIGH","Guardian Ebony Claw+",1,0.18
+"EM0113_51_0","Guardian Ebony Odogaron",103,"RW000","Carving",-1,"HIGH","Guardian Ebony Fang+",1,0.13
+"EM0113_51_0","Guardian Ebony Odogaron",104,"RW000","Carving",-1,"HIGH","Guardian Ebony Tail",1,0.11
+"EM0113_51_0","Guardian Ebony Odogaron",105,"RW000","Carving",-1,"HIGH","Guardian Ebony Gem",1,0.05
+"EM0113_51_0","Guardian Ebony Odogaron",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Ebony Scale+",1,0.4
+"EM0113_51_0","Guardian Ebony Odogaron",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Ebony Sinew+",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Keenbone",1,0.3
+"EM0113_51_0","Guardian Ebony Odogaron",120,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Cloudy Crystal",1,0.83
+"EM0113_51_0","Guardian Ebony Odogaron",121,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Coruscating Crystal",1,0.17
+"EM0113_51_0","Guardian Ebony Odogaron",200,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Ebony Tail",1,0.93
+"EM0113_51_0","Guardian Ebony Odogaron",201,"RW001","Carving (Severed Part)",-1,"HIGH","Guardian Ebony Gem",1,0.07
+"EM0113_51_0","Guardian Ebony Odogaron",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Ebony Scale+",1,0.6
+"EM0113_51_0","Guardian Ebony Odogaron",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Guardian Ebony Tail",1,0.4
+"EM0113_51_0","Guardian Ebony Odogaron",220,"RW005","Broken Part Rewards",0,"HIGH","Guardian Ebony Fang+",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",230,"RW005","Broken Part Rewards",1,"HIGH","Guardian Ebony Claw+",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",240,"RW005","Broken Part Rewards",2,"HIGH","Guardian Ebony Claw+",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",250,"RW005","Broken Part Rewards",3,"HIGH","Guardian Ebony Sinew+",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Ebony Scale+",1,0.45
+"EM0113_51_0","Guardian Ebony Odogaron",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Ebony Sinew+",1,0.35
+"EM0113_51_0","Guardian Ebony Odogaron",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Scale+",1,0.12
+"EM0113_51_0","Guardian Ebony Odogaron",403,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Blood+",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",500,"RW004","Target Rewards",-1,"HIGH","G. Ebony Odogaron Certificate S",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",500,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Scale+",1,0.2
+"EM0113_51_0","Guardian Ebony Odogaron",500,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Claw+",1,0.27
+"EM0113_51_0","Guardian Ebony Odogaron",500,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Gem",1,1
+"EM0113_51_0","Guardian Ebony Odogaron",501,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Scale+",1,0.18
+"EM0113_51_0","Guardian Ebony Odogaron",501,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Sinew+",1,0.2
+"EM0113_51_0","Guardian Ebony Odogaron",501,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Fang+",1,0.24
+"EM0113_51_0","Guardian Ebony Odogaron",502,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Sinew+",1,0.18
+"EM0113_51_0","Guardian Ebony Odogaron",502,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Claw+",1,0.15
+"EM0113_51_0","Guardian Ebony Odogaron",502,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",2,0.21
+"EM0113_51_0","Guardian Ebony Odogaron",503,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Claw+",1,0.14
+"EM0113_51_0","Guardian Ebony Odogaron",503,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Fang+",1,0.1
+"EM0113_51_0","Guardian Ebony Odogaron",503,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Plate",1,0.21
+"EM0113_51_0","Guardian Ebony Odogaron",504,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Fang+",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",504,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Tail",1,0.1
+"EM0113_51_0","Guardian Ebony Odogaron",504,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Gem",1,0.07
+"EM0113_51_0","Guardian Ebony Odogaron",505,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Tail",1,0.08
+"EM0113_51_0","Guardian Ebony Odogaron",505,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",1,0.15
+"EM0113_51_0","Guardian Ebony Odogaron",506,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",1,0.16
+"EM0113_51_0","Guardian Ebony Odogaron",506,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Plate",1,0.07
+"EM0113_51_0","Guardian Ebony Odogaron",507,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Plate",1,0.07
+"EM0113_51_0","Guardian Ebony Odogaron",507,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Gem",1,0.03
+"EM0113_51_0","Guardian Ebony Odogaron",508,"RW004","Target Rewards",-1,"","","",""
+"EM0113_51_0","Guardian Ebony Odogaron",508,"RW004","Target Rewards",-1,"HIGH","Guardian Ebony Gem",1,0.03
+"EM0113_51_0","Guardian Ebony Odogaron",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0113_51_0","Guardian Ebony Odogaron",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0113_51_0","Guardian Ebony Odogaron",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0150_00_0","Doshaguma",100,"RW000","Carving",-1,"LOW","Doshaguma Hide",1,0.35
+"EM0150_00_0","Doshaguma",101,"RW000","Carving",-1,"LOW","Doshaguma Fur",1,0.3
+"EM0150_00_0","Doshaguma",102,"RW000","Carving",-1,"LOW","Doshaguma Fang",1,0.2
+"EM0150_00_0","Doshaguma",103,"RW000","Carving",-1,"LOW","Doshaguma Claw",1,0.12
+"EM0150_00_0","Doshaguma",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Doshaguma Hide",1,0.4
+"EM0150_00_0","Doshaguma",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Doshaguma Fur",1,0.3
+"EM0150_00_0","Doshaguma",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Sturdy Bone",1,0.3
+"EM0150_00_0","Doshaguma",220,"RW005","Broken Part Rewards",0,"LOW","Doshaguma Claw",1,1
+"EM0150_00_0","Doshaguma",230,"RW005","Broken Part Rewards",1,"LOW","Doshaguma Claw",1,1
+"EM0150_00_0","Doshaguma",240,"RW005","Broken Part Rewards",2,"LOW","Doshaguma Fur",1,1
+"EM0150_00_0","Doshaguma",410,"RW006","Wound Destroyed Reward",-1,"LOW","Doshaguma Hide",1,0.5
+"EM0150_00_0","Doshaguma",411,"RW006","Wound Destroyed Reward",-1,"LOW","Doshaguma Fur",1,0.5
+"EM0150_00_0","Doshaguma",500,"RW004","Target Rewards",-1,"LOW","Doshaguma Certificate",1,0.11
+"EM0150_00_0","Doshaguma",501,"RW004","Target Rewards",-1,"LOW","Doshaguma Hide",1,0.27
+"EM0150_00_0","Doshaguma",502,"RW004","Target Rewards",-1,"LOW","Doshaguma Fur",1,0.27
+"EM0150_00_0","Doshaguma",503,"RW004","Target Rewards",-1,"LOW","Doshaguma Fang",1,0.2
+"EM0150_00_0","Doshaguma",504,"RW004","Target Rewards",-1,"LOW","Doshaguma Claw",1,0.15
+"EM0150_00_0","Doshaguma",100,"RW000","Carving",-1,"HIGH","Doshaguma Hide+",1,0.33
+"EM0150_00_0","Doshaguma",101,"RW000","Carving",-1,"HIGH","Doshaguma Fur+",1,0.27
+"EM0150_00_0","Doshaguma",102,"RW000","Carving",-1,"HIGH","Doshaguma Fang+",1,0.2
+"EM0150_00_0","Doshaguma",103,"RW000","Carving",-1,"HIGH","Doshaguma Claw+",1,0.15
+"EM0150_00_0","Doshaguma",104,"RW000","Carving",-1,"HIGH","Beast Gem",1,0.05
+"EM0150_00_0","Doshaguma",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Doshaguma Hide+",1,0.4
+"EM0150_00_0","Doshaguma",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Doshaguma Fur+",1,0.3
+"EM0150_00_0","Doshaguma",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Great Stoutbone",1,0.3
+"EM0150_00_0","Doshaguma",220,"RW005","Broken Part Rewards",0,"HIGH","Doshaguma Claw+",1,1
+"EM0150_00_0","Doshaguma",230,"RW005","Broken Part Rewards",1,"HIGH","Doshaguma Claw+",1,1
+"EM0150_00_0","Doshaguma",240,"RW005","Broken Part Rewards",2,"HIGH","Doshaguma Fur+",1,1
+"EM0150_00_0","Doshaguma",410,"RW006","Wound Destroyed Reward",-1,"HIGH","Doshaguma Hide+",1,0.5
+"EM0150_00_0","Doshaguma",411,"RW006","Wound Destroyed Reward",-1,"HIGH","Doshaguma Fur+",1,0.5
+"EM0150_00_0","Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Doshaguma Certificate S",1,0.08
+"EM0150_00_0","Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Doshaguma Hide+",1,0.31
+"EM0150_00_0","Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Doshaguma Claw+",1,0.54
+"EM0150_00_0","Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,1
+"EM0150_00_0","Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Doshaguma Hide+",1,0.27
+"EM0150_00_0","Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Doshaguma Fur+",1,0.31
+"EM0150_00_0","Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Doshaguma Fang+",1,0.39
+"EM0150_00_0","Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Doshaguma Fur+",1,0.27
+"EM0150_00_0","Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Doshaguma Fang+",1,0.2
+"EM0150_00_0","Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.07
+"EM0150_00_0","Doshaguma",503,"RW004","Target Rewards",-1,"HIGH","Doshaguma Fang+",1,0.2
+"EM0150_00_0","Doshaguma",503,"RW004","Target Rewards",-1,"HIGH","Doshaguma Claw+",1,0.15
+"EM0150_00_0","Doshaguma",504,"RW004","Target Rewards",-1,"HIGH","Doshaguma Claw+",1,0.15
+"EM0150_00_0","Doshaguma",504,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0150_00_0","Doshaguma",505,"RW004","Target Rewards",-1,"","","",""
+"EM0150_00_0","Doshaguma",505,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0150_00_0","Doshaguma",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0150_00_0","Doshaguma",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0150_00_0","Doshaguma",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0150_50_0","Guardian Doshaguma",100,"RW000","Carving",-1,"LOW","Guardian Doshaguma Hide",1,0.35
+"EM0150_50_0","Guardian Doshaguma",101,"RW000","Carving",-1,"LOW","Guardian Doshaguma Fur",1,0.3
+"EM0150_50_0","Guardian Doshaguma",102,"RW000","Carving",-1,"LOW","Guardian Doshaguma Fang",1,0.2
+"EM0150_50_0","Guardian Doshaguma",103,"RW000","Carving",-1,"LOW","Guardian Doshaguma Claw",1,0.15
+"EM0150_50_0","Guardian Doshaguma",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Doshaguma Hide",1,0.4
+"EM0150_50_0","Guardian Doshaguma",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Doshaguma Fur",1,0.3
+"EM0150_50_0","Guardian Doshaguma",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Tough Guardian Bone",1,0.3
+"EM0150_50_0","Guardian Doshaguma",120,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Crushed Crystal",1,0.75
+"EM0150_50_0","Guardian Doshaguma",121,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Cloudy Crystal",1,0.25
+"EM0150_50_0","Guardian Doshaguma",220,"RW005","Broken Part Rewards",0,"LOW","Guardian Doshaguma Claw",1,1
+"EM0150_50_0","Guardian Doshaguma",230,"RW005","Broken Part Rewards",1,"LOW","Guardian Doshaguma Claw",1,1
+"EM0150_50_0","Guardian Doshaguma",240,"RW005","Broken Part Rewards",2,"LOW","Guardian Doshaguma Fur",1,1
+"EM0150_50_0","Guardian Doshaguma",410,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Doshaguma Hide",1,0.45
+"EM0150_50_0","Guardian Doshaguma",411,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Doshaguma Fur",1,0.35
+"EM0150_50_0","Guardian Doshaguma",412,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Pelt",1,0.12
+"EM0150_50_0","Guardian Doshaguma",413,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Blood",1,0.08
+"EM0150_50_0","Guardian Doshaguma",500,"RW004","Target Rewards",-1,"LOW","G. Doshaguma Certificate",1,0.08
+"EM0150_50_0","Guardian Doshaguma",501,"RW004","Target Rewards",-1,"LOW","Guardian Doshaguma Hide",1,0.22
+"EM0150_50_0","Guardian Doshaguma",502,"RW004","Target Rewards",-1,"LOW","Guardian Doshaguma Fur",1,0.22
+"EM0150_50_0","Guardian Doshaguma",503,"RW004","Target Rewards",-1,"LOW","Guardian Doshaguma Fang",1,0.15
+"EM0150_50_0","Guardian Doshaguma",504,"RW004","Target Rewards",-1,"LOW","Guardian Doshaguma Claw",1,0.13
+"EM0150_50_0","Guardian Doshaguma",505,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.2
+"EM0150_50_0","Guardian Doshaguma",100,"RW000","Carving",-1,"HIGH","Guardian Doshaguma Hide+",1,0.33
+"EM0150_50_0","Guardian Doshaguma",101,"RW000","Carving",-1,"HIGH","Guardian Doshaguma Fur+",1,0.27
+"EM0150_50_0","Guardian Doshaguma",102,"RW000","Carving",-1,"HIGH","Guardian Doshaguma Fang+",1,0.2
+"EM0150_50_0","Guardian Doshaguma",103,"RW000","Carving",-1,"HIGH","Guardian Doshaguma Claw+",1,0.15
+"EM0150_50_0","Guardian Doshaguma",104,"RW000","Carving",-1,"HIGH","Beast Gem",1,0.05
+"EM0150_50_0","Guardian Doshaguma",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Doshaguma Hide+",1,0.4
+"EM0150_50_0","Guardian Doshaguma",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Guardian Doshaguma Fur+",1,0.3
+"EM0150_50_0","Guardian Doshaguma",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Great Stoutbone",1,0.3
+"EM0150_50_0","Guardian Doshaguma",120,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Cloudy Crystal",1,0.83
+"EM0150_50_0","Guardian Doshaguma",121,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Coruscating Crystal",1,0.17
+"EM0150_50_0","Guardian Doshaguma",220,"RW005","Broken Part Rewards",0,"HIGH","Guardian Doshaguma Claw+",1,1
+"EM0150_50_0","Guardian Doshaguma",230,"RW005","Broken Part Rewards",1,"HIGH","Guardian Doshaguma Claw+",1,1
+"EM0150_50_0","Guardian Doshaguma",240,"RW005","Broken Part Rewards",2,"HIGH","Guardian Doshaguma Fur+",1,1
+"EM0150_50_0","Guardian Doshaguma",410,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Doshaguma Hide+",1,0.45
+"EM0150_50_0","Guardian Doshaguma",411,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Doshaguma Fur+",1,0.35
+"EM0150_50_0","Guardian Doshaguma",412,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Pelt+",1,0.12
+"EM0150_50_0","Guardian Doshaguma",413,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Blood+",1,0.08
+"EM0150_50_0","Guardian Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","G. Doshaguma Certificate S",1,0.08
+"EM0150_50_0","Guardian Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Hide+",1,0.26
+"EM0150_50_0","Guardian Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Fang+",1,0.38
+"EM0150_50_0","Guardian Doshaguma",500,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,1
+"EM0150_50_0","Guardian Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Hide+",1,0.22
+"EM0150_50_0","Guardian Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Fur+",1,0.26
+"EM0150_50_0","Guardian Doshaguma",501,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Claw+",1,0.3
+"EM0150_50_0","Guardian Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Fur+",1,0.22
+"EM0150_50_0","Guardian Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Fang+",1,0.15
+"EM0150_50_0","Guardian Doshaguma",502,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",2,0.25
+"EM0150_50_0","Guardian Doshaguma",503,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Fang+",1,0.15
+"EM0150_50_0","Guardian Doshaguma",503,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Claw+",1,0.1
+"EM0150_50_0","Guardian Doshaguma",503,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.07
+"EM0150_50_0","Guardian Doshaguma",504,"RW004","Target Rewards",-1,"HIGH","Guardian Doshaguma Claw+",1,0.1
+"EM0150_50_0","Guardian Doshaguma",504,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",1,0.2
+"EM0150_50_0","Guardian Doshaguma",505,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",1,0.2
+"EM0150_50_0","Guardian Doshaguma",505,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0150_50_0","Guardian Doshaguma",506,"RW004","Target Rewards",-1,"","","",""
+"EM0150_50_0","Guardian Doshaguma",506,"RW004","Target Rewards",-1,"HIGH","Beast Gem",1,0.03
+"EM0150_50_0","Guardian Doshaguma",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0150_50_0","Guardian Doshaguma",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0150_50_0","Guardian Doshaguma",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0151_00_0","Balahara",100,"RW000","Carving",-1,"LOW","Balahara Scale",1,0.33
+"EM0151_00_0","Balahara",101,"RW000","Carving",-1,"LOW","Balahara Shell",1,0.25
+"EM0151_00_0","Balahara",102,"RW000","Carving",-1,"LOW","Balahara Skull",1,0.18
+"EM0151_00_0","Balahara",103,"RW000","Carving",-1,"LOW","Balahara Tail",1,0.13
+"EM0151_00_0","Balahara",104,"RW000","Carving",-1,"LOW","Balahara Black Pearl",1,0.11
+"EM0151_00_0","Balahara",150,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Balahara Scale",1,0.4
+"EM0151_00_0","Balahara",151,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Balahara Shell",1,0.3
+"EM0151_00_0","Balahara",152,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Sturdy Bone",1,0.3
+"EM0151_00_0","Balahara",200,"RW001","Carving (Severed Part)",-1,"LOW","Balahara Tail",1,1
+"EM0151_00_0","Balahara",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Balahara Scale",1,0.6
+"EM0151_00_0","Balahara",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Balahara Tail",1,0.4
+"EM0151_00_0","Balahara",220,"RW005","Broken Part Rewards",0,"LOW","Balahara Skull",1,0.8
+"EM0151_00_0","Balahara",221,"RW005","Broken Part Rewards",0,"LOW","Balahara Black Pearl",1,0.2
+"EM0151_00_0","Balahara",300,"RW006","Wound Destroyed Reward",-1,"LOW","Balahara Scale",1,0.48
+"EM0151_00_0","Balahara",301,"RW006","Wound Destroyed Reward",-1,"LOW","Balahara Shell",1,0.47
+"EM0151_00_0","Balahara",302,"RW006","Wound Destroyed Reward",-1,"LOW","Balahara Black Pearl",1,0.05
+"EM0151_00_0","Balahara",500,"RW004","Target Rewards",-1,"LOW","Balahara Certificate",1,0.08
+"EM0151_00_0","Balahara",501,"RW004","Target Rewards",-1,"LOW","Balahara Scale",1,0.2
+"EM0151_00_0","Balahara",502,"RW004","Target Rewards",-1,"LOW","Balahara Shell",1,0.2
+"EM0151_00_0","Balahara",503,"RW004","Target Rewards",-1,"LOW","Balahara Skull",1,0.15
+"EM0151_00_0","Balahara",504,"RW004","Target Rewards",-1,"LOW","Balahara Tail",1,0.11
+"EM0151_00_0","Balahara",505,"RW004","Target Rewards",-1,"LOW","Balahara Black Pearl",1,0.08
+"EM0151_00_0","Balahara",506,"RW004","Target Rewards",-1,"LOW","Aqua Sac",1,0.18
+"EM0151_00_0","Balahara",100,"RW000","Carving",-1,"HIGH","Balahara Scale+",1,0.3
+"EM0151_00_0","Balahara",101,"RW000","Carving",-1,"HIGH","Balahara Carapace",1,0.23
+"EM0151_00_0","Balahara",102,"RW000","Carving",-1,"HIGH","Balahara Skull+",1,0.17
+"EM0151_00_0","Balahara",103,"RW000","Carving",-1,"HIGH","Balahara Tail",1,0.11
+"EM0151_00_0","Balahara",104,"RW000","Carving",-1,"HIGH","Balahara Black Pearl",1,0.14
+"EM0151_00_0","Balahara",105,"RW000","Carving",-1,"HIGH","Wyvern Gem",1,0.05
+"EM0151_00_0","Balahara",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Balahara Scale+",1,0.4
+"EM0151_00_0","Balahara",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Balahara Carapace",1,0.3
+"EM0151_00_0","Balahara",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Keenbone",1,0.3
+"EM0151_00_0","Balahara",200,"RW001","Carving (Severed Part)",-1,"HIGH","Balahara Tail",1,0.93
+"EM0151_00_0","Balahara",201,"RW001","Carving (Severed Part)",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0151_00_0","Balahara",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Balahara Scale+",1,0.6
+"EM0151_00_0","Balahara",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Balahara Tail",1,0.4
+"EM0151_00_0","Balahara",220,"RW005","Broken Part Rewards",0,"HIGH","Balahara Skull+",1,0.8
+"EM0151_00_0","Balahara",221,"RW005","Broken Part Rewards",0,"HIGH","Balahara Black Pearl",1,0.2
+"EM0151_00_0","Balahara",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Balahara Scale+",1,0.48
+"EM0151_00_0","Balahara",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Balahara Carapace",1,0.47
+"EM0151_00_0","Balahara",302,"RW006","Wound Destroyed Reward",-1,"HIGH","Balahara Black Pearl",1,0.05
+"EM0151_00_0","Balahara",500,"RW004","Target Rewards",-1,"HIGH","Balahara Certificate S",1,0.08
+"EM0151_00_0","Balahara",500,"RW004","Target Rewards",-1,"HIGH","Balahara Scale+",1,0.23
+"EM0151_00_0","Balahara",500,"RW004","Target Rewards",-1,"HIGH","Balahara Skull+",1,0.45
+"EM0151_00_0","Balahara",500,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,1
+"EM0151_00_0","Balahara",501,"RW004","Target Rewards",-1,"HIGH","Balahara Scale+",1,0.2
+"EM0151_00_0","Balahara",501,"RW004","Target Rewards",-1,"HIGH","Balahara Carapace",1,0.23
+"EM0151_00_0","Balahara",501,"RW004","Target Rewards",-1,"HIGH","Balahara Black Pearl",1,0.24
+"EM0151_00_0","Balahara",502,"RW004","Target Rewards",-1,"HIGH","Balahara Carapace",1,0.2
+"EM0151_00_0","Balahara",502,"RW004","Target Rewards",-1,"HIGH","Balahara Tail",1,0.16
+"EM0151_00_0","Balahara",502,"RW004","Target Rewards",-1,"HIGH","Torrent Sac",2,0.24
+"EM0151_00_0","Balahara",503,"RW004","Target Rewards",-1,"HIGH","Balahara Skull+",1,0.13
+"EM0151_00_0","Balahara",503,"RW004","Target Rewards",-1,"HIGH","Balahara Skull+",1,0.1
+"EM0151_00_0","Balahara",503,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0151_00_0","Balahara",504,"RW004","Target Rewards",-1,"HIGH","Balahara Tail",1,0.07
+"EM0151_00_0","Balahara",504,"RW004","Target Rewards",-1,"HIGH","Balahara Black Pearl",1,0.1
+"EM0151_00_0","Balahara",505,"RW004","Target Rewards",-1,"HIGH","Balahara Black Pearl",1,0.11
+"EM0151_00_0","Balahara",505,"RW004","Target Rewards",-1,"HIGH","Torrent Sac",1,0.15
+"EM0151_00_0","Balahara",506,"RW004","Target Rewards",-1,"HIGH","Torrent Sac",1,0.18
+"EM0151_00_0","Balahara",506,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0151_00_0","Balahara",507,"RW004","Target Rewards",-1,"","","",""
+"EM0151_00_0","Balahara",507,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0151_00_0","Balahara",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.65
+"EM0151_00_0","Balahara",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0152_00_0","Chatacabra",100,"RW000","Carving",-1,"LOW","Chatacabra Scale",1,0.35
+"EM0152_00_0","Chatacabra",101,"RW000","Carving",-1,"LOW","Chatacabra Hide",1,0.3
+"EM0152_00_0","Chatacabra",102,"RW000","Carving",-1,"LOW","Chatacabra Jaw",1,0.2
+"EM0152_00_0","Chatacabra",103,"RW000","Carving",-1,"LOW","Chatacabra Shell",1,0.15
+"EM0152_00_0","Chatacabra",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Chatacabra Scale",1,0.4
+"EM0152_00_0","Chatacabra",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Chatacabra Hide",1,0.3
+"EM0152_00_0","Chatacabra",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Sturdy Bone",1,0.3
+"EM0152_00_0","Chatacabra",220,"RW005","Broken Part Rewards",0,"LOW","Chatacabra Shell",1,1
+"EM0152_00_0","Chatacabra",230,"RW005","Broken Part Rewards",1,"LOW","Chatacabra Shell",1,1
+"EM0152_00_0","Chatacabra",400,"RW006","Wound Destroyed Reward",-1,"LOW","Chatacabra Hide",1,0.5
+"EM0152_00_0","Chatacabra",401,"RW006","Wound Destroyed Reward",-1,"LOW","Chatacabra Scale",1,0.5
+"EM0152_00_0","Chatacabra",500,"RW004","Target Rewards",-1,"LOW","Chatacabra Certificate",1,0.08
+"EM0152_00_0","Chatacabra",501,"RW004","Target Rewards",-1,"LOW","Chatacabra Scale",1,0.27
+"EM0152_00_0","Chatacabra",502,"RW004","Target Rewards",-1,"LOW","Chatacabra Hide",1,0.27
+"EM0152_00_0","Chatacabra",503,"RW004","Target Rewards",-1,"LOW","Chatacabra Jaw",1,0.23
+"EM0152_00_0","Chatacabra",504,"RW004","Target Rewards",-1,"LOW","Chatacabra Shell",1,0.15
+"EM0152_00_0","Chatacabra",100,"RW000","Carving",-1,"HIGH","Chatacabra Scale+",1,0.35
+"EM0152_00_0","Chatacabra",101,"RW000","Carving",-1,"HIGH","Chatacabra Hide+",1,0.3
+"EM0152_00_0","Chatacabra",102,"RW000","Carving",-1,"HIGH","Chatacabra Jaw+",1,0.2
+"EM0152_00_0","Chatacabra",103,"RW000","Carving",-1,"HIGH","Chatacabra Carapace",1,0.15
+"EM0152_00_0","Chatacabra",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Chatacabra Scale+",1,0.4
+"EM0152_00_0","Chatacabra",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Chatacabra Hide+",1,0.3
+"EM0152_00_0","Chatacabra",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Stoutbone",1,0.3
+"EM0152_00_0","Chatacabra",220,"RW005","Broken Part Rewards",0,"HIGH","Chatacabra Carapace",1,1
+"EM0152_00_0","Chatacabra",230,"RW005","Broken Part Rewards",1,"HIGH","Chatacabra Carapace",1,1
+"EM0152_00_0","Chatacabra",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Chatacabra Scale+",1,0.5
+"EM0152_00_0","Chatacabra",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Chatacabra Hide+",1,0.5
+"EM0152_00_0","Chatacabra",500,"RW004","Target Rewards",-1,"HIGH","Chatacabra Certificate S",1,0.08
+"EM0152_00_0","Chatacabra",500,"RW004","Target Rewards",-1,"HIGH","Chatacabra Scale+",1,0.31
+"EM0152_00_0","Chatacabra",500,"RW004","Target Rewards",-1,"HIGH","Chatacabra Jaw+",1,0.6
+"EM0152_00_0","Chatacabra",500,"RW004","Target Rewards",-1,"HIGH","Chatacabra Carapace",3,1
+"EM0152_00_0","Chatacabra",501,"RW004","Target Rewards",-1,"HIGH","Chatacabra Scale+",1,0.27
+"EM0152_00_0","Chatacabra",501,"RW004","Target Rewards",-1,"HIGH","Chatacabra Hide+",1,0.31
+"EM0152_00_0","Chatacabra",501,"RW004","Target Rewards",-1,"HIGH","Chatacabra Carapace",1,0.4
+"EM0152_00_0","Chatacabra",502,"RW004","Target Rewards",-1,"HIGH","Chatacabra Hide+",1,0.27
+"EM0152_00_0","Chatacabra",502,"RW004","Target Rewards",-1,"HIGH","Chatacabra Jaw+",1,0.23
+"EM0152_00_0","Chatacabra",503,"RW004","Target Rewards",-1,"HIGH","Chatacabra Jaw+",1,0.23
+"EM0152_00_0","Chatacabra",503,"RW004","Target Rewards",-1,"HIGH","Chatacabra Carapace",1,0.15
+"EM0152_00_0","Chatacabra",504,"RW004","Target Rewards",-1,"HIGH","Chatacabra Carapace",1,0.15
+"EM0152_00_0","Chatacabra",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0152_00_0","Chatacabra",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0152_00_0","Chatacabra",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0153_00_0","Quematrice",100,"RW000","Carving",-1,"LOW","Quematrice Scale",1,0.33
+"EM0153_00_0","Quematrice",101,"RW000","Carving",-1,"LOW","Quematrice Hide",1,0.23
+"EM0153_00_0","Quematrice",102,"RW000","Carving",-1,"LOW","Quematrice Igniter",1,0.18
+"EM0153_00_0","Quematrice",103,"RW000","Carving",-1,"LOW","Quematrice Crest",1,0.15
+"EM0153_00_0","Quematrice",104,"RW000","Carving",-1,"LOW","Quematrice Tail",1,0.11
+"EM0153_00_0","Quematrice",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Quematrice Scale",1,0.4
+"EM0153_00_0","Quematrice",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Quematrice Hide",1,0.3
+"EM0153_00_0","Quematrice",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Quematrice Igniter",1,0.3
+"EM0153_00_0","Quematrice",200,"RW001","Carving (Severed Part)",-1,"LOW","Quematrice Tail",1,1
+"EM0153_00_0","Quematrice",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Quematrice Scale",1,0.6
+"EM0153_00_0","Quematrice",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Quematrice Tail",1,0.4
+"EM0153_00_0","Quematrice",220,"RW005","Broken Part Rewards",2,"LOW","Quematrice Crest",1,1
+"EM0153_00_0","Quematrice",400,"RW006","Wound Destroyed Reward",-1,"LOW","Quematrice Scale",1,0.45
+"EM0153_00_0","Quematrice",401,"RW006","Wound Destroyed Reward",-1,"LOW","Quematrice Hide",1,0.43
+"EM0153_00_0","Quematrice",402,"RW006","Wound Destroyed Reward",-1,"LOW","Quematrice Igniter",1,0.12
+"EM0153_00_0","Quematrice",500,"RW004","Target Rewards",-1,"LOW","Quematrice Certificate",1,0.08
+"EM0153_00_0","Quematrice",501,"RW004","Target Rewards",-1,"LOW","Quematrice Scale",1,0.25
+"EM0153_00_0","Quematrice",502,"RW004","Target Rewards",-1,"LOW","Quematrice Hide",1,0.25
+"EM0153_00_0","Quematrice",503,"RW004","Target Rewards",-1,"LOW","Quematrice Igniter",1,0.2
+"EM0153_00_0","Quematrice",504,"RW004","Target Rewards",-1,"LOW","Quematrice Crest",1,0.14
+"EM0153_00_0","Quematrice",505,"RW004","Target Rewards",-1,"LOW","Quematrice Tail",1,0.08
+"EM0153_00_0","Quematrice",100,"RW000","Carving",-1,"HIGH","Quematrice Scale+",1,0.3
+"EM0153_00_0","Quematrice",101,"RW000","Carving",-1,"HIGH","Quematrice Hide+",1,0.23
+"EM0153_00_0","Quematrice",102,"RW000","Carving",-1,"HIGH","Quematrice Igniter+",1,0.18
+"EM0153_00_0","Quematrice",103,"RW000","Carving",-1,"HIGH","Quematrice Crest+",1,0.11
+"EM0153_00_0","Quematrice",104,"RW000","Carving",-1,"HIGH","Quematrice Tail",1,0.13
+"EM0153_00_0","Quematrice",105,"RW000","Carving",-1,"HIGH","Wyvern Gem",1,0.05
+"EM0153_00_0","Quematrice",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Quematrice Scale+",1,0.4
+"EM0153_00_0","Quematrice",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Quematrice Hide+",1,0.3
+"EM0153_00_0","Quematrice",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Quematrice Igniter+",1,0.3
+"EM0153_00_0","Quematrice",200,"RW001","Carving (Severed Part)",-1,"HIGH","Quematrice Tail",1,0.93
+"EM0153_00_0","Quematrice",201,"RW001","Carving (Severed Part)",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0153_00_0","Quematrice",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Quematrice Scale+",1,0.6
+"EM0153_00_0","Quematrice",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Quematrice Tail",1,0.4
+"EM0153_00_0","Quematrice",220,"RW005","Broken Part Rewards",2,"HIGH","Quematrice Crest+",1,1
+"EM0153_00_0","Quematrice",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Quematrice Scale+",1,0.45
+"EM0153_00_0","Quematrice",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Quematrice Hide+",1,0.43
+"EM0153_00_0","Quematrice",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Quematrice Igniter+",1,0.12
+"EM0153_00_0","Quematrice",500,"RW004","Target Rewards",-1,"HIGH","Quematrice Certificate S",1,0.08
+"EM0153_00_0","Quematrice",500,"RW004","Target Rewards",-1,"HIGH","Quematrice Scale+",1,0.26
+"EM0153_00_0","Quematrice",500,"RW004","Target Rewards",-1,"HIGH","Quematrice Igniter+",1,0.55
+"EM0153_00_0","Quematrice",500,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,1
+"EM0153_00_0","Quematrice",501,"RW004","Target Rewards",-1,"HIGH","Quematrice Scale+",1,0.25
+"EM0153_00_0","Quematrice",501,"RW004","Target Rewards",-1,"HIGH","Quematrice Hide+",1,0.26
+"EM0153_00_0","Quematrice",501,"RW004","Target Rewards",-1,"HIGH","Quematrice Crest+",1,0.38
+"EM0153_00_0","Quematrice",502,"RW004","Target Rewards",-1,"HIGH","Quematrice Hide+",1,0.25
+"EM0153_00_0","Quematrice",502,"RW004","Target Rewards",-1,"HIGH","Quematrice Crest+",1,0.19
+"EM0153_00_0","Quematrice",502,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0153_00_0","Quematrice",503,"RW004","Target Rewards",-1,"HIGH","Quematrice Igniter+",1,0.2
+"EM0153_00_0","Quematrice",503,"RW004","Target Rewards",-1,"HIGH","Quematrice Igniter+",1,0.13
+"EM0153_00_0","Quematrice",504,"RW004","Target Rewards",-1,"HIGH","Quematrice Crest+",1,0.11
+"EM0153_00_0","Quematrice",504,"RW004","Target Rewards",-1,"HIGH","Quematrice Tail",1,0.13
+"EM0153_00_0","Quematrice",505,"RW004","Target Rewards",-1,"HIGH","Quematrice Tail",1,0.08
+"EM0153_00_0","Quematrice",505,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0153_00_0","Quematrice",506,"RW004","Target Rewards",-1,"","","",""
+"EM0153_00_0","Quematrice",506,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0153_00_0","Quematrice",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0153_00_0","Quematrice",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0153_00_0","Quematrice",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0154_00_0","Lala Barina",100,"RW000","Carving",-1,"LOW","Lala Barina Floret",1,0.33
+"EM0154_00_0","Lala Barina",101,"RW000","Carving",-1,"LOW","Lala Barina Shell",1,0.23
+"EM0154_00_0","Lala Barina",102,"RW000","Carving",-1,"LOW","Lala Barina Mucus",1,0.18
+"EM0154_00_0","Lala Barina",103,"RW000","Carving",-1,"LOW","Lala Barina Claw",1,0.15
+"EM0154_00_0","Lala Barina",104,"RW000","Carving",-1,"LOW","Lala Barina Stinger",1,0.11
+"EM0154_00_0","Lala Barina",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Lala Barina Floret",1,0.4
+"EM0154_00_0","Lala Barina",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Lala Barina Shell",1,0.3
+"EM0154_00_0","Lala Barina",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Monster Fluid",1,0.3
+"EM0154_00_0","Lala Barina",220,"RW005","Broken Part Rewards",0,"LOW","Lala Barina Claw",1,1
+"EM0154_00_0","Lala Barina",230,"RW005","Broken Part Rewards",1,"LOW","Lala Barina Claw",1,1
+"EM0154_00_0","Lala Barina",240,"RW005","Broken Part Rewards",2,"LOW","Lala Barina Stinger",1,1
+"EM0154_00_0","Lala Barina",400,"RW006","Wound Destroyed Reward",-1,"LOW","Lala Barina Floret",1,0.45
+"EM0154_00_0","Lala Barina",401,"RW006","Wound Destroyed Reward",-1,"LOW","Lala Barina Shell",1,0.43
+"EM0154_00_0","Lala Barina",402,"RW006","Wound Destroyed Reward",-1,"LOW","Lala Barina Mucus",1,0.12
+"EM0154_00_0","Lala Barina",500,"RW004","Target Rewards",-1,"LOW","Lala Barina Certificate",1,0.08
+"EM0154_00_0","Lala Barina",501,"RW004","Target Rewards",-1,"LOW","Lala Barina Floret",1,0.2
+"EM0154_00_0","Lala Barina",502,"RW004","Target Rewards",-1,"LOW","Lala Barina Shell",1,0.2
+"EM0154_00_0","Lala Barina",503,"RW004","Target Rewards",-1,"LOW","Lala Barina Mucus",1,0.15
+"EM0154_00_0","Lala Barina",504,"RW004","Target Rewards",-1,"LOW","Lala Barina Claw",1,0.11
+"EM0154_00_0","Lala Barina",505,"RW004","Target Rewards",-1,"LOW","Lala Barina Stinger",1,0.08
+"EM0154_00_0","Lala Barina",506,"RW004","Target Rewards",-1,"LOW","Monster Fluid",1,0.18
+"EM0154_00_0","Lala Barina",100,"RW000","Carving",-1,"HIGH","Lala Barina Floret+",1,0.33
+"EM0154_00_0","Lala Barina",101,"RW000","Carving",-1,"HIGH","Lala Barina Carapace",1,0.23
+"EM0154_00_0","Lala Barina",102,"RW000","Carving",-1,"HIGH","Lala Barina Mucus+",1,0.18
+"EM0154_00_0","Lala Barina",103,"RW000","Carving",-1,"HIGH","Lala Barina Claw+",1,0.15
+"EM0154_00_0","Lala Barina",104,"RW000","Carving",-1,"HIGH","Lala Barina Stinger+",1,0.11
+"EM0154_00_0","Lala Barina",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Lala Barina Floret+",1,0.4
+"EM0154_00_0","Lala Barina",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Lala Barina Carapace",1,0.3
+"EM0154_00_0","Lala Barina",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Broth",1,0.3
+"EM0154_00_0","Lala Barina",220,"RW005","Broken Part Rewards",0,"HIGH","Lala Barina Claw+",1,1
+"EM0154_00_0","Lala Barina",230,"RW005","Broken Part Rewards",1,"HIGH","Lala Barina Claw+",1,1
+"EM0154_00_0","Lala Barina",240,"RW005","Broken Part Rewards",2,"HIGH","Lala Barina Stinger+",1,1
+"EM0154_00_0","Lala Barina",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Lala Barina Floret+",1,0.45
+"EM0154_00_0","Lala Barina",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Lala Barina Carapace",1,0.43
+"EM0154_00_0","Lala Barina",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Lala Barina Mucus+",1,0.12
+"EM0154_00_0","Lala Barina",500,"RW004","Target Rewards",-1,"HIGH","Lala Barina Certificate S",1,0.08
+"EM0154_00_0","Lala Barina",500,"RW004","Target Rewards",-1,"HIGH","Lala Barina Floret+",1,0.23
+"EM0154_00_0","Lala Barina",500,"RW004","Target Rewards",-1,"HIGH","Lala Barina Mucus+",1,0.34
+"EM0154_00_0","Lala Barina",500,"RW004","Target Rewards",-1,"HIGH","Lala Barina Stinger+",3,1
+"EM0154_00_0","Lala Barina",501,"RW004","Target Rewards",-1,"HIGH","Lala Barina Floret+",1,0.2
+"EM0154_00_0","Lala Barina",501,"RW004","Target Rewards",-1,"HIGH","Lala Barina Carapace",1,0.23
+"EM0154_00_0","Lala Barina",501,"RW004","Target Rewards",-1,"HIGH","Lala Barina Claw+",1,0.24
+"EM0154_00_0","Lala Barina",502,"RW004","Target Rewards",-1,"HIGH","Lala Barina Carapace",1,0.2
+"EM0154_00_0","Lala Barina",502,"RW004","Target Rewards",-1,"HIGH","Lala Barina Mucus+",1,0.16
+"EM0154_00_0","Lala Barina",502,"RW004","Target Rewards",-1,"HIGH","Lala Barina Stinger+",1,0.24
+"EM0154_00_0","Lala Barina",503,"RW004","Target Rewards",-1,"HIGH","Lala Barina Mucus+",1,0.15
+"EM0154_00_0","Lala Barina",503,"RW004","Target Rewards",-1,"HIGH","Lala Barina Claw+",1,0.13
+"EM0154_00_0","Lala Barina",503,"RW004","Target Rewards",-1,"HIGH","Monster Broth",2,0.18
+"EM0154_00_0","Lala Barina",504,"RW004","Target Rewards",-1,"HIGH","Lala Barina Claw+",1,0.11
+"EM0154_00_0","Lala Barina",504,"RW004","Target Rewards",-1,"HIGH","Lala Barina Stinger+",1,0.1
+"EM0154_00_0","Lala Barina",505,"RW004","Target Rewards",-1,"HIGH","Lala Barina Stinger+",1,0.08
+"EM0154_00_0","Lala Barina",505,"RW004","Target Rewards",-1,"HIGH","Monster Broth",1,0.15
+"EM0154_00_0","Lala Barina",506,"RW004","Target Rewards",-1,"HIGH","Monster Broth",1,0.18
+"EM0154_00_0","Lala Barina",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0154_00_0","Lala Barina",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0154_00_0","Lala Barina",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0155_00_0","Rompopolo",100,"RW000","Carving",-1,"LOW","Rompopolo Hide",1,0.35
+"EM0155_00_0","Rompopolo",101,"RW000","Carving",-1,"LOW","Rompopolo Beak",1,0.3
+"EM0155_00_0","Rompopolo",102,"RW000","Carving",-1,"LOW","Rompopolo Claw",1,0.2
+"EM0155_00_0","Rompopolo",103,"RW000","Carving",-1,"LOW","Spotted Poison Hide",1,0.15
+"EM0155_00_0","Rompopolo",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Rompopolo Hide",1,0.4
+"EM0155_00_0","Rompopolo",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Rompopolo Beak",1,0.3
+"EM0155_00_0","Rompopolo",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Poison Sac",1,0.3
+"EM0155_00_0","Rompopolo",220,"RW005","Broken Part Rewards",0,"LOW","Rompopolo Claw",1,1
+"EM0155_00_0","Rompopolo",230,"RW005","Broken Part Rewards",1,"LOW","Spotted Poison Hide",1,0.6
+"EM0155_00_0","Rompopolo",231,"RW005","Broken Part Rewards",1,"LOW","Rompopolo Beak",1,0.4
+"EM0155_00_0","Rompopolo",240,"RW005","Broken Part Rewards",2,"LOW","Spotted Poison Hide",1,0.6
+"EM0155_00_0","Rompopolo",241,"RW005","Broken Part Rewards",2,"LOW","Poison Sac",1,0.4
+"EM0155_00_0","Rompopolo",250,"RW005","Broken Part Rewards",3,"LOW","Spotted Poison Hide",1,0.6
+"EM0155_00_0","Rompopolo",251,"RW005","Broken Part Rewards",3,"LOW","Poison Sac",1,0.4
+"EM0155_00_0","Rompopolo",400,"RW006","Wound Destroyed Reward",-1,"LOW","Rompopolo Hide",1,0.8
+"EM0155_00_0","Rompopolo",401,"RW006","Wound Destroyed Reward",-1,"LOW","Spotted Poison Hide",1,0.2
+"EM0155_00_0","Rompopolo",500,"RW004","Target Rewards",-1,"LOW","Rompopolo Certificate",1,0.08
+"EM0155_00_0","Rompopolo",501,"RW004","Target Rewards",-1,"LOW","Rompopolo Hide",1,0.25
+"EM0155_00_0","Rompopolo",502,"RW004","Target Rewards",-1,"LOW","Rompopolo Beak",1,0.22
+"EM0155_00_0","Rompopolo",503,"RW004","Target Rewards",-1,"LOW","Rompopolo Claw",1,0.15
+"EM0155_00_0","Rompopolo",504,"RW004","Target Rewards",-1,"LOW","Spotted Poison Hide",1,0.1
+"EM0155_00_0","Rompopolo",505,"RW004","Target Rewards",-1,"LOW","Poison Sac",1,0.2
+"EM0155_00_0","Rompopolo",100,"RW000","Carving",-1,"HIGH","Rompopolo Hide+",1,0.33
+"EM0155_00_0","Rompopolo",101,"RW000","Carving",-1,"HIGH","Rompopolo Beak+",1,0.27
+"EM0155_00_0","Rompopolo",102,"RW000","Carving",-1,"HIGH","Rompopolo Claw+",1,0.2
+"EM0155_00_0","Rompopolo",103,"RW000","Carving",-1,"HIGH","Spotted Poison Hide+",1,0.15
+"EM0155_00_0","Rompopolo",104,"RW000","Carving",-1,"HIGH","Wyvern Gem",1,0.05
+"EM0155_00_0","Rompopolo",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rompopolo Hide+",1,0.4
+"EM0155_00_0","Rompopolo",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rompopolo Beak+",1,0.3
+"EM0155_00_0","Rompopolo",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Toxin Sac",1,0.3
+"EM0155_00_0","Rompopolo",220,"RW005","Broken Part Rewards",0,"HIGH","Rompopolo Claw+",1,1
+"EM0155_00_0","Rompopolo",230,"RW005","Broken Part Rewards",1,"HIGH","Spotted Poison Hide+",1,0.6
+"EM0155_00_0","Rompopolo",231,"RW005","Broken Part Rewards",1,"HIGH","Rompopolo Beak+",1,0.4
+"EM0155_00_0","Rompopolo",240,"RW005","Broken Part Rewards",2,"HIGH","Spotted Poison Hide+",1,0.6
+"EM0155_00_0","Rompopolo",241,"RW005","Broken Part Rewards",2,"HIGH","Toxin Sac",1,0.4
+"EM0155_00_0","Rompopolo",250,"RW005","Broken Part Rewards",3,"HIGH","Spotted Poison Hide+",1,0.6
+"EM0155_00_0","Rompopolo",251,"RW005","Broken Part Rewards",3,"HIGH","Toxin Sac",1,0.4
+"EM0155_00_0","Rompopolo",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Rompopolo Hide+",1,0.8
+"EM0155_00_0","Rompopolo",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Spotted Poison Hide+",1,0.2
+"EM0155_00_0","Rompopolo",500,"RW004","Target Rewards",-1,"HIGH","Rompopolo Certificate S",1,0.08
+"EM0155_00_0","Rompopolo",500,"RW004","Target Rewards",-1,"HIGH","Rompopolo Hide+",1,0.26
+"EM0155_00_0","Rompopolo",500,"RW004","Target Rewards",-1,"HIGH","Rompopolo Claw+",1,0.38
+"EM0155_00_0","Rompopolo",500,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,1
+"EM0155_00_0","Rompopolo",501,"RW004","Target Rewards",-1,"HIGH","Rompopolo Hide+",1,0.22
+"EM0155_00_0","Rompopolo",501,"RW004","Target Rewards",-1,"HIGH","Rompopolo Beak+",1,0.26
+"EM0155_00_0","Rompopolo",501,"RW004","Target Rewards",-1,"HIGH","Spotted Poison Hide+",1,0.3
+"EM0155_00_0","Rompopolo",502,"RW004","Target Rewards",-1,"HIGH","Rompopolo Beak+",1,0.22
+"EM0155_00_0","Rompopolo",502,"RW004","Target Rewards",-1,"HIGH","Rompopolo Claw+",1,0.15
+"EM0155_00_0","Rompopolo",502,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",2,0.25
+"EM0155_00_0","Rompopolo",503,"RW004","Target Rewards",-1,"HIGH","Rompopolo Claw+",1,0.15
+"EM0155_00_0","Rompopolo",503,"RW004","Target Rewards",-1,"HIGH","Spotted Poison Hide+",1,0.1
+"EM0155_00_0","Rompopolo",503,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0155_00_0","Rompopolo",504,"RW004","Target Rewards",-1,"HIGH","Spotted Poison Hide+",1,0.1
+"EM0155_00_0","Rompopolo",504,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",1,0.2
+"EM0155_00_0","Rompopolo",505,"RW004","Target Rewards",-1,"HIGH","Toxin Sac",1,0.2
+"EM0155_00_0","Rompopolo",505,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0155_00_0","Rompopolo",506,"RW004","Target Rewards",-1,"","","",""
+"EM0155_00_0","Rompopolo",506,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0155_00_0","Rompopolo",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Shard",1,0.5
+"EM0155_00_0","Rompopolo",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.35
+"EM0155_00_0","Rompopolo",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.15
+"EM0156_00_0","Rey Dau",100,"RW000","Carving",-1,"LOW","Rey Dau Scale",1,0.28
+"EM0156_00_0","Rey Dau",101,"RW000","Carving",-1,"LOW","Rey Dau Shell",1,0.23
+"EM0156_00_0","Rey Dau",102,"RW000","Carving",-1,"LOW","Rey Dau Wingtalon",1,0.18
+"EM0156_00_0","Rey Dau",103,"RW000","Carving",-1,"LOW","Rey Dau Thunderhorn",1,0.13
+"EM0156_00_0","Rey Dau",104,"RW000","Carving",-1,"LOW","Rey Dau Tail",1,0.11
+"EM0156_00_0","Rey Dau",105,"RW000","Carving",-1,"LOW","Rey Dau Plate",1,0.07
+"EM0156_00_0","Rey Dau",150,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Rey Dau Scale",1,0.6
+"EM0156_00_0","Rey Dau",151,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Rey Dau Shell",1,0.4
+"EM0156_00_0","Rey Dau",200,"RW001","Carving (Severed Part)",-1,"LOW","Rey Dau Tail",1,0.88
+"EM0156_00_0","Rey Dau",201,"RW001","Carving (Severed Part)",-1,"LOW","Rey Dau Plate",1,0.12
+"EM0156_00_0","Rey Dau",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Rey Dau Scale",1,0.6
+"EM0156_00_0","Rey Dau",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Rey Dau Tail",1,0.4
+"EM0156_00_0","Rey Dau",220,"RW005","Broken Part Rewards",1,"LOW","Rey Dau Thunderhorn",1,1
+"EM0156_00_0","Rey Dau",230,"RW005","Broken Part Rewards",2,"LOW","Rey Dau Wingtalon",1,1
+"EM0156_00_0","Rey Dau",240,"RW005","Broken Part Rewards",3,"LOW","Rey Dau Wingtalon",1,1
+"EM0156_00_0","Rey Dau",300,"RW006","Wound Destroyed Reward",-1,"LOW","Rey Dau Scale",1,0.5
+"EM0156_00_0","Rey Dau",301,"RW006","Wound Destroyed Reward",-1,"LOW","Rey Dau Shell",1,0.5
+"EM0156_00_0","Rey Dau",500,"RW004","Target Rewards",-1,"LOW","Rey Dau Certificate",1,0.08
+"EM0156_00_0","Rey Dau",501,"RW004","Target Rewards",-1,"LOW","Rey Dau Scale",1,0.25
+"EM0156_00_0","Rey Dau",502,"RW004","Target Rewards",-1,"LOW","Rey Dau Shell",1,0.25
+"EM0156_00_0","Rey Dau",503,"RW004","Target Rewards",-1,"LOW","Rey Dau Wingtalon",1,0.15
+"EM0156_00_0","Rey Dau",504,"RW004","Target Rewards",-1,"LOW","Rey Dau Thunderhorn",1,0.11
+"EM0156_00_0","Rey Dau",505,"RW004","Target Rewards",-1,"LOW","Rey Dau Tail",1,0.11
+"EM0156_00_0","Rey Dau",506,"RW004","Target Rewards",-1,"LOW","Rey Dau Plate",1,0.05
+"EM0156_00_0","Rey Dau",100,"RW000","Carving",-1,"HIGH","Rey Dau Scale+",1,0.3
+"EM0156_00_0","Rey Dau",101,"RW000","Carving",-1,"HIGH","Rey Dau Carapace",1,0.23
+"EM0156_00_0","Rey Dau",102,"RW000","Carving",-1,"HIGH","Rey Dau Fulgurtalon",1,0.18
+"EM0156_00_0","Rey Dau",103,"RW000","Carving",-1,"HIGH","Rey Dau Bolthorn",1,0.13
+"EM0156_00_0","Rey Dau",104,"RW000","Carving",-1,"HIGH","Rey Dau Tail",1,0.11
+"EM0156_00_0","Rey Dau",105,"RW000","Carving",-1,"HIGH","Rey Dau Boltgem",1,0.05
+"EM0156_00_0","Rey Dau",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rey Dau Scale+",1,0.4
+"EM0156_00_0","Rey Dau",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Rey Dau Carapace",1,0.3
+"EM0156_00_0","Rey Dau",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Hardbone",1,0.3
+"EM0156_00_0","Rey Dau",200,"RW001","Carving (Severed Part)",-1,"HIGH","Rey Dau Tail",1,0.93
+"EM0156_00_0","Rey Dau",201,"RW001","Carving (Severed Part)",-1,"HIGH","Rey Dau Boltgem",1,0.07
+"EM0156_00_0","Rey Dau",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rey Dau Scale+",1,0.6
+"EM0156_00_0","Rey Dau",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Rey Dau Tail",1,0.4
+"EM0156_00_0","Rey Dau",220,"RW005","Broken Part Rewards",1,"HIGH","Rey Dau Bolthorn",1,1
+"EM0156_00_0","Rey Dau",230,"RW005","Broken Part Rewards",2,"HIGH","Rey Dau Fulgurtalon",1,1
+"EM0156_00_0","Rey Dau",240,"RW005","Broken Part Rewards",3,"HIGH","Rey Dau Fulgurtalon",1,1
+"EM0156_00_0","Rey Dau",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Rey Dau Scale+",1,0.5
+"EM0156_00_0","Rey Dau",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Rey Dau Carapace",1,0.5
+"EM0156_00_0","Rey Dau",500,"RW004","Target Rewards",-1,"HIGH","Rey Dau Certificate S",1,0.08
+"EM0156_00_0","Rey Dau",500,"RW004","Target Rewards",-1,"HIGH","Rey Dau Scale+",1,0.26
+"EM0156_00_0","Rey Dau",500,"RW004","Target Rewards",-1,"HIGH","Rey Dau Fulgurtalon",1,0.36
+"EM0156_00_0","Rey Dau",500,"RW004","Target Rewards",-1,"HIGH","Rey Dau Boltgem",1,1
+"EM0156_00_0","Rey Dau",501,"RW004","Target Rewards",-1,"HIGH","Rey Dau Scale+",1,0.22
+"EM0156_00_0","Rey Dau",501,"RW004","Target Rewards",-1,"HIGH","Rey Dau Carapace",1,0.26
+"EM0156_00_0","Rey Dau",501,"RW004","Target Rewards",-1,"HIGH","Rey Dau Bolthorn",1,0.36
+"EM0156_00_0","Rey Dau",502,"RW004","Target Rewards",-1,"HIGH","Rey Dau Carapace",1,0.22
+"EM0156_00_0","Rey Dau",502,"RW004","Target Rewards",-1,"HIGH","Rey Dau Fulgurtalon",1,0.16
+"EM0156_00_0","Rey Dau",502,"RW004","Target Rewards",-1,"HIGH","Rey Dau Plate",1,0.21
+"EM0156_00_0","Rey Dau",503,"RW004","Target Rewards",-1,"HIGH","Rey Dau Fulgurtalon",1,0.16
+"EM0156_00_0","Rey Dau",503,"RW004","Target Rewards",-1,"HIGH","Rey Dau Bolthorn",1,0.11
+"EM0156_00_0","Rey Dau",503,"RW004","Target Rewards",-1,"HIGH","Rey Dau Boltgem",1,0.07
+"EM0156_00_0","Rey Dau",504,"RW004","Target Rewards",-1,"HIGH","Rey Dau Bolthorn",1,0.11
+"EM0156_00_0","Rey Dau",504,"RW004","Target Rewards",-1,"HIGH","Rey Dau Tail",1,0.11
+"EM0156_00_0","Rey Dau",505,"RW004","Target Rewards",-1,"HIGH","Rey Dau Tail",1,0.11
+"EM0156_00_0","Rey Dau",505,"RW004","Target Rewards",-1,"HIGH","Rey Dau Plate",1,0.07
+"EM0156_00_0","Rey Dau",506,"RW004","Target Rewards",-1,"HIGH","Rey Dau Plate",1,0.07
+"EM0156_00_0","Rey Dau",506,"RW004","Target Rewards",-1,"HIGH","Rey Dau Boltgem",1,0.03
+"EM0156_00_0","Rey Dau",507,"RW004","Target Rewards",-1,"","","",""
+"EM0156_00_0","Rey Dau",507,"RW004","Target Rewards",-1,"HIGH","Rey Dau Boltgem",1,0.03
+"EM0156_00_0","Rey Dau",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
+"EM0156_00_0","Rey Dau",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
+"EM0156_00_0","Rey Dau",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0157_00_0","Uth Duna",100,"RW000","Carving",-1,"LOW","Uth Duna Scale",1,0.28
+"EM0157_00_0","Uth Duna",101,"RW000","Carving",-1,"LOW","Uth Duna Hide",1,0.23
+"EM0157_00_0","Uth Duna",102,"RW000","Carving",-1,"LOW","Uth Duna Cilia",1,0.18
+"EM0157_00_0","Uth Duna",103,"RW000","Carving",-1,"LOW","Uth Duna Claw",1,0.13
+"EM0157_00_0","Uth Duna",104,"RW000","Carving",-1,"LOW","Uth Duna Tentacle",1,0.11
+"EM0157_00_0","Uth Duna",105,"RW000","Carving",-1,"LOW","Uth Duna Plate",1,0.07
+"EM0157_00_0","Uth Duna",150,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Uth Duna Scale",1,0.4
+"EM0157_00_0","Uth Duna",151,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Uth Duna Hide",1,0.3
+"EM0157_00_0","Uth Duna",152,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Aqua Sac",1,0.3
+"EM0157_00_0","Uth Duna",220,"RW005","Broken Part Rewards",0,"LOW","Uth Duna Tentacle",1,1
+"EM0157_00_0","Uth Duna",230,"RW005","Broken Part Rewards",1,"LOW","Uth Duna Claw",1,1
+"EM0157_00_0","Uth Duna",240,"RW005","Broken Part Rewards",2,"LOW","Uth Duna Claw",1,1
+"EM0157_00_0","Uth Duna",250,"RW005","Broken Part Rewards",3,"LOW","Uth Duna Cilia",1,0.88
+"EM0157_00_0","Uth Duna",251,"RW005","Broken Part Rewards",3,"LOW","Uth Duna Plate",1,0.12
+"EM0157_00_0","Uth Duna",400,"RW006","Wound Destroyed Reward",-1,"LOW","Uth Duna Scale",1,0.45
+"EM0157_00_0","Uth Duna",401,"RW006","Wound Destroyed Reward",-1,"LOW","Uth Duna Hide",1,0.43
+"EM0157_00_0","Uth Duna",402,"RW006","Wound Destroyed Reward",-1,"LOW","Uth Duna Cilia",1,0.12
+"EM0157_00_0","Uth Duna",500,"RW004","Target Rewards",-1,"LOW","Uth Duna Certificate",1,0.08
+"EM0157_00_0","Uth Duna",501,"RW004","Target Rewards",-1,"LOW","Uth Duna Scale",1,0.2
+"EM0157_00_0","Uth Duna",502,"RW004","Target Rewards",-1,"LOW","Uth Duna Hide",1,0.2
+"EM0157_00_0","Uth Duna",503,"RW004","Target Rewards",-1,"LOW","Uth Duna Cilia",1,0.15
+"EM0157_00_0","Uth Duna",504,"RW004","Target Rewards",-1,"LOW","Uth Duna Claw",1,0.08
+"EM0157_00_0","Uth Duna",505,"RW004","Target Rewards",-1,"LOW","Uth Duna Tentacle",1,0.08
+"EM0157_00_0","Uth Duna",506,"RW004","Target Rewards",-1,"LOW","Aqua Sac",1,0.16
+"EM0157_00_0","Uth Duna",507,"RW004","Target Rewards",-1,"LOW","Uth Duna Plate",1,0.05
+"EM0157_00_0","Uth Duna",100,"RW000","Carving",-1,"HIGH","Uth Duna Scale+",1,0.3
+"EM0157_00_0","Uth Duna",101,"RW000","Carving",-1,"HIGH","Uth Duna Hide+",1,0.23
+"EM0157_00_0","Uth Duna",102,"RW000","Carving",-1,"HIGH","Uth Duna Cilia+",1,0.18
+"EM0157_00_0","Uth Duna",103,"RW000","Carving",-1,"HIGH","Uth Duna Claw+",1,0.13
+"EM0157_00_0","Uth Duna",104,"RW000","Carving",-1,"HIGH","Uth Duna Tentacle+",1,0.11
+"EM0157_00_0","Uth Duna",105,"RW000","Carving",-1,"HIGH","Uth Duna Watergem",1,0.05
+"EM0157_00_0","Uth Duna",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Uth Duna Scale+",1,0.4
+"EM0157_00_0","Uth Duna",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Uth Duna Hide+",1,0.3
+"EM0157_00_0","Uth Duna",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Torrent Sac",1,0.3
+"EM0157_00_0","Uth Duna",220,"RW005","Broken Part Rewards",0,"HIGH","Uth Duna Tentacle+",1,1
+"EM0157_00_0","Uth Duna",230,"RW005","Broken Part Rewards",1,"HIGH","Uth Duna Claw+",1,1
+"EM0157_00_0","Uth Duna",240,"RW005","Broken Part Rewards",2,"HIGH","Uth Duna Claw+",1,1
+"EM0157_00_0","Uth Duna",250,"RW005","Broken Part Rewards",3,"HIGH","Uth Duna Cilia+",1,0.93
+"EM0157_00_0","Uth Duna",251,"RW005","Broken Part Rewards",3,"HIGH","Uth Duna Watergem",1,0.07
+"EM0157_00_0","Uth Duna",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Uth Duna Scale+",1,0.45
+"EM0157_00_0","Uth Duna",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Uth Duna Hide+",1,0.43
+"EM0157_00_0","Uth Duna",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Uth Duna Cilia+",1,0.12
+"EM0157_00_0","Uth Duna",500,"RW004","Target Rewards",-1,"HIGH","Uth Duna Certificate S",1,0.08
+"EM0157_00_0","Uth Duna",500,"RW004","Target Rewards",-1,"HIGH","Uth Duna Scale+",1,0.2
+"EM0157_00_0","Uth Duna",500,"RW004","Target Rewards",-1,"HIGH","Uth Duna Cilia+",1,0.24
+"EM0157_00_0","Uth Duna",500,"RW004","Target Rewards",-1,"HIGH","Uth Duna Watergem",1,1
+"EM0157_00_0","Uth Duna",501,"RW004","Target Rewards",-1,"HIGH","Uth Duna Scale+",1,0.18
+"EM0157_00_0","Uth Duna",501,"RW004","Target Rewards",-1,"HIGH","Uth Duna Hide+",1,0.2
+"EM0157_00_0","Uth Duna",501,"RW004","Target Rewards",-1,"HIGH","Uth Duna Claw+",1,0.24
+"EM0157_00_0","Uth Duna",502,"RW004","Target Rewards",-1,"HIGH","Uth Duna Hide+",1,0.18
+"EM0157_00_0","Uth Duna",502,"RW004","Target Rewards",-1,"HIGH","Uth Duna Cilia+",1,0.15
+"EM0157_00_0","Uth Duna",502,"RW004","Target Rewards",-1,"HIGH","Uth Duna Tentacle+",1,0.24
+"EM0157_00_0","Uth Duna",503,"RW004","Target Rewards",-1,"HIGH","Uth Duna Cilia+",1,0.14
+"EM0157_00_0","Uth Duna",503,"RW004","Target Rewards",-1,"HIGH","Uth Duna Claw+",1,0.1
+"EM0157_00_0","Uth Duna",503,"RW004","Target Rewards",-1,"HIGH","Uth Duna Plate",1,0.21
+"EM0157_00_0","Uth Duna",504,"RW004","Target Rewards",-1,"HIGH","Uth Duna Claw+",1,0.08
+"EM0157_00_0","Uth Duna",504,"RW004","Target Rewards",-1,"HIGH","Uth Duna Tentacle+",1,0.1
+"EM0157_00_0","Uth Duna",504,"RW004","Target Rewards",-1,"HIGH","Uth Duna Watergem",1,0.07
+"EM0157_00_0","Uth Duna",505,"RW004","Target Rewards",-1,"HIGH","Uth Duna Tentacle+",1,0.08
+"EM0157_00_0","Uth Duna",505,"RW004","Target Rewards",-1,"HIGH","Torrent Sac",1,0.15
+"EM0157_00_0","Uth Duna",506,"RW004","Target Rewards",-1,"HIGH","Torrent Sac",1,0.16
+"EM0157_00_0","Uth Duna",506,"RW004","Target Rewards",-1,"HIGH","Uth Duna Plate",1,0.07
+"EM0157_00_0","Uth Duna",507,"RW004","Target Rewards",-1,"HIGH","Uth Duna Plate",1,0.07
+"EM0157_00_0","Uth Duna",507,"RW004","Target Rewards",-1,"HIGH","Uth Duna Watergem",1,0.03
+"EM0157_00_0","Uth Duna",508,"RW004","Target Rewards",-1,"","","",""
+"EM0157_00_0","Uth Duna",508,"RW004","Target Rewards",-1,"HIGH","Uth Duna Watergem",1,0.03
+"EM0157_00_0","Uth Duna",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
+"EM0157_00_0","Uth Duna",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
+"EM0157_00_0","Uth Duna",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0158_00_0","Nu Udra",100,"RW000","Carving",-1,"LOW","Nu Udra Hide",1,0.28
+"EM0158_00_0","Nu Udra",101,"RW000","Carving",-1,"LOW","Nu Udra Oilmucus",1,0.23
+"EM0158_00_0","Nu Udra",102,"RW000","Carving",-1,"LOW","Nu Udra Spike",1,0.18
+"EM0158_00_0","Nu Udra",103,"RW000","Carving",-1,"LOW","Nu Udra Tentacle",1,0.13
+"EM0158_00_0","Nu Udra",104,"RW000","Carving",-1,"LOW","Nu Udra Horn",1,0.11
+"EM0158_00_0","Nu Udra",105,"RW000","Carving",-1,"LOW","Nu Udra Cerebrospinal Fluid",1,0.07
+"EM0158_00_0","Nu Udra",150,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Nu Udra Hide",1,0.4
+"EM0158_00_0","Nu Udra",151,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Nu Udra Oilmucus",1,0.3
+"EM0158_00_0","Nu Udra",152,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Nu Udra Spike",1,0.3
+"EM0158_00_0","Nu Udra",200,"RW001","Carving (Severed Part)",-1,"LOW","Nu Udra Tentacle",1,0.6
+"EM0158_00_0","Nu Udra",201,"RW001","Carving (Severed Part)",-1,"LOW","Nu Udra Spike",1,0.35
+"EM0158_00_0","Nu Udra",202,"RW001","Carving (Severed Part)",-1,"LOW","Nu Udra Cerebrospinal Fluid",1,0.05
+"EM0158_00_0","Nu Udra",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Nu Udra Hide",1,0.6
+"EM0158_00_0","Nu Udra",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Nu Udra Tentacle",1,0.4
+"EM0158_00_0","Nu Udra",220,"RW005","Broken Part Rewards",6,"LOW","Nu Udra Horn",1,1
+"EM0158_00_0","Nu Udra",300,"RW006","Wound Destroyed Reward",-1,"LOW","Nu Udra Hide",1,0.45
+"EM0158_00_0","Nu Udra",301,"RW006","Wound Destroyed Reward",-1,"LOW","Nu Udra Oilmucus",1,0.43
+"EM0158_00_0","Nu Udra",302,"RW006","Wound Destroyed Reward",-1,"LOW","Nu Udra Spike",1,0.12
+"EM0158_00_0","Nu Udra",500,"RW004","Target Rewards",-1,"LOW","Nu Udra Certificate",1,0.08
+"EM0158_00_0","Nu Udra",501,"RW004","Target Rewards",-1,"LOW","Nu Udra Hide",1,0.25
+"EM0158_00_0","Nu Udra",502,"RW004","Target Rewards",-1,"LOW","Nu Udra Oilmucus",1,0.25
+"EM0158_00_0","Nu Udra",503,"RW004","Target Rewards",-1,"LOW","Nu Udra Spike",1,0.15
+"EM0158_00_0","Nu Udra",504,"RW004","Target Rewards",-1,"LOW","Nu Udra Horn",1,0.11
+"EM0158_00_0","Nu Udra",505,"RW004","Target Rewards",-1,"LOW","Nu Udra Tentacle",1,0.11
+"EM0158_00_0","Nu Udra",506,"RW004","Target Rewards",-1,"LOW","Nu Udra Cerebrospinal Fluid",1,0.05
+"EM0158_00_0","Nu Udra",100,"RW000","Carving",-1,"HIGH","Nu Udra Hide+",1,0.3
+"EM0158_00_0","Nu Udra",101,"RW000","Carving",-1,"HIGH","Nu Udra Oilmucus+",1,0.23
+"EM0158_00_0","Nu Udra",102,"RW000","Carving",-1,"HIGH","Nu Udra Spike+",1,0.18
+"EM0158_00_0","Nu Udra",103,"RW000","Carving",-1,"HIGH","Nu Udra Tentacle+",1,0.13
+"EM0158_00_0","Nu Udra",104,"RW000","Carving",-1,"HIGH","Nu Udra Horn+",1,0.11
+"EM0158_00_0","Nu Udra",105,"RW000","Carving",-1,"HIGH","Nu Udra Flamegem",1,0.05
+"EM0158_00_0","Nu Udra",150,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Nu Udra Hide+",1,0.4
+"EM0158_00_0","Nu Udra",151,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Nu Udra Oilmucus+",1,0.3
+"EM0158_00_0","Nu Udra",152,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Nu Udra Spike+",1,0.3
+"EM0158_00_0","Nu Udra",200,"RW001","Carving (Severed Part)",-1,"HIGH","Nu Udra Tentacle+",1,0.6
+"EM0158_00_0","Nu Udra",201,"RW001","Carving (Severed Part)",-1,"HIGH","Nu Udra Spike+",1,0.38
+"EM0158_00_0","Nu Udra",202,"RW001","Carving (Severed Part)",-1,"HIGH","Nu Udra Flamegem",1,0.02
+"EM0158_00_0","Nu Udra",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Nu Udra Hide+",1,0.6
+"EM0158_00_0","Nu Udra",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Nu Udra Tentacle+",1,0.4
+"EM0158_00_0","Nu Udra",220,"RW005","Broken Part Rewards",6,"HIGH","Nu Udra Horn+",1,1
+"EM0158_00_0","Nu Udra",300,"RW006","Wound Destroyed Reward",-1,"HIGH","Nu Udra Hide+",1,0.45
+"EM0158_00_0","Nu Udra",301,"RW006","Wound Destroyed Reward",-1,"HIGH","Nu Udra Oilmucus+",1,0.43
+"EM0158_00_0","Nu Udra",302,"RW006","Wound Destroyed Reward",-1,"HIGH","Nu Udra Spike+",1,0.12
+"EM0158_00_0","Nu Udra",500,"RW004","Target Rewards",-1,"HIGH","Nu Udra Certificate S",1,0.08
+"EM0158_00_0","Nu Udra",500,"RW004","Target Rewards",-1,"HIGH","Nu Udra Hide+",1,0.26
+"EM0158_00_0","Nu Udra",500,"RW004","Target Rewards",-1,"HIGH","Nu Udra Spike+",1,0.24
+"EM0158_00_0","Nu Udra",500,"RW004","Target Rewards",-1,"HIGH","Nu Udra Flamegem",1,1
+"EM0158_00_0","Nu Udra",501,"RW004","Target Rewards",-1,"HIGH","Nu Udra Hide+",1,0.22
+"EM0158_00_0","Nu Udra",501,"RW004","Target Rewards",-1,"HIGH","Nu Udra Oilmucus+",1,0.26
+"EM0158_00_0","Nu Udra",501,"RW004","Target Rewards",-1,"HIGH","Nu Udra Horn+",1,0.24
+"EM0158_00_0","Nu Udra",502,"RW004","Target Rewards",-1,"HIGH","Nu Udra Oilmucus+",1,0.22
+"EM0158_00_0","Nu Udra",502,"RW004","Target Rewards",-1,"HIGH","Nu Udra Spike+",1,0.16
+"EM0158_00_0","Nu Udra",502,"RW004","Target Rewards",-1,"HIGH","Nu Udra Tentacle+",1,0.24
+"EM0158_00_0","Nu Udra",503,"RW004","Target Rewards",-1,"HIGH","Nu Udra Spike+",1,0.16
+"EM0158_00_0","Nu Udra",503,"RW004","Target Rewards",-1,"HIGH","Nu Udra Horn+",1,0.11
+"EM0158_00_0","Nu Udra",503,"RW004","Target Rewards",-1,"HIGH","Nu Udra Cerebrospinal Fluid",1,0.21
+"EM0158_00_0","Nu Udra",504,"RW004","Target Rewards",-1,"HIGH","Nu Udra Horn+",1,0.11
+"EM0158_00_0","Nu Udra",504,"RW004","Target Rewards",-1,"HIGH","Nu Udra Tentacle+",1,0.11
+"EM0158_00_0","Nu Udra",504,"RW004","Target Rewards",-1,"HIGH","Nu Udra Flamegem",1,0.07
+"EM0158_00_0","Nu Udra",505,"RW004","Target Rewards",-1,"HIGH","Nu Udra Tentacle+",1,0.11
+"EM0158_00_0","Nu Udra",505,"RW004","Target Rewards",-1,"HIGH","Nu Udra Cerebrospinal Fluid",1,0.07
+"EM0158_00_0","Nu Udra",506,"RW004","Target Rewards",-1,"HIGH","Nu Udra Cerebrospinal Fluid",1,0.07
+"EM0158_00_0","Nu Udra",506,"RW004","Target Rewards",-1,"HIGH","Nu Udra Flamegem",1,0.03
+"EM0158_00_0","Nu Udra",507,"RW004","Target Rewards",-1,"","","",""
+"EM0158_00_0","Nu Udra",507,"RW004","Target Rewards",-1,"HIGH","Nu Udra Flamegem",1,0.03
+"EM0158_00_0","Nu Udra",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
+"EM0158_00_0","Nu Udra",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
+"EM0158_00_0","Nu Udra",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0159_00_0","Ajarakan",100,"RW000","Carving",-1,"LOW","Ajarakan Scale",1,0.28
+"EM0159_00_0","Ajarakan",101,"RW000","Carving",-1,"LOW","Ajarakan Shell",1,0.23
+"EM0159_00_0","Ajarakan",102,"RW000","Carving",-1,"LOW","Ajarakan Jewel",1,0.18
+"EM0159_00_0","Ajarakan",103,"RW000","Carving",-1,"LOW","Ajarakan Ridge",1,0.13
+"EM0159_00_0","Ajarakan",104,"RW000","Carving",-1,"LOW","Ajarakan Tail",1,0.11
+"EM0159_00_0","Ajarakan",105,"RW000","Carving",-1,"LOW","Ajarakan Marrow",1,0.07
+"EM0159_00_0","Ajarakan",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Ajarakan Scale",1,0.4
+"EM0159_00_0","Ajarakan",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Ajarakan Shell",1,0.3
+"EM0159_00_0","Ajarakan",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Ajarakan Jewel",1,0.3
+"EM0159_00_0","Ajarakan",200,"RW001","Carving (Severed Part)",-1,"LOW","Ajarakan Tail",1,0.88
+"EM0159_00_0","Ajarakan",201,"RW001","Carving (Severed Part)",-1,"LOW","Ajarakan Marrow",1,0.12
+"EM0159_00_0","Ajarakan",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Ajarakan Scale",1,0.6
+"EM0159_00_0","Ajarakan",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Ajarakan Tail",1,0.4
+"EM0159_00_0","Ajarakan",220,"RW005","Broken Part Rewards",0,"LOW","Ajarakan Ridge",1,1
+"EM0159_00_0","Ajarakan",400,"RW006","Wound Destroyed Reward",-1,"LOW","Ajarakan Scale",1,0.45
+"EM0159_00_0","Ajarakan",401,"RW006","Wound Destroyed Reward",-1,"LOW","Ajarakan Shell",1,0.43
+"EM0159_00_0","Ajarakan",402,"RW006","Wound Destroyed Reward",-1,"LOW","Ajarakan Jewel",1,0.12
+"EM0159_00_0","Ajarakan",500,"RW004","Target Rewards",-1,"LOW","Ajarakan Certificate",1,0.08
+"EM0159_00_0","Ajarakan",501,"RW004","Target Rewards",-1,"LOW","Ajarakan Scale",1,0.25
+"EM0159_00_0","Ajarakan",502,"RW004","Target Rewards",-1,"LOW","Ajarakan Shell",1,0.25
+"EM0159_00_0","Ajarakan",503,"RW004","Target Rewards",-1,"LOW","Ajarakan Jewel",1,0.15
+"EM0159_00_0","Ajarakan",504,"RW004","Target Rewards",-1,"LOW","Ajarakan Ridge",1,0.11
+"EM0159_00_0","Ajarakan",505,"RW004","Target Rewards",-1,"LOW","Ajarakan Tail",1,0.11
+"EM0159_00_0","Ajarakan",506,"RW004","Target Rewards",-1,"LOW","Ajarakan Marrow",1,0.05
+"EM0159_00_0","Ajarakan",100,"RW000","Carving",-1,"HIGH","Ajarakan Scale+",1,0.3
+"EM0159_00_0","Ajarakan",101,"RW000","Carving",-1,"HIGH","Ajarakan Carapace",1,0.23
+"EM0159_00_0","Ajarakan",102,"RW000","Carving",-1,"HIGH","Ajarakan Jewel+",1,0.18
+"EM0159_00_0","Ajarakan",103,"RW000","Carving",-1,"HIGH","Ajarakan Ridge+",1,0.13
+"EM0159_00_0","Ajarakan",104,"RW000","Carving",-1,"HIGH","Ajarakan Tail",1,0.11
+"EM0159_00_0","Ajarakan",105,"RW000","Carving",-1,"HIGH","Ajarakan Medulla",1,0.05
+"EM0159_00_0","Ajarakan",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Ajarakan Scale+",1,0.4
+"EM0159_00_0","Ajarakan",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Ajarakan Shell",1,0.3
+"EM0159_00_0","Ajarakan",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Ajarakan Jewel+",1,0.3
+"EM0159_00_0","Ajarakan",200,"RW001","Carving (Severed Part)",-1,"HIGH","Ajarakan Tail",1,0.93
+"EM0159_00_0","Ajarakan",201,"RW001","Carving (Severed Part)",-1,"HIGH","Ajarakan Medulla",1,0.07
+"EM0159_00_0","Ajarakan",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Ajarakan Scale+",1,0.6
+"EM0159_00_0","Ajarakan",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Ajarakan Tail",1,0.4
+"EM0159_00_0","Ajarakan",220,"RW005","Broken Part Rewards",0,"HIGH","Ajarakan Ridge+",1,1
+"EM0159_00_0","Ajarakan",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Ajarakan Scale+",1,0.45
+"EM0159_00_0","Ajarakan",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Ajarakan Carapace",1,0.43
+"EM0159_00_0","Ajarakan",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Ajarakan Jewel+",1,0.12
+"EM0159_00_0","Ajarakan",500,"RW004","Target Rewards",-1,"HIGH","Ajarakan Certificate S",1,0.08
+"EM0159_00_0","Ajarakan",500,"RW004","Target Rewards",-1,"HIGH","Ajarakan Scale+",1,0.26
+"EM0159_00_0","Ajarakan",500,"RW004","Target Rewards",-1,"HIGH","Ajarakan Jewel+",1,0.24
+"EM0159_00_0","Ajarakan",500,"RW004","Target Rewards",-1,"HIGH","Ajarakan Medulla",1,1
+"EM0159_00_0","Ajarakan",501,"RW004","Target Rewards",-1,"HIGH","Ajarakan Scale+",1,0.22
+"EM0159_00_0","Ajarakan",501,"RW004","Target Rewards",-1,"HIGH","Ajarakan Carapace",1,0.26
+"EM0159_00_0","Ajarakan",501,"RW004","Target Rewards",-1,"HIGH","Ajarakan Ridge+",1,0.24
+"EM0159_00_0","Ajarakan",502,"RW004","Target Rewards",-1,"HIGH","Ajarakan Carapace",1,0.22
+"EM0159_00_0","Ajarakan",502,"RW004","Target Rewards",-1,"HIGH","Ajarakan Jewel+",1,0.16
+"EM0159_00_0","Ajarakan",502,"RW004","Target Rewards",-1,"HIGH","Ajarakan Tail",1,0.24
+"EM0159_00_0","Ajarakan",503,"RW004","Target Rewards",-1,"HIGH","Ajarakan Jewel+",1,0.16
+"EM0159_00_0","Ajarakan",503,"RW004","Target Rewards",-1,"HIGH","Ajarakan Ridge+",1,0.11
+"EM0159_00_0","Ajarakan",503,"RW004","Target Rewards",-1,"HIGH","Ajarakan Marrow",1,0.21
+"EM0159_00_0","Ajarakan",504,"RW004","Target Rewards",-1,"HIGH","Ajarakan Ridge+",1,0.11
+"EM0159_00_0","Ajarakan",504,"RW004","Target Rewards",-1,"HIGH","Ajarakan Tail",1,0.11
+"EM0159_00_0","Ajarakan",504,"RW004","Target Rewards",-1,"HIGH","Ajarakan Medulla",1,0.07
+"EM0159_00_0","Ajarakan",505,"RW004","Target Rewards",-1,"HIGH","Ajarakan Tail",1,0.11
+"EM0159_00_0","Ajarakan",505,"RW004","Target Rewards",-1,"HIGH","Ajarakan Marrow",1,0.07
+"EM0159_00_0","Ajarakan",506,"RW004","Target Rewards",-1,"HIGH","Ajarakan Marrow",1,0.07
+"EM0159_00_0","Ajarakan",506,"RW004","Target Rewards",-1,"HIGH","Ajarakan Medulla",1,0.03
+"EM0159_00_0","Ajarakan",507,"RW004","Target Rewards",-1,"","","",""
+"EM0159_00_0","Ajarakan",507,"RW004","Target Rewards",-1,"HIGH","Ajarakan Medulla",1,0.03
+"EM0159_00_0","Ajarakan",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0159_00_0","Ajarakan",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0159_00_0","Ajarakan",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0160_00_0","Arkveld",100,"RW000","Carving",-1,"HIGH","Arkveld Scale+",1,0.3
+"EM0160_00_0","Arkveld",101,"RW000","Carving",-1,"HIGH","Arkveld Armorplate",1,0.23
+"EM0160_00_0","Arkveld",102,"RW000","Carving",-1,"HIGH","White Arkveld Pelt",1,0.18
+"EM0160_00_0","Arkveld",103,"RW000","Carving",-1,"HIGH","Arkveld Horn+",1,0.13
+"EM0160_00_0","Arkveld",104,"RW000","Carving",-1,"HIGH","Arkveld Tail",1,0.11
+"EM0160_00_0","Arkveld",105,"RW000","Carving",-1,"HIGH","Arkveld Gem",1,0.05
+"EM0160_00_0","Arkveld",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Arkveld Scale+",1,0.4
+"EM0160_00_0","Arkveld",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Arkveld Armorplate",1,0.3
+"EM0160_00_0","Arkveld",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Hardbone",1,0.3
+"EM0160_00_0","Arkveld",200,"RW001","Carving (Severed Part)",-1,"HIGH","Arkveld Tail",1,0.93
+"EM0160_00_0","Arkveld",201,"RW001","Carving (Severed Part)",-1,"HIGH","Arkveld Gem",1,0.07
+"EM0160_00_0","Arkveld",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Arkveld Scale+",1,0.6
+"EM0160_00_0","Arkveld",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Arkveld Tail",1,0.4
+"EM0160_00_0","Arkveld",220,"RW005","Broken Part Rewards",0,"HIGH","Arkveld Horn+",1,1
+"EM0160_00_0","Arkveld",230,"RW005","Broken Part Rewards",2,"HIGH","Arkveld Calloushell",1,1
+"EM0160_00_0","Arkveld",240,"RW005","Broken Part Rewards",3,"HIGH","Arkveld Calloushell",1,1
+"EM0160_00_0","Arkveld",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Arkveld Scale+",1,0.45
+"EM0160_00_0","Arkveld",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Arkveld Armorplate",1,0.43
+"EM0160_00_0","Arkveld",402,"RW006","Wound Destroyed Reward",-1,"HIGH","White Arkveld Pelt",1,0.12
+"EM0160_00_0","Arkveld",500,"RW004","Target Rewards",-1,"HIGH","Arkveld Certificate S",1,0.08
+"EM0160_00_0","Arkveld",500,"RW004","Target Rewards",-1,"HIGH","Arkveld Scale+",1,0.23
+"EM0160_00_0","Arkveld",500,"RW004","Target Rewards",-1,"HIGH","White Arkveld Pelt",1,0.33
+"EM0160_00_0","Arkveld",500,"RW004","Target Rewards",-1,"HIGH","Arkveld Gem",1,1
+"EM0160_00_0","Arkveld",501,"RW004","Target Rewards",-1,"HIGH","Arkveld Scale+",1,0.2
+"EM0160_00_0","Arkveld",501,"RW004","Target Rewards",-1,"HIGH","Arkveld Armorplate",1,0.23
+"EM0160_00_0","Arkveld",501,"RW004","Target Rewards",-1,"HIGH","Arkveld Horn+",1,0.21
+"EM0160_00_0","Arkveld",502,"RW004","Target Rewards",-1,"HIGH","Arkveld Armorplate",1,0.2
+"EM0160_00_0","Arkveld",502,"RW004","Target Rewards",-1,"HIGH","White Arkveld Pelt",1,0.18
+"EM0160_00_0","Arkveld",502,"RW004","Target Rewards",-1,"HIGH","Arkveld Tail",1,0.21
+"EM0160_00_0","Arkveld",503,"RW004","Target Rewards",-1,"HIGH","White Arkveld Pelt",1,0.15
+"EM0160_00_0","Arkveld",503,"RW004","Target Rewards",-1,"HIGH","Arkveld Horn+",1,0.11
+"EM0160_00_0","Arkveld",503,"RW004","Target Rewards",-1,"HIGH","Arkveld Calloushell",1,0.18
+"EM0160_00_0","Arkveld",504,"RW004","Target Rewards",-1,"HIGH","Arkveld Horn+",1,0.08
+"EM0160_00_0","Arkveld",504,"RW004","Target Rewards",-1,"HIGH","Arkveld Tail",1,0.11
+"EM0160_00_0","Arkveld",504,"RW004","Target Rewards",-1,"HIGH","Arkveld Gem",1,0.07
+"EM0160_00_0","Arkveld",505,"RW004","Target Rewards",-1,"HIGH","Arkveld Tail",1,0.08
+"EM0160_00_0","Arkveld",505,"RW004","Target Rewards",-1,"HIGH","Monster Hardbone",1,0.11
+"EM0160_00_0","Arkveld",506,"RW004","Target Rewards",-1,"HIGH","Monster Hardbone",1,0.18
+"EM0160_00_0","Arkveld",506,"RW004","Target Rewards",-1,"HIGH","Arkveld Gem",1,0.03
+"EM0160_00_0","Arkveld",507,"RW004","Target Rewards",-1,"HIGH","Arkveld Gem",1,0.03
+"EM0160_00_0","Arkveld",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.85
+"EM0160_00_0","Arkveld",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.15
+"EM0160_50_0","Guardian Arkveld",100,"RW000","Carving",-1,"LOW","Guardian Scale",1,0.5
+"EM0160_50_0","Guardian Arkveld",101,"RW000","Carving",-1,"LOW","Guardian Pelt",1,0.3
+"EM0160_50_0","Guardian Arkveld",102,"RW000","Carving",-1,"LOW","Guardian Blood",1,0.2
+"EM0160_50_0","Guardian Arkveld",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Scale",1,0.5
+"EM0160_50_0","Guardian Arkveld",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Pelt",1,0.5
+"EM0160_50_0","Guardian Arkveld",200,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Blood",1,1
+"EM0160_50_0","Guardian Arkveld",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Scale",1,1
+"EM0160_50_0","Guardian Arkveld",220,"RW005","Broken Part Rewards",0,"LOW","Guardian Scale",1,1
+"EM0160_50_0","Guardian Arkveld",230,"RW005","Broken Part Rewards",2,"LOW","Guardian Pelt",1,1
+"EM0160_50_0","Guardian Arkveld",240,"RW005","Broken Part Rewards",3,"LOW","Guardian Pelt",1,1
+"EM0160_50_0","Guardian Arkveld",400,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Scale",1,0.45
+"EM0160_50_0","Guardian Arkveld",401,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Pelt",1,0.43
+"EM0160_50_0","Guardian Arkveld",402,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Blood",1,0.12
+"EM0160_50_0","Guardian Arkveld",500,"RW004","Target Rewards",-1,"LOW","Guardian Scale",1,0.2
+"EM0160_50_0","Guardian Arkveld",501,"RW004","Target Rewards",-1,"LOW","Guardian Pelt",1,0.2
+"EM0160_50_0","Guardian Arkveld",502,"RW004","Target Rewards",-1,"LOW","Guardian Blood",1,0.1
+"EM0160_50_0","Guardian Arkveld",503,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.3
+"EM0160_50_0","Guardian Arkveld",504,"RW004","Target Rewards",-1,"LOW","Tough Guardian Bone",1,0.2
+"EM0161_00_0","Hirabami",100,"RW000","Carving",-1,"LOW","Hirabami Scale",1,0.35
+"EM0161_00_0","Hirabami",101,"RW000","Carving",-1,"LOW","Hirabami Hide",1,0.3
+"EM0161_00_0","Hirabami",102,"RW000","Carving",-1,"LOW","Hirabami Webbing",1,0.2
+"EM0161_00_0","Hirabami",103,"RW000","Carving",-1,"LOW","Hirabami Tail Claw",1,0.15
+"EM0161_00_0","Hirabami",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Hirabami Scale",1,0.4
+"EM0161_00_0","Hirabami",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Hirabami Hide",1,0.3
+"EM0161_00_0","Hirabami",112,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Frost Sac",1,0.3
+"EM0161_00_0","Hirabami",220,"RW005","Broken Part Rewards",0,"LOW","Hirabami Webbing",1,1
+"EM0161_00_0","Hirabami",230,"RW005","Broken Part Rewards",1,"LOW","Hirabami Tail Claw",1,1
+"EM0161_00_0","Hirabami",240,"RW005","Broken Part Rewards",2,"LOW","Hirabami Tail Claw",1,1
+"EM0161_00_0","Hirabami",400,"RW006","Wound Destroyed Reward",-1,"LOW","Hirabami Scale",1,0.45
+"EM0161_00_0","Hirabami",401,"RW006","Wound Destroyed Reward",-1,"LOW","Hirabami Hide",1,0.43
+"EM0161_00_0","Hirabami",402,"RW006","Wound Destroyed Reward",-1,"LOW","Hirabami Webbing",1,0.12
+"EM0161_00_0","Hirabami",500,"RW004","Target Rewards",-1,"LOW","Hirabami Certificate",1,0.08
+"EM0161_00_0","Hirabami",501,"RW004","Target Rewards",-1,"LOW","Hirabami Scale",1,0.22
+"EM0161_00_0","Hirabami",502,"RW004","Target Rewards",-1,"LOW","Hirabami Hide",1,0.22
+"EM0161_00_0","Hirabami",503,"RW004","Target Rewards",-1,"LOW","Hirabami Webbing",1,0.15
+"EM0161_00_0","Hirabami",504,"RW004","Target Rewards",-1,"LOW","Hirabami Tail Claw",1,0.1
+"EM0161_00_0","Hirabami",505,"RW004","Target Rewards",-1,"LOW","Frost Sac",1,0.23
+"EM0161_00_0","Hirabami",100,"RW000","Carving",-1,"HIGH","Hirabami Scale+",1,0.33
+"EM0161_00_0","Hirabami",101,"RW000","Carving",-1,"HIGH","Hirabami Hide+",1,0.27
+"EM0161_00_0","Hirabami",102,"RW000","Carving",-1,"HIGH","Hirabami Webbing+",1,0.2
+"EM0161_00_0","Hirabami",103,"RW000","Carving",-1,"HIGH","Hirabami Tail Claw+",1,0.15
+"EM0161_00_0","Hirabami",104,"RW000","Carving",-1,"HIGH","Wyvern Gem",1,0.05
+"EM0161_00_0","Hirabami",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Hirabami Scale+",1,0.4
+"EM0161_00_0","Hirabami",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Hirabami Hide+",1,0.3
+"EM0161_00_0","Hirabami",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Freezer Sac",1,0.3
+"EM0161_00_0","Hirabami",220,"RW005","Broken Part Rewards",0,"HIGH","Hirabami Webbing+",1,1
+"EM0161_00_0","Hirabami",230,"RW005","Broken Part Rewards",1,"HIGH","Hirabami Tail Claw+",1,1
+"EM0161_00_0","Hirabami",240,"RW005","Broken Part Rewards",2,"HIGH","Hirabami Tail Claw+",1,1
+"EM0161_00_0","Hirabami",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Hirabami Scale+",1,0.45
+"EM0161_00_0","Hirabami",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Hirabami Hide+",1,0.43
+"EM0161_00_0","Hirabami",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Hirabami Webbing+",1,0.12
+"EM0161_00_0","Hirabami",500,"RW004","Target Rewards",-1,"HIGH","Hirabami Certificate S",1,0.08
+"EM0161_00_0","Hirabami",500,"RW004","Target Rewards",-1,"HIGH","Hirabami Scale+",1,0.26
+"EM0161_00_0","Hirabami",500,"RW004","Target Rewards",-1,"HIGH","Hirabami Webbing+",1,0.38
+"EM0161_00_0","Hirabami",500,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,1
+"EM0161_00_0","Hirabami",501,"RW004","Target Rewards",-1,"HIGH","Hirabami Scale+",1,0.22
+"EM0161_00_0","Hirabami",501,"RW004","Target Rewards",-1,"HIGH","Hirabami Hide+",1,0.26
+"EM0161_00_0","Hirabami",501,"RW004","Target Rewards",-1,"HIGH","Hirabami Tail Claw+",1,0.3
+"EM0161_00_0","Hirabami",502,"RW004","Target Rewards",-1,"HIGH","Hirabami Hide+",1,0.22
+"EM0161_00_0","Hirabami",502,"RW004","Target Rewards",-1,"HIGH","Hirabami Webbing+",1,0.15
+"EM0161_00_0","Hirabami",502,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",2,0.25
+"EM0161_00_0","Hirabami",503,"RW004","Target Rewards",-1,"HIGH","Hirabami Webbing+",1,0.15
+"EM0161_00_0","Hirabami",503,"RW004","Target Rewards",-1,"HIGH","Hirabami Tail Claw+",1,0.1
+"EM0161_00_0","Hirabami",503,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.07
+"EM0161_00_0","Hirabami",504,"RW004","Target Rewards",-1,"HIGH","Hirabami Tail Claw+",1,0.1
+"EM0161_00_0","Hirabami",504,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.2
+"EM0161_00_0","Hirabami",505,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.2
+"EM0161_00_0","Hirabami",505,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0161_00_0","Hirabami",506,"RW004","Target Rewards",-1,"","","",""
+"EM0161_00_0","Hirabami",506,"RW004","Target Rewards",-1,"HIGH","Wyvern Gem",1,0.03
+"EM0161_00_0","Hirabami",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.65
+"EM0161_00_0","Hirabami",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0162_00_0","Jin Dahaad",100,"RW000","Carving",-1,"LOW","Icium",1,0.6
+"EM0162_00_0","Jin Dahaad",101,"RW000","Carving",-1,"LOW","Frost Sac",1,0.4
+"EM0162_00_0","Jin Dahaad",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",200,"RW001","Carving (Severed Part)",-1,"LOW","Frost Sac",1,1
+"EM0162_00_0","Jin Dahaad",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Frost Sac",1,1
+"EM0162_00_0","Jin Dahaad",220,"RW005","Broken Part Rewards",1,"LOW","Icium",2,1
+"EM0162_00_0","Jin Dahaad",230,"RW005","Broken Part Rewards",2,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",240,"RW005","Broken Part Rewards",3,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",250,"RW005","Broken Part Rewards",4,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",260,"RW005","Broken Part Rewards",5,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",270,"RW005","Broken Part Rewards",6,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",280,"RW005","Broken Part Rewards",7,"LOW","Icium",2,1
+"EM0162_00_0","Jin Dahaad",290,"RW005","Broken Part Rewards",8,"LOW","Frost Sac",1,1
+"EM0162_00_0","Jin Dahaad",400,"RW006","Wound Destroyed Reward",-1,"LOW","Icium",1,1
+"EM0162_00_0","Jin Dahaad",500,"RW004","Target Rewards",-1,"LOW","Armor Sphere+",1,0.08
+"EM0162_00_0","Jin Dahaad",501,"RW004","Target Rewards",-1,"LOW","Icium",1,0.22
+"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"LOW","Frost Sac",1,0.22
+"EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"LOW","Machalite Ore",2,0.15
+"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"LOW","Dragonite Ore",1,0.23
+"EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"LOW","Sturdy Bone",2,0.1
+"EM0162_00_0","Jin Dahaad",100,"RW000","Carving",-1,"HIGH","Jin Dahaad Scale+",1,0.3
+"EM0162_00_0","Jin Dahaad",101,"RW000","Carving",-1,"HIGH","Jin Dahaad Carapace",1,0.23
+"EM0162_00_0","Jin Dahaad",102,"RW000","Carving",-1,"HIGH","Jin Dahaad Claw+",1,0.18
+"EM0162_00_0","Jin Dahaad",103,"RW000","Carving",-1,"HIGH","Jin Dahaad Horn",1,0.13
+"EM0162_00_0","Jin Dahaad",104,"RW000","Carving",-1,"HIGH","Jin Dahaad Tail",1,0.11
+"EM0162_00_0","Jin Dahaad",105,"RW000","Carving",-1,"HIGH","Jin Dahaad Icegem",1,0.05
+"EM0162_00_0","Jin Dahaad",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Jin Dahaad Scale+",1,0.4
+"EM0162_00_0","Jin Dahaad",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Jin Dahaad Carapace",1,0.3
+"EM0162_00_0","Jin Dahaad",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Freezer Sac",1,0.3
+"EM0162_00_0","Jin Dahaad",200,"RW001","Carving (Severed Part)",-1,"HIGH","Jin Dahaad Tail",1,0.93
+"EM0162_00_0","Jin Dahaad",201,"RW001","Carving (Severed Part)",-1,"HIGH","Jin Dahaad Icegem",1,0.07
+"EM0162_00_0","Jin Dahaad",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Jin Dahaad Scale+",1,0.6
+"EM0162_00_0","Jin Dahaad",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Jin Dahaad Tail",1,0.4
+"EM0162_00_0","Jin Dahaad",220,"RW005","Broken Part Rewards",1,"HIGH","Jin Dahaad Iceplate",1,1
+"EM0162_00_0","Jin Dahaad",230,"RW005","Broken Part Rewards",2,"HIGH","Jin Dahaad Horn",1,1
+"EM0162_00_0","Jin Dahaad",240,"RW005","Broken Part Rewards",3,"HIGH","Jin Dahaad Claw+",1,1
+"EM0162_00_0","Jin Dahaad",250,"RW005","Broken Part Rewards",4,"HIGH","Jin Dahaad Claw+",1,1
+"EM0162_00_0","Jin Dahaad",260,"RW005","Broken Part Rewards",5,"HIGH","Jin Dahaad Claw+",1,1
+"EM0162_00_0","Jin Dahaad",270,"RW005","Broken Part Rewards",6,"HIGH","Jin Dahaad Claw+",1,1
+"EM0162_00_0","Jin Dahaad",280,"RW005","Broken Part Rewards",7,"HIGH","Jin Dahaad Iceplate",1,1
+"EM0162_00_0","Jin Dahaad",290,"RW005","Broken Part Rewards",8,"HIGH","Jin Dahaad Iceplate",1,0.88
+"EM0162_00_0","Jin Dahaad",291,"RW005","Broken Part Rewards",8,"HIGH","Jin Dahaad Icegem",1,0.12
+"EM0162_00_0","Jin Dahaad",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Jin Dahaad Scale+",1,0.5
+"EM0162_00_0","Jin Dahaad",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Jin Dahaad Carapace",1,0.38
+"EM0162_00_0","Jin Dahaad",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Jin Dahaad Iceplate",1,0.12
+"EM0162_00_0","Jin Dahaad",500,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Certificate S",1,0.08
+"EM0162_00_0","Jin Dahaad",500,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Scale+",1,0.23
+"EM0162_00_0","Jin Dahaad",500,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Claw+",1,0.33
+"EM0162_00_0","Jin Dahaad",500,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Icegem",1,1
+"EM0162_00_0","Jin Dahaad",501,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Scale+",1,0.2
+"EM0162_00_0","Jin Dahaad",501,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Carapace",1,0.23
+"EM0162_00_0","Jin Dahaad",501,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.21
+"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Carapace",1,0.2
+"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Claw+",1,0.18
+"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.21
+"EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Claw+",1,0.15
+"EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.11
+"EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Iceplate",1,0.18
+"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.08
+"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.11
+"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Icegem",1,0.07
+"EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.08
+"EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.11
+"EM0162_00_0","Jin Dahaad",506,"RW004","Target Rewards",-1,"","","",""
+"EM0162_00_0","Jin Dahaad",506,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.18
+"EM0162_00_0","Jin Dahaad",506,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Icegem",1,0.03
+"EM0162_00_0","Jin Dahaad",507,"RW004","Target Rewards",-1,"","","",""
+"EM0162_00_0","Jin Dahaad",507,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Icegem",1,0.03
+"EM0162_00_0","Jin Dahaad",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
+"EM0162_00_0","Jin Dahaad",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
+"EM0162_00_0","Jin Dahaad",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0163_00_0","Xu Wu",100,"RW000","Carving",-1,"LOW","Xu Wu Hide",1,0.28
+"EM0163_00_0","Xu Wu",101,"RW000","Carving",-1,"LOW","Golden Corneum",1,0.23
+"EM0163_00_0","Xu Wu",102,"RW000","Carving",-1,"LOW","Xu Wu Claw",1,0.18
+"EM0163_00_0","Xu Wu",103,"RW000","Carving",-1,"LOW","Xu Wu Fang",1,0.13
+"EM0163_00_0","Xu Wu",104,"RW000","Carving",-1,"LOW","Xu Wu Tentacle",1,0.11
+"EM0163_00_0","Xu Wu",105,"RW000","Carving",-1,"LOW","Xu Wu Cerebrospinal Fluid",1,0.07
+"EM0163_00_0","Xu Wu",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Xu Wu Hide",1,0.6
+"EM0163_00_0","Xu Wu",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Golden Corneum",1,0.4
+"EM0163_00_0","Xu Wu",200,"RW001","Carving (Severed Part)",-1,"LOW","Xu Wu Tentacle",1,0.93
+"EM0163_00_0","Xu Wu",201,"RW001","Carving (Severed Part)",-1,"LOW","Xu Wu Cerebrospinal Fluid",1,0.07
+"EM0163_00_0","Xu Wu",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Xu Wu Hide",1,0.6
+"EM0163_00_0","Xu Wu",211,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Xu Wu Tentacle",1,0.4
+"EM0163_00_0","Xu Wu",220,"RW005","Broken Part Rewards",0,"LOW","Golden Corneum",1,0.88
+"EM0163_00_0","Xu Wu",221,"RW005","Broken Part Rewards",0,"LOW","Xu Wu Cerebrospinal Fluid",1,0.12
+"EM0163_00_0","Xu Wu",230,"RW005","Broken Part Rewards",1,"LOW","Xu Wu Fang",1,1
+"EM0163_00_0","Xu Wu",240,"RW005","Broken Part Rewards",2,"LOW","Xu Wu Claw",1,1
+"EM0163_00_0","Xu Wu",250,"RW005","Broken Part Rewards",3,"LOW","Xu Wu Claw",1,1
+"EM0163_00_0","Xu Wu",400,"RW006","Wound Destroyed Reward",-1,"LOW","Xu Wu Hide",1,0.5
+"EM0163_00_0","Xu Wu",401,"RW006","Wound Destroyed Reward",-1,"LOW","Golden Corneum",1,0.5
+"EM0163_00_0","Xu Wu",500,"RW004","Target Rewards",-1,"LOW","Xu Wu Certificate",1,0.08
+"EM0163_00_0","Xu Wu",501,"RW004","Target Rewards",-1,"LOW","Xu Wu Hide",1,0.25
+"EM0163_00_0","Xu Wu",502,"RW004","Target Rewards",-1,"LOW","Golden Corneum",1,0.25
+"EM0163_00_0","Xu Wu",503,"RW004","Target Rewards",-1,"LOW","Xu Wu Claw",1,0.15
+"EM0163_00_0","Xu Wu",504,"RW004","Target Rewards",-1,"LOW","Xu Wu Tentacle",1,0.11
+"EM0163_00_0","Xu Wu",505,"RW004","Target Rewards",-1,"LOW","Xu Wu Fang",1,0.11
+"EM0163_00_0","Xu Wu",506,"RW004","Target Rewards",-1,"LOW","Xu Wu Cerebrospinal Fluid",1,0.05
+"EM0163_00_0","Xu Wu",100,"RW000","Carving",-1,"HIGH","Xu Wu Hide+",1,0.3
+"EM0163_00_0","Xu Wu",101,"RW000","Carving",-1,"HIGH","Golden Corneum+",1,0.23
+"EM0163_00_0","Xu Wu",102,"RW000","Carving",-1,"HIGH","Xu Wu Claw+",1,0.18
+"EM0163_00_0","Xu Wu",103,"RW000","Carving",-1,"HIGH","Xu Wu Fang+",1,0.13
+"EM0163_00_0","Xu Wu",104,"RW000","Carving",-1,"HIGH","Xu Wu Tentacle+",1,0.11
+"EM0163_00_0","Xu Wu",105,"RW000","Carving",-1,"HIGH","Xu Wu Umbragem",1,0.05
+"EM0163_00_0","Xu Wu",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Xu Wu Hide+",1,0.6
+"EM0163_00_0","Xu Wu",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Golden Corneum+",1,0.4
+"EM0163_00_0","Xu Wu",200,"RW001","Carving (Severed Part)",-1,"HIGH","Xu Wu Tentacle+",1,0.95
+"EM0163_00_0","Xu Wu",201,"RW001","Carving (Severed Part)",-1,"HIGH","Xu Wu Umbragem",1,0.05
+"EM0163_00_0","Xu Wu",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Xu Wu Hide+",1,0.6
+"EM0163_00_0","Xu Wu",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Xu Wu Tentacle+",1,0.4
+"EM0163_00_0","Xu Wu",220,"RW005","Broken Part Rewards",0,"HIGH","Golden Corneum+",1,0.93
+"EM0163_00_0","Xu Wu",221,"RW005","Broken Part Rewards",0,"HIGH","Xu Wu Umbragem",1,0.07
+"EM0163_00_0","Xu Wu",230,"RW005","Broken Part Rewards",1,"HIGH","Xu Wu Fang+",1,1
+"EM0163_00_0","Xu Wu",240,"RW005","Broken Part Rewards",2,"HIGH","Xu Wu Claw+",1,1
+"EM0163_00_0","Xu Wu",250,"RW005","Broken Part Rewards",3,"HIGH","Xu Wu Claw+",1,1
+"EM0163_00_0","Xu Wu",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Xu Wu Hide+",1,0.5
+"EM0163_00_0","Xu Wu",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Golden Corneum+",1,0.5
+"EM0163_00_0","Xu Wu",500,"RW004","Target Rewards",-1,"HIGH","Xu Wu Certificate S",1,0.08
+"EM0163_00_0","Xu Wu",500,"RW004","Target Rewards",-1,"HIGH","Xu Wu Hide+",1,0.26
+"EM0163_00_0","Xu Wu",500,"RW004","Target Rewards",-1,"HIGH","Xu Wu Claw+",1,0.24
+"EM0163_00_0","Xu Wu",500,"RW004","Target Rewards",-1,"HIGH","Xu Wu Umbragem",1,1
+"EM0163_00_0","Xu Wu",501,"RW004","Target Rewards",-1,"HIGH","Xu Wu Hide+",1,0.22
+"EM0163_00_0","Xu Wu",501,"RW004","Target Rewards",-1,"HIGH","Golden Corneum+",1,0.26
+"EM0163_00_0","Xu Wu",501,"RW004","Target Rewards",-1,"HIGH","Xu Wu Tentacle+",1,0.24
+"EM0163_00_0","Xu Wu",502,"RW004","Target Rewards",-1,"HIGH","Golden Corneum+",1,0.22
+"EM0163_00_0","Xu Wu",502,"RW004","Target Rewards",-1,"HIGH","Xu Wu Claw+",1,0.16
+"EM0163_00_0","Xu Wu",502,"RW004","Target Rewards",-1,"HIGH","Xu Wu Fang+",1,0.24
+"EM0163_00_0","Xu Wu",503,"RW004","Target Rewards",-1,"HIGH","Xu Wu Claw+",1,0.16
+"EM0163_00_0","Xu Wu",503,"RW004","Target Rewards",-1,"HIGH","Xu Wu Tentacle+",1,0.11
+"EM0163_00_0","Xu Wu",503,"RW004","Target Rewards",-1,"HIGH","Xu Wu Cerebrospinal Fluid",1,0.21
+"EM0163_00_0","Xu Wu",504,"RW004","Target Rewards",-1,"HIGH","Xu Wu Tentacle+",1,0.11
+"EM0163_00_0","Xu Wu",504,"RW004","Target Rewards",-1,"HIGH","Xu Wu Fang+",1,0.11
+"EM0163_00_0","Xu Wu",504,"RW004","Target Rewards",-1,"HIGH","Xu Wu Umbragem",1,0.07
+"EM0163_00_0","Xu Wu",505,"RW004","Target Rewards",-1,"HIGH","Xu Wu Fang+",1,0.11
+"EM0163_00_0","Xu Wu",505,"RW004","Target Rewards",-1,"HIGH","Xu Wu Cerebrospinal Fluid",1,0.07
+"EM0163_00_0","Xu Wu",506,"RW004","Target Rewards",-1,"HIGH","Xu Wu Cerebrospinal Fluid",1,0.07
+"EM0163_00_0","Xu Wu",506,"RW004","Target Rewards",-1,"HIGH","Xu Wu Umbragem",1,0.03
+"EM0163_00_0","Xu Wu",507,"RW004","Target Rewards",-1,"","","",""
+"EM0163_00_0","Xu Wu",507,"RW004","Target Rewards",-1,"HIGH","Xu Wu Umbragem",1,0.03
+"EM0163_00_0","Xu Wu",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (S)",1,0.45
+"EM0163_00_0","Xu Wu",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.35
+"EM0163_00_0","Xu Wu",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.2
+"EM0164_50_0","Zoh Shia",100,"RW000","Carving",-1,"LOW","Guardian Scale",1,0.5
+"EM0164_50_0","Zoh Shia",101,"RW000","Carving",-1,"LOW","Guardian Pelt",1,0.3
+"EM0164_50_0","Zoh Shia",102,"RW000","Carving",-1,"LOW","Guardian Blood",1,0.2
+"EM0164_50_0","Zoh Shia",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Scale",1,0.5
+"EM0164_50_0","Zoh Shia",111,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Guardian Pelt",1,0.5
+"EM0164_50_0","Zoh Shia",200,"RW001","Carving (Severed Part)",-1,"LOW","Guardian Blood",1,1
+"EM0164_50_0","Zoh Shia",210,"RW012","Carving (Rotten Severed Part)",-1,"LOW","Guardian Scale",1,1
+"EM0164_50_0","Zoh Shia",220,"RW005","Broken Part Rewards",6,"LOW","Guardian Blood",1,1
+"EM0164_50_0","Zoh Shia",230,"RW005","Broken Part Rewards",9,"LOW","Guardian Scale",1,1
+"EM0164_50_0","Zoh Shia",240,"RW005","Broken Part Rewards",10,"LOW","Guardian Scale",1,1
+"EM0164_50_0","Zoh Shia",250,"RW005","Broken Part Rewards",7,"LOW","Guardian Pelt",1,1
+"EM0164_50_0","Zoh Shia",260,"RW005","Broken Part Rewards",8,"LOW","Guardian Pelt",1,1
+"EM0164_50_0","Zoh Shia",400,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Scale",1,0.5
+"EM0164_50_0","Zoh Shia",401,"RW006","Wound Destroyed Reward",-1,"LOW","Guardian Blood",1,0.5
+"EM0164_50_0","Zoh Shia",500,"RW004","Target Rewards",-1,"LOW","Guardian Blood",1,0.2
+"EM0164_50_0","Zoh Shia",501,"RW004","Target Rewards",-1,"LOW","Guardian Scale",1,0.15
+"EM0164_50_0","Zoh Shia",502,"RW004","Target Rewards",-1,"LOW","Guardian Pelt",1,0.15
+"EM0164_50_0","Zoh Shia",503,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.3
+"EM0164_50_0","Zoh Shia",504,"RW004","Target Rewards",-1,"LOW","Tough Guardian Bone",1,0.2
+"EM1006_00_0","Vespoid",100,"RW000","Carving",-1,"LOW","Vespoid Shell",1,0.42
+"EM1006_00_0","Vespoid",101,"RW000","Carving",-1,"LOW","Vespoid Wing",1,0.35
+"EM1006_00_0","Vespoid",102,"RW000","Carving",-1,"LOW","Monster Fluid",1,0.23
+"EM1006_00_0","Vespoid",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Monster Fluid",1,1
+"EM1006_00_0","Vespoid",500,"RW004","Target Rewards",-1,"LOW","Vespoid Shell",1,0.3
+"EM1006_00_0","Vespoid",501,"RW004","Target Rewards",-1,"LOW","Vespoid Wing",1,0.3
+"EM1006_00_0","Vespoid",502,"RW004","Target Rewards",-1,"LOW","Honey",2,0.2
+"EM1006_00_0","Vespoid",503,"RW004","Target Rewards",-1,"LOW","Monster Fluid",1,0.2
+"EM1006_00_0","Vespoid",100,"RW000","Carving",-1,"HIGH","Vespoid Carapace",1,0.42
+"EM1006_00_0","Vespoid",101,"RW000","Carving",-1,"HIGH","Vespoid Innerwing",1,0.35
+"EM1006_00_0","Vespoid",102,"RW000","Carving",-1,"HIGH","Monster Broth",1,0.23
+"EM1006_00_0","Vespoid",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Broth",1,1
+"EM1006_00_0","Vespoid",500,"RW004","Target Rewards",-1,"HIGH","Vespoid Carapace",1,0.3
+"EM1006_00_0","Vespoid",501,"RW004","Target Rewards",-1,"HIGH","Vespoid Innerwing",1,0.3
+"EM1006_00_0","Vespoid",502,"RW004","Target Rewards",-1,"HIGH","Honey",3,0.2
+"EM1006_00_0","Vespoid",503,"RW004","Target Rewards",-1,"HIGH","Monster Broth",1,0.2
+"EM1022_00_0","Conga",100,"RW000","Carving",-1,"LOW","Conga Pelt",1,0.5
+"EM1022_00_0","Conga",101,"RW000","Carving",-1,"LOW","Brute Bone",1,0.5
+"EM1022_00_0","Conga",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Brute Bone",1,1
+"EM1022_00_0","Conga",100,"RW000","Carving",-1,"HIGH","Conga Pelt+",1,0.5
+"EM1022_00_0","Conga",101,"RW000","Carving",-1,"HIGH","Colossal Bone",1,0.5
+"EM1022_00_0","Conga",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Colossal Bone",1,1
+"EM1023_00_0","Blango",100,"RW000","Carving",-1,"HIGH","Blango Pelt+",1,0.5
+"EM1023_00_0","Blango",101,"RW000","Carving",-1,"HIGH","Colossal Bone",1,0.5
+"EM1023_00_0","Blango",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Colossal Bone",1,1
+"EM1150_00_0","Ceratonoth (Male)",100,"RW000","Carving",-1,"LOW","Herbivore Shell",1,0.7
+"EM1150_00_0","Ceratonoth (Male)",101,"RW000","Carving",-1,"LOW","Raw Meat",1,0.3
+"EM1150_00_0","Ceratonoth (Male)",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1150_00_0","Ceratonoth (Male)",100,"RW000","Carving",-1,"HIGH","Herbivore Carapace",1,0.7
+"EM1150_00_0","Ceratonoth (Male)",101,"RW000","Carving",-1,"HIGH","Raw Meat",1,0.3
+"EM1150_00_0","Ceratonoth (Male)",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1150_00_1","Ceratonoth (Female)",100,"RW000","Carving",-1,"LOW","Raw Meat",1,0.7
+"EM1150_00_1","Ceratonoth (Female)",101,"RW000","Carving",-1,"LOW","Herbivore Shell",1,0.3
+"EM1150_00_1","Ceratonoth (Female)",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1150_00_1","Ceratonoth (Female)",100,"RW000","Carving",-1,"HIGH","Raw Meat",1,0.7
+"EM1150_00_1","Ceratonoth (Female)",101,"RW000","Carving",-1,"HIGH","Herbivore Carapace",1,0.3
+"EM1150_00_1","Ceratonoth (Female)",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1151_00_0","Dalthydon",100,"RW000","Carving",-1,"LOW","Raw Meat",1,1
+"EM1151_00_0","Dalthydon",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1151_00_0","Dalthydon",100,"RW000","Carving",-1,"HIGH","Raw Meat",1,1
+"EM1151_00_0","Dalthydon",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1151_00_1","Dalthydon (Livestock)",100,"RW000","Carving",-1,"LOW","Raw Meat",1,1
+"EM1151_00_1","Dalthydon (Livestock)",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1151_00_1","Dalthydon (Livestock)",100,"RW000","Carving",-1,"HIGH","Raw Meat",1,1
+"EM1151_00_1","Dalthydon (Livestock)",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1152_00_0","Bulaqchi",100,"RW000","Carving",-1,"LOW","Bulaqchi Shell",1,1
+"EM1152_00_0","Bulaqchi",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Monster Fluid",1,1
+"EM1152_00_0","Bulaqchi",500,"RW004","Target Rewards",-1,"LOW","Bulaqchi Shell",1,0.3
+"EM1152_00_0","Bulaqchi",501,"RW004","Target Rewards",-1,"LOW","Monster Fluid",1,0.3
+"EM1152_00_0","Bulaqchi",502,"RW004","Target Rewards",-1,"LOW","Honey",2,0.2
+"EM1152_00_0","Bulaqchi",503,"RW004","Target Rewards",-1,"LOW","Mystery Bone",1,0.2
+"EM1152_00_0","Bulaqchi",100,"RW000","Carving",-1,"HIGH","Bulaqchi Carapace",1,1
+"EM1152_00_0","Bulaqchi",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Broth",1,1
+"EM1152_00_0","Bulaqchi",500,"RW004","Target Rewards",-1,"HIGH","Bulaqchi Carapace",1,0.3
+"EM1152_00_0","Bulaqchi",501,"RW004","Target Rewards",-1,"HIGH","Monster Broth",1,0.3
+"EM1152_00_0","Bulaqchi",502,"RW004","Target Rewards",-1,"HIGH","Honey",3,0.2
+"EM1152_00_0","Bulaqchi",503,"RW004","Target Rewards",-1,"HIGH","Sturdy Bone",2,0.2
+"EM1153_00_0","Talioth",100,"RW000","Carving",-1,"LOW","Talioth Scale",1,0.7
+"EM1153_00_0","Talioth",101,"RW000","Carving",-1,"LOW","Sharp Fang",1,0.3
+"EM1153_00_0","Talioth",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1153_00_0","Talioth",500,"RW004","Target Rewards",-1,"LOW","Talioth Scale",1,0.3
+"EM1153_00_0","Talioth",501,"RW004","Target Rewards",-1,"LOW","Sharp Fang",1,0.3
+"EM1153_00_0","Talioth",502,"RW004","Target Rewards",-1,"LOW","Ration",2,0.2
+"EM1153_00_0","Talioth",503,"RW004","Target Rewards",-1,"LOW","Earth Crystal",1,0.2
+"EM1153_00_0","Talioth",100,"RW000","Carving",-1,"HIGH","Talioth Scale+",1,0.7
+"EM1153_00_0","Talioth",101,"RW000","Carving",-1,"HIGH","Acute Fang",1,0.3
+"EM1153_00_0","Talioth",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1153_00_0","Talioth",500,"RW004","Target Rewards",-1,"HIGH","Talioth Scale+",1,0.3
+"EM1153_00_0","Talioth",501,"RW004","Target Rewards",-1,"HIGH","Acute Fang",1,0.3
+"EM1153_00_0","Talioth",502,"RW004","Target Rewards",-1,"HIGH","Ration",3,0.2
+"EM1153_00_0","Talioth",503,"RW004","Target Rewards",-1,"HIGH","Earth Crystal",3,0.2
+"EM1154_00_0","Baunos",100,"RW000","Carving",-1,"LOW","Wingdrake Hide",1,1
+"EM1154_00_0","Baunos",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1154_00_0","Baunos",300,"RW009","Gathered with Slinger?",-1,"LOW","Screamer Pod",3,1
+"EM1154_00_0","Baunos",800,"RW010","Unique Acquisition?",-1,"LOW","Screamer Pod",3,1
+"EM1154_00_0","Baunos",100,"RW000","Carving",-1,"HIGH","Wingdrake Hide+",1,1
+"EM1154_00_0","Baunos",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1154_00_0","Baunos",300,"RW009","Gathered with Slinger?",-1,"HIGH","Screamer Pod",3,1
+"EM1155_00_0","Gajios",100,"RW000","Carving",-1,"LOW","Sharp Fang",1,1
+"EM1155_00_0","Gajios",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1155_00_0","Gajios",100,"RW000","Carving",-1,"HIGH","Acute Fang",1,1
+"EM1155_00_0","Gajios",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1156_00_0","Piragill",100,"RW000","Carving",-1,"LOW","Piragill Fin",1,0.7
+"EM1156_00_0","Piragill",101,"RW000","Carving",-1,"LOW","Sharp Fang",1,0.3
+"EM1156_00_0","Piragill",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1156_00_0","Piragill",500,"RW004","Target Rewards",-1,"LOW","Piragill Fin",1,0.3
+"EM1156_00_0","Piragill",501,"RW004","Target Rewards",-1,"LOW","Sharp Fang",1,0.3
+"EM1156_00_0","Piragill",502,"RW004","Target Rewards",-1,"LOW","Parashroom",2,0.2
+"EM1156_00_0","Piragill",503,"RW004","Target Rewards",-1,"LOW","Machalite Ore",1,0.2
+"EM1156_00_0","Piragill",100,"RW000","Carving",-1,"HIGH","Piragill Fin+",1,0.7
+"EM1156_00_0","Piragill",101,"RW000","Carving",-1,"HIGH","Acute Fang",1,0.3
+"EM1156_00_0","Piragill",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1156_00_0","Piragill",500,"RW004","Target Rewards",-1,"HIGH","Piragill Fin+",1,0.3
+"EM1156_00_0","Piragill",501,"RW004","Target Rewards",-1,"HIGH","Acute Fang",1,0.3
+"EM1156_00_0","Piragill",502,"RW004","Target Rewards",-1,"HIGH","Parashroom",4,0.2
+"EM1156_00_0","Piragill",503,"RW004","Target Rewards",-1,"HIGH","Carbalite Ore",2,0.2
+"EM1157_00_0","Harpios",100,"RW000","Carving",-1,"LOW","Wingdrake Hide",1,1
+"EM1157_00_0","Harpios",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1157_00_0","Harpios",100,"RW000","Carving",-1,"HIGH","Wingdrake Hide+",1,1
+"EM1157_00_0","Harpios",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1158_00_0","Kranodath",100,"RW000","Carving",-1,"LOW","Kranodath Skull",1,0.75
+"EM1158_00_0","Kranodath",101,"RW000","Carving",-1,"LOW","Sharp Fang",1,0.25
+"EM1158_00_0","Kranodath",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1158_00_0","Kranodath",300,"RW002","???",-1,"LOW","Krano Copper",1,1
+"EM1158_00_0","Kranodath",500,"RW004","Target Rewards",-1,"LOW","Kranodath Skull",1,0.3
+"EM1158_00_0","Kranodath",501,"RW004","Target Rewards",-1,"LOW","Sharp Fang",1,0.3
+"EM1158_00_0","Kranodath",502,"RW004","Target Rewards",-1,"LOW","Dragonite Ore",1,0.2
+"EM1158_00_0","Kranodath",503,"RW004","Target Rewards",-1,"LOW","Charred Oilbone",1,0.2
+"EM1158_00_0","Kranodath",100,"RW000","Carving",-1,"HIGH","Kranodath Skull+",1,0.75
+"EM1158_00_0","Kranodath",101,"RW000","Carving",-1,"HIGH","Acute Fang",1,0.25
+"EM1158_00_0","Kranodath",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1158_00_0","Kranodath",300,"RW002","???",-1,"HIGH","Krano Pyrite",1,1
+"EM1158_00_0","Kranodath",500,"RW004","Target Rewards",-1,"HIGH","Kranodath Skull+",1,0.3
+"EM1158_00_0","Kranodath",501,"RW004","Target Rewards",-1,"HIGH","Acute Fang",1,0.3
+"EM1158_00_0","Kranodath",502,"RW004","Target Rewards",-1,"HIGH","Dragonite Ore",2,0.2
+"EM1158_00_0","Kranodath",503,"RW004","Target Rewards",-1,"HIGH","Charred Oilbone",2,0.2
+"EM1159_00_0","Comaqchi",100,"RW000","Carving",-1,"LOW","Comaqchi Shell",1,1
+"EM1159_00_0","Comaqchi",110,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Monster Fluid",1,1
+"EM1159_00_0","Comaqchi",500,"RW004","Target Rewards",-1,"LOW","Comaqchi Shell",1,0.3
+"EM1159_00_0","Comaqchi",501,"RW004","Target Rewards",-1,"LOW","Monster Fluid",1,0.3
+"EM1159_00_0","Comaqchi",502,"RW004","Target Rewards",-1,"LOW","Sleep Herb",3,0.2
+"EM1159_00_0","Comaqchi",503,"RW004","Target Rewards",-1,"LOW","Frozen Icebone",1,0.2
+"EM1159_00_0","Comaqchi",100,"RW000","Carving",-1,"HIGH","Comaqchi Carapace",1,1
+"EM1159_00_0","Comaqchi",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Broth",1,1
+"EM1159_00_0","Comaqchi",500,"RW004","Target Rewards",-1,"HIGH","Comaqchi Carapace",1,0.3
+"EM1159_00_0","Comaqchi",501,"RW004","Target Rewards",-1,"HIGH","Monster Broth",1,0.3
+"EM1159_00_0","Comaqchi",502,"RW004","Target Rewards",-1,"HIGH","Sleep Herb",4,0.2
+"EM1159_00_0","Comaqchi",503,"RW004","Target Rewards",-1,"HIGH","Frozen Icebone",2,0.2
+"EM1160_00_0","Gelidron",100,"RW000","Carving",-1,"LOW","Raw Meat",1,1
+"EM1160_00_0","Gelidron",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1160_00_0","Gelidron",100,"RW000","Carving",-1,"HIGH","Raw Meat",1,1
+"EM1160_00_0","Gelidron",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1161_00_0","Rafma",100,"RW000","Carving",-1,"LOW","Raw Meat",1,0.75
+"EM1161_00_0","Rafma",101,"RW000","Carving",-1,"LOW","Mystery Bone",1,0.25
+"EM1161_00_0","Rafma",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1161_00_0","Rafma",100,"RW000","Carving",-1,"HIGH","Raw Meat",1,0.75
+"EM1161_00_0","Rafma",101,"RW000","Carving",-1,"HIGH","Sturdy Bone",1,0.25
+"EM1161_00_0","Rafma",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1162_00_0","Porkeplume",100,"RW000","Carving",-1,"LOW","Sharp Fang",1,0.75
+"EM1162_00_0","Porkeplume",101,"RW000","Carving",-1,"LOW","Mystery Bone",1,0.25
+"EM1162_00_0","Porkeplume",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1162_00_0","Porkeplume",100,"RW000","Carving",-1,"HIGH","Acute Fang",1,0.75
+"EM1162_00_0","Porkeplume",101,"RW000","Carving",-1,"HIGH","Sturdy Bone",1,0.25
+"EM1162_00_0","Porkeplume",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1163_00_0","Nerscylla Hatchling",100,"RW000","Carving",-1,"LOW","Monster Fluid",1,1
+"EM1163_00_0","Nerscylla Hatchling",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Monster Fluid",1,1
+"EM1163_00_0","Nerscylla Hatchling",100,"RW000","Carving",-1,"HIGH","Monster Broth",1,1
+"EM1163_00_0","Nerscylla Hatchling",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Broth",1,1
+"EM1164_50_0","Guardian Seikret",100,"RW000","Carving",-1,"LOW","Guardian Seikret Feather",1,0.7
+"EM1164_50_0","Guardian Seikret",101,"RW000","Carving",-1,"LOW","Sharp Fang",1,0.3
+"EM1164_50_0","Guardian Seikret",200,"RW008","Carving (Rotten Monster Carcass)",-1,"LOW","Mystery Bone",1,1
+"EM1164_50_0","Guardian Seikret",210,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Crushed Crystal",1,0.75
+"EM1164_50_0","Guardian Seikret",211,"RW016","Carve (Crystalized Carcass)",-1,"LOW","Cloudy Crystal",1,0.25
+"EM1164_50_0","Guardian Seikret",500,"RW004","Target Rewards",-1,"LOW","Guardian Seikret Feather",1,0.3
+"EM1164_50_0","Guardian Seikret",501,"RW004","Target Rewards",-1,"LOW","Sharp Fang",1,0.3
+"EM1164_50_0","Guardian Seikret",502,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.2
+"EM1164_50_0","Guardian Seikret",503,"RW004","Target Rewards",-1,"LOW","Tough Guardian Bone",1,0.2
+"EM1164_50_0","Guardian Seikret",100,"RW000","Carving",-1,"HIGH","Guardian Seikret Feather+",1,0.7
+"EM1164_50_0","Guardian Seikret",101,"RW000","Carving",-1,"HIGH","Acute Fang",1,0.3
+"EM1164_50_0","Guardian Seikret",200,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Sturdy Bone",1,1
+"EM1164_50_0","Guardian Seikret",210,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Crushed Crystal",1,0.5
+"EM1164_50_0","Guardian Seikret",211,"RW016","Carve (Crystalized Carcass)",-1,"HIGH","Cloudy Crystal",1,0.5
+"EM1164_50_0","Guardian Seikret",500,"RW004","Target Rewards",-1,"HIGH","Guardian Seikret Feather+",1,0.3
+"EM1164_50_0","Guardian Seikret",501,"RW004","Target Rewards",-1,"HIGH","Acute Fang",1,0.3
+"EM1164_50_0","Guardian Seikret",502,"RW004","Target Rewards",-1,"HIGH","Nourishing Extract",1,0.2
+"EM1164_50_0","Guardian Seikret",503,"RW004","Target Rewards",-1,"HIGH","Tough Guardian Bone",2,0.2
+"EM5004_00_0","Dung Beetle",100,"RW009","Gathered with Slinger?",-1,"LOW","Rolled-up Dung",1,1
+"EM5004_00_0","Dung Beetle",100,"RW009","Gathered with Slinger?",-1,"HIGH","Rolled-up Dung",1,1
+"EM5004_10_0","Bomb Beetle",100,"RW009","Gathered with Slinger?",-1,"LOW","Bomb Pod",1,1
+"EM5004_10_0","Bomb Beetle",100,"RW009","Gathered with Slinger?",-1,"HIGH","Bomb Pod",1,1
+"EM5004_20_0","Rime Beetle",100,"RW009","Gathered with Slinger?",-1,"LOW","Frostburst",1,1
+"EM5004_20_0","Rime Beetle",100,"RW009","Gathered with Slinger?",-1,"HIGH","Frostburst",1,1
+"EM5008_00_0","Great Thunderbug",400,"RW003","Endemic Life Catch",-1,"LOW","Shock Trap",1,1
+"EM5008_00_0","Great Thunderbug",400,"RW003","Endemic Life Catch",-1,"HIGH","Shock Trap",1,1
+"EM5100_00_0","Thunderbug",100,"RW000","Carving",-1,"LOW","Thunderbug Capacitor",1,1
+"EM5100_00_0","Thunderbug",400,"RW003","Endemic Life Catch",-1,"LOW","Thunderbug Capacitor",1,1
+"EM5100_00_0","Thunderbug",100,"RW000","Carving",-1,"HIGH","Thunderbug Capacitor",1,1
+"EM5100_00_0","Thunderbug",400,"RW003","Endemic Life Catch",-1,"HIGH","Thunderbug Capacitor",1,1
+"EM5101_00_0","Flashbug",100,"RW000","Carving",-1,"LOW","Flashbug Phosphor",1,1
+"EM5101_00_0","Flashbug",400,"RW003","Endemic Life Catch",-1,"LOW","Flashbug Phosphor",1,1
+"EM5101_00_0","Flashbug",100,"RW000","Carving",-1,"HIGH","Flashbug Phosphor",1,1
+"EM5101_00_0","Flashbug",400,"RW003","Endemic Life Catch",-1,"HIGH","Flashbug Phosphor",1,1
+"EM5101_10_0","Godbug",100,"RW000","Carving",-1,"LOW","Godbug Essence",1,1
+"EM5101_10_0","Godbug",400,"RW003","Endemic Life Catch",-1,"LOW","Godbug Essence",1,1
+"EM5101_10_0","Godbug",100,"RW000","Carving",-1,"HIGH","Godbug Essence",1,1
+"EM5101_10_0","Godbug",400,"RW003","Endemic Life Catch",-1,"HIGH","Godbug Essence",1,1
+"EM5101_20_0","Bitterbug",100,"RW000","Carving",-1,"LOW","Bitterbug Broth",1,1
+"EM5101_20_0","Bitterbug",400,"RW003","Endemic Life Catch",-1,"LOW","Bitterbug Broth",1,1
+"EM5101_20_0","Bitterbug",100,"RW000","Carving",-1,"HIGH","Bitterbug Broth",1,1
+"EM5101_20_0","Bitterbug",400,"RW003","Endemic Life Catch",-1,"HIGH","Bitterbug Broth",1,1
+"EM5102_00_0","Leaflugger Ant",100,"RW000","Carving",-1,"LOW","Mega Potion",1,1
+"EM5102_00_0","Leaflugger Ant",400,"RW003","Endemic Life Catch",-1,"LOW","Mega Potion",1,1
+"EM5102_00_0","Leaflugger Ant",900,"RW010","Unique Acquisition?",-1,"LOW","Max Potion",1,1
+"EM5102_00_0","Leaflugger Ant",910,"RW013","???",-1,"LOW","Max Potion",1,1
+"EM5102_00_0","Leaflugger Ant",100,"RW000","Carving",-1,"HIGH","Mega Potion",1,1
+"EM5102_00_0","Leaflugger Ant",400,"RW003","Endemic Life Catch",-1,"HIGH","Mega Potion",1,1
+"EM5102_00_0","Leaflugger Ant",900,"RW010","Unique Acquisition?",-1,"HIGH","Max Potion",1,1
+"EM5102_00_0","Leaflugger Ant",910,"RW013","???",-1,"HIGH","Max Potion",1,1
+"EM5302_00_0","Whetfish",400,"RW003","Endemic Life Catch",-1,"LOW","Whetfish Fin",3,0.7
+"EM5302_00_0","Whetfish",401,"RW003","Endemic Life Catch",-1,"LOW","Whetfish Fin",5,0.3
+"EM5302_00_0","Whetfish",900,"RW010","Unique Acquisition?",-1,"LOW","Whetfish Fin+",1,0.7
+"EM5302_00_0","Whetfish",901,"RW010","Unique Acquisition?",-1,"LOW","Whetfish Fin+",2,0.3
+"EM5302_00_0","Whetfish",400,"RW003","Endemic Life Catch",-1,"HIGH","Whetfish Fin",3,0.7
+"EM5302_00_0","Whetfish",401,"RW003","Endemic Life Catch",-1,"HIGH","Whetfish Fin",5,0.3
+"EM5302_00_0","Whetfish",900,"RW010","Unique Acquisition?",-1,"HIGH","Whetfish Fin+",1,0.7
+"EM5302_00_0","Whetfish",901,"RW010","Unique Acquisition?",-1,"HIGH","Whetfish Fin+",2,0.3
+"EM5303_00_0","Sushifish",400,"RW003","Endemic Life Catch",-1,"LOW","Sushifish Scale",3,0.7
+"EM5303_00_0","Sushifish",401,"RW003","Endemic Life Catch",-1,"LOW","Sushifish Scale",5,0.3
+"EM5303_00_0","Sushifish",900,"RW010","Unique Acquisition?",-1,"LOW","Great Sushifish Scale",1,0.7
+"EM5303_00_0","Sushifish",901,"RW010","Unique Acquisition?",-1,"LOW","Great Sushifish Scale",3,0.3
+"EM5303_00_0","Sushifish",400,"RW003","Endemic Life Catch",-1,"HIGH","Sushifish Scale",3,0.7
+"EM5303_00_0","Sushifish",401,"RW003","Endemic Life Catch",-1,"HIGH","Sushifish Scale",5,0.3
+"EM5303_00_0","Sushifish",900,"RW010","Unique Acquisition?",-1,"HIGH","Great Sushifish Scale",1,0.7
+"EM5303_00_0","Sushifish",901,"RW010","Unique Acquisition?",-1,"HIGH","Great Sushifish Scale",3,0.3
+"EM5304_00_0","Gastronome Tuna",100,"RW003","Endemic Life Catch",-1,"LOW","Whetfish Fin",3,0.2
+"EM5304_00_0","Gastronome Tuna",101,"RW003","Endemic Life Catch",-1,"LOW","Sushifish Scale",3,0.2
+"EM5304_00_0","Gastronome Tuna",102,"RW003","Endemic Life Catch",-1,"LOW","Ancient Wyvern Coin",2,0.1
+"EM5304_00_0","Gastronome Tuna",103,"RW003","Endemic Life Catch",-1,"LOW","Truffle Du Conga",2,0.1
+"EM5304_00_0","Gastronome Tuna",104,"RW003","Endemic Life Catch",-1,"LOW","Fine Scarlet Amber",1,0.1
+"EM5304_00_0","Gastronome Tuna",105,"RW003","Endemic Life Catch",-1,"LOW","Sparkly Treasure",1,0.1
+"EM5304_00_0","Gastronome Tuna",106,"RW003","Endemic Life Catch",-1,"LOW","Royal Sea Pot",1,0.1
+"EM5304_00_0","Gastronome Tuna",107,"RW003","Endemic Life Catch",-1,"LOW","Chaliceweed",1,0.1
+"EM5304_00_0","Gastronome Tuna",100,"RW003","Endemic Life Catch",-1,"HIGH","Whetfish Fin",3,0.2
+"EM5304_00_0","Gastronome Tuna",101,"RW003","Endemic Life Catch",-1,"HIGH","Sushifish Scale",3,0.2
+"EM5304_00_0","Gastronome Tuna",102,"RW003","Endemic Life Catch",-1,"HIGH","Ancient Wyvern Coin",2,0.1
+"EM5304_00_0","Gastronome Tuna",103,"RW003","Endemic Life Catch",-1,"HIGH","Truffle Du Conga",2,0.1
+"EM5304_00_0","Gastronome Tuna",104,"RW003","Endemic Life Catch",-1,"HIGH","Fine Scarlet Amber",1,0.1
+"EM5304_00_0","Gastronome Tuna",105,"RW003","Endemic Life Catch",-1,"HIGH","Sparkly Treasure",1,0.1
+"EM5304_00_0","Gastronome Tuna",106,"RW003","Endemic Life Catch",-1,"HIGH","Royal Sea Pot",1,0.1
+"EM5304_00_0","Gastronome Tuna",107,"RW003","Endemic Life Catch",-1,"HIGH","Chaliceweed",1,0.1
+"EM5305_00_0","Gajau",100,"RW003","Endemic Life Catch",-1,"LOW","Gajau Hide",1,1
+"EM5305_00_0","Gajau",100,"RW003","Endemic Life Catch",-1,"HIGH","Gajau Hide",1,1
+"EM5306_00_0","Goldenfry",100,"RW003","Endemic Life Catch",-1,"LOW","Gilded Scale",1,0.7
+"EM5306_00_0","Goldenfry",101,"RW003","Endemic Life Catch",-1,"LOW","Gilded Scale",3,0.3
+"EM5306_00_0","Goldenfry",100,"RW003","Endemic Life Catch",-1,"HIGH","Gilded Scale",1,0.7
+"EM5306_00_0","Goldenfry",101,"RW003","Endemic Life Catch",-1,"HIGH","Gilded Scale",3,0.3
+"EM5307_00_0","Goldenfish",100,"RW003","Endemic Life Catch",-1,"LOW","Golden Scale",1,0.7
+"EM5307_00_0","Goldenfish",101,"RW003","Endemic Life Catch",-1,"LOW","Golden Scale",3,0.3
+"EM5307_00_0","Goldenfish",100,"RW003","Endemic Life Catch",-1,"HIGH","Golden Scale",1,0.7
+"EM5307_00_0","Goldenfish",101,"RW003","Endemic Life Catch",-1,"HIGH","Golden Scale",3,0.3
+"EM5308_00_0","Platinumfish",100,"RW003","Endemic Life Catch",-1,"LOW","Platinum Scale",1,0.7
+"EM5308_00_0","Platinumfish",101,"RW003","Endemic Life Catch",-1,"LOW","Platinum Scale",3,0.3
+"EM5308_00_0","Platinumfish",100,"RW003","Endemic Life Catch",-1,"HIGH","Platinum Scale",1,0.7
+"EM5308_00_0","Platinumfish",101,"RW003","Endemic Life Catch",-1,"HIGH","Platinum Scale",3,0.3
+"EM5309_00_0","Burst Arowana",100,"RW003","Endemic Life Catch",-1,"LOW","Burst Arowana Scale",3,0.7
+"EM5309_00_0","Burst Arowana",101,"RW003","Endemic Life Catch",-1,"LOW","Burst Arowana Scale",5,0.3
+"EM5309_00_0","Burst Arowana",100,"RW003","Endemic Life Catch",-1,"HIGH","Burst Arowana Scale",3,0.7
+"EM5309_00_0","Burst Arowana",101,"RW003","Endemic Life Catch",-1,"HIGH","Burst Arowana Scale",5,0.3
+"EM5310_00_0","Bomb Arowana",100,"RW003","Endemic Life Catch",-1,"LOW","Bomb Arowana Scale",3,0.7
+"EM5310_00_0","Bomb Arowana",101,"RW003","Endemic Life Catch",-1,"LOW","Bomb Arowana Scale",5,0.3
+"EM5310_00_0","Bomb Arowana",100,"RW003","Endemic Life Catch",-1,"HIGH","Bomb Arowana Scale",3,0.7
+"EM5310_00_0","Bomb Arowana",101,"RW003","Endemic Life Catch",-1,"HIGH","Bomb Arowana Scale",5,0.3
+"EM5311_00_0","Gunpowderfish",100,"RW003","Endemic Life Catch",-1,"LOW","Gunpowderfish Scale",3,0.7
+"EM5311_00_0","Gunpowderfish",101,"RW003","Endemic Life Catch",-1,"LOW","Gunpowderfish Scale",5,0.3
+"EM5311_00_0","Gunpowderfish",100,"RW003","Endemic Life Catch",-1,"HIGH","Gunpowderfish Scale",3,0.7
+"EM5311_00_0","Gunpowderfish",101,"RW003","Endemic Life Catch",-1,"HIGH","Gunpowderfish Scale",5,0.3
+"EM5312_00_0","Speartuna",100,"RW003","Endemic Life Catch",-1,"LOW","Speartuna Fin",1,1
+"EM5312_00_0","Speartuna",100,"RW003","Endemic Life Catch",-1,"HIGH","Speartuna Fin",1,1

@@ -1,0 +1,3254 @@
+"Sort ID","ID","Series","Name","Model ID","Price","Type Sort ID","Type","Rarity","Attack","True Attack","Affinity","Defense Bonus","Element","Element Attack","Slot 1","Slot 2","Slot 3","Ammo","Ammo Lv","Ammo Capacity","Rapid Fire","Customization 1 Options","Customization 2 Options","LBG Special Ammo","BG Main Shell","HBG Energy Efficiency","HBG Ammo Strength","HBG Energy Shell Type Normal","HBG Energy Shell Type Power","HBG Energy Shell Type Weak","Bow Coatings","Skill 1","Skill 1 Level","Skill 2","Skill 2 Level"
+0,"LightBowgun_000","Expedition Tree","Hope Rifle I",1,200,14,"Light Bowgun",1,117,90,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","","","",""
+1,"LightBowgun_001","Expedition Tree","Hope Rifle II",1,500,14,"Light Bowgun",1,130,100,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Ballistics",1,"",""
+2,"LightBowgun_002","Expedition Tree","Hope Rifle III",1,1500,14,"Light Bowgun",3,169,130,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Ballistics",1,"Critical Eye",1
+3,"LightBowgun_003","Expedition Tree","Hope Rifle IV",1,4000,14,"Light Bowgun",5,208,160,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x3
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Ballistics",2,"Critical Eye",1
+4,"LightBowgun_004","Expedition Tree","Hope Rifle V",1,14000,14,"Light Bowgun",7,247,190,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x3
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Ballistics",3,"Critical Eye",1
+5,"LightBowgun_169","Expedition Tree","Esperanza Rifle",1,20000,14,"Light Bowgun",8,273,210,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x3
+x1
+x1
+x4","▲
+
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Ballistics",3,"Critical Eye",1
+6,"LightBowgun_060","G. Rathalos Tree","G. Rathling Gun I",100000,2600,14,"Light Bowgun",4,208,160,0.15,0,"-",0,1,0,0,"Normal,Pierce,Spread,Flaming,Poison,Armour,Recover,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x2
+x5
+x3
+x2
+x2
+x4","
+
+▲
+▲
+
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Critical Element",1,"Ballistics",1
+7,"LightBowgun_061","G. Rathalos Tree","G. Rathling Gun II",100000,10000,14,"Light Bowgun",6,234,180,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Flaming,Poison,Armour,Recover,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x2
+x5
+x3
+x2
+x2
+x4","
+
+▲
+▲
+
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Critical Element",2,"Ballistics",1
+8,"LightBowgun_062","G. Rathalos Tree","White Rathling Phoenix",100000,20000,14,"Light Bowgun",8,273,210,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Flaming,Poison,Armour,Recover,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x2
+x5
+x3
+x2
+x2
+x4","
+
+▲
+▲
+
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Critical Element",2,"Ballistics",1
+9,"LightBowgun_031","Doshaguma Tree","Dosha Faithbreaker I",3,800,14,"Light Bowgun",2,182,140,-0.05,20,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Water,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x5
+x1
+x6
+x4","▲
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Opening Shot",1,"",""
+10,"LightBowgun_032","Doshaguma Tree","Dosha Faithbreaker II",3,2600,14,"Light Bowgun",4,234,180,-0.05,20,"-",0,1,0,0,"Normal,Pierce,Spread,Sticky,Water,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x5
+x1
+x6
+x4","▲
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Opening Shot",2,"",""
+11,"LightBowgun_033","Doshaguma Tree","Dosha Faithbreaker III",3,10000,14,"Light Bowgun",6,273,210,-0.05,20,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Water,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x5
+x1
+x6
+x4","▲
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Opening Shot",3,"",""
+12,"LightBowgun_170","Doshaguma Tree","Faithbreaker Leibolkule",4,20000,14,"Light Bowgun",8,312,240,-0.05,20,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Water,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x5
+x1
+x6
+x4","▲
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Normal?","","","","","","","Opening Shot",3,"",""
+13,"LightBowgun_136","G. Arkveld Tree","G. Veldian Impetum I",19,2600,14,"Light Bowgun",4,208,160,-0.1,0,"-",0,1,1,0,"Normal,Pierce,Spread,Sticky,Water,Freeze,Dragon,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1","x3
+x4
+x4
+x2
+x3
+x5
+x1
+x4","
+
+▲
+
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Opening Shot",2,"",""
+14,"LightBowgun_137","G. Arkveld Tree","G. Veldian Impetum II",19,10000,14,"Light Bowgun",6,260,200,-0.1,0,"-",0,2,2,0,"Normal,Pierce,Spread,Sticky,Water,Freeze,Dragon,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1","x3
+x4
+x4
+x2
+x3
+x5
+x1
+x4","
+
+▲
+
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Opening Shot",2,"",""
+15,"LightBowgun_138","G. Arkveld Tree","G. Expiating Caius",19,20000,14,"Light Bowgun",8,299,230,-0.1,0,"-",0,3,3,1,"Normal,Pierce,Spread,Sticky,Water,Freeze,Dragon,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1","x3
+x4
+x4
+x2
+x3
+x5
+x1
+x4","
+
+▲
+
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Spread?","","","","","","","Opening Shot",2,"",""
+16,"LightBowgun_144","Arkveld Tree","Veldian Impetum I",22,14000,14,"Light Bowgun",7,234,180,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Flaming,Thunder,Dragon,Sleep,Demon,Armour,Tranq","Lv1
+Lv3
+Lv2
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x4
+x5
+x5
+x3
+x3
+x2
+x2
+x4","
+▲
+▲
+
+
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",3,"",""
+17,"LightBowgun_171","Arkveld Tree","Expiating Caius",22,20000,14,"Light Bowgun",8,260,200,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Flaming,Thunder,Dragon,Sleep,Demon,Armour,Tranq","Lv1
+Lv3
+Lv2
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x4
+x5
+x5
+x3
+x3
+x2
+x2
+x4","
+▲
+▲
+
+
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",3,"",""
+18,"LightBowgun_039","G. Doshaguma Tree","Dosha Gigasbreaker I",100002,2600,14,"Light Bowgun",4,247,190,-0.15,0,"-",0,1,1,0,"Normal,Pierce,Spread,Sticky,Water,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x2
+x2
+x4
+x5
+x4","
+
+▲
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Slugger",2,"",""
+19,"LightBowgun_040","G. Doshaguma Tree","Dosha Gigasbreaker II",100002,10000,14,"Light Bowgun",6,286,220,-0.15,0,"-",0,2,2,0,"Normal,Pierce,Spread,Sticky,Water,Exhaust,Tranq","Lv1
+Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x2
+x2
+x4
+x5
+x4","
+
+▲
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Slugger",3,"",""
+20,"LightBowgun_041","G. Doshaguma Tree","Gigasbreaker Urbolkule",100002,20000,14,"Light Bowgun",8,325,250,-0.15,0,"-",0,3,3,1,"Normal,Pierce,Spread,Sticky,Water,Exhaust,Tranq","Lv1
+Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x2
+x2
+x4
+x5
+x4","
+
+▲
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Slugger",3,"",""
+21,"LightBowgun_047","Ore Tree","Chain Blitz I",10000,800,14,"Light Bowgun",2,156,120,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Freeze,Paralysis,Armour,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x4","▲
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",1,"",""
+22,"LightBowgun_048","Ore Tree","Chain Blitz II",10000,2600,14,"Light Bowgun",4,208,160,0,0,"-",0,1,0,0,"Normal,Pierce,Spread,Freeze,Paralysis,Armour,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x4","▲
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",2,"",""
+23,"LightBowgun_049","Ore Tree","Chain Blitz III",10000,10000,14,"Light Bowgun",6,247,190,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Freeze,Paralysis,Armour,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x4","▲
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",2,"",""
+24,"LightBowgun_050","Ore Tree","High Chain Blitz",10000,20000,14,"Light Bowgun",8,286,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Freeze,Paralysis,Armour,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x5
+x2
+x1
+x4","▲
+▲
+
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",3,"",""
+25,"LightBowgun_018","Rey Dau Tree","Rey Szelatya I",5,2000,14,"Light Bowgun",3,182,140,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Thunder,Paralysis,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1","x5
+x3
+x4
+x1
+x4
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",1,"Slugger",1
+26,"LightBowgun_019","Rey Dau Tree","Rey Szelatya II",5,4000,14,"Light Bowgun",5,221,170,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Thunder,Paralysis,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1","x5
+x3
+x4
+x1
+x4
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",1,"Slugger",1
+27,"LightBowgun_020","Rey Dau Tree","Rey Szelatya III",5,14000,14,"Light Bowgun",7,260,200,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Thunder,Paralysis,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1","x5
+x3
+x4
+x1
+x4
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",2,"Slugger",1
+28,"LightBowgun_021","Rey Dau Tree","Szelatya Clairgun",5,20000,14,"Light Bowgun",8,286,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Thunder,Paralysis,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1","x5
+x3
+x4
+x1
+x4
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Opening Shot",2,"Slugger",1
+29,"LightBowgun_091","Bone Tree","Hunter's Rifle I",10001,500,14,"Light Bowgun",1,143,110,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x5
+x3
+x4","
+▲
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Opening Shot",1,"",""
+30,"LightBowgun_092","Bone Tree","Hunter's Rifle II",10001,800,14,"Light Bowgun",2,169,130,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x5
+x3
+x4","
+▲
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Opening Shot",1,"Attack Boost",1
+31,"LightBowgun_093","Bone Tree","Hunter's Rifle III",10001,2600,14,"Light Bowgun",4,221,170,0,0,"-",0,1,0,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x5
+x3
+x4","
+▲
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Opening Shot",2,"Attack Boost",1
+32,"LightBowgun_094","Bone Tree","Hunter's Rifle IV",10001,10000,14,"Light Bowgun",6,260,200,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x5
+x3
+x4","
+▲
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Opening Shot",3,"Attack Boost",1
+33,"LightBowgun_095","Bone Tree","Power Rifle",10001,20000,14,"Light Bowgun",8,299,230,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x5
+x3
+x4","
+▲
+▲
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Spread?","","","","","","","Opening Shot",3,"Attack Boost",1
+34,"LightBowgun_112","Ajarakan Tree","Ajara Shellgun I",11,1500,14,"Light Bowgun",3,169,130,0.1,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Flaming,Thunder,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x4
+x4
+x4","
+
+▲
+▲
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Spread?","","","","","","","Artillery",2,"",""
+35,"LightBowgun_113","Ajarakan Tree","Ajara Shellgun II",11,10000,14,"Light Bowgun",6,234,180,0.1,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Flaming,Thunder,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x4
+x4
+x4","
+
+▲
+▲
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Spread?","","","","","","","Artillery",3,"",""
+36,"LightBowgun_114","Ajarakan Tree","Ajara-Angaja",11,20000,14,"Light Bowgun",8,273,210,0.1,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Flaming,Thunder,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x4
+x4
+x4","
+
+▲
+▲
+
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Spread?","","","","","","","Artillery",3,"",""
+37,"LightBowgun_120","Nu Udra Tree","Nu Chobotnice I",10,2600,14,"Light Bowgun",4,221,170,-0.15,0,"-",0,1,0,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv3
+Lv1
+Lv1
+Lv1","x6
+x4
+x2
+x6
+x4
+x4","
+
+▲
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Spread?","","","","","","","Opening Shot",2,"",""
+38,"LightBowgun_121","Nu Udra Tree","Nu Chobotnice II",10,14000,14,"Light Bowgun",7,273,210,-0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv3
+Lv1
+Lv1
+Lv1","x6
+x4
+x2
+x6
+x4
+x4","
+
+▲
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Spread?","","","","","","","Opening Shot",3,"",""
+39,"LightBowgun_122","Nu Udra Tree","Abaddonian Chobotnice",10,20000,14,"Light Bowgun",8,299,230,-0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Flaming,Exhaust,Tranq","Lv1
+Lv1
+Lv3
+Lv1
+Lv1
+Lv1","x6
+x4
+x2
+x6
+x4
+x4","
+
+▲
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Spread?","","","","","","","Opening Shot",3,"",""
+40,"LightBowgun_073","Congalala Tree","Assault Conga I",2,800,14,"Light Bowgun",2,156,120,0.05,0,"-",0,0,0,0,"Normal,Pierce,Spread,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x5
+x3
+x6
+x3
+x2
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Special Ammo Boost",1,"",""
+41,"LightBowgun_074","Congalala Tree","Assault Conga II",2,4000,14,"Light Bowgun",5,221,170,0.05,0,"-",0,2,1,1,"Normal,Pierce,Spread,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x5
+x3
+x6
+x3
+x2
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Special Ammo Boost",1,"Opening Shot",1
+42,"LightBowgun_075","Congalala Tree","Combat Conga",2,20000,14,"Light Bowgun",8,286,220,0.05,0,"-",0,3,3,1,"Normal,Pierce,Spread,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x5
+x3
+x6
+x3
+x2
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Pierce?","","","","","","","Special Ammo Boost",2,"Opening Shot",1
+43,"LightBowgun_128","Hirabami Tree","Windshear Light I",9,1500,14,"Light Bowgun",3,182,140,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Water,Freeze,Exhaust,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x2
+x3
+x5
+x5
+x2
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",2,"Airborne",1
+44,"LightBowgun_129","Hirabami Tree","Windshear Light II",9,5000,14,"Light Bowgun",5,221,170,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Water,Freeze,Exhaust,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x2
+x3
+x5
+x5
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",2,"Airborne",1
+45,"LightBowgun_130","Hirabami Tree","Windshear Light III",9,14000,14,"Light Bowgun",7,260,200,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Water,Freeze,Exhaust,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x2
+x3
+x5
+x5
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",3,"Airborne",1
+46,"LightBowgun_131","Hirabami Tree","Windshear Uchibami",9,20000,14,"Light Bowgun",8,286,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Water,Freeze,Exhaust,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x2
+x3
+x5
+x5
+x3
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",3,"Airborne",1
+47,"LightBowgun_104","G. Ebony Tree","Chthonian Gunfire I",100001,2600,14,"Light Bowgun",4,182,140,0.1,0,"-",0,1,0,0,"Normal,Pierce,Spread,Thunder,Dragon,Demon,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x5
+x3
+x6
+x2
+x1
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Pierce?","","","","","","","Tetrad Shot",2,"",""
+48,"LightBowgun_105","G. Ebony Tree","Chthonian Gunfire II",100001,10000,14,"Light Bowgun",6,221,170,0.1,0,"-",0,2,1,0,"Normal,Pierce,Spread,Thunder,Dragon,Demon,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x5
+x3
+x6
+x2
+x1
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Pierce?","","","","","","","Tetrad Shot",3,"",""
+49,"LightBowgun_106","G. Ebony Tree","Bequeathed Animus",100001,20000,14,"Light Bowgun",8,273,210,0.1,0,"-",0,3,2,1,"Normal,Pierce,Spread,Thunder,Dragon,Demon,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x5
+x3
+x6
+x2
+x1
+x4","
+▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Pierce?","","","","","","","Tetrad Shot",3,"",""
+50,"LightBowgun_008","Yian Kut-Ku Tree","Kut-Ku Anger I",13,4000,14,"Light Bowgun",5,234,180,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Flaming,Poison,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x4
+x4
+x3
+x3
+x2
+x4","▲
+
+
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Normal?","","","","","","","Ballistics",2,"",""
+51,"LightBowgun_009","Yian Kut-Ku Tree","Kut-Ku Anger II",13,14000,14,"Light Bowgun",7,273,210,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Flaming,Poison,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x4
+x4
+x3
+x3
+x2
+x4","▲
+
+
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Normal?","","","","","","","Ballistics",3,"",""
+52,"LightBowgun_010","Yian Kut-Ku Tree","Kut-Ku Counterattack",13,20000,14,"Light Bowgun",8,286,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Flaming,Poison,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x4
+x4
+x3
+x3
+x2
+x4","▲
+
+
+▲
+
+
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Adhesive Ammo?","Normal?","","","","","","","Ballistics",3,"",""
+53,"LightBowgun_099","G. Fulgur Tree","Felling Fulgur I",100003,10000,14,"Light Bowgun",6,234,180,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Thunder,Paralysis,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x4
+x3
+x5
+x2
+x4","▲
+
+
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","Critical Element",3,"",""
+54,"LightBowgun_100","G. Fulgur Tree","Fulgursnipe Guardiana",100003,20000,14,"Light Bowgun",8,273,210,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Thunder,Paralysis,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x4
+x3
+x5
+x2
+x4","▲
+
+
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","Critical Element",3,"",""
+55,"LightBowgun_086","Rathian Tree","Valkyrie Fire I",6,5000,14,"Light Bowgun",5,208,160,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x3
+x3
+x4
+x1
+x5
+x4
+x4","
+▲
+
+
+
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",2,"Poison Duration Up",1
+56,"LightBowgun_087","Rathian Tree","Valkyrie Fire II",6,14000,14,"Light Bowgun",7,247,190,0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x3
+x3
+x4
+x1
+x5
+x4
+x4","
+▲
+
+
+
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",3,"Poison Duration Up",1
+57,"LightBowgun_088","Rathian Tree","Valkyrie Flame",6,20000,14,"Light Bowgun",8,273,210,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x3
+x3
+x4
+x1
+x5
+x4
+x4","
+▲
+
+
+
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Pierce?","","","","","","","Tetrad Shot",3,"Poison Duration Up",1
+58,"LightBowgun_068","Rathalos Tree","Rathling Gun I",7,10000,14,"Light Bowgun",6,234,180,0.1,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x4
+x5
+x3
+x2
+x5
+x3
+x4","
+▲
+
+
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Pierce?","","","","","","","Critical Boost",3,"",""
+59,"LightBowgun_069","Rathalos Tree","Rathling Phoenix",7,20000,14,"Light Bowgun",8,260,200,0.1,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x4
+x5
+x3
+x2
+x5
+x3
+x4","
+▲
+
+
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Pierce?","","","","","","","Critical Boost",3,"",""
+60,"LightBowgun_013","Gore Magala Tree","Fäulnisschleuder I",8,14000,14,"Light Bowgun",7,234,180,0.2,0,"-",0,3,2,0,"Normal,Pierce,Spread,Freeze,Dragon,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x5
+x4
+x5
+x2
+x4","▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Normal?","","","","","","","Critical Element",3,"",""
+61,"LightBowgun_014","Gore Magala Tree","Wahnschleuder",8,20000,14,"Light Bowgun",8,260,200,0.2,0,"-",0,3,2,1,"Normal,Pierce,Spread,Freeze,Dragon,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x5
+x4
+x5
+x2
+x4","▲
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Rapid Fire Mod
+Special Ammo Mod","Wyvernblast","Normal?","","","","","","","Critical Element",3,"",""
+62,"LightBowgun_081","Blangonga Tree","Tail String I",17,10000,14,"Light Bowgun",6,260,200,-0.1,0,"-",0,2,1,0,"Normal,Pierce,Spread,Freeze,Sleep,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1","x5
+x5
+x4
+x4
+x2
+x4","
+
+▲
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Spread?","","","","","","","Opening Shot",3,"",""
+63,"LightBowgun_082","Blangonga Tree","Tail Catapult",17,20000,14,"Light Bowgun",8,299,230,-0.1,0,"-",0,3,2,1,"Normal,Pierce,Spread,Freeze,Sleep,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1","x5
+x5
+x4
+x4
+x2
+x4","
+
+▲
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Wyvernblast","Spread?","","","","","","","Opening Shot",3,"",""
+64,"LightBowgun_055","Gravios Tree","Titan Launcher I",16,10000,14,"Light Bowgun",6,273,210,-0.15,30,"-",0,2,2,0,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Sleep,Armour,Tranq","Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x2
+x4
+x1
+x2
+x5
+x4
+x2
+x2
+x4","▲
+
+
+
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","Special Ammo Boost",2,"",""
+65,"LightBowgun_056","Gravios Tree","Titan Panzer",16,20000,14,"Light Bowgun",8,312,240,-0.15,30,"-",0,3,3,1,"Normal,Pierce,Spread,Sticky,Flaming,Poison,Sleep,Armour,Tranq","Lv3
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x2
+x4
+x1
+x2
+x5
+x4
+x2
+x2
+x4","▲
+
+
+
+
+
+▲
+
+","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","Special Ammo Boost",2,"",""
+100,"LightBowgun_157","","Artian Blaster I",100004,40,14,"Light Bowgun",6,221,170,0.05,0,"-",0,2,2,2,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x2
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x4","▲
+
+
+
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","","","",""
+101,"LightBowgun_158","","Artian Blaster II",100004,100,14,"Light Bowgun",7,234,180,0.05,0,"-",0,2,2,2,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x2
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x4","▲
+
+
+
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","","","",""
+102,"LightBowgun_159","","Animilater",100004,200,14,"Light Bowgun",8,247,190,0.05,0,"-",0,3,3,3,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x2
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x1
+x4","▲
+
+
+
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+▲
+","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Rapid Fire Magazine
+Special Ammo Magazine","Adhesive Ammo?","Normal?","","","","","","","","","",""
+0,"HeavyBowgun_000","Expedition Tree","Hope Cannon I",3,200,13,"Heavy Bowgun",1,135,90,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x6
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","","","",""
+1,"HeavyBowgun_001","Expedition Tree","Hope Cannon II",3,500,13,"Heavy Bowgun",1,150,100,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x6
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Ballistics",1,"",""
+2,"HeavyBowgun_002","Expedition Tree","Hope Cannon III",3,1500,13,"Heavy Bowgun",3,195,130,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x6
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Ballistics",1,"Critical Eye",1
+3,"HeavyBowgun_003","Expedition Tree","Hope Cannon IV",3,4000,13,"Heavy Bowgun",5,240,160,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x7
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Ballistics",2,"Critical Eye",1
+4,"HeavyBowgun_004","Expedition Tree","Hope Cannon V",3,14000,13,"Heavy Bowgun",7,285,190,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x7
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Ballistics",3,"Critical Eye",1
+5,"HeavyBowgun_140","Expedition Tree","Esperanza Cannon",3,20000,13,"Heavy Bowgun",8,315,210,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Demon,Recover,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x5
+x4
+x2
+x7
+x4
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Ballistics",3,"Critical Eye",1
+6,"HeavyBowgun_048","Jin Dahaad Tree","Jin Dhaphal I",20,14000,13,"Heavy Bowgun",7,285,190,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Wyvern,Freeze,Dragon,Sleep,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x4
+x3
+x2
+x7
+x1
+x3
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard",3,"",""
+7,"HeavyBowgun_049","Jin Dahaad Tree","Precipice Malmiam",20,20000,13,"Heavy Bowgun",8,315,210,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Wyvern,Freeze,Dragon,Sleep,Tranq","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x3
+x4
+x3
+x2
+x7
+x1
+x3
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard",3,"",""
+8,"HeavyBowgun_056","Ore Tree","Iron Assault I",10000,800,13,"Heavy Bowgun",2,180,120,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Slicing,Freeze,Armour,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x3
+x6
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",1,"",""
+9,"HeavyBowgun_057","Ore Tree","Iron Assault II",10000,2600,13,"Heavy Bowgun",4,240,160,0,0,"-",0,1,0,0,"Normal,Pierce,Spread,Slicing,Freeze,Armour,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x3
+x6
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+10,"HeavyBowgun_058","Ore Tree","Iron Assault III",10000,10000,13,"Heavy Bowgun",6,285,190,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Slicing,Freeze,Armour,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x4
+x7
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+11,"HeavyBowgun_059","Ore Tree","Steel Assault",10000,20000,13,"Heavy Bowgun",8,330,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Slicing,Freeze,Armour,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x4
+x7
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+12,"HeavyBowgun_032","Rompopolo Tree","Rompo Sniper I",6,1500,13,"Heavy Bowgun",3,210,140,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x3
+x6
+x7
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",2,"",""
+13,"HeavyBowgun_033","Rompopolo Tree","Rompo Sniper II",6,4000,13,"Heavy Bowgun",5,255,170,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x3
+x6
+x7
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",2,"",""
+14,"HeavyBowgun_034","Rompopolo Tree","Rompo Sniper III",6,14000,13,"Heavy Bowgun",7,300,200,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x3
+x6
+x7
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",3,"",""
+15,"HeavyBowgun_035","Rompopolo Tree","Rompo Latrotox",6,20000,13,"Heavy Bowgun",8,330,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Thunder,Poison,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x3
+x6
+x7
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",3,"",""
+16,"HeavyBowgun_008","Chatacabra Tree","Chata Sheller I",0,500,13,"Heavy Bowgun",1,165,110,0,15,"-",0,0,0,0,"Normal,Pierce,Spread,Wyvern,Water,Armour,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x3
+x2
+x5
+x2
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",1,"",""
+17,"HeavyBowgun_009","Chatacabra Tree","Chata Sheller II",0,1500,13,"Heavy Bowgun",3,225,150,0,15,"-",0,0,0,0,"Normal,Pierce,Spread,Wyvern,Water,Armour,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x3
+x2
+x5
+x2
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",2,"",""
+18,"HeavyBowgun_010","Chatacabra Tree","Chata Sheller III",0,4000,13,"Heavy Bowgun",5,270,180,0,15,"-",0,2,1,0,"Normal,Pierce,Spread,Wyvern,Water,Armour,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x3
+x2
+x6
+x2
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",2,"",""
+19,"HeavyBowgun_011","Chatacabra Tree","Chata Sheller IV",0,14000,13,"Heavy Bowgun",7,315,210,0,15,"-",0,3,2,0,"Normal,Pierce,Spread,Wyvern,Water,Armour,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x3
+x2
+x6
+x2
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",3,"",""
+20,"HeavyBowgun_141","Chatacabra Tree","Shrouded Muktana",1,20000,13,"Heavy Bowgun",8,345,230,0,15,"-",0,3,2,1,"Normal,Pierce,Spread,Wyvern,Water,Armour,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x3
+x3
+x2
+x6
+x2
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",3,"",""
+21,"HeavyBowgun_107","G. Arkveld Tree","G. Veldian Tormentum I",18,2600,13,"Heavy Bowgun",4,255,170,-0.1,0,"-",0,1,1,0,"Normal,Pierce,Spread,Wyvern,Dragon,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x6
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+22,"HeavyBowgun_108","G. Arkveld Tree","G. Veldian Tormentum II",18,10000,13,"Heavy Bowgun",6,315,210,-0.1,0,"-",0,2,2,0,"Normal,Pierce,Spread,Wyvern,Dragon,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x6
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+23,"HeavyBowgun_109","G. Arkveld Tree","G. Aeternal Palamedes",18,20000,13,"Heavy Bowgun",8,360,240,-0.1,0,"-",0,3,3,1,"Normal,Pierce,Spread,Wyvern,Dragon,Tranq","Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x2
+x4
+x6
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+24,"HeavyBowgun_115","Arkveld Tree","Veldian Tormentum I",23,14000,13,"Heavy Bowgun",7,300,200,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Thunder,Dragon,Demon,Armour,Tranq","Lv1
+Lv1
+Lv3
+Lv3
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x6
+x3
+x3
+x3
+x5
+x3
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+25,"HeavyBowgun_142","Arkveld Tree","Aeternal Palamedes",23,20000,13,"Heavy Bowgun",8,330,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Thunder,Dragon,Demon,Armour,Tranq","Lv1
+Lv1
+Lv3
+Lv3
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x6
+x3
+x3
+x3
+x5
+x3
+x2
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+26,"HeavyBowgun_064","Bone Tree","Bone Shooter I",10001,500,13,"Heavy Bowgun",1,165,110,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x2
+x6
+x1
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",1,"",""
+27,"HeavyBowgun_065","Bone Tree","Bone Shooter II",10001,800,13,"Heavy Bowgun",2,195,130,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Tranq","Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x2
+x6
+x1
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",1,"Attack Boost",1
+28,"HeavyBowgun_066","Bone Tree","Bone Shooter III",10001,2600,13,"Heavy Bowgun",4,255,170,0,0,"-",0,1,0,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x2
+x7
+x1
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",2,"Attack Boost",1
+29,"HeavyBowgun_067","Bone Tree","Bone Shooter IV",10001,10000,13,"Heavy Bowgun",6,300,200,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x2
+x7
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",3,"Attack Boost",1
+30,"HeavyBowgun_068","Bone Tree","Heavy Shooter",10001,20000,13,"Heavy Bowgun",8,345,230,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x2
+x7
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",3,"Attack Boost",1
+31,"HeavyBowgun_036","Nerscylla Tree","Ner Bustergun I",9,1500,13,"Heavy Bowgun",3,180,120,0.1,0,"-",0,0,0,0,"Normal,Pierce,Spread,Slicing,Freeze,Poison,Sleep,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x5
+x2
+x4
+x2
+x7
+x3
+x4
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Offensive Guard",1,"Guard",1
+32,"HeavyBowgun_037","Nerscylla Tree","Ner Bustergun II",9,5000,13,"Heavy Bowgun",5,225,150,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Slicing,Freeze,Poison,Sleep,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x5
+x2
+x4
+x2
+x7
+x3
+x4
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Offensive Guard",1,"Guard",1
+33,"HeavyBowgun_038","Nerscylla Tree","Ner Bustergun III",9,14000,13,"Heavy Bowgun",7,270,180,0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Slicing,Freeze,Poison,Sleep,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x5
+x2
+x4
+x2
+x7
+x3
+x4
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Offensive Guard",2,"Guard",1
+34,"HeavyBowgun_039","Nerscylla Tree","Buster Blaster",9,20000,13,"Heavy Bowgun",8,300,200,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Slicing,Freeze,Poison,Sleep,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1","x5
+x2
+x4
+x2
+x7
+x3
+x4
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Offensive Guard",2,"Guard",1
+35,"HeavyBowgun_024","Uth Duna Tree","Uth Dalgap I",5,2000,13,"Heavy Bowgun",3,240,160,-0.15,0,"-",0,0,0,0,"Normal,Pierce,Spread,Cluster,Water,Tranq","Lv1
+Lv1
+Lv3
+Lv2
+Lv2
+Lv1","x6
+x5
+x2
+x2
+x6
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+36,"HeavyBowgun_025","Uth Duna Tree","Uth Dalgap II",5,4000,13,"Heavy Bowgun",5,285,190,-0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Water,Tranq","Lv1
+Lv1
+Lv3
+Lv2
+Lv2
+Lv1","x6
+x5
+x2
+x2
+x6
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",2,"",""
+37,"HeavyBowgun_026","Uth Duna Tree","Uth Dalgap III",5,14000,13,"Heavy Bowgun",7,330,220,-0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Cluster,Water,Tranq","Lv1
+Lv1
+Lv3
+Lv2
+Lv2
+Lv1","x6
+x5
+x2
+x2
+x6
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+38,"HeavyBowgun_027","Uth Duna Tree","Dalgap-of-the-Waves",5,20000,13,"Heavy Bowgun",8,360,240,-0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Cluster,Water,Tranq","Lv1
+Lv1
+Lv3
+Lv2
+Lv2
+Lv1","x6
+x5
+x2
+x2
+x6
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",3,"",""
+39,"HeavyBowgun_016","Congalala Tree","Power Stinger",4,800,13,"Heavy Bowgun",2,180,120,0.05,0,"-",0,0,0,0,"Normal,Pierce,Spread,Cluster,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x3
+x4
+x2
+x5
+x4
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Special Ammo Boost",1,"",""
+40,"HeavyBowgun_017","Congalala Tree","Power Stinger II",4,4000,13,"Heavy Bowgun",5,255,170,0.05,0,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x3
+x4
+x2
+x5
+x4
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Special Ammo Boost",1,"Opening Shot",1
+41,"HeavyBowgun_018","Congalala Tree","Wild Stinger",4,20000,13,"Heavy Bowgun",8,330,220,0.05,0,"-",0,3,3,1,"Normal,Pierce,Spread,Cluster,Flaming,Paralysis,Recover,Tranq","Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x3
+x4
+x2
+x5
+x4
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Special Ammo Boost",2,"Opening Shot",1
+42,"HeavyBowgun_040","Nu Udra Tree","Nu Muneo I",10,2600,13,"Heavy Bowgun",4,255,170,-0.15,0,"-",0,1,0,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x3
+x6
+x2
+x5
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",2,"",""
+43,"HeavyBowgun_041","Nu Udra Tree","Nu Muneo II",10,14000,13,"Heavy Bowgun",7,315,210,-0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x3
+x6
+x2
+x5
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",3,"",""
+44,"HeavyBowgun_042","Nu Udra Tree","Abaddonian Muneo",10,20000,13,"Heavy Bowgun",8,345,230,-0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Cluster,Flaming,Demon,Exhaust,Tranq","Lv1
+Lv1
+Lv2
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x3
+x6
+x2
+x5
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Opening Shot",3,"",""
+45,"HeavyBowgun_072","Yian Kut-Ku Tree","Yian Kut-Ku Cannon I",12,4000,13,"Heavy Bowgun",5,270,180,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Sticky,Flaming,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x3
+x6
+x3
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Slugger",2,"",""
+46,"HeavyBowgun_073","Yian Kut-Ku Tree","Yian Kut-Ku Cannon II",12,14000,13,"Heavy Bowgun",7,315,210,0,0,"-",0,3,2,0,"Normal,Pierce,Spread,Sticky,Flaming,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x3
+x6
+x3
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Slugger",3,"",""
+47,"HeavyBowgun_074","Yian Kut-Ku Tree","Super Kut-Ku Cannon",12,20000,13,"Heavy Bowgun",8,330,220,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Sticky,Flaming,Paralysis,Demon,Tranq","Lv2
+Lv1
+Lv1
+Lv2
+Lv2
+Lv1
+Lv1
+Lv1","x4
+x6
+x4
+x3
+x6
+x3
+x2
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Slugger",3,"",""
+48,"HeavyBowgun_087","G. Fulgur Tree","Grounding Fulgur I",100000,10000,13,"Heavy Bowgun",6,270,180,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Wyvern,Thunder,Paralysis,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x5
+x3
+x1
+x7
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Critical Element",3,"",""
+49,"HeavyBowgun_088","G. Fulgur Tree","Fulgurblast Guardiana",100000,20000,13,"Heavy Bowgun",8,315,210,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Wyvern,Thunder,Paralysis,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x5
+x3
+x1
+x7
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv2","Standard/Ignition Base Type","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Critical Element",3,"",""
+50,"HeavyBowgun_077","Gypceros Tree","Tankmage I",13,4000,13,"Heavy Bowgun",5,270,180,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Water,Poison,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x4
+x5
+x2
+x5
+x5
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",2,"",""
+51,"HeavyBowgun_078","Gypceros Tree","Tankmage II",13,10000,13,"Heavy Bowgun",6,300,200,0,0,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Water,Poison,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x4
+x5
+x2
+x5
+x5
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",3,"",""
+52,"HeavyBowgun_079","Gypceros Tree","Tanksorcerer",13,20000,13,"Heavy Bowgun",8,345,230,0,0,"-",0,3,2,1,"Normal,Pierce,Spread,Cluster,Water,Poison,Exhaust,Tranq","Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv2
+Lv1
+Lv1","x4
+x4
+x5
+x2
+x5
+x5
+x4
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Normal?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Guard",3,"",""
+53,"HeavyBowgun_082","Rathian Tree","Queen's Longfire I",7,5000,13,"Heavy Bowgun",5,240,160,0.15,0,"-",0,2,1,0,"Normal,Pierce,Spread,Wyvern,Flaming,Poison,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x6
+x3
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",2,"Poison Duration Up",1
+54,"HeavyBowgun_083","Rathian Tree","Queen's Longfire II",7,14000,13,"Heavy Bowgun",7,285,190,0.15,0,"-",0,3,2,0,"Normal,Pierce,Spread,Wyvern,Flaming,Poison,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x6
+x3
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",3,"Poison Duration Up",1
+55,"HeavyBowgun_084","Rathian Tree","Queen's Farflier",7,20000,13,"Heavy Bowgun",8,315,210,0.15,0,"-",0,3,2,1,"Normal,Pierce,Spread,Wyvern,Flaming,Poison,Recover,Tranq","Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1","x5
+x4
+x3
+x2
+x6
+x3
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Elemental Boost Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Tetrad Shot",3,"Poison Duration Up",1
+56,"HeavyBowgun_097","Gravios Tree","Gravios Howl I",16,10000,13,"Heavy Bowgun",6,315,210,-0.15,30,"-",0,2,1,0,"Normal,Pierce,Spread,Cluster,Flaming,Sleep,Armour,Tranq","Lv1
+Lv1
+Lv2
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x2
+x6
+x5
+x3
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",3,"",""
+57,"HeavyBowgun_098","Gravios Tree","Gravios Gigahowl",16,20000,13,"Heavy Bowgun",8,360,240,-0.15,30,"-",0,3,2,1,"Normal,Pierce,Spread,Cluster,Flaming,Sleep,Armour,Tranq","Lv1
+Lv1
+Lv2
+Lv3
+Lv1
+Lv1
+Lv1
+Lv1","x4
+x4
+x3
+x2
+x6
+x5
+x3
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","Guard Up",3,"",""
+58,"HeavyBowgun_102","Gore Magala Tree","Tödlicher Abzug I",8,14000,13,"Heavy Bowgun",7,270,180,0.2,0,"-",0,3,2,0,"Normal,Pierce,Spread,Slicing,Freeze,Dragon,Exhaust,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x6
+x3
+x4
+x3
+x5
+x3
+x5
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Critical Element",3,"",""
+59,"HeavyBowgun_103","Gore Magala Tree","Ableben Abzug",8,20000,13,"Heavy Bowgun",8,300,200,0.2,0,"-",0,3,2,1,"Normal,Pierce,Spread,Slicing,Freeze,Dragon,Exhaust,Tranq","Lv1
+Lv3
+Lv1
+Lv1
+Lv2
+Lv1
+Lv1
+Lv1","x6
+x3
+x4
+x3
+x5
+x3
+x5
+x4","","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Elemental Boost Magazine","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Standard Mode Upgrade
+Ignition Mod","","Pierce?","Ignition Guarge Recovery Lv1","Standard Mode ST I","Wyvernheart Ignition","Wyverncounter Ignition","Wyvern Howl","","Critical Element",3,"",""
+100,"HeavyBowgun_128","","Artian Sheller I",100001,40,13,"Heavy Bowgun",6,255,170,0.05,0,"-",0,2,2,2,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x3
+x1
+x3
+x3
+x3
+x3
+x1
+x2
+x2
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","","","",""
+101,"HeavyBowgun_129","","Artian Sheller II",100001,100,13,"Heavy Bowgun",7,270,180,0.05,0,"-",0,2,2,2,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x3
+x1
+x3
+x3
+x3
+x3
+x1
+x2
+x2
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","","","",""
+102,"HeavyBowgun_130","","Greifen",100001,200,13,"Heavy Bowgun",8,285,190,0.05,0,"-",0,3,3,3,"Normal,Pierce,Spread,Sticky,Flaming,Water,Thunder,Freeze,Dragon,Poison,Paralysis,Sleep,Tranq","Lv2
+Lv2
+Lv2
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv0
+Lv1","x2
+x2
+x3
+x1
+x3
+x3
+x3
+x3
+x1
+x2
+x2
+x2
+x4","","Normal Ammo Powder
+Pierce Ammo Powder
+Spread Ammo Powder
+Elemental Ammo Powder","Normal Ammo Magazine
+Pierce Ammo Magazine
+Spread Ammo Magazine
+Ignition Mode Upgrade
+Ignition Mod","","Spread?","Ignition Guarge Recovery Lv1","Ignition Mode ST I","Wyvernpiercer Ignition","Wyvernblast Ignition","Wyvern Howl","","","","",""
+0,"Bow_000","Expedition Tree","Hope Bow I",0,200,12,"Bow",1,108,90,0,0,"-",0,0,0,0,"Normal,Pierce,Spread,Sticky,Water,Thunder,Poison,Sleep","Lv2
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1
+Lv1","x5
+x4
+x4
+x3
+x5
+x5
+x5
+x5","","","","","","","","","","","Power Coating,Poison Coating","","","",""
+1,"Bow_001","Expedition Tree","Hope Bow II",0,500,12,"Bow",1,120,100,0,0,"-",0,0,0,0,"","","","","","","","","","","","","","Power Coating,Poison Coating","Ballistics",1,"",""
+2,"Bow_002","Expedition Tree","Hope Bow III",0,1500,12,"Bow",3,156,130,0,0,"-",0,0,0,0,"","","","","","","","","","","","","","Power Coating,Poison Coating","Ballistics",1,"Critical Eye",1
+3,"Bow_003","Expedition Tree","Hope Bow IV",0,4000,12,"Bow",5,192,160,0,0,"-",0,2,1,0,"","","","","","","","","","","","","","Power Coating,Poison Coating","Ballistics",2,"Critical Eye",1
+4,"Bow_004","Expedition Tree","Hope Bow V",0,14000,12,"Bow",7,228,190,0,0,"-",0,3,2,0,"","","","","","","","","","","","","","Power Coating,Poison Coating","Ballistics",3,"Critical Eye",1
+5,"Bow_172","Expedition Tree","Esperanza Bow",0,20000,12,"Bow",8,264,220,0,0,"-",0,3,2,1,"","","","","","","","","","","","","","Power Coating,Poison Coating","Ballistics",3,"Critical Eye",1
+6,"Bow_053","G. Rathalos Tree","Albirath Bow I",100000,2600,12,"Bow",4,192,160,0.15,0,"Fire",110,1,0,0,"","","","","","","","","","","","","","Power Coating,Blast Coating","Critical Element",1,"Ballistics",1
+7,"Bow_054","G. Rathalos Tree","Albirath Bow II",100000,10000,12,"Bow",6,216,180,0.15,0,"Fire",130,2,1,0,"","","","","","","","","","","","","","Power Coating,Blast Coating","Critical Element",2,"Ballistics",1
+8,"Bow_055","G. Rathalos Tree","Solar Spicule",100000,20000,12,"Bow",8,252,210,0.15,0,"Fire",150,3,2,1,"","","","","","","","","","","","","","Power Coating,Blast Coating","Critical Element",2,"Ballistics",1
+9,"Bow_045","Ore Tree","Dragon Perforator I",10001,800,12,"Bow",2,144,120,0,0,"-",0,0,0,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",1,"",""
+10,"Bow_046","Ore Tree","Dragon Perforator II",10001,2600,12,"Bow",4,192,160,0,0,"-",0,1,0,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",2,"",""
+11,"Bow_047","Ore Tree","Dragon Perforator III",10001,10000,12,"Bow",6,228,190,0,0,"-",0,2,1,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",3,"",""
+12,"Bow_048","Ore Tree","True Dragon Perforator",10001,20000,12,"Bow",8,264,220,0,0,"-",0,3,2,1,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",3,"",""
+13,"Bow_016","Rey Dau Tree","Rey Perkonis I",7,2000,12,"Bow",3,168,140,0,0,"Thunder",90,0,0,0,"","","","","","","","","","","","","","Pierce Coating,Blast Coating","Focus",1,"Special Ammo Boost",1
+14,"Bow_017","Rey Dau Tree","Rey Perkonis II",7,4000,12,"Bow",5,204,170,0,0,"Thunder",110,2,1,0,"","","","","","","","","","","","","","Pierce Coating,Blast Coating","Focus",1,"Special Ammo Boost",1
+15,"Bow_018","Rey Dau Tree","Rey Perkonis III",7,14000,12,"Bow",7,240,200,0,0,"Thunder",130,3,2,0,"","","","","","","","","","","","","","Pierce Coating,Blast Coating","Focus",2,"Special Ammo Boost",1
+16,"Bow_019","Rey Dau Tree","Perkonis Clairbow",7,20000,12,"Bow",8,264,220,0,0,"Thunder",150,3,2,1,"","","","","","","","","","","","","","Pierce Coating,Blast Coating","Focus",2,"Special Ammo Boost",1
+17,"Bow_037","Quematrice Tree","Quematrice Arco I",1,500,12,"Bow",1,120,100,0.05,0,"Fire",70,0,0,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",1,"",""
+18,"Bow_038","Quematrice Tree","Quematrice Arco II",1,1500,12,"Bow",3,168,140,0.05,0,"Fire",90,0,0,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",2,"",""
+19,"Bow_039","Quematrice Tree","Quematrice Arco III",1,4000,12,"Bow",5,204,170,0.05,0,"Fire",110,2,1,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",2,"",""
+20,"Bow_040","Quematrice Tree","Quematrice Arco IV",1,14000,12,"Bow",7,252,210,0.05,0,"Fire",130,3,2,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",3,"",""
+21,"Bow_041","Quematrice Tree","Firetrail Leviora",2,20000,12,"Bow",8,264,220,0.05,0,"Fire",150,3,2,1,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",3,"",""
+22,"Bow_008","Xu Wu Tree","Nihil Bow I",22,2600,12,"Bow",4,192,160,0,0,"Water",110,1,0,0,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Focus",2,"",""
+23,"Bow_009","Xu Wu Tree","Nihil Bow II",22,10000,12,"Bow",6,228,190,0,0,"Water",130,2,1,0,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Focus",3,"",""
+24,"Bow_010","Xu Wu Tree","Bookwilthe's Punisher",22,20000,12,"Bow",8,276,230,0,0,"Water",150,3,2,1,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Focus",3,"",""
+25,"Bow_029","Hirabami Tree","Windbrace Bow I",12,1500,12,"Bow",3,168,140,0,0,"Ice",90,0,0,0,"","","","","","","","","","","","","","Power Coating","Focus",2,"Airborne",1
+26,"Bow_030","Hirabami Tree","Windbrace Bow II",12,5000,12,"Bow",5,204,170,0,0,"Ice",110,2,1,0,"","","","","","","","","","","","","","Power Coating","Focus",2,"Airborne",1
+27,"Bow_031","Hirabami Tree","Windbrace Bow III",12,14000,12,"Bow",7,240,200,0,0,"Ice",130,3,2,0,"","","","","","","","","","","","","","Power Coating","Focus",3,"Airborne",1
+28,"Bow_032","Hirabami Tree","Windbrace Ibami",12,20000,12,"Bow",8,264,220,0,0,"Ice",150,3,2,1,"","","","","","","","","","","","","","Power Coating","Focus",3,"Airborne",1
+29,"Bow_095","Bone Tree","Hunter's Bow I",10003,500,12,"Bow",1,132,110,0,0,"-",0,0,0,0,"","","","","","","","","","","","","","Close-range Coating,Paralysis Coating","Focus",1,"",""
+30,"Bow_096","Bone Tree","Hunter's Bow II",10003,800,12,"Bow",2,156,130,0,0,"-",0,0,0,0,"","","","","","","","","","","","","","Close-range Coating,Paralysis Coating","Focus",1,"Attack Boost",1
+31,"Bow_097","Bone Tree","Hunter's Bow III",10003,2600,12,"Bow",4,204,170,0,0,"-",0,1,0,0,"","","","","","","","","","","","","","Close-range Coating,Paralysis Coating","Focus",2,"Attack Boost",1
+32,"Bow_098","Bone Tree","Hunter's Bow IV",10003,10000,12,"Bow",6,240,200,0,0,"-",0,2,1,0,"","","","","","","","","","","","","","Close-range Coating,Paralysis Coating","Focus",3,"Attack Boost",1
+33,"Bow_099","Bone Tree","Hunter's Stoutbow",10003,20000,12,"Bow",8,276,230,0,0,"-",0,3,2,1,"","","","","","","","","","","","","","Close-range Coating,Paralysis Coating","Focus",3,"Attack Boost",1
+34,"Bow_108","Uth Duna Tree","Uth Khviluk I",6,2000,12,"Bow",3,192,160,-0.2,0,"Water",100,0,0,0,"","","","","","","","","","","","","","Pierce Coating","Tetrad Shot",2,"",""
+35,"Bow_109","Uth Duna Tree","Uth Khviluk II",6,4000,12,"Bow",5,228,190,-0.2,0,"Water",140,2,1,0,"","","","","","","","","","","","","","Pierce Coating","Tetrad Shot",2,"",""
+36,"Bow_110","Uth Duna Tree","Uth Khviluk III",6,14000,12,"Bow",7,264,220,-0.2,0,"Water",170,3,2,0,"","","","","","","","","","","","","","Pierce Coating","Tetrad Shot",3,"",""
+37,"Bow_111","Uth Duna Tree","Khviluk-of-the-Waves",6,20000,12,"Bow",8,288,240,-0.2,0,"Water",200,3,2,1,"","","","","","","","","","","","","","Pierce Coating","Tetrad Shot",3,"",""
+38,"Bow_121","Congalala Tree","Wild Power Bow I",3,800,12,"Bow",2,144,120,0.05,0,"-",0,0,0,0,"","","","","","","","","","","","","","Power Coating,Poison Coating,Paralysis Coating,Blast Coating","Special Ammo Boost",1,"",""
+39,"Bow_122","Congalala Tree","Wild Power Bow II",3,4000,12,"Bow",5,204,170,0.05,0,"-",0,2,1,0,"","","","","","","","","","","","","","Power Coating,Poison Coating,Paralysis Coating,Blast Coating","Special Ammo Boost",1,"Charge Master",1
+40,"Bow_123","Congalala Tree","Wildwood Kalifa",3,20000,12,"Bow",8,264,220,0.05,0,"-",0,3,3,1,"","","","","","","","","","","","","","Power Coating,Poison Coating,Paralysis Coating,Blast Coating","Special Ammo Boost",2,"Charge Master",1
+41,"Bow_071","Nerscylla Tree","Scylla Fist I",11,1500,12,"Bow",3,144,120,0.2,0,"-",0,0,0,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating,Sleep Coating","Charge Master",1,"Focus",1
+42,"Bow_072","Nerscylla Tree","Scylla Fist II",11,5000,12,"Bow",5,180,150,0.2,0,"-",0,2,1,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating,Sleep Coating","Charge Master",1,"Focus",1
+43,"Bow_073","Nerscylla Tree","Scylla Fist III",11,14000,12,"Bow",7,216,180,0.2,0,"-",0,3,2,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating,Sleep Coating","Charge Master",2,"Focus",1
+44,"Bow_074","Nerscylla Tree","Nershock",11,20000,12,"Bow",8,252,210,0.2,0,"-",0,3,2,1,"","","","","","","","","","","","","","Pierce Coating,Poison Coating,Sleep Coating","Charge Master",2,"Focus",1
+45,"Bow_079","Doshaguma Tree","Dosha Fearbringer I",4,800,12,"Bow",2,168,140,-0.05,20,"-",0,0,0,0,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Stamina Thief",1,"",""
+46,"Bow_080","Doshaguma Tree","Dosha Fearbringer II",4,2600,12,"Bow",4,216,180,-0.05,20,"-",0,1,1,0,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Stamina Thief",2,"",""
+47,"Bow_081","Doshaguma Tree","Dosha Fearbringer III",4,10000,12,"Bow",6,252,210,-0.05,20,"-",0,2,2,0,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Stamina Thief",3,"",""
+48,"Bow_173","","Fearbringer Callistox",5,20000,12,"Bow",8,288,240,-0.05,20,"-",0,3,3,1,"","","","","","","","","","","","","","Power Coating,Exhaust Coating","Stamina Thief",3,"",""
+49,"Bow_139","G. Arkveld Tree","G. Veldian Arcum I",20,2600,12,"Bow",4,204,170,-0.1,0,"Dragon",90,1,1,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",2,"",""
+50,"Bow_140","G. Arkveld Tree","G. Veldian Arcum II",20,10000,12,"Bow",6,252,210,-0.1,0,"Dragon",120,2,2,0,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",2,"",""
+51,"Bow_141","G. Arkveld Tree","G. Renowned Tristram",20,20000,12,"Bow",8,288,240,-0.1,0,"Dragon",150,3,3,1,"","","","","","","","","","","","","","Close-range Coating,Exhaust Coating","Focus",2,"",""
+52,"Bow_147","Arkveld Tree","Veldian Arcum I",25,14000,12,"Bow",7,240,200,0,0,"Dragon",160,3,2,0,"","","","","","","","","","","","","","Pierce Coating","Focus",3,"",""
+53,"Bow_174","Arkveld Tree","Renowned Tristram",25,20000,12,"Bow",8,264,220,0,0,"Dragon",200,3,2,1,"","","","","","","","","","","","","","Pierce Coating","Focus",3,"",""
+54,"Bow_087","G. Doshaguma Tree","Dosha Griefbringer I",100001,2600,12,"Bow",4,216,180,-0.15,0,"-",0,1,0,0,"","","","","","","","","","","","","","Close-range Coating,Blast Coating","Ballistics",1,"Special Ammo Boost",1
+55,"Bow_088","G. Doshaguma Tree","Dosha Griefbringer II",100001,10000,12,"Bow",6,264,220,-0.15,0,"-",0,2,2,0,"","","","","","","","","","","","","","Close-range Coating,Blast Coating","Ballistics",2,"Special Ammo Boost",1
+56,"Bow_089","G. Doshaguma Tree","Griefbringer Urstox",100001,20000,12,"Bow",8,300,250,-0.15,0,"-",0,3,3,1,"","","","","","","","","","","","","","Close-range Coating,Blast Coating","Ballistics",2,"Special Ammo Boost",1
+57,"Bow_134","Yian Kut-Ku Tree","Kut-Ku Stave I",15,4000,12,"Bow",5,204,170,0,0,"Fire",230,2,1,0,"","","","","","","","","","","","","","Pierce Coating","Charge Master",2,"",""
+58,"Bow_135","Yian Kut-Ku Tree","Kut-Ku Stave II",15,14000,12,"Bow",7,228,190,0,0,"Fire",270,3,2,0,"","","","","","","","","","","","","","Pierce Coating","Charge Master",3,"",""
+59,"Bow_136","Yian Kut-Ku Tree","Strange Kut-Ku Stave",15,20000,12,"Bow",8,240,200,0,0,"Fire",300,3,2,1,"","","","","","","","","","","","","","Pierce Coating","Charge Master",3,"",""
+60,"Bow_103","G. Fulgur Tree","Blinding Fulgur I",100002,10000,12,"Bow",6,216,180,0.15,0,"Thunder",160,2,1,0,"","","","","","","","","","","","","","Close-range Coating","Critical Element",3,"",""
+61,"Bow_104","G. Fulgur Tree","Fulgurbow Guardiana",100002,20000,12,"Bow",8,240,200,0.15,0,"Thunder",200,3,2,1,"","","","","","","","","","","","","","Close-range Coating","Critical Element",3,"",""
+62,"Bow_066","Rathian Tree","Queen Blaster I",8,5000,12,"Bow",5,192,160,0.15,0,"Fire",110,2,1,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",2,"Poison Duration Up",1
+63,"Bow_067","Rathian Tree","Queen Blaster II",8,14000,12,"Bow",7,228,190,0.15,0,"Fire",130,3,2,0,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",3,"Poison Duration Up",1
+64,"Bow_068","Rathian Tree","Queen's Melody",8,20000,12,"Bow",8,252,210,0.15,0,"Fire",150,3,2,1,"","","","","","","","","","","","","","Pierce Coating,Poison Coating","Tetrad Shot",3,"Poison Duration Up",1
+65,"Bow_061","Rathalos Tree","Prominence Bow I",9,10000,12,"Bow",6,216,180,0.1,0,"Fire",160,2,1,0,"","","","","","","","","","","","","","Power Coating","Critical Boost",3,"",""
+66,"Bow_062","Rathalos Tree","Dark Filament",9,20000,12,"Bow",8,240,200,0.1,0,"Fire",200,3,2,1,"","","","","","","","","","","","","","Power Coating","Critical Boost",3,"",""
+67,"Bow_116","Gore Magala Tree","Entbehrung I",10,14000,12,"Bow",7,216,180,0.2,0,"Dragon",120,3,2,0,"","","","","","","","","","","","","","Power Coating,Blast Coating","Critical Element",3,"",""
+68,"Bow_117","Gore Magala Tree","Verzweiflung",10,20000,12,"Bow",8,252,210,0.2,0,"Dragon",150,3,2,1,"","","","","","","","","","","","","","Power Coating,Blast Coating","Critical Element",3,"",""
+69,"Bow_129","Blangonga Tree","Blan Sharanga I",18,10000,12,"Bow",6,240,200,-0.1,0,"Ice",110,2,1,0,"","","","","","","","","","","","","","Close-range Coating,Poison Coating","Tetrad Shot",3,"",""
+70,"Bow_130","Blangonga Tree","Singha Sharanga",18,20000,12,"Bow",8,276,230,-0.1,0,"Ice",150,3,2,1,"","","","","","","","","","","","","","Close-range Coating,Poison Coating","Tetrad Shot",3,"",""
+100,"Bow_160","","Artian Sight I",100003,40,12,"Bow",6,204,170,0.05,0,"-",180,2,2,2,"","","","","","","","","","","","","","Close-range Coating","","","",""
+101,"Bow_161","","Artian Sight II",100003,100,12,"Bow",7,216,180,0.05,0,"-",180,2,2,2,"","","","","","","","","","","","","","Close-range Coating","","","",""
+102,"Bow_165","","Angelbein",100003,200,12,"Bow",8,228,190,0.05,0,"-",210,3,3,3,"","","","","","","","","","","","","","Close-range Coating","","","",""

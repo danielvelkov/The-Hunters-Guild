@@ -1,0 +1,76 @@
+"Index","Recipe Number","ID","Name","Uprades From","Key Item","Key Monster","Key Story","Item 1","Number 1","Item 2","Number 2","Item 3","Number 3","Item 4","Number 4","Can Shortcut"
+0,0,1,"Hope Sword I","","","-","00000000","","","","","","","","",false
+1,1,2,"Hope Sword II","Hope Sword I","","-","00000000","Iron Ore",2,"","","","","","",false
+2,2,3,"Hope Sword III","Hope Sword II","","-","86FD6D00","Dragonite Ore",3,"Machalite Ore",2,"","","","",false
+3,3,4,"Hope Sword IV","Hope Sword III","","-","65760700","Carbalite Ore",4,"","","","","","",false
+4,4,5,"Hope Sword V","Hope Sword IV","","-","0D846690","Monster Hardbone",4,"Fucium Ore",5,"","","","",false
+5,5,82,"Esperanza Sword","Hope Sword V","","Arkveld","00000000","Hunter Symbol I",5,"Bird Wyvern Gem",1,"","","","",false
+6,6,49,"Bone Kukri I","","","-","00000000","Mystery Bone",2,"","","","","","",false
+7,7,50,"Bone Kukri II","Bone Kukri I","","-","E00F49A0","Sturdy Bone",2,"Monster Fluid",1,"","","","",false
+8,8,51,"Bone Kukri III","Bone Kukri II","","-","B89E2700","Tough Guardian Bone",2,"","","","","","",false
+9,9,52,"Bone Kukri IV","Bone Kukri III","","-","85F88180","Great Stoutbone",4,"Colossal Bone",2,"","","","",false
+10,10,53,"Chief Kukri","Bone Kukri IV","","Arkveld","00000000","Hunter Symbol I",5,"Monster Hardbone",5,"Dragonbone Relic",1,"Beast Gem",1,false
+11,11,26,"Iron Beater I","","","-","E00F49A0","Machalite Ore",1,"Earth Crystal",2,"","","","",false
+12,12,27,"Iron Beater II","Iron Beater I","","-","B89E2700","Lightcrystal",1,"Icium",2,"","","","",false
+13,13,28,"Iron Beater III","Iron Beater II","","-","85F88180","Fucium Ore",4,"Gracium",3,"Monster Keenbone",3,"","",false
+14,14,29,"Smithy's Pride","Iron Beater III","","Arkveld","00000000","Hunter Symbol I",5,"Novacrystal",1,"Wyvern Gem",1,"","",false
+15,15,64,"Chata Club I","","","Chatacabra","00000000","Chatacabra Scale",3,"Chatacabra Hide",2,"Chatacabra Jaw",1,"","",false
+16,16,65,"Chata Club II","Chata Club I","","Rompopolo","00000000","Rompopolo Claw",1,"Chatacabra Shell",2,"","","","",false
+17,17,66,"Chata Club III","Chata Club II","","-","65760700","Chatacabra Certificate S",2,"Chatacabra Scale+",5,"Chatacabra Jaw+",3,"","",true
+18,18,67,"Chata Club IV","Chata Club III","Uth Duna Certificate S","-","00000000","Uth Duna Certificate S",3,"Chatacabra Carapace",6,"Acute Fang",6,"","",false
+19,19,83,"Shrouded Katalo","Chata Club IV","","Arkveld","00000000","Hunter Symbol I",5,"Chatacabra Hide+",6,"Beast Gem",1,"","",false
+20,20,19,"Quematrice Cuchillo I","","","Quematrice","00000000","Quematrice Scale",3,"Quematrice Igniter",2,"Quematrice Crest",1,"","",false
+21,21,20,"Quematrice Cuchillo II","Quematrice Cuchillo I","","Rompopolo","00000000","Firestone",1,"Quematrice Tail",1,"Dragonite Ore",1,"","",false
+22,22,21,"Quematrice Cuchillo III","Quematrice Cuchillo II","","-","65760700","Quematrice Certificate S",2,"Quematrice Igniter+",5,"Quematrice Crest+",3,"","",true
+23,23,22,"Quematrice Cuchillo IV","Quematrice Cuchillo III","Nu Udra Certificate S","-","00000000","Nu Udra Certificate S",3,"Quematrice Hide+",6,"Inferno Sac",5,"Wyvern Gem",1,false
+24,24,23,"Firetrail Fornax","Quematrice Cuchillo IV","","Arkveld","00000000","Hunter Symbol I",5,"Quematrice Scale+",6,"Nu Udra Flamegem",1,"","",false
+25,25,14,"Barina Dague I","","","Lala Barina","00000000","Lala Barina Shell",3,"Lala Barina Mucus",2,"Lala Barina Claw",1,"","",false
+26,26,15,"Barina Dague II","Barina Dague I","","Nerscylla","00000000","Nerscylla Claw",1,"Lala Barina Floret",2,"Lala Barina Stinger",1,"","",false
+27,27,16,"Barina Dague III","Barina Dague II","","-","65760700","Lala Barina Certificate S",2,"Lala Barina Mucus+",5,"Lala Barina Claw+",3,"","",true
+28,28,17,"Barina Dague IV","Barina Dague III","Monster Hardbone","-","00000000","Monster Hardbone",3,"Lala Barina Floret+",6,"Lala Barina Stinger+",4,"","",false
+29,29,18,"Lala Acanthopelm","Barina Dague IV","","Arkveld","00000000","Hunter Symbol I",5,"Lala Barina Carapace",6,"Monster Broth",4,"Bird Wyvern Gem",1,false
+30,30,44,"Balahara Blade I","","","Balahara","00000000","Balahara Scale",3,"Balahara Skull",1,"Aqua Sac",1,"","",false
+31,31,45,"Balahara Blade II","Balahara Blade I","","-","D9C1E4C0","Guardian Doshaguma Claw",1,"Balahara Shell",2,"Balahara Tail",1,"","",false
+32,32,46,"Balahara Blade III","Balahara Blade II","Balahara Certificate S","-","00000000","Balahara Certificate S",2,"Balahara Skull+",2,"Torrent Sac",2,"Balahara Black Pearl",1,true
+33,33,47,"Balahara Blade IV","Balahara Blade III","Uth Duna Certificate S","-","00000000","Uth Duna Certificate S",3,"Balahara Carapace",5,"Wyvern Gem",1,"","",false
+34,34,48,"Sandsea Katduva","Balahara Blade IV","","Arkveld","00000000","Hunter Symbol I",5,"Balahara Scale+",6,"Uth Duna Watergem",1,"","",false
+35,35,6,"Rey Kuara I","","","Rey Dau","00000000","Rey Dau Scale",3,"Rey Dau Wingtalon",2,"Rey Dau Thunderhorn",1,"","",false
+36,36,7,"Rey Kuara II","Rey Kuara I","","Rathian","00000000","Rathian Certificate S",2,"Rathian Webbing",3,"Novacrystal",1,"","",false
+37,37,8,"Rey Kuara III","Rey Kuara II","Rey Dau Certificate S","-","00000000","Rey Dau Certificate S",3,"Rey Dau Fulgurtalon",4,"Rey Dau Tail",1,"Rey Dau Plate",1,false
+38,38,9,"Kuara Clairsword","Rey Kuara III","","Arkveld","00000000","Hunter Symbol III",5,"Rey Dau Carapace",6,"Rey Dau Bolthorn",4,"Rey Dau Boltgem",1,false
+39,39,40,"Scaly Sword I","","","Nerscylla","00000000","Nerscylla Shell",3,"Nerscylla Claw",2,"Sleep Sac",1,"","",false
+40,40,41,"Scaly Sword II","Scaly Sword I","Nerscylla Certificate S","-","00000000","Nerscylla Certificate S",1,"Nerscylla Claw+",3,"Coma Sac",3,"","",false
+41,41,42,"Scaly Sword III","Scaly Sword II","Jin Dahaad Certificate S","-","00000000","Jin Dahaad Certificate S",3,"Nerscylla Spike+",5,"Nerscylla Shear",2,"Monster Broth",3,false
+42,42,43,"Nerskiller","Scaly Sword III","","Arkveld","00000000","Hunter Symbol I",5,"Nerscylla Carapace",6,"Bird Wyvern Gem",1,"","",false
+43,43,59,"Ajara Saber I","","","Ajarakan","00000000","Ajarakan Scale",3,"Ajarakan Ridge",2,"Ajarakan Jewel",1,"","",false
+44,44,60,"Ajara Saber II","Ajara Saber I","Ajarakan Certificate S","-","00000000","Ajarakan Certificate S",2,"Ajarakan Ridge+",3,"Ajarakan Jewel+",2,"Ajarakan Marrow",1,false
+45,45,61,"Ajara-Subinda","Ajara Saber II","","Arkveld","00000000","Hunter Symbol II",5,"Ajarakan Carapace",6,"Ajarakan Medulla",1,"","",false
+46,46,32,"Albirath Edge I","","","-","D9C1E4C0","Guardian Rathalos Scale",3,"Guardian Rathalos Webbing",2,"Flame Sac",1,"","",false
+47,47,33,"Albirath Edge II","Albirath Edge I","G. Rathalos Certificate S","-","00000000","G. Rathalos Certificate S",2,"Guardian Rathalos Wing",5,"Guardian Rathalos Plate",1,"Guardian Blood+",1,false
+48,48,34,"Melting Point","Albirath Edge II","","Arkveld","00000000","Hunter Symbol II",5,"Guardian Rathalos Carapace",6,"Guardian Rathalos Ruby",1,"Guardian Scale+",6,false
+49,49,30,"Jin Dhaklab I","","","-","0D846690","Jin Dahaad Certificate S",1,"Jin Dahaad Claw+",5,"Jin Dahaad Iceplate",4,"Jin Dahaad Tail",1,false
+50,50,31,"Precipice Mateptro","Jin Dhaklab I","","Arkveld","00000000","Hunter Symbol III",5,"Jin Dahaad Horn",4,"Jin Dahaad Carapace",4,"Jin Dahaad Icegem",1,false
+51,51,68,"Nihil Sword I","","","Xu Wu","00000000","Xu Wu Hide",3,"Xu Wu Claw",2,"Xu Wu Fang",1,"","",false
+52,52,69,"Nihil Sword II","Nihil Sword I","Xu Wu Certificate S","-","00000000","Xu Wu Certificate S",2,"Xu Wu Claw+",6,"Xu Wu Fang+",4,"Xu Wu Cerebrospinal Fluid",1,false
+53,53,70,"Cordayle's Revocation","Nihil Sword II","","Arkveld","00000000","Hunter Symbol II",5,"Golden Corneum+",6,"Xu Wu Tentacle+",4,"Xu Wu Umbragem",1,false
+54,54,71,"G. Veldian Mucro I","","","Guardian Arkveld","00000000","Guardian Scale",3,"Guardian Pelt",3,"Guardian Blood",1,"Tough Guardian Bone",2,false
+55,55,72,"G. Veldian Mucro II","G. Veldian Mucro I","","-","85F88180","Guardian Scale+",6,"Guardian Pelt+",6,"Guardian Blood+",3,"Dragonbone Relic",1,false
+56,56,73,"G. Guiding Artorius","G. Veldian Mucro II","","Arkveld","00000000","Hunter Symbol III",5,"Arkveld Calloushell",4,"Arkveld Tail",2,"Arkveld Gem",1,false
+57,57,56,"Venom's Pain I","","","Gypceros","00000000","Gypceros Certificate S",1,"Gypceros Wing",3,"Gypceros Head",2,"Rubbery Hide+",5,false
+58,58,57,"Venom's Pain II","Venom's Pain I","","Gravios","00000000","Gravios Certificate S",2,"Gypceros Tail",4,"Toxin Sac",4,"","",false
+59,59,58,"Viperine Saber","Venom's Pain II","","Arkveld","00000000","Hunter Symbol I",5,"Rubbery Hide+",6,"Bird Wyvern Gem",1,"Novacrystal",1,false
+60,60,37,"Princess Rapier I","","","Rathian","00000000","Rathian Certificate S",1,"Rathian Webbing",3,"Rathian Spike+",2,"Rathian Scale+",5,false
+61,61,38,"Princess Rapier II","Princess Rapier I","Rey Dau Certificate S","-","00000000","Rey Dau Certificate S",2,"Rathian Carapace",6,"Rath Medulla",1,"Wyvern Gem",1,false
+62,62,39,"Queen Rapier","Princess Rapier II","","Arkveld","00000000","Hunter Symbol I",5,"Rathian Scale+",5,"Rathian Ruby",1,"","",false
+63,63,54,"Rending Fulgur I","","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",2,"Guardian Fulgur Fang+",5,"Guardian Fulgur Tail",1,"Thunder Sac",4,false
+64,64,55,"Fulgursword Guardiana","Rending Fulgur I","","Arkveld","00000000","Hunter Symbol II",5,"Guardian Fulgur Nosebone+",4,"Guardian Fulgur Pelt+",6,"Guardian Fulgur Gem",1,false
+65,65,62,"Snow-white Jambiya I","","","Blangonga","00000000","Blangonga Certificate S",2,"Blangonga Fang+",5,"Blangonga Whisker",4,"Blango Pelt+",4,false
+66,66,63,"Snow Lion Jambiya","Snow-white Jambiya I","","Arkveld","00000000","Hunter Symbol II",5,"Blangonga Pelt+",6,"Blangonga Tail",4,"Jin Dahaad Icegem",1,false
+67,67,24,"Gravios Syphos I","","","Gravios","00000000","Gravios Certificate S",2,"Gravios Wing",5,"Gravios Skull",3,"Gravios Pleura+",4,false
+68,68,25,"Titan's Armament","Gravios Syphos I","","Arkveld","00000000","Hunter Symbol II",5,"Gravios Carapace",6,"Gravios Medulla",1,"Wyvern Gem",1,false
+69,69,35,"Heat Edge I","","","Rathalos","00000000","Rathalos Certificate S",2,"Rathalos Carapace",5,"Rathalos Wing",4,"Rath Medulla",1,false
+70,70,36,"Corona","Heat Edge I","","Arkveld","00000000","Hunter Symbol II",5,"Rathalos Scale+",6,"Rathalos Tail",1,"Rathalos Ruby",1,false
+71,71,12,"Sucher-Ankh I","","","Gore Magala","00000000","Gore Magala Certificate S",3,"Gore Magala Ripclaw+",4,"Gore Magala Tail",1,"Frenzy Shard",5,false
+72,72,13,"Jäger-Ankh","Sucher-Ankh I","","Arkveld","00000000","Hunter Symbol III",5,"Gore Magala Feeler+",2,"Gore Magala Nyctgem",1,"Frenzy Crystal",5,false
+73,73,74,"Veldian Mucro I","","","Arkveld","00000000","Arkveld Certificate S",3,"Arkveld Scale+",4,"White Arkveld Pelt",2,"Wyvern Gem",1,false
+74,74,84,"Guiding Artorius","Veldian Mucro I","","Arkveld","00000000","Hunter Symbol III",5,"Arkveld Armorplate",5,"Arkveld Horn+",3,"Arkveld Gem",1,false
