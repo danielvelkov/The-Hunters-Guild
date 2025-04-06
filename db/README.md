@@ -1,7 +1,5 @@
 # Database
 
-Should a cluster be used?: https://www.postgresql.org/docs/current/ddl-schemas.html
-
 Because the game data is mostly static (it updates on every patch), a way to download the newest data is required:
 
 - CURRENT: using the MH Wilds Spreadsheet by ax1os, which can be automated with google's app scripts..
