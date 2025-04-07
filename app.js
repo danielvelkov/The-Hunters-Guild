@@ -1,4 +1,5 @@
 require('dotenv').config();
+const huntingQuestsRouter = require('./routes/huntingQuestsRouter');
 const { PORT } = process.env;
 
 const path = require('path');
@@ -11,7 +12,7 @@ app.set('view engine', 'ejs');
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/', (req, res) => res.send('Hello Hunter!'));
+app.use('/', huntingQuestsRouter);
 
 app.listen(PORT, () => {
   console.log('Hunters guild listening on port:' + PORT);
