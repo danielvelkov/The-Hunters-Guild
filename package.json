@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-db": "node db/config.js",
-    "seed": "node db/seed.js"
+    "seed": "node db/seed.js",
+    "dev": "node --watch app.js"
   },
   "repository": {
     "type": "git",
