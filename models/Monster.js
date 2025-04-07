@@ -3,6 +3,7 @@ class Monster {
   /**
    * @param {string} id Unique Monster ID
    * @param {string} name Monster name.
+   * @param {string} icon Icon name.
    * @param {boolean} frenzied Whether the monster has a frenzied variant.
    * @param {boolean} tempered Whether the monster has a tempered variant.
    * @param {boolean} arch_tempered If it Has Arch Tempered Variant (MH Wilds - TU1)
@@ -14,14 +15,15 @@ class Monster {
    * @param {Object[]} weaknesses Monster's weaknesses.
    * @param {Object[]} weaknesses[].elements Monster elemental weaknesses.
    * @param {string} weaknesses[].elements[].name Monster elemental weakness name.
-   * @param {string} weaknesses[].elements[].icon Icon path
+   * @param {string} weaknesses[].elements[].icon Icon name
    * @param {Object[]} weaknesses[].ailments Monster ailment weaknesses.
    * @param {string} weaknesses[].ailments[].name Monster ailment weakness name.
-   * @param {string} weaknesses[].ailments[].icon Icon path
+   * @param {string} weaknesses[].ailments[].icon Icon name
    */
   constructor(
     id,
     name,
+    icon,
     frenzied,
     tempered,
     arch_tempered,
@@ -32,6 +34,7 @@ class Monster {
   ) {
     this.id = id;
     this.name = name;
+    this.icon = icon;
     this.frenzied = frenzied;
     this.tempered = tempered;
     this.arch_tempered = arch_tempered;
