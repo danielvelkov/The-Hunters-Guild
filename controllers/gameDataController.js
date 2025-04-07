@@ -39,15 +39,16 @@ const monsters__weakness_and_icons_ListGet = async () => {
       Boolean(row.arch_tempered),
       row.locale.split(', '),
       +row.base_health,
-      row.special_attacks.split(', ').map((sa) => ({
-        name: sa,
-        description: monstersSpecialAttacksAndDescriptionsMap[sa],
-      })),
+      row.special_attacks
+        ? row.special_attacks.split(', ').map((sa) => ({
+            name: sa,
+            description: monstersSpecialAttacksAndDescriptionsMap[sa],
+          }))
+        : [],
       groupWeaknesses(row.all_weaknesses, monstersWeaknessAndIconMap)
     );
     monsters.push(monster);
   });
-
   return monsters;
 };
 
@@ -67,19 +68,25 @@ function groupWeaknesses(weaknesses, weaknessesIconsMap) {
   if (!weaknesses.includes(';'))
     return {
       elements: weaknesses
-        .split(', ')
-        .map((w) => ({ name: w, icon: weaknessesIconsMap[w] })),
+        ? weaknesses
+            .split(', ')
+            .map((w) => ({ name: w, icon: weaknessesIconsMap[w] }))
+        : [],
       ailments: [],
     };
   else
     return {
-      elements: weaknesses
-        .split('; ')[0]
-        .split(', ')
-        .map((w) => ({ name: w, icon: weaknessesIconsMap[w] })),
-      ailments: weaknesses
-        .split('; ')[1]
-        .split(', ')
-        .map((w) => ({ name: w, icon: weaknessesIconsMap[w] })),
+      elements: weaknesses.split('; ')[0]
+        ? weaknesses
+            .split('; ')[0]
+            .split(', ')
+            .map((w) => ({ name: w, icon: weaknessesIconsMap[w] }))
+        : [],
+      ailments: weaknesses.split('; ')[1]
+        ? weaknesses
+            .split('; ')[1]
+            .split(', ')
+            .map((w) => ({ name: w, icon: weaknessesIconsMap[w] }))
+        : [],
     };
 }
