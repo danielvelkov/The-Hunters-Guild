@@ -27,6 +27,7 @@
         value="<%= monster.id %>"
         data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
         data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+        data-monster-icon="<%= monster.icon %>"
       >
         <%= monster.name %>
         <hr />
@@ -40,14 +41,16 @@
         width: 'resolve',
         templateResult: function (item) {
           return $(`<span>
-                ${item.text}
+                <img height='18' src="icons/Large Monster Icons/${
+                  item.element?.dataset.monsterIcon
+                }.png"/> ${item.text} 
                 <br/>
                 Elem. Weak: ${item.element?.dataset.elements
                   .split('|')
                   .map((e) => {
                     const [name, icon] = e.split(',');
                     if (icon)
-                      return `<img height='20' width='20' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
+                      return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
                     else return '';
                   })
                   .join('')}
@@ -57,7 +60,7 @@
                   .map((e) => {
                     const [name, icon] = e.split(',');
                     if (icon)
-                      return `<img height='20' width='20' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
+                      return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
                     else return '';
                   })
                   .join('')}

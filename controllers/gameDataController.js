@@ -34,6 +34,7 @@ const monsters__weakness_and_icons_ListGet = async () => {
     const monster = new Monster(
       row.em_id,
       row.name,
+      row.large_monster_icon_id,
       Boolean(row.frenzied),
       Boolean(row.tempered),
       Boolean(row.arch_tempered),
