@@ -1,7 +1,10 @@
 require('dotenv').config();
+const { PORT } = process.env;
+
 const express = require('express');
 const app = express();
-const { PORT } = process.env;
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', (req, res) => res.send('Hello Hunter!'));
 
