@@ -213,10 +213,10 @@
         allowClear: true,
         templateResult: function (item) {
           if (item.element?.dataset.monsterIcon)
-          return $(`<span>
+            return $(`<span>
                 <img height='18' src="icons/Large Monster Icons/${
                   item.element?.dataset.monsterIcon
-                }.png"/> ${item.text} 
+                }.png"/> ${item.text}
                 <br/>
                 Elem. Weak: ${item.element?.dataset.elements
                   .split('|')
@@ -239,6 +239,77 @@
                   .join('')}
             </span>`);
         },
+      });
+
+      let monstersList = <%- JSON.stringify(monsters) -%>;
+      // Form display on select
+      $('#monster-select').on('select2:select', function (e) {
+        const data = e.params.data;
+        if (!data.id){
+          $('#quest-post-form').hide();
+          return;
+        }
+
+        const monster = monstersList.find(m => m.id === data.id);
+
+        $('#monster-id').val(monster.id)
+        $('#locale').html(monster.locales.map((l,index) => `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`))
+
+        //Enable monster variant checkboxes based on monster data
+
+        if(monster.tempered){
+          $('#monster-tempered-label').show()
+          $('#monster-tempered-label > input').prop('disabled', false)
+        }
+        else{
+          $('#monster-tempered-label').hide()
+          $('#monster-tempered-label > input').prop('disabled', true)
+        }
+
+        if(monster.frenzied){
+          $('#monster-frenzied-label').show()
+          $('#monster-frenzied-label > input').prop('disabled', false)
+        }
+        else
+        {
+          $('#monster-frenzied-label').hide()
+          $('#monster-frenzied-label > input').prop('disabled', true)
+        }
+
+        if(monster.arch_tempered){
+          $('#monster-arch-tempered-label').show()
+          $('#monster-arch-tempered-label > input').prop('disabled', false)
+        }
+        else{
+          $('#monster-arch-tempered-label').hide()
+          $('#monster-arch-tempered-label > input').prop('disabled', true)
+        }
+
+        $('#quest-post-form').show();
+      });
+
+      // Display Platform options depending on whether 'Cross-play' disabled
+      $('#cross-play-enabled').click(function(){
+        if(!$(this).is(':checked')){
+            $('#platform-options').show()
+            $('#platform-options * input').each((_,inputElem) => $(inputElem).prop('disabled', false))
+        }
+        else {
+            $('#platform-options').hide()
+            $('#platform-options * input').each((_,inputElem) => $(inputElem).prop('disabled', true))
+        }
+      })
+
+      $('#quest-post-form').on('submit',(e)=> {
+        event.preventDefault();
+        console.log(new FormData(event.target))
+        // TODO - create hunting quest post in db
+      });
+
+      // Hide Hunting quest post form on monster selector clear
+      $('#monster-select').on('select2:clear',(e)=> {
+        console.log('clearing')
+        $('#quest-post-form').hide();
       });
     });
   </script>
