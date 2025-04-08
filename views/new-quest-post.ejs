@@ -209,7 +209,10 @@
     $(document).ready(function () {
       $('#monster-select').select2({
         width: 'resolve',
+        placeholder: '-- Choose a monster --',
+        allowClear: true,
         templateResult: function (item) {
+          if (item.element?.dataset.monsterIcon)
           return $(`<span>
                 <img height='18' src="icons/Large Monster Icons/${
                   item.element?.dataset.monsterIcon
