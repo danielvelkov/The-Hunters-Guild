@@ -20,8 +20,9 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <label for="monster-select">Choose monster: </label>
+    <label for="monster-select">Large Monsters: </label>
     <select class="form-control" name="monster" id="monster-select">
+      <option></option>
       <% if (monsters) { %> <% monsters.forEach((monster) => { %>
       <option
         value="<%= monster.id %>"
