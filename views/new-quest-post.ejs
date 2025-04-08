@@ -35,6 +35,175 @@
       </option>
       <% }) %> <% } %>
     </select>
+
+    <!-- form is hidden by default. selecting a monster in the above select, shows the form. -->
+
+    <form
+      autocomplete="off"
+      method="post"
+      id="quest-post-form"
+      style="display: none"
+    >
+      <label for="monster-frenzied" id="monster-frenzied-label">
+        Frenzied?
+        <input type="checkbox" name="frenzied" id="monster-frenzied" />
+      </label>
+      <label for="monster-tempered" id="monster-tempered-label">
+        Tempered?
+        <input type="checkbox" name="tempered" id="monster-tempered" />
+      </label>
+      <label for="monster-arch-tempered" id="monster-arch-tempered-label">
+        Arch-tempered?
+        <input
+          type="checkbox"
+          name="arch-tempered"
+          id="monster-arch-tempered"
+        />
+      </label>
+
+      <label for="quest-star-rank">Quest Star Rank</label>
+      <select name="quest-star-rank" id="quest-star-rank">
+        <option value="LOW">Low Rank</option>
+        <option value="HIGH" selected="selected">High Rank</option>
+        <option value="1">1⭐</option>
+        <option value="2">2⭐⭐</option>
+        <option value="3">3⭐⭐⭐</option>
+        <option value="4">4⭐⭐⭐⭐</option>
+        <option value="5">5⭐⭐⭐⭐⭐</option>
+        <option value="6">6⭐⭐⭐⭐⭐⭐</option>
+        <option value="7">7⭐⭐⭐⭐⭐⭐⭐</option>
+        <option value="8">8⭐⭐⭐⭐⭐⭐⭐⭐</option>
+        <option value="9">9⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+      </select>
+
+      <label for="monster-strength">Monster Strength</label>
+      <select id="monster-strength" name="monster-strength">
+        <option value="1">✨</option>
+        <option value="2">✨✨</option>
+        <option value="3" selected="selected">✨✨✨</option>
+        <option value="4">✨✨✨✨</option>
+        <option value="5">✨✨✨✨✨</option>
+      </select>
+
+      <label for="locale">Area</label>
+      <select name="locale" id="locale"></select>
+
+      <label for="quest-type">Quest Type</label>
+      <select name="quest-type" id="quest-type">
+        <option
+          value="Hunt"
+          selected="selected"
+          title="Capture or Slay a monster"
+        >
+          Hunt
+        </option>
+        <option
+          value="Slay"
+          title="Must slay the monster. Capturing it fails the quest."
+        >
+          Slay
+        </option>
+        <option
+          value="Capture"
+          title="Must capture the monster. Slaying it fails the quest."
+        >
+          Capture
+        </option>
+      </select>
+
+      <label for="quest-category">Quest Category</label>
+      <select name="quest-category" id="quest-category">
+        <option
+          value="Assignment"
+          title="Main Story quests. Can only be done once."
+        >
+          Assignment
+        </option>
+        <option
+          value="Optional"
+          title="Non-essential quests. Can be done repeatedly."
+        >
+          Optional Quest
+        </option>
+        <option
+          value="Event"
+          title="Event Quests are quests that can only be completed during a specific time-frame, with these quests having unique rewards that cannot be obtained by finishing Assignments or Optional Quests."
+        >
+          Event Quest
+        </option>
+        <option value="Field Survey">Field Survey</option>
+        <option value="Saved Investigation" selected="selected">
+          Saved Investigation
+        </option>
+        <option value="Arena Quest">Arena quest</option>
+        <option value="Challenge Quest">Challenge quest</option>
+        <option value="Free Challenge Quest">Free challenge quest</option>
+      </select>
+
+      <label for="hunter-rank-requirement"
+        ><abbr>HR</abbr>(Hunter Rank) Requirement</label
+      >
+      <input
+        name="hunter-rank-requirement"
+        id="hunter-rank-requirement"
+        type="range"
+        step="10"
+        min="1"
+        max="191"
+        value="21"
+        oninput="this.nextElementSibling.value = this.value+'+'"
+      />
+      <output>21+</output>
+
+      <label for="time-limit">Time limit (min.)</label>
+      <input
+        name="time-limit"
+        id="time-limit"
+        type="range"
+        step="5"
+        min="15"
+        max="60"
+        value="35"
+        oninput="this.nextElementSibling.value = this.value+' minutes'"
+      />
+      <output>35 minutes</output>
+
+      <label for="cross-play-enabled">
+        Cross-play?
+        <input
+          type="checkbox"
+          name="cross-play-enabled"
+          id="cross-play-enabled"
+          checked="checked"
+        />
+      </label>
+
+      <label
+        id="platform-options"
+        for="platform-options-list"
+        style="display: none"
+      >
+        Platform Selection
+        <ul id="platform-options-list">
+          <li>
+            <input type="checkbox" name="PC" />
+            PC
+          </li>
+          <li>
+            <input type="checkbox" name="PlayStation" />
+            PlayStation
+          </li>
+          <li>
+            <input type="checkbox" name="Xbox" />
+            Xbox
+          </li>
+        </ul>
+      </label>
+
+      <input type="hidden" id="monster-id" name="monster-id" />
+
+      <button type="submit">Post</button>
+    </form>
   </body>
   <script>
     $(document).ready(function () {
