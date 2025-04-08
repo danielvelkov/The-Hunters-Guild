@@ -35,9 +35,9 @@ const monsters__weakness_and_icons_ListGet = async () => {
       row.em_id,
       row.name,
       row.large_monster_icon_id,
-      Boolean(row.frenzied),
-      Boolean(row.tempered),
-      Boolean(row.arch_tempered),
+      row.frenzied == 'true',
+      row.tempered == 'true',
+      row.arch_tempered == 'true',
       row.locale.split(', '),
       +row.base_health,
       row.special_attacks
