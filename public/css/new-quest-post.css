@@ -1,3 +1,16 @@
 #monster-select {
   width: 250px;
 }
+
+body {
+  padding-left: 20%;
+  width: fit-content;
+  font-size: large;
+}
+
+#quest-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: fit-content;
+}
