@@ -267,6 +267,14 @@
           <option value="4">✨✨✨✨</option>
           <option value="5">✨✨✨✨✨</option>
         </select>
+
+        <label for="monster-crown">Monster Crown 👑</label>
+        <select id="monster-crown" name="monster-crown">
+          <option value="Base" selected="selected">Base</option>
+          <option value="Mini">Mini</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+        </select>
       `)
 
       // Hide Hunting quest post form on monster selector clear
@@ -348,6 +356,7 @@
           monsterLocales = ['-- No Common Locale --']
       }
       $('#locale').html(monsterLocales.map((l,index) => `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`))
+      $('#quest-category').trigger('change');
     }
 
     $(document).ready(function () {
@@ -368,13 +377,35 @@
             $('#platform-options').hide()
             $('#platform-options * input').each((_,inputElem) => $(inputElem).prop('disabled', true))
         }
-      })
+      });
+
+      $('#quest-category').on('change', (e) => {
+        const category = e.target.value;
+          monstersForms.forEach(mf =>{
+            const monsterCrownSelect = mf.find('#monster-crown');
+            const label = mf.find("label[for='monster-crown']");
+            if(category === 'Saved Investigation' ||
+              category === 'Field Survey'
+            ){
+              label.show();
+              monsterCrownSelect.show();
+              monsterCrownSelect.prop('disabled',false);
+            }
+            else{
+              label.hide();
+              monsterCrownSelect.hide();
+              monsterCrownSelect.prop('disabled',true);
+            }
+          })
+      });
 
       $('#quest-post-form').on('submit',(e)=> {
         event.preventDefault();
-        selectedMonsters.forEach(m=> {
+        selectedMonsters.forEach((m,index)=> {
           console.log('Selected Monster data:')
           console.log(m)
+          console.log('Monster Details Form data:')
+          console.log(new FormData(monstersForms[index][0]));
         });
         console.log('Quest Details form data:')
         console.log(new FormData(event.target))
@@ -382,20 +413,21 @@
       });
 
     });
-      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
-      function createObservableArray(arr, callback) {
-        return new Proxy(arr, {
-          set(target, property, value) {
-            target[property] = value; // Modify the array
-            callback(target); // Trigger callback on modification
-            return true;
-          },
-          deleteProperty(target, property) {
-            delete target[property]; // Handle deletion
-            callback(target);
-            return true;
-          }
-        });
-      }
+
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+    function createObservableArray(arr, callback) {
+      return new Proxy(arr, {
+        set(target, property, value) {
+          target[property] = value; // Modify the array
+          callback(target); // Trigger callback on modification
+          return true;
+        },
+        deleteProperty(target, property) {
+          delete target[property]; // Handle deletion
+          callback(target);
+          return true;
+        }
+      });
+    }
   </script>
 </html>
