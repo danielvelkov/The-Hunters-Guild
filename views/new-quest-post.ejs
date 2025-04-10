@@ -11,7 +11,12 @@
       media="screen"
       href="css/new-quest-post.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
+    />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
       rel="stylesheet"
@@ -168,6 +173,7 @@
 
       <button type="submit">Post</button>
     </form>
+    <main id="quest-preview"></main>
   </body>
   <script>
     let monstersList = <%- JSON.stringify(monsters) -%>;
@@ -333,6 +339,9 @@
         // Quest Details Form display on select
         $('#quest-post-form').show();
       });
+
+      monsterForm.on('change', (e) => $('#quest-preview').trigger('preview:update'))
+
       monstersForms.push(monsterForm);
       return monsterForm;
     }
@@ -411,6 +420,12 @@
         console.log(new FormData(event.target))
         // TODO - create hunting quest post in db
       });
+
+      $('#quest-post-form').on('change', (e) => $('#quest-preview').trigger('preview:update'));
+
+      $('#quest-preview').on('preview:update', (e) => {
+        console.log('update preview')
+      })
 
     });
 
