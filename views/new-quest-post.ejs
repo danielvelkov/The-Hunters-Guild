@@ -20,21 +20,10 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <label for="monster-select">Large Monsters: </label>
-    <select class="form-control" name="monster" id="monster-select">
-      <option></option>
-      <% if (monsters) { %> <% monsters.forEach((monster) => { %>
-      <option
-        value="<%= monster.id %>"
-        data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
-        data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
-        data-monster-icon="<%= monster.icon %>"
-      >
-        <%= monster.name %>
-        <hr />
-      </option>
-      <% }) %> <% } %>
-    </select>
+    <fieldset id="monster-forms">
+      <legend>Monsters</legend>
+      <button id="add-monster-button">+ Add Monster</button>
+    </fieldset>
 
     <!-- form is hidden by default. selecting a monster in the above select, shows the form. -->
 
@@ -44,32 +33,6 @@
       id="quest-post-form"
       style="display: none"
     >
-      <label for="monster-frenzied" id="monster-frenzied-label">
-        Frenzied?
-        <input type="checkbox" name="frenzied" id="monster-frenzied" />
-      </label>
-      <label for="monster-tempered" id="monster-tempered-label">
-        Tempered?
-        <input type="checkbox" name="tempered" id="monster-tempered" />
-      </label>
-      <label for="monster-arch-tempered" id="monster-arch-tempered-label">
-        Arch-tempered?
-        <input
-          type="checkbox"
-          name="arch-tempered"
-          id="monster-arch-tempered"
-        />
-      </label>
-
-      <label for="monster-strength">Monster Strength</label>
-      <select id="monster-strength" name="monster-strength">
-        <option value="1">✨</option>
-        <option value="2">✨✨</option>
-        <option value="3" selected="selected">✨✨✨</option>
-        <option value="4">✨✨✨✨</option>
-        <option value="5">✨✨✨✨✨</option>
-      </select>
-
       <fieldset id="quest-details">
         <legend>Quest Details</legend>
         <label for="quest-category">Category</label>
@@ -203,24 +166,54 @@
         </label>
       </fieldset>
 
-      <input type="hidden" id="monster-id" name="monster-id" />
-
       <button type="submit">Post</button>
     </form>
   </body>
   <script>
-    $(document).ready(function () {
-      $('#monster-select').select2({
-        width: 'resolve',
+    let monstersList = <%- JSON.stringify(monsters) -%>;
+    let monstersForms = [];
+    let selectedMonsters = createObservableArray([], selectedMonstersChangeHandler);
+
+    function createMonsterDataForm() {
+      const formId = monstersForms.length;
+      const monsterForm = $('<form>');
+      monsterForm.attr('autocomplete', 'off');
+      monsterForm.attr('id',`monster-form-${formId}`);
+      monsterForm.attr('class','monster-form');
+
+      monsterForm.append(`
+        <label for="monster-select-${formId}">Large Monsters: </label>
+        <select class="form-control monster-select" name="monster" id="monster-select-${formId}">
+          <option></option>
+          <% if (monsters) { %> <% monsters.forEach((monster) => { %>
+          <option
+            value="<%= monster.id %>"
+            data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+            data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+            data-monster-icon="<%= monster.icon %>"
+          >
+            <%= monster.name %>
+            <hr />
+          </option>
+          <% }) %> <% } %>
+        </select>
+      `);
+
+      const monsterSelect = monsterForm.find(`#monster-select-${formId}`);
+
+      monsterSelect.select2({
         placeholder: '-- Choose a monster --',
         allowClear: true,
         templateResult: function (item) {
           if (item.element?.dataset.monsterIcon)
-            return $(`<span>
+            return $(`<span class='monster-select-content'>
+                <span class='monster-select-name'>
                 <img height='18' src="icons/Large Monster Icons/${
                   item.element?.dataset.monsterIcon
-                }.png"/> ${item.text}
-                <br/>
+                }.png"/>
+                <b>${item.text}</b>
+                  </span>
+                <div class='monster-elements'>
                 Elem. Weak: ${item.element?.dataset.elements
                   .split('|')
                   .map((e) => {
@@ -230,7 +223,8 @@
                     else return '';
                   })
                   .join('')}
-                <br/>
+                </div>
+                <div class='monster-ailments'>
                 Status Weak: ${item.element?.dataset.ailments
                   .split('|')
                   .map((e) => {
@@ -240,56 +234,129 @@
                     else return '';
                   })
                   .join('')}
+                </div>
             </span>`);
         },
       });
 
-      let monstersList = <%- JSON.stringify(monsters) -%>;
-      // Form display on select
-      $('#monster-select').on('select2:select', function (e) {
+      const monsterFormDetails = $('<fieldset>')
+      monsterFormDetails.append(`
+        <legend>Monster Details</legend>
+        <label for="monster-frenzied" id="monster-frenzied-label">
+          Frenzied?
+          <input type="checkbox" name="frenzied" id="monster-frenzied" />
+        </label>
+        <label for="monster-tempered" id="monster-tempered-label">
+          Tempered?
+          <input type="checkbox" name="tempered" id="monster-tempered" />
+        </label>
+        <label for="monster-arch-tempered" id="monster-arch-tempered-label">
+          Arch-tempered?
+          <input
+            type="checkbox"
+            name="arch-tempered"
+            id="monster-arch-tempered"
+          />
+        </label>
+
+        <label for="monster-strength">Monster Strength</label>
+        <select id="monster-strength" name="monster-strength">
+          <option value="1">✨</option>
+          <option value="2">✨✨</option>
+          <option value="3" selected="selected">✨✨✨</option>
+          <option value="4">✨✨✨✨</option>
+          <option value="5">✨✨✨✨✨</option>
+        </select>
+      `)
+
+      // Hide Hunting quest post form on monster selector clear
+      monsterSelect.on('select2:clear',(e)=> {
+        monsterFormDetails.detach();
+        delete selectedMonsters[formId];
+        if(!selectedMonsters.some(m => m))
+          $('#quest-post-form').hide();
+      });
+
+      // Show monster form details on select
+      monsterSelect.on('select2:select', function (e) {
         const data = e.params.data;
         if (!data.id){
           $('#quest-post-form').hide();
+          monsterFormDetails.detach();
           return;
         }
 
         const monster = monstersList.find(m => m.id === data.id);
+        monsterForm.append(monsterFormDetails);
 
-        $('#monster-id').val(monster.id)
-        $('#locale').html(monster.locales.map((l,index) => `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`))
+        // Update monster List
+        selectedMonsters[formId] = monster;
 
         //Enable monster variant checkboxes based on monster data
 
         if(monster.tempered){
-          $('#monster-tempered-label').show()
-          $('#monster-tempered-label > input').prop('disabled', false)
+          monsterFormDetails.find('#monster-tempered-label').show()
+          monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', false)
         }
         else{
-          $('#monster-tempered-label').hide()
-          $('#monster-tempered-label > input').prop('disabled', true)
+          monsterFormDetails.find('#monster-tempered-label').hide()
+          monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', true)
         }
 
         if(monster.frenzied){
-          $('#monster-frenzied-label').show()
-          $('#monster-frenzied-label > input').prop('disabled', false)
+          monsterFormDetails.find('#monster-frenzied-label').show()
+          monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', false)
         }
         else
         {
-          $('#monster-frenzied-label').hide()
-          $('#monster-frenzied-label > input').prop('disabled', true)
+          monsterFormDetails.find('#monster-frenzied-label').hide()
+          monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', true)
         }
 
         if(monster.arch_tempered){
-          $('#monster-arch-tempered-label').show()
-          $('#monster-arch-tempered-label > input').prop('disabled', false)
+          monsterFormDetails.find('#monster-arch-tempered-label').show()
+          monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', false)
         }
         else{
-          $('#monster-arch-tempered-label').hide()
-          $('#monster-arch-tempered-label > input').prop('disabled', true)
+          monsterFormDetails.find('#monster-arch-tempered-label').hide()
+          monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
         }
 
+        // Quest Details Form display on select
         $('#quest-post-form').show();
       });
+      monstersForms.push(monsterForm);
+      return monsterForm;
+    }
+
+    function selectedMonstersChangeHandler(){
+      let monsterLocales = [];
+
+      selectedMonsters.forEach(m=> {
+          monsterLocales= monsterLocales.concat(m.locales);
+      });
+
+      if(selectedMonsters.filter(m => m).length === 2){
+        const localeCounts = {};
+        monsterLocales.forEach(str => {
+          localeCounts[str] = (localeCounts[str] || 0) + 1;
+        });
+
+        // Filter strings that appear more than once
+        monsterLocales = Object.keys(localeCounts).filter(str => localeCounts[str] > 1);
+        if(monsterLocales.length === 0)
+          monsterLocales = ['-- No Common Locale --']
+      }
+      $('#locale').html(monsterLocales.map((l,index) => `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`))
+    }
+
+    $(document).ready(function () {
+
+      $('#add-monster-button').click(e => {
+        if(monstersForms.length === 2)
+          return;
+        $('#monster-forms').append(()=> createMonsterDataForm())
+      })
 
       // Display Platform options depending on whether 'Cross-play' disabled
       $('#cross-play-enabled').click(function(){
@@ -305,15 +372,30 @@
 
       $('#quest-post-form').on('submit',(e)=> {
         event.preventDefault();
+        selectedMonsters.forEach(m=> {
+          console.log('Selected Monster data:')
+          console.log(m)
+        });
+        console.log('Quest Details form data:')
         console.log(new FormData(event.target))
         // TODO - create hunting quest post in db
       });
 
-      // Hide Hunting quest post form on monster selector clear
-      $('#monster-select').on('select2:clear',(e)=> {
-        console.log('clearing')
-        $('#quest-post-form').hide();
-      });
     });
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
+      function createObservableArray(arr, callback) {
+        return new Proxy(arr, {
+          set(target, property, value) {
+            target[property] = value; // Modify the array
+            callback(target); // Trigger callback on modification
+            return true;
+          },
+          deleteProperty(target, property) {
+            delete target[property]; // Handle deletion
+            callback(target);
+            return true;
+          }
+        });
+      }
   </script>
 </html>
