@@ -1,17 +1,118 @@
-#monster-select {
-  width: 250px;
-}
-
-body {
-  padding-left: 20%;
-  width: fit-content;
-  font-size: large;
-}
-
-#quest-post-form,
-#quest-details {
+/* General form styling */
+form,
+form > fieldset {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  max-width: fit-content;
+}
+form label {
+  font-weight: bold;
+  display: block;
+}
+
+input,
+select,
+textarea + label {
+  margin-top: -0.25em;
+}
+
+form input,
+form select,
+form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form input:disabled,
+form select:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+/* Monster form container */
+#monster-forms {
+  display: flex;
+  gap: 1em;
+  align-items: stretch;
+}
+
+#monster-forms .monster-form {
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.monster-select-name {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+/* Weaknesses display */
+.monster-elements img,
+.monster-ailments img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.monster-elements,
+.monster-ailments {
+  margin-top: 10px;
+}
+
+/* Add monster button */
+#add-monster-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-monster-button:hover {
+  background-color: #0056b3;
+}
+
+/* Quest Details  */
+#quest-details {
+  width: fit-content;
+}
+
+input[type='range'] + output {
+  align-self: stretch;
+  font-size: larger;
+  border: 2px solid #ccc;
+  padding: 0.5em 1em;
+  margin-top: -1em;
+}
+
+/* Cross-play toggle */
+#platform-options {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+#platform-options input {
+  margin-right: 5px;
+}
+
+/* Quest Post Form */
+
+#quest-post-form button[type='submit'] {
+  font-size: large;
+  padding: 0.5em 3em;
 }
