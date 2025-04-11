@@ -339,6 +339,20 @@
           monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
         }
 
+          monsterFormDetails.find('#monster-arch-tempered-label > input').click(function(){
+            if(!$(this).is(':checked'))
+                monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', false)
+            else
+                monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', true)
+          });
+
+          monsterFormDetails.find('#monster-tempered-label > input').click(function(){
+            if(!$(this).is(':checked'))
+                monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', false)
+            else
+                monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
+          });
+
         // Quest Details Form display on select
         $('#quest-post-form').show();
       });
