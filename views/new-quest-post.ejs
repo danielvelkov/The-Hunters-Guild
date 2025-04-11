@@ -32,312 +32,312 @@
       </fieldset>
 
       <div class="flex-row">
-      <!-- form is hidden by default. selecting a monster in the above select, shows the form. -->
-      <form
-        autocomplete="off"
-        method="post"
-        id="quest-post-form"
-        style="display: none"
-      >
-        <fieldset id="quest-details">
-          <legend>Quest Details</legend>
-          <label for="quest-category">Category</label>
-          <select name="quest-category" id="quest-category">
-            <option
-              value="Assignment"
-              title="Main Story quests. Can only be done once."
-            >
-              Assignment
-            </option>
-            <option
-              value="Optional"
-              title="Non-essential quests. Can be done repeatedly."
-            >
-              Optional Quest
-            </option>
-            <option
-              value="Event"
-              title="Event Quests are quests that can only be completed during a specific time-frame, with these quests having unique rewards that cannot be obtained by finishing Assignments or Optional Quests."
-            >
-              Event Quest
-            </option>
-            <option value="Field Survey">Field Survey</option>
-            <option value="Saved Investigation" selected="selected">
-              Saved Investigation
-            </option>
-            <option value="Arena Quest">Arena quest</option>
-            <option value="Challenge Quest">Challenge quest</option>
-            <option value="Free Challenge Quest">Free challenge quest</option>
-          </select>
+        <!-- form is hidden by default. selecting a monster in the above select, shows the form. -->
+        <form
+          autocomplete="off"
+          method="post"
+          id="quest-post-form"
+          style="display: none"
+        >
+          <fieldset id="quest-details">
+            <legend>Quest Details</legend>
+            <label for="quest-category">Category</label>
+            <select name="quest-category" id="quest-category">
+              <option
+                value="Assignment"
+                title="Main Story quests. Can only be done once."
+              >
+                Assignment
+              </option>
+              <option
+                value="Optional"
+                title="Non-essential quests. Can be done repeatedly."
+              >
+                Optional Quest
+              </option>
+              <option
+                value="Event"
+                title="Event Quests are quests that can only be completed during a specific time-frame, with these quests having unique rewards that cannot be obtained by finishing Assignments or Optional Quests."
+              >
+                Event Quest
+              </option>
+              <option value="Field Survey">Field Survey</option>
+              <option value="Saved Investigation" selected="selected">
+                Saved Investigation
+              </option>
+              <option value="Arena Quest">Arena quest</option>
+              <option value="Challenge Quest">Challenge quest</option>
+              <option value="Free Challenge Quest">Free challenge quest</option>
+            </select>
 
-          <label for="quest-star-rank">Star Rank</label>
-          <select name="quest-star-rank" id="quest-star-rank">
-            <option value="LOW">Low Rank</option>
-            <option value="HIGH" selected="selected">High Rank</option>
-            <option value="1">1⭐</option>
-            <option value="2">2⭐⭐</option>
-            <option value="3">3⭐⭐⭐</option>
-            <option value="4">4⭐⭐⭐⭐</option>
-            <option value="5">5⭐⭐⭐⭐⭐</option>
-            <option value="6">6⭐⭐⭐⭐⭐⭐</option>
-            <option value="7">7⭐⭐⭐⭐⭐⭐⭐</option>
-            <option value="8">8⭐⭐⭐⭐⭐⭐⭐⭐</option>
-            <option value="9">9⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
-          </select>
+            <label for="quest-star-rank">Star Rank</label>
+            <select name="quest-star-rank" id="quest-star-rank">
+              <option value="LOW">Low Rank</option>
+              <option value="HIGH" selected="selected">High Rank</option>
+              <option value="1">1⭐</option>
+              <option value="2">2⭐⭐</option>
+              <option value="3">3⭐⭐⭐</option>
+              <option value="4">4⭐⭐⭐⭐</option>
+              <option value="5">5⭐⭐⭐⭐⭐</option>
+              <option value="6">6⭐⭐⭐⭐⭐⭐</option>
+              <option value="7">7⭐⭐⭐⭐⭐⭐⭐</option>
+              <option value="8">8⭐⭐⭐⭐⭐⭐⭐⭐</option>
+              <option value="9">9⭐⭐⭐⭐⭐⭐⭐⭐⭐</option>
+            </select>
 
-          <label for="locale">Area</label>
-          <select name="locale" id="locale"></select>
+            <label for="locale">Area</label>
+            <select name="locale" id="locale"></select>
 
-          <label for="quest-type">Type</label>
-          <select name="quest-type" id="quest-type">
-            <option
-              value="Hunt"
-              selected="selected"
-              title="Capture or Slay a monster"
+            <label for="quest-type">Type</label>
+            <select name="quest-type" id="quest-type">
+              <option
+                value="Hunt"
+                selected="selected"
+                title="Capture or Slay a monster"
+              >
+                Hunt
+              </option>
+              <option
+                value="Slay"
+                title="Must slay the monster. Capturing it fails the quest."
+              >
+                Slay
+              </option>
+              <option
+                value="Capture"
+                title="Must capture the monster. Slaying it fails the quest."
+              >
+                Capture
+              </option>
+            </select>
+
+            <label for="hunter-rank-requirement"
+              ><abbr>HR</abbr>(Hunter Rank) Requirement</label
             >
-              Hunt
-            </option>
-            <option
-              value="Slay"
-              title="Must slay the monster. Capturing it fails the quest."
-            >
-              Slay
-            </option>
-            <option
-              value="Capture"
-              title="Must capture the monster. Slaying it fails the quest."
-            >
-              Capture
-            </option>
-          </select>
-
-          <label for="hunter-rank-requirement"
-            ><abbr>HR</abbr>(Hunter Rank) Requirement</label
-          >
-          <input
-            name="hunter-rank-requirement"
-            id="hunter-rank-requirement"
-            type="range"
-            step="10"
-            min="1"
-            max="191"
-            value="21"
-            oninput="this.nextElementSibling.value = this.value+'+'"
-          />
-          <output>21+</output>
-
-          <label for="time-limit">Time limit (min.)</label>
-          <input
-            name="time-limit"
-            id="time-limit"
-            type="range"
-            step="5"
-            min="15"
-            max="60"
-            value="35"
-            oninput="this.nextElementSibling.value = this.value+' minutes'"
-          />
-          <output>35 minutes</output>
-
-          <label for="cross-play-enabled">
-            Cross-play?
             <input
-              type="checkbox"
-              name="cross-play-enabled"
-              id="cross-play-enabled"
-              checked="checked"
+              name="hunter-rank-requirement"
+              id="hunter-rank-requirement"
+              type="range"
+              step="10"
+              min="1"
+              max="191"
+              value="21"
+              oninput="this.nextElementSibling.value = this.value+'+'"
             />
-          </label>
+            <output>21+</output>
 
-          <label
-            id="platform-options"
-            for="platform-options-list"
-            style="display: none"
-          >
-            Platform Selection
-            <ul id="platform-options-list">
-              <li>
-                <input type="checkbox" name="PC" />
-                PC
-              </li>
-              <li>
-                <input type="checkbox" name="PlayStation" />
-                PlayStation
-              </li>
-              <li>
-                <input type="checkbox" name="Xbox" />
-                Xbox
-              </li>
-            </ul>
-          </label>
-        </fieldset>
-        <button type="submit">Post</button>
-      </form>
+            <label for="time-limit">Time limit (min.)</label>
+            <input
+              name="time-limit"
+              id="time-limit"
+              type="range"
+              step="5"
+              min="15"
+              max="60"
+              value="35"
+              oninput="this.nextElementSibling.value = this.value+' minutes'"
+            />
+            <output>35 minutes</output>
 
-      <section id="quest-preview"></section>
+            <label for="cross-play-enabled">
+              Cross-play?
+              <input
+                type="checkbox"
+                name="cross-play-enabled"
+                id="cross-play-enabled"
+                checked="checked"
+              />
+            </label>
+
+            <label
+              id="platform-options"
+              for="platform-options-list"
+              style="display: none"
+            >
+              Platform Selection
+              <ul id="platform-options-list">
+                <li>
+                  <input type="checkbox" name="PC" />
+                  PC
+                </li>
+                <li>
+                  <input type="checkbox" name="PlayStation" />
+                  PlayStation
+                </li>
+                <li>
+                  <input type="checkbox" name="Xbox" />
+                  Xbox
+                </li>
+              </ul>
+            </label>
+          </fieldset>
+          <button type="submit">Post</button>
+        </form>
+
+        <section id="quest-preview"></section>
       </div>
     </main>
   </body>
   <script>
-    let monstersList = <%- JSON.stringify(monsters) -%>;
-    let monstersForms = [];
-    let selectedMonsters = createObservableArray([], selectedMonstersChangeHandler);
+      let monstersList = <%- JSON.stringify(monsters) -%>;
+      let monstersForms = [];
+      let selectedMonsters = createObservableArray([], selectedMonstersChangeHandler);
 
-    function createMonsterDataForm() {
-      const formId = monstersForms.length;
-      const monsterForm = $('<form>');
-      monsterForm.attr('autocomplete', 'off');
-      monsterForm.attr('id',`monster-form-${formId}`);
-      monsterForm.attr('class','monster-form');
+      function createMonsterDataForm() {
+        const formId = monstersForms.length;
+        const monsterForm = $('<form>');
+        monsterForm.attr('autocomplete', 'off');
+        monsterForm.attr('id',`monster-form-${formId}`);
+        monsterForm.attr('class','monster-form');
 
-      monsterForm.append(`
-        <label for="monster-select-${formId}">Large Monsters: </label>
-        <select class="form-control monster-select" name="monster" id="monster-select-${formId}">
-          <option></option>
-          <% if (monsters) { %> <% monsters.forEach((monster) => { %>
-          <option
-            value="<%= monster.id %>"
-            data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
-            data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
-            data-monster-icon="<%= monster.icon %>"
-          >
-            <%= monster.name %>
-            <hr />
-          </option>
-          <% }) %> <% } %>
-        </select>
-      `);
+        monsterForm.append(`
+          <label for="monster-select-${formId}">Large Monsters: </label>
+          <select class="form-control monster-select" name="monster" id="monster-select-${formId}">
+            <option></option>
+            <% if (monsters) { %> <% monsters.forEach((monster) => { %>
+            <option
+              value="<%= monster.id %>"
+              data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+              data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+              data-monster-icon="<%= monster.icon %>"
+            >
+              <%= monster.name %>
+              <hr />
+            </option>
+            <% }) %> <% } %>
+          </select>
+        `);
 
-      const monsterSelect = monsterForm.find(`#monster-select-${formId}`);
+        const monsterSelect = monsterForm.find(`#monster-select-${formId}`);
 
-      monsterSelect.select2({
-        placeholder: '-- Choose a monster --',
-        allowClear: true,
-        templateResult: function (item) {
-          if (item.element?.dataset.monsterIcon)
-            return $(`<span class='monster-select-content'>
-                <span class='monster-select-name'>
-                <img height='18' src="icons/Large Monster Icons/${
-                  item.element?.dataset.monsterIcon
-                }.png"/>
-                <b>${item.text}</b>
-                  </span>
-                <div class='monster-elements'>
-                Elem. Weak: ${item.element?.dataset.elements
-                  .split('|')
-                  .map((e) => {
-                    const [name, icon] = e.split(',');
-                    if (icon)
-                      return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
-                    else return '';
-                  })
-                  .join('')}
-                </div>
-                <div class='monster-ailments'>
-                Status Weak: ${item.element?.dataset.ailments
-                  .split('|')
-                  .map((e) => {
-                    const [name, icon] = e.split(',');
-                    if (icon)
-                      return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
-                    else return '';
-                  })
-                  .join('')}
-                </div>
-            </span>`);
-        },
-      });
+        monsterSelect.select2({
+          placeholder: '-- Choose a monster --',
+          allowClear: true,
+          templateResult: function (item) {
+            if (item.element?.dataset.monsterIcon)
+              return $(`<span class='monster-select-content'>
+                  <span class='monster-select-name'>
+                  <img height='18' src="icons/Large Monster Icons/${
+                    item.element?.dataset.monsterIcon
+                  }.png"/>
+                  <b>${item.text}</b>
+                    </span>
+                  <div class='monster-elements'>
+                  Elem. Weak: ${item.element?.dataset.elements
+                    .split('|')
+                    .map((e) => {
+                      const [name, icon] = e.split(',');
+                      if (icon)
+                        return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
+                      else return '';
+                    })
+                    .join('')}
+                  </div>
+                  <div class='monster-ailments'>
+                  Status Weak: ${item.element?.dataset.ailments
+                    .split('|')
+                    .map((e) => {
+                      const [name, icon] = e.split(',');
+                      if (icon)
+                        return `<img height='18' alt='${name}' title='${name}' src="icons/Status Icons/${icon}.png"' />`;
+                      else return '';
+                    })
+                    .join('')}
+                  </div>
+              </span>`);
+          },
+        });
 
-      const monsterFormDetails = $('<fieldset>')
-      monsterFormDetails.append(`
-        <legend>Monster Details</legend>
-        <label for="monster-frenzied" id="monster-frenzied-label">
-          Frenzied?
-          <input type="checkbox" name="frenzied" id="monster-frenzied" />
-        </label>
-        <label for="monster-tempered" id="monster-tempered-label">
-          Tempered?
-          <input type="checkbox" name="tempered" id="monster-tempered" />
-        </label>
-        <label for="monster-arch-tempered" id="monster-arch-tempered-label">
-          Arch-tempered?
-          <input
-            type="checkbox"
-            name="arch-tempered"
-            id="monster-arch-tempered"
-          />
-        </label>
+        const monsterFormDetails = $('<fieldset>')
+        monsterFormDetails.append(`
+          <legend>Monster Details</legend>
+          <label for="monster-frenzied" id="monster-frenzied-label">
+            Frenzied?
+            <input type="checkbox" name="frenzied" id="monster-frenzied" />
+          </label>
+          <label for="monster-tempered" id="monster-tempered-label">
+            Tempered?
+            <input type="checkbox" name="tempered" id="monster-tempered" />
+          </label>
+          <label for="monster-arch-tempered" id="monster-arch-tempered-label">
+            Arch-tempered?
+            <input
+              type="checkbox"
+              name="arch-tempered"
+              id="monster-arch-tempered"
+            />
+          </label>
 
-        <label for="monster-strength">Monster Strength</label>
-        <select id="monster-strength" name="monster-strength">
-          <option value="1">✨</option>
-          <option value="2">✨✨</option>
-          <option value="3" selected="selected">✨✨✨</option>
-          <option value="4">✨✨✨✨</option>
-          <option value="5">✨✨✨✨✨</option>
-        </select>
+          <label for="monster-strength">Monster Strength</label>
+          <select id="monster-strength" name="monster-strength">
+            <option value="1">✨</option>
+            <option value="2">✨✨</option>
+            <option value="3" selected="selected">✨✨✨</option>
+            <option value="4">✨✨✨✨</option>
+            <option value="5">✨✨✨✨✨</option>
+          </select>
 
-        <label for="monster-crown">Monster Crown 👑</label>
-        <select id="monster-crown" name="monster-crown">
-          <option value="Base" selected="selected">Base</option>
-          <option value="Mini">Mini</option>
-          <option value="Silver">Silver</option>
-          <option value="Gold">Gold</option>
-        </select>
-      `)
+          <label for="monster-crown">Monster Crown 👑</label>
+          <select id="monster-crown" name="monster-crown">
+            <option value="Base" selected="selected">Base</option>
+            <option value="Mini">Mini</option>
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+          </select>
+        `)
 
-      // Hide Hunting quest post form on monster selector clear
-      monsterSelect.on('select2:clear',(e)=> {
-        monsterFormDetails.detach();
-        delete selectedMonsters[formId];
-        if(!selectedMonsters.some(m => m))
-          $('#quest-post-form').hide();
-      });
-
-      // Show monster form details on select
-      monsterSelect.on('select2:select', function (e) {
-        const data = e.params.data;
-        if (!data.id){
-          $('#quest-post-form').hide();
+        // Hide Hunting quest post form on monster selector clear
+        monsterSelect.on('select2:clear',(e)=> {
           monsterFormDetails.detach();
-          return;
-        }
+          delete selectedMonsters[formId];
+          if(!selectedMonsters.some(m => m))
+            $('#quest-post-form').hide();
+        });
 
-        const monster = monstersList.find(m => m.id === data.id);
-        monsterForm.append(monsterFormDetails);
+        // Show monster form details on select
+        monsterSelect.on('select2:select', function (e) {
+          const data = e.params.data;
+          if (!data.id){
+            $('#quest-post-form').hide();
+            monsterFormDetails.detach();
+            return;
+          }
 
-        // Update monster List
-        selectedMonsters[formId] = monster;
+          const monster = monstersList.find(m => m.id === data.id);
+          monsterForm.append(monsterFormDetails);
 
-        //Enable monster variant checkboxes based on monster data
+          // Update monster List
+          selectedMonsters[formId] = monster;
 
-        if(monster.tempered){
-          monsterFormDetails.find('#monster-tempered-label').show()
-          monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', false)
-        }
-        else{
-          monsterFormDetails.find('#monster-tempered-label').hide()
-          monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', true)
-        }
+          //Enable monster variant checkboxes based on monster data
 
-        if(monster.frenzied){
-          monsterFormDetails.find('#monster-frenzied-label').show()
-          monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', false)
-        }
-        else
-        {
-          monsterFormDetails.find('#monster-frenzied-label').hide()
-          monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', true)
-        }
+          if(monster.tempered){
+            monsterFormDetails.find('#monster-tempered-label').show()
+            monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', false)
+          }
+          else{
+            monsterFormDetails.find('#monster-tempered-label').hide()
+            monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', true)
+          }
 
-        if(monster.arch_tempered){
-          monsterFormDetails.find('#monster-arch-tempered-label').show()
-          monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', false)
-        }
-        else{
-          monsterFormDetails.find('#monster-arch-tempered-label').hide()
-          monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
-        }
+          if(monster.frenzied){
+            monsterFormDetails.find('#monster-frenzied-label').show()
+            monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', false)
+          }
+          else
+          {
+            monsterFormDetails.find('#monster-frenzied-label').hide()
+            monsterFormDetails.find('#monster-frenzied-label > input').prop('disabled', true)
+          }
+
+          if(monster.arch_tempered){
+            monsterFormDetails.find('#monster-arch-tempered-label').show()
+            monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', false)
+          }
+          else{
+            monsterFormDetails.find('#monster-arch-tempered-label').hide()
+            monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
+          }
 
           monsterFormDetails.find('#monster-arch-tempered-label > input').click(function(){
             if(!$(this).is(':checked'))
@@ -353,10 +353,9 @@
                 monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
           });
 
-        // Quest Details Form display on select
-        $('#quest-post-form').show();
+            // Quest Details Form display on select
+            $('#quest-post-form').show();
       });
-
       monsterForm.on('change', (e) => $('#quest-preview').trigger('preview:update'))
 
       monstersForms.push(monsterForm);
@@ -441,7 +440,50 @@
       $('#quest-post-form').on('change', (e) => $('#quest-preview').trigger('preview:update'));
 
       $('#quest-preview').on('preview:update', (e) => {
-        console.log('update preview')
+        console.log('update preview');
+
+        const questDetails = new FormData($('#quest-post-form')[0]);
+        const monsterFormDataList = monstersForms.map(mf=> new FormData(mf[0])).filter(fd => fd.get('monster') != '');
+        const selectedMonsterDetailsList = selectedMonsters.filter(m => m);
+
+
+        if(monsterFormDataList.length === 0 ||
+         monsterFormDataList.length  !== selectedMonsterDetailsList.length){
+          $('#quest-preview').html('');
+          return;
+        }
+
+        let questTitle = `${questDetails.get('quest-type')} `;
+
+        if(selectedMonsterDetailsList.length === 1){
+          const monsterName = `${monsterFormDataList[0].get('tempered') ? 'Tempered' : ''}
+          ${monsterFormDataList[0].get('frenzied') ? 'Frenzied' : ''}
+          ${monsterFormDataList[0].get('arch-tempered') ? 'Arch-Tempered' : ''} ${selectedMonsterDetailsList[0].name}`
+          questTitle = questTitle + 'the ' + monsterName;
+        }
+        else {
+          const monsterNames = [];
+          monsterFormDataList.forEach((md,index) => {
+            const monster = monstersList.find(m => m.id== md.get('monster'));
+            const monsterName = `${md.get('tempered') ? 'Tempered' : ''}
+            ${md.get('frenzied') ? 'Frenzied' : ''}
+            ${md.get('arch-tempered') ? 'Arch-Tempered' : ''} ${monster.name}`
+            monsterNames.push(monsterName);
+          })
+
+
+          if(monsterNames.every(mn => mn === monsterNames[0]))
+            questTitle = questTitle + monsterNames.length + ' '+ monsterNames[0];
+          else
+           questTitle = questTitle +  monsterNames.join(' & ');
+        }
+
+        $('#quest-preview').html(`
+          <div class="quest-headings">
+            <h3>${questDetails.get('quest-type')}ing Quest</h3>
+            <h3>${questTitle}</h3>
+            </div>
+        `)
       })
 
     });
