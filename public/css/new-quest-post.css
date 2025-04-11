@@ -10,6 +10,12 @@ form label {
   display: block;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
 input,
 select,
 textarea + label {
