@@ -339,20 +339,16 @@
             monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
           }
 
-          monsterFormDetails.find('#monster-arch-tempered-label > input').click(function(){
-            if(!$(this).is(':checked'))
-                monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', false)
-            else
-                monsterFormDetails.find('#monster-tempered-label > input').prop('disabled', true)
-          });
+          monsterFormDetails.find('input[type="checkbox"]').prop('checked', false)
 
-          monsterFormDetails.find('#monster-tempered-label > input').click(function(){
-            if(!$(this).is(':checked'))
-                monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', false)
-            else
-                monsterFormDetails.find('#monster-arch-tempered-label > input').prop('disabled', true)
+          monsterFormDetails.find('input[type="checkbox"]').click(function() {
+            if ($(this).is(':checked')) {
+              monsterFormDetails.find('input[type="checkbox"]').not(this).prop('disabled', true);
+              monsterFormDetails.find('input[type="checkbox"]').not(this).prop('checked', false)
+            } else {
+              monsterFormDetails.find('input[type="checkbox"]').prop('disabled', false);
+            }
           });
-
             // Quest Details Form display on select
             $('#quest-post-form').show();
       });
