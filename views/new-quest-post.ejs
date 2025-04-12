@@ -442,7 +442,6 @@
         const monsterFormDataList = monstersForms.map(mf=> new FormData(mf[0])).filter(fd => fd.get('monster') != '');
         const selectedMonsterDetailsList = selectedMonsters.filter(m => m);
 
-
         if(monsterFormDataList.length === 0 ||
          monsterFormDataList.length  !== selectedMonsterDetailsList.length){
           $('#quest-preview').html('');
@@ -475,9 +474,61 @@
         }
 
         $('#quest-preview').html(`
-          <div class="quest-headings">
-            <h3>${questDetails.get('quest-type')}ing Quest</h3>
-            <h3>${questTitle}</h3>
+          <div>
+            <table class="themetable" width="100%" align="center">
+              <tbody>
+                  <tr>
+                    <th colspan="2">${questDetails.get('quest-category')}</th>
+                    <th colspan="3" align="right">${questDetails.get('quest-star-rank')}⭐</th>
+                  </tr>
+                  <tr>
+                    <th rowspan="2">Monsters:</th>
+                    <th colspan="3" >
+                      <div class="flex-row" style="justify-content:center;">
+                      ${selectedMonsterDetailsList.map((m,index) =>
+                        `<div class="flex-col">
+                          <img height='75' title="${m.name}"
+                            class="monster-image
+                            ${monsterFormDataList[index].get('tempered') === 'on' ? 'tempered-outline' : ''}
+                            ${monsterFormDataList[index].get('frenzied') === 'on' ? 'frenzied-outline' : ''}
+                            "
+                            src="icons/Large Monster Icons/${m.icon}.png"/>
+                            <span style="margin-top:-1em; font-size:0.65em;">${'✨'.repeat(+monsterFormDataList[index].get('monster-strength'))}</span>
+                          </div>`).join('')}
+                      </div>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th colspan="3">${questTitle}</th>
+                  </tr>
+                  <tr>
+                    <th width="10%"></th>
+                    <th width="20%">Quest Info:</th>
+                    <th width="35%" align="left">Recom. Skills:</th>
+                    <th width="35%" align="left">Bonus Rewards:</th>
+                  </tr>
+                  <tr>
+                    <th>HR req:</th>
+                    <td >${questDetails.get('hunter-rank-requirement')}</td>
+                  </tr>
+                  <tr>
+                    <th>Area:</th>
+                    <td>${questDetails.get('locale')}</td>
+                  </tr>
+                  <tr>
+                    <th>Time Limit:</th>
+                    <td>${questDetails.get('time-limit')} mins</td>
+                  </tr>
+                  <tr>
+                    <th>Description:</th>
+                    <td colspan="3"></td>
+                  </tr>
+                  <tr>
+                    <th>Notes:</th>
+                    <td colspan="3"></td>
+                  </tr>
+              </tbody>
+            </table>
             </div>
         `)
       })
