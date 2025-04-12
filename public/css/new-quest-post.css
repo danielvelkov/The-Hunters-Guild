@@ -1,3 +1,8 @@
+main {
+  padding-left: 10vmax;
+  padding-right: 10vmax;
+}
+
 /* General form styling */
 form,
 form > fieldset {
