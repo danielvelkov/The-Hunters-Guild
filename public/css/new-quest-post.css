@@ -16,6 +16,34 @@ form label {
   gap: 1em;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.themetable {
+  border: 1px solid #ccc;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.themetable th {
+  font-weight: bold;
+  color: #161111;
+  background-color: white;
+  border: 1px solid #e8f5e9;
+  border-bottom: 1px solid #8a9091;
+}
+
+tr:nth-child(even) {
+  background-color: #d9e6e7;
+}
+tr:nth-child(odd) {
+  background-color: #e8f5e9;
+}
+
 input,
 select,
 textarea + label {
