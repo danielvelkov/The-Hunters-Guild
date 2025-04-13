@@ -474,7 +474,12 @@
         }
 
         $('#quest-preview').html(`
-          <div>
+          <div id="tabs">
+            <ul>
+              <li><a href="#tabs-quest-details">Quest Details</a></li>
+              ${selectedMonsterDetailsList.map((m,i) => `<li><a href="#tabs-monster-${i}">${m.name}</a></li>`).join('')}
+            </ul>
+            <div id="tabs-quest-details">
             <table class="themetable" width="100%" align="center">
               <tbody>
                   <tr>
@@ -536,7 +541,10 @@
               </tbody>
             </table>
             </div>
+            ${selectedMonsterDetailsList.map((m,i) => `<div id="tabs-monster-${i}"><h2>${m.name}</h2></div>`).join('')}
+            </div>
         `)
+          $( "#tabs" ).tabs();
       })
 
     });
