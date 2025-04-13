@@ -17,6 +17,13 @@ async function getMonsterSpecialAttacks__NamesAndDescription() {
   return rows;
 }
 
+async function getMonstersPartsDamageEffectiveness__NamesAndIconId() {
+  const { rows } = await pool.query(
+    getMonstersPartsDamageEffectiveness__NamesAndIconId
+  );
+  return rows;
+}
+
 const getMonsters__AllWeaknesses = `SELECT
   em_id,
   large_monster_icon_id,
@@ -63,8 +70,30 @@ const getMonsters__OnlyElementalWeaknesses = `SELECT
 FROM monsters;
 `;
 
+const getMonstersParts__DamageEffectiveness = `SELECT
+  m.monster_id,
+  m.monster,
+  parts_type,
+  icontype AS icon,
+  slash,
+  blow,
+  shot,
+  fire,
+  water,
+  thunder,
+  ice,
+  dragon,
+  stun,
+  flash
+FROM monster_parts_array
+INNER JOIN monster_meat_array AS m ON meat_guid_normal = instance_guid
+LEFT JOIN monster_parts ON parts_type = empartstype
+WHERE parts_type != 'HIDE'
+  AND parts_type != '#N/A';`;
+
 module.exports = {
   getMonstersInfo__AllWeaknesses,
   getStatusIcons__NamesAndIconId,
   getMonsterSpecialAttacks__NamesAndDescription,
+  getMonstersPartsDamageEffectiveness__NamesAndIconId,
 };
