@@ -2,6 +2,7 @@ const {
   getMonstersInfo__AllWeaknesses,
   getStatusIcons__NamesAndIconId,
   getMonsterSpecialAttacks__NamesAndDescription,
+  getMonstersPartsDamageEffectiveness__NamesAndIconId,
 } = require('../db/queries');
 const Monster = require('../models/Monster');
 
@@ -27,6 +28,9 @@ const monsters__weakness_and_icons_ListGet = async () => {
   for (let row of statusIconsRows)
     if (row.name) monstersWeaknessAndIconMap[row.name.toUpperCase()] = row.id;
 
+  const monstersPartDmgEffectivenessRows =
+    await getMonstersPartsDamageEffectiveness__NamesAndIconId();
+
   const monsters = [];
   if (monstersRows.length === 0) return monsters;
 
@@ -46,7 +50,11 @@ const monsters__weakness_and_icons_ListGet = async () => {
             description: monstersSpecialAttacksAndDescriptionsMap[sa],
           }))
         : [],
-      groupWeaknesses(row.all_weaknesses, monstersWeaknessAndIconMap)
+      groupWeaknesses(row.all_weaknesses, monstersWeaknessAndIconMap),
+      getPartDamageEffectivenessForMonster(
+        row.em_id,
+        monstersPartDmgEffectivenessRows
+      )
     );
     monsters.push(monster);
   });
@@ -90,4 +98,35 @@ function groupWeaknesses(weaknesses, weaknessesIconsMap) {
             .map((w) => ({ name: w, icon: weaknessesIconsMap[w] }))
         : [],
     };
+}
+
+function getPartDamageEffectivenessForMonster(
+  monsterId,
+  partDamageEffectivenessRows
+) {
+  const monsterPartDamagesRows = partDamageEffectivenessRows.filter(
+    (r) => r.monster_id === monsterId
+  );
+  const result = [];
+  monsterPartDamagesRows.forEach((row) => {
+    const part = {};
+    part.name = row.parts_type;
+    part.icon = row.icon;
+    const damagesArr = [];
+    const keys = Object.keys(row);
+    const startIndex = keys.indexOf('slash');
+    const endIndex = keys.indexOf('flash');
+
+    keys.slice(startIndex, endIndex + 1).reduce((acc, key) => {
+      const damage = {};
+      damage.type = key;
+      damage.value = row[key];
+      acc.push(damage);
+      return acc;
+    }, damagesArr);
+
+    part.damages = damagesArr;
+    result.push(part);
+  });
+  return result;
 }

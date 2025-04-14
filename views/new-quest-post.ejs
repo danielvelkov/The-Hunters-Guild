@@ -541,7 +541,35 @@
                 </tbody>
               </table>
             </div>
-            ${selectedMonsterDetailsList.map((m,i) => `<div id="tabs-monster-${i}"><h2>${m.name}</h2></div>`).join('')}
+            ${selectedMonsterDetailsList.map((m,i) =>
+              `<div id="tabs-monster-${i}">
+                <h2>${m.name}</h2>
+                <h3>Damage Effectiveness</h3>
+                <table style="width:100%;">
+                  <tbody align="center">
+                    <tr>
+                      <th>Part</th>
+                      <th>Slash</th>
+                      <th>Blow</th>
+                      <th>Shot</th>
+                      <th>Fire</th>
+                      <th>Water</th>
+                      <th>Thunder</th>
+                      <th>Ice</th>
+                      <th>Dragon</th>
+                      <th>Stun</th>
+                      <th>Flash</th>
+                    </tr>
+                    ${m.part_dmg_effectiveness.map(de => {
+                      let tableRow = '<tr>';
+                      tableRow = tableRow.concat(`<td><img height="20" src="icons/Item Icons/${de.icon}.png"/> <b>${de.name}</b></td>`);
+                      de.damages.forEach(d => {tableRow = tableRow.concat(`<td>${d.value > 45 ? '<b>'+d.value+'</b>' : d.value}</td>`)});
+                      tableRow = tableRow.concat('</tr>');
+                      return tableRow;
+                    }).join('')}
+                  </tbody>
+                </table>
+              </div>`).join('')}
           </div>
         `)
           $( "#tabs" ).tabs();
