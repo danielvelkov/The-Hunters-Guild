@@ -19,6 +19,12 @@ class Monster {
    * @param {Object[]} weaknesses[].ailments Monster ailment weaknesses.
    * @param {string} weaknesses[].ailments[].name Monster ailment weakness name.
    * @param {string} weaknesses[].ailments[].icon Icon name
+   * @param {Object[]} part_dmg_effectiveness Damage effectiveness of certain elements or types to a monster part.
+   * @param {string} part_dmg_effectiveness[].name Monster part name.
+   * @param {string} part_dmg_effectiveness[].icon Monster part Icon name.
+   * @param {Object[]} part_dmg_effectiveness[].damages Damage type name and effectiveness value.
+   * @param {string} part_dmg_effectiveness[].damages[].type Damage type name.
+   * @param {string} part_dmg_effectiveness[].damages[].value Damage effectiveness.
    */
   constructor(
     id,
@@ -30,7 +36,8 @@ class Monster {
     locales,
     base_health,
     special_attacks,
-    weaknesses
+    weaknesses,
+    part_dmg_effectiveness
   ) {
     this.id = id;
     this.name = name;
@@ -42,6 +49,7 @@ class Monster {
     this.base_health = base_health;
     this.special_attacks = special_attacks;
     this.weaknesses = weaknesses;
+    this.part_dmg_effectiveness = part_dmg_effectiveness;
   }
 }
 
