@@ -18,9 +18,7 @@ async function getMonsterSpecialAttacks__NamesAndDescription() {
 }
 
 async function getMonstersPartsDamageEffectiveness__NamesAndIconId() {
-  const { rows } = await pool.query(
-    getMonstersPartsDamageEffectiveness__NamesAndIconId
-  );
+  const { rows } = await pool.query(getMonstersParts__DamageEffectiveness);
   return rows;
 }
 
