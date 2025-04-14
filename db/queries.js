@@ -68,7 +68,7 @@ const getMonsters__OnlyElementalWeaknesses = `SELECT
 FROM monsters;
 `;
 
-const getMonstersParts__DamageEffectiveness = `SELECT
+const getMonstersParts__DamageEffectiveness = `SELECT DISTINCT
   m.monster_id,
   m.monster,
   parts_type,
