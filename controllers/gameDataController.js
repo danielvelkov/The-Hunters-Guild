@@ -3,7 +3,9 @@ const {
   getStatusIcons__NamesAndIconId,
   getMonsterSpecialAttacks__NamesAndDescription,
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
+  getBonusQuestRewardsList,
 } = require('../db/queries');
+const Item = require('../models/Item');
 const Monster = require('../models/Monster');
 
 /**
@@ -61,6 +63,27 @@ const monsters__weakness_and_icons_ListGet = async () => {
   return monsters;
 };
 
+const bonus_quest_rewards__ListGet = async () => {
+  const bonusRewards = [];
+  const itemRows = await getBonusQuestRewardsList();
+  itemRows.forEach((i) =>
+    bonusRewards.push(
+      new Item(
+        i.id,
+        i.name,
+        i.icon,
+        i.icon_colour,
+        i.description,
+        i.type,
+        i.rarity,
+        i.dropped_by
+      )
+    )
+  );
+
+  return bonusRewards;
+};
+
 /**
  * Gets the rows of drop data related to a certain monster
  * @param {string} monster Monster name
@@ -71,6 +94,7 @@ const monster__drops_TablesGet = async (monster) => {
 
 module.exports = {
   monsters__weakness_and_icons_ListGet,
+  bonus_quest_rewards__ListGet,
 };
 
 function groupWeaknesses(weaknesses, weaknessesIconsMap) {
