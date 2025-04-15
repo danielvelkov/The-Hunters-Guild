@@ -428,6 +428,18 @@
         }
       });
 
+      // Display Bonus Rewards depending on whether 'Bonus Rewards' enabled
+      $('#bonus-rewards-enabled').click(function(){
+        if(!$(this).is(':checked')){
+            $('#bonus-rewards').next().hide()
+            $('#bonus-rewards').prop('disabled', true)
+        }
+        else {
+            $('#bonus-rewards').next().show()
+            $('#bonus-rewards').prop('disabled', false)
+        }
+      });
+
       $('#quest-category').on('change', (e) => {
         const category = e.target.value;
           monstersForms.forEach(mf =>{
