@@ -89,6 +89,36 @@ LEFT JOIN monster_parts ON parts_type = empartstype
 WHERE parts_type != 'HIDE'
   AND parts_type != '#N/A';`;
 
+const getBonusRewards__NamesAndIconId = `SELECT DISTINCT
+  id,
+  name,
+  description,
+  rarity,
+  icon_type AS icon,
+  icon_colour,
+  rank_1,
+  dropped_by,
+CASE
+  WHEN  add_icon_type = 'INGREDIENTS' THEN 'Food Ingredient'
+  WHEN dropped_by != '' THEN 'Rare Drop'
+  WHEN add_icon_type = 'FOR_ATTACK' THEN 'Sword Decoration'
+  WHEN add_icon_type = 'FOR_DEFENSE' THEN 'Armor Decoration'
+  WHEN type = 'GEM' AND add_icon_type = 'INVALID' THEN 'Artisan Part'
+END as type
+FROM items
+LEFT JOIN
+  (SELECT item,
+          string_agg(monster, ',') AS dropped_by
+   FROM monster_drops
+   WHERE probability != ''
+     AND CAST(probability AS float) = 1
+     AND rank = 'HIGH'
+     AND reward_type = 'Target Rewards'
+   GROUP BY item) AS rare_items ON rare_items.item = name
+WHERE ((TYPE = 'GEM' OR add_icon_type = 'INGREDIENTS')
+       OR (TYPE = 'MATERIAL' AND dropped_by != ''))
+  AND NOT (type = 'GEM' AND name ILIKE 'Old%');`;
+
 module.exports = {
   getMonstersInfo__AllWeaknesses,
   getStatusIcons__NamesAndIconId,
