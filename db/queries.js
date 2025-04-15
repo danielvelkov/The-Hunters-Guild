@@ -22,6 +22,11 @@ async function getMonstersPartsDamageEffectiveness__NamesAndIconId() {
   return rows;
 }
 
+async function getBonusQuestRewardsList() {
+  const { rows } = await pool.query(getBonusRewards__NamesAndIconId);
+  return rows;
+}
+
 const getMonsters__AllWeaknesses = `SELECT
   em_id,
   large_monster_icon_id,
@@ -124,4 +129,5 @@ module.exports = {
   getStatusIcons__NamesAndIconId,
   getMonsterSpecialAttacks__NamesAndDescription,
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
+  getBonusQuestRewardsList,
 };
