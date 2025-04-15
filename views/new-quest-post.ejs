@@ -569,7 +569,7 @@
                             ${monsterFormDataList[index].has('monster-crown') &&  monsterFormDataList[index].get('monster-crown') !== 'Base' ?
                             `<img height='25' title="${monsterFormDataList[index].get('monster-crown')}"
                             src="icons/${monsterFormDataList[index].get('monster-crown').toLowerCase()}-crown.png"
-                            style="position:absolute; top:0px; right:-10px;filter: drop-shadow(1px 1px 1px #222)
+                            style="position:absolute; z-index: 1; top:0px; right:-10px;filter: drop-shadow(1px 1px 1px #222)
                             drop-shadow(-1px -1px 1px #222) drop-shadow(-1px 1px 0px #222) drop-shadow(1px -1px 0px #222);">` : ''}
 
                             <img height='75' title="${m.name}"
