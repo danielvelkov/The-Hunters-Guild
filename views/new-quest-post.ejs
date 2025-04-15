@@ -180,6 +180,7 @@
   </body>
   <script>
       let monstersList = <%- JSON.stringify(monsters) -%>;
+      let bonusQuestRewardsList  = <%- JSON.stringify(bonusQuestRewards) -%>;
       let monstersForms = [];
       let selectedMonsters = createObservableArray([], selectedMonstersChangeHandler);
 
@@ -377,6 +378,17 @@
           monsterLocales = ['-- No Common Locale --']
       }
       $('#locale').html(monsterLocales.map((l,index) => `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`))
+
+      const questRewardsGroupsMap = {};
+      bonusQuestRewardsList.forEach(qr => {
+        // if monster does not figure in source enumeration
+        if(qr.source && selectedMonsters.every(m => !qr.source.split(',').includes(m.name)))
+          return;
+
+        if(!questRewardsGroupsMap.hasOwnProperty(qr.type))
+          questRewardsGroupsMap[qr.type] = [];
+        questRewardsGroupsMap[qr.type].push(qr);
+      })
       $('#quest-category').trigger('change');
     }
 
