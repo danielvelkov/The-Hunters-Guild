@@ -219,7 +219,7 @@ input[type='range'] + output {
 /* Quest Preview  */
 
 #quest-preview {
-  flex: 0 1 800px;
+  flex: 1 1 800px;
   padding: 0.5em;
 }
 
