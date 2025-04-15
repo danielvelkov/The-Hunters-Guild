@@ -405,6 +405,40 @@
           questRewardsGroupsMap[qr.type] = [];
         questRewardsGroupsMap[qr.type].push(qr);
       })
+
+      $('#bonus-rewards').html(Object.entries(questRewardsGroupsMap).reverse().map(([k,v]) => {
+        let optGroupHTML = `<optgroup label="${k+'s'}"><option></option>`;
+        optGroupHTML += v.sort((qr1,qr2) => qr1.rarity - qr2.rarity).map(qr =>
+         `<option data-icon="${qr.icon === 'INVALID' ? 'ITEM_0001' : qr.icon }" data-color="${qr.iconColor}" value="${qr.id}">
+           ${qr.name}
+          </option>`).join('');
+        optGroupHTML += '</optgroup>'
+        return optGroupHTML;
+      }).join(''));
+
+      $('#bonus-rewards').select2({
+          dropdownAutoWidth : true,
+          multiple: true,
+          placeholder: '-- Select Bonus Rewards --',
+          templateResult: function (item) {
+            if(item.element && item.text && item.id){
+              const iconPath = `url('../icons/Item Icons/${item.element?.dataset.icon}.png')`;
+              return $(`
+                <span class='bonus-select-name' style="display:flex; gap:0.5em; align-items:center;">
+                  <div class="item-img-container"
+                    id="${item.id}"
+                    style="--item-color: var(--${item.element?.dataset.color}); --item-icon:${iconPath}">
+                    <img height='23' src="icons/Item Icons/${item.element?.dataset.icon}.png"/>
+                  </div>
+                <b>${item.text}</b>
+                </span>
+              `)
+            }
+            else if(item.text)
+              return item.text;
+          },
+      });
+
       $('#quest-category').trigger('change');
     }
 
