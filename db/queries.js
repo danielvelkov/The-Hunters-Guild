@@ -109,6 +109,7 @@ CASE
   WHEN add_icon_type = 'FOR_ATTACK' THEN 'Sword Decoration'
   WHEN add_icon_type = 'FOR_DEFENSE' THEN 'Armor Decoration'
   WHEN type = 'GEM' AND add_icon_type = 'INVALID' THEN 'Artisan Part'
+  ELSE 'Monster Material'
 END as type
 FROM items
 LEFT JOIN
@@ -122,6 +123,7 @@ LEFT JOIN
    GROUP BY item) AS rare_items ON rare_items.item = name
 WHERE ((TYPE = 'GEM' OR add_icon_type = 'INGREDIENTS')
        OR (TYPE = 'MATERIAL' AND dropped_by != ''))
+       OR (NAME = 'Basic Material' OR NAME = 'Valuable Material')
   AND NOT (type = 'GEM' AND name ILIKE 'Old%');`;
 
 module.exports = {
