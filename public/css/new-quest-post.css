@@ -178,13 +178,16 @@ input[type='range'] + output {
 .item-img-container {
   position: relative;
   display: inline-block;
+  z-index: 5; /* Higher than tab default */
   --item-color: var(--I_WHITE); /* Default value */
   --item-icon: ''; /* Will be set via inline style */
 }
 
 .item-img-container img {
+  z-index: 4; /* Lower than container but higher than tab background */
   display: block;
   mix-blend-mode: multiply;
+  filter: contrast(0.8);
 }
 
 .item-img-container::after {
