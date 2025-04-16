@@ -11,6 +11,7 @@
       media="screen"
       href="css/new-quest-post.css"
     />
+    <link rel="stylesheet" type="text/css" href="css/sparkle.css" />
     <link
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
@@ -588,7 +589,20 @@
                     </tr>
                     <tr>
                       <th>Bonus Rewards:</th>
-                      <td colspan="3"></td>
+                      <td colspan="3">
+                        <div class='flex-row' style="gap:0em; align-items:center;">
+                          ${$('#bonus-rewards-enabled').is(':checked') &&  $('#bonus-rewards').val() ? $('#bonus-rewards').val().map(id => {
+                            const bonusItem = bonusQuestRewardsList.find(qr => qr.id === id);
+                            const iconPath = `url('../icons/Item Icons/${bonusItem.icon}.png')`;
+                            return `<div class="item-img-container" title="${bonusItem.name}\nRarity: ${bonusItem.rarity}"
+                                data-item-id="${bonusItem.id}"
+                                style="--item-color: var(--${bonusItem.iconColor}); --item-icon:${iconPath}; border: 2px double #806f49; background-color: #ac9b83;">
+                                <img height='30'  src="icons/Item Icons/${bonusItem.icon}.png"/>
+                                ${(+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') || (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5 ) ? `<div class="sparkles">${[...Array(6)].map(m => `<div class="sparkle"></div>`).join('')}</div>` : ''}
+                              </div>`
+                          }).join('') : ''}
+                        </div>
+                      </td>
                     </tr>
                     <tr>
                       <th width="10%"></th>

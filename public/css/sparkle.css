@@ -1,0 +1,70 @@
+/* Star-shaped sparkle */
+.sparkle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  /* Create a star shape with clip-path */
+  animation: star-sparkle 1s infinite;
+  transform: scale(0);
+  z-index: 4;
+  will-change: transform;
+}
+
+.sparkle::before {
+  content: '\2726';
+  color: white;
+  filter: drop-shadow(0 0 5px white)
+    drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+}
+
+/* Position multiple stars around the div */
+.sparkle:nth-child(1) {
+  top: 2%;
+  left: 5%;
+  animation-delay: 0s;
+}
+
+.sparkle:nth-child(2) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0.5s;
+}
+
+.sparkle:nth-child(3) {
+  top: 55%;
+  right: 50%;
+  animation-delay: 0.7s;
+}
+
+.sparkle:nth-child(4) {
+  bottom: 15%;
+  right: 10%;
+  animation-delay: 0.2s;
+}
+
+.sparkle:nth-child(5) {
+  bottom: 10%;
+  left: 40%;
+  animation-delay: 0.9s;
+}
+
+.sparkle:nth-child(6) {
+  top: -13%;
+  right: 15%;
+  animation-delay: 0.4s;
+}
+
+/* Animation for the star sparkle glow effect */
+@keyframes star-sparkle {
+  0% {
+    transform: scale(0) rotate(0turn);
+    opacity: 1;
+    filter: drop-shadow(0 0 3px white);
+  }
+  100% {
+    transform: scale(1) rotate(0.4turn);
+    opacity: 0;
+    filter: drop-shadow(0 0 5px white)
+      drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+  }
+}
