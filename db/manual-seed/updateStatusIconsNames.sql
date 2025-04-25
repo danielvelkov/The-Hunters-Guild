@@ -28,13 +28,13 @@ WHERE id= 'STATUS_0005';
 UPDATE status_icons
 SET name= 'Frenzy'
 WHERE id= 'STATUS_0006';
--- paralyze
+-- paralysis
 UPDATE status_icons
-SET name= 'Paralyze'
+SET name= 'Paralysis'
 WHERE id= 'STATUS_0007';
 -- stun
 UPDATE status_icons
-SET name= 'Stun'
+SET name= 'KO'
 WHERE id= 'STATUS_0008';
 -- sleep
 UPDATE status_icons
