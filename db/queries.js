@@ -118,10 +118,9 @@ LEFT JOIN
      AND rank = 'HIGH'
      AND reward_type = 'Target Rewards'
    GROUP BY item) AS rare_items ON rare_items.item = name
-WHERE ((TYPE = 'GEM' OR add_icon_type = 'INGREDIENTS')
+WHERE ((TYPE = 'GEM' AND name not ilike 'old%' OR add_icon_type = 'INGREDIENTS' and cast(rarity as int) > 4 )
        OR (TYPE = 'MATERIAL' AND dropped_by != ''))
-       OR (NAME = 'Basic Material' OR NAME = 'Valuable Material')
-  AND NOT (type = 'GEM' AND name ILIKE 'Old%');`;
+       OR (NAME = 'Basic Material' OR NAME = 'Valuable Material');`;
 
 const getMonstersItemRewards = `WITH numbered_rows AS
   (SELECT *,
