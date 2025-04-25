@@ -1,17 +1,138 @@
 "Fixed ID","ST ID","Name","Short Name","Large Monsters","Small Monsters","Endemic Life","Fish"
 "3E3BEB40","INVALID","INVALID","INVALID","","","",""
-"B6EA5200","ST101","Windward Plains","Plains",",,,,,,,","S0001,S0002,S0003,S0003,S0000,S0004,S0005,S0006","Paratoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Great Thunderbug,Wedge Beetle,Thunderbug,Flashbug,Godbug,Bitterbug,Windrustler,Black Windrustler,Nothpecker,Landlight Shrimp,Amstrigian,Hymstrigian,Rufflizard,Pallbug,Tracktail Lizard,Emperor Hopper,Quatreflies,Curioshell Crab,Sandstar","Virid Bowfin,Whetfish,Sushifish,Goldenfish,Platinumfish,Gravid Bowfin"
-"CCC00CC0","ST102","Scarlet Forest","Forest",",,,,,,,","S0009,S0008,S0003,S0003,S0006,S0007,S0010","Paratoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Wedge Beetle,Flashbug,Godbug,Bitterbug,Leaflugger Ant,Amstrigian,Hymstrigian,Pallbug,Emperor Hopper,Hercudrome,Gold Hercudrome,Quatreflies,Myriads,Myriads,Jewel Scarab,Regal Jewel Scarab,Vaporonid,Omenfly,Mimiphyta,Scarlet Joyperch,Florashell Crab,Curioshell Crab,Smokeshroud Gekko,Dapperwing,Dazzlewing,Starduster,Starduster","Virid Bowfin,Whetfish,Sushifish,Gastronome Tuna,Gajau,Goldenfry,Goldenfish,Platinumfish,Burst Arowana,Bomb Arowana,Gunpowderfish,Speartuna,Petricanths,Goliath Squid,Great Trevally,Escunite,Grand Escunite,Gravid Bowfin"
-"B56E0400","ST103","Oilwell Basin","Basin",",,,,,,,,","S0009,S0003,S0010,S0011,S0013","Nitrotoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Bomb Beetle,Vigormantle Bug,Chillmantle Bug,Wiggly Litchi,Wedge Beetle,Flashbug,Godbug,Bitterbug,Pink Landlight Shrimp,Ember Rufflizard,Azure Rufflizard,Pallbug,Quatreflies,Blink Angler,Curioshell Crab,Crudeshell Crab,Gloom Gekko,Scalebat,Sparklerjelly,Peony Sparklerjelly,Nu Yaya,Pillopod","Whetfish,Sushifish,Goldenfry,Goldenfish,Platinumfish,Burst Arowana,Bomb Arowana,Gunpowderfish,Petricanths,Gravid Bowfin"
-"46776180","ST104","Iceshard Cliffs","Cliffs",",,,,,,,","S0009,S0017,S0012,S0014,S0015,S0016","Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Rime Beetle,Vigormantle Bug,Heatmantle Bug,Wiggly Litchi,Wedge Beetle,Flashbug,Godbug,Pallbug,Quatreflies,Gawkie,Curioshell Crab,Gloom Gekko,Solanaria,Pillopod,Downy Crake","Goldenfry,Goldenfish,Platinumfish,Gunpowderfish,Glass Parexus,Gravid Bowfin,Blind Perch"
-"1383C140","ST105","Ruins of Wyveria","Wyveria",",,,,,,,,,,,,,,,,,,,,,","S0009,S0014,S0015,S0018","Paratoad,Nitrotoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Bomb Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Great Thunderbug,Wedge Beetle,Thunderbug,Flashbug,Godbug,Bitterbug,Pallbug,Tyrant Hopper,Prism Hercudrome,Quatreflies,Gawkie,Curioshell Crab,Xu Yo,Solanaria,Pillopod,Gillopod,Petalfly","Goldenfry,Gunpowderfish,Glass Parexus,Gravid Bowfin,Blind Perch"
+"B6EA5200","ST101","Windward Plains","Plains","Rathian
+Tempered Rathian,Gypceros
+Frenzied Gypceros
+Tempered Gypceros,Doshaguma
+Alpha Doshaguma
+Tempered Doshaguma,Balahara
+Tempered Balahara,Chatacabra
+Tempered Chatacabra,Quematrice
+Tempered Quematrice,Rey Dau
+Tempered Rey Dau
+Arch-tempered Rey Dau,Arkveld
+Tempered Arkveld","Ceratonoth (Male),Ceratonoth (Female)
+Ceratonoth,Dalthydon
+Dalthydon,Dalthydon (Livestock)
+Dalthydon (Livestock),Bulaqchi,Talioth,Baunos,Gajios","Paratoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Great Thunderbug,Wedge Beetle,Thunderbug,Flashbug,Godbug,Bitterbug,Windrustler,Black Windrustler,Nothpecker,Landlight Shrimp,Amstrigian,Hymstrigian,Rufflizard,Pallbug,Tracktail Lizard,Emperor Hopper,Quatreflies,Curioshell Crab,Sandstar","Virid Bowfin,Whetfish,Sushifish,Goldenfish,Platinumfish,Gravid Bowfin"
+"CCC00CC0","ST102","Scarlet Forest","Forest","Rathian
+Tempered Rathian,Rathalos
+Tempered Rathalos,Yian Kut-Ku
+Frenzied Yian Kut-Ku
+Tempered Yian Kut-Ku,Congalala
+Tempered Congalala,Doshaguma
+Alpha Doshaguma
+Tempered Doshaguma,Lala Barina
+Tempered Lala Barina,Uth Duna
+Tempered Uth Duna,Arkveld
+Tempered Arkveld","Vespoid,Conga,Dalthydon
+Dalthydon,Dalthydon (Livestock)
+Dalthydon (Livestock),Gajios,Piragill,Harpios","Paratoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Wedge Beetle,Flashbug,Godbug,Bitterbug,Leaflugger Ant,Amstrigian,Hymstrigian,Pallbug,Emperor Hopper,Hercudrome,Gold Hercudrome,Quatreflies,Myriads,Myriads,Jewel Scarab,Regal Jewel Scarab,Vaporonid,Omenfly,Mimiphyta,Scarlet Joyperch,Florashell Crab,Curioshell Crab,Smokeshroud Gekko,Dapperwing,Dazzlewing,Starduster,Starduster","Virid Bowfin,Whetfish,Sushifish,Gastronome Tuna,Gajau,Goldenfry,Goldenfish,Platinumfish,Burst Arowana,Bomb Arowana,Gunpowderfish,Speartuna,Petricanths,Goliath Squid,Great Trevally,Escunite,Grand Escunite,Gravid Bowfin"
+"B56E0400","ST103","Oilwell Basin","Basin","Rathian
+Tempered Rathian,Rathalos
+Tempered Rathalos,Gravios
+Tempered Gravios,Gypceros
+Frenzied Gypceros
+Tempered Gypceros,Nerscylla
+Frenzied Nerscylla
+Tempered Nerscylla,Rompopolo
+Tempered Rompopolo,Nu Udra
+Tempered Nu Udra,Ajarakan
+Tempered Ajarakan,Arkveld
+Tempered Arkveld","Vespoid,Dalthydon (Livestock)
+Dalthydon (Livestock),Harpios,Kranodath,Gelidron","Nitrotoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Dung Beetle,Bomb Beetle,Vigormantle Bug,Chillmantle Bug,Wiggly Litchi,Wedge Beetle,Flashbug,Godbug,Bitterbug,Pink Landlight Shrimp,Ember Rufflizard,Azure Rufflizard,Pallbug,Quatreflies,Blink Angler,Curioshell Crab,Crudeshell Crab,Gloom Gekko,Scalebat,Sparklerjelly,Peony Sparklerjelly,Nu Yaya,Pillopod","Whetfish,Sushifish,Goldenfry,Goldenfish,Platinumfish,Burst Arowana,Bomb Arowana,Gunpowderfish,Petricanths,Gravid Bowfin"
+"46776180","ST104","Iceshard Cliffs","Cliffs","Yian Kut-Ku
+Frenzied Yian Kut-Ku
+Tempered Yian Kut-Ku,Gypceros
+Frenzied Gypceros
+Tempered Gypceros,Blangonga
+Frenzied Blangonga
+Tempered Blangonga,Nerscylla
+Frenzied Nerscylla
+Tempered Nerscylla,Gore Magala
+Tempered Gore Magala,Arkveld
+Tempered Arkveld,Hirabami
+Frenzied Hirabami
+Tempered Hirabami,Jin Dahaad
+Tempered Jin Dahaad","Vespoid,Blango,Comaqchi,Rafma
+Alpha Rafma,Porkeplume,Nerscylla Hatchling","Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Rime Beetle,Vigormantle Bug,Heatmantle Bug,Wiggly Litchi,Wedge Beetle,Flashbug,Godbug,Pallbug,Quatreflies,Gawkie,Curioshell Crab,Gloom Gekko,Solanaria,Pillopod,Downy Crake","Goldenfry,Goldenfish,Platinumfish,Gunpowderfish,Glass Parexus,Gravid Bowfin,Blind Perch"
+"1383C140","ST105","Ruins of Wyveria","Wyveria","Rathian
+Tempered Rathian,Rathalos
+Tempered Rathalos,Guardian Rathalos
+Tempered Guardian Rathalos,Gravios
+Tempered Gravios,Yian Kut-Ku
+Frenzied Yian Kut-Ku
+Tempered Yian Kut-Ku,Gypceros
+Frenzied Gypceros
+Tempered Gypceros,Congalala
+Tempered Congalala,Blangonga
+Frenzied Blangonga
+Tempered Blangonga,Nerscylla
+Frenzied Nerscylla
+Tempered Nerscylla,Gore Magala
+Tempered Gore Magala,Guardian Fulgur Anjanath
+Tempered Guardian Fulgur Anjanath,Guardian Ebony Odogaron
+Tempered Guardian Ebony Odogaron,Doshaguma
+Alpha Doshaguma
+Tempered Doshaguma,Guardian Doshaguma
+Tempered Guardian Doshaguma,Chatacabra
+Tempered Chatacabra,Quematrice
+Tempered Quematrice,Lala Barina
+Tempered Lala Barina,Ajarakan
+Tempered Ajarakan,Arkveld
+Tempered Arkveld,Guardian Arkveld,Hirabami
+Frenzied Hirabami
+Tempered Hirabami,Xu Wu
+Tempered Xu Wu","Vespoid,Rafma
+Alpha Rafma,Porkeplume,Guardian Seikret","Paratoad,Nitrotoad,Sleeptoad,Vigorwasp,Giant Vigorwasp,Purewasp,Flashflies,Bomb Beetle,Vigormantle Bug,Wiggly Litchi,Dark Hornet,Great Thunderbug,Wedge Beetle,Thunderbug,Flashbug,Godbug,Bitterbug,Pallbug,Tyrant Hopper,Prism Hercudrome,Quatreflies,Gawkie,Curioshell Crab,Xu Yo,Solanaria,Pillopod,Gillopod,Petalfly","Goldenfry,Gunpowderfish,Glass Parexus,Gravid Bowfin,Blind Perch"
 "5B80C380","ST201","Riverside Trail","Riverside Trail","","","Vigorwasp,Giant Vigorwasp,Purewasp,Flashbug,Godbug,Bitterbug,Windrustler,Black Windrustler",""
-"2F8FC200","ST202","Cavern Tunnel","Cavern Tunnel","","S0003","Vigorwasp,Giant Vigorwasp,Purewasp,Pallbug,Smokeshroud Gekko",""
+"2F8FC200","ST202","Cavern Tunnel","Cavern Tunnel","","Dalthydon (Livestock)
+Dalthydon (Livestock)","Vigorwasp,Giant Vigorwasp,Purewasp,Pallbug,Smokeshroud Gekko",""
 "20ADF300","ST203","Lost Path to Wyveria","Lost Path to Wyveria","","","Vigorwasp,Giant Vigorwasp,Purewasp,Rime Beetle,Godbug,Gawkie,Solanaria",""
 "13E936C0","ST204","Keepers' Approach","Keepers' Approach","","","Vigorwasp,Giant Vigorwasp,Purewasp,Flashbug,Godbug,Gawkie",""
-"4673CE80","ST401","Wounded Hollow","Hollow",",,,,,,,,,,,,,,,,,,,,,,,,,,","S0009,S0008,S0017,S0001,S0002,S0003,S0003,S0000,S0004,S0005,S0006,S0007,S0010,S0011,S0012,S0013,S0014,S0015,S0016,S0018","Vigorwasp,Giant Vigorwasp,Purewasp",""
-"2072B780","ST402","Rimechain Peak","Rimechain P.",",","","Vigorwasp,Giant Vigorwasp,Purewasp,Heatmantle Bug,Wiggly Litchi,Flashbug,Godbug,Gawkie",""
-"35FA1DC0","ST403","Dragontorch Shrine","Dragontorch S.","","","Vigorwasp,Giant Vigorwasp,Purewasp",""
+"4673CE80","ST401","Wounded Hollow","Hollow","Rathian
+Tempered Rathian,Rathalos
+Tempered Rathalos,Guardian Rathalos
+Tempered Guardian Rathalos,Gravios
+Tempered Gravios,Yian Kut-Ku
+Frenzied Yian Kut-Ku
+Tempered Yian Kut-Ku,Gypceros
+Frenzied Gypceros
+Tempered Gypceros,Congalala
+Tempered Congalala,Blangonga
+Frenzied Blangonga
+Tempered Blangonga,Nerscylla
+Frenzied Nerscylla
+Tempered Nerscylla,Gore Magala
+Tempered Gore Magala,Guardian Fulgur Anjanath
+Tempered Guardian Fulgur Anjanath,Guardian Ebony Odogaron
+Tempered Guardian Ebony Odogaron,Doshaguma
+Alpha Doshaguma
+Tempered Doshaguma,Guardian Doshaguma
+Tempered Guardian Doshaguma,Balahara
+Tempered Balahara,Chatacabra
+Tempered Chatacabra,Quematrice
+Tempered Quematrice,Lala Barina
+Tempered Lala Barina,Rompopolo
+Tempered Rompopolo,Rey Dau
+Tempered Rey Dau
+Arch-tempered Rey Dau,Uth Duna
+Tempered Uth Duna,Nu Udra
+Tempered Nu Udra,Ajarakan
+Tempered Ajarakan,Arkveld
+Tempered Arkveld,Guardian Arkveld,Hirabami
+Frenzied Hirabami
+Tempered Hirabami,Xu Wu
+Tempered Xu Wu","Vespoid,Conga,Blango,Ceratonoth (Male),Ceratonoth (Female)
+Ceratonoth,Dalthydon
+Dalthydon,Dalthydon (Livestock)
+Dalthydon (Livestock),Bulaqchi,Talioth,Baunos,Gajios,Piragill,Harpios,Kranodath,Comaqchi,Gelidron,Rafma
+Alpha Rafma,Porkeplume,Nerscylla Hatchling,Guardian Seikret","Vigorwasp,Giant Vigorwasp,Purewasp",""
+"2072B780","ST402","Rimechain Peak","Rimechain P.","Hirabami
+Frenzied Hirabami
+Tempered Hirabami,Jin Dahaad
+Tempered Jin Dahaad","","Vigorwasp,Giant Vigorwasp,Purewasp,Heatmantle Bug,Wiggly Litchi,Flashbug,Godbug,Gawkie",""
+"35FA1DC0","ST403","Dragontorch Shrine","Dragontorch S.","Zoh Shia","","Vigorwasp,Giant Vigorwasp,Purewasp",""
 "77C74980","ST404","Suja, Peaks of Accord","Suja, Peaks of Accord","","","Downy Crake",""
 "0000360C","ST405","ST405","ST405","","","",""
 "90940880","ST502","ST502","ST502","","","???",""

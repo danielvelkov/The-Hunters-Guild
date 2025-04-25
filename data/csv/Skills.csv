@@ -1,32 +1,32 @@
-"ID","Name Raw","Name","Index","Icon Raw","Icon ID","Icon","Category","Max Level","Set Count","Description","Description 1","Description 2","Description 3","Description 4","Description 5","Description 6","Description 7"
-"00000000","82D0863D-8EA5-4106-9392-A8B7575F6B9F","",0,"00000001","SKILL_0000",CellImage,"EQUIP",0,"","","","","","","","",""
-"00000001","C5243424-047C-40CF-A6F4-69E9D3AE860F","Attack Boost",1,"00000001","SKILL_0000",CellImage,"WEAPON",5,"","Increases attack power.","Attack +3","Attack +5","Attack +7","Attack +2%
+"ID","Category","Name","Index","Icon ID","Icon","Max Level","Set Count","Release Version","Description","Description 1","Description 2","Description 3","Description 4","Description 5","Description 6","Description 7"
+"00000000","EQUIP","",0,"SKILL_0000",CellImage,0,"","Release","","","","","","","",""
+"00000001","WEAPON","Attack Boost",1,"SKILL_0000",CellImage,5,"","Release","Increases attack power.","Attack +3","Attack +5","Attack +7","Attack +2%
 Bonus: +8","Attack +4%
 Bonus: +9","",""
-"510D3C80","74147E66-B424-4741-A16A-D72A5A5489B3","Resentment",2,"00000001","SKILL_0000",CellImage,"EQUIP",5,"","Increases attack when you have
+"510D3C80","EQUIP","Resentment",2,"SKILL_0000",CellImage,5,"","Release","Increases attack when you have
 recoverable damage (the red
 portion of your Health Gauge).","Attack +5 while active.","Attack +10 while active.","Attack +15 while active.","Attack +20 while active.","Attack +25 while active.","",""
-"4608B500","01F9C095-4B73-4C74-8309-981DC0EF141A","Adrenaline Rush",3,"00000001","SKILL_0000",CellImage,"EQUIP",5,"","Temporarily increases attack power
+"4608B500","EQUIP","Adrenaline Rush",3,"SKILL_0000",CellImage,5,"","Release","Temporarily increases attack power
 after executing a perfectly-timed
 evade just as a monster attacks.","Attack +10 while active.","Attack +15 while active.","Attack +20 while active.","Attack +25 while active.","Attack +30 while active.","",""
-"F53436B0","B759C7CA-775E-4779-AB53-F94BF2962305","Offensive Guard",4,"00000001","SKILL_0000",CellImage,"WEAPON",3,"","Temporarily increases attack
+"F53436B0","WEAPON","Offensive Guard",4,"SKILL_0000",CellImage,3,"","Release","Temporarily increases attack
 power after executing
 a perfectly-timed guard.","Attack +5% while active.","Attack +10% while active.","Attack +15% while active.","","","",""
-"7D946580","BFBBBF15-A20A-4882-B02E-6554239DA179","Peak Performance",5,"00000001","SKILL_0000",CellImage,"EQUIP",5,"","Increases attack when
+"7D946580","EQUIP","Peak Performance",5,"SKILL_0000",CellImage,5,"","Release","Increases attack when
 your health is full.","Attack +3 while active.","Attack +6 while active.","Attack +10 while active.","Attack +15 while active.","Attack +20 while active.","",""
-"10B7ECE0","CE1A04B4-CA42-416B-8888-01BC0124B0DA","Counterstrike",6,"00000001","SKILL_0000",CellImage,"EQUIP",3,"","Temporarily increases attack power after
+"10B7ECE0","EQUIP","Counterstrike",6,"SKILL_0000",CellImage,3,"","Release","Temporarily increases attack power after
 being knocked back.","Attack +10 while active.","Attack +15 while active.
 Moderately extends effect time.","Attack +25 while active.
 Extends effect time.","","","",""
-"830A1C00","C4DC2439-1D42-4EF4-BCA9-07BE35F4BEBD","Critical Eye",7,"00000002","SKILL_0001",CellImage,"WEAPON",5,"","Increases affinity.","Affinity +4%","Affinity +8%","Affinity +12%","Affinity +16%","Affinity +20%","",""
-"A02B7A00","6E7E9E83-16B1-4BF6-92E9-98EFF98D85AC","Critical Boost",8,"00000002","SKILL_0001",CellImage,"WEAPON",5,"","Increases the damage of
+"830A1C00","WEAPON","Critical Eye",7,"SKILL_0001",CellImage,5,"","Release","Increases affinity.","Affinity +4%","Affinity +8%","Affinity +12%","Affinity +16%","Affinity +20%","",""
+"A02B7A00","WEAPON","Critical Boost",8,"SKILL_0001",CellImage,5,"","Release","Increases the damage of
 critical hits.","Increases damage dealt
 by critical hits to 28%.","Increases damage dealt
 by critical hits to 31%.","Increases damage dealt
 by critical hits to 34%.","Increases damage dealt
 by critical hits to 37%.","Increases damage dealt
 by critical hits to 40%.","",""
-"E84D8E60","0F3D24BB-A992-499E-AFAF-7D807BD1A10B","Weakness Exploit",9,"00000001","SKILL_0000",CellImage,"EQUIP",5,"","Increases the affinity of attacks
+"E84D8E60","EQUIP","Weakness Exploit",9,"SKILL_0000",CellImage,5,"","Release","Increases the affinity of attacks
 that exploit a monster's weak 
 points and wounds.","Attacks that hit weak points gain
 affinity +5%, with an extra 3%
@@ -39,64 +39,64 @@ on wounds.","Attacks that hit weak points have
 extra 15% on wounds.","Attacks that hit weak points have
 30% increased affinity, with an
 extra 20% on wounds.","",""
-"28EBAB40","FD1B7EC9-8EB6-487B-8D2A-0125657065C2","Critical Draw",10,"00000002","SKILL_0001",CellImage,"WEAPON",3,"","Increases affinity when
+"28EBAB40","WEAPON","Critical Draw",10,"SKILL_0001",CellImage,3,"","Release","Increases affinity when
 performing draw attacks.
 (Not effective while riding.)","Affinity +50%","Affinity +75%","Affinity +100%","","","",""
-"25AD8000","CB7C02CC-6749-41D2-9565-DA2B8547A89A","Maximum Might",11,"00000001","SKILL_0000",CellImage,"EQUIP",3,"","Increases affinity if stamina
+"25AD8000","EQUIP","Maximum Might",11,"SKILL_0000",CellImage,3,"","Release","Increases affinity if stamina
 is kept full for a period of time.","Affinity +10% while active","Affinity +20% while active","Affinity +30% while active","","","",""
-"F9550630","B0A19868-8FCE-4E54-B8F7-D62CA1F2F339","",12,"00000001","SKILL_0000",CellImage,"EQUIP",0,"","","","","","","","",""
-"DE786840","E20D5CC0-37F5-4B69-A609-66673E95C474","Fire Attack",13,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases fire element attack
+"F9550630","EQUIP","",12,"SKILL_0000",CellImage,0,"","Release","","","","","","","",""
+"DE786840","WEAPON","Fire Attack",13,"SKILL_0002",CellImage,3,"","Release","Increases fire element attack
 power. (Elemental attack power
 has a maximum limit.)","Fire attack +40","Fire attack +10%
 Bonus: +50","Fire attack +20%
 Bonus: +60","","","",""
-"1E5573E0","34577D11-8471-420A-B792-12583DB79DC5","Water Attack",14,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases water element attack
+"1E5573E0","WEAPON","Water Attack",14,"SKILL_0002",CellImage,3,"","Release","Increases water element attack
 power. (Elemental attack power
 has a maximum limit.)","Water attack +40","Water attack +10%
 Bonus: +50","Water attack +20%
 Bonus: +60","","","",""
-"4B953800","D1EF1826-04AF-4B43-86F9-7CA5DAF56E76","Ice Attack",15,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases ice element attack
+"4B953800","WEAPON","Ice Attack",15,"SKILL_0002",CellImage,3,"","Release","Increases ice element attack
 power. (Elemental attack power
 has a maximum limit.)","Ice attack +40","Ice attack +10%
 Bonus: +50","Ice attack +20%
 Bonus: +60","","","",""
-"568DE880","FBF87AA2-9F92-4F32-9C79-981C7FCA1D2A","Thunder Attack",16,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases thunder element attack
+"568DE880","WEAPON","Thunder Attack",16,"SKILL_0002",CellImage,3,"","Release","Increases thunder element attack
 power. (Elemental attack power
 has a maximum limit.)","Thunder attack +40","Thunder attack +10%
 Bonus: +50","Thunder attack +20%
 Bonus: +60","","","",""
-"D1B0BE00","A700ECAC-A2EE-470B-9C75-F41D60DE99AB","Dragon Attack",17,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases dragon element attack
+"D1B0BE00","WEAPON","Dragon Attack",17,"SKILL_0002",CellImage,3,"","Release","Increases dragon element attack
 power. (Elemental attack power
 has a maximum limit.)","Dragon attack +40","Dragon attack +10%
 Bonus: +50","Dragon attack +20%
 Bonus: +60","","","",""
-"99B2F700","F2E67C2B-1ABB-4076-BEA1-9146239B97F6","Poison Attack",18,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases the rate of poison buildup.
+"99B2F700","WEAPON","Poison Attack",18,"SKILL_0002",CellImage,3,"","Release","Increases the rate of poison buildup.
 (Poison buildup has a maximum limit.)","Poison buildup +5%
 Bonus: +10","Poison buildup +10%
 Bonus: +20","Poison buildup +20%
 Bonus: +50","","","",""
-"90EA2980","BDAD94C6-6250-41AF-B406-61188621B644","Paralysis Attack",19,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases the rate of paralysis buildup.
+"90EA2980","WEAPON","Paralysis Attack",19,"SKILL_0002",CellImage,3,"","Release","Increases the rate of paralysis buildup.
 (Paralysis buildup has a maximum limit.)","Paralysis buildup +5%
 Bonus: +10","Paralysis buildup +10%
 Bonus: +20","Paralysis buildup +20%
 Bonus: +50","","","",""
-"09E5D4A0","DD84DCD6-F268-4B8F-A1E2-0B83EC12A47A","Sleep Attack",20,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases the rate of sleep buildup.
+"09E5D4A0","WEAPON","Sleep Attack",20,"SKILL_0002",CellImage,3,"","Release","Increases the rate of sleep buildup.
 (Sleep buildup has a maximum limit.)","Sleep buildup +5%
 Bonus: +10","Sleep buildup +10%
 Bonus: +20","Sleep buildup +20%
 Bonus: +50","","","",""
-"CDA2A540","897EBEAB-74A0-4B2C-8440-9265FC64A246","Blast Attack",21,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases the rate of blast buildup.
+"CDA2A540","WEAPON","Blast Attack",21,"SKILL_0002",CellImage,3,"","Release","Increases the rate of blast buildup.
 (Blast buildup has a maximum limit.)","Blast buildup +5%
 Bonus: +10","Blast buildup +10%
 Bonus: +20","Blast buildup +20%
 Bonus: +50","","","",""
-"12B121E0","B09B9E70-7243-45C5-86E3-158ED24004E8","Critical Element",22,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases elemental damage
+"12B121E0","WEAPON","Critical Element",22,"SKILL_0002",CellImage,3,"","Release","Increases elemental damage
 (fire, water, thunder, ice, dragon)
 when landing critical hits.","Slightly increases elemental damage
 while active.","Increases elemental damage
 while active.","Greatly increases elemental damage
 while active.","","","",""
-"F5EE7100","6E71D09F-ACC7-4A9E-92CE-17A2ABAF859C","Critical Status",23,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases abnormal status effects
+"F5EE7100","WEAPON","Critical Status",23,"SKILL_0002",CellImage,3,"","Release","Increases abnormal status effects
 (paralysis, poison, sleep, blast)
 when landing critical hits.","Slightly increases abnormal
 status effects when landing
@@ -104,7 +104,7 @@ critical hits.","Increases abnormal status effects
 when landing critical hits.","Greatly increases abnormal
 status effects when landing
 critical hits.","","","",""
-"A8133D80","B5CC19C0-E260-44C2-BCA8-5CD2DCDF6291","Charge Master",24,"00000003","SKILL_0002",CellImage,"WEAPON",3,"","Increases element power and status
+"A8133D80","WEAPON","Charge Master",24,"SKILL_0002",CellImage,3,"","Release","Increases element power and status
 buildup for charged attacks.","Slightly increases elemental
 damage and status buildup
 for charged attacks.","Increases elemental damage
@@ -112,28 +112,28 @@ and status buildup for
 charged attacks.","Greatly increases elemental
 damage and status buildup
 for charged attacks.","","","",""
-"7C2D9900","8600FE2C-24E3-4FF8-B2AC-6F1BD2F1F9E8","Convert Element",25,"00000001","SKILL_0000",CellImage,"EQUIP",3,"","After taking elemental damage,
+"7C2D9900","EQUIP","Convert Element",25,"SKILL_0000",CellImage,3,"","Release","After taking elemental damage,
 temporarily grants you dragon element
 effects. (Cooldown after effect ends.)","While active, deals extra dragon damage
 after dealing enough elemental damage.
 Slightly increases dragon attack.","Increases additional dragon damage
 and increases dragon attack.","Further increases additional dragon
 damage and greatly increases dragon
-attack","","","",""
-"452DF400","18CAA335-68B4-41C7-AF65-F394A6D49F7D","Handicraft",26,"00000004","SKILL_0003",CellImage,"WEAPON",5,"","Extends the weapon sharpness gauge.
+attack.","","","",""
+"452DF400","WEAPON","Handicraft",26,"SKILL_0003",CellImage,5,"","Release","Extends the weapon sharpness gauge.
 However, it will not increase the
 gauge past its maximum.","Weapon sharpness +10","Weapon sharpness +20","Weapon sharpness +30","Weapon sharpness +40","Weapon sharpness +50","",""
-"3E9DAB40","C2D94347-21D6-4F1C-9F42-D26AFAF30369","Razor Sharp",27,"00000004","SKILL_0003",CellImage,"WEAPON",3,"","Prevents your weapon from
+"3E9DAB40","WEAPON","Razor Sharp",27,"SKILL_0003",CellImage,3,"","Release","Prevents your weapon from
 losing sharpness.","Grants a 10% chance of no
 sharpness loss.","Grants a 25% chance of no
 sharpness loss.","Grants a 50% chance of no
 sharpness loss.","","","",""
-"596A2780","C746280C-D6CD-4485-BA56-290152CD5E4D","Protective Polish",28,"00000004","SKILL_0003",CellImage,"WEAPON",3,"","Weapon sharpness does not decrease
+"596A2780","WEAPON","Protective Polish",28,"SKILL_0003",CellImage,3,"","Release","Weapon sharpness does not decrease
 for a set time after sharpening.","Grants no sharpness loss for
 30 seconds after activation.","Grants no sharpness loss for
 60 seconds after activation.","Grants no sharpness loss for
 90 seconds after activation.","","","",""
-"5F0E9B00","70FE8589-27D0-4D1A-8507-6B30D0A30C9F","Mind's Eye",29,"00000004","SKILL_0003",CellImage,"WEAPON",3,"","Your attacks are deflected less and
+"5F0E9B00","WEAPON","Mind's Eye",29,"SKILL_0003",CellImage,3,"","Release","Your attacks are deflected less and
 deal more damage to hard targets.","50% chance of your attacks
 not being deflected, +10%
 damage to hard targets.","100% chance of your attacks
@@ -141,7 +141,7 @@ not being deflected, +15%
 damage to hard targets.","100% chance of your attacks
 not being deflected, +30%
 damage to hard targets.","","","",""
-"17AE6920","5C5AC172-CE87-4CB3-98BB-BACC31787207","Bludgeoner",30,"00000004","SKILL_0003",CellImage,"WEAPON",3,"","Increases attack power when your
+"17AE6920","WEAPON","Bludgeoner",30,"SKILL_0003",CellImage,3,"","Release","Increases attack power when your
 weapon sharpness is low.","+5% attack power when
 your sharpness gauge is
 yellow or lower.","+10% attack power when
@@ -149,25 +149,25 @@ your sharpness gauge is
 yellow or lower.","+10% attack power when
 your sharpness gauge is
 green or lower.","","","",""
-"52D79300","545C9E3E-018E-4656-B72A-69818381A3A3","Master's Touch",31,"00000004","SKILL_0003",CellImage,"WEAPON",1,"","Prevents your weapon from losing
+"52D79300","WEAPON","Master's Touch",31,"SKILL_0003",CellImage,1,"","Release","Prevents your weapon from losing
 sharpness during critical hits.","Grants an 80% chance of no
 sharpness loss while active.","","","","","",""
-"8B18FB00","7D4E6565-6542-4A66-839F-0351A104A287","Normal Shots",32,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Increases the attack power of Normal
+"8B18FB00","WEAPON","Normal Shots",32,"SKILL_0004",CellImage,1,"","Release","Increases the attack power of Normal
 Ammo, normal arrows, and Flying
 Swallow Shot.","Slightly increases the power of
 specified ammo and arrows.","","","","","",""
-"20F5D880","F357F123-2DE2-44D8-A229-44A93DFD54E7","Piercing Shots",33,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Increases the attack of the bowgun's
+"20F5D880","WEAPON","Piercing Shots",33,"SKILL_0004",CellImage,1,"","Release","Increases the attack of the bowgun's
 Pierce Ammo, and the bow's Dragon
 Piercer and Thousand Dragons.","Slightly increases the power of
 specified ammo and arrows.","","","","","",""
-"81666D00","56ED1CE1-2551-410E-A3E9-B7EAA736042A","Spread/Power Shots",34,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Increases the attack of the bowgun's
+"81666D00","WEAPON","Spread/Power Shots",34,"SKILL_0004",CellImage,1,"","Release","Increases the attack of the bowgun's
 Spread Ammo and the bow's Power
 Shots and Quick Shots.","Slightly increases the power of
 specified ammo and arrows.","","","","","",""
-"E6EE04A0","5DF45E13-0A26-415B-BBFA-2BF22C1082A9","Ballistics",35,"00000005","SKILL_0004",CellImage,"WEAPON",3,"","Extends the range in which ammo
+"E6EE04A0","WEAPON","Ballistics",35,"SKILL_0004",CellImage,3,"","Release","Extends the range in which ammo
 and arrows have maximum power.","Slightly extends range.","Extends range.","Greatly extends range.","","","",""
-"A6242880","23670F22-7795-453B-A3EF-5C1ECB8F08E5","Rapid Fire Up",36,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Improves light bowgun rapid fire.","Rapid fire damage +5%","","","","","",""
-"660A4B80","47E18EA9-A3D4-45AF-84BE-9863AE8A9415","Opening Shot",37,"00000005","SKILL_0004",CellImage,"WEAPON",3,"","Increases the bowgun's reload speed
+"A6242880","WEAPON","Rapid Fire Up",36,"SKILL_0004",CellImage,1,"","Release","Improves light bowgun rapid fire.","Rapid fire damage +5%","","","","","",""
+"660A4B80","WEAPON","Opening Shot",37,"SKILL_0004",CellImage,3,"","Release","Increases the bowgun's reload speed
 and increases the power of bullets
 when fully loaded.","Moderately increases bowgun reload
 speed and attack power of ammo
@@ -176,7 +176,7 @@ and attack power of ammo when
 certain conditions are met.","Greatly increases bowgun reload
 speed and attack power of ammo
 when certain conditions are met.","","","",""
-"60268F80","FEF14CF8-7956-4C08-A70F-6969337F98E0","Tetrad Shot",38,"00000005","SKILL_0004",CellImage,"WEAPON",3,"","Increases affinity of bowgun ammo/
+"60268F80","WEAPON","Tetrad Shot",38,"SKILL_0004",CellImage,3,"","Release","Increases affinity of bowgun ammo/
 coatings from the fourth shot and
 attack of the fourth and sixth shots.","Slightly increases the attack
 power and affinity of ammo
@@ -185,17 +185,17 @@ and affinity of ammo after certain
 conditions are met.","Increases the attack power
 and affinity of ammo after
 certain conditions are met.","","","",""
-"F66E0360","C7305869-8E10-4AC8-849F-E5D0DEC10B90","Special Ammo Boost",39,"00000005","SKILL_0004",CellImage,"WEAPON",2,"","Increases the power of the bowgun's
+"F66E0360","WEAPON","Special Ammo Boost",39,"SKILL_0004",CellImage,2,"","Release","Increases the power of the bowgun's
 special ammo, and the bow's Dragon
 Piercer, Thousand Dragons, and Tracer.","Moderately increases the power
 of specified ammo and arrows.","Increases the power of specified
 ammo and arrows.","","","","",""
-"36D14180","66ACA962-5AAF-45C4-94A8-BE97D8EF610A","Poison Functionality",40,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Allows you to apply poison coatings.","Lets you use poison coatings.","","","","","",""
-"D7A64AC0","74DC7B53-6571-4B73-979F-8D26FD35A59C","Para Functionality",41,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Allows you to apply paralysis coatings.","Lets you use paralysis coatings.","","","","","",""
-"0A21F890","590E27C3-596C-45AC-B9B5-2EC4DE357A68","Sleep Functionality",42,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Allows you to apply sleep coatings.","Lets you use sleep coatings.","","","","","",""
-"87727200","8E0D22E4-E35F-47EA-8E9E-E5E27C2200EE","Blast Functionality",43,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Allows you to apply blast coatings.","Lets you use blast coatings.","","","","","",""
-"F52A57C0","DB0EBDA5-ECD5-4864-A05D-B401C900C775","Exhaust Functionality",44,"00000005","SKILL_0004",CellImage,"WEAPON",1,"","Allows you to apply exhaust coatings.","Lets you use exhaust coatings.","","","","","",""
-"403C3180","D8134CFD-C1DE-4869-B073-95C3BC3180BE","Defense Boost",46,"00000006","SKILL_0005",CellImage,"EQUIP",7,"","Increases defense. Also improves
+"36D14180","WEAPON","Poison Functionality",40,"SKILL_0004",CellImage,1,"","Release","Allows you to apply poison coatings.","Lets you use poison coatings.","","","","","",""
+"D7A64AC0","WEAPON","Para Functionality",41,"SKILL_0004",CellImage,1,"","Release","Allows you to apply paralysis coatings.","Lets you use paralysis coatings.","","","","","",""
+"0A21F890","WEAPON","Sleep Functionality",42,"SKILL_0004",CellImage,1,"","Release","Allows you to apply sleep coatings.","Lets you use sleep coatings.","","","","","",""
+"87727200","WEAPON","Blast Functionality",43,"SKILL_0004",CellImage,1,"","Release","Allows you to apply blast coatings.","Lets you use blast coatings.","","","","","",""
+"F52A57C0","WEAPON","Exhaust Functionality",44,"SKILL_0004",CellImage,1,"","Release","Allows you to apply exhaust coatings.","Lets you use exhaust coatings.","","","","","",""
+"403C3180","EQUIP","Defense Boost",46,"SKILL_0005",CellImage,7,"","Release","Increases defense. Also improves
 resistances at higher levels.","Defense +5","Defense +10","Defense +5%
 Bonus: +10","Defense +5%
 Bonus: +20
@@ -206,74 +206,74 @@ Bonus: +35
 All elemental resistances +5","Defense +10%
 Bonus: +35
 All elemental resistances +5"
-"50462980","4EAAA0A4-0ACD-4D90-864D-FB36AE8C7E00","Divine Blessing",47,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Has a predetermined chance of
+"50462980","EQUIP","Divine Blessing",47,"SKILL_0005",CellImage,3,"","Release","Has a predetermined chance of
 reducing the damage you take.","While active, reduces damage
 taken by 15%.","While active, reduces damage
 taken by 30%.","While active, reduces damage
 taken by 50%.","","","",""
-"54FB4F80","C7DC22F1-F65A-48A7-B414-9BE443C84C0B","Fire Resistance",48,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Increases fire resistance.
+"54FB4F80","EQUIP","Fire Resistance",48,"SKILL_0005",CellImage,3,"","Release","Increases fire resistance.
 Also improves defense at
 higher levels.","Fire resistance +6","Fire resistance +12","Fire resistance +20
 Defense +10","","","",""
-"16D5B740","C8BDE16F-847B-4F1E-8142-40AB581F7D32","Water Resistance",49,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Increases water resistance.
+"16D5B740","EQUIP","Water Resistance",49,"SKILL_0005",CellImage,3,"","Release","Increases water resistance.
 Also improves defense at
 higher levels.","Water resistance +6","Water resistance +12","Water resistance +20
 Defense +10","","","",""
-"7FBCA280","F6F58806-4E4B-4AC8-A6AC-076F97BB6AC7","Thunder Resistance",50,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Increases thunder resistance.
+"7FBCA280","EQUIP","Thunder Resistance",50,"SKILL_0005",CellImage,3,"","Release","Increases thunder resistance.
 Also improves defense at
 higher levels.","Thunder resistance +6","Thunder resistance +12","Thunder resistance +20
 Defense +10","","","",""
-"26DF31C0","9C83095C-AC35-4683-B83E-521389B1C5AE","Ice Resistance",51,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Increases ice resistance.
+"26DF31C0","EQUIP","Ice Resistance",51,"SKILL_0005",CellImage,3,"","Release","Increases ice resistance.
 Also improves defense at
 higher levels.","Ice resistance +6","Ice resistance +12","Ice resistance +20
 Defense +10","","","",""
-"81538400","EE0158F3-F494-4F6B-B12F-4DDA25809C26","Dragon Resistance",52,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Increases dragon resistance.
+"81538400","EQUIP","Dragon Resistance",52,"SKILL_0005",CellImage,3,"","Release","Increases dragon resistance.
 Also improves defense at
 higher levels.","Dragon resistance +6","Dragon resistance +12","Dragon resistance +20
 Defense +10","","","",""
-"56FF6980","7F9FB257-E106-40C5-8CD0-6A8FA08348A1","Poison Resistance",53,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Reduces damage while poisoned.","Reduces the number of times
+"56FF6980","EQUIP","Poison Resistance",53,"SKILL_0005",CellImage,3,"","Release","Reduces damage while poisoned.","Reduces the number of times
 you take poison damage.","Greatly reduces the number of
 times you take poison damage.","Prevents poison.","","","",""
-"1F217EC0","9B1C2314-5AFC-4367-BF2E-39F1B028F46B","Paralysis Resistance",54,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Reduces the duration of paralysis.","Reduces the duration
+"1F217EC0","EQUIP","Paralysis Resistance",54,"SKILL_0005",CellImage,3,"","Release","Reduces the duration of paralysis.","Reduces the duration
 of paralysis by 30%.","Reduces the duration
 of paralysis by 60%.","Prevents paralysis.","","","",""
-"F47E9280","B8213A83-3B54-4158-A24C-32A074E49252","Sleep Resistance",55,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Reduces the duration of sleep.","Reduces the duration
+"F47E9280","EQUIP","Sleep Resistance",55,"SKILL_0005",CellImage,3,"","Release","Reduces the duration of sleep.","Reduces the duration
 of sleep by 30%.","Reduces the duration
 of sleep by 60%.","Prevents sleep.","","","",""
-"5ABFCA00","D0B33BDD-E9FE-4B6F-8063-2A6BD7E819C4","Iron Skin",56,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Grants protection against defense down.","Reduces the duration of defense
+"5ABFCA00","EQUIP","Iron Skin",56,"SKILL_0005",CellImage,3,"","Release","Grants protection against defense down.","Reduces the duration of defense
 down by 50%.","Reduces the duration of defense
 down by 75%.","Prevents defense down.","","","",""
-"DE183740","0D29D97E-AF1D-4365-9AFC-0248732FD059","Blight Resistance",57,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Grants protection against all elemental
+"DE183740","EQUIP","Blight Resistance",57,"SKILL_0005",CellImage,3,"","Release","Grants protection against all elemental
 blights.","Reduces the duration of all
 elemental blights by 50%.","Reduces the duration of all
 elemental blights by 75%.","Nullifies all elemental blights.","","","",""
-"2A0A4AC0","03C72F8B-5A17-4934-8E28-D351DC41D6A9","Stun Resistance",58,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Reduces the duration of stun.","Reduces the duration
+"2A0A4AC0","EQUIP","Stun Resistance",58,"SKILL_0005",CellImage,3,"","Release","Reduces the duration of stun.","Reduces the duration
 of stun by 30%.","Reduces the duration
 of stun by 60%.","Prevents stun.","","","",""
-"73AE9380","4FE4D061-5713-4D3E-9905-F166DEDB38BC","Bleeding Resistance",59,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Grants protection against bleeding.","Reduces damage while bleeding.","Greatly reduces damage while
+"73AE9380","EQUIP","Bleeding Resistance",59,"SKILL_0005",CellImage,3,"","Release","Grants protection against bleeding.","Reduces damage while bleeding.","Greatly reduces damage while
 bleeding.","Prevents bleeding.","","","",""
-"75316800","87F44DD7-6E2F-4104-9FCD-1D2FE09FEA8B","Bind Resistance",60,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Grants protection against webbed
+"75316800","EQUIP","Bind Resistance",60,"SKILL_0005",CellImage,3,"","Release","Grants protection against webbed
 status and frostblight.","Allows you to quickly recover from
 webbed status or frostblight.","Allows you to very quickly recover
 from webbed status or frostblight.","Prevents webbed status and frostblight.","","","",""
-"30E61800","30A1466A-17C3-4821-A89F-80EF668CB463","Blast Resistance",61,"00000006","SKILL_0005",CellImage,"EQUIP",3,"","Grants protection against blastblight.","Delays blastblight and reduces
+"30E61800","EQUIP","Blast Resistance",61,"SKILL_0005",CellImage,3,"","Release","Grants protection against blastblight.","Delays blastblight and reduces
 blast damage.","Greatly delays blastblight and
 greatly reduces blast damage.","Prevents blastblight.","","","",""
-"E779E740","83D780B4-BD82-411B-9B49-74E69FCFCC70","Stench Resistance",62,"0000000B","SKILL_0010",CellImage,"EQUIP",2,"","Grants protection against stench.","Reduces stench duration by 50%.","Prevents stench.","","","","",""
-"19517360","C9F5CC88-1664-44CD-B793-3236C65AEE57","Adaptability",63,"00000006","SKILL_0005",CellImage,"EQUIP",2,"","Grants protection against environmental
+"E779E740","EQUIP","Stench Resistance",62,"SKILL_0010",CellImage,2,"","Release","Grants protection against stench.","Reduces stench duration by 50%.","Prevents stench.","","","","",""
+"19517360","EQUIP","Adaptability",63,"SKILL_0005",CellImage,2,"","Release","Grants protection against environmental
 damage, such as from heat or cold.","Negates the effects of heat and cold.","Negates environmental damage.","","","","",""
-"B6595880","DB72C7A0-0850-483D-A1F7-7FCE8C545F84","Recovery Up",64,"00000007","SKILL_0006",CellImage,"EQUIP",3,"","Increases the amount recovered
+"B6595880","EQUIP","Recovery Up",64,"SKILL_0006",CellImage,3,"","Release","Increases the amount recovered
 when restoring health.","Slightly increases recovery.","Moderately increases recovery.","Greatly increases recovery.","","","",""
-"BD27BF80","DA595FA2-F13C-4474-944C-04594F7ACB01","Recovery Speed",65,"00000007","SKILL_0006",CellImage,"EQUIP",3,"","Speeds healing of recoverable
+"BD27BF80","EQUIP","Recovery Speed",65,"SKILL_0006",CellImage,3,"","Release","Speeds healing of recoverable
 damage (the red portion of the
 Health Gauge).","Doubles the speed at which
 you heal recoverable damage.","Triples the speed at which
 you heal recoverable damage.","Quadruples the speed at
 which you heal recoverable
 damage.","","","",""
-"DCA774C0","B7462160-B3D9-4179-9EB2-362035465B35","Survival Expert",66,"00000007","SKILL_0006",CellImage,"EQUIP",3,"","Extra health is recovered from
+"DCA774C0","EQUIP","Survival Expert",66,"SKILL_0006",CellImage,3,"","Release","Extra health is recovered from
 environmental interactables.","Restores 50 health.","Restores 80 health.","Restores 100 health.","","","",""
-"9B4DED80","0771451B-375C-49CE-A96C-5F6CD76FF5EC","Constitution",67,"00000008","SKILL_0007",CellImage,"EQUIP",5,"","Reduces stamina depletion
+"9B4DED80","EQUIP","Constitution",67,"SKILL_0007",CellImage,5,"","Release","Reduces stamina depletion
 when evading, blocking, or
 doing certain other actions.","Reduces fixed stamina
 depletion by 10%.","Reduces fixed stamina
@@ -281,19 +281,19 @@ depletion by 20%.","Reduces fixed stamina
 depletion by 30%.","Reduces fixed stamina
 depletion by 40%.","Reduces fixed stamina
 depletion by 50%.","",""
-"ED31F720","A7C78AEF-A5A6-434A-A1FA-9AAA69CFCBF0","Stamina Surge",68,"00000008","SKILL_0007",CellImage,"EQUIP",3,"","Speeds up stamina recovery.","Stamina recovery speed +10%","Stamina recovery speed +30%","Stamina recovery speed +50%","","","",""
-"D7508FC0","B2C6CC77-6350-4507-B163-19F3C1B03EB0","Marathon Runner",69,"00000008","SKILL_0007",CellImage,"EQUIP",3,"","Slows down stamina depletion
+"ED31F720","EQUIP","Stamina Surge",68,"SKILL_0007",CellImage,3,"","Release","Speeds up stamina recovery.","Stamina recovery speed +10%","Stamina recovery speed +30%","Stamina recovery speed +50%","","","",""
+"D7508FC0","EQUIP","Marathon Runner",69,"SKILL_0007",CellImage,3,"","Release","Slows down stamina depletion
 for actions that continuously
 drain stamina (such as dashing).","Reduces continuous stamina
 depletion by 15%.","Reduces continuous stamina
 depletion by 30%.","Reduces continuous stamina
 depletion by 50%.","","","",""
-"79E68180","8C62EB48-7D85-4FF4-8297-423404F048F8","Hunger Resistance",70,"00000008","SKILL_0007",CellImage,"EQUIP",3,"","Reduces maximum stamina
+"79E68180","EQUIP","Hunger Resistance",70,"SKILL_0007",CellImage,3,"","Release","Reduces maximum stamina
 depletion over time.","Extends the time until your
 stamina cap reduces by 50%.","Extends the time until your
 stamina cap reduces by 100%.","Prevents your stamina cap
 from decreasing.","","","",""
-"6F378580","2B0C533E-ACEC-42BF-AC8B-416202BA7C78","Agitator",71,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Increases attack power and
+"6F378580","EQUIP","Agitator",71,"SKILL_0008",CellImage,5,"","Release","Increases attack power and
 affinity when large monsters
 become enraged.","Attack +4 and affinity +3%
 while active.","Attack +8 and affinity +5%
@@ -301,7 +301,7 @@ while active.","Attack +12 and affinity +7%
 while active.","Attack +16 and affinity +10%
 while active.","Attack +20 and affinity +15%
 while active.","",""
-"69182900","208732A6-8CC3-4F5B-B23E-288196DE98FA","Latent Power",72,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Temporarily increases affinity and
+"69182900","EQUIP","Latent Power",72,"SKILL_0008",CellImage,5,"","Release","Temporarily increases affinity and
 reduces stamina depletion when
 certain conditions are met.","While active, affinity +10%
 and reduces stamina
@@ -314,13 +314,13 @@ and reduces stamina
 depletion by 50%.","While active, affinity +50%
 and reduces stamina
 depletion by 50%.","",""
-"19316180","041FEB15-00A3-4508-9C1E-CFB2261E5E4E","Heroics",73,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Increases attack power and defense
+"19316180","EQUIP","Heroics",73,"SKILL_0008",CellImage,5,"","Release","Increases attack power and defense
 when health drops to 35% or lower.","Defense +50 while active.","Attack +5% and defense +50
 while active.","Attack +5% and defense +100
 while active.","Attack +10% and defense +100
 while active.","Attack +30% and defense-increasing
 effects are negated while active.","",""
-"21BA7280","7EAE837C-A552-4FFD-B5A6-322562D8B09A","Burst",74,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Continuously landing hits gradually
+"21BA7280","EQUIP","Burst",74,"SKILL_0008",CellImage,5,"","Release","Continuously landing hits gradually
 increases attack and elemental attack.
 (Amount increased depends on weapon.)","On first hit, gain a small temporary
 attack and element boost, replaced
@@ -329,7 +329,7 @@ a moderate stat boost.","Hit 5 successive times for
 a bigger stat boost.","Hit 5 successive times for
 an even bigger stat boost.","Hit 5 successive times for
 a huge stat boost.","",""
-"01A66F88","6C6C1560-CECE-4FEA-B101-7D320597FFED","Foray",75,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Increases attack power and affinity
+"01A66F88","EQUIP","Foray",75,"SKILL_0008",CellImage,5,"","Release","Increases attack power and affinity
 against large monsters affected by
 poison or paralysis.","Attack +6 against large monsters
 affected by poison or paralysis.","Attack +8 and affinity +5%
@@ -341,7 +341,7 @@ against large monsters affected
 by poison or paralysis.","Attack +15 and affinity +20%
 against large monsters affected
 by poison or paralysis.","",""
-"CCF58D00","46EB80F7-2BC8-43BD-BA0A-5A44298C7348","Flayer",76,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Makes it easier to inflict wounds. Upon
+"CCF58D00","EQUIP","Flayer",76,"SKILL_0008",CellImage,5,"","Release","Makes it easier to inflict wounds. Upon
 inflicting enough damage, also deals
 additional non-elemental damage.","Makes it ever so slightly easier
 to inflict wounds. Also deals
@@ -354,25 +354,25 @@ wounds. Also deals more additional
 non-elemental damage.","Makes it significantly easier to
 inflict wounds. Also deals much more
 additional non-elemental damage.","",""
-"73551280","03B74B26-FD8D-4D0A-B89D-253A37618586","Palico Rally",77,"00000009","SKILL_0008",CellImage,"EQUIP",5,"","Powers up Palicoes.","Increases Palico attack power
+"73551280","EQUIP","Palico Rally",77,"SKILL_0008",CellImage,5,"","Release","Powers up Palicoes.","Increases Palico attack power
 and defense by 5%.","Increases Palico attack power
 and defense by 10%.","Increases Palico attack power
 and defense by 15%.","Increases Palico attack power
 and defense by 20%.","Increases Palico attack power
 and defense by 25%.","",""
-"EF1CAA60","1FCAFEF2-3770-495A-87FD-AD1AB3157063","Focus",78,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Increases the fill rate for weapons
+"EF1CAA60","WEAPON","Focus",78,"SKILL_0008",CellImage,3,"","Release","Increases the fill rate for weapons
 with gauges and the charge rate
 for weapons with charge attacks.","Slightly increases gauge fill rate and
 reduces charge times by 5%.","Moderately increases gauge fill rate
 and reduces charge times by 10%.","Increases gauge fill rate and
 reduces charge times by 15%.","","","",""
-"2932DD00","57D02F51-622A-49A7-9291-3FD1A328F462","Power Prolonger",79,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Allows long swords, dual blades, insect
+"2932DD00","WEAPON","Power Prolonger",79,"SKILL_0008",CellImage,3,"","Release","Allows long swords, dual blades, insect
 glaives, switch axes, and charge blades
 to stay powered up longer.","Moderately boosts the duration
 weapons are powered up.","Boosts the duration weapons
 are powered up.","Greatly boosts the duration
 weapons are powered up.","","","",""
-"8BFD1E80","B60D43B5-EC81-4169-91C0-BFF6D1AD96B0","Punishing Draw",80,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Adds a stun effect to draw attacks
+"8BFD1E80","WEAPON","Punishing Draw",80,"SKILL_0008",CellImage,3,"","Release","Adds a stun effect to draw attacks
 and slightly increases attack power.
 (Not effective while riding.)","Draw attacks deal a small
 amount of stun damage
@@ -381,10 +381,10 @@ amount of stun damage
 and gain attack +5.","Draw attacks deal a large
 amount of stun damage
 and gain attack +7.","","","",""
-"CABFAFC0","D35E461C-6937-4EC8-979A-DB460C7D7E98","Slugger",81,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Makes it easier to stun monsters.","Stun power +20%","Stun power +30%","Stun power +40%","","","",""
-"68D30B80","DAE02065-31BC-48F8-A6BF-6D89C94E4C15","Stamina Thief",82,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Increases certain attacks'
+"CABFAFC0","WEAPON","Slugger",81,"SKILL_0008",CellImage,3,"","Release","Makes it easier to stun monsters.","Stun power +20%","Stun power +30%","Stun power +40%","","","",""
+"68D30B80","WEAPON","Stamina Thief",82,"SKILL_0008",CellImage,3,"","Release","Increases certain attacks'
 ability to exhaust monsters.","Exhaust power +20%","Exhaust power +30%","Exhaust power +40%","","","",""
-"DC6E1A40","63C50549-8CD2-49C3-B086-C77BE60025C6","Artillery",83,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Strengthens explosive attacks like
+"DC6E1A40","WEAPON","Artillery",83,"SKILL_0008",CellImage,3,"","Release","Strengthens explosive attacks like
 shells, Wyvern's Fire, charge blade
 phial attacks, and Sticky Ammo.","Moderately increases each attack
 and Wyvern's Fire firing speed.
@@ -393,11 +393,11 @@ Wyvern's Fire firing speed.
 Shelling fire attack +60.","Greatly increases each attack
 and Wyvern's Fire firing speed.
 Shelling fire attack +90.","","","",""
-"8B1BBD80","E2CF6247-EC5F-4A23-932C-A5FD51FE0555","Rapid Morph",84,"00000009","SKILL_0008",CellImage,"WEAPON",3,"","Increases switch speed and power
+"8B1BBD80","WEAPON","Rapid Morph",84,"SKILL_0008",CellImage,3,"","Release","Increases switch speed and power
 for switch axes and charge blades.","Speed +10%","Speed +20%
 Morph attack damage +10%","Speed +30%
 Morph attack damage +20%","","","",""
-"57AD1280","ACF66734-6FFB-49CA-BBEB-C9701A66A683","Partbreaker",85,"00000009","SKILL_0008",CellImage,"EQUIP",3,"","Makes it easier to break large monster
+"57AD1280","EQUIP","Partbreaker",85,"SKILL_0008",CellImage,3,"","Release","Makes it easier to break large monster
 parts, and increases damage dealt when
 destroying a wound with a Focus Strike.","Increases part damage and
 damage dealt when conditions
@@ -406,7 +406,7 @@ damage dealt when conditions
 are met by 20%.","Increases part damage and
 damage dealt when conditions
 are met by 30%.","","","",""
-"9AA0B780","27F6D051-9254-48A7-84B0-BCD60010BE44","Coalescence",86,"00000009","SKILL_0008",CellImage,"EQUIP",3,"","Temporarily increases elemental attack
+"9AA0B780","EQUIP","Coalescence",86,"SKILL_0008",CellImage,3,"","Release","Temporarily increases elemental attack
 power and status effects after recovering
 from blights or abnormal status.","When active, grants a slight
 increase to elemental damage
@@ -415,10 +415,10 @@ increase to elemental damage
 and status buildup.","When active, grants a large
 increase to elemental damage
 and status buildup.","","","",""
-"F5C29690","79B71BA6-8CD3-4E11-ACA6-D91EA0E2E6B9","Ambush",87,"00000009","SKILL_0008",CellImage,"EQUIP",3,"","Temporarily increases damage
+"F5C29690","EQUIP","Ambush",87,"SKILL_0008",CellImage,3,"","Release","Temporarily increases damage
 to large monsters with a successful
 Sneak Attack.","Attack +5% while active.","Attack +10% while active.","Attack +15% while active.","","","",""
-"9CEE0F00","3A6BA0F4-838A-40B3-ADE0-F7496D5B9B8E","Antivirus",88,"00000009","SKILL_0008",CellImage,"EQUIP",3,"","Once infected, makes it easier
+"9CEE0F00","EQUIP","Antivirus",88,"SKILL_0008",CellImage,3,"","Release","Once infected, makes it easier
 to overcome the Frenzy and
 increases affinity if cured.","Slightly increases recovery rate
 after contracting the Frenzy.
@@ -427,7 +427,7 @@ contracting the Frenzy.
 Affinity +6% if cured.","Greatly increases recovery rate
 after contracting the Frenzy.
 Affinity +15% if cured.","","","",""
-"58C90280","C32CF52E-BA70-492A-BF87-E5BA12E8B85F","Elemental Absorption",89,"00000009","SKILL_0008",CellImage,"EQUIP",3,"","After taking elemental damage,
+"58C90280","EQUIP","Elemental Absorption",89,"SKILL_0008",CellImage,3,"","Release","After taking elemental damage,
 temporarily grants you element
 effects. (Cooldown after effect ends)","While active, slightly increases
 elemental attack, and resistance
@@ -436,101 +436,101 @@ elemental attack, and resistance
 to element taken at activation by 6.","While active, increases elemental
 attack, and resistance to element
 taken at activation by 8.","","","",""
-"B63E3080","DA849E2F-4834-4BA5-9A58-C1B7ACF02C07","Horn Maestro",90,"00000009","SKILL_0008",CellImage,"WEAPON",2,"","Increases the effect duration of
+"B63E3080","WEAPON","Horn Maestro",90,"SKILL_0008",CellImage,2,"","Release","Increases the effect duration of
 hunting horn melodies. (Effect lost
 when you change weapons.)","Extends Melody Effect duration
 and increases the chance of larger
 heals from healing melodies.","Greatly increases the effect
 duration of hunting horn
 melodies.","","","","",""
-"150C1B20","FD11A9C4-AB86-444E-AB4C-788FA13C1240","Charge Up",91,"00000009","SKILL_0008",CellImage,"WEAPON",1,"","Increases your power to induce
+"150C1B20","WEAPON","Charge Up",91,"SKILL_0008",CellImage,1,"","Release","Increases your power to induce
 stun when you hit a monster with
 a hammer's charged attack.","Activates skill effect.","","","","","",""
-"17F9A780","12172842-5CD0-4787-9102-E788957D8859","Airborne",92,"00000009","SKILL_0008",CellImage,"WEAPON",1,"","Increases the damage caused by jumping
+"17F9A780","WEAPON","Airborne",92,"SKILL_0008",CellImage,1,"","Release","Increases the damage caused by jumping
 attacks.","Jumping attack power +10%","","","","","",""
-"61B7DE80","87934F08-23C7-4E1D-9693-5FE1B31E10DC","Self-Improvement",93,"00000009","SKILL_0008",CellImage,"EQUIP",1,"","Attack and defense increase as time
+"61B7DE80","EQUIP","Self-Improvement",93,"SKILL_0008",CellImage,1,"","Release","Attack and defense increase as time
 passes while on a quest. (The maximum
 is reached after 30 minutes.)","Activates skill effect.","","","","","",""
-"9EDDD500","7279CEFC-390A-419B-BB53-A85AE00722B6","Poison Duration Up",94,"00000009","SKILL_0008",CellImage,"WEAPON",1,"","Extends the duration of your poison's
+"9EDDD500","WEAPON","Poison Duration Up",94,"SKILL_0008",CellImage,1,"","Release","Extends the duration of your poison's
 effect on monsters.","Extends the duration of your
 poison's effect by 20%.","","","","","",""
-"EDA9B920","A365E8E4-7D35-4637-81AC-A15E5EFDAE07","Guard",95,"0000000A","SKILL_0009",CellImage,"WEAPON",3,"","Reduces knockbacks and stamina
+"EDA9B920","WEAPON","Guard",95,"SKILL_0009",CellImage,3,"","Release","Reduces knockbacks and stamina
 depletion when guarding.","Slightly decreases the impact
 of attacks and reduces stamina
 depletion by 15%.","Decreases the impact of attacks and
 reduces stamina depletion by 30%.","Greatly decreases the impact of
 attacks and reduces stamina
 depletion by 50%.","","","",""
-"089F5840","789DC47F-B3EB-44FC-A198-831D5C80D76E","Evade Window",96,"0000000A","SKILL_0009",CellImage,"EQUIP",5,"","Extends the invulnerability period
+"089F5840","EQUIP","Evade Window",96,"SKILL_0009",CellImage,5,"","Release","Extends the invulnerability period
 when evading.","Very slightly increases
 invulnerability window.","Slightly increases
 invulnerability window.","Increases invulnerability
 window.","Greatly increases
 invulnerability window.","Massively increases
 invulnerability window.","",""
-"2829B900","F1E8FF0E-284D-4B15-BDD6-71AF27635BB8","Evade Extender",97,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Increases evade distance.","Slightly extends evasion
+"2829B900","EQUIP","Evade Extender",97,"SKILL_0009",CellImage,3,"","Release","Increases evade distance.","Slightly extends evasion
 distance.","Extends evasion distance.","Greatly extends evasion
 distance.","","","",""
-"0B7D15C0","A187BF03-75CB-4AA3-9B20-C851DA2B4698","Earplugs",98,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Grants protection from large monsters'
+"0B7D15C0","EQUIP","Earplugs",98,"SKILL_0009",CellImage,3,"","Release","Grants protection from large monsters'
 roars.","Reduces the effects of weak
 monster roars.","Nullifies weak monster roars and
 reduces the effects of strong
 monster roars.","Nullifies weak and strong
 monster roars.","","","",""
-"9C370B80","91EAE07E-F44A-4208-A64F-CCF1679B57E5","Guard Up",99,"0000000A","SKILL_0009",CellImage,"WEAPON",3,"","Allows you to guard against
+"9C370B80","WEAPON","Guard Up",99,"SKILL_0009",CellImage,3,"","Release","Allows you to guard against
 ordinarily unblockable attacks.","Reduces damage taken by 30%.","Reduces damage taken by 50%.","Reduces damage taken by 80%.","","","",""
-"C0053240","6601D85D-4C17-41BA-B479-87C28BCBAF9A","Quick Sheathe",100,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Speeds up weapon sheathing.","Slightly increases sheathing
+"C0053240","EQUIP","Quick Sheathe",100,"SKILL_0009",CellImage,3,"","Release","Speeds up weapon sheathing.","Slightly increases sheathing
 speed.","Increases sheathing speed.","Greatly increases sheathing
 speed.","","","",""
-"CA9ABE00","84D77ED9-ED18-44C2-83EF-FAFE374F7192","Windproof",101,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Grants protection against wind pressure.","Negates minor wind pressure
+"CA9ABE00","EQUIP","Windproof",101,"SKILL_0009",CellImage,3,"","Release","Grants protection against wind pressure.","Negates minor wind pressure
 and halves the effects of
 major wind pressure.","Negates minor and major wind
 pressure and halves the effects
 of dragon wind pressure.","Negates all kinds of wind pressure.","","","",""
-"DBAB9E00","AE3670A9-826E-44BD-9742-17EFFFD76B07","Tremor Resistance",102,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Grants protection against ground
+"DBAB9E00","EQUIP","Tremor Resistance",102,"SKILL_0009",CellImage,3,"","Release","Grants protection against ground
 tremors.","Nullifies very minor ground tremors
 and halves effects of minor ground
 tremors.","Nullifies up to minor ground tremors
 and greatly reduces the effects of
 major ground tremors.","Nullifies all ground tremors.","","","",""
-"2C44A0C0","E644E558-BBDE-4C7C-A0A7-84BCF9FECE0F","Flinch Free",103,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Prevents knockbacks and other reactions
+"2C44A0C0","EQUIP","Flinch Free",103,"SKILL_0009",CellImage,3,"","Release","Prevents knockbacks and other reactions
 to small damage.","Prevents knockbacks.","Prevents knockbacks. Tripping is
 reduced to a knockback instead.","Prevents knockbacks and
 tripping.","","","",""
-"57C69780","28F1149B-5951-421E-B68C-61D8D40396FC","Intimidator",104,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Reduces the chance small monsters
+"57C69780","EQUIP","Intimidator",104,"SKILL_0009",CellImage,3,"","Release","Reduces the chance small monsters
 will attack after spotting you.
 (Has no effect on certain monsters.)","Discourages monsters from engaging
 you even if you've been spotted.","Highly discourages monsters from
 engaging you even if you've
 been spotted.","Prevents monsters from engaging
 you even if you've been spotted.","","","",""
-"25CB1D80","8D548A51-6616-4593-B44D-DBF272AFB8C6","Speed Eating",105,"0000000A","SKILL_0009",CellImage,"EQUIP",3,"","Increases meat-eating and
+"25CB1D80","EQUIP","Speed Eating",105,"SKILL_0009",CellImage,3,"","Release","Increases meat-eating and
 item-consumption speed.","Moderately increases eating
 speed.","Increases eating speed.","Greatly increases eating
 speed.","","","",""
-"2FD89D00","D2DB0343-C517-4AE8-AAEA-2BAC82D3D348","Load Shells",106,"0000000A","SKILL_0009",CellImage,"WEAPON",2,"","Improves reloading, and increases
+"2FD89D00","WEAPON","Load Shells",106,"SKILL_0009",CellImage,2,"","Release","Improves reloading, and increases
 the gunlance's shell capacity and
 charge blade's phial capacity.","Increases shell and phial
 reloading speed.","Increases shell/phial reloading speed.
 Gunlance loading capacity +1. Charge
 blade charges 5 phials on yellow gauge.","","","","",""
-"F3FE2E80","473FAC79-CA00-4AF4-AB9B-D3B9F1A88369","Aquatic/Oilsilt Mobility",107,"0000000A","SKILL_0009",CellImage,"EQUIP",2,"","Grants resistance against
+"F3FE2E80","EQUIP","Aquatic/Oilsilt Mobility",107,"SKILL_0009",CellImage,2,"","Release","Grants resistance against
 impairments to mobility while
 in water, oilsilt, or streams.","Negates the effects of muddy streams,
 and prevents you from being slowed
 down in water or oilsilt.","Also negates the effects of waves.","","","","",""
-"DA4DB900","F7F6F575-965D-4B82-ACAE-32D4C255D989","Shock Absorber",108,"0000000A","SKILL_0009",CellImage,"EQUIP",1,"","Disables damage reactions when you
+"DA4DB900","EQUIP","Shock Absorber",108,"SKILL_0009",CellImage,1,"","Release","Disables damage reactions when you
 hit a friend or when a friend hits you.","Activates skill effect.","","","","","",""
-"B23EB800","6EA94DA7-F747-48CB-9D8C-F36BF714F00D","Leap of Faith",109,"0000000A","SKILL_0009",CellImage,"EQUIP",1,"","Allows you to do a dive-evade when
+"B23EB800","EQUIP","Leap of Faith",109,"SKILL_0009",CellImage,1,"","Release","Allows you to do a dive-evade when
 facing towards large monsters and
 extends the dive-evade distance.","Enables skill use.","","","","","",""
-"04A95D28","C87AFCB7-35DD-4AF7-8F10-7F0CAD68929E","Jump Master",110,"0000000A","SKILL_0009",CellImage,"EQUIP",1,"","Prevents attacks from knocking
+"04A95D28","EQUIP","Jump Master",110,"SKILL_0009",CellImage,1,"","Release","Prevents attacks from knocking
 you back during a jump.","Negates knockback during
 jumps.","","","","","",""
-"D6B73580","B54C147B-BEED-49BC-8B81-72EF9DF8D763","Cliffhanger",111,"0000000A","SKILL_0009",CellImage,"EQUIP",1,"","Decreases stamina depletion
+"D6B73580","EQUIP","Cliffhanger",111,"SKILL_0009",CellImage,1,"","Release","Decreases stamina depletion
 when climbing on vines.","Reduces stamina depletion while
 climbing by 50%.","","","","","",""
-"355173C0","5763720C-2C4E-4E5A-83AA-27C43950FEB2","Wide-Range",112,"0000000B","SKILL_0010",CellImage,"EQUIP",5,"","Allows the effects of certain
+"355173C0","EQUIP","Wide-Range",112,"SKILL_0010",CellImage,5,"","Release","Allows the effects of certain
 items to also affect nearby allies.","Items affect nearby allies
 with 33% of their efficacy.","Items affect nearby allies
 in a wider radius with 33%
@@ -541,30 +541,30 @@ in a much wider radius with
 66% of their efficacy.","Items affect nearby allies
 in a much wider radius with
 full efficacy.","",""
-"1BFC9E00","5555B80E-3726-421C-9E6E-963ABD71DA03","Tool Specialist",113,"0000000B","SKILL_0010",CellImage,"EQUIP",5,"","Reduces the recharge time for
+"1BFC9E00","EQUIP","Tool Specialist",113,"SKILL_0010",CellImage,5,"","Release","Reduces the recharge time for
 specialized tools.","Shortens recharge time by 10%.","Shortens recharge time by 20%.","Shortens recharge time by 30%.","Shortens recharge time by 40%.","Shortens recharge time by 50%.","",""
-"CCE2EBC0","98251BB2-63BA-44C8-A628-BC347EAE5FE9","Bombardier",114,"0000000B","SKILL_0010",CellImage,"EQUIP",3,"","Increases the damage
+"CCE2EBC0","EQUIP","Bombardier",114,"SKILL_0010",CellImage,3,"","Release","Increases the damage
 of explosive items.","Explosive power +10%","Explosive power +20%","Explosive power +30%","","","",""
-"E34E1EE0","6310CD72-AA9C-4D64-B565-31B92B8919E4","Mushroomancer",115,"0000000B","SKILL_0010",CellImage,"EQUIP",3,"","Lets you digest mushrooms that
+"E34E1EE0","EQUIP","Mushroomancer",115,"SKILL_0010",CellImage,3,"","Release","Lets you digest mushrooms that
 would otherwise be inedible and
 gain their advantageous effects.","Lets you digest blue mushrooms
 and toadstools.","Additionally lets you digest
 nitroshrooms and parashrooms.","Additionally lets you digest
 mandragoras, devil's blight,
 and exciteshrooms.","","","",""
-"9B96D580","9060573F-C468-4BD5-AC67-29304B94BE50","Item Prolonger",116,"0000000B","SKILL_0010",CellImage,"EQUIP",3,"","Extends the duration
+"9B96D580","EQUIP","Item Prolonger",116,"SKILL_0010",CellImage,3,"","Release","Extends the duration
 of some item effects.","Item effect duration +10%","Item effect duration +25%","Item effect duration +50%","","","",""
-"32B386C0","DE86EDC2-7B7E-48E8-861F-71996CAB406E","Free Meal",117,"0000000B","SKILL_0010",CellImage,"EQUIP",3,"","Gives you a predetermined
+"32B386C0","EQUIP","Free Meal",117,"SKILL_0010",CellImage,3,"","Release","Gives you a predetermined
 chance of consuming a food
 or drink item for free.","Activates 10% of the time.","Activates 25% of the time.","Activates 45% of the time.","","","",""
-"561FF780","974114D9-BAF0-4E3B-82C5-05F333849E46","Speed Sharpening",118,"0000000B","SKILL_0010",CellImage,"WEAPON",2,"","Speeds up weapon sharpening
+"561FF780","WEAPON","Speed Sharpening",118,"SKILL_0010",CellImage,2,"","Release","Speeds up weapon sharpening
 when using a whetstone.","Removes one cycle from
 the sharpening process.","Removes two cycles from
 the sharpening process.","","","","",""
-"F0A3E800","01D56A7F-99A5-4231-A087-4266FFF5E8D3","Blindsider",120,"0000000B","SKILL_0010",CellImage,"EQUIP",1,"","Improves the effectiveness of flash
+"F0A3E800","EQUIP","Blindsider",120,"SKILL_0010",CellImage,1,"","Release","Improves the effectiveness of flash
 attacks and items.","Improves the effectiveness of
 flash attacks and items.","","","","","",""
-"334A7580","B8AE922E-1467-482E-937E-90493D1C041B","Botanist",121,"0000000C","SKILL_0011",CellImage,"EQUIP",4,"","Increases the quantity of herbs and
+"334A7580","EQUIP","Botanist",121,"SKILL_0011",CellImage,4,"","Release","Increases the quantity of herbs and
 other consumable items you gather.","One extra consumable herb
 item per gather.","Additionally adds one extra
 consumable fruit, nut, or seed
@@ -573,181 +573,219 @@ consumable insect item per
 gather.","Additionally adds one extra
 consumable mushroom item
 per gather.","","",""
-"238443C0","F0365FC2-3852-41F2-968E-BFD96B8CACD6","Geologist",122,"0000000C","SKILL_0011",CellImage,"EQUIP",3,"","Increases the number of items you gain
+"238443C0","EQUIP","Geologist",122,"SKILL_0011",CellImage,3,"","Release","Increases the number of items you gain
 at gathering points.","One extra item when gathering
 from bonepiles.","Additionally adds one extra item
 when gathering special items.","Additionally adds one extra item
 when gathering from mining
 outcrops.","","","",""
-"358ABBC0","90633ECD-92F7-4CD6-B3BA-D31035A7C200","Entomologist",123,"0000000C","SKILL_0011",CellImage,"EQUIP",1,"","The bodies of small insect monsters
+"358ABBC0","EQUIP","Entomologist",123,"SKILL_0011",CellImage,1,"","Release","The bodies of small insect monsters
 won't be destroyed, allowing them
 to be carved.","Activates skill effect.","","","","","",""
-"6E053180","C6DF9359-6489-4199-BB9D-A2FFD7215520","Outdoorsman",124,"0000000C","SKILL_0011",CellImage,"EQUIP",1,"","Improves fishing, grilling,
+"6E053180","EQUIP","Outdoorsman",124,"SKILL_0011",CellImage,1,"","Release","Improves fishing, grilling,
 and transporting abilities.","Improves fishing, grilling,
 and transporting abilities.","","","","","",""
-"EF015C80","2F46CEE5-6DEB-4A4B-9326-E6DDBB7939AA","",125,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"B843EC80","CD856196-0A49-4571-8D17-9FF61775EB85","",126,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"1B4B3140","CD29AA38-4B7B-4598-8A78-595D21E2972C","",127,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"A1F6AF80","002C245C-D404-423A-BD41-4B2D9F7588A6","",128,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"12707960","D35F6734-671C-4BDE-A249-B6A29F55C799","",129,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"5AC2DE00","420F98E7-23B4-423D-98FA-67837F4CBB47","",130,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"BDCA7200","EEB6D3AF-3F47-49E8-8F28-243AD385AEAB","",131,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"70AFF700","8C1C5DCB-0A45-4591-B517-E7106C1FC166","",132,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"D1D67900","EFB3E3BB-3EA6-4A57-89AF-87CC8C037E7E","",133,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"A4276C00","CC07C016-3E8C-4D75-8A82-D65E52979F65","",134,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"44954A00","5DA3E8C5-77CD-4776-B034-846CCDB3D59B","",135,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"B8B32480","F6F6F977-73E4-468C-AC97-26218ABEB90F","",136,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"8BBF0D80","0C35AADB-BDC0-4573-8F56-1A53DBCABE05","",137,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"19516F00","8A2422F0-128B-4F22-9AC8-37AE7CB047CC","",138,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"992FFF00","19503DC3-77C2-417A-B179-7AF371F48311","",139,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"26FD95C0","D08D3DE5-0EEA-4EB9-A0D3-A0CCF731ADC5","",140,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"1C219D20","22492348-CBA2-426C-9546-16CE739A71FA","",141,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"5E516380","3615E45B-9AFA-448E-A3EB-9FD8E8C5C450","",142,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"1E1228C0","5195CADE-5AA9-4140-872B-28CDF40D1D00","",143,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"CF989400","603E0206-39A8-4B44-AC51-2D8A92BD687E","",144,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"53DBD180","32429396-3516-4DD0-AD87-90EBA362CD67","",145,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"74D94200","B5FB687A-1B25-443B-92D1-F03A0E5AEC02","",146,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"036179AC","47A1D1FE-F0D7-4331-ACC7-31D242322322","",147,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"9A827980","1ECAA532-E3FC-488D-80E8-852DFD3486E2","",148,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"A7DF3480","300CA7F0-DFA5-4B10-8B6A-54C8A152965B","",149,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"AA579C80","55BD9155-1E7E-46F1-A005-C03D879D252C","",150,"00000000","INVALID","#N/A","EQUIP",0,"","","","","","","","",""
-"75586A00","982267EB-9A2A-4219-B22D-3365C6A0444E","Neopteron Alert",156,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases the amount of honey
+"EF015C80","EQUIP","",125,"INVALID","",0,"","Release","","","","","","","",""
+"B843EC80","EQUIP","",126,"INVALID","",0,"","Release","","","","","","","",""
+"1B4B3140","EQUIP","",127,"INVALID","",0,"","Release","","","","","","","",""
+"A1F6AF80","EQUIP","",128,"INVALID","",0,"","Release","","","","","","","",""
+"12707960","EQUIP","",129,"INVALID","",0,"","Release","","","","","","","",""
+"5AC2DE00","EQUIP","",130,"INVALID","",0,"","Release","","","","","","","",""
+"BDCA7200","EQUIP","",131,"INVALID","",0,"","Release","","","","","","","",""
+"70AFF700","EQUIP","",132,"INVALID","",0,"","Release","","","","","","","",""
+"D1D67900","EQUIP","",133,"INVALID","",0,"","Release","","","","","","","",""
+"A4276C00","EQUIP","",134,"INVALID","",0,"","Release","","","","","","","",""
+"44954A00","EQUIP","",135,"INVALID","",0,"","Release","","","","","","","",""
+"B8B32480","EQUIP","",136,"INVALID","",0,"","Release","","","","","","","",""
+"8BBF0D80","EQUIP","",137,"INVALID","",0,"","Release","","","","","","","",""
+"19516F00","EQUIP","",138,"INVALID","",0,"","Release","","","","","","","",""
+"992FFF00","EQUIP","",139,"INVALID","",0,"","Release","","","","","","","",""
+"26FD95C0","EQUIP","",140,"INVALID","",0,"","Release","","","","","","","",""
+"1C219D20","EQUIP","",141,"INVALID","",0,"","Release","","","","","","","",""
+"5E516380","EQUIP","",142,"INVALID","",0,"","Release","","","","","","","",""
+"1E1228C0","EQUIP","",143,"INVALID","",0,"","Release","","","","","","","",""
+"CF989400","EQUIP","",144,"INVALID","",0,"","Release","","","","","","","",""
+"53DBD180","EQUIP","",145,"INVALID","",0,"","Release","","","","","","","",""
+"74D94200","EQUIP","",146,"INVALID","",0,"","Release","","","","","","","",""
+"036179AC","EQUIP","",147,"INVALID","",0,"","Release","","","","","","","",""
+"9A827980","EQUIP","",148,"INVALID","",0,"","Release","","","","","","","",""
+"A7DF3480","EQUIP","",149,"INVALID","",0,"","Release","","","","","","","",""
+"AA579C80","EQUIP","",150,"INVALID","",0,"","Release","","","","","","","",""
+"75586A00","GROUP","Neopteron Alert",156,"SKILL_0012",CellImage,"","3","Release","","","","Increases the amount of honey
 you gain from gathering points.","","","",""
-"6479B580","EE74DDEB-277A-4CE0-B5DB-5A7BC291D79F","Neopteron Camouflage",157,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases movement speed while
+"6479B580","GROUP","Neopteron Camouflage",157,"SKILL_0012",CellImage,"","3","Release","","","","Increases movement speed while
 crouching, and makes it easier to
 escape large monsters' detection.","","","",""
-"58AAF300","24F866B5-08B3-4EF4-A28C-98A784F78BCF","Scaling Prowess",158,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Makes it easier to mount monsters
+"58AAF300","GROUP","Scaling Prowess",158,"SKILL_0012",CellImage,"","3","Release","","","","Makes it easier to mount monsters
 and to wound them once mounted.","","","",""
-"9CC70680","4A894F09-9D3D-464E-8CBD-D7D7DB8563B1","Scale Layering",159,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Temporarily reduces stamina depletion
+"9CC70680","GROUP","Scale Layering",159,"SKILL_0012",CellImage,"","3","Release","","","","Temporarily reduces stamina depletion
 when health is at 40% or lower.","","","",""
-"9DBAE680","EAE57DAE-4154-40EA-9163-85F4EAD8686E","Flexible Leathercraft",160,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases gathering speed, and
+"9DBAE680","GROUP","Flexible Leathercraft",160,"SKILL_0012",CellImage,"","3","Release","","","","Increases gathering speed, and
 prevents knock back when gathering
 or carving.","","","",""
-"1AE8EE00","624747C3-1C2C-44B4-A62E-CA0893C5F0D3","Buttery Leathercraft",161,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases your affinity temporarily
+"1AE8EE00","GROUP","Buttery Leathercraft",161,"SKILL_0012",CellImage,"","3","Release","","","","Increases your affinity temporarily
 when sliding on terrain.","","","",""
-"77181200","3E832755-B901-4C52-BD02-3511CB279EC4","Fortifying Pelt",162,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases attack and defense after
+"77181200","GROUP","Fortifying Pelt",162,"SKILL_0012",CellImage,"","3","Release","","","","Increases attack and defense after
 fainting during a quest. (Can be used
 twice.)","","","",""
-"22C90040","74D45464-E7F5-40B0-ABB1-B748F9FECAAB","Alluring Pelt",163,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases the attention drawn to you
+"22C90040","GROUP","Alluring Pelt",163,"SKILL_0012",CellImage,"","3","Release","","","","Increases the attention drawn to you
 when attacking a monster.","","","",""
-"9686CF00","46BC00C9-5539-414C-84E3-3C73F5691670","Lord's Favor",164,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Temporarily increases attack power
+"9686CF00","GROUP","Lord's Favor",164,"SKILL_0012",CellImage,"","3","Release","","","","Temporarily increases attack power
 when using effects like Melody Effects
 that affect companions in range.","","","",""
-"7DA35380","3E89EFB8-554A-49AD-9249-A68832AEF388","Lord's Fury",165,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases attack when inflicted with
+"7DA35380","GROUP","Lord's Fury",165,"SKILL_0012",CellImage,"","3","Release","","","","Increases attack when inflicted with
 ailments.","","","",""
-"B22A8380","C4A7AE15-750C-4346-A3A4-631FB643CBB0","Guardian's Pulse",166,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases recovery speed of stamina
+"B22A8380","GROUP","Guardian's Pulse",166,"SKILL_0012",CellImage,"","3","Release","","","","Increases recovery speed of stamina
 and red gauge when near Wylkrystals.","","","",""
-"8651EA80","D00F78B6-2F0C-4582-8AB3-09D3C2612CF4","Guardian's Protection",167,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Reduces elemental and unique damage
+"8651EA80","GROUP","Guardian's Protection",167,"SKILL_0012",CellImage,"","3","Release","","","","Reduces elemental and unique damage
 while in the Ruins of Wyveria.","","","",""
-"9E1FDE00","4C831B24-DAA4-44B4-AC1F-9BDC3FFF21F4","Imparted Wisdom",168,"0000000D","SKILL_0012",CellImage,"GROUP","","3","","","","Increases the chance of finding rare
+"9E1FDE00","GROUP","Imparted Wisdom",168,"SKILL_0012",CellImage,"","3","Release","","","","Increases the chance of finding rare
 gathering points.","","","",""
-"FC4A29B0","D8974ADE-FE1D-42A3-BEA7-AA0B122CD47F","Doshaguma's Might",169,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Temporarily grants attack +10
+"FC4A29B0","SERIES","Doshaguma's Might",169,"SKILL_0013",CellImage,"","2,4","Release","","","Temporarily grants attack +10
 after a successful Power Clash
 or Offset attack","","Temporarily grants attack +25
 after a successful Power Clash
 or Offset attack","","",""
-"FFC80F48","937AFE8E-E966-4132-9174-C8C21F155514","Rathalos's Flare",170,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Chance to deal additional fire
+"FFC80F48","SERIES","Rathalos's Flare",170,"SKILL_0013",CellImage,"","2,4","Release","","","Chance to deal additional fire
 damage after landing an attack.","","Increases additional fire damage
 after landing an attack.","","",""
-"A87F1680","37CFAFA9-04FA-4525-BEC1-DA9B46008BED","Xu Wu's Vigor",171,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Temporarily grants attack +15 after
+"A87F1680","SERIES","Xu Wu's Vigor",171,"SKILL_0013",CellImage,"","2,4","Release","","","Temporarily grants attack +15 after
 eating items such as well-done steak.","","Temporarily grants attack +25 after
 eating items such as well-done steak.","","",""
-"E71211A0","71F9AB8E-69E5-4A0A-9304-EEA973E93035","Gravios's Protection",172,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Reduces the damage you take by 5%
+"E71211A0","SERIES","Gravios's Protection",172,"SKILL_0013",CellImage,"","2,4","Release","","","Reduces the damage you take by 5%
 when your health is full.","","Reduces the damage you take by 10%
 when your health is full.","","",""
-"2C2C5280","F53A1113-ECB2-441C-BEBF-B9A6F14894CF","Blangonga's Spirit",173,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Using the <BOLD>To Victory!</BOLD> gesture moderately 
+"2C2C5280","SERIES","Blangonga's Spirit",173,"SKILL_0013",CellImage,"","2,4","Release","","","Using the <BOLD>To Victory!</BOLD> gesture moderately 
 increases attack temporarily to nearby allies.
 Greatly effects Palicoes and Support Hunters.","","Using the <BOLD>To Victory!</BOLD> gesture increases
 attack temporarily to nearby allies. Greatly
 effects Palicoes and Support Hunters.","","",""
-"36BA1640","D9B2F013-4B1D-481B-9625-7158A2CC9412","Ebony Odogaron's Power",174,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Extends the duration of the Burst
+"36BA1640","SERIES","Ebony Odogaron's Power",174,"SKILL_0013",CellImage,"","2,4","Release","","","Extends the duration of the Burst
 skill and grants attack +3 while
 Burst is active.","","Further extends the duration of
 the Burst skill and grants attack +10
 while Burst is active.","","",""
-"96960480","564348BF-62DA-478E-A60E-62531FE7E38D","Fulgur Anjanath's Will",175,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Grants an additional Stamina Gauge.","","Grants an additional long Stamina Gauge.","","",""
-"7D69A480","E9D14A1B-26B7-45E0-9A4A-9DE73391B36E","Uth Duna's Cover",176,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Increases defense temporarily when
+"96960480","SERIES","Fulgur Anjanath's Will",175,"SKILL_0013",CellImage,"","2,4","Release","","","Grants an additional Stamina Gauge.","","Grants an additional long Stamina Gauge.","","",""
+"7D69A480","SERIES","Uth Duna's Cover",176,"SKILL_0013",CellImage,"","2,4","Release","","","Increases defense temporarily when
 using a specialized tool.","","Greatly increases defense and
 resistance temporarily when
 using a specialized tool.","","",""
-"202B46C0","46E7B21A-CE4A-4605-970E-C9CF22C362C8","Rey Dau's Voltage",177,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Moderately extends the activation
+"202B46C0","SERIES","Rey Dau's Voltage",177,"SKILL_0013",CellImage,"","2,4","Release","","","Moderately extends the activation
 time of the Latent Power skill.","","Extends the activation time of the
 Latent Power skill.","","",""
-"760A9180","63438BED-0A9A-429C-83FE-3BF95B885983","Nu Udra's Mutiny",178,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Deals moderate additional damage
+"760A9180","SERIES","Nu Udra's Mutiny",178,"SKILL_0013",CellImage,"","2,4","Release","","","Deals moderate additional damage
 while the Resentment skill is active.","","Deals additional damage while the
 Resentment skill is active.","","",""
-"F322C140","596857F0-0CCD-4210-946D-C2D5E124BAA8","Jin Dahaad's Revolt",179,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Increases attack after recovering
+"F322C140","SERIES","Jin Dahaad's Revolt",179,"SKILL_0013",CellImage,"","2,4","Release","","","Increases attack after recovering
 from webbed status, frostblight,
 being pinned, or a Power Clash.","","Greatly increases attack after recovering
 from webbed status, frostblight, being
 pinned, or a Power Clash.","","",""
-"2B141280","5EB05F2F-467C-4AB0-91DD-92A78A03EB51","Gore Magala's Tyranny",180,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Infects you with Frenzy when against
+"2B141280","SERIES","Gore Magala's Tyranny",180,"SKILL_0013",CellImage,"","2,4","Release","","","Infects you with Frenzy when against
 large monsters.","","Infects you with Frenzy and raises
 attack when against large monsters.
 Attack power increases upon recovery.","","",""
-"C684E200","A354FBA9-5B5E-43FC-8C1D-C84CEFC1973C","Arkveld's Hunger",181,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Regenerates a small amount of your health
+"C684E200","SERIES","Arkveld's Hunger",181,"SKILL_0013",CellImage,"","2,4","Release","","","Regenerates a small amount of your health
 as you continually attack a monster.
 Recovery varies by weapon.","","Regenerates your health as you continually
 attack a monster. Recovery varies by
 weapon.","","",""
-"AA9AD980","FCCC59C2-9F50-4D8B-B427-392D8FA1833C","Guardian Arkveld's Vitality",182,"0000000E","SKILL_0013",CellImage,"SERIES","","2,4","","","Restores a moderate amount of health
+"AA9AD980","SERIES","Guardian Arkveld's Vitality",182,"SKILL_0013",CellImage,"","2,4","Release","","","Restores a moderate amount of health
 when destroying a wound on a large
 monster.","","Restores health when destroying a wound
 on a large monster.","","",""
-"00000000","82A5F785-13EE-4DC0-A262-268EC22CA1F9","-","","00000000","INVALID","#N/A","MEAL","","","-","","","","","","",""
-"00000004","FF5FE751-1FB6-4316-B8DB-77E8F3605078","Defender Meal (Lo)","","00000006","SKILL_0005",CellImage,"MEAL","","","Sometimes decreases damage taken.","","","","","","",""
-"00000005","B35093CD-75B9-4C21-B2D6-063B88DDEC81","Defender Meal (Hi)","","00000006","SKILL_0005",CellImage,"MEAL","","","Often decreases damage taken.","","","","","","",""
-"00000006","A2796444-E41F-4C64-9564-601503259C77","Black Belt Meal (Lo)","","00000008","SKILL_0007",CellImage,"MEAL","","","Reduces stamina depletion
+"E7F9E1C0","SERIES","Mizutsune's Prowess",183,"SKILL_0013",CellImage,"","2,4","TU1","","","Prevents major bubbleblight and
+increases evasion while afflicted
+with minor bubbleblight.","","Prevents major bubbleblight and ups
+evasion while afflicted. Trigger minor
+bubbleblight by evading many times.","","",""
+"A1E8E080","EQUIP","",184,"INVALID","",0,"","TU1","","","","","","","",""
+"CD7B9340","WEAPON","Slicked Blade",185,"SKILL_0001",CellImage,3,"","TU1","Temporarily increases affinity when
+wet or when inflicted with bubbleblight.
+(Wet and bubbleblight effects stack.)","Affinity +3% when wet, and +7%
+while afflicted with bubbleblight.","Affinity +6% when wet, and +14%
+while afflicted with bubbleblight.","Affinity +9% when wet, and +21%
+while afflicted with bubbleblight.","","","",""
+"DEE3D440","SERIES","Zoh Shia's Pulse",186,"SKILL_0013",CellImage,"","2,4","TU1","","","Allows the Health Gauge to continue
+to slowly recover up to the max value,
+even if there is no red portion.","","Allows the Health Gauge to continue
+to recover up to the max value,
+even if there is no red portion.","","",""
+"22580500","WEAPON","Whiteflame Torrent",187,"SKILL_0000",CellImage,1,"","TU1","Chance to deal additional damage
+after landing an attack.","Activates skill effect. (When used
+with Scorcher, does not stack but
+adds extra fire damage.)","","","","","",""
+"587CD480","GROUP","Lord's Soul",188,"SKILL_0012",CellImage,"","3","TU1","","","","Boosts attack and lowers defense
+but lets you survive one lethal hit.
+Afterwards, boosts defense and res.","","","",""
+"9770A580","EQUIP","",189,"INVALID","",0,"","TU1","","","","","","","",""
+"C9AC8080","SERIES","Blossomdance Prayer",190,"SKILL_0013",CellImage,"","2,4","TU1","","","During Blossomdance, adds
+special items to quest rewards.
+(No effect when joining mid-quest.)","","During Blossomdance, adds special
+items to quest rewards, and
+greatly boosts attack and defense.","","",""
+"DFA79100","EQUIP","",191,"INVALID","",0,"","TU1","","","","","","","",""
+"00003675","GROUP","Festival Spirit",202,"SKILL_0012",CellImage,"","3","TU1","","","","Lets you carve one additional time
+from carcasses during quests.
+(No effect when joining mid-quest.)","","","",""
+"0000019E","EQUIP","",203,"INVALID","",0,"","TU1","","","","","","","",""
+"000008BD","GROUP","Glory's Favor",210,"SKILL_0012",CellImage,"","3","TU1","","","","Increases quest target rewards.
+(No effect when joining mid-quest.)","","","",""
+"00006304","EQUIP","",211,"INVALID","",0,"","TU1","","","","","","","",""
+"00000000","MEAL","-","","INVALID","","","","Release","-","","","","","","",""
+"00000004","MEAL","Defender Meal (Lo)","","SKILL_0005",CellImage,"","","Release","Sometimes decreases damage taken.","","","","","","",""
+"00000005","MEAL","Defender Meal (Hi)","","SKILL_0005",CellImage,"","","Release","Often decreases damage taken.","","","","","","",""
+"00000006","MEAL","Black Belt Meal (Lo)","","SKILL_0007",CellImage,"","","Release","Reduces stamina depletion
 when performing stamina-draining
 moves such as evading, etc.","","","","","","",""
-"00000007","D3FA0978-B6A7-4CB3-9619-375D30A9DA0B","Black Belt Meal (Hi)","","00000008","SKILL_0007",CellImage,"MEAL","","","Greatly reduces stamina depletion
+"00000007","MEAL","Black Belt Meal (Hi)","","SKILL_0007",CellImage,"","","Release","Greatly reduces stamina depletion
 when performing stamina-draining
 moves such as evading, etc.","","","","","","",""
-"00000008","C27494A0-05EC-4C3A-ABBA-E9003575CADF","Tumbler Meal (Lo)","","0000000A","SKILL_0009",CellImage,"MEAL","","","Slightly extends the invulnerability
+"00000008","MEAL","Tumbler Meal (Lo)","","SKILL_0009",CellImage,"","","Release","Slightly extends the invulnerability
 period when evading.","","","","","","",""
-"00000009","16BF42CF-93D5-4A55-A488-6172FDC172CB","Tumbler Meal (Hi)","","0000000A","SKILL_0009",CellImage,"MEAL","","","Extends the invulnerability
+"00000009","MEAL","Tumbler Meal (Hi)","","SKILL_0009",CellImage,"","","Release","Extends the invulnerability
 period when evading.","","","","","","",""
-"0000000A","7D1FA740-3EC9-4F65-A27A-E9855558303B","Moxie Meal (Lo)","","0000000A","SKILL_0009",CellImage,"MEAL","","","Prevents fainting one time when
+"0000000A","MEAL","Moxie Meal (Lo)","","SKILL_0009",CellImage,"","","Release","Prevents fainting one time when
 damage taken exceeds your
 remaining health.","","","","","","",""
-"0000000B","FB16AFA8-38D2-45CB-80FD-05CA7C19ABDE","Moxie Meal (Hi)","","0000000A","SKILL_0009",CellImage,"MEAL","","","Prevents fainting one time and
+"0000000B","MEAL","Moxie Meal (Hi)","","SKILL_0009",CellImage,"","","Release","Prevents fainting one time and
 heals you when damage taken
 exceeds your remaining health.","","","","","","",""
-"0000000C","E437D2E6-C778-45F2-B293-E4EF4EF8A6DF","Caprice Meal (Lo)","","00000001","SKILL_0000",CellImage,"MEAL","","","Repeatedly activates a temporary
+"0000000C","MEAL","Caprice Meal (Lo)","","SKILL_0000",CellImage,"","","Release","Repeatedly activates a temporary
 attack boost at random intervals.","","","","","","",""
-"0000000D","E6349D23-A0F8-489A-9678-E065183B7BF4","Caprice Meal (Hi)","","00000001","SKILL_0000",CellImage,"MEAL","","","Repeatedly activates a large
+"0000000D","MEAL","Caprice Meal (Hi)","","SKILL_0000",CellImage,"","","Release","Repeatedly activates a large
 temporary attack boost at
 random intervals.","","","","","","",""
-"0000000E","C19B1A49-7CA3-4C04-976A-753F4329569A","Immunizer Meal","","00000006","SKILL_0005",CellImage,"MEAL","","","Lessens the effects of various
+"0000000E","MEAL","Immunizer Meal","","SKILL_0005",CellImage,"","","Release","Lessens the effects of various
 ailments.","","","","","","",""
-"0000000F","8D3DEBCD-CD51-4063-8A81-02AC0DA68D33","Medic Meal","","00000007","SKILL_0006",CellImage,"MEAL","","","Increases the amount of health
+"0000000F","MEAL","Medic Meal","","SKILL_0006",CellImage,"","","Release","Increases the amount of health
 recovered when healing.","","","","","","",""
-"00000010","31C10995-1E94-4BF5-8770-190F208748BA","Sizzling Meal","","00000006","SKILL_0005",CellImage,"MEAL","","","Negates the effects of hot or
+"00000010","MEAL","Sizzling Meal","","SKILL_0005",CellImage,"","","Release","Negates the effects of hot or
 cold climates and increases
 defense while in such areas.","","","","","","",""
-"00000011","5CC18001-9FBF-45B4-8776-422A870C7D29","Swimmer Meal","","00000001","SKILL_0000",CellImage,"MEAL","","","Increases attack when wet.","","","","","","",""
-"00000012","9CA9223B-57BD-4E73-855F-8C374E998DF2","Specialist Meal","","00000003","SKILL_0002",CellImage,"MEAL","","","Increases the potency of
+"00000011","MEAL","Swimmer Meal","","SKILL_0000",CellImage,"","","Release","Increases attack when wet.","","","","","","",""
+"00000012","MEAL","Specialist Meal","","SKILL_0002",CellImage,"","","Release","Increases the potency of
 abnormal status attacks.","","","","","","",""
-"00000013","25620210-5E0E-49D4-B1D5-627B174E50C1","Gatherer Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","Sometimes increases the number
+"00000013","MEAL","Gatherer Meal","","SKILL_0011",CellImage,"","","Release","Sometimes increases the number
 of resources per gather of bones,
 ore, and other gatherable items.","","","","","","",""
-"00000014","0C417875-CD27-416A-AD44-0EA42AAB25FD","Insurance Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"00000015","48339619-CD2A-462A-8449-9AC01439AD66","Lucky Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","","","","","","","",""
-"00000016","83E3095B-790C-4AEE-B311-0D5D69164CF7","Carver Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","","","","","","","",""
-"00000017","713EDA75-CE84-4035-9ACB-FCEA09B1017C","Capture Pro Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","","","","","","","",""
-"00000018","D8C43861-413A-43B4-8751-AFB75327571C","Exploiter Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","","","","","","","",""
-"00000019","7CEB3306-3C8F-4E67-8972-6A9378279ED2","Rider Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"0000001A","AD0B3697-56DA-45DB-A618-E979902EF583","Riser Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"0000001B","45EC712C-51B0-41DA-BDFE-792CA292DA16","Iron Carver Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"0000001C","455BE337-2729-4ADB-BB53-B17FEB26B4D6","Escape Artist Meal","","00000008","SKILL_0007",CellImage,"MEAL","","","","","","","","","",""
-"0000001D","20644F4F-FF59-4814-AD9F-573694DAFDED","Balanced Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"0000001E","CCB02F84-2654-4E41-B314-276FB9E00E3A","Trainer Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"0000001F","DC42B444-156A-458E-8042-A44DBF5C9EBD","Bulldozer Meal","","00000001","SKILL_0000",CellImage,"MEAL","","","","","","","","","",""
-"00000020","08FF54E4-1E57-4BD4-A3CC-4C12CD9B1512","","","00000004","SKILL_0003",CellImage,"MEAL","","","","","","","","","",""
-"00000021","9BFD6A6A-B407-4867-BF5C-4B48F565F80A","","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"00000022","D4025BEC-1C6D-4DB9-BEDD-FD18C75640C5","Hardy Meal","","00000006","SKILL_0005",CellImage,"MEAL","","","","","","","","","",""
-"00000023","39AF78B0-1211-4F44-AC9B-4407D3138C30","Piping-Hot Meal","","00000009","SKILL_0008",CellImage,"MEAL","","","","","","","","","",""
-"00000024","928CFBD2-EC96-491B-9063-A269B5587E8A","Break-time Meal","","00000001","SKILL_0000",CellImage,"MEAL","","","","","","","","","",""
-"00000025","ED7E8D0A-5983-4683-A4EE-291365F59B24","Fortune Hunter Meal","","0000000C","SKILL_0011",CellImage,"MEAL","","","","","","","","","",""
-"00000026","243C76D2-B941-443F-A94F-FEE57C5FA886","Fisher Meal","","0000000A","SKILL_0009",CellImage,"MEAL","","","","","","","","","",""
-"00000027","2D5FFCE8-22CD-4D71-8005-FE6B91F63049","Top Cat Meal","","00000009","SKILL_0008",CellImage,"MEAL","","","","","","","","","",""
+"00000014","MEAL","Insurance Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"00000015","MEAL","Lucky Meal","","SKILL_0011",CellImage,"","","Release","","","","","","","",""
+"00000016","MEAL","Carver Meal","","SKILL_0011",CellImage,"","","Release","","","","","","","",""
+"00000017","MEAL","Capture Pro Meal","","SKILL_0011",CellImage,"","","Release","","","","","","","",""
+"00000018","MEAL","Exploiter Meal","","SKILL_0011",CellImage,"","","Release","","","","","","","",""
+"00000019","MEAL","Rider Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"0000001A","MEAL","Riser Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"0000001B","MEAL","Iron Carver Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"0000001C","MEAL","Escape Artist Meal","","SKILL_0007",CellImage,"","","Release","","","","","","","",""
+"0000001D","MEAL","Balanced Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"0000001E","MEAL","Trainer Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"0000001F","MEAL","Bulldozer Meal","","SKILL_0000",CellImage,"","","Release","","","","","","","",""
+"00000020","MEAL","","","SKILL_0003",CellImage,"","","Release","","","","","","","",""
+"00000021","MEAL","","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"00000022","MEAL","Hardy Meal","","SKILL_0005",CellImage,"","","Release","","","","","","","",""
+"00000023","MEAL","Piping-Hot Meal","","SKILL_0008",CellImage,"","","Release","","","","","","","",""
+"00000024","MEAL","Break-time Meal","","SKILL_0000",CellImage,"","","Release","","","","","","","",""
+"00000025","MEAL","Fortune Hunter Meal","","SKILL_0011",CellImage,"","","Release","","","","","","","",""
+"00000026","MEAL","Fisher Meal","","SKILL_0009",CellImage,"","","Release","","","","","","","",""
+"00000027","MEAL","Top Cat Meal","","SKILL_0008",CellImage,"","","Release","","","","","","","",""

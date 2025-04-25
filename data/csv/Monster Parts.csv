@@ -1,92 +1,109 @@
-"Index","Fixed ID","EmPartsType","IconType","Icon"
-0,"1D00C6E0","INVALID","",""
-1,"674C2A80","FULL_BODY","ITEM_0040",CellImage
-2,"F35CC1C0","HEAD","ITEM_0048",CellImage
-3,"AD9BD780","UPPER_BODY","ITEM_0040",CellImage
-4,"858F3C00","BODY","ITEM_0040",CellImage
-5,"773B3D00","TAIL","ITEM_0046",CellImage
-6,"70707680","TAIL_TIP","ITEM_0046",CellImage
-7,"A8970500","NECK","ITEM_0048",CellImage
-8,"48203000","TORSO","ITEM_0040",CellImage
-9,"5F936200","STOMACH","ITEM_0040",CellImage
-10,"0113E302","BACK","ITEM_0040",CellImage
-11,"69FA0600","FRONT_LEGS","ITEM_0040",CellImage
-12,"CAD67C00","LEFT_FRONT_LEG","ITEM_0040",CellImage
-13,"72787900","RIGHT_FRONT_LEG","ITEM_0040",CellImage
-14,"55364280","HIND_LEGS","ITEM_0040",CellImage
-15,"1221F280","LEFT_HIND_LEG","ITEM_0040",CellImage
-16,"23410BC0","RIGHT_HIND_LEG","ITEM_0040",CellImage
-17,"2B996300","LEFT_LEG","ITEM_0040",CellImage
-18,"F7885CF0","RIGHT_LEG","ITEM_0040",CellImage
-19,"061A1878","LEFT_LEG_FRONT_AND_REAR","ITEM_0040",CellImage
-20,"FFAAAE9A","RIGHT_LEG_FRONT_AND_REAR","ITEM_0040",CellImage
-21,"F1A78A40","LEFT_WING","ITEM_0047",CellImage
-22,"27A982C0","RIGHT_WING","ITEM_0047",CellImage
-23,"C7E72F00","ASS","ITEM_0040",CellImage
-24,"F27CC280","NAIL","ITEM_0044",CellImage
-25,"685DCC80","LEFT_NAIL","ITEM_0044",CellImage
-26,"03C1EF48","RIGHT_NAIL","ITEM_0044",CellImage
-27,"E09F8040","TONGUE","ITEM_0048",CellImage
-28,"3BA825C0","PETAL","ITEM_0042",CellImage
-29,"EF568760","VEIL","ITEM_0042",CellImage
-30,"270F9880","SAW","ITEM_0044",CellImage
-31,"BC2EEB80","FEATHER","ITEM_0047",CellImage
-32,"1DC77CA0","TENTACLE","ITEM_0040",CellImage
-33,"A2BDCD00","UMBRELLA","ITEM_0040",CellImage
-34,"46352600","LEFT_FRONT_ARM","ITEM_0040",CellImage
-35,"8F95F180","RIGHT_FRONT_ARM","ITEM_0040",CellImage
-36,"A1896000","LEFT_SIDE_ARM","ITEM_0040",CellImage
-37,"44CF1580","RIGHT_SIDE_ARM","ITEM_0040",CellImage
-38,"A04BD380","LEFT_HIND_ARM","ITEM_0040",CellImage
-39,"72BEC380","RIGHT_HIND_ARM","ITEM_0040",CellImage
-40,"1ED93360","Head","ITEM_0048",CellImage
-41,"B1A06080","CHEST","ITEM_0040",CellImage
-42,"1E6003A0","MANTLE","ITEM_0040",CellImage
-43,"2F156040","MANTLE_UNDER","ITEM_0040",CellImage
-44,"B7278E00","POISONOUS_THORN","ITEM_0044",CellImage
-45,"C7AABA40","ANTENNAE","ITEM_0048",CellImage
-46,"B6617180","LEFT_WING_LEGS","ITEM_0040",CellImage
-47,"29D8CD40","RIGHT_WING_LEGS","ITEM_0040",CellImage
-48,"F9F0A1C8","WATERFILM_RIGHT_HEAD","ITEM_0048",CellImage
-49,"672A9D80","WATERFILM_LEFT_HEAD","ITEM_0048",CellImage
-50,"72455480","WATERFILM_RIGHT_BODY","ITEM_0040",CellImage
-51,"D49E90C0","WATERFILM_LEFT_BODY","ITEM_0040",CellImage
-52,"FF10C8F4","WATERFILM_RIGHT_FRONT_LEG","ITEM_0040",CellImage
-53,"E56C58A0","WATERFILM_LEFT_FRONT_LEG","ITEM_0040",CellImage
-54,"ABE8F580","WATERFILM_TAIL","ITEM_0046",CellImage
-55,"66DAC880","WATERFILM_LEFT_TAIL","ITEM_0046",CellImage
-56,"BDD1B780","MOUTH","ITEM_0048",CellImage
-57,"584CB200","TRUNK","ITEM_0040",CellImage
-58,"2DBCCC00","LEFT_WING_BLADE","ITEM_0047",CellImage
-59,"ACFED180","RIGHT_WING_BLADE","ITEM_0047",CellImage
-60,"53282400","FROZEN_CORE_HEAD","ITEM_0048",CellImage
-61,"C996B400","FROZEN_CORE_TAIL","ITEM_0046",CellImage
-62,"343B9B80","FROZEN_CORE_WAIST","ITEM_0040",CellImage
-63,"3F5F5A80","FROZEN_BIGCORE_BEFORE","ITEM_0040",CellImage
-64,"B0D04400","FROZEN_BIGCORE_AFTER","ITEM_0040",CellImage
-65,"D9A89200","NOSE","ITEM_0048",CellImage
-66,"0000198A","HEAD_WEAR","ITEM_0048",CellImage
-67,"00007667","HEAD_HIDE","ITEM_0048",CellImage
-68,"00002954","WING_ARM","ITEM_0040",CellImage
-69,"00005C08","WING_ARM_WEAR","ITEM_0040",CellImage
-70,"0000094F","LEFT_WING_ARM_WEAR","ITEM_0040",CellImage
-71,"00000913","RIGHT_WING_ARM_WEAR","ITEM_0040",CellImage
-72,"0000587A","LEFT_WING_ARM","ITEM_0040",CellImage
-73,"0000782B","RIGHT_WING_ARM","ITEM_0040",CellImage
-74,"00002A4F","LEFT_WING_ARM_HIDE","ITEM_0047",CellImage
-75,"00005468","RIGHT_WING_ARM_HIDE","ITEM_0047",CellImage
-76,"00003C49","CHELICERAE","ITEM_0044",CellImage
-77,"00007876","BOTH_WINGS","ITEM_0040",CellImage
-78,"00006052","BOTH_WINGS_BLADE","ITEM_0040",CellImage
-79,"00003DF3","BOTH_LEG","ITEM_0040",CellImage
-80,"00002FE9","ARM","ITEM_0040",CellImage
-81,"00005A39","LEG","ITEM_0040",CellImage
-82,"00006DED","HIDE","",""
-83,"000028D8","SHARP_CORNERS","ITEM_0044",CellImage
-84,"00005AD8","NEEDLE_HAIR","ITEM_0040",CellImage
-85,"00007A35","PARALYSIS_CORNERS","ITEM_0044",CellImage
-86,"00002019","HEAD_OIL","ITEM_0048",CellImage
-87,"000004AF","UMBRELLA_OIL","ITEM_0040",CellImage
-88,"00004DEA","TORSO_OIL","ITEM_0040",CellImage
-89,"00002823","ARM_OIL","ITEM_0040",CellImage
-90,"00007CD1","WATERFILM_RIGHT_TAIL","ITEM_0046",CellImage
+"Index","Fixed ID","Icon Type","Icon","Name","Rotten Name","Description","Column 13"
+4,"858F3C00","ITEM_0040",CellImage,"Body","","","EnemyPartsTypeName_m2054210560"
+35,"8F95F180","ITEM_0040",CellImage,"Front Right Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_m1885998720"
+38,"A04BD380","ITEM_0040",CellImage,"Rear Left Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_m1605643392"
+36,"A1896000","ITEM_0040",CellImage,"Middle Left Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_m1584832512"
+33,"A2BDCD00","ITEM_0040",CellImage,"Membrane","","","EnemyPartsTypeName_m1564619520"
+7,"A8970500","ITEM_0048",CellImage,"Neck","","","EnemyPartsTypeName_m1466497792"
+54,"ABE8F580","ITEM_0046",CellImage,"Veil: Tail (Middle)","","","EnemyPartsTypeName_m1410796160"
+59,"ACFED180","ITEM_0047",CellImage,"Right Chainblade","","","EnemyPartsTypeName_m1392586368"
+3,"AD9BD780","ITEM_0040",CellImage,"Upper Body","","","EnemyPartsTypeName_m1382295680"
+64,"B0D04400","ITEM_0040",CellImage,"Lg. Iceplate (Exposed)","","","EnemyPartsTypeName_m1328528384"
+41,"B1A06080","ITEM_0040",CellImage,"Chest","","","EnemyPartsTypeName_m1314889600"
+46,"B6617180","ITEM_0040",CellImage,"Left Wingarm","","","EnemyPartsTypeName_m1235127936"
+44,"B7278E00","ITEM_0044",CellImage,"Stinger","","","EnemyPartsTypeName_m1222144512"
+31,"BC2EEB80","ITEM_0047",CellImage,"Echo Feather","","","EnemyPartsTypeName_m1137775744"
+56,"BDD1B780","ITEM_0048",CellImage,"Mouth","","","EnemyPartsTypeName_m1110329472"
+45,"C7AABA40","ITEM_0048",CellImage,"Antenna","","","EnemyPartsTypeName_m945112512"
+23,"C7E72F00","ITEM_0040",CellImage,"Rear","","","EnemyPartsTypeName_m941150464"
+61,"C996B400","ITEM_0046",CellImage,"Tail Iceplate","","","EnemyPartsTypeName_m912870400"
+12,"CAD67C00","ITEM_0040",CellImage,"Left Foreleg","","","EnemyPartsTypeName_m891913216"
+51,"D49E90C0","ITEM_0040",CellImage,"Veil: Torso (Left)","","","EnemyPartsTypeName_m727805760"
+65,"D9A89200","ITEM_0048",CellImage,"Nose","","","EnemyPartsTypeName_m643264000"
+27,"E09F8040","ITEM_0048",CellImage,"Tongue","","","EnemyPartsTypeName_m526417856"
+53,"E56C58A0","ITEM_0040",CellImage,"Veil: Foreleg (Left)","","","EnemyPartsTypeName_m445884256"
+29,"EF568760","ITEM_0042",CellImage,"Veil","","","EnemyPartsTypeName_m279541920"
+21,"F1A78A40","ITEM_0047",CellImage,"Left Wing","","","EnemyPartsTypeName_m240678336"
+24,"F27CC280","ITEM_0044",CellImage,"Claws","","","EnemyPartsTypeName_m226704768"
+2,"F35CC1C0","ITEM_0048",CellImage,"Head","","","EnemyPartsTypeName_m212024896"
+18,"F7885CF0","ITEM_0040",CellImage,"Right Leg","","","EnemyPartsTypeName_m142058256"
+48,"F9F0A1C8","ITEM_0048",CellImage,"Veil: Head (Right)","","","EnemyPartsTypeName_m101670456"
+52,"FF10C8F4","ITEM_0040",CellImage,"Veil: Foreleg (Right)","","","EnemyPartsTypeName_m15677196"
+20,"FFAAAE9A","ITEM_0040",CellImage,"Right Leg (Fore/Hind)","","","EnemyPartsTypeName_m5591398"
+87,"000004AF","ITEM_0040",CellImage,"Membrane (Oilfilm)","","","EnemyPartsTypeName_1199"
+92,"00000711","ITEM_0040",CellImage,"","","",-1
+91,"000007DF","ITEM_0046",CellImage,"Tail Hair","","","EnemyPartsTypeName_2015"
+71,"00000913","ITEM_0040",CellImage,"R Wingarm (Crystalized)","","","EnemyPartsTypeName_2323"
+70,"0000094F","ITEM_0040",CellImage,"L Wingarm (Crystalized)","","","EnemyPartsTypeName_2383"
+95,"000016BF","ITEM_0044",CellImage,"","","",-1
+66,"0000198A","ITEM_0048",CellImage,"Head (Crystalized)","","","EnemyPartsTypeName_6538"
+101,"000019D1","ITEM_0044",CellImage,"","","",-1
+86,"00002019","ITEM_0048",CellImage,"Head (Oilfilm)","","","EnemyPartsTypeName_8217"
+104,"00002036","ITEM_0040",CellImage,"","","",-1
+97,"0000268F","ITEM_0046",CellImage,"","","",-1
+89,"00002823","ITEM_0040",CellImage,"Arm (Oilfilm)","","","EnemyPartsTypeName_10275"
+83,"000028D8","ITEM_0044",CellImage,"Snout Horn","","","EnemyPartsTypeName_10456"
+68,"00002954","ITEM_0040",CellImage,"Wingarm","","","EnemyPartsTypeName_10580"
+74,"00002A4F","ITEM_0047",CellImage,"Left Wingarm","","","EnemyPartsTypeName_10831"
+93,"00002A75","ITEM_0040",CellImage,"","","",-1
+99,"00002B82","ITEM_0044",CellImage,"Horn","","","EnemyPartsTypeName_11138"
+96,"00002EC9","ITEM_0046",CellImage,"","","",-1
+80,"00002FE9","ITEM_0040",CellImage,"Arm","","","EnemyPartsTypeName_12265"
+107,"00003BCE","ITEM_0040",CellImage,"","","",-1
+76,"00003C49","ITEM_0044",CellImage,"Pincer","","","EnemyPartsTypeName_15433"
+79,"00003DF3","ITEM_0040",CellImage,"Legs","","","EnemyPartsTypeName_15859"
+105,"000042C6","ITEM_0048",CellImage,"","","",-1
+88,"00004DEA","ITEM_0040",CellImage,"Torso (Oilfilm)","","","EnemyPartsTypeName_19946"
+94,"00005036","ITEM_0048",CellImage,"","","",-1
+75,"00005468","ITEM_0047",CellImage,"Right Wingarm","","","EnemyPartsTypeName_21608"
+72,"0000587A","ITEM_0040",CellImage,"Left Wingarm","","","EnemyPartsTypeName_22650"
+81,"00005A39","ITEM_0040",CellImage,"Leg","","","EnemyPartsTypeName_23097"
+84,"00005AD8","ITEM_0040",CellImage,"Bristle","","","EnemyPartsTypeName_23256"
+69,"00005C08","ITEM_0040",CellImage,"Wingarm (Crystalized)","","","EnemyPartsTypeName_23560"
+78,"00006052","ITEM_0040",CellImage,"Chainblades","","","EnemyPartsTypeName_24658"
+106,"000060C1","ITEM_0040",CellImage,"","","",-1
+100,"00006459","ITEM_0044",CellImage,"Fang","","","EnemyPartsTypeName_25689"
+98,"00006723","ITEM_0048",CellImage,"","","",-1
+103,"00006C03","ITEM_0040",CellImage,"","","",-1
+82,"00006DED","","","","","","EnemyPartsTypeName_28141"
+102,"00007465","ITEM_0044",CellImage,"","","",-1
+67,"00007667","ITEM_0048",CellImage,"Head","","","EnemyPartsTypeName_30311"
+73,"0000782B","ITEM_0040",CellImage,"Right Wingarm","","","EnemyPartsTypeName_30763"
+77,"00007876","ITEM_0040",CellImage,"Wings","","","EnemyPartsTypeName_30838"
+85,"00007A35","ITEM_0044",CellImage,"Paralytic Horn","","","EnemyPartsTypeName_31285"
+90,"00007CD1","ITEM_0046",CellImage,"Veil: Tail (Right)","","","EnemyPartsTypeName_31953"
+10,"0113E302","ITEM_0040",CellImage,"Back","","","EnemyPartsTypeName_18080514"
+26,"03C1EF48","ITEM_0044",CellImage,"Right Claw","","","EnemyPartsTypeName_63041352"
+19,"061A1878","ITEM_0040",CellImage,"Left Leg (Fore/Hind)","","","EnemyPartsTypeName_102373496"
+15,"1221F280","ITEM_0040",CellImage,"Left Hind Leg","","","EnemyPartsTypeName_304214656"
+0,"1D00C6E0","","","","","","EnemyPartsTypeName_486590176"
+32,"1DC77CA0","ITEM_0040",CellImage,"Tentacle","","","EnemyPartsTypeName_499612832"
+42,"1E6003A0","ITEM_0040",CellImage,"Mantle","","","EnemyPartsTypeName_509608864"
+40,"1ED93360","ITEM_0048",CellImage,"Head","","","EnemyPartsTypeName_517550944"
+16,"23410BC0","ITEM_0040",CellImage,"Right Hind Leg","","","EnemyPartsTypeName_591465408"
+30,"270F9880","ITEM_0044",CellImage,"Sawhorn","","","EnemyPartsTypeName_655333504"
+22,"27A982C0","ITEM_0047",CellImage,"Right Wing","","","EnemyPartsTypeName_665420480"
+47,"29D8CD40","ITEM_0040",CellImage,"Right Wingarm","","","EnemyPartsTypeName_702074176"
+17,"2B996300","ITEM_0040",CellImage,"Left Leg","","","EnemyPartsTypeName_731472640"
+58,"2DBCCC00","ITEM_0047",CellImage,"Left Chainblade","","","EnemyPartsTypeName_767347712"
+43,"2F156040","ITEM_0040",CellImage,"Lower Mantle","","","EnemyPartsTypeName_789930048"
+62,"343B9B80","ITEM_0040",CellImage,"Abdominal Iceplate","","","EnemyPartsTypeName_876321664"
+28,"3BA825C0","ITEM_0042",CellImage,"Petals","","","EnemyPartsTypeName_1000875456"
+63,"3F5F5A80","ITEM_0040",CellImage,"Lg. Iceplate (Hidden)","","","EnemyPartsTypeName_1063213696"
+37,"44CF1580","ITEM_0040",CellImage,"Middle Right Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_1154422144"
+34,"46352600","ITEM_0040",CellImage,"Front Left Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_1177888256"
+8,"48203000","ITEM_0040",CellImage,"Torso","","","EnemyPartsTypeName_1210068992"
+60,"53282400","ITEM_0048",CellImage,"Cranial Iceplate","","","EnemyPartsTypeName_1395139584"
+14,"55364280","ITEM_0040",CellImage,"Hind Leg","","","EnemyPartsTypeName_1429619328"
+57,"584CB200","ITEM_0040",CellImage,"Torso","","","EnemyPartsTypeName_1481421312"
+9,"5F936200","ITEM_0040",CellImage,"Belly","","","EnemyPartsTypeName_1603494400"
+55,"66DAC880","ITEM_0046",CellImage,"Veil: Tail (Left)","","","EnemyPartsTypeName_1725614208"
+49,"672A9D80","ITEM_0048",CellImage,"Veil: Head (Left)","","","EnemyPartsTypeName_1730846080"
+1,"674C2A80","ITEM_0040",CellImage,"Full Body","","","EnemyPartsTypeName_1733044864"
+25,"685DCC80","ITEM_0044",CellImage,"Left Claw","","","EnemyPartsTypeName_1750977664"
+11,"69FA0600","ITEM_0040",CellImage,"Foreleg","","","EnemyPartsTypeName_1777993216"
+6,"70707680","ITEM_0046",CellImage,"Tail Tip","","","EnemyPartsTypeName_1886418560"
+50,"72455480","ITEM_0040",CellImage,"Veil: Torso (Right)","","","EnemyPartsTypeName_1917146240"
+13,"72787900","ITEM_0040",CellImage,"Right Foreleg","","","EnemyPartsTypeName_1920497920"
+39,"72BEC380","ITEM_0040",CellImage,"Rear Right Arm","Rotten Limb","A monster limb. Can be carved for materials.","EnemyPartsTypeName_1925104512"
+5,"773B3D00","ITEM_0046",CellImage,"Tail","Rotten Tail","A monster tail. Can be carved for materials.","EnemyPartsTypeName_2000370944"

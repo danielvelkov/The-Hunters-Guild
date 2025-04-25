@@ -1,851 +1,851 @@
-"Sort ID","Fixed ID","Name","Description","Type","Rarity","Icon Colour","Price","Skill 1","Skill 1 Level","Skill 2","Skill 2 Level"
-101,"07CAB0B8","Attack Jewel [1]","A decoration that grants
-the Attack Boost skill.","Weapon",3,"I_PINK",150,"Attack Boost",1,"",""
-102,"921CFE80","Attack Jewel II [2]","A decoration that grants
-the Attack Boost skill.","Weapon",4,"I_PINK",200,"Attack Boost",2,"",""
-103,"10B396E0","Attack Jewel III [3]","A decoration that grants
-the Attack Boost skill.","Weapon",5,"I_PINK",250,"Attack Boost",3,"",""
-201,"1EFDF480","Furor Jewel [2]","A decoration that grants
-the Resentment skill.","Equipment",4,"I_ROSE",200,"Resentment",1,"",""
-301,"5F473600","Counterattack Jewel [3]","A decoration that grants the
-Adrenaline Rush skill.","Equipment",5,"I_RED",250,"Adrenaline Rush",1,"",""
-401,"A3A00400","Guardian Jewel [1]","A decoration that grants
-the Offensive Guard skill.","Weapon",3,"I_WHITE",150,"Offensive Guard",1,"",""
-402,"D3184E00","Guardian Jewel II [2]","A decoration that grants
-the Offensive Guard skill.","Weapon",4,"I_WHITE",200,"Offensive Guard",2,"",""
-403,"B75EBC80","Guardian Jewel III [3]","A decoration that grants
-the Offensive Guard skill.","Weapon",5,"I_WHITE",250,"Offensive Guard",3,"",""
-410,"00003F41","Guardian/Blaze Jwl [3]","A decoration that grants the
+"Index","ID","Name","Description","Type","Sort ID","Rarity","Colour","Price","Level","Skill 1","Skill 1 Lv","Skill 2","Skill 2 Lv"
+0,"07CAB0B8","Attack Jewel [1]","A decoration that grants
+the Attack Boost skill.","Weapon",101,3,"I_PINK",150,1,"Attack Boost",1,"",0
+1,"921CFE80","Attack Jewel II [2]","A decoration that grants
+the Attack Boost skill.","Weapon",102,4,"I_PINK",200,2,"Attack Boost",2,"",0
+2,"10B396E0","Attack Jewel III [3]","A decoration that grants
+the Attack Boost skill.","Weapon",103,5,"I_PINK",250,3,"Attack Boost",3,"",0
+3,"1EFDF480","Furor Jewel [2]","A decoration that grants
+the Resentment skill.","Equipment",201,4,"I_ROSE",200,2,"Resentment",1,"",0
+4,"5F473600","Counterattack Jewel [3]","A decoration that grants the
+Adrenaline Rush skill.","Equipment",301,5,"I_RED",250,3,"Adrenaline Rush",1,"",0
+5,"A3A00400","Guardian Jewel [1]","A decoration that grants
+the Offensive Guard skill.","Weapon",401,3,"I_WHITE",150,1,"Offensive Guard",1,"",0
+6,"D3184E00","Guardian Jewel II [2]","A decoration that grants
+the Offensive Guard skill.","Weapon",402,4,"I_WHITE",200,2,"Offensive Guard",2,"",0
+7,"B75EBC80","Guardian Jewel III [3]","A decoration that grants
+the Offensive Guard skill.","Weapon",403,5,"I_WHITE",250,3,"Offensive Guard",3,"",0
+8,"00003F41","Guardian/Blaze Jwl [3]","A decoration that grants the
 Offensive Guard and Fire Attack
-skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Fire Attack",1
-415,"00005891","Guardian/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",410,7,"I_WHITE",350,3,"Offensive Guard",3,"Fire Attack",1
+9,"00005891","Guardian/Stream Jwl [3]","A decoration that grants the
 Offensive Guard and Water
-Attack skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Water Attack",1
-420,"00005E93","Guardian/Frost Jwl [3]","A decoration that grants the
+Attack skills.","Weapon",415,7,"I_WHITE",350,3,"Offensive Guard",3,"Water Attack",1
+10,"00005E93","Guardian/Frost Jwl [3]","A decoration that grants the
 Offensive Guard and Ice Attack
-skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Ice Attack",1
-425,"00005C04","Guardian/Bolt Jwl [3]","A decoration that grants the
+skills.","Weapon",425,7,"I_WHITE",350,3,"Offensive Guard",3,"Ice Attack",1
+11,"00005C04","Guardian/Bolt Jwl [3]","A decoration that grants the
 Offensive Guard and Thunder
-Attack skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Thunder Attack",1
-430,"00005350","Guardian/Dragon Jwl [3]","A decoration that grants the
+Attack skills.","Weapon",420,7,"I_WHITE",350,3,"Offensive Guard",3,"Thunder Attack",1
+12,"00005350","Guardian/Dragon Jwl [3]","A decoration that grants the
 Offensive Guard and Dragon
-Attack skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Dragon Attack",1
-435,"E4656E20","Guardian/Handicraft Jwl [3]","A decoration that grants
+Attack skills.","Weapon",430,7,"I_WHITE",350,3,"Offensive Guard",3,"Dragon Attack",1
+13,"E4656E20","Guardian/Handicraft Jwl [3]","A decoration that grants
 the Offensive Guard and
-Handicraft skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Handicraft",1
-440,"A73BE080","Guardian/Ironwall Jwl [3]","A decoration that grants
+Handicraft skills.","Weapon",435,7,"I_WHITE",350,3,"Offensive Guard",3,"Handicraft",1
+14,"A73BE080","Guardian/Ironwall Jwl [3]","A decoration that grants
 the Offensive Guard and
-Guard skills.","Weapon",7,"I_WHITE",350,"Offensive Guard",3,"Guard",1
-501,"0CB4F0B0","Flawless Jewel [2]","A decoration that grants
-the Peak Performance skill.","Equipment",4,"I_RED",200,"Peak Performance",1,"",""
-601,"4DD4E480","Counter Jewel [2]","A decoration that grants the
-Counterstrike skill.","Equipment",4,"I_RED",200,"Counterstrike",1,"",""
-701,"E514EA60","Expert Jewel [1]","A decoration that grants
-the Critical Eye skill.","Weapon",3,"I_PURPLE",150,"Critical Eye",1,"",""
-702,"0ED51F80","Expert Jewel II [2]","A decoration that grants
-the Critical Eye skill.","Weapon",4,"I_PURPLE",200,"Critical Eye",2,"",""
-703,"BF8B9680","Expert Jewel III [3]","A decoration that grants
-the Critical Eye skill.","Weapon",5,"I_PURPLE",250,"Critical Eye",3,"",""
-801,"44974D80","Critical Jewel [1]","A decoration that grants
-the Critical Boost skill.","Weapon",3,"I_PURPLE",150,"Critical Boost",1,"",""
-802,"CD696C80","Critical Jewel II [2]","A decoration that grants
-the Critical Boost skill.","Weapon",4,"I_PURPLE",200,"Critical Boost",2,"",""
-803,"3AC86980","Critical Jewel III [3]","A decoration that grants
-the Critical Boost skill.","Weapon",5,"I_PURPLE",250,"Critical Boost",3,"",""
-901,"2DB845C0","Tenderizer Jewel [3]","A decoration that grants
-the Weakness Exploit skill.","Equipment",5,"I_DPURPLE",250,"Weakness Exploit",1,"",""
-1001,"F1644640","Draw Jewel [1]","A decoration that grants
-the Critical Draw skill.","Weapon",3,"I_PURPLE",150,"Critical Draw",1,"",""
-1002,"5F36DF80","Draw Jewel II [2]","A decoration that grants
-the Critical Draw skill.","Weapon",4,"I_PURPLE",200,"Critical Draw",2,"",""
-1003,"B7411900","Draw Jewel III [3]","A decoration that grants
-the Critical Draw skill.","Weapon",5,"I_PURPLE",250,"Critical Draw",3,"",""
-1101,"A38F9B00","Mighty Jewel [2]","A decoration that grants
-the Maximum Might skill.","Equipment",4,"I_RED",200,"Maximum Might",1,"",""
-1301,"FF3B7E20","Blaze Jewel [1]","A decoration that grants
-the Fire Attack skill.","Weapon",3,"I_RED",150,"Fire Attack",1,"",""
-1302,"FF16C6C5","Blaze Jewel II [2]","A decoration that grants
-the Fire Attack skill.","Weapon",4,"I_RED",200,"Fire Attack",2,"",""
-1303,"34DD3B40","Blaze Jewel III [3]","A decoration that grants
-the Fire Attack skill.","Weapon",5,"I_RED",250,"Fire Attack",3,"",""
-1310,"9C4ADB00","Blaze/Guardian Jewel [3]","A decoration that grants the
+Guard skills.","Weapon",440,7,"I_WHITE",350,3,"Offensive Guard",3,"Guard",1
+15,"0CB4F0B0","Flawless Jewel [2]","A decoration that grants
+the Peak Performance skill.","Equipment",501,4,"I_RED",200,2,"Peak Performance",1,"",0
+16,"4DD4E480","Counter Jewel [2]","A decoration that grants the
+Counterstrike skill.","Equipment",601,4,"I_RED",200,2,"Counterstrike",1,"",0
+17,"E514EA60","Expert Jewel [1]","A decoration that grants
+the Critical Eye skill.","Weapon",701,3,"I_PURPLE",150,1,"Critical Eye",1,"",0
+18,"0ED51F80","Expert Jewel II [2]","A decoration that grants
+the Critical Eye skill.","Weapon",702,4,"I_PURPLE",200,2,"Critical Eye",2,"",0
+19,"BF8B9680","Expert Jewel III [3]","A decoration that grants
+the Critical Eye skill.","Weapon",703,5,"I_PURPLE",250,3,"Critical Eye",3,"",0
+20,"44974D80","Critical Jewel [1]","A decoration that grants
+the Critical Boost skill.","Weapon",801,3,"I_PURPLE",150,1,"Critical Boost",1,"",0
+21,"CD696C80","Critical Jewel II [2]","A decoration that grants
+the Critical Boost skill.","Weapon",802,4,"I_PURPLE",200,2,"Critical Boost",2,"",0
+22,"3AC86980","Critical Jewel III [3]","A decoration that grants
+the Critical Boost skill.","Weapon",803,5,"I_PURPLE",250,3,"Critical Boost",3,"",0
+23,"2DB845C0","Tenderizer Jewel [3]","A decoration that grants
+the Weakness Exploit skill.","Equipment",901,5,"I_DPURPLE",250,3,"Weakness Exploit",1,"",0
+24,"F1644640","Draw Jewel [1]","A decoration that grants
+the Critical Draw skill.","Weapon",1001,3,"I_PURPLE",150,1,"Critical Draw",1,"",0
+25,"5F36DF80","Draw Jewel II [2]","A decoration that grants
+the Critical Draw skill.","Weapon",1002,4,"I_PURPLE",200,2,"Critical Draw",2,"",0
+26,"B7411900","Draw Jewel III [3]","A decoration that grants
+the Critical Draw skill.","Weapon",1003,5,"I_PURPLE",250,3,"Critical Draw",3,"",0
+27,"A38F9B00","Mighty Jewel [2]","A decoration that grants
+the Maximum Might skill.","Equipment",1101,4,"I_RED",200,2,"Maximum Might",1,"",0
+28,"FF3B7E20","Blaze Jewel [1]","A decoration that grants
+the Fire Attack skill.","Weapon",1301,3,"I_RED",150,1,"Fire Attack",1,"",0
+29,"FF16C6C5","Blaze Jewel II [2]","A decoration that grants
+the Fire Attack skill.","Weapon",1302,4,"I_RED",200,2,"Fire Attack",2,"",0
+30,"34DD3B40","Blaze Jewel III [3]","A decoration that grants
+the Fire Attack skill.","Weapon",1303,5,"I_RED",250,3,"Fire Attack",3,"",0
+31,"9C4ADB00","Blaze/Guardian Jewel [3]","A decoration that grants the
 Fire Attack and Offensive Guard
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Offensive Guard",1
-1315,"00004FBC","Blaze/Crit Elem Jwl [3]","A decoration that grants the
+skills.","Weapon",1310,6,"I_RED",300,3,"Fire Attack",3,"Offensive Guard",1
+32,"00004FBC","Blaze/Crit Elem Jwl [3]","A decoration that grants the
 Fire Attack and Critical Element
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Critical Element",1
-1320,"D1A87900","Blaze/Handicraft Jwl [3]","A decoration that grants the
+skills.","Weapon",1315,6,"I_RED",300,3,"Fire Attack",3,"Critical Element",1
+33,"D1A87900","Blaze/Handicraft Jwl [3]","A decoration that grants the
 Fire Attack and Handicraft
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Handicraft",1
-1325,"3D821C80","Blaze/Rzr Sharp Jwl [3]","A decoration that grants the
+skills.","Weapon",1320,6,"I_RED",300,3,"Fire Attack",3,"Handicraft",1
+34,"3D821C80","Blaze/Rzr Sharp Jwl [3]","A decoration that grants the
 Fire Attack and Razor Sharp
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Razor Sharp",1
-1330,"93257980","Blaze/Precise Jewel [3]","A decoration that grants the
+skills.","Weapon",1325,6,"I_RED",300,3,"Fire Attack",3,"Razor Sharp",1
+35,"93257980","Blaze/Precise Jewel [3]","A decoration that grants the
 Fire Attack and Ballistics
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Ballistics",1
-1340,"000012AD","Blaze/Opener Jewel [3]","A decoration that grants the
+skills.","Weapon",1330,6,"I_RED",300,3,"Fire Attack",3,"Ballistics",1
+37,"000012AD","Blaze/Opener Jewel [3]","A decoration that grants the
 Fire Attack and Opening Shot
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Opening Shot",1
-1345,"00006546","Blaze/Bandolier Jwl [3]","A decoration that grants the
+skills.","Weapon",1340,6,"I_RED",300,3,"Fire Attack",3,"Opening Shot",1
+38,"00006546","Blaze/Bandolier Jwl [3]","A decoration that grants the
 Fire Attack and Tetrad Shot
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Tetrad Shot",1
-1350,"D9853EC0","Blaze/Focus Jewel [3]","A decoration that grants the
-Fire Attack and Focus skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Focus",1
-1355,"C81AF240","Blaze/Enhancer Jwl [3]","A decoration that grants the
+skills.","Weapon",1345,6,"I_RED",300,3,"Fire Attack",3,"Tetrad Shot",1
+39,"D9853EC0","Blaze/Focus Jewel [3]","A decoration that grants the
+Fire Attack and Focus skills.","Weapon",1350,6,"I_RED",300,3,"Fire Attack",3,"Focus",1
+40,"C81AF240","Blaze/Enhancer Jwl [3]","A decoration that grants the
 Fire Attack and Power Prolonger
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Power Prolonger",1
-1360,"EE9279C0","Blaze/KO Jewel [3]","A decoration that grants the
-Fire Attack and Slugger skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Slugger",1
-1365,"3669B880","Blaze/Quickswitch Jwl [3]","A decoration that grants the
+skills.","Weapon",1355,6,"I_RED",300,3,"Fire Attack",3,"Power Prolonger",1
+41,"EE9279C0","Blaze/KO Jewel [3]","A decoration that grants the
+Fire Attack and Slugger skills.","Weapon",1360,6,"I_RED",300,3,"Fire Attack",3,"Slugger",1
+42,"3669B880","Blaze/Quickswitch Jwl [3]","A decoration that grants the
 Fire Attack and Rapid Morph
-skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Rapid Morph",1
-1370,"AFCA1D00","Blaze/Ironwall Jwl [3]","A decoration that grants the
-Fire Attack and Guard skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Guard",1
-1375,"FA76AC68","Blaze/Shield Jewel [3]","A decoration that grants the
-Fire Attack and Guard Up skills.","Weapon",6,"I_RED",300,"Fire Attack",3,"Guard Up",1
-1401,"ACE02480","Stream Jewel [1]","A decoration that grants
-the Water Attack skill.","Weapon",3,"I_BLUE",150,"Water Attack",1,"",""
-1402,"B921B600","Stream Jewel II [2]","A decoration that grants
-the Water Attack skill.","Weapon",4,"I_BLUE",200,"Water Attack",2,"",""
-1403,"5B9C7480","Stream Jewel III [3]","A decoration that grants
-the Water Attack skill.","Weapon",5,"I_BLUE",250,"Water Attack",3,"",""
-1410,"00005726","Stream/Guardian Jwl [3]","A decoration that grants the
+skills.","Weapon",1365,6,"I_RED",300,3,"Fire Attack",3,"Rapid Morph",1
+43,"AFCA1D00","Blaze/Ironwall Jwl [3]","A decoration that grants the
+Fire Attack and Guard skills.","Weapon",1370,6,"I_RED",300,3,"Fire Attack",3,"Guard",1
+44,"FA76AC68","Blaze/Shield Jewel [3]","A decoration that grants the
+Fire Attack and Guard Up skills.","Weapon",1375,6,"I_RED",300,3,"Fire Attack",3,"Guard Up",1
+45,"ACE02480","Stream Jewel [1]","A decoration that grants
+the Water Attack skill.","Weapon",1401,3,"I_BLUE",150,1,"Water Attack",1,"",0
+46,"B921B600","Stream Jewel II [2]","A decoration that grants
+the Water Attack skill.","Weapon",1402,4,"I_BLUE",200,2,"Water Attack",2,"",0
+47,"5B9C7480","Stream Jewel III [3]","A decoration that grants
+the Water Attack skill.","Weapon",1403,5,"I_BLUE",250,3,"Water Attack",3,"",0
+48,"00005726","Stream/Guardian Jwl [3]","A decoration that grants the
 Water Attack and Offensive Guard
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Offensive Guard",1
-1415,"0000398B","Stream/Crit Elem Jwl [3]","A decoration that grants the
+skills.","Weapon",1410,6,"I_BLUE",300,3,"Water Attack",3,"Offensive Guard",1
+49,"0000398B","Stream/Crit Elem Jwl [3]","A decoration that grants the
 Water Attack and Critical
-Element skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Critical Element",1
-1420,"367E1880","Stream/Handicraft Jwl [3]","A decoration that grants the
+Element skills.","Weapon",1415,6,"I_BLUE",300,3,"Water Attack",3,"Critical Element",1
+50,"367E1880","Stream/Handicraft Jwl [3]","A decoration that grants the
 Water Attack and Handicraft
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Handicraft",1
-1425,"000031B7","Stream/Rzr Sharp Jwl [3]","A decoration that grants the
+skills.","Weapon",1420,6,"I_BLUE",300,3,"Water Attack",3,"Handicraft",1
+51,"000031B7","Stream/Rzr Sharp Jwl [3]","A decoration that grants the
 Water Attack and Razor Sharp
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Razor Sharp",1
-1430,"6D486980","Stream/Precise Jewel [3]","A decoration that grants the
+skills.","Weapon",1425,6,"I_BLUE",300,3,"Water Attack",3,"Razor Sharp",1
+52,"6D486980","Stream/Precise Jewel [3]","A decoration that grants the
 Water Attack and Ballistics
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Ballistics",1
-1440,"00007FA4","Stream/Opener Jwl [3]","A decoration that grants the
+skills.","Weapon",1430,6,"I_BLUE",300,3,"Water Attack",3,"Ballistics",1
+54,"00007FA4","Stream/Opener Jwl [3]","A decoration that grants the
 Water Attack and Opening Shot
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Opening Shot",1
-1445,"000060C0","Stream/Bandolier Jwl [3]","A decoration that grants the
+skills.","Weapon",1440,6,"I_BLUE",300,3,"Water Attack",3,"Opening Shot",1
+55,"000060C0","Stream/Bandolier Jwl [3]","A decoration that grants the
 Water Attack and Tetrad Shot
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Tetrad Shot",1
-1450,"00007EB1","Stream/Focus Jewel [3]","A decoration that grants the
-Water Attack and Focus skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Focus",1
-1455,"00005620","Stream/Enhancer Jwl [3]","A decoration that grants the
+skills.","Weapon",1445,6,"I_BLUE",300,3,"Water Attack",3,"Tetrad Shot",1
+56,"00007EB1","Stream/Focus Jewel [3]","A decoration that grants the
+Water Attack and Focus skills.","Weapon",1450,6,"I_BLUE",300,3,"Water Attack",3,"Focus",1
+57,"00005620","Stream/Enhancer Jwl [3]","A decoration that grants the
 Water Attack and Power Prolonger
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Power Prolonger",1
-1460,"E1913AC0","Stream/KO Jewel [3]","A decoration that grants the
-Water Attack and Slugger skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Slugger",1
-1465,"0000771A","Stream/Quickswitch Jwl [3]","A decoration that grants the
+skills.","Weapon",1455,6,"I_BLUE",300,3,"Water Attack",3,"Power Prolonger",1
+58,"E1913AC0","Stream/KO Jewel [3]","A decoration that grants the
+Water Attack and Slugger skills.","Weapon",1460,6,"I_BLUE",300,3,"Water Attack",3,"Slugger",1
+59,"0000771A","Stream/Quickswitch Jwl [3]","A decoration that grants the
 Water Attack and Rapid Morph
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Rapid Morph",1
-1470,"2709CF40","Stream/Ironwall Jwl [3]","A decoration that grants the
-Water Attack and Guard skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Guard",1
-1475,"0000344A","Stream/Shield Jewel [3]","A decoration that grants the
+skills.","Weapon",1465,6,"I_BLUE",300,3,"Water Attack",3,"Rapid Morph",1
+60,"2709CF40","Stream/Ironwall Jwl [3]","A decoration that grants the
+Water Attack and Guard skills.","Weapon",1470,6,"I_BLUE",300,3,"Water Attack",3,"Guard",1
+61,"0000344A","Stream/Shield Jewel [3]","A decoration that grants the
 Water Attack and Guard Up
-skills.","Weapon",6,"I_BLUE",300,"Water Attack",3,"Guard Up",1
-1501,"93DC8F80","Frost Jewel [1]","A decoration that grants
-the Ice Attack skill.","Weapon",3,"I_YELLOW",150,"Thunder Attack",1,"",""
-1502,"9B166D80","Frost Jewel II [2]","A decoration that grants
-the Ice Attack skill.","Weapon",4,"I_YELLOW",200,"Thunder Attack",2,"",""
-1503,"A57FC600","Frost Jewel III [3]","A decoration that grants
-the Ice Attack skill.","Weapon",5,"I_YELLOW",250,"Thunder Attack",3,"",""
-1510,"00005583","Frost/Guardian Jwl [3]","A decoration that grants the
+skills.","Weapon",1475,6,"I_BLUE",300,3,"Water Attack",3,"Guard Up",1
+62,"0B1E9030","Frost Jewel [1]","A decoration that grants
+the Ice Attack skill.","Weapon",1601,3,"I_WHITE",150,1,"Ice Attack",1,"",0
+63,"35590DC0","Frost Jewel II [2]","A decoration that grants
+the Ice Attack skill.","Weapon",1602,4,"I_WHITE",200,2,"Ice Attack",2,"",0
+64,"17097F00","Frost Jewel III [3]","A decoration that grants
+the Ice Attack skill.","Weapon",1603,5,"I_WHITE",250,3,"Ice Attack",3,"",0
+65,"00004F52","Frost/Guardian Jwl [3]","A decoration that grants the
 Ice Attack and Offensive Guard
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Offensive Guard",1
-1515,"00004BB7","Frost/Crit Elem Jwl [3]","A decoration that grants the
+skills.","Weapon",1610,6,"I_WHITE",300,3,"Ice Attack",3,"Offensive Guard",1
+66,"00005235","Frost/Crit Elem Jwl [3]","A decoration that grants the
 Ice Attack and Critical Element
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Critical Element",1
-1520,"96874180","Frost/Handicraft Jwl [3]","A decoration that grants the
-Ice Attack and Handicraft skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Handicraft",1
-1525,"000018F9","Frost/Rzr Sharp Jwl [3]","A decoration that grants the
+skills.","Weapon",1615,6,"I_WHITE",300,3,"Ice Attack",3,"Critical Element",1
+67,"59165D00","Frost/Handicraft Jwl [3]","A decoration that grants the
+Ice Attack and Handicraft skills.","Weapon",1620,6,"I_WHITE",300,3,"Ice Attack",3,"Handicraft",1
+68,"00000659","Frost/Rzr Sharp Jwl [3]","A decoration that grants the
 Ice Attack and Razor Sharp
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Razor Sharp",1
-1530,"865CFD80","Frost/Precise Jewel [3]","A decoration that grants the
-Ice Attack and Ballistics skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Ballistics",1
-1540,"0000030F","Frost/Opener Jewel [3]","A decoration that grants the
+skills.","Weapon",1625,6,"I_WHITE",300,3,"Ice Attack",3,"Razor Sharp",1
+69,"3D126400","Frost/Precise Jewel [3]","A decoration that grants the
+Ice Attack and Ballistics skills.","Weapon",1630,6,"I_WHITE",300,3,"Ice Attack",3,"Ballistics",1
+71,"000075D1","Frost/Opener Jewel [3]","A decoration that grants the
 Ice Attack and Opening Shot
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Opening Shot",1
-1545,"00005AC4","Frost/Bandolier Jwl [3]","A decoration that grants the
+skills.","Weapon",1640,6,"I_WHITE",300,3,"Ice Attack",3,"Opening Shot",1
+72,"00001E89","Frost/Bandolier Jwl [3]","A decoration that grants the
 Ice Attack and Tetrad Shot
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Tetrad Shot",1
-1550,"00001435","Frost/Focus Jewel [3]","A decoration that grants the
-Ice Attack and Focus skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Focus",1
-1555,"00007E20","Frost/Enhancer Jwl [3]","A decoration that grants the
+skills.","Weapon",1645,6,"I_WHITE",300,3,"Ice Attack",3,"Tetrad Shot",1
+73,"000034EE","Frost/Focus Jewel [3]","A decoration that grants the
+Ice Attack and Focus skills.","Weapon",1650,6,"I_WHITE",300,3,"Ice Attack",3,"Focus",1
+74,"00004407","Frost/Enhancer Jwl [3]","A decoration that grants the
 Ice Attack and Power Prolonger
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Power Prolonger",1
-1560,"A8A69800","Frost/KO Jewel [3]","A decoration that grants the
-Ice Attack and Slugger skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Slugger",1
-1565,"00002BAF","Frost/Quickswitch Jwl [3]","A decoration that grants the
+skills.","Weapon",1655,6,"I_WHITE",300,3,"Ice Attack",3,"Power Prolonger",1
+75,"52CC3280","Frost/KO Jewel [3]","A decoration that grants the
+Ice Attack and Slugger skills.","Weapon",1660,6,"I_WHITE",300,3,"Ice Attack",3,"Slugger",1
+76,"00005C7D","Frost/Quickswitch Jwl [3]","A decoration that grants the
 Ice Attack and Rapid Morph
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Rapid Morph",1
-1570,"D0E03500","Frost/Ironwall Jwl [3]","A decoration that grants the
-Ice Attack and Guard skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Guard",1
-1575,"000045F9","Frost/Shield Jewel [3]","A decoration that grants the
+skills.","Weapon",1665,6,"I_WHITE",300,3,"Ice Attack",3,"Rapid Morph",1
+77,"5F2C0680","Frost/Ironwall Jwl [3]","A decoration that grants the
+Ice Attack and Guard skills.","Weapon",1670,6,"I_WHITE",300,3,"Ice Attack",3,"Guard",1
+78,"00007C95","Frost/Shield Jewel [3]","A decoration that grants the
 Ice Attack and Guard Up
-skills.","Weapon",6,"I_YELLOW",300,"Thunder Attack",3,"Guard Up",1
-1601,"0B1E9030","Bolt Jewel [1]","A decoration that grants
-the Thunder Attack skill.","Weapon",3,"I_WHITE",150,"Ice Attack",1,"",""
-1602,"35590DC0","Bolt Jewel II [2]","A decoration that grants
-the Thunder Attack skill.","Weapon",4,"I_WHITE",200,"Ice Attack",2,"",""
-1603,"17097F00","Bolt Jewel III [3]","A decoration that grants
-the Thunder Attack skill.","Weapon",5,"I_WHITE",250,"Ice Attack",3,"",""
-1610,"00004F52","Bolt/Guardian Jwl [3]","A decoration that grants the
+skills.","Weapon",1675,6,"I_WHITE",300,3,"Ice Attack",3,"Guard Up",1
+79,"93DC8F80","Bolt Jewel [1]","A decoration that grants
+the Thunder Attack skill.","Weapon",1501,3,"I_YELLOW",150,1,"Thunder Attack",1,"",0
+80,"9B166D80","Bolt Jewel II [2]","A decoration that grants
+the Thunder Attack skill.","Weapon",1502,4,"I_YELLOW",200,2,"Thunder Attack",2,"",0
+81,"A57FC600","Bolt Jewel III [3]","A decoration that grants
+the Thunder Attack skill.","Weapon",1503,5,"I_YELLOW",250,3,"Thunder Attack",3,"",0
+82,"00005583","Bolt/Guardian Jwl [3]","A decoration that grants the
 Thunder Attack and Offensive
-Guard skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Offensive Guard",1
-1615,"00005235","Bolt/Crit Elem Jwl [3]","A decoration that grants the
+Guard skills.","Weapon",1510,6,"I_YELLOW",300,3,"Thunder Attack",3,"Offensive Guard",1
+83,"00004BB7","Bolt/Crit Elem Jwl [3]","A decoration that grants the
 Thunder Attack and Critical
-Element skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Critical Element",1
-1620,"59165D00","Bolt/Handicraft Jwl [3]","A decoration that grants
+Element skills.","Weapon",1515,6,"I_YELLOW",300,3,"Thunder Attack",3,"Critical Element",1
+84,"96874180","Bolt/Handicraft Jwl [3]","A decoration that grants
 the Thunder Attack and
-Handicraft skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Handicraft",1
-1625,"00000659","Bolt/Rzr Sharp Jwl [3]","A decoration that grants the
+Handicraft skills.","Weapon",1520,6,"I_YELLOW",300,3,"Thunder Attack",3,"Handicraft",1
+85,"000018F9","Bolt/Rzr Sharp Jwl [3]","A decoration that grants the
 Thunder Attack and Razor Sharp
-skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Razor Sharp",1
-1630,"3D126400","Bolt/Precise Jewel [3]","A decoration that grants
+skills.","Weapon",1525,6,"I_YELLOW",300,3,"Thunder Attack",3,"Razor Sharp",1
+86,"865CFD80","Bolt/Precise Jewel [3]","A decoration that grants
 the Thunder Attack and
-Ballistics skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Ballistics",1
-1640,"000075D1","Bolt/Opener Jewel [3]","A decoration that grants the
+Ballistics skills.","Weapon",1530,6,"I_YELLOW",300,3,"Thunder Attack",3,"Ballistics",1
+88,"0000030F","Bolt/Opener Jewel [3]","A decoration that grants the
 Thunder Attack and Opening Shot
-skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Opening Shot",1
-1645,"00001E89","Bolt/Bandolier Jwl [3]","A decoration that grants the
+skills.","Weapon",1540,6,"I_YELLOW",300,3,"Thunder Attack",3,"Opening Shot",1
+89,"00005AC4","Bolt/Bandolier Jwl [3]","A decoration that grants the
 Thunder Attack and Tetrad Shot
-skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Tetrad Shot",1
-1650,"000034EE","Bolt/Focus Jewel [3]","A decoration that grants the
-Thunder Attack and Focus skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Focus",1
-1655,"00004407","Bolt/Enhancer Jwl [3]","A decoration that grants the
+skills.","Weapon",1545,6,"I_YELLOW",300,3,"Thunder Attack",3,"Tetrad Shot",1
+90,"00001435","Bolt/Focus Jewel [3]","A decoration that grants the
+Thunder Attack and Focus skills.","Weapon",1550,6,"I_YELLOW",300,3,"Thunder Attack",3,"Focus",1
+91,"00007E20","Bolt/Enhancer Jwl [3]","A decoration that grants the
 Thunder Attack and Power
-Prolonger skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Power Prolonger",1
-1660,"52CC3280","Bolt/KO Jewel [3]","A decoration that grants
+Prolonger skills.","Weapon",1555,6,"I_YELLOW",300,3,"Thunder Attack",3,"Power Prolonger",1
+92,"A8A69800","Bolt/KO Jewel [3]","A decoration that grants
 the Thunder Attack and
-Slugger skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Slugger",1
-1665,"00005C7D","Bolt/Quickswitch Jwl [3]","A decoration that grants the
+Slugger skills.","Weapon",1560,6,"I_YELLOW",300,3,"Thunder Attack",3,"Slugger",1
+93,"00002BAF","Bolt/Quickswitch Jwl [3]","A decoration that grants the
 Thunder Attack and Rapid Morph
-skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Rapid Morph",1
-1670,"5F2C0680","Bolt/Ironwall Jewel [3]","A decoration that grants the
-Thunder Attack and Guard skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Guard",1
-1675,"00007C95","Bolt/Shield Jewel [3]","A decoration that grants the
+skills.","Weapon",1565,6,"I_YELLOW",300,3,"Thunder Attack",3,"Rapid Morph",1
+94,"D0E03500","Bolt/Ironwall Jewel [3]","A decoration that grants the
+Thunder Attack and Guard skills.","Weapon",1570,6,"I_YELLOW",300,3,"Thunder Attack",3,"Guard",1
+95,"000045F9","Bolt/Shield Jewel [3]","A decoration that grants the
 Thunder Attack and Guard Up
-skills.","Weapon",6,"I_WHITE",300,"Ice Attack",3,"Guard Up",1
-1701,"7C7C3980","Dragon Jewel [1]","A decoration that grants
-the Dragon Attack skill.","Weapon",3,"I_ROSE",150,"Dragon Attack",1,"",""
-1702,"F7025C20","Dragon Jewel II [2]","A decoration that grants
-the Dragon Attack skill.","Weapon",4,"I_ROSE",200,"Dragon Attack",2,"",""
-1703,"9A15E900","Dragon Jewel III [3]","A decoration that grants
-the Dragon Attack skill.","Weapon",5,"I_ROSE",250,"Dragon Attack",3,"",""
-1710,"000005E4","Dragon/Guardian Jwl [3]","A decoration that grants the
+skills.","Weapon",1575,6,"I_YELLOW",300,3,"Thunder Attack",3,"Guard Up",1
+96,"7C7C3980","Dragon Jewel [1]","A decoration that grants
+the Dragon Attack skill.","Weapon",1701,3,"I_ROSE",150,1,"Dragon Attack",1,"",0
+97,"F7025C20","Dragon Jewel II [2]","A decoration that grants
+the Dragon Attack skill.","Weapon",1702,4,"I_ROSE",200,2,"Dragon Attack",2,"",0
+98,"9A15E900","Dragon Jewel III [3]","A decoration that grants
+the Dragon Attack skill.","Weapon",1703,5,"I_ROSE",250,3,"Dragon Attack",3,"",0
+99,"000005E4","Dragon/Guardian Jwl [3]","A decoration that grants the
 Dragon Attack and Offensive
-Guard skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Offensive Guard",1
-1715,"00001C51","Dragon/Crit Elem Jwl [3]","A decoration that grants the
+Guard skills.","Weapon",1710,6,"I_ROSE",300,3,"Dragon Attack",3,"Offensive Guard",1
+100,"00001C51","Dragon/Crit Elem Jwl [3]","A decoration that grants the
 Dragon Attack and Critical
-Element skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Critical Element",1
-1720,"357E3EC0","Dragon/Handicraft Jwl [3]","A decoration that grants
+Element skills.","Weapon",1715,6,"I_ROSE",300,3,"Dragon Attack",3,"Critical Element",1
+101,"357E3EC0","Dragon/Handicraft Jwl [3]","A decoration that grants
 the Dragon Attack and
-Handicraft skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Handicraft",1
-1725,"00005BC6","Dragon/Rzr Sharp Jwl [3]","A decoration that grants the
+Handicraft skills.","Weapon",1720,6,"I_ROSE",300,3,"Dragon Attack",3,"Handicraft",1
+102,"00005BC6","Dragon/Rzr Sharp Jwl [3]","A decoration that grants the
 Dragon Attack and Razor Sharp
-skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Razor Sharp",1
-1730,"0D105400","Dragon/Precise Jewel [3]","A decoration that grants
+skills.","Weapon",1725,6,"I_ROSE",300,3,"Dragon Attack",3,"Razor Sharp",1
+103,"0D105400","Dragon/Precise Jewel [3]","A decoration that grants
 the Dragon Attack and
-Ballistics skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Ballistics",1
-1740,"00000974","Dragon/Opener Jewel [3]","A decoration that grants the
+Ballistics skills.","Weapon",1730,6,"I_ROSE",300,3,"Dragon Attack",3,"Ballistics",1
+105,"00000974","Dragon/Opener Jewel [3]","A decoration that grants the
 Dragon Attack and Opening Shot
-skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Opening Shot",1
-1745,"0000540B","Dragon/Bandolier Jwl [3]","A decoration that grants the
+skills.","Weapon",1740,6,"I_ROSE",300,3,"Dragon Attack",3,"Opening Shot",1
+106,"0000540B","Dragon/Bandolier Jwl [3]","A decoration that grants the
 Dragon Attack and Tetrad Shot
-skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Tetrad Shot",1
-1750,"00000622","Dragon/Focus Jewel [3]","A decoration that grants the
-Dragon Attack and Focus skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Focus",1
-1755,"00003A07","Dragon/Enhancer Jwl [3]","A decoration that grants the
+skills.","Weapon",1745,6,"I_ROSE",300,3,"Dragon Attack",3,"Tetrad Shot",1
+107,"00000622","Dragon/Focus Jewel [3]","A decoration that grants the
+Dragon Attack and Focus skills.","Weapon",1750,6,"I_ROSE",300,3,"Dragon Attack",3,"Focus",1
+108,"00003A07","Dragon/Enhancer Jwl [3]","A decoration that grants the
 Dragon Attack and Power
-Prolonger skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Power Prolonger",1
-1760,"9F48A080","Dragon/KO Jewel [3]","A decoration that grants
+Prolonger skills.","Weapon",1755,6,"I_ROSE",300,3,"Dragon Attack",3,"Power Prolonger",1
+109,"9F48A080","Dragon/KO Jewel [3]","A decoration that grants
 the Dragon Attack and
-Slugger skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Slugger",1
-1765,"00004ED7","Dragon/Quickswitch Jwl [3]","A decoration that grants the
+Slugger skills.","Weapon",1760,6,"I_ROSE",300,3,"Dragon Attack",3,"Slugger",1
+110,"00004ED7","Dragon/Quickswitch Jwl [3]","A decoration that grants the
 Dragon Attack and Rapid Morph
-skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Rapid Morph",1
-1770,"E388EFC0","Dragon/Ironwall Jwl [3]","A decoration that grants the
-Dragon Attack and Guard skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Guard",1
-1775,"0000206E","Dragon/Shield Jewel [3]","A decoration that grants the
+skills.","Weapon",1765,6,"I_ROSE",300,3,"Dragon Attack",3,"Rapid Morph",1
+111,"E388EFC0","Dragon/Ironwall Jwl [3]","A decoration that grants the
+Dragon Attack and Guard skills.","Weapon",1770,6,"I_ROSE",300,3,"Dragon Attack",3,"Guard",1
+112,"0000206E","Dragon/Shield Jewel [3]","A decoration that grants the
 Dragon Attack and Guard Up
-skills.","Weapon",6,"I_ROSE",300,"Dragon Attack",3,"Guard Up",1
-1801,"802FD380","Venom Jewel [1]","A decoration that grants
-the Poison Attack skill.","Weapon",3,"I_PURPLE",150,"Poison Attack",1,"",""
-1802,"9C841180","Venom Jewel II [2]","A decoration that grants
-the Poison Attack skill.","Weapon",4,"I_PURPLE",200,"Poison Attack",2,"",""
-1803,"BC779B80","Venom Jewel III [3]","A decoration that grants
-the Poison Attack skill.","Weapon",5,"I_PURPLE",250,"Poison Attack",3,"",""
-1901,"D566D840","Paralyzer Jewel [1]","A decoration that grants
-the Paralysis Attack skill.","Weapon",3,"I_YELLOW",150,"Paralysis Attack",1,"",""
-1902,"261FDDC0","Paralyzer Jewel II [2]","A decoration that grants
-the Paralysis Attack skill.","Weapon",4,"I_YELLOW",200,"Paralysis Attack",2,"",""
-1903,"E0DBEB80","Paralyzer Jwl III [3]","A decoration that grants
-the Paralysis Attack skill.","Weapon",5,"I_YELLOW",250,"Paralysis Attack",3,"",""
-2001,"83430100","Sleep Jewel [1]","A decoration that grants
-the Sleep Attack skill.","Weapon",3,"I_SKY",150,"Sleep Attack",1,"",""
-2002,"8B4DE900","Sleep Jewel II [2]","A decoration that grants
-the Sleep Attack skill.","Weapon",4,"I_SKY",200,"Sleep Attack",2,"",""
-2003,"99CC7800","Sleep Jewel III [3]","A decoration that grants
-the Sleep Attack skill.","Weapon",5,"I_SKY",250,"Sleep Attack",3,"",""
-2101,"C36BFE40","Blast Jewel [1]","A decoration that grants
-the Blast Attack skill.","Weapon",3,"I_VERMILION",150,"Blast Attack",1,"",""
-2102,"CCE2C880","Blast Jewel II [2]","A decoration that grants
-the Blast Attack skill.","Weapon",4,"I_VERMILION",200,"Blast Attack",2,"",""
-2103,"6D400600","Blast Jewel III [3]","A decoration that grants
-the Blast Attack skill.","Weapon",5,"I_VERMILION",250,"Blast Attack",3,"",""
-2201,"D353B500","Crit Element Jewel [1]","A decoration that grants
-the Critical Element skill.","Weapon",3,"I_ULTRAMARINE",150,"Critical Element",1,"",""
-2202,"4887FF80","Crit Element Jewel II [2]","A decoration that grants
-the Critical Element skill.","Weapon",4,"I_ULTRAMARINE",200,"Critical Element",2,"",""
-2203,"6AA36400","Crit Elem Jwl III [3]","A decoration that grants
-the Critical Element skill.","Weapon",5,"I_ULTRAMARINE",250,"Critical Element",3,"",""
-2210,"00000637","Crit Elem/Blaze Jwl [3]","A decoration that grants the
+skills.","Weapon",1775,6,"I_ROSE",300,3,"Dragon Attack",3,"Guard Up",1
+113,"802FD380","Venom Jewel [1]","A decoration that grants
+the Poison Attack skill.","Weapon",1801,3,"I_PURPLE",150,1,"Poison Attack",1,"",0
+114,"9C841180","Venom Jewel II [2]","A decoration that grants
+the Poison Attack skill.","Weapon",1802,4,"I_PURPLE",200,2,"Poison Attack",2,"",0
+115,"BC779B80","Venom Jewel III [3]","A decoration that grants
+the Poison Attack skill.","Weapon",1803,5,"I_PURPLE",250,3,"Poison Attack",3,"",0
+116,"D566D840","Paralyzer Jewel [1]","A decoration that grants
+the Paralysis Attack skill.","Weapon",1901,3,"I_YELLOW",150,1,"Paralysis Attack",1,"",0
+117,"261FDDC0","Paralyzer Jewel II [2]","A decoration that grants
+the Paralysis Attack skill.","Weapon",1902,4,"I_YELLOW",200,2,"Paralysis Attack",2,"",0
+118,"E0DBEB80","Paralyzer Jwl III [3]","A decoration that grants
+the Paralysis Attack skill.","Weapon",1903,5,"I_YELLOW",250,3,"Paralysis Attack",3,"",0
+119,"83430100","Sleep Jewel [1]","A decoration that grants
+the Sleep Attack skill.","Weapon",2001,3,"I_SKY",150,1,"Sleep Attack",1,"",0
+120,"8B4DE900","Sleep Jewel II [2]","A decoration that grants
+the Sleep Attack skill.","Weapon",2002,4,"I_SKY",200,2,"Sleep Attack",2,"",0
+121,"99CC7800","Sleep Jewel III [3]","A decoration that grants
+the Sleep Attack skill.","Weapon",2003,5,"I_SKY",250,3,"Sleep Attack",3,"",0
+122,"C36BFE40","Blast Jewel [1]","A decoration that grants
+the Blast Attack skill.","Weapon",2101,3,"I_VERMILION",150,1,"Blast Attack",1,"",0
+123,"CCE2C880","Blast Jewel II [2]","A decoration that grants
+the Blast Attack skill.","Weapon",2102,4,"I_VERMILION",200,2,"Blast Attack",2,"",0
+124,"6D400600","Blast Jewel III [3]","A decoration that grants
+the Blast Attack skill.","Weapon",2103,5,"I_VERMILION",250,3,"Blast Attack",3,"",0
+125,"D353B500","Crit Element Jewel [1]","A decoration that grants
+the Critical Element skill.","Weapon",2201,3,"I_ULTRAMARINE",150,1,"Critical Element",1,"",0
+126,"4887FF80","Crit Element Jewel II [2]","A decoration that grants
+the Critical Element skill.","Weapon",2202,4,"I_ULTRAMARINE",200,2,"Critical Element",2,"",0
+127,"6AA36400","Crit Elem Jwl III [3]","A decoration that grants
+the Critical Element skill.","Weapon",2203,5,"I_ULTRAMARINE",250,3,"Critical Element",3,"",0
+128,"00000637","Crit Elem/Blaze Jwl [3]","A decoration that grants the
 Critical Element and Fire Attack
-skills.","Weapon",7,"I_ULTRAMARINE",350,"Critical Element",3,"Fire Attack",1
-2215,"000016F4","Crit Elem/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",2210,7,"I_ULTRAMARINE",350,3,"Critical Element",3,"Fire Attack",1
+129,"000016F4","Crit Elem/Stream Jwl [3]","A decoration that grants the
 Critical Element and Water
-Attack skills.","Weapon",7,"I_ULTRAMARINE",350,"Critical Element",3,"Water Attack",1
-2220,"00002F77","Crit Elem/Frost Jwl [3]","A decoration that grants the
+Attack skills.","Weapon",2215,7,"I_ULTRAMARINE",350,3,"Critical Element",3,"Water Attack",1
+130,"00002F77","Crit Elem/Frost Jwl [3]","A decoration that grants the
 Critical Element and Ice Attack
-skills.","Weapon",7,"I_ULTRAMARINE",350,"Critical Element",3,"Ice Attack",1
-2225,"00001AD2","Crit Elem/Bolt Jwl [3]","A decoration that grants the
+skills.","Weapon",2225,7,"I_ULTRAMARINE",350,3,"Critical Element",3,"Ice Attack",1
+131,"00001AD2","Crit Elem/Bolt Jwl [3]","A decoration that grants the
 Critical Element and Thunder
-Attack skills.","Weapon",7,"I_ULTRAMARINE",350,"Critical Element",3,"Thunder Attack",1
-2230,"000075B9","Crit Elem/Dragon Jwl [3]","A decoration that grants the
+Attack skills.","Weapon",2220,7,"I_ULTRAMARINE",350,3,"Critical Element",3,"Thunder Attack",1
+132,"000075B9","Crit Elem/Dragon Jwl [3]","A decoration that grants the
 Critical Element and Dragon
-Attack skills.","Weapon",7,"I_ULTRAMARINE",350,"Critical Element",3,"Dragon Attack",1
-2235,"BB4A4980","Crit Elem/Handicraft Jwl [3]","A decoration that grants
+Attack skills.","Weapon",2230,7,"I_ULTRAMARINE",350,3,"Critical Element",3,"Dragon Attack",1
+133,"BB4A4980","Crit Elem/Handicraft Jwl [3]","A decoration that grants
 the Critical Element and
-Handicraft skills.","Weapon",5,"I_ULTRAMARINE",250,"Critical Element",3,"Handicraft",1
-2240,"3850A680","Crit Element/Precise Jwl [3]","A decoration that grants
+Handicraft skills.","Weapon",2235,5,"I_ULTRAMARINE",250,3,"Critical Element",3,"Handicraft",1
+134,"3850A680","Crit Element/Precise Jwl [3]","A decoration that grants
 the Critical Element and
-Ballistics skills.","Weapon",5,"I_ULTRAMARINE",250,"Critical Element",3,"Ballistics",1
-2245,"C1635880","Crit Elem/KO Jewel [3]","A decoration that grants
+Ballistics skills.","Weapon",2240,5,"I_ULTRAMARINE",250,3,"Critical Element",3,"Ballistics",1
+135,"C1635880","Crit Elem/KO Jewel [3]","A decoration that grants
 the Critical Element and
-Slugger skills.","Weapon",5,"I_ULTRAMARINE",250,"Critical Element",3,"Slugger",1
-2250,"363F0A40","Crit Elem/Ironwall Jwl [3]","A decoration that grants
+Slugger skills.","Weapon",2245,5,"I_ULTRAMARINE",250,3,"Critical Element",3,"Slugger",1
+136,"363F0A40","Crit Elem/Ironwall Jwl [3]","A decoration that grants
 the Critical Element and
-Guard skills.","Weapon",5,"I_ULTRAMARINE",250,"Critical Element",3,"Guard",1
-2301,"0767C400","Crit Status Jewel [1]","A decoration that grants the
-Critical Status skill.","Weapon",3,"I_EMERALD",150,"Critical Status",1,"",""
-2302,"55113200","Crit Status Jewel II [2]","A decoration that grants the
-Critical Status skill.","Weapon",4,"I_EMERALD",200,"Critical Status",2,"",""
-2303,"9A4D4C80","Crit Stat Jwl III [3]","A decoration that grants the
-Critical Status skill.","Weapon",5,"I_EMERALD",250,"Critical Status",3,"",""
-2310,"82E9E780","Crit Stat/Handicraft Jwl [3]","A decoration that grants the
+Guard skills.","Weapon",2250,5,"I_ULTRAMARINE",250,3,"Critical Element",3,"Guard",1
+137,"0767C400","Crit Status Jewel [1]","A decoration that grants the
+Critical Status skill.","Weapon",2301,3,"I_EMERALD",150,1,"Critical Status",1,"",0
+138,"55113200","Crit Status Jewel II [2]","A decoration that grants the
+Critical Status skill.","Weapon",2302,4,"I_EMERALD",200,2,"Critical Status",2,"",0
+139,"9A4D4C80","Crit Stat Jwl III [3]","A decoration that grants the
+Critical Status skill.","Weapon",2303,5,"I_EMERALD",250,3,"Critical Status",3,"",0
+140,"82E9E780","Crit Stat/Handicraft Jwl [3]","A decoration that grants the
 Critical Status and Handicraft
-skills.","Weapon",6,"I_EMERALD",300,"Critical Status",3,"Handicraft",1
-2315,"1F09C480","Crit Stat/Precise Jwl [3]","A decoration that grants the
+skills.","Weapon",2310,6,"I_EMERALD",300,3,"Critical Status",3,"Handicraft",1
+141,"1F09C480","Crit Stat/Precise Jwl [3]","A decoration that grants the
 Critical Status and Ballistics
-skills.","Weapon",6,"I_EMERALD",300,"Critical Status",3,"Ballistics",1
-2320,"5352AD80","Crit Status/KO Jwl [3]","A decoration that grants the
+skills.","Weapon",2315,6,"I_EMERALD",300,3,"Critical Status",3,"Ballistics",1
+142,"5352AD80","Crit Status/KO Jwl [3]","A decoration that grants the
 Critical Status and Slugger
-skills.","Weapon",6,"I_EMERALD",300,"Critical Status",3,"Slugger",1
-2325,"BDE97E80","Crit Stat/Ironwall Jwl [3]","A decoration that grants the
+skills.","Weapon",2320,6,"I_EMERALD",300,3,"Critical Status",3,"Slugger",1
+143,"BDE97E80","Crit Stat/Ironwall Jwl [3]","A decoration that grants the
 Critical Status and Guard
-skills.","Weapon",6,"I_EMERALD",300,"Critical Status",3,"Guard",1
-2401,"8F49B480","Charge Jewel [1]","A decoration that grants the
-Charge Master skill.","Weapon",3,"I_BLUE",150,"Charge Master",1,"",""
-2402,"F17C3540","Charge Jewel II [2]","A decoration that grants the
-Charge Master skill.","Weapon",4,"I_BLUE",200,"Charge Master",2,"",""
-2403,"1B418B20","Charge Jewel III [3]","A decoration that grants the
-Charge Master skill.","Weapon",5,"I_BLUE",250,"Charge Master",3,"",""
-2410,"06DF1820","Charge/Handicraft Jwl [3]","A decoration that grants the
+skills.","Weapon",2325,6,"I_EMERALD",300,3,"Critical Status",3,"Guard",1
+144,"8F49B480","Charge Jewel [1]","A decoration that grants the
+Charge Master skill.","Weapon",2401,3,"I_BLUE",150,1,"Charge Master",1,"",0
+145,"F17C3540","Charge Jewel II [2]","A decoration that grants the
+Charge Master skill.","Weapon",2402,4,"I_BLUE",200,2,"Charge Master",2,"",0
+146,"1B418B20","Charge Jewel III [3]","A decoration that grants the
+Charge Master skill.","Weapon",2403,5,"I_BLUE",250,3,"Charge Master",3,"",0
+147,"06DF1820","Charge/Handicraft Jwl [3]","A decoration that grants the
 Charge Master and Handicraft
-skills.","Weapon",7,"I_BLUE",350,"Charge Master",3,"Handicraft",1
-2415,"D1E06400","Charge/KO Jewel [3]","A decoration that grants the
-Charge Master and Slugger skills.","Weapon",7,"I_BLUE",350,"Charge Master",3,"Slugger",1
-2601,"19F2F800","Handicraft Jewel [1]","A decoration that grants
-the Handicraft skill.","Weapon",3,"I_WHITE",150,"Handicraft",1,"",""
-2602,"80AB0A80","Handicraft Jewel II [2]","A decoration that grants
-the Handicraft skill.","Weapon",4,"I_WHITE",200,"Handicraft",2,"",""
-2603,"08B46720","Handicraft Jwl III [3]","A decoration that grants
-the Handicraft skill.","Weapon",5,"I_WHITE",250,"Handicraft",3,"",""
-2701,"E2960B80","Razor Sharp Jewel [1]","A decoration that grants
-the Razor Sharp skill.","Weapon",3,"I_EMERALD",150,"Razor Sharp",1,"",""
-2702,"F74C5940","Razor Sharp Jewel II [2]","A decoration that grants
-the Razor Sharp skill.","Weapon",4,"I_EMERALD",200,"Razor Sharp",2,"",""
-2703,"99768B00","Rzr Sharp Jwl III [3]","A decoration that grants
-the Razor Sharp skill.","Weapon",5,"I_EMERALD",250,"Razor Sharp",3,"",""
-2710,"00003A6C","Rzr Sharp/Blaze Jwl [3]","A decoration that grants the
+skills.","Weapon",2410,7,"I_BLUE",350,3,"Charge Master",3,"Handicraft",1
+148,"D1E06400","Charge/KO Jewel [3]","A decoration that grants the
+Charge Master and Slugger skills.","Weapon",2415,7,"I_BLUE",350,3,"Charge Master",3,"Slugger",1
+150,"19F2F800","Handicraft Jewel [1]","A decoration that grants
+the Handicraft skill.","Weapon",2601,3,"I_WHITE",150,1,"Handicraft",1,"",0
+151,"80AB0A80","Handicraft Jewel II [2]","A decoration that grants
+the Handicraft skill.","Weapon",2602,4,"I_WHITE",200,2,"Handicraft",2,"",0
+152,"08B46720","Handicraft Jwl III [3]","A decoration that grants
+the Handicraft skill.","Weapon",2603,5,"I_WHITE",250,3,"Handicraft",3,"",0
+153,"E2960B80","Razor Sharp Jewel [1]","A decoration that grants
+the Razor Sharp skill.","Weapon",2701,3,"I_EMERALD",150,1,"Razor Sharp",1,"",0
+154,"F74C5940","Razor Sharp Jewel II [2]","A decoration that grants
+the Razor Sharp skill.","Weapon",2702,4,"I_EMERALD",200,2,"Razor Sharp",2,"",0
+155,"99768B00","Rzr Sharp Jwl III [3]","A decoration that grants
+the Razor Sharp skill.","Weapon",2703,5,"I_EMERALD",250,3,"Razor Sharp",3,"",0
+156,"00003A6C","Rzr Sharp/Blaze Jwl [3]","A decoration that grants the
 Razor Sharp and Fire Attack
-skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Fire Attack",1
-2715,"0000126B","Rzr Sharp/Stream Jwl [3]","A decoration that grants
+skills.","Weapon",2710,7,"I_EMERALD",350,3,"Razor Sharp",3,"Fire Attack",1
+157,"0000126B","Rzr Sharp/Stream Jwl [3]","A decoration that grants
 the Razor Sharp and
-Water Attack skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Water Attack",1
-2720,"0000088A","Rzr Sharp/Frost Jwl [3]","A decoration that grants the
+Water Attack skills.","Weapon",2715,7,"I_EMERALD",350,3,"Razor Sharp",3,"Water Attack",1
+158,"0000088A","Rzr Sharp/Frost Jwl [3]","A decoration that grants the
 Razor Sharp and Ice Attack
-skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Ice Attack",1
-2725,"000076C5","Rzr Sharp/Bolt Jwl [3]","A decoration that grants the
+skills.","Weapon",2725,7,"I_EMERALD",350,3,"Razor Sharp",3,"Ice Attack",1
+159,"000076C5","Rzr Sharp/Bolt Jwl [3]","A decoration that grants the
 Razor Sharp and Thunder Attack
-skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Thunder Attack",1
-2730,"00006121","Rzr Sharp/Dragon Jwl [3]","A decoration that grants the
+skills.","Weapon",2720,7,"I_EMERALD",350,3,"Razor Sharp",3,"Thunder Attack",1
+160,"00006121","Rzr Sharp/Dragon Jwl [3]","A decoration that grants the
 Razor Sharp and Dragon Attack
-skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Dragon Attack",1
-2735,"618C2A80","Rzr Sharp/Handicraft Jwl [3]","A decoration that grants the 
+skills.","Weapon",2730,7,"I_EMERALD",350,3,"Razor Sharp",3,"Dragon Attack",1
+161,"618C2A80","Rzr Sharp/Handicraft Jwl [3]","A decoration that grants the 
 Razor Sharp and Handicraft 
-skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Handicraft",1
-2740,"016D76BC","Razor Sharp/KO Jwl [3]","A decoration that grants the
-Razor Sharp and Slugger skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Slugger",1
-2745,"A973FA80","Rzr Sharp/Ironwall Jwl [3]","A decoration that grants the
-Razor Sharp and Guard skills.","Weapon",7,"I_EMERALD",350,"Razor Sharp",3,"Guard",1
-2801,"040405D8","Sharp Jewel [1]","A decoration that grants
-the Protective Polish skill.","Weapon",3,"I_ROSE",150,"Protective Polish",1,"",""
-2802,"A3E81B80","Sharp Jewel II [2]","A decoration that grants
-the Protective Polish skill.","Weapon",4,"I_ROSE",200,"Protective Polish",2,"",""
-2803,"4550F800","Sharp Jewel III [3]","A decoration that grants
-the Protective Polish skill.","Weapon",5,"I_ROSE",250,"Protective Polish",3,"",""
-2901,"A8C41900","Mind's Eye Jewel [1]","A decoration that grants
-the Mind's Eye skill.","Weapon",3,"I_ROSE",150,"Mind's Eye",1,"",""
-2902,"2D4B0000","Mind's Eye Jewel II [2]","A decoration that grants
-the Mind's Eye skill.","Weapon",4,"I_ROSE",200,"Mind's Eye",2,"",""
-2903,"22CEF5C0","Mind's Eye Jwl III [3]","A decoration that grants
-the Mind's Eye skill.","Weapon",5,"I_ROSE",250,"Mind's Eye",3,"",""
-3001,"472E5A00","Blunt Jewel [1]","A decoration that grants
-the Bludgeoner skill.","Weapon",3,"I_LEMON",150,"Bludgeoner",1,"",""
-3002,"427AD080","Blunt Jewel II [2]","A decoration that grants
-the Bludgeoner skill.","Weapon",4,"I_LEMON",200,"Bludgeoner",2,"",""
-3003,"BAA84600","Blunt Jewel III [3]","A decoration that grants
-the Bludgeoner skill.","Weapon",5,"I_LEMON",250,"Bludgeoner",3,"",""
-3101,"B0207E80","Mastery Jewel [3]","A decoration that grants
-the Master's Touch skill.","Weapon",5,"I_WHITE",250,"Master's Touch",1,"",""
-3201,"47B41E80","Forceshot Jewel [3]","A decoration that grants the
-Normal Shots skill.","Weapon",5,"I_WHITE",250,"Normal Shots",1,"",""
-3301,"6563DD80","Pierce Jewel [3]","A decoration that enhances the
-Piercing Shots skill.","Weapon",5,"I_BLUE",250,"Piercing Shots",1,"",""
-3401,"0215E210","Spread Jewel [3]","A decoration that grants the
-Spread/Power Shots skill.","Weapon",5,"I_MOS",250,"Spread/Power Shots",1,"",""
-3501,"BA775180","Precise Jewel [1]","A decoration that grants
-the Ballistics skill.","Weapon",3,"I_PINK",150,"Ballistics",1,"",""
-3502,"8607B580","Precise Jewel II [2]","A decoration that grants
-the Ballistics skill.","Weapon",4,"I_PINK",200,"Ballistics",2,"",""
-3503,"500EC780","Precise Jewel III [3]","A decoration that grants
-the Ballistics skill.","Weapon",5,"I_PINK",250,"Ballistics",3,"",""
-3601,"98D9E280","Salvo Jewel [3]","A decoration that grants
-the Rapid Fire Up skill.","Weapon",5,"I_WHITE",250,"Rapid Fire Up",1,"",""
-3701,"7CB57D00","Opener Jewel [1]","A decoration that grants the
-Opening Shot skill.","Weapon",3,"I_WHITE",150,"Opening Shot",1,"",""
-3702,"A05B6980","Opener Jewel II [2]","A decoration that grants the
-Opening Shot skill.","Weapon",4,"I_WHITE",200,"Opening Shot",2,"",""
-3703,"AE147680","Opener Jewel III [3]","A decoration that grants the
-Opening Shot skill.","Weapon",5,"I_WHITE",250,"Opening Shot",3,"",""
-3710,"0000615F","Opener/Blaze Jewel [3]","A decoration that grants the
+skills.","Weapon",2735,7,"I_EMERALD",350,3,"Razor Sharp",3,"Handicraft",1
+162,"016D76BC","Razor Sharp/KO Jwl [3]","A decoration that grants the
+Razor Sharp and Slugger skills.","Weapon",2740,7,"I_EMERALD",350,3,"Razor Sharp",3,"Slugger",1
+163,"A973FA80","Rzr Sharp/Ironwall Jwl [3]","A decoration that grants the
+Razor Sharp and Guard skills.","Weapon",2745,7,"I_EMERALD",350,3,"Razor Sharp",3,"Guard",1
+164,"040405D8","Sharp Jewel [1]","A decoration that grants
+the Protective Polish skill.","Weapon",2801,3,"I_ROSE",150,1,"Protective Polish",1,"",0
+165,"A3E81B80","Sharp Jewel II [2]","A decoration that grants
+the Protective Polish skill.","Weapon",2802,4,"I_ROSE",200,2,"Protective Polish",2,"",0
+166,"4550F800","Sharp Jewel III [3]","A decoration that grants
+the Protective Polish skill.","Weapon",2803,5,"I_ROSE",250,3,"Protective Polish",3,"",0
+167,"A8C41900","Mind's Eye Jewel [1]","A decoration that grants
+the Mind's Eye skill.","Weapon",2901,3,"I_ROSE",150,1,"Mind's Eye",1,"",0
+168,"2D4B0000","Mind's Eye Jewel II [2]","A decoration that grants
+the Mind's Eye skill.","Weapon",2902,4,"I_ROSE",200,2,"Mind's Eye",2,"",0
+169,"22CEF5C0","Mind's Eye Jwl III [3]","A decoration that grants
+the Mind's Eye skill.","Weapon",2903,5,"I_ROSE",250,3,"Mind's Eye",3,"",0
+170,"472E5A00","Blunt Jewel [1]","A decoration that grants
+the Bludgeoner skill.","Weapon",3001,3,"I_LEMON",150,1,"Bludgeoner",1,"",0
+171,"427AD080","Blunt Jewel II [2]","A decoration that grants
+the Bludgeoner skill.","Weapon",3002,4,"I_LEMON",200,2,"Bludgeoner",2,"",0
+172,"BAA84600","Blunt Jewel III [3]","A decoration that grants
+the Bludgeoner skill.","Weapon",3003,5,"I_LEMON",250,3,"Bludgeoner",3,"",0
+173,"B0207E80","Mastery Jewel [3]","A decoration that grants
+the Master's Touch skill.","Weapon",3101,5,"I_WHITE",250,3,"Master's Touch",1,"",0
+174,"47B41E80","Forceshot Jewel [3]","A decoration that grants the
+Normal Shots skill.","Weapon",3201,5,"I_WHITE",250,3,"Normal Shots",1,"",0
+175,"6563DD80","Pierce Jewel [3]","A decoration that enhances the
+Piercing Shots skill.","Weapon",3301,5,"I_BLUE",250,3,"Piercing Shots",1,"",0
+176,"0215E210","Spread Jewel [3]","A decoration that grants the
+Spread/Power Shots skill.","Weapon",3401,5,"I_MOS",250,3,"Spread/Power Shots",1,"",0
+177,"BA775180","Precise Jewel [1]","A decoration that grants
+the Ballistics skill.","Weapon",3501,3,"I_PINK",150,1,"Ballistics",1,"",0
+178,"8607B580","Precise Jewel II [2]","A decoration that grants
+the Ballistics skill.","Weapon",3502,4,"I_PINK",200,2,"Ballistics",2,"",0
+179,"500EC780","Precise Jewel III [3]","A decoration that grants
+the Ballistics skill.","Weapon",3503,5,"I_PINK",250,3,"Ballistics",3,"",0
+180,"98D9E280","Salvo Jewel [3]","A decoration that grants
+the Rapid Fire Up skill.","Weapon",3601,5,"I_WHITE",250,3,"Rapid Fire Up",1,"",0
+189,"7CB57D00","Opener Jewel [1]","A decoration that grants the
+Opening Shot skill.","Weapon",3701,3,"I_WHITE",150,1,"Opening Shot",1,"",0
+190,"A05B6980","Opener Jewel II [2]","A decoration that grants the
+Opening Shot skill.","Weapon",3702,4,"I_WHITE",200,2,"Opening Shot",2,"",0
+191,"AE147680","Opener Jewel III [3]","A decoration that grants the
+Opening Shot skill.","Weapon",3703,5,"I_WHITE",250,3,"Opening Shot",3,"",0
+192,"0000615F","Opener/Blaze Jewel [3]","A decoration that grants the
 Opening Shot and Fire Attack
-skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Fire Attack",1
-3715,"00003C13","Opener/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",3710,7,"I_WHITE",350,3,"Opening Shot",3,"Fire Attack",1
+193,"00003C13","Opener/Stream Jwl [3]","A decoration that grants the
 Opening Shot and Water Attack
-skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Water Attack",1
-3720,"00005FF1","Opener/Frost Jewel [3]","A decoration that grants the
+skills.","Weapon",3715,7,"I_WHITE",350,3,"Opening Shot",3,"Water Attack",1
+194,"00005FF1","Opener/Frost Jewel [3]","A decoration that grants the
 Opening Shot and Ice Attack
-skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Ice Attack",1
-3725,"000039CA","Opener/Bolt Jewel [3]","A decoration that grants the
+skills.","Weapon",3725,7,"I_WHITE",350,3,"Opening Shot",3,"Ice Attack",1
+195,"000039CA","Opener/Bolt Jewel [3]","A decoration that grants the
 Opening Shot and Thunder
-Attack skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Thunder Attack",1
-3730,"00006DAC","Opener/Dragon Jewel [3]","A decoration that grants the
+Attack skills.","Weapon",3720,7,"I_WHITE",350,3,"Opening Shot",3,"Thunder Attack",1
+196,"00006DAC","Opener/Dragon Jewel [3]","A decoration that grants the
 Opening Shot and Dragon Attack
-skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Dragon Attack",1
-3735,"FED86F8A","Opener/Precise Jewel [3]","A decoration that grants the
-Opening Shot and Ballistics skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Ballistics",1
-3740,"09B7D900","Opener/Ironwall Jwl [3]","A decoration that grants the
-Opening Shot and Guard skills.","Weapon",7,"I_WHITE",350,"Opening Shot",3,"Guard",1
-3801,"46F7C480","Bandolier Jewel [1]","A decoration that grants the
-Tetrad Shot skill.","Weapon",3,"I_BLUE",150,"Tetrad Shot",1,"",""
-3802,"DEC8B900","Bandolier Jewel II [2]","A decoration that grants the
-Tetrad Shot skill.","Weapon",4,"I_BLUE",200,"Tetrad Shot",2,"",""
-3803,"8E4E5A00","Bandolier Jewel III [3]","A decoration that grants the
-Tetrad Shot skill.","Weapon",5,"I_BLUE",250,"Tetrad Shot",3,"",""
-3810,"000011A2","Bandolier/Blaze Jwl [3]","A decoration that grants the
+skills.","Weapon",3730,7,"I_WHITE",350,3,"Opening Shot",3,"Dragon Attack",1
+197,"FED86F8A","Opener/Precise Jewel [3]","A decoration that grants the
+Opening Shot and Ballistics skills.","Weapon",3735,7,"I_WHITE",350,3,"Opening Shot",3,"Ballistics",1
+198,"09B7D900","Opener/Ironwall Jwl [3]","A decoration that grants the
+Opening Shot and Guard skills.","Weapon",3740,7,"I_WHITE",350,3,"Opening Shot",3,"Guard",1
+199,"46F7C480","Bandolier Jewel [1]","A decoration that grants the
+Tetrad Shot skill.","Weapon",3801,3,"I_BLUE",150,1,"Tetrad Shot",1,"",0
+200,"DEC8B900","Bandolier Jewel II [2]","A decoration that grants the
+Tetrad Shot skill.","Weapon",3802,4,"I_BLUE",200,2,"Tetrad Shot",2,"",0
+201,"8E4E5A00","Bandolier Jewel III [3]","A decoration that grants the
+Tetrad Shot skill.","Weapon",3803,5,"I_BLUE",250,3,"Tetrad Shot",3,"",0
+202,"000011A2","Bandolier/Blaze Jwl [3]","A decoration that grants the
 Tetrad Shot and Fire Attack
-skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Fire Attack",1
-3815,"0000461D","Bandolier/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",3810,7,"I_BLUE",350,3,"Tetrad Shot",3,"Fire Attack",1
+203,"0000461D","Bandolier/Stream Jwl [3]","A decoration that grants the
 Tetrad Shot and Water Attack
-skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Water Attack",1
-3820,"000047B7","Bandolier/Frost Jwl [3]","A decoration that grants the
+skills.","Weapon",3815,7,"I_BLUE",350,3,"Tetrad Shot",3,"Water Attack",1
+204,"000047B7","Bandolier/Frost Jwl [3]","A decoration that grants the
 Tetrad Shot and Ice Attack
-skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Ice Attack",1
-3825,"0000584C","Bandolier/Bolt Jwl [3]","A decoration that grants the
+skills.","Weapon",3825,7,"I_BLUE",350,3,"Tetrad Shot",3,"Ice Attack",1
+205,"0000584C","Bandolier/Bolt Jwl [3]","A decoration that grants the
 Tetrad Shot and Thunder Attack
-skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Thunder Attack",1
-3830,"00006C8F","Bandolier/Dragon Jwl [3]","A decoration that grants the
+skills.","Weapon",3820,7,"I_BLUE",350,3,"Tetrad Shot",3,"Thunder Attack",1
+206,"00006C8F","Bandolier/Dragon Jwl [3]","A decoration that grants the
 Tetrad Shot and Dragon Attack
-skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Dragon Attack",1
-3835,"0626AF10","Bandolier/Precise Jwl [3]","A decoration that grants the
-Tetrad Shot and Ballistics skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Ballistics",1
-3840,"92657C80","Bandolier/Ironwall Jwl [3]","A decoration that grants the
-Tetrad Shot and Guard skills.","Weapon",7,"I_BLUE",350,"Tetrad Shot",3,"Guard",1
-3901,"521EF600","Trueshot Jewel [1]","A decoration that grants the
-Special Ammo Boost skill.","Weapon",3,"I_GRAY",150,"Special Ammo Boost",1,"",""
-3902,"ACB74200","Trueshot Jewel II [2]","A decoration that grants the
-Special Ammo Boost skill.","Weapon",4,"I_GRAY",200,"Special Ammo Boost",2,"",""
-4001,"BABDB500","Poisoncoat Jewel [2]","A decoration that grants the
-Poison Functionality skill.","Weapon",4,"I_PURPLE",200,"Poison Functionality",1,"",""
-4101,"C4353900","Paracoat Jewel [3]","A decoration that grants the
-Para Functionality skill.","Weapon",5,"I_YELLOW",250,"Para Functionality",1,"",""
-4201,"BADBDE00","Sleepcoat Jewel [3]","A decoration that grants the
-Sleep Functionality skill.","Weapon",5,"I_SKY",250,"Sleep Functionality",1,"",""
-4301,"D6A63500","Blastcoat Jewel [2]","A decoration that grants the
-Blast Functionality skill.","Weapon",4,"I_VERMILION",200,"Blast Functionality",1,"",""
-4401,"3FA69180","Draincoat Jewel [2]","A decoration that grants the
-Exhaust Functionality skill.","Weapon",4,"I_IVORY",200,"Exhaust Functionality",1,"",""
-4501,"00568F94","Defense Jewel [1]","A decoration that grants
-the Defense Boost skill.","Equipment",3,"I_BROWN",150,"Defense Boost",1,"",""
-4601,"E028B5C0","Protection Jewel [1]","A decoration that grants
-the Divine Blessing skill.","Equipment",3,"I_BLUE",150,"Divine Blessing",1,"",""
-4701,"94984180","Fire Res Jewel [1]","A decoration that grants
-the Fire Resistance skill.","Equipment",3,"I_RED",150,"Fire Resistance",1,"",""
-4801,"8B401D80","Water Res Jewel [1]","A decoration that grants
-the Water Resistance skill.","Equipment",3,"I_BLUE",150,"Water Resistance",1,"",""
-4901,"B4784100","Thunder Res Jewel [1]","A decoration that grants
-the Thunder Resistance skill.","Equipment",3,"I_YELLOW",150,"Thunder Resistance",1,"",""
-5001,"C019F540","Ice Res Jewel [1]","A decoration that grants
-the Ice Resistance skill.","Equipment",3,"I_WHITE",150,"Ice Resistance",1,"",""
-5101,"AB8D3680","Dragon Res Jewel [1]","A decoration that grants
-the Dragon Resistance skill.","Equipment",3,"I_ROSE",150,"Dragon Resistance",1,"",""
-5201,"E90E8060","Antidote Jewel [1]","A decoration that grants
-the Poison Resistance skill.","Equipment",3,"I_PURPLE",150,"Poison Resistance",1,"",""
-5301,"C3671200","Antipara Jewel [1]","A decoration that grants
-the Paralysis Resistance skill.","Equipment",3,"I_YELLOW",150,"Paralysis Resistance",1,"",""
-5401,"AA812900","Pep Jewel [1]","A decoration that grants
-the Sleep Resistance skill.","Equipment",3,"I_SKY",150,"Sleep Resistance",1,"",""
-5501,"9F11E100","Def Lock Jewel [1]","A decoration that grants the
-Iron Skin skill.","Equipment",3,"I_IVORY",150,"Iron Skin",1,"",""
-5701,"295E8680","Steadfast Jewel [1]","A decoration that grants
-the Stun Resistance skill.","Equipment",3,"I_YELLOW",150,"Stun Resistance",1,"",""
-5801,"94363980","Suture Jewel [1]","A decoration that grants the
-Bleeding Resistance skill.","Equipment",3,"I_IVORY",150,"Bleeding Resistance",1,"",""
-5901,"8EDA0D80","Escape Jewel [1]","A decoration that grants the
-Bind Resistance skill.","Equipment",3,"I_WHITE",150,"Bind Resistance",1,"",""
-6001,"29D4BD00","Antiblast Jewel [1]","A decoration that grants the
-Blast Resistance skill.","Equipment",3,"I_VERMILION",150,"Blast Resistance",1,"",""
-6101,"389DAB80","Perfume Jewel [1]","A decoration that grants the
-Stench Resistance skill.","Equipment",3,"I_BROWN",150,"Stench Resistance",1,"",""
-6201,"BDA75700","Adapt Jewel [1]","A decoration that grants the
-Adaptability skill.","Equipment",3,"I_GRAY",150,"Adaptability",1,"",""
-6301,"1B1AE3E0","Medicine Jewel [1]","A decoration that grants
-the Recovery Up skill.","Equipment",3,"I_GREEN",150,"Recovery Up",1,"",""
-6401,"A99DEB80","Recovery Jewel [1]","A decoration that grants
-the Recovery Speed skill.","Equipment",3,"I_GREEN",150,"Recovery Speed",1,"",""
-6501,"B1634680","Survival Jewel [1]","A decoration that grants the
-Survival Expert skill.","Equipment",3,"I_WHITE",150,"Survival Expert",1,"",""
-6601,"ADA5D100","Physique Jewel [1]","A decoration that grants
-the Constitution skill.","Equipment",3,"I_BROWN",150,"Constitution",1,"",""
-6701,"D7DDFBC0","Refresh Jewel [2]","A decoration that grants
-the Stamina Surge skill.","Equipment",4,"I_IVORY",200,"Stamina Surge",1,"",""
-6801,"679CCC80","Sprinter Jewel [1]","A decoration that grants
-the Marathon Runner skill.","Equipment",3,"I_BROWN",150,"Marathon Runner",1,"",""
-6901,"96338680","Hungerless Jewel [1]","A decoration that grants
-the Hunger Resistance skill.","Equipment",3,"I_BROWN",150,"Hunger Resistance",1,"",""
-7001,"776ACF80","Challenger Jewel [3]","A decoration that grants
-the Agitator skill.","Equipment",5,"I_RED",250,"Agitator",1,"",""
-7101,"38903F80","Throttle Jewel [3]","A decoration that grants
-the Latent Power skill.","Equipment",5,"I_RED",250,"Latent Power",1,"",""
-7201,"544BB880","Potential Jewel [2]","A decoration that grants the
-Heroics skill.","Equipment",4,"I_RED",200,"Heroics",1,"",""
-7301,"E552CD60","Chain Jewel [3]","A decoration that grants the
-Burst skill.","Equipment",5,"I_RED",250,"Burst",1,"",""
-7401,"9DE4F280","Foray Jewel [3]","A decoration that grants the
-Foray skill.","Equipment",5,"I_RED",250,"Foray",1,"",""
-7501,"80BCAE80","Flayer Jewel [3]","A decoration that grants the
-Flayer skill.","Equipment",5,"I_WHITE",250,"Flayer",1,"",""
-7701,"71A0AF80","Focus Jewel [1]","A decoration that grants
-the Focus skill.","Weapon",3,"I_BROWN",150,"Focus",1,"",""
-7702,"2F85E480","Focus Jewel II [2]","A decoration that grants
-the Focus skill.","Weapon",4,"I_BROWN",200,"Focus",2,"",""
-7703,"D580C400","Focus Jewel III [3]","A decoration that grants
-the Focus skill.","Weapon",5,"I_BROWN",250,"Focus",3,"",""
-7710,"00005BE2","Focus/Blaze Jewel [3]","A decoration that grants the
-Focus and Fire Attack skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Fire Attack",1
-7715,"00000D58","Focus/Stream Jewel [3]","A decoration that grants the
-Focus and Water Attack skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Water Attack",1
-7720,"0000077F","Focus/Frost Jewel [3]","A decoration that grants the
-Focus and Ice Attack skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Ice Attack",1
-7725,"00004222","Focus/Bolt Jwl [3]","A decoration that grants the
-Focus and Thunder Attack skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Thunder Attack",1
-7730,"000044CA","Focus/Dragon Jewel [3]","A decoration that grants the
-Focus and Dragon Attack skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Dragon Attack",1
-7735,"DAF30080","Focus/Handicraft Jewel [3]","A decoration that grants the
-Focus and Handicraft skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Handicraft",1
-7740,"45FAE780","Focus/Precise Jewel [3]","A decoration that grants
-the Focus and Ballistics skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Ballistics",1
-7745,"03D524F0","Focus/KO Jewel [3]","A decoration that grants
-the Focus and Slugger skills.","Weapon",7,"I_BROWN",350,"Focus",3,"Slugger",1
-7801,"967ECF80","Enhancer Jewel [1]","A decoration that grants
-the Power Prolonger skill.","Weapon",3,"I_LEMON",150,"Power Prolonger",1,"",""
-7802,"EE085800","Enhancer Jewel II [2]","A decoration that grants
-the Power Prolonger skill.","Weapon",4,"I_LEMON",200,"Power Prolonger",2,"",""
-7803,"1A9EC7E0","Enhancer Jewel III [3]","A decoration that grants
-the Power Prolonger skill.","Weapon",5,"I_LEMON",250,"Power Prolonger",3,"",""
-7810,"00001663","Enhancer/Blaze Jewel [3]","A decoration that grants the
+skills.","Weapon",3830,7,"I_BLUE",350,3,"Tetrad Shot",3,"Dragon Attack",1
+207,"0626AF10","Bandolier/Precise Jwl [3]","A decoration that grants the
+Tetrad Shot and Ballistics skills.","Weapon",3835,7,"I_BLUE",350,3,"Tetrad Shot",3,"Ballistics",1
+208,"92657C80","Bandolier/Ironwall Jwl [3]","A decoration that grants the
+Tetrad Shot and Guard skills.","Weapon",3840,7,"I_BLUE",350,3,"Tetrad Shot",3,"Guard",1
+209,"521EF600","Trueshot Jewel [1]","A decoration that grants the
+Special Ammo Boost skill.","Weapon",3901,3,"I_GRAY",150,1,"Special Ammo Boost",1,"",0
+210,"ACB74200","Trueshot Jewel II [2]","A decoration that grants the
+Special Ammo Boost skill.","Weapon",3902,4,"I_GRAY",200,2,"Special Ammo Boost",2,"",0
+211,"BABDB500","Poisoncoat Jewel [2]","A decoration that grants the
+Poison Functionality skill.","Weapon",4001,4,"I_PURPLE",200,2,"Poison Functionality",1,"",0
+212,"C4353900","Paracoat Jewel [3]","A decoration that grants the
+Para Functionality skill.","Weapon",4101,5,"I_YELLOW",250,3,"Para Functionality",1,"",0
+213,"BADBDE00","Sleepcoat Jewel [3]","A decoration that grants the
+Sleep Functionality skill.","Weapon",4201,5,"I_SKY",250,3,"Sleep Functionality",1,"",0
+214,"D6A63500","Blastcoat Jewel [2]","A decoration that grants the
+Blast Functionality skill.","Weapon",4301,4,"I_VERMILION",200,2,"Blast Functionality",1,"",0
+215,"3FA69180","Draincoat Jewel [2]","A decoration that grants the
+Exhaust Functionality skill.","Weapon",4401,4,"I_IVORY",200,2,"Exhaust Functionality",1,"",0
+216,"00568F94","Defense Jewel [1]","A decoration that grants
+the Defense Boost skill.","Equipment",4501,3,"I_BROWN",150,1,"Defense Boost",1,"",0
+217,"E028B5C0","Protection Jewel [1]","A decoration that grants
+the Divine Blessing skill.","Equipment",4601,3,"I_BLUE",150,1,"Divine Blessing",1,"",0
+218,"94984180","Fire Res Jewel [1]","A decoration that grants
+the Fire Resistance skill.","Equipment",4701,3,"I_RED",150,1,"Fire Resistance",1,"",0
+219,"8B401D80","Water Res Jewel [1]","A decoration that grants
+the Water Resistance skill.","Equipment",4801,3,"I_BLUE",150,1,"Water Resistance",1,"",0
+220,"B4784100","Thunder Res Jewel [1]","A decoration that grants
+the Thunder Resistance skill.","Equipment",4901,3,"I_YELLOW",150,1,"Thunder Resistance",1,"",0
+221,"C019F540","Ice Res Jewel [1]","A decoration that grants
+the Ice Resistance skill.","Equipment",5001,3,"I_WHITE",150,1,"Ice Resistance",1,"",0
+222,"AB8D3680","Dragon Res Jewel [1]","A decoration that grants
+the Dragon Resistance skill.","Equipment",5101,3,"I_ROSE",150,1,"Dragon Resistance",1,"",0
+223,"E90E8060","Antidote Jewel [1]","A decoration that grants
+the Poison Resistance skill.","Equipment",5201,3,"I_PURPLE",150,1,"Poison Resistance",1,"",0
+224,"C3671200","Antipara Jewel [1]","A decoration that grants
+the Paralysis Resistance skill.","Equipment",5301,3,"I_YELLOW",150,1,"Paralysis Resistance",1,"",0
+225,"AA812900","Pep Jewel [1]","A decoration that grants
+the Sleep Resistance skill.","Equipment",5401,3,"I_SKY",150,1,"Sleep Resistance",1,"",0
+226,"9F11E100","Def Lock Jewel [1]","A decoration that grants the
+Iron Skin skill.","Equipment",5501,3,"I_IVORY",150,1,"Iron Skin",1,"",0
+227,"295E8680","Steadfast Jewel [1]","A decoration that grants
+the Stun Resistance skill.","Equipment",5701,3,"I_YELLOW",150,1,"Stun Resistance",1,"",0
+228,"94363980","Suture Jewel [1]","A decoration that grants the
+Bleeding Resistance skill.","Equipment",5801,3,"I_IVORY",150,1,"Bleeding Resistance",1,"",0
+229,"8EDA0D80","Escape Jewel [1]","A decoration that grants the
+Bind Resistance skill.","Equipment",5901,3,"I_WHITE",150,1,"Bind Resistance",1,"",0
+230,"29D4BD00","Antiblast Jewel [1]","A decoration that grants the
+Blast Resistance skill.","Equipment",6001,3,"I_VERMILION",150,1,"Blast Resistance",1,"",0
+231,"389DAB80","Perfume Jewel [1]","A decoration that grants the
+Stench Resistance skill.","Equipment",6101,3,"I_BROWN",150,1,"Stench Resistance",1,"",0
+232,"BDA75700","Adapt Jewel [1]","A decoration that grants the
+Adaptability skill.","Equipment",6201,3,"I_GRAY",150,1,"Adaptability",1,"",0
+233,"1B1AE3E0","Medicine Jewel [1]","A decoration that grants
+the Recovery Up skill.","Equipment",6301,3,"I_GREEN",150,1,"Recovery Up",1,"",0
+234,"A99DEB80","Recovery Jewel [1]","A decoration that grants
+the Recovery Speed skill.","Equipment",6401,3,"I_GREEN",150,1,"Recovery Speed",1,"",0
+235,"B1634680","Survival Jewel [1]","A decoration that grants the
+Survival Expert skill.","Equipment",6501,3,"I_WHITE",150,1,"Survival Expert",1,"",0
+236,"ADA5D100","Physique Jewel [1]","A decoration that grants
+the Constitution skill.","Equipment",6601,3,"I_BROWN",150,1,"Constitution",1,"",0
+237,"D7DDFBC0","Refresh Jewel [2]","A decoration that grants
+the Stamina Surge skill.","Equipment",6701,4,"I_IVORY",200,2,"Stamina Surge",1,"",0
+238,"679CCC80","Sprinter Jewel [1]","A decoration that grants
+the Marathon Runner skill.","Equipment",6801,3,"I_BROWN",150,1,"Marathon Runner",1,"",0
+239,"96338680","Hungerless Jewel [1]","A decoration that grants
+the Hunger Resistance skill.","Equipment",6901,3,"I_BROWN",150,1,"Hunger Resistance",1,"",0
+240,"776ACF80","Challenger Jewel [3]","A decoration that grants
+the Agitator skill.","Equipment",7001,5,"I_RED",250,3,"Agitator",1,"",0
+241,"38903F80","Throttle Jewel [3]","A decoration that grants
+the Latent Power skill.","Equipment",7101,5,"I_RED",250,3,"Latent Power",1,"",0
+242,"544BB880","Potential Jewel [2]","A decoration that grants the
+Heroics skill.","Equipment",7201,4,"I_RED",200,2,"Heroics",1,"",0
+243,"E552CD60","Chain Jewel [3]","A decoration that grants the
+Burst skill.","Equipment",7301,5,"I_RED",250,3,"Burst",1,"",0
+244,"9DE4F280","Foray Jewel [3]","A decoration that grants the
+Foray skill.","Equipment",7401,5,"I_RED",250,3,"Foray",1,"",0
+245,"80BCAE80","Flayer Jewel [3]","A decoration that grants the
+Flayer skill.","Equipment",7501,5,"I_WHITE",250,3,"Flayer",1,"",0
+246,"71A0AF80","Focus Jewel [1]","A decoration that grants
+the Focus skill.","Weapon",7701,3,"I_BROWN",150,1,"Focus",1,"",0
+247,"2F85E480","Focus Jewel II [2]","A decoration that grants
+the Focus skill.","Weapon",7702,4,"I_BROWN",200,2,"Focus",2,"",0
+248,"D580C400","Focus Jewel III [3]","A decoration that grants
+the Focus skill.","Weapon",7703,5,"I_BROWN",250,3,"Focus",3,"",0
+249,"00005BE2","Focus/Blaze Jewel [3]","A decoration that grants the
+Focus and Fire Attack skills.","Weapon",7710,7,"I_BROWN",350,3,"Focus",3,"Fire Attack",1
+250,"00000D58","Focus/Stream Jewel [3]","A decoration that grants the
+Focus and Water Attack skills.","Weapon",7715,7,"I_BROWN",350,3,"Focus",3,"Water Attack",1
+251,"0000077F","Focus/Frost Jewel [3]","A decoration that grants the
+Focus and Ice Attack skills.","Weapon",7720,7,"I_BROWN",350,3,"Focus",3,"Ice Attack",1
+252,"00004222","Focus/Bolt Jwl [3]","A decoration that grants the
+Focus and Thunder Attack skills.","Weapon",7725,7,"I_BROWN",350,3,"Focus",3,"Thunder Attack",1
+253,"000044CA","Focus/Dragon Jewel [3]","A decoration that grants the
+Focus and Dragon Attack skills.","Weapon",7730,7,"I_BROWN",350,3,"Focus",3,"Dragon Attack",1
+254,"DAF30080","Focus/Handicraft Jewel [3]","A decoration that grants the
+Focus and Handicraft skills.","Weapon",7735,7,"I_BROWN",350,3,"Focus",3,"Handicraft",1
+255,"45FAE780","Focus/Precise Jewel [3]","A decoration that grants
+the Focus and Ballistics skills.","Weapon",7740,7,"I_BROWN",350,3,"Focus",3,"Ballistics",1
+256,"03D524F0","Focus/KO Jewel [3]","A decoration that grants
+the Focus and Slugger skills.","Weapon",7745,7,"I_BROWN",350,3,"Focus",3,"Slugger",1
+257,"967ECF80","Enhancer Jewel [1]","A decoration that grants
+the Power Prolonger skill.","Weapon",7801,3,"I_LEMON",150,1,"Power Prolonger",1,"",0
+258,"EE085800","Enhancer Jewel II [2]","A decoration that grants
+the Power Prolonger skill.","Weapon",7802,4,"I_LEMON",200,2,"Power Prolonger",2,"",0
+259,"1A9EC7E0","Enhancer Jewel III [3]","A decoration that grants
+the Power Prolonger skill.","Weapon",7803,5,"I_LEMON",250,3,"Power Prolonger",3,"",0
+260,"00001663","Enhancer/Blaze Jewel [3]","A decoration that grants the
 Power Prolonger and Fire Attack
-skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Fire Attack",1
-7815,"00005899","Enhancer/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",7810,7,"I_LEMON",350,3,"Power Prolonger",3,"Fire Attack",1
+261,"00005899","Enhancer/Stream Jwl [3]","A decoration that grants the
 Power Prolonger and Water Attack
-skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Water Attack",1
-7820,"00001937","Enhancer/Frost Jwl [3]","A decoration that grants the
+skills.","Weapon",7815,7,"I_LEMON",350,3,"Power Prolonger",3,"Water Attack",1
+262,"00001937","Enhancer/Frost Jwl [3]","A decoration that grants the
 Power Prolonger and Ice Attack
-skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Ice Attack",1
-7825,"00006560","Enhancer/Bolt Jewel [3]","A decoration that grants the
+skills.","Weapon",7825,7,"I_LEMON",350,3,"Power Prolonger",3,"Ice Attack",1
+263,"00006560","Enhancer/Bolt Jewel [3]","A decoration that grants the
 Power Prolonger and Thunder
-Attack skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Thunder Attack",1
-7830,"000065DD","Enhancer/Dragon Jwl [3]","A decoration that grants the
+Attack skills.","Weapon",7820,7,"I_LEMON",350,3,"Power Prolonger",3,"Thunder Attack",1
+264,"000065DD","Enhancer/Dragon Jwl [3]","A decoration that grants the
 Power Prolonger and Dragon
-Attack skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Dragon Attack",1
-7835,"70825800","Enhancer/Handicraft Jwl [3]","A decoration that grants
+Attack skills.","Weapon",7830,7,"I_LEMON",350,3,"Power Prolonger",3,"Dragon Attack",1
+265,"70825800","Enhancer/Handicraft Jwl [3]","A decoration that grants
 the Power Prolonger and
-Handicraft skills.","Weapon",7,"I_LEMON",350,"Power Prolonger",3,"Handicraft",1
-7901,"C2500300","Gambit Jewel [1]","A decoration that grants
-the Punishing Draw skill.","Weapon",3,"I_WHITE",150,"Punishing Draw",1,"",""
-7902,"464FD800","Gambit Jewel II [2]","A decoration that grants
-the Punishing Draw skill.","Weapon",4,"I_WHITE",200,"Punishing Draw",2,"",""
-7903,"01280A0C","Gambit Jewel III [3]","A decoration that grants
-the Punishing Draw skill.","Weapon",5,"I_WHITE",250,"Punishing Draw",3,"",""
-7910,"C1100D40","Gambit/Handicraft Jwl [3]","A decoration that grants
+Handicraft skills.","Weapon",7835,7,"I_LEMON",350,3,"Power Prolonger",3,"Handicraft",1
+266,"C2500300","Gambit Jewel [1]","A decoration that grants
+the Punishing Draw skill.","Weapon",7901,3,"I_WHITE",150,1,"Punishing Draw",1,"",0
+267,"464FD800","Gambit Jewel II [2]","A decoration that grants
+the Punishing Draw skill.","Weapon",7902,4,"I_WHITE",200,2,"Punishing Draw",2,"",0
+268,"01280A0C","Gambit Jewel III [3]","A decoration that grants
+the Punishing Draw skill.","Weapon",7903,5,"I_WHITE",250,3,"Punishing Draw",3,"",0
+269,"C1100D40","Gambit/Handicraft Jwl [3]","A decoration that grants
 the Punishing Draw and
-Handicraft skills.","Weapon",7,"I_WHITE",350,"Punishing Draw",3,"Handicraft",1
-7915,"B15B9180","Gambit/KO Jewel [3]","A decoration that grants
+Handicraft skills.","Weapon",7910,7,"I_WHITE",350,3,"Punishing Draw",3,"Handicraft",1
+270,"B15B9180","Gambit/KO Jewel [3]","A decoration that grants
 the Punishing Draw and
-Slugger skills.","Weapon",7,"I_WHITE",350,"Punishing Draw",3,"Slugger",1
-7920,"C856E240","Gambit/Ironwall Jwl [3]","A decoration that grants the
-Punishing Draw and Guard skills.","Weapon",7,"I_WHITE",350,"Punishing Draw",3,"Guard",1
-8001,"C762D480","KO Jewel [1]","A decoration that grants
-the Slugger skill.","Weapon",3,"I_YELLOW",150,"Slugger",1,"",""
-8002,"02A2644C","KO Jewel II [2]","A decoration that grants
-the Slugger skill.","Weapon",4,"I_YELLOW",200,"Slugger",2,"",""
-8003,"236AD6C0","KO Jewel III [3]","A decoration that grants
-the Slugger skill.","Weapon",5,"I_YELLOW",250,"Slugger",3,"",""
-8101,"2A9D0B80","Drain Jewel [1]","A decoration that grants
-the Stamina Thief skill.","Weapon",3,"I_SKY",150,"Stamina Thief",1,"",""
-8102,"9CC98980","Drain Jewel II [2]","A decoration that grants
-the Stamina Thief skill.","Weapon",4,"I_SKY",200,"Stamina Thief",2,"",""
-8103,"8DAB9100","Drain Jewel III [3]","A decoration that grants
-the Stamina Thief skill.","Weapon",5,"I_SKY",250,"Stamina Thief",3,"",""
-8201,"05D486E0","Artillery Jewel [1]","A decoration that grants
-the Artillery skill.","Weapon",3,"I_GRAY",150,"Artillery",1,"",""
-8202,"FAC9F0D0","Artillery Jewel II [2]","A decoration that grants
-the Artillery skill.","Weapon",4,"I_GRAY",200,"Artillery",2,"",""
-8203,"2E02CD00","Artillery Jewel III [3]","A decoration that grants
-the Artillery skill.","Weapon",5,"I_GRAY",250,"Artillery",3,"",""
-8301,"48544400","Quickswitch Jewel [1]","A decoration that grants the
-Rapid Morph skill.","Weapon",3,"I_BLUE",150,"Rapid Morph",1,"",""
-8302,"0AEACFE0","Quickswitch Jewel II [2]","A decoration that grants the
-Rapid Morph skill.","Weapon",4,"I_BLUE",200,"Rapid Morph",2,"",""
-8303,"A2786D80","Quickswitch Jewel III [3]","A decoration that grants the
-Rapid Morph skill.","Weapon",5,"I_BLUE",250,"Rapid Morph",3,"",""
-8310,"0000231C","Quickswitch/Blaze Jwl [3]","A decoration that grants the
+Slugger skills.","Weapon",7915,7,"I_WHITE",350,3,"Punishing Draw",3,"Slugger",1
+271,"C856E240","Gambit/Ironwall Jwl [3]","A decoration that grants the
+Punishing Draw and Guard skills.","Weapon",7920,7,"I_WHITE",350,3,"Punishing Draw",3,"Guard",1
+272,"C762D480","KO Jewel [1]","A decoration that grants
+the Slugger skill.","Weapon",8001,3,"I_YELLOW",150,1,"Slugger",1,"",0
+273,"02A2644C","KO Jewel II [2]","A decoration that grants
+the Slugger skill.","Weapon",8002,4,"I_YELLOW",200,2,"Slugger",2,"",0
+274,"236AD6C0","KO Jewel III [3]","A decoration that grants
+the Slugger skill.","Weapon",8003,5,"I_YELLOW",250,3,"Slugger",3,"",0
+275,"2A9D0B80","Drain Jewel [1]","A decoration that grants
+the Stamina Thief skill.","Weapon",8101,3,"I_SKY",150,1,"Stamina Thief",1,"",0
+276,"9CC98980","Drain Jewel II [2]","A decoration that grants
+the Stamina Thief skill.","Weapon",8102,4,"I_SKY",200,2,"Stamina Thief",2,"",0
+277,"8DAB9100","Drain Jewel III [3]","A decoration that grants
+the Stamina Thief skill.","Weapon",8103,5,"I_SKY",250,3,"Stamina Thief",3,"",0
+278,"05D486E0","Artillery Jewel [1]","A decoration that grants
+the Artillery skill.","Weapon",8201,3,"I_GRAY",150,1,"Artillery",1,"",0
+279,"FAC9F0D0","Artillery Jewel II [2]","A decoration that grants
+the Artillery skill.","Weapon",8202,4,"I_GRAY",200,2,"Artillery",2,"",0
+280,"2E02CD00","Artillery Jewel III [3]","A decoration that grants
+the Artillery skill.","Weapon",8203,5,"I_GRAY",250,3,"Artillery",3,"",0
+281,"48544400","Quickswitch Jewel [1]","A decoration that grants the
+Rapid Morph skill.","Weapon",8301,3,"I_BLUE",150,1,"Rapid Morph",1,"",0
+282,"0AEACFE0","Quickswitch Jewel II [2]","A decoration that grants the
+Rapid Morph skill.","Weapon",8302,4,"I_BLUE",200,2,"Rapid Morph",2,"",0
+283,"A2786D80","Quickswitch Jewel III [3]","A decoration that grants the
+Rapid Morph skill.","Weapon",8303,5,"I_BLUE",250,3,"Rapid Morph",3,"",0
+284,"0000231C","Quickswitch/Blaze Jwl [3]","A decoration that grants the
 Rapid Morph and Fire Attack
-skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Fire Attack",1
-8315,"0000699C","Quickswitch/Stream Jwl [3]","A decoration that grants the
+skills.","Weapon",8310,7,"I_BLUE",350,3,"Rapid Morph",3,"Fire Attack",1
+285,"0000699C","Quickswitch/Stream Jwl [3]","A decoration that grants the
 Rapid Morph and Water Attack
-skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Water Attack",1
-8320,"00004A0E","Quickswitch/Frost Jwl [3]","A decoration that grants the
+skills.","Weapon",8315,7,"I_BLUE",350,3,"Rapid Morph",3,"Water Attack",1
+286,"00004A0E","Quickswitch/Frost Jwl [3]","A decoration that grants the
 Rapid Morph and Ice Attack
-skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Ice Attack",1
-8325,"00005C46","Quickswitch/Bolt Jwl [3]","A decoration that grants the
+skills.","Weapon",8325,7,"I_BLUE",350,3,"Rapid Morph",3,"Ice Attack",1
+287,"00005C46","Quickswitch/Bolt Jwl [3]","A decoration that grants the
 Rapid Morph and Thunder Attack
-skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Thunder Attack",1
-8330,"00000E6A","Quickswitch/Dragon Jwl [3]","A decoration that grants the
+skills.","Weapon",8320,7,"I_BLUE",350,3,"Rapid Morph",3,"Thunder Attack",1
+288,"00000E6A","Quickswitch/Dragon Jwl [3]","A decoration that grants the
 Rapid Morph and Dragon Attack
-skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Dragon Attack",1
-8335,"B8240A00","Quickswitch/Handicraft Jwl [3]","A decoration that grants the
-Rapid Morph and Handicraft skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Handicraft",1
-8340,"6083C600","Quickswitch/KO Jwl [3]","A decoration that grants the
-Rapid Morph and Slugger skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Slugger",1
-8345,"E2EFCA20","Quickswitch/Ironwall Jwl [3]","A decoration that grants the
-Rapid Morph and Guard skills.","Weapon",7,"I_BLUE",350,"Rapid Morph",3,"Guard",1
-8401,"8E12B780","Destroyer Jewel [2]","A decoration that grants the
-Partbreaker skill.","Equipment",4,"I_GRAY",200,"Partbreaker",1,"",""
-8501,"27DDDF40","Phoenix Jewel [2]","A decoration that grants the
-Coalescence skill.","Equipment",7,"I_PURPLE",350,"Coalescence",1,"",""
-8601,"27213440","Ambush Jewel [2]","A decoration that grants the
-Ambush skill.","Equipment",4,"I_PURPLE",200,"Ambush",1,"",""
-8701,"AC75B780","Sane Jewel [1]","A decoration that grants the
-Antivirus skill.","Equipment",5,"I_PURPLE",250,"Antivirus",1,"",""
-8901,"E1ABDDE0","Sonorous Jewel [2]","A decoration that grants
-the Horn Maestro skill.","Weapon",4,"I_WHITE",200,"Horn Maestro",1,"",""
-8910,"9A305380","Sonorous/Attack Jwl [3]","A decoration that grants
+skills.","Weapon",8330,7,"I_BLUE",350,3,"Rapid Morph",3,"Dragon Attack",1
+289,"B8240A00","Quickswitch/Handicraft Jwl [3]","A decoration that grants the
+Rapid Morph and Handicraft skills.","Weapon",8335,7,"I_BLUE",350,3,"Rapid Morph",3,"Handicraft",1
+290,"6083C600","Quickswitch/KO Jwl [3]","A decoration that grants the
+Rapid Morph and Slugger skills.","Weapon",8340,7,"I_BLUE",350,3,"Rapid Morph",3,"Slugger",1
+291,"E2EFCA20","Quickswitch/Ironwall Jwl [3]","A decoration that grants the
+Rapid Morph and Guard skills.","Weapon",8345,7,"I_BLUE",350,3,"Rapid Morph",3,"Guard",1
+292,"8E12B780","Destroyer Jewel [2]","A decoration that grants the
+Partbreaker skill.","Equipment",8401,4,"I_GRAY",200,2,"Partbreaker",1,"",0
+293,"27DDDF40","Phoenix Jewel [2]","A decoration that grants the
+Coalescence skill.","Equipment",8501,7,"I_PURPLE",350,2,"Coalescence",1,"",0
+294,"27213440","Ambush Jewel [2]","A decoration that grants the
+Ambush skill.","Equipment",8601,4,"I_PURPLE",200,2,"Ambush",1,"",0
+295,"AC75B780","Sane Jewel [1]","A decoration that grants the
+Antivirus skill.","Equipment",8701,5,"I_PURPLE",250,1,"Antivirus",1,"",0
+297,"E1ABDDE0","Sonorous Jewel [2]","A decoration that grants
+the Horn Maestro skill.","Weapon",8901,4,"I_WHITE",200,2,"Horn Maestro",1,"",0
+298,"9A305380","Sonorous/Attack Jwl [3]","A decoration that grants
 the Horn Maestro and Attack
-Boost skills.","Weapon",5,"I_WHITE",250,"Horn Maestro",2,"Attack Boost",1
-8915,"F7717020","Sonorous/Expert Jwl [3]","A decoration that grants
+Boost skills.","Weapon",8910,5,"I_WHITE",250,3,"Horn Maestro",2,"Attack Boost",1
+299,"F7717020","Sonorous/Expert Jwl [3]","A decoration that grants
 the Horn Maestro and
-Critical Eye skills.","Weapon",5,"I_WHITE",250,"Horn Maestro",2,"Critical Eye",1
-8920,"1DCA9E20","Sonorous/Draw Jwl [3]","A decoration that grants the
+Critical Eye skills.","Weapon",8915,5,"I_WHITE",250,3,"Horn Maestro",2,"Critical Eye",1
+300,"1DCA9E20","Sonorous/Draw Jwl [3]","A decoration that grants the
 Horn Maestro and Critical
-Draw skills.","Weapon",5,"I_WHITE",250,"Horn Maestro",2,"Critical Draw",1
-8925,"7B7DB600","Sonorous/Handicraft Jwl [3]","A decoration that grants
+Draw skills.","Weapon",8920,5,"I_WHITE",250,3,"Horn Maestro",2,"Critical Draw",1
+301,"7B7DB600","Sonorous/Handicraft Jwl [3]","A decoration that grants
 the Horn Maestro and
-Handicraft skills.","Weapon",5,"I_WHITE",250,"Horn Maestro",2,"Handicraft",1
-8930,"DC7ACF80","Sonorous/KO Jewel [3]","A decoration that grants the
-Horn Maestro and Slugger skills.","Weapon",5,"I_WHITE",250,"Horn Maestro",2,"Slugger",1
-9001,"2F657D00","Charge Up Jewel [2]","A decoration that grants the
-Charge Up skill.","Weapon",4,"I_YELLOW",200,"Charge Up",1,"",""
-9010,"A1B7D480","Charge Up/Attack Jwl [3]","A decoration that grants the
+Handicraft skills.","Weapon",8925,5,"I_WHITE",250,3,"Horn Maestro",2,"Handicraft",1
+302,"DC7ACF80","Sonorous/KO Jewel [3]","A decoration that grants the
+Horn Maestro and Slugger skills.","Weapon",8930,5,"I_WHITE",250,3,"Horn Maestro",2,"Slugger",1
+303,"2F657D00","Charge Up Jewel [2]","A decoration that grants the
+Charge Up skill.","Weapon",9001,4,"I_YELLOW",200,2,"Charge Up",1,"",0
+304,"A1B7D480","Charge Up/Attack Jwl [3]","A decoration that grants the
 Charge Up and Attack Boost
-skills.","Weapon",5,"I_YELLOW",250,"Charge Up",1,"Attack Boost",1
-9015,"37B20F40","Charge Up/Expert Jwl [3]","A decoration that grants the
+skills.","Weapon",9010,5,"I_YELLOW",250,3,"Charge Up",1,"Attack Boost",1
+305,"37B20F40","Charge Up/Expert Jwl [3]","A decoration that grants the
 Charge Up and Critical Eye
-skills.","Weapon",5,"I_YELLOW",250,"Charge Up",1,"Critical Eye",1
-9020,"71DA1800","Charge Up/Draw Jwl [3]","A decoration that grants the
+skills.","Weapon",9015,5,"I_YELLOW",250,3,"Charge Up",1,"Critical Eye",1
+306,"71DA1800","Charge Up/Draw Jwl [3]","A decoration that grants the
 Charge Up and Critical Draw
-skills.","Weapon",5,"I_YELLOW",250,"Charge Up",1,"Critical Draw",1
-9025,"3210BAC0","Charge Up/Handicraft Jwl [3]","A decoration that grants the
-Charge Up and Handicraft skills.","Weapon",5,"I_YELLOW",250,"Charge Up",1,"Handicraft",1
-9030,"D9885280","Charge Up/KO Jewel [3]","A decoration that grants the
-Charge Up and Slugger skills.","Weapon",5,"I_YELLOW",250,"Charge Up",1,"Slugger",1
-9101,"B9C23480","Flight Jewel [2]","A decoration that grants the
-Airborne skill.","Weapon",4,"I_BLUE",200,"Airborne",1,"",""
-9110,"D64B6D40","Flight/Attack Jwl [3]","A decoration that grants the
+skills.","Weapon",9020,5,"I_YELLOW",250,3,"Charge Up",1,"Critical Draw",1
+307,"3210BAC0","Charge Up/Handicraft Jwl [3]","A decoration that grants the
+Charge Up and Handicraft skills.","Weapon",9025,5,"I_YELLOW",250,3,"Charge Up",1,"Handicraft",1
+308,"D9885280","Charge Up/KO Jewel [3]","A decoration that grants the
+Charge Up and Slugger skills.","Weapon",9030,5,"I_YELLOW",250,3,"Charge Up",1,"Slugger",1
+309,"B9C23480","Flight Jewel [2]","A decoration that grants the
+Airborne skill.","Weapon",9101,4,"I_BLUE",200,2,"Airborne",1,"",0
+310,"D64B6D40","Flight/Attack Jwl [3]","A decoration that grants the
 Airborne and Attack Boost
-skills.","Weapon",5,"I_BLUE",250,"Airborne",1,"Attack Boost",1
-9115,"1B71B960","Flight/Expert Jewel [3]","A decoration that grants the
-Airborne and Critical Eye skills.","Weapon",5,"I_BLUE",250,"Airborne",1,"Critical Eye",1
-9120,"C9342FC0","Flight/Draw Jewel [3]","A decoration that grants the
+skills.","Weapon",9110,5,"I_BLUE",250,3,"Airborne",1,"Attack Boost",1
+311,"1B71B960","Flight/Expert Jewel [3]","A decoration that grants the
+Airborne and Critical Eye skills.","Weapon",9115,5,"I_BLUE",250,3,"Airborne",1,"Critical Eye",1
+312,"C9342FC0","Flight/Draw Jewel [3]","A decoration that grants the
 Airborne and Critical Draw
-skills.","Weapon",5,"I_BLUE",250,"Airborne",1,"Critical Draw",1
-9125,"4CC07280","Flight/Handicraft Jwl [3]","A decoration that grants the
-Airborne and Handicraft skills.","Weapon",5,"I_BLUE",250,"Airborne",1,"Handicraft",1
-9201,"DCCBEA00","Growth Jewel [1]","A decoration that grants the
-Self-Improvement skill.","Equipment",3,"I_PURPLE",150,"Self-Improvement",1,"",""
-9301,"95F2EC80","Poison Jewel [2]","A decoration that grants the
-Poison Duration Up skill.","Weapon",5,"I_PURPLE",250,"Poison Duration Up",1,"",""
-9310,"7E39C080","Poison/Attack Jewel [3]","A decoration that grants the
+skills.","Weapon",9120,5,"I_BLUE",250,3,"Airborne",1,"Critical Draw",1
+313,"4CC07280","Flight/Handicraft Jwl [3]","A decoration that grants the
+Airborne and Handicraft skills.","Weapon",9125,5,"I_BLUE",250,3,"Airborne",1,"Handicraft",1
+314,"DCCBEA00","Growth Jewel [1]","A decoration that grants the
+Self-Improvement skill.","Equipment",9201,3,"I_PURPLE",150,1,"Self-Improvement",1,"",0
+315,"95F2EC80","Poison Jewel [2]","A decoration that grants the
+Poison Duration Up skill.","Weapon",9301,5,"I_PURPLE",250,2,"Poison Duration Up",1,"",0
+316,"7E39C080","Poison/Attack Jewel [3]","A decoration that grants the
 Poison Duration Up and Attack
-Boost skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Attack Boost",1
-9315,"14142DA0","Poison/Expert Jwl [3]","A decoration that grants the
+Boost skills.","Weapon",9310,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Attack Boost",1
+317,"14142DA0","Poison/Expert Jwl [3]","A decoration that grants the
 Poison Duration Up and Critical
-Eye skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Critical Eye",1
-9320,"F79D0D00","Poison/Draw Jewel [3]","A decoration that grants the
+Eye skills.","Weapon",9315,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Critical Eye",1
+318,"F79D0D00","Poison/Draw Jewel [3]","A decoration that grants the
 Poison Duration Up and Critical
-Draw skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Critical Draw",1
-9325,"175078C0","Poison/Handicraft Jwl [3]","A decoration that grants the
+Draw skills.","Weapon",9320,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Critical Draw",1
+319,"175078C0","Poison/Handicraft Jwl [3]","A decoration that grants the
 Poison Duration Up and
-Handicraft skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Handicraft",1
-9330,"010B6B6C","Poison/Precise Jwl [3]","A decoration that grants the
+Handicraft skills.","Weapon",9325,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Handicraft",1
+320,"010B6B6C","Poison/Precise Jwl [3]","A decoration that grants the
 Poison Duration Up and
-Ballistics skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Ballistics",1
-9335,"D5E99F40","Poison/KO Jewel [3]","A decoration that grants the
+Ballistics skills.","Weapon",9330,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Ballistics",1
+321,"D5E99F40","Poison/KO Jewel [3]","A decoration that grants the
 Poison Duration Up and Slugger
-skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Slugger",1
-9340,"E8C2C320","Poison/Ironwall Jwl [3]","A decoration that grants the
+skills.","Weapon",9335,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Slugger",1
+322,"E8C2C320","Poison/Ironwall Jwl [3]","A decoration that grants the
 Poison Duration Up and Guard
-skills.","Weapon",6,"I_PURPLE",300,"Poison Duration Up",1,"Guard",1
-9401,"FA257A50","Ironwall Jewel [1]","A decoration that grants
-the Guard skill.","Weapon",3,"I_GRAY",150,"Guard",1,"",""
-9402,"75477900","Ironwall Jewel II [2]","A decoration that grants
-the Guard skill.","Weapon",4,"I_GRAY",200,"Guard",2,"",""
-9403,"7789C000","Ironwall Jewel III [3]","A decoration that grants
-the Guard skill.","Weapon",5,"I_GRAY",250,"Guard",3,"",""
-9501,"581C1580","Evasion Jewel [2]","A decoration that grants
-the Evade Window skill.","Equipment",4,"I_SKY",200,"Evade Window",1,"",""
-9601,"A778B480","Jumping Jewel [2]","A decoration that grants
-the Evade Extender skill.","Equipment",4,"I_SKY",200,"Evade Extender",1,"",""
-9701,"ACFDDE80","Earplugs Jewel [2]","A decoration that grants
-the Earplugs skill.","Equipment",4,"I_WHITE",200,"Earplugs",1,"",""
-9801,"561A2C00","Shield Jewel [1]","A decoration that grants
-the Guard Up skill.","Weapon",3,"I_SKY",150,"Guard Up",1,"",""
-9802,"F4264260","Shield Jewel II [2]","A decoration that grants
-the Guard Up skill.","Weapon",4,"I_SKY",200,"Guard Up",2,"",""
-9803,"40E80580","Shield Jewel III [3]","A decoration that grants
-the Guard Up skill.","Weapon",5,"I_SKY",250,"Guard Up",3,"",""
-9810,"00006593","Shield/Blaze Jewel [3]","A decoration that grants the
-Guard Up and Fire Attack skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Fire Attack",1
-9815,"00000114","Shield/Stream Jewel [3]","A decoration that grants the
+skills.","Weapon",9340,6,"I_PURPLE",300,3,"Poison Duration Up",1,"Guard",1
+323,"FA257A50","Ironwall Jewel [1]","A decoration that grants
+the Guard skill.","Weapon",9401,3,"I_GRAY",150,1,"Guard",1,"",0
+324,"75477900","Ironwall Jewel II [2]","A decoration that grants
+the Guard skill.","Weapon",9402,4,"I_GRAY",200,2,"Guard",2,"",0
+325,"7789C000","Ironwall Jewel III [3]","A decoration that grants
+the Guard skill.","Weapon",9403,5,"I_GRAY",250,3,"Guard",3,"",0
+326,"581C1580","Evasion Jewel [2]","A decoration that grants
+the Evade Window skill.","Equipment",9501,4,"I_SKY",200,2,"Evade Window",1,"",0
+327,"A778B480","Jumping Jewel [2]","A decoration that grants
+the Evade Extender skill.","Equipment",9601,4,"I_SKY",200,2,"Evade Extender",1,"",0
+328,"ACFDDE80","Earplugs Jewel [2]","A decoration that grants
+the Earplugs skill.","Equipment",9701,4,"I_WHITE",200,2,"Earplugs",1,"",0
+329,"561A2C00","Shield Jewel [1]","A decoration that grants
+the Guard Up skill.","Weapon",9801,3,"I_SKY",150,1,"Guard Up",1,"",0
+330,"F4264260","Shield Jewel II [2]","A decoration that grants
+the Guard Up skill.","Weapon",9802,4,"I_SKY",200,2,"Guard Up",2,"",0
+331,"40E80580","Shield Jewel III [3]","A decoration that grants
+the Guard Up skill.","Weapon",9803,5,"I_SKY",250,3,"Guard Up",3,"",0
+332,"00006593","Shield/Blaze Jewel [3]","A decoration that grants the
+Guard Up and Fire Attack skills.","Weapon",9810,6,"I_SKY",300,3,"Guard Up",3,"Fire Attack",1
+333,"00000114","Shield/Stream Jewel [3]","A decoration that grants the
 Guard Up and Water Attack
-skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Water Attack",1
-9820,"00002388","Shield/Frost Jewel [3]","A decoration that grants the
-Guard Up and Ice Attack skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Ice Attack",1
-9825,"00002FD1","Shield/Bolt Jewel [3]","A decoration that grants the
+skills.","Weapon",9815,6,"I_SKY",300,3,"Guard Up",3,"Water Attack",1
+334,"00002388","Shield/Frost Jewel [3]","A decoration that grants the
+Guard Up and Ice Attack skills.","Weapon",9825,6,"I_SKY",300,3,"Guard Up",3,"Ice Attack",1
+335,"00002FD1","Shield/Bolt Jewel [3]","A decoration that grants the
 Guard Up and Thunder Attack
-skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Thunder Attack",1
-9830,"00004F3F","Shield/Dragon Jwl [3]","A decoration that grants the
+skills.","Weapon",9820,6,"I_SKY",300,3,"Guard Up",3,"Thunder Attack",1
+336,"00004F3F","Shield/Dragon Jwl [3]","A decoration that grants the
 Guard Up and Dragon Attack
-skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Dragon Attack",1
-9835,"DF68C0C0","Shield/Handicraft Jwl [3]","A decoration that grants the
-Guard Up and Handicraft skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Handicraft",1
-9840,"560CCD00","Shield/Ironwall Jwl [3]","A decoration that grants the
-Guard Up and Guard skills.","Weapon",6,"I_SKY",300,"Guard Up",3,"Guard",1
-9901,"F424A430","Sheath Jewel [1]","A decoration that grants
-the Quick Sheathe skill.","Equipment",3,"I_BROWN",150,"Quick Sheathe",1,"",""
-10001,"D4BF4F40","Wind Resist Jewel [1]","A decoration that grants the
-Windproof skill.","Equipment",3,"I_WHITE",150,"Windproof",1,"",""
-10101,"7D229980","Footing Jewel [1]","A decoration that grants the
-Tremor Resistance skill.","Equipment",3,"I_GRAY",150,"Tremor Resistance",1,"",""
-10201,"E71DB2E0","Brace Jewel [1]","A decoration that grants the
-Flinch Free skill.","Equipment",3,"I_GRAY",150,"Flinch Free",1,"",""
-10301,"7FDCEB00","Intimidator Jewel [1]","A decoration that grants the
-Intimidator skill.","Equipment",3,"I_WHITE",150,"Intimidator",1,"",""
-10401,"2672BA80","Gobbler Jewel [1]","A decoration that grants
-the Speed Eating skill.","Equipment",3,"I_BROWN",150,"Speed Eating",1,"",""
-10501,"11C86280","Magazine Jewel [1]","A decoration that grants
-the Load Shells skill.","Weapon",3,"I_GRAY",150,"Load Shells",1,"",""
-10502,"99420100","Magazine Jewel II [2]","A decoration that grants
-the Load Shells skill.","Weapon",4,"I_GRAY",200,"Load Shells",2,"",""
-10510,"77764280","Magazine/Attack Jwl [3]","A decoration that grants the
+skills.","Weapon",9830,6,"I_SKY",300,3,"Guard Up",3,"Dragon Attack",1
+337,"DF68C0C0","Shield/Handicraft Jwl [3]","A decoration that grants the
+Guard Up and Handicraft skills.","Weapon",9835,6,"I_SKY",300,3,"Guard Up",3,"Handicraft",1
+338,"560CCD00","Shield/Ironwall Jwl [3]","A decoration that grants the
+Guard Up and Guard skills.","Weapon",9840,6,"I_SKY",300,3,"Guard Up",3,"Guard",1
+339,"F424A430","Sheath Jewel [1]","A decoration that grants
+the Quick Sheathe skill.","Equipment",9901,3,"I_BROWN",150,1,"Quick Sheathe",1,"",0
+340,"D4BF4F40","Wind Resist Jewel [1]","A decoration that grants the
+Windproof skill.","Equipment",10001,3,"I_WHITE",150,1,"Windproof",1,"",0
+341,"7D229980","Footing Jewel [1]","A decoration that grants the
+Tremor Resistance skill.","Equipment",10101,3,"I_GRAY",150,1,"Tremor Resistance",1,"",0
+342,"E71DB2E0","Brace Jewel [1]","A decoration that grants the
+Flinch Free skill.","Equipment",10201,3,"I_GRAY",150,1,"Flinch Free",1,"",0
+343,"7FDCEB00","Intimidator Jewel [1]","A decoration that grants the
+Intimidator skill.","Equipment",10301,3,"I_WHITE",150,1,"Intimidator",1,"",0
+344,"2672BA80","Gobbler Jewel [1]","A decoration that grants
+the Speed Eating skill.","Equipment",10401,3,"I_BROWN",150,1,"Speed Eating",1,"",0
+345,"11C86280","Magazine Jewel [1]","A decoration that grants
+the Load Shells skill.","Weapon",10501,3,"I_GRAY",150,1,"Load Shells",1,"",0
+346,"99420100","Magazine Jewel II [2]","A decoration that grants
+the Load Shells skill.","Weapon",10502,4,"I_GRAY",200,2,"Load Shells",2,"",0
+347,"77764280","Magazine/Attack Jwl [3]","A decoration that grants the
 Load Shells and Attack
-Boost skills.","Weapon",5,"I_GRAY",250,"Load Shells",2,"Attack Boost",1
-10515,"BF783600","Magazine/Expert Jwl [3]","A decoration that grants the
+Boost skills.","Weapon",10510,5,"I_GRAY",250,3,"Load Shells",2,"Attack Boost",1
+348,"BF783600","Magazine/Expert Jwl [3]","A decoration that grants the
 Load Shells and Critical
-Eye skills.","Weapon",5,"I_GRAY",250,"Load Shells",2,"Critical Eye",1
-10520,"D7990A00","Magazine/Draw Jwl [3]","A decoration that grants the
+Eye skills.","Weapon",10515,5,"I_GRAY",250,3,"Load Shells",2,"Critical Eye",1
+349,"D7990A00","Magazine/Draw Jwl [3]","A decoration that grants the
 Load Shells and Critical
-Draw skills.","Weapon",5,"I_GRAY",250,"Load Shells",2,"Critical Draw",1
-10525,"E65BB200","Magazine/Handicraft Jwl [3]","A decoration that grants
+Draw skills.","Weapon",10520,5,"I_GRAY",250,3,"Load Shells",2,"Critical Draw",1
+350,"E65BB200","Magazine/Handicraft Jwl [3]","A decoration that grants
 the Load Shells and
-Handicraft skills.","Weapon",5,"I_GRAY",250,"Load Shells",2,"Handicraft",1
-10530,"24DEC540","Magazine/Ironwall Jwl [3]","A decoration that grants the
-Load Shells and Guard skills.","Weapon",5,"I_GRAY",250,"Load Shells",2,"Guard",1
-10601,"99139A00","Mirewalker Jewel [1]","A decoration that grants the
-Aquatic/Oilsilt Mobility skill.","Equipment",3,"I_GRAY",150,"Aquatic/Oilsilt Mobility",1,"",""
-10701,"33994F00","Shockproof Jewel [1]","A decoration that grants the
-Shock Absorber skill.","Equipment",3,"I_GRAY",150,"Shock Absorber",1,"",""
-10801,"E87CBDC0","Dive Jewel [1]","A decoration that grants
-the Leap of Faith skill.","Equipment",3,"I_SKY",150,"Leap of Faith",1,"",""
-10901,"BC196380","Leap Jewel [1]","A decoration that grants
-the Jump Master skill.","Equipment",3,"I_ULTRAMARINE",150,"Jump Master",1,"",""
-11001,"73403080","Climber Jewel [1]","A decoration that grants the
-Cliffhanger skill.","Equipment",3,"I_IVORY",150,"Cliffhanger",1,"",""
-11101,"6737DD80","Friendship Jewel [1]","A decoration that grants
-the Wide-Range skill.","Equipment",3,"I_WHITE",150,"Wide-Range",1,"",""
-11201,"38E23B40","Maintenance Jewel [2]","A decoration that grants the
-Tool Specialist skill.","Equipment",4,"I_IVORY",200,"Tool Specialist",1,"",""
-11301,"EC982A60","Bomber Jewel [1]","A decoration that grants
-the Bombardier skill.","Equipment",3,"I_VERMILION",150,"Bombardier",1,"",""
-11401,"FDE83C14","Fungiform Jewel [2]","A decoration that grants
-the Mushroomancer skill.","Equipment",4,"I_PURPLE",200,"Mushroomancer",1,"",""
-11501,"7BAD4600","Enduring Jewel [1]","A decoration that grants
-the Item Prolonger skill.","Equipment",3,"I_IVORY",150,"Item Prolonger",1,"",""
-11601,"F571B800","Satiated Jewel [1]","A decoration that grants
-the Free Meal skill.","Equipment",3,"I_IVORY",150,"Free Meal",1,"",""
-11701,"0077B266","Grinder Jewel [1]","A decoration that grants
-the Speed Sharpening skill.","Weapon",3,"I_YELLOW",150,"Speed Sharpening",1,"",""
-11702,"004CBAEE","Grinder Jewel II [2]","A decoration that grants
-the Speed Sharpening skill.","Weapon",4,"I_YELLOW",200,"Speed Sharpening",2,"",""
-11710,"415AD700","Grinder/Attack Jewel [3]","A decoration that grants the
+Handicraft skills.","Weapon",10525,5,"I_GRAY",250,3,"Load Shells",2,"Handicraft",1
+351,"24DEC540","Magazine/Ironwall Jwl [3]","A decoration that grants the
+Load Shells and Guard skills.","Weapon",10530,5,"I_GRAY",250,3,"Load Shells",2,"Guard",1
+352,"99139A00","Mirewalker Jewel [1]","A decoration that grants the
+Aquatic/Oilsilt Mobility skill.","Equipment",10601,3,"I_GRAY",150,1,"Aquatic/Oilsilt Mobility",1,"",0
+353,"33994F00","Shockproof Jewel [1]","A decoration that grants the
+Shock Absorber skill.","Equipment",10701,3,"I_GRAY",150,1,"Shock Absorber",1,"",0
+354,"E87CBDC0","Dive Jewel [1]","A decoration that grants
+the Leap of Faith skill.","Equipment",10801,3,"I_SKY",150,1,"Leap of Faith",1,"",0
+355,"BC196380","Leap Jewel [1]","A decoration that grants
+the Jump Master skill.","Equipment",10901,3,"I_ULTRAMARINE",150,1,"Jump Master",1,"",0
+356,"73403080","Climber Jewel [1]","A decoration that grants the
+Cliffhanger skill.","Equipment",11001,3,"I_IVORY",150,1,"Cliffhanger",1,"",0
+357,"6737DD80","Friendship Jewel [1]","A decoration that grants
+the Wide-Range skill.","Equipment",11101,3,"I_WHITE",150,1,"Wide-Range",1,"",0
+358,"38E23B40","Maintenance Jewel [2]","A decoration that grants the
+Tool Specialist skill.","Equipment",11201,4,"I_IVORY",200,2,"Tool Specialist",1,"",0
+359,"EC982A60","Bomber Jewel [1]","A decoration that grants
+the Bombardier skill.","Equipment",11301,3,"I_VERMILION",150,1,"Bombardier",1,"",0
+360,"FDE83C14","Fungiform Jewel [2]","A decoration that grants
+the Mushroomancer skill.","Equipment",11401,4,"I_PURPLE",200,2,"Mushroomancer",1,"",0
+361,"7BAD4600","Enduring Jewel [1]","A decoration that grants
+the Item Prolonger skill.","Equipment",11501,3,"I_IVORY",150,1,"Item Prolonger",1,"",0
+362,"F571B800","Satiated Jewel [1]","A decoration that grants
+the Free Meal skill.","Equipment",11601,3,"I_IVORY",150,1,"Free Meal",1,"",0
+363,"0077B266","Grinder Jewel [1]","A decoration that grants
+the Speed Sharpening skill.","Weapon",11701,3,"I_YELLOW",150,1,"Speed Sharpening",1,"",0
+364,"004CBAEE","Grinder Jewel II [2]","A decoration that grants
+the Speed Sharpening skill.","Weapon",11702,4,"I_YELLOW",200,2,"Speed Sharpening",2,"",0
+365,"415AD700","Grinder/Attack Jewel [3]","A decoration that grants the
 Speed Sharpening and Attack
-Boost skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Attack Boost",1
-11715,"D753C040","Grinder/Expert Jewel [3]","A decoration that grants the
+Boost skills.","Weapon",11710,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Attack Boost",1
+366,"D753C040","Grinder/Expert Jewel [3]","A decoration that grants the
 Speed Sharpening and Critical
-Eye skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Critical Eye",1
-11720,"A009EC00","Grinder/Draw Jewel [3]","A decoration that grants the
+Eye skills.","Weapon",11715,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Critical Eye",1
+367,"A009EC00","Grinder/Draw Jewel [3]","A decoration that grants the
 Speed Sharpening and Critical
-Draw skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Critical Draw",1
-11725,"95DBA700","Grinder/Handicraft Jwl [3]","A decoration that grants
+Draw skills.","Weapon",11720,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Critical Draw",1
+368,"95DBA700","Grinder/Handicraft Jwl [3]","A decoration that grants
 the Speed Sharpening and
-Handicraft skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Handicraft",1
-11730,"F9E9C2F8","Grinder/KO Jewel [3]","A decoration that grants
+Handicraft skills.","Weapon",11725,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Handicraft",1
+369,"F9E9C2F8","Grinder/KO Jewel [3]","A decoration that grants
 the Speed Sharpening and
-Slugger skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Slugger",1
-11735,"9EC23C80","Grinder/Ironwall Jewel [3]","A decoration that grants
+Slugger skills.","Weapon",11730,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Slugger",1
+370,"9EC23C80","Grinder/Ironwall Jewel [3]","A decoration that grants
 the Speed Sharpening and
-Guard skills.","Weapon",5,"I_YELLOW",250,"Speed Sharpening",2,"Guard",1
-11901,"495DA980","Flash Jewel [1]","A decoration that grants the
-Blindsider skill.","Equipment",3,"I_YELLOW",150,"Blindsider",1,"",""
-12001,"76041700","Botany Jewel [1]","A decoration that grants
-the Botanist skill.","Equipment",3,"I_SGREEN",150,"Botanist",1,"",""
-12101,"ED21C9A0","Geology Jewel [1]","A decoration that grants
-the Geologist skill.","Equipment",3,"I_IVORY",150,"Geologist",1,"",""
-12201,"97BA1600","Specimen Jewel [1]","A decoration that grants the
-Entomologist skill.","Equipment",3,"I_MOS",150,"Entomologist",1,"",""
-12301,"0453BD20","Ranger Jewel [1]","A decoration that grants the
-Outdoorsman skill.","Equipment",3,"I_IVORY",150,"Outdoorsman",1,"",""
+Guard skills.","Weapon",11735,5,"I_YELLOW",250,3,"Speed Sharpening",2,"Guard",1
+372,"495DA980","Flash Jewel [1]","A decoration that grants the
+Blindsider skill.","Equipment",11901,3,"I_YELLOW",150,1,"Blindsider",1,"",0
+373,"76041700","Botany Jewel [1]","A decoration that grants
+the Botanist skill.","Equipment",12001,3,"I_SGREEN",150,1,"Botanist",1,"",0
+374,"ED21C9A0","Geology Jewel [1]","A decoration that grants
+the Geologist skill.","Equipment",12101,3,"I_IVORY",150,1,"Geologist",1,"",0
+375,"97BA1600","Specimen Jewel [1]","A decoration that grants the
+Entomologist skill.","Equipment",12201,3,"I_MOS",150,1,"Entomologist",1,"",0
+376,"0453BD20","Ranger Jewel [1]","A decoration that grants the
+Outdoorsman skill.","Equipment",12301,3,"I_IVORY",150,1,"Outdoorsman",1,"",0

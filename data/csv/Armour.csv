@@ -1,539 +1,1952 @@
-"Index","Name","Type","Series","Defense","Fire Res","Water Res","Thunder Res","Ice Res","Dragon Res","Slot 1","Slot 2","Slot 3","Series Skill","Group Skill","Skill 1","Skill Level 1","Skill 2","Skill Level 2","Skill 3","Skill Level 3"
-0,"Hope Mask","HELM","Hope",2,1,0,1,0,0,0,0,0,"","","Stun Resistance",1,"","","",""
-1,"Hope Mail","BODY","Hope",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
-2,"Hope Vambraces","ARM","Hope",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
-3,"Hope Coil","WAIST","Hope",2,1,0,1,0,0,0,0,0,"","","Stun Resistance",1,"","","",""
-4,"Hope Greaves","LEG","Hope",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
-5,"Leather Headgear","HELM","Leather",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
-6,"Leather Vest","BODY","Leather",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
-7,"Leather Gloves","ARM","Leather",2,2,0,0,0,0,0,0,0,"","","Hunger Resistance",1,"","","",""
-8,"Leather Belt","WAIST","Leather",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
-9,"Leather Pants","LEG","Leather",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
-10,"Chainmail Headgear","HELM","Chainmail",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
-11,"Chainmail Vest","BODY","Chainmail",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
-12,"Chainmail Gloves","ARM","Chainmail",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
-13,"Chainmail Belt","WAIST","Chainmail",2,0,2,0,0,0,0,0,0,"","","Recovery Speed",1,"","","",""
-14,"Chainmail Pants","LEG","Chainmail",2,0,2,0,0,0,0,0,0,"","","Recovery Speed",1,"","","",""
-15,"Bone Helm","HELM","Bone",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
-16,"Bone Mail","BODY","Bone",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
-17,"Bone Vambraces","ARM","Bone",4,2,0,2,0,2,0,0,0,"","","Stun Resistance",1,"","","",""
-18,"Bone Coil","WAIST","Bone",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
-19,"Bone Greaves","LEG","Bone",4,2,0,2,0,2,0,0,0,"","","Stun Resistance",1,"","","",""
-20,"Bulaqchi Specs","HELM","Bulaqchi",4,-4,1,1,-2,4,0,0,0,"","Neopteron Alert","Entomologist",1,"","","",""
-21,"Talioth Vambraces","ARM","Talioth",4,4,-2,-2,-2,2,0,0,0,"","Flexible Leathercraft","Leap of Faith",1,"","","",""
-22,"Chatacabra Helm","HELM","Chatacabra",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
-23,"Chatacabra Mail","BODY","Chatacabra",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
-24,"Chatacabra Vambraces","ARM","Chatacabra",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"","","",""
-25,"Chatacabra Coil","WAIST","Chatacabra",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
-26,"Chatacabra Greaves","LEG","Chatacabra",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"","","",""
-27,"Quematrice Helm","HELM","Quematrice",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
-28,"Quematrice Mail","BODY","Quematrice",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"","","",""
-29,"Quematrice Braces","ARM","Quematrice",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
-30,"Quematrice Coil","WAIST","Quematrice",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"","","",""
-31,"Quematrice Greaves","LEG","Quematrice",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
-32,"Alloy Helm","HELM","Alloy",6,-2,1,-2,-2,1,0,0,0,"","","Quick Sheathe",1,"","","",""
-33,"Alloy Mail","BODY","Alloy",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
-34,"Alloy Vambraces","ARM","Alloy",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
-35,"Alloy Coil","WAIST","Alloy",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
-36,"Alloy Greaves","LEG","Alloy",6,-2,1,-2,-2,1,0,0,0,"","","Quick Sheathe",1,"","","",""
-37,"Piragill Greaves","LEG","Piragill",4,-3,4,-3,1,1,0,0,0,"","Flexible Leathercraft","Water Resistance",1,"","","",""
-39,"Vespoid Helm","HELM","Vespoid",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
-40,"Vespoid Mail","BODY","Vespoid",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
-41,"Vespoid Vambraces","ARM","Vespoid",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
-42,"Vespoid Coil","WAIST","Vespoid",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
-43,"Vespoid Greaves","LEG","Vespoid",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
-44,"Barina Headgear","HELM","Lala Barina",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
-45,"Barina Mail","BODY","Lala Barina",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
-46,"Barina Vambraces","ARM","Lala Barina",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
-47,"Barina Coil","WAIST","Lala Barina",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
-48,"Barina Greaves","LEG","Lala Barina",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
-49,"Conga Helm","HELM","Conga",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
-50,"Conga Mail","BODY","Conga",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
-51,"Conga Vambraces","ARM","Conga",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Stench Resistance",1,"","","",""
-52,"Conga Coil","WAIST","Conga",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Stench Resistance",1,"","","",""
-53,"Conga Greaves","LEG","Conga",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
-54,"Balahara Helm","HELM","Balahara",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Hunger Resistance",1,"","","",""
-55,"Balahara Mail","BODY","Balahara",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Quick Sheathe",1,"","","",""
-56,"Balahara Vambraces","ARM","Balahara",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
-57,"Balahara Coil","WAIST","Balahara",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
-58,"Balahara Greaves","LEG","Balahara",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
-59,"Doshaguma Helm","HELM","Doshaguma",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
-60,"Doshaguma Mail","BODY","Doshaguma",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
-61,"Doshaguma Braces","ARM","Doshaguma",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Recovery Speed",1,"","","",""
-62,"Doshaguma Coil","WAIST","Doshaguma",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Item Prolonger",1,"","","",""
-63,"Doshaguma Greaves","LEG","Doshaguma",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
-64,"Duna Helm","HELM","Uth Duna",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"Tool Specialist",1,"",""
-65,"Duna Mail","BODY","Uth Duna",26,-1,4,-3,0,0,1,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"","","",""
-66,"Duna Vambraces","ARM","Uth Duna",26,-1,4,-3,0,0,1,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",1,"","","",""
-67,"Duna Coil","WAIST","Uth Duna",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",1,"Aquatic/Oilsilt Mobility",1,"",""
-68,"Duna Greaves","LEG","Uth Duna",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"","","",""
-69,"Ingot Helm","HELM","Ingot",16,-2,0,3,-1,0,0,0,0,"","","Divine Blessing",1,"","","",""
-70,"Ingot Mail","BODY","Ingot",16,-2,0,3,-1,0,0,0,0,"","","Windproof",1,"","","",""
-71,"Ingot Vambraces","ARM","Ingot",16,-2,0,3,-1,0,0,0,0,"","","Stun Resistance",1,"","","",""
-72,"Ingot Coil","WAIST","Ingot",16,-2,0,3,-1,0,0,0,0,"","","Divine Blessing",1,"","","",""
-73,"Ingot Greaves","LEG","Ingot",16,-2,0,3,-1,0,0,0,0,"","","Windproof",1,"","","",""
-74,"Kranodath Mail","BODY","Kranodath",16,4,-2,0,-2,0,0,0,0,"","Scaling Prowess","Flinch Free",2,"","","",""
-75,"Rompopolo Helm","HELM","Rompopolo",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
-76,"Rompopolo Mail","BODY","Rompopolo",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
-77,"Rompopolo Vambraces","ARM","Rompopolo",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Poison Resistance",1,"",""
-78,"Rompopolo Coil","WAIST","Rompopolo",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Poison Resistance",1,"",""
-79,"Rompopolo Greaves","LEG","Rompopolo",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
-80,"Rey Sandhelm","HELM","Rey Dau",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"","","",""
-81,"Rey Sandmail","BODY","Rey Dau",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Constitution",1,"","","",""
-82,"Rey Sandbraces","ARM","Rey Dau",26,0,-2,4,-3,0,1,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"","","",""
-83,"Rey Sandcoil","WAIST","Rey Dau",26,0,-2,4,-3,0,1,0,0,"Rey Dau's Voltage","Lord's Favor","Constitution",1,"","","",""
-84,"Rey Sandgreaves","LEG","Rey Dau",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"Constitution",1,"",""
-85,"Comaqchi Accessory","HELM","Comaqchi",16,-5,0,0,3,3,0,0,0,"","Neopteron Alert","Sleep Resistance",1,"","","",""
-86,"Nerscylla Helm","HELM","Nerscylla",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
-87,"Nerscylla Mail","BODY","Nerscylla",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Poison Resistance",1,"",""
-88,"Nerscylla Vambraces","ARM","Nerscylla",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
-89,"Nerscylla Coil","WAIST","Nerscylla",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Sleep Resistance",1,"",""
-90,"Nerscylla Greaves","LEG","Nerscylla",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
-91,"Hirabami Headdress","HELM","Hirabami",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Recovery Speed",1,"",""
-92,"Hirabami Mail","BODY","Hirabami",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Recovery Speed",1,"",""
-93,"Hirabami Vambraces","ARM","Hirabami",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
-94,"Hirabami Coil","WAIST","Hirabami",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
-95,"Hirabami Greaves","LEG","Hirabami",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
-96,"Ajarakan Helm","HELM","Ajarakan",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"Bombardier",1,"",""
-97,"Ajarakan Mail","BODY","Ajarakan",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"","","",""
-98,"Ajarakan Vambraces","ARM","Ajarakan",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Bombardier",1,"Cliffhanger",1,"",""
-99,"Ajarakan Coil","WAIST","Ajarakan",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Bombardier",1,"Blast Resistance",1,"",""
-100,"Ajarakan Greaves","LEG","Ajarakan",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"Blast Resistance",1,"",""
-101,"Udra Mirehelm","HELM","Nu Udra",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"","","",""
-102,"Udra Miremail","BODY","Nu Udra",26,5,-4,0,1,0,0,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"Speed Eating",1,"",""
-103,"Udra Mirebraces","ARM","Nu Udra",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",1,"","","",""
-104,"Udra Mirecoil","WAIST","Nu Udra",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"","","",""
-105,"Udra Miregreaves","LEG","Nu Udra",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",1,"","","",""
-106,"G. Seikret Coil","WAIST","Guardian Seikret",22,0,0,4,0,-3,1,0,0,"","Guardian's Pulse","Jump Master",1,"","","",""
-107,"G. Doshaguma Helm","HELM","Guardian Doshaguma",26,-3,2,-1,-2,2,1,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"","","",""
-108,"G. Doshaguma Mail","BODY","Guardian Doshaguma",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Iron Skin",1,"",""
-109,"G. Doshaguma Braces","ARM","Guardian Doshaguma",26,-3,2,-1,-2,2,1,0,0,"Doshaguma's Might","Guardian's Pulse","Marathon Runner",1,"","","",""
-110,"G. Doshaguma Coil","WAIST","Guardian Doshaguma",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Marathon Runner",1,"",""
-111,"G. Doshaguma Greaves","LEG","Guardian Doshaguma",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Marathon Runner",1,"Iron Skin",1,"",""
-112,"G. Rathalos Helm","HELM","Guardian Rathalos",26,3,1,-2,1,-5,0,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",1,"",""
-113,"G. Rathalos Mail","BODY","Guardian Rathalos",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Intimidator",1,"","","",""
-114,"G. Rathalos Vambraces","ARM","Guardian Rathalos",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"","","",""
-115,"G. Rathalos Coil","WAIST","Guardian Rathalos",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Intimidator",1,"","","",""
-116,"G. Rathalos Greaves","LEG","Guardian Rathalos",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"","","",""
-117,"G. Ebony Helm","HELM","Guardian Ebony",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"","","",""
-118,"G. Ebony Mail","BODY","Guardian Ebony",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Bleeding Resistance",1,"","","",""
-119,"G. Ebony Braces","ARM","Guardian Ebony",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"","","",""
-120,"G. Ebony Coil","WAIST","Guardian Ebony",26,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"Bleeding Resistance",1,"",""
-121,"G. Ebony Greaves","LEG","Guardian Ebony",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Bleeding Resistance",1,"","","",""
-122,"Xu Wu Helm","HELM","Xu Wu",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Maximum Might",1,"","","",""
-123,"Xu Wu Mail","BODY","Xu Wu",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"","","",""
-124,"Xu Wu Vambraces","ARM","Xu Wu",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Maximum Might",1,"","","",""
-125,"Xu Wu Coil","WAIST","Xu Wu",26,1,1,1,-3,2,0,0,0,"","Flexible Leathercraft","Maximum Might",1,"Stamina Surge",1,"",""
-126,"Xu Wu Greaves","LEG","Xu Wu",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"","","",""
-127,"G. Arkveld Helm","HELM","Guardian Arkveld",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"","","",""
-128,"G. Arkveld Mail","BODY","Guardian Arkveld",30,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"Blight Resistance",1,"",""
-129,"G. Arkveld Vambraces","ARM","Guardian Arkveld",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"","","",""
-130,"G. Arkveld Coil","WAIST","Guardian Arkveld",30,2,0,-1,0,-4,1,1,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Blight Resistance",1,"","","",""
-131,"G. Arkveld Greaves","LEG","Guardian Arkveld",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Blight Resistance",1,"","","",""
-132,"Hope Mask α","HELM","Hope α",26,1,0,1,0,0,1,0,0,"","","Divine Blessing",2,"","","",""
-133,"Hope Mail α","BODY","Hope α",26,1,0,1,0,0,1,1,0,"","","Poison Resistance",1,"","","",""
-134,"Hope Vambraces α","ARM","Hope α",26,1,0,1,0,0,1,1,0,"","","Sleep Resistance",1,"","","",""
-135,"Hope Coil α","WAIST","Hope α",26,1,0,1,0,0,1,0,0,"","","Divine Blessing",1,"Stun Resistance",1,"",""
-136,"Hope Greaves α","LEG","Hope α",26,1,0,1,0,0,1,0,0,"","","Stun Resistance",2,"","","",""
-137,"Leather Headgear α","HELM","Leather α",26,2,0,0,0,0,1,0,0,"","","Botanist",2,"","","",""
-138,"Leather Mail α","BODY","Leather α",26,2,0,0,0,0,1,0,0,"","","Botanist",1,"Item Prolonger",1,"",""
-139,"Leather Gloves α","ARM","Leather α",26,2,0,0,0,0,1,0,0,"","","Botanist",1,"Hunger Resistance",1,"",""
-140,"Leather Belt α","WAIST","Leather α",26,2,0,0,0,0,1,1,0,"","","Hunger Resistance",1,"","","",""
-141,"Leather Pants α","LEG","Leather α",26,2,0,0,0,0,1,0,0,"","","Hunger Resistance",1,"Item Prolonger",1,"",""
-142,"Chainmail Headgear α","HELM","Chainmail α",26,0,2,0,0,0,1,1,0,"","","Geologist",1,"","","",""
-143,"Chainmail Armor α","BODY","Chainmail α",26,0,2,0,0,0,1,0,0,"","","Geologist",1,"Ice Resistance",1,"",""
-144,"Chainmail Gloves α","ARM","Chainmail α",26,0,2,0,0,0,1,0,0,"","","Geologist",1,"Recovery Speed",1,"",""
-145,"Chainmail Belt α","WAIST","Chainmail α",26,0,2,0,0,0,1,0,0,"","","Recovery Speed",1,"Ice Resistance",1,"",""
-146,"Chainmail Pants α","LEG","Chainmail α",26,0,2,0,0,0,1,1,0,"","","Recovery Speed",1,"","","",""
-157,"Bulaqchi Specs α","HELM","Bulaqchi α",32,-4,1,1,-2,4,0,0,0,"","Neopteron Alert","Entomologist",1,"Weakness Exploit",1,"",""
-158,"Bulaqchi Specs β","HELM","Bulaqchi β",32,-4,1,1,-2,4,2,1,0,"","Neopteron Camouflage","Entomologist",1,"","","",""
-159,"Talioth Vambraces α","ARM","Talioth α",32,4,-2,-2,-2,2,0,0,0,"","Flexible Leathercraft","Leap of Faith",1,"Burst",1,"",""
-160,"Talioth Vambraces β","ARM","Talioth β",32,4,-2,-2,-2,2,2,1,0,"","Buttery Leathercraft","Leap of Faith",1,"","","",""
-161,"Piragill Greaves α","LEG","Piragill α",32,-3,4,-3,1,1,0,0,0,"","Flexible Leathercraft","Aquatic/Oilsilt Mobility",1,"Water Resistance",2,"",""
-162,"Piragill Greaves β","LEG","Piragill β",32,-3,4,-3,1,1,2,0,0,"","Buttery Leathercraft","Aquatic/Oilsilt Mobility",1,"","","",""
-163,"Vespoid Helm α","HELM","Vespoid α",32,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"Ambush",1,"",""
-164,"Vespoid Mail α","BODY","Vespoid α",32,-2,1,1,1,2,1,0,0,"","Neopteron Alert","Survival Expert",1,"Evade Window",1,"",""
-165,"Vespoid Vambraces α","ARM","Vespoid α",32,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Ambush",1,"",""
-166,"Vespoid Coil α","WAIST","Vespoid α",32,-2,1,1,1,2,1,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Evade Window",1,"",""
-167,"Vespoid Greaves α","LEG","Vespoid α",32,-2,1,1,1,2,1,1,0,"","Neopteron Alert","Survival Expert",1,"Paralysis Resistance",1,"",""
-168,"Vespoid Helm β","HELM","Vespoid β",32,-2,1,1,1,2,2,0,0,"","Neopteron Camouflage","Survival Expert",1,"","","",""
-169,"Vespoid Mail β","BODY","Vespoid β",32,-2,1,1,1,2,1,1,1,"","Neopteron Camouflage","Survival Expert",1,"","","",""
-170,"Vespoid Vambraces β","ARM","Vespoid β",32,-2,1,1,1,2,2,0,0,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
-171,"Vespoid Coil β","WAIST","Vespoid β",32,-2,1,1,1,2,1,1,1,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
-172,"Vespoid Greaves β","LEG","Vespoid β",32,-2,1,1,1,2,2,1,0,"","Neopteron Camouflage","Survival Expert",1,"","","",""
-173,"Kranodath Mail α","BODY","Kranodath α",32,4,-2,0,-2,0,0,0,0,"","Scaling Prowess","Flinch Free",2,"Partbreaker",1,"",""
-174,"Kranodath Mail β","BODY","Kranodath β",32,4,-2,0,-2,0,2,0,0,"","Scale Layering","Flinch Free",2,"","","",""
-175,"Comaqchi Accessory α","HELM","Comaqchi α",32,-5,0,0,3,3,0,0,0,"","Neopteron Alert","Sleep Resistance",2,"Foray",1,"",""
-176,"Comaqchi Accessory β","HELM","Comaqchi β",32,-5,0,0,3,3,2,1,0,"","Neopteron Camouflage","Sleep Resistance",2,"","","",""
-177,"Kut-Ku Helm α","HELM","Kut-Ku α",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Constitution",2,"Fire Resistance",2,"",""
-178,"Kut-Ku Mail α","BODY","Kut-Ku α",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Agitator",1,"Fire Resistance",1,"",""
-179,"Kut-Ku Vambraces α","ARM","Kut-Ku α",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Constitution",1,"Agitator",1,"",""
-180,"Kut-Ku Coil α","WAIST","Kut-Ku α",36,3,0,-2,-4,2,0,0,0,"","Scaling Prowess","Agitator",1,"Recovery Up",2,"",""
-181,"Kut-Ku Greaves α","LEG","Kut-Ku α",36,3,0,-2,-4,2,2,0,0,"","Scaling Prowess","Constitution",2,"Recovery Up",1,"",""
-182,"Kut-Ku Helm β","HELM","Kut-Ku β",36,3,0,-2,-4,2,2,1,0,"","Scale Layering","Constitution",2,"","","",""
-183,"Kut-Ku Mail β","BODY","Kut-Ku β",36,3,0,-2,-4,2,2,0,0,"","Scale Layering","Agitator",1,"","","",""
-184,"Kut-Ku Vambraces β","ARM","Kut-Ku β",36,3,0,-2,-4,2,2,1,1,"","Scale Layering","Constitution",1,"","","",""
-185,"Kut-Ku Coil β","WAIST","Kut-Ku β",36,3,0,-2,-4,2,1,0,0,"","Scale Layering","Agitator",1,"Recovery Up",1,"",""
-186,"Kut-Ku Greaves β","LEG","Kut-Ku β",36,3,0,-2,-4,2,2,1,0,"","Scale Layering","Constitution",1,"Recovery Up",1,"",""
-187,"Chatacabra Helm α","HELM","Chatacabra α",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Speed Eating",1,"Wide-Range",1,"",""
-188,"Chatacabra Mail α","BODY","Chatacabra α",36,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"Weakness Exploit",1,"",""
-189,"Chatacabra Vambraces α","ARM","Chatacabra α",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Item Prolonger",1,"Wide-Range",1,"",""
-190,"Chatacabra Coil α","WAIST","Chatacabra α",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Speed Eating",1,"Item Prolonger",1,"",""
-191,"Chatacabra Greaves α","LEG","Chatacabra α",36,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"Weakness Exploit",1,"",""
-192,"Chatacabra Helm β","HELM","Chatacabra β",36,1,2,-3,-1,1,2,0,0,"","Buttery Leathercraft","Speed Eating",1,"","","",""
-193,"Chatacabra Mail β","BODY","Chatacabra β",36,1,2,-3,-1,1,1,1,1,"","Buttery Leathercraft","Speed Eating",1,"","","",""
-194,"Chatacabra Vambraces β","ARM","Chatacabra β",36,1,2,-3,-1,1,2,0,0,"","Buttery Leathercraft","Item Prolonger",1,"","","",""
-195,"Chatacabra Coil β","WAIST","Chatacabra β",36,1,2,-3,-1,1,1,1,0,"","Buttery Leathercraft","Speed Eating",1,"","","",""
-196,"Chatacabra Greaves β","LEG","Chatacabra β",36,1,2,-3,-1,1,1,0,0,"","Buttery Leathercraft","Weakness Exploit",1,"","","",""
-197,"Gypceros Helm α","HELM","Gypceros α",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Blindsider",1,"",""
-198,"Gypceros Mail α","BODY","Gypceros α",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Poison Resistance",1,"",""
-199,"Gypceros Vambraces α","ARM","Gypceros α",36,-4,3,4,-1,1,0,0,0,"","Flexible Leathercraft","Resentment",2,"Poison Resistance",1,"",""
-200,"Gypceros Coil α","WAIST","Gypceros α",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Resentment",1,"",""
-201,"Gypceros Greaves α","LEG","Gypceros α",36,-4,3,4,-1,1,0,0,0,"","Flexible Leathercraft","Resentment",1,"Marathon Runner",2,"",""
-202,"Gypceros Helm β","HELM","Gypceros β",36,-4,3,4,-1,1,1,1,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
-203,"Gypceros Mail β","BODY","Gypceros β",36,-4,3,4,-1,1,2,0,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
-204,"Gypceros Vambraces β","ARM","Gypceros β",36,-4,3,4,-1,1,1,0,0,"","Buttery Leathercraft","Resentment",2,"","","",""
-205,"Gypceros Coil β","WAIST","Gypceros β",36,-4,3,4,-1,1,2,1,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
-206,"Gypceros Greaves β","LEG","Gypceros β",36,-4,3,4,-1,1,1,0,0,"","Buttery Leathercraft","Resentment",1,"Marathon Runner",1,"",""
-147,"Bone Helm α","HELM","Bone α",32,2,0,2,0,2,1,0,0,"","","Stun Resistance",1,"Speed Eating",1,"",""
-148,"Bone Mail α","BODY","Bone α",32,2,0,2,0,2,1,0,0,"","","Marathon Runner",1,"Stun Resistance",1,"",""
-149,"Bone Vambraces α","ARM","Bone α",32,2,0,2,0,2,1,0,0,"","","Marathon Runner",1,"Speed Eating",1,"",""
-150,"Bone Coil α","WAIST","Bone α",32,2,0,2,0,2,1,1,0,"","","Marathon Runner",1,"","","",""
-151,"Bone Greaves α","LEG","Bone α",32,2,0,2,0,2,1,1,0,"","","Stun Resistance",1,"","","",""
-152,"Alloy Helm α","HELM","Alloy α",32,-2,1,-2,-2,1,1,1,0,"","","Quick Sheathe",1,"","","",""
-153,"Alloy Mail α","BODY","Alloy α",32,-2,1,-2,-2,1,1,0,0,"","","Flinch Free",2,"","","",""
-154,"Alloy Vambraces α","ARM","Alloy α",32,-2,1,-2,-2,1,1,1,0,"","","Tremor Resistance",1,"","","",""
-155,"Alloy Coil α","WAIST","Alloy α",32,-2,1,-2,-2,1,1,0,0,"","","Tremor Resistance",1,"Quick Sheathe",1,"",""
-156,"Alloy Greaves α","LEG","Alloy α",32,-2,1,-2,-2,1,1,0,0,"","","Quick Sheathe",1,"Flinch Free",1,"",""
-207,"Quematrice Helm α","HELM","Quematrice α",36,2,-3,0,-1,0,1,0,0,"","Scaling Prowess","Flinch Free",1,"Latent Power",1,"",""
-208,"Quematrice Mail α","BODY","Quematrice α",36,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"Latent Power",1,"",""
-209,"Quematrice Braces α","ARM","Quematrice α",36,2,-3,0,-1,0,1,1,0,"","Scaling Prowess","Flinch Free",1,"Fire Resistance",1,"",""
-210,"Quematrice Coil α","WAIST","Quematrice α",36,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"Latent Power",1,"",""
-211,"Quematrice Greaves α","LEG","Quematrice α",36,2,-3,0,-1,0,1,0,0,"","Scaling Prowess","Flinch Free",1,"Evade Extender",1,"",""
-212,"Quematrice Helm β","HELM","Quematrice β",36,2,-3,0,-1,0,2,0,0,"","Scale Layering","Latent Power",1,"","","",""
-213,"Quematrice Mail β","BODY","Quematrice β",36,2,-3,0,-1,0,1,0,0,"","Scale Layering","Latent Power",1,"","","",""
-214,"Quematrice Braces β","ARM","Quematrice β",36,2,-3,0,-1,0,2,1,0,"","Scale Layering","Flinch Free",1,"","","",""
-215,"Quematrice Coil β","WAIST","Quematrice β",36,2,-3,0,-1,0,2,0,0,"","Scale Layering","Fire Resistance",2,"","","",""
-216,"Quematrice Greaves β","LEG","Quematrice β",36,2,-3,0,-1,0,1,1,1,"","Scale Layering","Flinch Free",1,"","","",""
-217,"Barina Headgear α","HELM","Lala Barina α",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Foray",1,"",""
-218,"Barina Mail α","BODY","Lala Barina α",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",2,"Evade Window",1,"",""
-219,"Barina Vambraces α","ARM","Lala Barina α",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"Foray",1,"",""
-220,"Barina Coil α","WAIST","Lala Barina α",36,-3,3,0,0,3,2,0,0,"","Neopteron Alert","Paralysis Resistance",2,"","","",""
-221,"Barina Greaves α","LEG","Lala Barina α",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Evade Window",1,"Foray",1,"",""
-222,"Barina Headgear β","HELM","Lala Barina β",36,-3,3,0,0,3,1,0,0,"","Neopteron Camouflage","Foray",1,"","","",""
-223,"Barina Mail β","BODY","Lala Barina β",36,-3,3,0,0,3,1,0,0,"","Neopteron Camouflage","Recovery Up",1,"Evade Window",1,"",""
-224,"Barina Vambraces β","ARM","Lala Barina β",36,-3,3,0,0,3,2,1,0,"","Neopteron Camouflage","Recovery Up",1,"","","",""
-225,"Barina Coil β","WAIST","Lala Barina β",36,-3,3,0,0,3,2,1,0,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
-226,"Barina Greaves β","LEG","Lala Barina β",36,-3,3,0,0,3,1,1,1,"","Neopteron Camouflage","Evade Window",1,"","","",""
-227,"Rompopolo Helm α","HELM","Rompopolo α",36,0,-3,0,0,1,1,1,0,"","Flexible Leathercraft","Wide-Range",2,"","","",""
-228,"Rompopolo Mail α","BODY","Rompopolo α",36,0,-3,0,0,1,1,0,0,"","Flexible Leathercraft","Poison Resistance",2,"Wide-Range",1,"",""
-229,"Rompopolo Vambraces α","ARM","Rompopolo α",36,0,-3,0,0,1,1,0,0,"","Flexible Leathercraft","Poison Resistance",1,"Earplugs",1,"",""
-230,"Rompopolo Coil α","WAIST","Rompopolo α",36,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Foray",1,"",""
-231,"Rompopolo Greaves α","LEG","Rompopolo α",36,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",2,"Earplugs",1,"",""
-232,"Rompopolo Helm β","HELM","Rompopolo β",36,0,-3,0,0,1,2,1,0,"","Buttery Leathercraft","Wide-Range",1,"","","",""
-233,"Rompopolo Mail β","BODY","Rompopolo β",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Poison Resistance",2,"","","",""
-234,"Rompopolo Vambraces β","ARM","Rompopolo β",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Earplugs",1,"","","",""
-235,"Rompopolo Coil β","WAIST","Rompopolo β",36,0,-3,0,0,1,1,0,0,"","Buttery Leathercraft","Foray",1,"","","",""
-236,"Rompopolo Greaves β","LEG","Rompopolo β",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Wide-Range",2,"","","",""
-237,"Conga Helm α","HELM","Conga α",36,-3,1,1,-1,2,1,0,0,"","Fortifying Pelt","Intimidator",1,"Free Meal",1,"",""
-238,"Conga Mail α","BODY","Conga α",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Intimidator",2,"Burst",1,"",""
-239,"Conga Vambraces α","ARM","Conga α",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"Speed Eating",1,"",""
-240,"Conga Coil α","WAIST","Conga α",36,-3,1,1,-1,2,1,0,0,"","Fortifying Pelt","Mushroomancer",1,"Free Meal",1,"",""
-241,"Conga Greaves α","LEG","Conga α",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"Burst",1,"",""
-242,"Conga Helm β","HELM","Conga β",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Intimidator",1,"","","",""
-243,"Conga Mail β","BODY","Conga β",36,-3,1,1,-1,2,1,1,1,"","Alluring Pelt","Intimidator",2,"","","",""
-244,"Conga Vambraces β","ARM","Conga β",36,-3,1,1,-1,2,1,0,0,"","Alluring Pelt","Mushroomancer",1,"","","",""
-245,"Conga Coil β","WAIST","Conga β",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Mushroomancer",1,"","","",""
-246,"Conga Greaves β","LEG","Conga β",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Burst",1,"","","",""
-247,"Balahara Helm α","HELM","Balahara α",38,-1,2,-3,1,1,1,0,0,"","Scaling Prowess","Geologist",1,"Evade Window",1,"",""
-248,"Balahara Mail α","BODY","Balahara α",38,-1,2,-3,1,1,1,0,0,"","Scaling Prowess","Geologist",1,"Stamina Surge",1,"",""
-249,"Balahara Vambraces α","ARM","Balahara α",38,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"Stamina Surge",1,"",""
-250,"Balahara Coil α","WAIST","Balahara α",38,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"Evade Window",1,"",""
-251,"Balahara Greaves α","LEG","Balahara α",38,-1,2,-3,1,1,1,1,0,"","Scaling Prowess","Evade Extender",1,"Geologist",1,"",""
-252,"Balahara Helm β","HELM","Balahara β",38,-1,2,-3,1,1,2,0,0,"","Scale Layering","Evade Window",1,"","","",""
-253,"Balahara Mail β","BODY","Balahara β",38,-1,2,-3,1,1,1,1,1,"","Scale Layering","Geologist",1,"","","",""
-254,"Balahara Vambraces β","ARM","Balahara β",38,-1,2,-3,1,1,2,0,0,"","Scale Layering","Evade Extender",1,"","","",""
-255,"Balahara Coil β","WAIST","Balahara β",38,-1,2,-3,1,1,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
-256,"Balahara Greaves β","LEG","Balahara β",38,-1,2,-3,1,1,1,1,1,"","Scale Layering","Evade Extender",1,"","","",""
-257,"Rathian Helm α","HELM","Rathian α",38,2,0,-2,0,-3,2,0,0,"","Scaling Prowess","Divine Blessing",1,"Recovery Speed",1,"",""
-258,"Rathian Mail α","BODY","Rathian α",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",2,"","","",""
-259,"Rathian Vambraces α","ARM","Rathian α",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Divine Blessing",2,"",""
-260,"Rathian Coil α","WAIST","Rathian α",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Tool Specialist",1,"",""
-261,"Rathian Greaves α","LEG","Rathian α",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Recovery Speed",2,"",""
-262,"Rathian Helm β","HELM","Rathian β",38,2,0,-2,0,-3,2,1,0,"","Scale Layering","Divine Blessing",1,"","","",""
-263,"Rathian Mail β","BODY","Rathian β",38,2,0,-2,0,-3,1,1,1,"","Scale Layering","Foray",1,"","","",""
-264,"Rathian Vambraces β","ARM","Rathian β",38,2,0,-2,0,-3,1,0,0,"","Scale Layering","Foray",1,"Divine Blessing",1,"",""
-265,"Rathian Coil β","WAIST","Rathian β",38,2,0,-2,0,-3,2,0,0,"","Scale Layering","Foray",1,"","","",""
-266,"Rathian Greaves β","LEG","Rathian β",38,2,0,-2,0,-3,1,0,0,"","Scale Layering","Foray",1,"Recovery Speed",1,"",""
-267,"Nerscylla Helm α","HELM","Nerscylla α",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Poison Resistance",2,"",""
-268,"Nerscylla Mail α","BODY","Nerscylla α",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"Weakness Exploit",1,"",""
-269,"Nerscylla Vambraces α","ARM","Nerscylla α",38,-2,2,-2,1,2,1,0,0,"","Neopteron Alert","Ambush",1,"Poison Resistance",1,"",""
-270,"Nerscylla Coil α","WAIST","Nerscylla α",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Sleep Resistance",2,"",""
-271,"Nerscylla Greaves α","LEG","Nerscylla α",38,-2,2,-2,1,2,1,0,0,"","Neopteron Alert","Ambush",1,"Sleep Resistance",1,"",""
-272,"Nerscylla Helm β","HELM","Nerscylla β",38,-2,2,-2,1,2,2,0,0,"","Neopteron Camouflage","Bind Resistance",1,"","","",""
-273,"Nerscylla Mail β","BODY","Nerscylla β",38,-2,2,-2,1,2,1,1,1,"","Neopteron Camouflage","Ambush",1,"","","",""
-274,"Nerscylla Vambraces β","ARM","Nerscylla β",38,-2,2,-2,1,2,2,0,0,"","Neopteron Camouflage","Ambush",1,"","","",""
-275,"Nerscylla Coil β","WAIST","Nerscylla β",38,-2,2,-2,1,2,1,1,0,"","Neopteron Camouflage","Bind Resistance",1,"","","",""
-276,"Nerscylla Greaves β","LEG","Nerscylla β",38,-2,2,-2,1,2,2,1,0,"","Neopteron Camouflage","Sleep Resistance",1,"","","",""
-277,"Doshaguma Helm α","HELM","Doshaguma α",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",2,"Stun Resistance",1,"",""
-278,"Doshaguma Mail α","BODY","Doshaguma α",48,-3,2,-1,-1,4,1,0,0,"Doshaguma's Might","Fortifying Pelt","Latent Power",1,"Stamina Surge",1,"",""
-279,"Doshaguma Braces α","ARM","Doshaguma α",48,-3,2,-1,-1,4,2,0,0,"Doshaguma's Might","Fortifying Pelt","Stun Resistance",2,"Stamina Surge",1,"",""
-280,"Doshaguma Coil α","WAIST","Doshaguma α",48,-3,2,-1,-1,4,1,0,0,"Doshaguma's Might","Fortifying Pelt","Latent Power",2,"","","",""
-281,"Doshaguma Greaves α","LEG","Doshaguma α",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"Recovery Up",2,"",""
-282,"Doshaguma Helm β","HELM","Doshaguma β",48,-3,2,-1,-1,4,2,1,1,"Doshaguma's Might","Alluring Pelt","Free Meal",1,"Stun Resistance",1,"",""
-283,"Doshaguma Mail β","BODY","Doshaguma β",48,-3,2,-1,-1,4,1,1,1,"Doshaguma's Might","Alluring Pelt","Latent Power",1,"","","",""
-284,"Doshaguma Braces β","ARM","Doshaguma β",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Alluring Pelt","Stun Resistance",1,"Stamina Surge",1,"",""
-285,"Doshaguma Coil β","WAIST","Doshaguma β",48,-3,2,-1,-1,4,2,2,0,"Doshaguma's Might","Alluring Pelt","Latent Power",1,"","","",""
-286,"Doshaguma Greaves β","LEG","Doshaguma β",48,-3,2,-1,-1,4,2,1,1,"Doshaguma's Might","Alluring Pelt","Free Meal",1,"Recovery Up",1,"",""
-287,"Hirabami Headdress α","HELM","Hirabami α",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Evade Extender",1,"",""
-288,"Hirabami Mail α","BODY","Hirabami α",38,-3,2,-2,3,0,1,0,0,"","Scaling Prowess","Ice Resistance",2,"Evade Window",1,"",""
-289,"Hirabami Vambraces α","ARM","Hirabami α",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Peak Performance",1,"",""
-290,"Hirabami Coil α","WAIST","Hirabami α",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",2,"","","",""
-291,"Hirabami Greaves α","LEG","Hirabami α",38,-3,2,-2,3,0,1,0,0,"","Scaling Prowess","Ice Resistance",1,"Peak Performance",1,"",""
-292,"Hirabami Headdress β","HELM","Hirabami β",38,-3,2,-2,3,0,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
-293,"Hirabami Mail β","BODY","Hirabami β",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Ice Resistance",1,"Evade Window",1,"",""
-294,"Hirabami Vambraces β","ARM","Hirabami β",38,-3,2,-2,3,0,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
-295,"Hirabami Coil β","WAIST","Hirabami β",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Evade Window",1,"","","",""
-296,"Hirabami Greaves β","LEG","Hirabami β",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Peak Performance",1,"","","",""
-297,"G. Fulgur Helm α","HELM","Guardian Fulgur α",48,-1,-1,2,-3,-2,0,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Agitator",2,"Coalescence",1,"",""
-298,"G. Fulgur Mail α","BODY","Guardian Fulgur α",48,-1,-1,2,-3,-2,2,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Maximum Might",1,"Coalescence",1,"",""
-299,"G. Fulgur Vambraces α","ARM","Guardian Fulgur α",48,-1,-1,2,-3,-2,1,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Maximum Might",1,"Agitator",1,"",""
-300,"G. Fulgur Coil α","WAIST","Guardian Fulgur α",48,-1,-1,2,-3,-2,1,1,0,"Fulgur Anjanath's Will","Guardian's Pulse","Stamina Surge",1,"Maximum Might",1,"",""
-301,"G. Fulgur Greaves α","LEG","Guardian Fulgur α",48,-1,-1,2,-3,-2,1,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Coalescence",1,"Stamina Surge",2,"",""
-302,"G. Fulgur Helm β","HELM","Guardian Fulgur β",48,-1,-1,2,-3,-2,2,0,0,"Fulgur Anjanath's Will","Guardian's Protection","Agitator",2,"","","",""
-303,"G. Fulgur Mail β","BODY","Guardian Fulgur β",48,-1,-1,2,-3,-2,2,1,1,"Fulgur Anjanath's Will","Guardian's Protection","Maximum Might",1,"","","",""
-304,"G. Fulgur Vambraces β","ARM","Guardian Fulgur β",48,-1,-1,2,-3,-2,2,2,0,"Fulgur Anjanath's Will","Guardian's Protection","Maximum Might",1,"","","",""
-305,"G. Fulgur Coil β","WAIST","Guardian Fulgur β",48,-1,-1,2,-3,-2,2,2,0,"Fulgur Anjanath's Will","Guardian's Protection","Stamina Surge",1,"","","",""
-306,"G. Fulgur Greaves β","LEG","Guardian Fulgur β",48,-1,-1,2,-3,-2,2,1,0,"Fulgur Anjanath's Will","Guardian's Protection","Coalescence",1,"Stamina Surge",1,"",""
-307,"Ingot Helm α","HELM","Ingot α",44,-2,0,3,-1,0,2,0,0,"","","Divine Blessing",2,"Resentment",1,"",""
-308,"Ingot Mail α","BODY","Ingot α",44,-2,0,3,-1,0,1,1,0,"","","Windproof",1,"Resentment",1,"",""
-309,"Ingot Vambraces α","ARM","Ingot α",44,-2,0,3,-1,0,2,0,0,"","","Stun Resistance",2,"Resentment",1,"",""
-310,"Ingot Coil α","WAIST","Ingot α",44,-2,0,3,-1,0,1,1,1,"","","Divine Blessing",1,"Resentment",1,"",""
-311,"Ingot Greaves α","LEG","Ingot α",44,-2,0,3,-1,0,2,0,0,"","","Windproof",1,"Resentment",1,"",""
-312,"G. Seikret Coil α","WAIST","Guardian Seikret α",44,0,0,4,0,-3,1,0,0,"","Guardian's Pulse","Jump Master",1,"Earplugs",2,"",""
-313,"G. Seikret Coil β","WAIST","Guardian Seikret β",44,0,0,4,0,-3,2,1,0,"","Guardian's Protection","Jump Master",1,"Earplugs",1,"",""
-314,"Ajarakan Helm α","HELM","Ajarakan α",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Resentment",2,"Bombardier",1,"",""
-315,"Ajarakan Mail α","BODY","Ajarakan α",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Resentment",2,"Blast Resistance",1,"",""
-316,"Ajarakan Vambraces α","ARM","Ajarakan α",48,3,-3,1,-2,0,2,0,0,"","Fortifying Pelt","Partbreaker",1,"Bombardier",2,"",""
-317,"Ajarakan Coil α","WAIST","Ajarakan α",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Partbreaker",2,"Blast Resistance",2,"",""
-318,"Ajarakan Greaves α","LEG","Ajarakan α",48,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",2,"Resentment",1,"",""
-319,"Ajarakan Helm β","HELM","Ajarakan β",48,3,-3,1,-2,0,2,1,0,"","Alluring Pelt","Resentment",1,"Bombardier",1,"",""
-320,"Ajarakan Mail β","BODY","Ajarakan β",48,3,-3,1,-2,0,2,0,0,"","Alluring Pelt","Resentment",2,"","","",""
-321,"Ajarakan Vambraces β","ARM","Ajarakan β",48,3,-3,1,-2,0,2,1,0,"","Alluring Pelt","Partbreaker",1,"Bombardier",1,"",""
-322,"Ajarakan Coil β","WAIST","Ajarakan β",48,3,-3,1,-2,0,2,0,0,"","Alluring Pelt","Partbreaker",2,"Blast Resistance",1,"",""
-323,"Ajarakan Greaves β","LEG","Ajarakan β",48,3,-3,1,-2,0,1,1,0,"","Alluring Pelt","Partbreaker",2,"","","",""
-324,"Blango Helm α","HELM","Blango α",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Fortifying Pelt","Wide-Range",2,"Counterstrike",1,"",""
-325,"Blango Mail α","BODY","Blango α",48,-4,1,0,4,0,0,0,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",2,"Item Prolonger",2,"",""
-326,"Blango Vambraces α","ARM","Blango α",48,-4,1,0,4,0,2,0,0,"Blangonga's Spirit","Fortifying Pelt","Counterstrike",1,"Palico Rally",2,"",""
-327,"Blango Coil α","WAIST","Blango α",48,-4,1,0,4,0,1,0,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",2,"Wide-Range",1,"",""
-328,"Blango Greaves α","LEG","Blango α",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",1,"Counterstrike",1,"",""
-329,"Blango Helm β","HELM","Blango β",48,-4,1,0,4,0,2,1,1,"Blangonga's Spirit","Alluring Pelt","Wide-Range",2,"","","",""
-330,"Blango Mail β","BODY","Blango β",48,-4,1,0,4,0,2,0,0,"Blangonga's Spirit","Alluring Pelt","Agitator",2,"","","",""
-331,"Blango Vambraces β","ARM","Blango β",48,-4,1,0,4,0,2,2,0,"Blangonga's Spirit","Alluring Pelt","Counterstrike",1,"","","",""
-332,"Blango Coil β","WAIST","Blango β",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Alluring Pelt","Agitator",2,"","","",""
-333,"Blango Greaves β","LEG","Blango β",48,-4,1,0,4,0,2,2,0,"Blangonga's Spirit","Alluring Pelt","Agitator",1,"","","",""
-334,"G. Doshaguma Helm α","HELM","Guardian Doshaguma α",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Hunger Resistance",2,"",""
-335,"G. Doshaguma Mail α","BODY","Guardian Doshaguma α",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Pulse","Constitution",2,"Iron Skin",1,"",""
-336,"G. Doshaguma Braces α","ARM","Guardian Doshaguma α",48,-3,2,-1,-2,2,1,1,1,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Iron Skin",2,"",""
-337,"G. Doshaguma Coil α","WAIST","Guardian Doshaguma α",48,-3,2,-1,-2,2,2,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",2,"Hunger Resistance",1,"",""
-338,"G. Doshaguma Greaves α","LEG","Guardian Doshaguma α",48,-3,2,-1,-2,2,2,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Constitution",2,"",""
-339,"G. Doshaguma Helm β","HELM","Guardian Doshaguma β",48,-3,2,-1,-2,2,2,2,1,"Doshaguma's Might","Guardian's Protection","Heroics",1,"","","",""
-340,"G. Doshaguma Mail β","BODY","Guardian Doshaguma β",48,-3,2,-1,-2,2,2,2,0,"Doshaguma's Might","Guardian's Protection","Constitution",2,"","","",""
-341,"G. Doshaguma Braces β","ARM","Guardian Doshaguma β",48,-3,2,-1,-2,2,2,2,1,"Doshaguma's Might","Guardian's Protection","Heroics",1,"","","",""
-342,"G. Doshaguma Coil β","WAIST","Guardian Doshaguma β",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Protection","Heroics",2,"","","",""
-343,"G. Doshaguma Greaves β","LEG","Guardian Doshaguma β",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Protection","Heroics",1,"Constitution",1,"",""
-344,"G. Rathalos Helm α","HELM","Guardian Rathalos α",48,3,1,-2,1,-5,1,1,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Survival Expert",2,"",""
-345,"G. Rathalos Mail α","BODY","Guardian Rathalos α",48,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",2,"",""
-346,"G. Rathalos Vambraces α","ARM","Guardian Rathalos α",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",1,"Survival Expert",1
-347,"G. Rathalos Coil α","WAIST","Guardian Rathalos α",48,3,1,-2,1,-5,1,1,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Windproof",1,"",""
-348,"G. Rathalos Greaves α","LEG","Guardian Rathalos α",48,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Windproof",2,"",""
-349,"G. Rathalos Helm β","HELM","Guardian Rathalos β",48,3,1,-2,1,-5,2,2,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"","","",""
-350,"G. Rathalos Mail β","BODY","Guardian Rathalos β",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"Intimidator",1,"",""
-351,"G. Rathalos Vambraces β","ARM","Guardian Rathalos β",48,3,1,-2,1,-5,2,1,1,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"","","",""
-352,"G. Rathalos Coil β","WAIST","Guardian Rathalos β",48,3,1,-2,1,-5,2,2,1,"Rathalos's Flare","Guardian's Protection","Windproof",1,"","","",""
-353,"G. Rathalos Greaves β","LEG","Guardian Rathalos β",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"Windproof",1,"",""
-354,"Gravios Helm α","HELM","Gravios α",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Tremor Resistance",1,"",""
-355,"Gravios Mail α","BODY","Gravios α",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Recovery Speed",2,"",""
-356,"Gravios Vambraces α","ARM","Gravios α",52,4,-3,1,0,-2,1,0,0,"Gravios's Protection","Scaling Prowess","Peak Performance",2,"Flinch Free",1,"",""
-357,"Gravios Coil α","WAIST","Gravios α",52,4,-3,1,0,-2,2,0,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Flinch Free",2,"",""
-358,"Gravios Greaves α","LEG","Gravios α",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Tremor Resistance",2,"Recovery Speed",1,"",""
-359,"Gravios Helm β","HELM","Gravios β",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"","","",""
-360,"Gravios Mail β","BODY","Gravios β",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"Recovery Speed",1,"",""
-361,"Gravios Vambraces β","ARM","Gravios β",52,4,-3,1,0,-2,2,0,0,"Gravios's Protection","Scale Layering","Peak Performance",2,"","","",""
-362,"Gravios Coil β","WAIST","Gravios β",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"Flinch Free",1,"",""
-363,"Gravios Greaves β","LEG","Gravios β",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Tremor Resistance",1,"Recovery Speed",1,"",""
-364,"G. Ebony Helm α","HELM","Guardian Ebony α",48,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",2,"Earplugs",1,"",""
-365,"G. Ebony Mail α","BODY","Guardian Ebony α",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Earplugs",1,"Bleeding Resistance",2,"",""
-366,"G. Ebony Braces α","ARM","Guardian Ebony α",48,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",2,"Divine Blessing",1,"",""
-367,"G. Ebony Coil α","WAIST","Guardian Ebony α",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"Bleeding Resistance",1,"",""
-368,"G. Ebony Greaves α","LEG","Guardian Ebony α",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Earplugs",1,"Divine Blessing",2,"",""
-369,"G. Ebony Helm β","HELM","Guardian Ebony β",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",2,"","","",""
-370,"G. Ebony Mail β","BODY","Guardian Ebony β",48,-2,-3,-2,-2,4,2,2,0,"Ebony Odogaron's Power","Guardian's Protection","Earplugs",1,"","","",""
-371,"G. Ebony Braces β","ARM","Guardian Ebony β",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",1,"Divine Blessing",1,"",""
-372,"G. Ebony Coil β","WAIST","Guardian Ebony β",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",1,"","","",""
-373,"G. Ebony Greaves β","LEG","Guardian Ebony β",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Earplugs",1,"Divine Blessing",1,"",""
-374,"Rathalos Helm α","HELM","Rathalos α",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scaling Prowess","Evade Window",2,"Constitution",1,"",""
-375,"Rathalos Mail α","BODY","Rathalos α",48,3,1,-2,1,-3,1,0,0,"Rathalos's Flare","Scaling Prowess","Adrenaline Rush",2,"Constitution",1,"",""
-376,"Rathalos Vambraces α","ARM","Rathalos α",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scaling Prowess","Constitution",2,"Evade Window",1,"",""
-377,"Rathalos Coil α","WAIST","Rathalos α",48,3,1,-2,1,-3,0,0,0,"Rathalos's Flare","Scaling Prowess","Adrenaline Rush",2,"Evade Window",1,"",""
-378,"Rathalos Greaves α","LEG","Rathalos α",48,3,1,-2,1,-3,2,0,0,"Rathalos's Flare","Scaling Prowess","Evade Window",2,"Adrenaline Rush",1,"",""
-379,"Rathalos Helm β","HELM","Rathalos β",48,3,1,-2,1,-3,2,2,0,"Rathalos's Flare","Scale Layering","Evade Window",1,"Constitution",1,"",""
-380,"Rathalos Mail β","BODY","Rathalos β",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scale Layering","Adrenaline Rush",2,"","","",""
-381,"Rathalos Vambraces β","ARM","Rathalos β",48,3,1,-2,1,-3,2,1,1,"Rathalos's Flare","Scale Layering","Constitution",2,"","","",""
-382,"Rathalos Coil β","WAIST","Rathalos β",48,3,1,-2,1,-3,2,0,0,"Rathalos's Flare","Scale Layering","Adrenaline Rush",2,"","","",""
-383,"Rathalos Greaves β","LEG","Rathalos β",48,3,1,-2,1,-3,2,2,1,"Rathalos's Flare","Scale Layering","Evade Window",2,"","","",""
-384,"Xu Wu Helm α","HELM","Xu Wu α",48,1,1,1,-3,2,1,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Adrenaline Rush",2,"Ambush",1,"",""
-385,"Xu Wu Mail α","BODY","Xu Wu α",48,1,1,1,-3,2,0,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Heroics",3,"Ambush",1,"",""
-386,"Xu Wu Vambraces α","ARM","Xu Wu α",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Flexible Leathercraft","Earplugs",2,"","","",""
-387,"Xu Wu Coil α","WAIST","Xu Wu α",48,1,1,1,-3,2,2,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Earplugs",1,"Heroics",2,"",""
-388,"Xu Wu Greaves α","LEG","Xu Wu α",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Flexible Leathercraft","Adrenaline Rush",1,"Ambush",1,"",""
-389,"Xu Wu Helm β","HELM","Xu Wu β",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Buttery Leathercraft","Adrenaline Rush",2,"","","",""
-390,"Xu Wu Mail β","BODY","Xu Wu β",48,1,1,1,-3,2,1,1,0,"Xu Wu's Vigor","Buttery Leathercraft","Heroics",3,"","","",""
-391,"Xu Wu Vambraces β","ARM","Xu Wu β",48,1,1,1,-3,2,2,2,1,"Xu Wu's Vigor","Buttery Leathercraft","Earplugs",1,"","","",""
-392,"Xu Wu Coil β","WAIST","Xu Wu β",48,1,1,1,-3,2,2,1,1,"Xu Wu's Vigor","Buttery Leathercraft","Earplugs",1,"Heroics",1,"",""
-393,"Xu Wu Greaves β","LEG","Xu Wu β",48,1,1,1,-3,2,2,2,1,"Xu Wu's Vigor","Buttery Leathercraft","Adrenaline Rush",1,"","","",""
-394,"Dober Helm α","HELM","Dober α",56,-2,0,-1,-1,4,3,0,0,"","","Constitution",1,"Stamina Surge",1,"",""
-395,"Dober Mail α","BODY","Dober α",56,-2,0,-1,-1,4,3,2,0,"","","Constitution",1,"Marathon Runner",1,"",""
-396,"Dober Vambraces α","ARM","Dober α",56,-2,0,-1,-1,4,3,0,0,"","","Constitution",1,"Stamina Surge",2,"",""
-397,"Dober Coil α","WAIST","Dober α",56,-2,0,-1,-1,4,3,1,0,"","","Constitution",1,"Marathon Runner",2,"",""
-398,"Dober Greaves α","LEG","Dober α",56,-2,0,-1,-1,4,2,2,0,"","","Constitution",1,"Mushroomancer",2,"",""
-399,"Damascus Helm α","HELM","Damascus α",56,4,-2,0,0,0,3,1,0,"","","Wide-Range",1,"Divine Blessing",2,"",""
-400,"Damascus Mail α","BODY","Damascus α",56,4,-2,0,0,0,2,2,0,"","","Wide-Range",1,"Recovery Up",2,"",""
-401,"Damascus Vambraces α","ARM","Damascus α",56,4,-2,0,0,0,3,1,0,"","","Wide-Range",1,"Divine Blessing",1,"",""
-402,"Damascus Coil α","WAIST","Damascus α",56,4,-2,0,0,0,3,2,0,"","","Wide-Range",1,"Recovery Up",1,"",""
-403,"Damascus Greaves α","LEG","Damascus α",56,4,-2,0,0,0,3,0,0,"","","Wide-Range",1,"Item Prolonger",2,"",""
-404,"Dahaad Shardhelm α","HELM","Dahaad α",60,-3,2,-1,2,-1,1,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",1,"Weakness Exploit",1,"",""
-405,"Dahaad Shardmail α","BODY","Dahaad α",60,-3,2,-1,2,-1,3,1,0,"Jin Dahaad's Revolt","Lord's Favor","Adaptability",1,"Bind Resistance",2,"",""
-406,"Dahaad Shardbraces α","ARM","Dahaad α",60,-3,2,-1,2,-1,0,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",2,"Adaptability",1,"",""
-407,"Dahaad Shardcoil α","WAIST","Dahaad α",60,-3,2,-1,2,-1,1,1,0,"Jin Dahaad's Revolt","Lord's Favor","Weakness Exploit",1,"Tremor Resistance",2,"",""
-408,"Dahaad Shardgreaves α","LEG","Dahaad α",60,-3,2,-1,2,-1,1,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",2,"Tremor Resistance",1,"",""
-409,"Dahaad Shardhelm β","HELM","Dahaad β",60,-3,2,-1,2,-1,2,2,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",1,"","","",""
-410,"Dahaad Shardmail β","BODY","Dahaad β",60,-3,2,-1,2,-1,3,2,0,"Jin Dahaad's Revolt","Lord's Fury","Adaptability",1,"Bind Resistance",1,"",""
-411,"Dahaad Shardbraces β","ARM","Dahaad β",60,-3,2,-1,2,-1,3,0,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",1,"Adaptability",1,"",""
-412,"Dahaad Shardcoil β","WAIST","Dahaad β",60,-3,2,-1,2,-1,1,1,1,"Jin Dahaad's Revolt","Lord's Fury","Weakness Exploit",1,"Tremor Resistance",1,"",""
-413,"Dahaad Shardgreaves β","LEG","Dahaad β",60,-3,2,-1,2,-1,2,0,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",2,"","","",""
-414,"Rey Sandhelm α","HELM","Rey Dau α",60,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",2,"Evade Extender",1,"",""
-415,"Rey Sandmail α","BODY","Rey Dau α",60,0,-2,4,-3,0,1,1,0,"Rey Dau's Voltage","Lord's Favor","Maximum Might",2,"Stamina Surge",1,"",""
-416,"Rey Sandbraces α","ARM","Rey Dau α",60,0,-2,4,-3,0,2,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",2,"Stun Resistance",1,"",""
-417,"Rey Sandcoil α","WAIST","Rey Dau α",60,0,-2,4,-3,0,2,0,0,"Rey Dau's Voltage","Lord's Favor","Stamina Surge",2,"Stun Resistance",2,"",""
-418,"Rey Sandgreaves α","LEG","Rey Dau α",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"Maximum Might",1,"",""
-419,"Rey Sandhelm β","HELM","Rey Dau β",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Fury","Latent Power",1,"Evade Extender",1,"",""
-420,"Rey Sandmail β","BODY","Rey Dau β",60,0,-2,4,-3,0,2,1,1,"Rey Dau's Voltage","Lord's Fury","Maximum Might",1,"Stamina Surge",1,"",""
-421,"Rey Sandbraces β","ARM","Rey Dau β",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Fury","Latent Power",2,"","","",""
-422,"Rey Sandcoil β","WAIST","Rey Dau β",60,0,-2,4,-3,0,3,1,0,"Rey Dau's Voltage","Lord's Fury","Stamina Surge",1,"Stun Resistance",2,"",""
-423,"Rey Sandgreaves β","LEG","Rey Dau β",60,0,-2,4,-3,0,3,1,1,"Rey Dau's Voltage","Lord's Fury","Latent Power",1,"","","",""
-424,"Duna Wildhelm α","HELM","Uth Duna α",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",2,"Earplugs",1,"",""
-425,"Duna Wildmail α","BODY","Uth Duna α",60,-1,4,-3,0,0,3,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",2,"Aquatic/Oilsilt Mobility",1,"",""
-426,"Duna Wildbraces α","ARM","Uth Duna α",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",2,"Quick Sheathe",1,"",""
-427,"Duna Wildcoil α","WAIST","Uth Duna α",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",2,"Aquatic/Oilsilt Mobility",1,"",""
-428,"Duna Wildgreaves α","LEG","Uth Duna α",60,-1,4,-3,0,0,3,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"Tool Specialist",1,"",""
-429,"Duna Wildhelm β","HELM","Uth Duna β",60,-1,4,-3,0,0,3,2,0,"Uth Duna's Cover","Lord's Fury","Tool Specialist",1,"Earplugs",1,"",""
-430,"Duna Wildmail β","BODY","Uth Duna β",60,-1,4,-3,0,0,3,1,0,"Uth Duna's Cover","Lord's Fury","Tool Specialist",2,"","","",""
-431,"Duna Wildbraces β","ARM","Uth Duna β",60,-1,4,-3,0,0,3,1,1,"Uth Duna's Cover","Lord's Fury","Peak Performance",1,"Quick Sheathe",1,"",""
-432,"Duna Wildcoil β","WAIST","Uth Duna β",60,-1,4,-3,0,0,3,1,0,"Uth Duna's Cover","Lord's Fury","Peak Performance",2,"","","",""
-433,"Duna Wildgreaves β","LEG","Uth Duna β",60,-1,4,-3,0,0,3,1,1,"Uth Duna's Cover","Lord's Fury","Peak Performance",1,"","","",""
-434,"Udra Mirehelm α","HELM","Nu Udra α",60,5,-4,0,1,0,1,1,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",2,"Counterstrike",1,"",""
-435,"Udra Miremail α","BODY","Nu Udra α",60,5,-4,0,1,0,1,1,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"Burst",1,"",""
-436,"Udra Mirebraces α","ARM","Nu Udra α",60,5,-4,0,1,0,2,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",2,"Counterstrike",2,"",""
-437,"Udra Mirecoil α","WAIST","Nu Udra α",60,5,-4,0,1,0,2,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",2,"Speed Eating",1,"",""
-438,"Udra Miregreaves α","LEG","Nu Udra α",60,5,-4,0,1,0,3,0,0,"Nu Udra's Mutiny","Lord's Favor","Burst",1,"Windproof",2,"",""
-439,"Udra Mirehelm β","HELM","Nu Udra β",60,5,-4,0,1,0,2,2,0,"Nu Udra's Mutiny","Lord's Fury","Resentment",1,"Counterstrike",1,"",""
-440,"Udra Miremail β","BODY","Nu Udra β",60,5,-4,0,1,0,3,1,1,"Nu Udra's Mutiny","Lord's Fury","Resentment",1,"","","",""
-441,"Udra Mirebraces β","ARM","Nu Udra β",60,5,-4,0,1,0,3,1,0,"Nu Udra's Mutiny","Lord's Fury","Speed Eating",2,"Counterstrike",1,"",""
-442,"Udra Mirecoil β","WAIST","Nu Udra β",60,5,-4,0,1,0,3,0,0,"Nu Udra's Mutiny","Lord's Fury","Resentment",2,"","","",""
-443,"Udra Miregreaves β","LEG","Nu Udra β",60,5,-4,0,1,0,3,1,0,"Nu Udra's Mutiny","Lord's Fury","Burst",1,"Windproof",1,"",""
-444,"Gore Helm α","HELM","Gore α",60,-2,3,-1,2,-1,2,0,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",2,"Coalescence",1,"",""
-445,"Gore Mail α","BODY","Gore α",60,-2,3,-1,2,-1,3,0,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",2,"Antivirus",1,"",""
-446,"Gore Vambraces α","ARM","Gore α",60,-2,3,-1,2,-1,2,1,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",1,"Constitution",2,"",""
-447,"Gore Coil α","WAIST","Gore α",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scaling Prowess","Constitution",2,"Antivirus",1,"",""
-448,"Gore Greaves α","LEG","Gore α",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scaling Prowess","Antivirus",1,"Flinch Free",2,"",""
-449,"Gore Helm β","HELM","Gore β",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",1,"Coalescence",1,"",""
-450,"Gore Mail β","BODY","Gore β",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",2,"","","",""
-451,"Gore Vambraces β","ARM","Gore β",60,-2,3,-1,2,-1,2,2,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",1,"Constitution",1,"",""
-452,"Gore Coil β","WAIST","Gore β",60,-2,3,-1,2,-1,3,2,0,"Gore Magala's Tyranny","Scale Layering","Constitution",2,"","","",""
-453,"Gore Greaves β","LEG","Gore β",60,-2,3,-1,2,-1,3,1,1,"Gore Magala's Tyranny","Scale Layering","Antivirus",1,"Flinch Free",1,"",""
-454,"Arkvulcan Helm α","HELM","Arkveld α",66,2,0,-1,0,-3,0,0,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Elemental Absorption",2,"",""
-455,"Arkvulcan Mail α","BODY","Arkveld α",66,2,0,-1,0,-3,2,0,0,"Arkveld's Hunger","Fortifying Pelt","Weakness Exploit",1,"Elemental Absorption",1,"",""
-456,"Arkvulcan Vambraces α","ARM","Arkveld α",66,2,0,-1,0,-3,2,2,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Recovery Speed",1,"",""
-457,"Arkvulcan Coil α","WAIST","Arkveld α",66,2,0,-1,0,-3,1,0,0,"Arkveld's Hunger","Fortifying Pelt","Weakness Exploit",2,"Recovery Speed",2,"",""
-458,"Arkvulcan Greaves α","LEG","Arkveld α",66,2,0,-1,0,-3,2,1,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Quick Sheathe",2,"",""
-459,"Arkvulcan Helm β","HELM","Arkveld β",66,2,0,-1,0,-3,3,2,1,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"","","",""
-460,"Arkvulcan Mail β","BODY","Arkveld β",66,2,0,-1,0,-3,3,2,0,"Arkveld's Hunger","Alluring Pelt","Weakness Exploit",1,"","","",""
-461,"Arkvulcan Vambraces β","ARM","Arkveld β",66,2,0,-1,0,-3,2,2,1,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"","","",""
-462,"Arkvulcan Coil β","WAIST","Arkveld β",66,2,0,-1,0,-3,1,1,0,"Arkveld's Hunger","Alluring Pelt","Weakness Exploit",2,"Recovery Speed",1,"",""
-463,"Arkvulcan Greaves β","LEG","Arkveld β",66,2,0,-1,0,-3,3,1,0,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"Quick Sheathe",1,"",""
-464,"G. Arkveld Helm α","HELM","Guardian Arkveld α",66,2,0,-1,0,-4,1,1,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"Partbreaker",2,"",""
-465,"G. Arkveld Mail α","BODY","Guardian Arkveld α",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",2,"Blight Resistance",2,"",""
-466,"G. Arkveld Vambraces α","ARM","Guardian Arkveld α",66,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Weakness Exploit",2,"Blight Resistance",1,"",""
-467,"G. Arkveld Coil α","WAIST","Guardian Arkveld α",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",2,"Elemental Absorption",1,"",""
-468,"G. Arkveld Greaves α","LEG","Guardian Arkveld α",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Elemental Absorption",2,"Weakness Exploit",1,"",""
-469,"G. Arkveld Helm β","HELM","Guardian Arkveld β",66,2,0,-1,0,-4,3,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",1,"Partbreaker",1,"",""
-470,"G. Arkveld Mail β","BODY","Guardian Arkveld β",66,2,0,-1,0,-4,3,0,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",1,"Blight Resistance",2,"",""
-471,"G. Arkveld Vambraces β","ARM","Guardian Arkveld β",66,2,0,-1,0,-4,1,1,1,"Guardian Arkveld's Vitality","Guardian's Protection","Weakness Exploit",2,"","","",""
-472,"G. Arkveld Coil β","WAIST","Guardian Arkveld β",66,2,0,-1,0,-4,2,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",2,"","","",""
-473,"G. Arkveld Greaves β","LEG","Guardian Arkveld β",66,2,0,-1,0,-4,2,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Elemental Absorption",1,"Weakness Exploit",1,"",""
-474,"Kunafa Headgear α","HELM","Kunafa α",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Wide-Range",2,"Palico Rally",1,"",""
-475,"Kunafa Cloak α","BODY","Kunafa α",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Free Meal",2,"Palico Rally",1,"",""
-476,"Kunafa Sash α","WAIST","Kunafa α",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Speed Eating",2,"Palico Rally",1,"",""
-477,"Kunafa Chaps α","LEG","Kunafa α",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Wide-Range",2,"Palico Rally",1,"",""
-478,"Azuz Headdress α","HELM","Azuz α",44,4,1,1,1,1,2,0,0,"","Imparted Wisdom","Maximum Might",2,"","","",""
-479,"Azuz Apron α","BODY","Azuz α",44,4,1,1,1,1,1,1,0,"","Imparted Wisdom","Heroics",3,"","","",""
-480,"Azuz Pants α","LEG","Azuz α",44,4,1,1,1,1,2,1,1,"","Imparted Wisdom","Geologist",3,"","","",""
-481,"Suja Sash α","WAIST","Suja α",44,1,1,1,4,1,2,1,1,"","Imparted Wisdom","Divine Blessing",3,"","","",""
-482,"Sild Hood α","HELM","Sild α",44,1,1,1,1,4,2,1,1,"","Imparted Wisdom","Botanist",3,"","","",""
-483,"Sild Coat α","BODY","Sild α",44,1,1,1,1,4,2,0,0,"","Imparted Wisdom","Wide-Range",4,"","","",""
-484,"Death Stench Brain α","HELM","Death Stench α",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
-485,"Death Stench Muscle α","BODY","Death Stench α",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
-486,"Death Stench Grip α","ARM","Death Stench α",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
-487,"Death Stench Bowels α","WAIST","Death Stench α",44,3,2,-2,3,4,2,1,0,"","Imparted Wisdom","Resentment",1,"Intimidator",2,"",""
-488,"Death Stench Heel α","LEG","Death Stench α",44,3,2,-2,3,4,2,1,0,"","Imparted Wisdom","Resentment",1,"Stun Resistance",2,"",""
-489,"Butterfly Vertex α","HELM","Butterfly α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
-490,"Butterfly Thorax α","BODY","Butterfly α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
-491,"Butterfly Brachia α","ARM","Butterfly α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Recovery Speed",2
-492,"Butterfly Elytra α","WAIST","Butterfly α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
-493,"Butterfly Crura α","LEG","Butterfly α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Recovery Up",2
-494,"King Beetle Vertex α","HELM","King Beetle α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Sleep Resistance",1
-495,"King Beetle Thorax α","BODY","King Beetle α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Paralysis Resistance",1
-496,"King Beetle Brachia α","ARM","King Beetle α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Poison Resistance",1
-497,"King Beetle Elytra α","WAIST","King Beetle α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Flayer",1,"Paralysis Resistance",1
-498,"King Beetle Crura α","LEG","King Beetle α",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Flayer",1,"Poison Resistance",1
-499,"High Metal Helm α","HELM","High Metal α",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Stun Resistance",3,"Partbreaker",1,"",""
-500,"High Metal Mail α","BODY","High Metal α",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Iron Skin",3,"Partbreaker",1,"",""
-501,"High Metal Braces α","ARM","High Metal α",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Blast Resistance",3,"Partbreaker",1,"",""
-502,"High Metal Coil α","WAIST","High Metal α",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Bombardier",3,"Aquatic/Oilsilt Mobility",2,"",""
-503,"High Metal Greaves α","LEG","High Metal α",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Flinch Free",3,"Bleeding Resistance",3,"",""
-504,"Battle Helm α","HELM","Battle α",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Stamina Surge",2,"","","",""
-505,"Battle Mail α","BODY","Battle α",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Hunger Resistance",3,"Sleep Resistance",2,"",""
-506,"Battle Vambraces α","ARM","Battle α",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Free Meal",3,"","","",""
-507,"Battle Coil α","WAIST","Battle α",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Item Prolonger",3,"Bind Resistance",2,"",""
-508,"Battle Greaves α","LEG","Battle α",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Marathon Runner",3,"Constitution",2,"",""
-509,"Melahoa Hat α","HELM","Melahoa α",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Survival Expert",3,"Poison Resistance",2,"",""
-510,"Melahoa Jacket α","BODY","Melahoa α",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Tool Specialist",3,"","","",""
-511,"Melahoa Branch α","ARM","Melahoa α",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Recovery Speed",3,"Paralysis Resistance",2,"",""
-512,"Melahoa Folia α","WAIST","Melahoa α",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Recovery Up",3,"Bleeding Resistance",2,"",""
-513,"Melahoa Roots α","LEG","Melahoa α",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Mushroomancer",3,"","","",""
-519,"Artian Helm α","HELM","Artian α",44,1,-2,-2,2,3,2,1,0,"","Guardian's Protection","Flayer",1,"Earplugs",1,"",""
-520,"Artian Mail α","BODY","Artian α",44,1,-2,-2,2,3,2,1,1,"","Guardian's Protection","Flayer",1,"Adaptability",1,"",""
-521,"Artian Vambraces α","ARM","Artian α",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Blight Resistance",2,"",""
-522,"Artian Coil α","WAIST","Artian α",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Windproof",2,"",""
-523,"Artian Greaves α","LEG","Artian α",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Tremor Resistance",2,"",""
-524,"Gajau Boots α","LEG","Gajau α",44,0,5,0,0,0,1,1,1,"","Flexible Leathercraft","Water Resistance",1,"Outdoorsman",1,"",""
-526,"Commission Helm α","HELM","Commission α",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Maximum Might",1,"",""
-527,"Commission Mail α","BODY","Commission α",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Divine Blessing",2,"",""
-528,"Commission Vambraces α","ARM","Commission α",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Quick Sheathe",2,"",""
-529,"Commission Coil α","WAIST","Commission α",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Tool Specialist",1,"",""
-530,"Commission Greaves α","LEG","Commission α",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Earplugs",1,"",""
-531,"Mimiphyta α","HELM","Mimiphyta α",36,-3,2,-2,2,2,1,0,0,"","Fortifying Pelt","Entomologist",1,"Ambush",1,"",""
-514,"Guild Ace Earrings α","HELM","Guild Ace α",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
-515,"Guild Ace Mail α","BODY","Guild Ace α",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
-516,"Guild Ace Vambraces α","ARM","Guild Ace α",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
-517,"Guild Ace Coil α","WAIST","Guild Ace α",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
-518,"Guild Ace Boots α","LEG","Guild Ace α",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
-608,"No Equipment","HELM","#N/A",0,0,0,0,0,0,0,0,0,"","","","","","","",""
-609,"No Equipment","BODY","#N/A",0,0,0,0,0,0,0,0,0,"","","","","","","",""
-610,"No Equipment","ARM","#N/A",0,0,0,0,0,0,0,0,0,"","","","","","","",""
-611,"No Equipment","WAIST","#N/A",0,0,0,0,0,0,0,0,0,"","","","","","","",""
-612,"No Equipment","LEG","#N/A",0,0,0,0,0,0,0,0,0,"","","","","","","",""
-38,"Gajau Boots","LEG","Gajau",4,0,5,0,0,0,0,0,0,"","Flexible Leathercraft","Water Resistance",1,"","","",""
-525,"Dragonking Eyepatch α","HELM","Dragonking α",60,0,0,0,0,0,0,0,0,"","","Counterstrike",3,"","","",""
-532,"Expedition Headgear α","HELM","Expedition Headgear α",40,1,1,1,1,1,1,0,0,"","","Blight Resistance",1,"Coalescence",1,"",""
+"Index","Series","Type","Name","Description","Defense","Fire Res","Water Res","Thunder Res","Ice Res","Dragon Res","Slot 1","Slot 2","Slot 3","Series Skill","Group Skill","Skill 1","Skill Level 1","Skill 2","Skill Level 2","Skill 3","Skill Level 3"
+0,"Hope","HELM","Hope Mask","Armor crafted specifically for
+members of the expedition.
+The mask keeps the sand out.",2,1,0,1,0,0,0,0,0,"","","Stun Resistance",1,"","","",""
+1,"Hope","BODY","Hope Mail","Armor crafted specifically for
+members of the expedition. An
+all-seasons design for any clime.",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
+2,"Hope","ARM","Hope Vambraces","Armor crafted specifically for
+members of the expedition.
+Pliant fingers help with
+precision work.",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
+3,"Hope","WAIST","Hope Coil","Armor crafted specifically for
+members of the expedition.
+It is optimized for quick access.",2,1,0,1,0,0,0,0,0,"","","Stun Resistance",1,"","","",""
+4,"Hope","LEG","Hope Greaves","Armor crafted specifically for
+members of the expedition. It
+can handle nearly any terrain.",2,1,0,1,0,0,0,0,0,"","","Divine Blessing",1,"","","",""
+5,"Leather","HELM","Leather Headgear","Head armor made of treated
+monster hide. A safe choice,
+designed for multi-purpose use.",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
+6,"Leather","BODY","Leather Vest","Simple chest armor reinforced
+with monster hide. A design
+that maximizes wearability.",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
+7,"Leather","ARM","Leather Gloves","Armguards reinforced with
+monster hide. They're light,
+but provide ample protection.",2,2,0,0,0,0,0,0,0,"","","Hunger Resistance",1,"","","",""
+8,"Leather","WAIST","Leather Belt","Waistgear reinforced with
+monster hide. Hunters swear by
+its no-nonsense functionality.",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
+9,"Leather","LEG","Leather Pants","Leg armor reinforced with
+monster hide. Molds to the
+body with extended use.",2,2,0,0,0,0,0,0,0,"","","Botanist",1,"","","",""
+10,"Chainmail","HELM","Chainmail Headgear","Head armor made of woven chain
+links. Its familiar design inspires
+trust in hunters who wear it.",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
+11,"Chainmail","BODY","Chainmail Vest","Chest armor made of woven chain
+links. Tried and true, it offers
+solid, functional defense.",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
+12,"Chainmail","ARM","Chainmail Gloves","Armguards made of woven chain
+links. They're easy to use and
+a breeze to maintain.",2,0,2,0,0,0,0,0,0,"","","Geologist",1,"","","",""
+13,"Chainmail","WAIST","Chainmail Belt","Waistgear made of woven chain
+links. A smart combination of
+materials keeps it extra light.",2,0,2,0,0,0,0,0,0,"","","Recovery Speed",1,"","","",""
+14,"Chainmail","LEG","Chainmail Pants","Leg armor made of woven chain
+links. The clever weave prevents
+it from impairing movement.",2,0,2,0,0,0,0,0,0,"","","Recovery Speed",1,"","","",""
+15,"Bone","HELM","Bone Helm","Traditional head armor crafted
+from monster bones. Believe it
+or not, it offers pretty good
+insulation.",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
+16,"Bone","BODY","Bone Mail","Traditional chest armor with a
+unique plating of intricately
+pieced together monster bones.",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
+17,"Bone","ARM","Bone Vambraces","Traditional armguards made
+from monster bones. It's a
+wonder these mismatched
+shapes fit together.",4,2,0,2,0,2,0,0,0,"","","Stun Resistance",1,"","","",""
+18,"Bone","WAIST","Bone Coil","Traditional waistgear bound
+with monster bones. Looks
+crude, but it does the job.",4,2,0,2,0,2,0,0,0,"","","Marathon Runner",1,"","","",""
+19,"Bone","LEG","Bone Greaves","Traditional leg armor crafted
+from monster bones so light it's
+like wearing nothing at all.",4,2,0,2,0,2,0,0,0,"","","Stun Resistance",1,"","","",""
+20,"Bulaqchi","HELM","Bulaqchi Specs","Spectacles made from Bulaqchi
+parts. The hottest new design
+for the stylish hunter.",4,-4,1,1,-2,4,0,0,0,"","Neopteron Alert","Entomologist",1,"","","",""
+21,"Talioth","ARM","Talioth Vambraces","Talioth armguards. The forearm
+blades are a classic example
+of style over practicality.",4,4,-2,-2,-2,2,0,0,0,"","Flexible Leathercraft","Leap of Faith",1,"","","",""
+22,"Chatacabra","HELM","Chatacabra Helm","Chatacabra head armor.
+The design is specially tailored
+for desert hunting.",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
+23,"Chatacabra","BODY","Chatacabra Mail","Chatacabra chest armor.
+Equipped with generous elastic
+cushioning in the collar.",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
+24,"Chatacabra","ARM","Chatacabra Vambraces","Chatacabra armguards. They
+protect the wrists without
+hampering weapon handling.",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"","","",""
+25,"Chatacabra","WAIST","Chatacabra Coil","Chatacabra waistgear. The
+charming, heart-shaped pouch
+is made from its ample tongue.",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"","","",""
+26,"Chatacabra","LEG","Chatacabra Greaves","Leg armor made from
+Chatacabra spoils. A loose
+fit for maximum mobility.",6,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"","","",""
+27,"Quematrice","HELM","Quematrice Helm","Head armor made from Quematrice
+spoils. The shock of feathers
+ties the whole look together.",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
+28,"Quematrice","BODY","Quematrice Mail","Quematrice chest armor. The
+design may look ceremonial,
+but it offers ample protection.",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"","","",""
+29,"Quematrice","ARM","Quematrice Braces","Armguards made from Quematrice
+parts. The wide cuffs allow
+the wrists to move unimpeded.",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
+30,"Quematrice","WAIST","Quematrice Coil","Flaunt-worthy Quematrice
+waistgear. Nothing shouts haute
+couture like flowing tassets.",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"","","",""
+31,"Quematrice","LEG","Quematrice Greaves","Quematrice leg armor. The
+ornate gaiters let a hunter
+strut like a Quematrice.",6,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Flinch Free",1,"","","",""
+32,"Alloy","HELM","Alloy Helm","A helmet crafted from quality
+ore. While it doesn't look like
+much, this is highly functional
+armor.",6,-2,1,-2,-2,1,0,0,0,"","","Quick Sheathe",1,"","","",""
+33,"Alloy","BODY","Alloy Mail","Chest armor crafted from
+quality ore. Made with a
+logical, no-frills construction
+that puts mobility first.",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
+34,"Alloy","ARM","Alloy Vambraces","Armguards crafted from quality
+ore. Every element is streamlined
+for maximum utility.",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
+35,"Alloy","WAIST","Alloy Coil","Waistgear crafted from quality
+ore. The complexly shaded patina
+and sleek design are quite
+stunning.",6,-2,1,-2,-2,1,0,0,0,"","","Tremor Resistance",1,"","","",""
+36,"Alloy","LEG","Alloy Greaves","Leg armor crafted from quality
+ore. What it lacks in charm it
+more than makes up in defense.",6,-2,1,-2,-2,1,0,0,0,"","","Quick Sheathe",1,"","","",""
+37,"Piragill","LEG","Piragill Greaves","Piragill leg armor. A light,
+skintight fit made with the most
+exquisite, buttery-soft leather.",4,-3,4,-3,1,1,0,0,0,"","Flexible Leathercraft","Water Resistance",1,"","","",""
+39,"Vespoid","HELM","Vespoid Helm","A Vespoid helmet. The carapace
+material is susceptible to fire
+but offers sturdy coverage.",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
+40,"Vespoid","BODY","Vespoid Mail","Vespoid chest armor. Its arcane
+build provides formidable
+resistance to physical attacks.",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
+41,"Vespoid","ARM","Vespoid Vambraces","Vespoid armguards. They are as
+heavy as they look, but they
+afford significant defense.",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
+42,"Vespoid","WAIST","Vespoid Coil","Vespoid waistgear. The design
+arose from the study of highly
+defensive exoskeletons.",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
+43,"Vespoid","LEG","Vespoid Greaves","Leg armor made from Vespoid
+parts. Ingenious artisanship has
+further reinforced the carapace.",4,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"","","",""
+44,"Lala Barina","HELM","Barina Headgear","Lala Barina head armor. The
+rose embellishments were
+fashioned from its carapace.",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
+45,"Lala Barina","BODY","Barina Mail","Lala Barina chest armor. It may
+look like normal clothing, but
+it's just as hardy as armor.",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"","","",""
+46,"Lala Barina","ARM","Barina Vambraces","Lala Barina armguards that
+are so elegant they could
+pass as formal wear.",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
+47,"Lala Barina","WAIST","Barina Coil","Lala Barina waistgear that
+nobility would gladly don
+just to make an impression.",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
+48,"Lala Barina","LEG","Barina Greaves","Lala Barina leg armor. Pulls
+the rose motif back in with
+subtle but elegant detailing.",8,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"","","",""
+49,"Conga","HELM","Conga Helm","Head armor made from Congalala
+materials. Remember: it's ""feral,""
+not ""unkempt.""",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
+50,"Conga","BODY","Conga Mail","Chest armor made from Congalala
+materials. The shocks of monster
+fur help hunters keep it wild.",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
+51,"Conga","ARM","Conga Vambraces","Armguards made from Congalala
+materials. Crudely made but
+highly protective.",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Stench Resistance",1,"","","",""
+52,"Conga","WAIST","Conga Coil","Waistgear made from Congalala
+materials, complete with an array
+of handy pockets!",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Stench Resistance",1,"","","",""
+53,"Conga","LEG","Conga Greaves","Greaves made of Congalala parts.
+Wild crafting perfect for those
+who run in the wilderness.",8,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"","","",""
+54,"Balahara","HELM","Balahara Helm","A Balahara helmet covered in
+roughly polished protrusions
+to strongly evoke its namesake.",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Hunger Resistance",1,"","","",""
+55,"Balahara","BODY","Balahara Mail","Balahara chest armor. The bulky
+shoulders are roomy enough
+to allow ample movement.",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Quick Sheathe",1,"","","",""
+56,"Balahara","ARM","Balahara Vambraces","Balahara armguards. The spikes
+are arranged artfully in a way
+that maximizes movement.",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
+57,"Balahara","WAIST","Balahara Coil","Balahara waistgear. The fabric
+is colored a shade of red that
+stirs a competitive spirit.",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
+58,"Balahara","LEG","Balahara Greaves","Spiny Balahara leg armor.
+The carapace has been split
+into clever, fluid parts.",12,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"","","",""
+59,"Doshaguma","HELM","Doshaguma Helm","Head armor made from Doshaguma
+parts. Pity any enemy who dares
+scoff at its imposing crest.",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
+60,"Doshaguma","BODY","Doshaguma Mail","Doshaguma chest armor. The
+lush shocks of fur function as
+a robust defensive layer.",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
+61,"Doshaguma","ARM","Doshaguma Braces","Doshaguma armguards. Teeming
+with such feral power, they
+had to be restrained with
+metal bracers.",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Recovery Speed",1,"","","",""
+62,"Doshaguma","WAIST","Doshaguma Coil","Waistgear made from Doshaguma
+parts. Nothing can muss the
+thick pile of this sturdy sash.",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Item Prolonger",1,"","","",""
+63,"Doshaguma","LEG","Doshaguma Greaves","Doshaguma leg armor. Whether
+dune or sandstorm, nothing can
+slow its wearer's progress.",16,-3,2,-1,-1,4,0,0,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"","","",""
+64,"Uth Duna","HELM","Duna Helm","Uth Duna head armor. The
+plumage crafted from its
+fins convey the forest's
+will to the wearer.",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"Tool Specialist",1,"",""
+65,"Uth Duna","BODY","Duna Mail","Uth Duna chest armor. The tightly
+fitted scales make the wearer feel
+as if they are one with nature.",26,-1,4,-3,0,0,1,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"","","",""
+66,"Uth Duna","ARM","Duna Vambraces","Uth Duna armguards. The rows
+of stone beading are an elegant
+touch that boosts concentration.",26,-1,4,-3,0,0,1,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",1,"","","",""
+67,"Uth Duna","WAIST","Duna Coil","Uth Duna waistgear. The fabric
+is imbued with the breath of the
+forest, absorbing any impact.",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",1,"Aquatic/Oilsilt Mobility",1,"",""
+68,"Uth Duna","LEG","Duna Greaves","Elaborately patterned Uth Duna
+leg armor. The design is said to
+invoke the forest's protection.",26,-1,4,-3,0,0,0,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"","","",""
+69,"Ingot","HELM","Ingot Helm","Head armor fashioned from
+lustrous, golden ore. Regal
+protection with a crown to
+complete the look.",16,-2,0,3,-1,0,0,0,0,"","","Divine Blessing",1,"","","",""
+70,"Ingot","BODY","Ingot Mail","Chest armor crafted from
+brilliant golden ore. Its color and
+design are both highly pleasing.",16,-2,0,3,-1,0,0,0,0,"","","Windproof",1,"","","",""
+71,"Ingot","ARM","Ingot Vambraces","Armguards fashioned from
+lustrous, golden ore. A union
+of artistry and utility with
+no absence of durability.",16,-2,0,3,-1,0,0,0,0,"","","Stun Resistance",1,"","","",""
+72,"Ingot","WAIST","Ingot Coil","Waistgear fashioned from lustrous,
+golden ore. It joins haute design
+with the very latest in armor craft.",16,-2,0,3,-1,0,0,0,0,"","","Divine Blessing",1,"","","",""
+73,"Ingot","LEG","Ingot Greaves","Leg armor fashioned from lustrous,
+golden ore. Clever smithing makes
+the metal feel fluid and light.",16,-2,0,3,-1,0,0,0,0,"","","Windproof",1,"","","",""
+74,"Kranodath","BODY","Kranodath Mail","Kranodath chest armor. What
+armor enthusiast could resist
+such ornate plating?",16,4,-2,0,-2,0,0,0,0,"","Scaling Prowess","Flinch Free",2,"","","",""
+75,"Rompopolo","HELM","Rompopolo Helm","Rompopolo head armor.
+The mask is needed to ward off
+the material's residual toxins.",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
+76,"Rompopolo","BODY","Rompopolo Mail","Well-padded Rompopolo chest
+armor. The fabric contains poison
+that—supposedly—never leaks.",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
+77,"Rompopolo","ARM","Rompopolo Vambraces","Rompopolo armguards. The
+poisonous needles in the claws
+are neat, but tricky to use.",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Poison Resistance",1,"",""
+78,"Rompopolo","WAIST","Rompopolo Coil","Rompopolo waistgear fully
+equipped with instruments
+needed to handle poison.",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Poison Resistance",1,"",""
+79,"Rompopolo","LEG","Rompopolo Greaves","Rompopolo leg armor. Careful
+you don't accidentally lean on
+those spare vials of poison...",18,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"","","",""
+80,"Rey Dau","HELM","Rey Sandhelm","Rey Dau head armor. Its crest
+reaches the heavens—proof that
+this creature bows to no one.",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"","","",""
+81,"Rey Dau","BODY","Rey Sandmail","Rey Dau chest armor. Its carapace
+has been meticulously paneled
+into a bastion of defense.",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Constitution",1,"","","",""
+82,"Rey Dau","ARM","Rey Sandbraces","Rey Dau armguards. A lingering
+charge gives the wearer a grip
+like a vice.",26,0,-2,4,-3,0,1,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"","","",""
+83,"Rey Dau","WAIST","Rey Sandcoil","Rey Dau waistgear. The
+faintly glowing buckle
+inspires awe and respect.",26,0,-2,4,-3,0,1,0,0,"Rey Dau's Voltage","Lord's Favor","Constitution",1,"","","",""
+84,"Rey Dau","LEG","Rey Sandgreaves","Rey Dau leg armor. A layer
+of latent electricity cushions
+blows and softens landings.",26,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"Constitution",1,"",""
+85,"Comaqchi","HELM","Comaqchi Accessory","A Comaqchi head accessory.
+The thin, sleek plating
+emanates an eldritch gleam.",16,-5,0,0,3,3,0,0,0,"","Neopteron Alert","Sleep Resistance",1,"","","",""
+86,"Nerscylla","HELM","Nerscylla Helm","A helmet made from Nerscylla
+spoils. Protection this durable
+requires masterful precision
+and execution.",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
+87,"Nerscylla","BODY","Nerscylla Mail","Chest armor made from Nerscylla
+materials. Advanced engineering
+makes it feel impossibly light.",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Poison Resistance",1,"",""
+88,"Nerscylla","ARM","Nerscylla Vambraces","Armguards made from Nerscylla
+spoils. Extra play in the fingers
+helps improve weapon handling.",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
+89,"Nerscylla","WAIST","Nerscylla Coil","Waistgear made from Nerscylla
+spoils. A work of art that exhibits
+a deep dedication to armor craft.",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Sleep Resistance",1,"",""
+90,"Nerscylla","LEG","Nerscylla Greaves","Leg armor made from Nerscylla
+spoils. It keeps hunters light
+on their feet and looking good
+in action.",20,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"","","",""
+91,"Hirabami","HELM","Hirabami Headdress","Head armor made from Hirabami
+spoils. It keeps the wearer
+attuned and bound to the wind
+at all times.",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Recovery Speed",1,"",""
+92,"Hirabami","BODY","Hirabami Mail","Chest armor made from Hirabami
+spoils. The style is inspired by the
+gallant warriors of a foreign land.",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Recovery Speed",1,"",""
+93,"Hirabami","ARM","Hirabami Vambraces","Armguards made from Hirabami
+spoils. Wind rises at the fingertips
+in warning to all adversaries.",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
+94,"Hirabami","WAIST","Hirabami Coil","Waistgear made from Hirabami
+spoils. The elegant sash harnesses
+the wind to mitigate impacts.",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
+95,"Hirabami","LEG","Hirabami Greaves","Leg armor made from Hirabami
+spoils. Designed for mobility,
+they feel like walking on wind.",22,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Ice Resistance",1,"",""
+96,"Ajarakan","HELM","Ajarakan Helm","Imposing Ajarakan head armor.
+Donning it will draw the fires
+from within to burst forth.",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"Bombardier",1,"",""
+97,"Ajarakan","BODY","Ajarakan Mail","Ajarakan chest armor. The
+heat of its flames warns prey
+of their final immolation.",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"","","",""
+98,"Ajarakan","ARM","Ajarakan Vambraces","Mighty Ajarakan armguards.
+They have just as much
+ground-shaking power
+as their namesake.",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Bombardier",1,"Cliffhanger",1,"",""
+99,"Ajarakan","WAIST","Ajarakan Coil","Ajarakan waistgear. It acts
+as a tether to quell the
+wearer's exploding rage.",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Bombardier",1,"Blast Resistance",1,"",""
+100,"Ajarakan","LEG","Ajarakan Greaves","Flame crested Ajarakan leg
+armor. A heat so fierce that
+each step makes the earth
+shudder in agony.",24,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",1,"Blast Resistance",1,"",""
+101,"Nu Udra","HELM","Udra Mirehelm","Nu Udra head armor. The world
+through this mask is swathed
+in vengeance and ebony fire.",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"","","",""
+102,"Nu Udra","BODY","Udra Miremail","Nu Udra chest armor. As if a
+curse manifested, tentacles drape
+down to form a haunting cape.",26,5,-4,0,1,0,0,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"Speed Eating",1,"",""
+103,"Nu Udra","ARM","Udra Mirebraces","Chilling Nu Udra armguards.
+They warp one's sense of
+touch, changing warmth to
+cold nothingness.",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",1,"","","",""
+104,"Nu Udra","WAIST","Udra Mirecoil","Nu Udra waistgear. The gnash
+of spikes and fangs are bound
+by a personalized curse.",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"","","",""
+105,"Nu Udra","LEG","Udra Miregreaves","Nu Udra leg armor. The wearer
+could cross a sea of fire without
+so much as a blister.",26,5,-4,0,1,0,1,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",1,"","","",""
+106,"Guardian Seikret","WAIST","G. Seikret Coil","Guardian Seikret waistgear.
+The long, white feathers
+produce a faint, exquisite glow.",22,0,0,4,0,-3,1,0,0,"","Guardian's Pulse","Jump Master",1,"","","",""
+107,"Guardian Doshaguma","HELM","G. Doshaguma Helm","Head armor made from Guardian
+Doshaguma spoils. To don it is
+to be seized by unspeakable
+cravings.",26,-3,2,-1,-2,2,1,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"","","",""
+108,"Guardian Doshaguma","BODY","G. Doshaguma Mail","Chest armor made from
+Guardian Doshaguma spoils.
+It instills a new vitality and
+sense of purpose.",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Iron Skin",1,"",""
+109,"Guardian Doshaguma","ARM","G. Doshaguma Braces","Armguards made from Guardian
+Doshaguma spoils. They agitate
+the wearer unless in constant
+motion.",26,-3,2,-1,-2,2,1,0,0,"Doshaguma's Might","Guardian's Pulse","Marathon Runner",1,"","","",""
+110,"Guardian Doshaguma","WAIST","G. Doshaguma Coil","Waistgear made from Guardian
+Doshaguma spoils. The white
+areas self-repair when damaged.",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Marathon Runner",1,"",""
+111,"Guardian Doshaguma","LEG","G. Doshaguma Greaves","Leg armor made from Guardian
+Doshaguma spoils. Produces
+a faint white aura when worn.",26,-3,2,-1,-2,2,0,0,0,"Doshaguma's Might","Guardian's Pulse","Marathon Runner",1,"Iron Skin",1,"",""
+112,"Guardian Rathalos","HELM","G. Rathalos Helm","Head armor made from Guardian
+Rathalos spoils. To don it is to be
+seized by unspeakable cravings.",26,3,1,-2,1,-5,0,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",1,"",""
+113,"Guardian Rathalos","BODY","G. Rathalos Mail","Chest armor made from Guardian
+Rathalos spoils. It instills a new
+vitality and sense of purpose.",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Intimidator",1,"","","",""
+114,"Guardian Rathalos","ARM","G. Rathalos Vambraces","Armguards made from Guardian
+Rathalos spoils. They agitate the
+wearer unless in constant motion.",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"","","",""
+115,"Guardian Rathalos","WAIST","G. Rathalos Coil","Waistgear made from Guardian
+Rathalos spoils. The white areas
+self-repair when damaged.",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Intimidator",1,"","","",""
+116,"Guardian Rathalos","LEG","G. Rathalos Greaves","Leg armor made from Guardian
+Rathalos spoils. Produces
+a faint white aura when worn.",26,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"","","",""
+117,"Guardian Ebony","HELM","G. Ebony Helm","Head armor made from Guardian
+Ebony Odogaron spoils. To don it
+is to be seized by unspeakable
+cravings.",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"","","",""
+118,"Guardian Ebony","BODY","G. Ebony Mail","Chest armor made from Guardian
+Ebony Odogaron spoils. It
+instills a new vitality and
+sense of purpose.",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Bleeding Resistance",1,"","","",""
+119,"Guardian Ebony","ARM","G. Ebony Braces","Armguards made from Guardian
+Ebony Odogaron spoils. They
+agitate the wearer unless in
+constant motion.",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"","","",""
+120,"Guardian Ebony","WAIST","G. Ebony Coil","Waistgear made from Guardian
+Ebony Odogaron spoils. The
+white areas self-repair
+when damaged.",26,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"Bleeding Resistance",1,"",""
+121,"Guardian Ebony","LEG","G. Ebony Greaves","Leg armor made from Guardian
+Ebony Odogaron spoils. Produces
+a faint white aura when worn.",26,-2,-3,-2,-2,4,1,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Bleeding Resistance",1,"","","",""
+122,"Xu Wu","HELM","Xu Wu Helm","Concealing Xu Wu head armor.
+Fitting attire for hunters who
+dwell in darkness.",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Maximum Might",1,"","","",""
+123,"Xu Wu","BODY","Xu Wu Mail","Xu Wu chest armor. The long
+scarf can be used as protective
+gear and multi-purpose rope.",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"","","",""
+124,"Xu Wu","ARM","Xu Wu Vambraces","Xu Wu armguards. The clever
+design gives the wearer's fingers
+a nimble edge even in the dark.",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Maximum Might",1,"","","",""
+125,"Xu Wu","WAIST","Xu Wu Coil","Slinky Xu Wu waistgear. The
+uniquely textured leather
+moves silent as a whisper.",26,1,1,1,-3,2,0,0,0,"","Flexible Leathercraft","Maximum Might",1,"Stamina Surge",1,"",""
+126,"Xu Wu","LEG","Xu Wu Greaves","Xu Wu leg armor. Meticulously
+crafted to allow the wearer to
+slink silently through the dark.",26,1,1,1,-3,2,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"","","",""
+127,"Guardian Arkveld","HELM","G. Arkveld Helm","Guardian Arkveld head armor.
+A host of heightened senses
+make up for the narrow view.",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"","","",""
+128,"Guardian Arkveld","BODY","G. Arkveld Mail","Guardian Arkveld chest armor.
+It beckons forth a shudder of
+indescribable power.",30,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"Blight Resistance",1,"",""
+129,"Guardian Arkveld","ARM","G. Arkveld Vambraces","Guardian Arkveld armguards.
+Instills the desire to tear at
+friend and foe alike.",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"","","",""
+130,"Guardian Arkveld","WAIST","G. Arkveld Coil","Guardian Arkveld waistgear.
+The chains writhe subtly, eager
+to ensnare prey.",30,2,0,-1,0,-4,1,1,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Blight Resistance",1,"","","",""
+131,"Guardian Arkveld","LEG","G. Arkveld Greaves","Guardian Arkveld leg armor.
+Their power grows with each
+relentless, hungry step.",30,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Blight Resistance",1,"","","",""
+132,"Hope α","HELM","Hope Mask α","Armor crafted specifically for
+members of the expedition.
+The mask keeps the sand out.",26,1,0,1,0,0,1,0,0,"","","Divine Blessing",2,"","","",""
+133,"Hope α","BODY","Hope Mail α","Armor crafted specifically for
+members of the expedition. An
+all-seasons design for any clime.",26,1,0,1,0,0,1,1,0,"","","Poison Resistance",1,"","","",""
+134,"Hope α","ARM","Hope Vambraces α","Armor crafted specifically for
+members of the expedition.
+Pliant fingers help with
+precision work.",26,1,0,1,0,0,1,1,0,"","","Sleep Resistance",1,"","","",""
+135,"Hope α","WAIST","Hope Coil α","Armor crafted specifically for
+members of the expedition.
+It is optimized for quick access.",26,1,0,1,0,0,1,0,0,"","","Divine Blessing",1,"Stun Resistance",1,"",""
+136,"Hope α","LEG","Hope Greaves α","Armor crafted specifically for
+members of the expedition. It
+can handle nearly any terrain.",26,1,0,1,0,0,1,0,0,"","","Stun Resistance",2,"","","",""
+137,"Leather α","HELM","Leather Headgear α","Head armor made of treated
+monster hide. A safe choice,
+designed for multi-purpose use.",26,2,0,0,0,0,1,0,0,"","","Botanist",2,"","","",""
+138,"Leather α","BODY","Leather Mail α","Simple chest armor reinforced
+with monster hide. A design
+that maximizes wearability.",26,2,0,0,0,0,1,0,0,"","","Botanist",1,"Item Prolonger",1,"",""
+139,"Leather α","ARM","Leather Gloves α","Armguards reinforced with
+monster hide. They're light,
+but provide ample protection.",26,2,0,0,0,0,1,0,0,"","","Botanist",1,"Hunger Resistance",1,"",""
+140,"Leather α","WAIST","Leather Belt α","Waistgear reinforced with
+monster hide. Hunters swear by
+its no-nonsense functionality.",26,2,0,0,0,0,1,1,0,"","","Hunger Resistance",1,"","","",""
+141,"Leather α","LEG","Leather Pants α","Leg armor reinforced with
+monster hide. Molds to the
+body with extended use.",26,2,0,0,0,0,1,0,0,"","","Hunger Resistance",1,"Item Prolonger",1,"",""
+142,"Chainmail α","HELM","Chainmail Headgear α","Head armor made of woven chain
+links. Its familiar design inspires
+trust in hunters who wear it.",26,0,2,0,0,0,1,1,0,"","","Geologist",1,"","","",""
+143,"Chainmail α","BODY","Chainmail Armor α","Chest armor made of woven chain
+links. Tried and true, it offers
+solid, functional defense.",26,0,2,0,0,0,1,0,0,"","","Geologist",1,"Ice Resistance",1,"",""
+144,"Chainmail α","ARM","Chainmail Gloves α","Armguards made of woven chain
+links. They're easy to use and
+a breeze to maintain.",26,0,2,0,0,0,1,0,0,"","","Geologist",1,"Recovery Speed",1,"",""
+145,"Chainmail α","WAIST","Chainmail Belt α","Waistgear made of woven chain
+links. A smart combination of
+materials keeps it extra light.",26,0,2,0,0,0,1,0,0,"","","Recovery Speed",1,"Ice Resistance",1,"",""
+146,"Chainmail α","LEG","Chainmail Pants α","Leg armor made of woven chain
+links. The clever weave prevents
+it from impairing movement.",26,0,2,0,0,0,1,1,0,"","","Recovery Speed",1,"","","",""
+157,"Bulaqchi α","HELM","Bulaqchi Specs α","Spectacles made from Bulaqchi
+parts. The hottest new design
+for the stylish hunter.",32,-4,1,1,-2,4,0,0,0,"","Neopteron Alert","Entomologist",1,"Weakness Exploit",1,"",""
+158,"Bulaqchi β","HELM","Bulaqchi Specs β","Spectacles made from Bulaqchi
+parts. The hottest new design
+for the stylish hunter.",32,-4,1,1,-2,4,2,1,0,"","Neopteron Camouflage","Entomologist",1,"","","",""
+159,"Talioth α","ARM","Talioth Vambraces α","Talioth armguards. The forearm
+blades are a classic example
+of style over practicality.",32,4,-2,-2,-2,2,0,0,0,"","Flexible Leathercraft","Leap of Faith",1,"Burst",1,"",""
+160,"Talioth β","ARM","Talioth Vambraces β","Talioth armguards. The forearm
+blades are a classic example
+of style over practicality.",32,4,-2,-2,-2,2,2,1,0,"","Buttery Leathercraft","Leap of Faith",1,"","","",""
+161,"Piragill α","LEG","Piragill Greaves α","Piragill leg armor. A light,
+skintight fit made with the most
+exquisite, buttery-soft leather.",32,-3,4,-3,1,1,0,0,0,"","Flexible Leathercraft","Aquatic/Oilsilt Mobility",1,"Water Resistance",2,"",""
+162,"Piragill β","LEG","Piragill Greaves β","Piragill leg armor. A light,
+skintight fit made with the most
+exquisite, buttery-soft leather.",32,-3,4,-3,1,1,2,0,0,"","Buttery Leathercraft","Aquatic/Oilsilt Mobility",1,"","","",""
+163,"Vespoid α","HELM","Vespoid Helm α","A Vespoid helmet. The carapace
+material is susceptible to fire
+but offers sturdy coverage.",32,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Survival Expert",1,"Ambush",1,"",""
+164,"Vespoid α","BODY","Vespoid Mail α","Vespoid chest armor. Its arcane
+build provides formidable
+resistance to physical attacks.",32,-2,1,1,1,2,1,0,0,"","Neopteron Alert","Survival Expert",1,"Evade Window",1,"",""
+165,"Vespoid α","ARM","Vespoid Vambraces α","Vespoid armguards. They are as
+heavy as they look, but they
+afford significant defense.",32,-2,1,1,1,2,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Ambush",1,"",""
+166,"Vespoid α","WAIST","Vespoid Coil α","Vespoid waistgear. The design
+arose from the study of highly
+defensive exoskeletons.",32,-2,1,1,1,2,1,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Evade Window",1,"",""
+167,"Vespoid α","LEG","Vespoid Greaves α","Leg armor made from Vespoid
+parts. Ingenious artisanship has
+further reinforced the carapace.",32,-2,1,1,1,2,1,1,0,"","Neopteron Alert","Survival Expert",1,"Paralysis Resistance",1,"",""
+168,"Vespoid β","HELM","Vespoid Helm β","A Vespoid helmet. The carapace
+material is susceptible to fire
+but offers sturdy coverage.",32,-2,1,1,1,2,2,0,0,"","Neopteron Camouflage","Survival Expert",1,"","","",""
+169,"Vespoid β","BODY","Vespoid Mail β","Vespoid chest armor. Its arcane
+build provides formidable
+resistance to physical attacks.",32,-2,1,1,1,2,1,1,1,"","Neopteron Camouflage","Survival Expert",1,"","","",""
+170,"Vespoid β","ARM","Vespoid Vambraces β","Vespoid armguards. They are as
+heavy as they look, but they
+afford significant defense.",32,-2,1,1,1,2,2,0,0,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
+171,"Vespoid β","WAIST","Vespoid Coil β","Vespoid waistgear. The design
+arose from the study of highly
+defensive exoskeletons.",32,-2,1,1,1,2,1,1,1,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
+172,"Vespoid β","LEG","Vespoid Greaves β","Leg armor made from Vespoid
+parts. Ingenious artisanship has
+further reinforced the carapace.",32,-2,1,1,1,2,2,1,0,"","Neopteron Camouflage","Survival Expert",1,"","","",""
+173,"Kranodath α","BODY","Kranodath Mail α","Kranodath chest armor. What
+armor enthusiast could resist
+such ornate plating?",32,4,-2,0,-2,0,0,0,0,"","Scaling Prowess","Flinch Free",2,"Partbreaker",1,"",""
+174,"Kranodath β","BODY","Kranodath Mail β","Kranodath chest armor. What
+armor enthusiast could resist
+such ornate plating?",32,4,-2,0,-2,0,2,0,0,"","Scale Layering","Flinch Free",2,"","","",""
+175,"Comaqchi α","HELM","Comaqchi Accessory α","A Comaqchi head accessory.
+The thin, sleek plating
+emanates an eldritch gleam.",32,-5,0,0,3,3,0,0,0,"","Neopteron Alert","Sleep Resistance",2,"Foray",1,"",""
+176,"Comaqchi β","HELM","Comaqchi Accessory β","A Comaqchi head accessory.
+The thin, sleek plating
+emanates an eldritch gleam.",32,-5,0,0,3,3,2,1,0,"","Neopteron Camouflage","Sleep Resistance",2,"","","",""
+177,"Kut-Ku α","HELM","Kut-Ku Helm α","Head armor made from superior
+Yian Kut-Ku parts. Its expert
+crafting brings to mind the
+bird-like beast.",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Constitution",2,"Fire Resistance",2,"",""
+178,"Kut-Ku α","BODY","Kut-Ku Mail α","Chest armor made from Yian
+Kut-Ku materials. Its unique
+color evokes thoughts of a
+foreign land.",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Agitator",1,"Fire Resistance",1,"",""
+179,"Kut-Ku α","ARM","Kut-Ku Vambraces α","Armguards made from Yian
+Kut-Ku materials. The
+otherworldly pink plating
+repels even wyvern fangs.",36,3,0,-2,-4,2,1,0,0,"","Scaling Prowess","Constitution",1,"Agitator",1,"",""
+180,"Kut-Ku α","WAIST","Kut-Ku Coil α","Waistgear crafted from Yian
+Kut-Ku parts. Beware of its
+sharp, spine-covered exterior!",36,3,0,-2,-4,2,0,0,0,"","Scaling Prowess","Agitator",1,"Recovery Up",2,"",""
+181,"Kut-Ku α","LEG","Kut-Ku Greaves α","Leg armor made from Yian Kut-Ku
+spoils. The exceptional design
+prioritizes ease of movement.",36,3,0,-2,-4,2,2,0,0,"","Scaling Prowess","Constitution",2,"Recovery Up",1,"",""
+182,"Kut-Ku β","HELM","Kut-Ku Helm β","Head armor made from superior
+Yian Kut-Ku parts. Its expert
+crafting brings to mind the
+bird-like beast.",36,3,0,-2,-4,2,2,1,0,"","Scale Layering","Constitution",2,"","","",""
+183,"Kut-Ku β","BODY","Kut-Ku Mail β","Chest armor made from Yian
+Kut-Ku materials. Its unique
+color evokes thoughts of a
+foreign land.",36,3,0,-2,-4,2,2,0,0,"","Scale Layering","Agitator",1,"","","",""
+184,"Kut-Ku β","ARM","Kut-Ku Vambraces β","Armguards made from Yian
+Kut-Ku materials. The
+otherworldly pink plating
+repels even wyvern fangs.",36,3,0,-2,-4,2,2,1,1,"","Scale Layering","Constitution",1,"","","",""
+185,"Kut-Ku β","WAIST","Kut-Ku Coil β","Waistgear crafted from Yian
+Kut-Ku parts. Beware of its
+sharp, spine-covered exterior!",36,3,0,-2,-4,2,1,0,0,"","Scale Layering","Agitator",1,"Recovery Up",1,"",""
+186,"Kut-Ku β","LEG","Kut-Ku Greaves β","Leg armor made from Yian Kut-Ku
+spoils. The exceptional design
+prioritizes ease of movement.",36,3,0,-2,-4,2,2,1,0,"","Scale Layering","Constitution",1,"Recovery Up",1,"",""
+187,"Chatacabra α","HELM","Chatacabra Helm α","Chatacabra head armor.
+The design is specially tailored
+for desert hunting.",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Speed Eating",1,"Wide-Range",1,"",""
+188,"Chatacabra α","BODY","Chatacabra Mail α","Chatacabra chest armor.
+Equipped with generous elastic
+cushioning in the collar.",36,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Speed Eating",1,"Weakness Exploit",1,"",""
+189,"Chatacabra α","ARM","Chatacabra Vambraces α","Chatacabra armguards. They
+protect the wrists without
+hampering weapon handling.",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Item Prolonger",1,"Wide-Range",1,"",""
+190,"Chatacabra α","WAIST","Chatacabra Coil α","Chatacabra waistgear. The
+charming, heart-shaped pouch
+is made from its ample tongue.",36,1,2,-3,-1,1,1,0,0,"","Flexible Leathercraft","Speed Eating",1,"Item Prolonger",1,"",""
+191,"Chatacabra α","LEG","Chatacabra Greaves α","Leg armor made from
+Chatacabra spoils. A loose
+fit for maximum mobility.",36,1,2,-3,-1,1,0,0,0,"","Flexible Leathercraft","Item Prolonger",1,"Weakness Exploit",1,"",""
+192,"Chatacabra β","HELM","Chatacabra Helm β","Chatacabra head armor.
+The design is specially tailored
+for desert hunting.",36,1,2,-3,-1,1,2,0,0,"","Buttery Leathercraft","Speed Eating",1,"","","",""
+193,"Chatacabra β","BODY","Chatacabra Mail β","Chatacabra chest armor.
+Equipped with generous elastic
+cushioning in the collar.",36,1,2,-3,-1,1,1,1,1,"","Buttery Leathercraft","Speed Eating",1,"","","",""
+194,"Chatacabra β","ARM","Chatacabra Vambraces β","Chatacabra armguards. They
+protect the wrists without
+hampering weapon handling.",36,1,2,-3,-1,1,2,0,0,"","Buttery Leathercraft","Item Prolonger",1,"","","",""
+195,"Chatacabra β","WAIST","Chatacabra Coil β","Chatacabra waistgear. The
+charming, heart-shaped pouch
+is made from its ample tongue.",36,1,2,-3,-1,1,1,1,0,"","Buttery Leathercraft","Speed Eating",1,"","","",""
+196,"Chatacabra β","LEG","Chatacabra Greaves β","Leg armor made from
+Chatacabra spoils. A loose
+fit for maximum mobility.",36,1,2,-3,-1,1,1,0,0,"","Buttery Leathercraft","Weakness Exploit",1,"","","",""
+197,"Gypceros α","HELM","Gypceros Helm α","Head armor made from
+Gypceros spoils. Its elasticity
+makes physical attacks bounce
+right off!",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Blindsider",1,"",""
+198,"Gypceros α","BODY","Gypceros Mail α","Chest armor made from Gypceros
+materials. Its elastic qualities
+provide reliable impact resistance.",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Poison Resistance",1,"",""
+199,"Gypceros α","ARM","Gypceros Vambraces α","Armguards made from Gypceros
+spoils. The springy nature of
+the material renders lesser
+attacks meaningless.",36,-4,3,4,-1,1,0,0,0,"","Flexible Leathercraft","Resentment",2,"Poison Resistance",1,"",""
+200,"Gypceros α","WAIST","Gypceros Coil α","Waistgear made from Gypceros
+materials. The thick, meaty
+skin provides ample protection.",36,-4,3,4,-1,1,1,0,0,"","Flexible Leathercraft","Stamina Surge",1,"Resentment",1,"",""
+201,"Gypceros α","LEG","Gypceros Greaves α","Leg armor made from Gypceros
+spoils. The springy material is
+undeniably more comfortable
+than metal.",36,-4,3,4,-1,1,0,0,0,"","Flexible Leathercraft","Resentment",1,"Marathon Runner",2,"",""
+202,"Gypceros β","HELM","Gypceros Helm β","Head armor made from
+Gypceros spoils. Its elasticity
+makes physical attacks bounce
+right off!",36,-4,3,4,-1,1,1,1,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
+203,"Gypceros β","BODY","Gypceros Mail β","Chest armor made from Gypceros
+materials. Its elastic qualities
+provide reliable impact resistance.",36,-4,3,4,-1,1,2,0,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
+204,"Gypceros β","ARM","Gypceros Vambraces β","Armguards made from Gypceros
+spoils. The springy nature of
+the material renders lesser
+attacks meaningless.",36,-4,3,4,-1,1,1,0,0,"","Buttery Leathercraft","Resentment",2,"","","",""
+205,"Gypceros β","WAIST","Gypceros Coil β","Waistgear made from Gypceros
+materials. The thick, meaty
+skin provides ample protection.",36,-4,3,4,-1,1,2,1,0,"","Buttery Leathercraft","Stamina Surge",1,"","","",""
+206,"Gypceros β","LEG","Gypceros Greaves β","Leg armor made from Gypceros
+spoils. The springy material is
+undeniably more comfortable
+than metal.",36,-4,3,4,-1,1,1,0,0,"","Buttery Leathercraft","Resentment",1,"Marathon Runner",1,"",""
+147,"Bone α","HELM","Bone Helm α","Traditional head armor crafted
+from monster bones. Believe it
+or not, it offers pretty good
+insulation.",32,2,0,2,0,2,1,0,0,"","","Stun Resistance",1,"Speed Eating",1,"",""
+148,"Bone α","BODY","Bone Mail α","Traditional chest armor with a
+unique plating of intricately
+pieced together monster bones.",32,2,0,2,0,2,1,0,0,"","","Marathon Runner",1,"Stun Resistance",1,"",""
+149,"Bone α","ARM","Bone Vambraces α","Traditional armguards made
+from monster bones. It's a
+wonder these mismatched
+shapes fit together.",32,2,0,2,0,2,1,0,0,"","","Marathon Runner",1,"Speed Eating",1,"",""
+150,"Bone α","WAIST","Bone Coil α","Traditional waistgear bound
+with monster bones. Looks
+crude, but it does the job.",32,2,0,2,0,2,1,1,0,"","","Marathon Runner",1,"","","",""
+151,"Bone α","LEG","Bone Greaves α","Traditional leg armor crafted
+from monster bones so light it's
+like wearing nothing at all.",32,2,0,2,0,2,1,1,0,"","","Stun Resistance",1,"","","",""
+152,"Alloy α","HELM","Alloy Helm α","A helmet crafted from quality
+ore. While it doesn't look like
+much, this is highly functional
+armor.",32,-2,1,-2,-2,1,1,1,0,"","","Quick Sheathe",1,"","","",""
+153,"Alloy α","BODY","Alloy Mail α","Chest armor crafted from
+quality ore. Made with a
+logical, no-frills construction
+that puts mobility first.",32,-2,1,-2,-2,1,1,0,0,"","","Flinch Free",2,"","","",""
+154,"Alloy α","ARM","Alloy Vambraces α","Armguards crafted from quality
+ore. Every element is streamlined
+for maximum utility.",32,-2,1,-2,-2,1,1,1,0,"","","Tremor Resistance",1,"","","",""
+155,"Alloy α","WAIST","Alloy Coil α","Waistgear crafted from quality
+ore. The complexly shaded patina
+and sleek design are quite
+stunning.",32,-2,1,-2,-2,1,1,0,0,"","","Tremor Resistance",1,"Quick Sheathe",1,"",""
+156,"Alloy α","LEG","Alloy Greaves α","Leg armor crafted from quality
+ore. What it lacks in charm it
+more than makes up in defense.",32,-2,1,-2,-2,1,1,0,0,"","","Quick Sheathe",1,"Flinch Free",1,"",""
+207,"Quematrice α","HELM","Quematrice Helm α","Head armor made from Quematrice
+spoils. The shock of feathers
+ties the whole look together.",36,2,-3,0,-1,0,1,0,0,"","Scaling Prowess","Flinch Free",1,"Latent Power",1,"",""
+208,"Quematrice α","BODY","Quematrice Mail α","Quematrice chest armor. The
+design may look ceremonial,
+but it offers ample protection.",36,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"Latent Power",1,"",""
+209,"Quematrice α","ARM","Quematrice Braces α","Armguards made from Quematrice
+parts. The wide cuffs allow
+the wrists to move unimpeded.",36,2,-3,0,-1,0,1,1,0,"","Scaling Prowess","Flinch Free",1,"Fire Resistance",1,"",""
+210,"Quematrice α","WAIST","Quematrice Coil α","Flaunt-worthy Quematrice
+waistgear. Nothing shouts haute
+couture like flowing tassets.",36,2,-3,0,-1,0,0,0,0,"","Scaling Prowess","Fire Resistance",1,"Latent Power",1,"",""
+211,"Quematrice α","LEG","Quematrice Greaves α","Quematrice leg armor. The
+ornate gaiters let a hunter
+strut like a Quematrice.",36,2,-3,0,-1,0,1,0,0,"","Scaling Prowess","Flinch Free",1,"Evade Extender",1,"",""
+212,"Quematrice β","HELM","Quematrice Helm β","Head armor made from Quematrice
+spoils. The shock of feathers
+ties the whole look together.",36,2,-3,0,-1,0,2,0,0,"","Scale Layering","Latent Power",1,"","","",""
+213,"Quematrice β","BODY","Quematrice Mail β","Quematrice chest armor. The
+design may look ceremonial,
+but it offers ample protection.",36,2,-3,0,-1,0,1,0,0,"","Scale Layering","Latent Power",1,"","","",""
+214,"Quematrice β","ARM","Quematrice Braces β","Armguards made from Quematrice
+parts. The wide cuffs allow
+the wrists to move unimpeded.",36,2,-3,0,-1,0,2,1,0,"","Scale Layering","Flinch Free",1,"","","",""
+215,"Quematrice β","WAIST","Quematrice Coil β","Flaunt-worthy Quematrice
+waistgear. Nothing shouts haute
+couture like flowing tassets.",36,2,-3,0,-1,0,2,0,0,"","Scale Layering","Fire Resistance",2,"","","",""
+216,"Quematrice β","LEG","Quematrice Greaves β","Quematrice leg armor. The
+ornate gaiters let a hunter
+strut like a Quematrice.",36,2,-3,0,-1,0,1,1,1,"","Scale Layering","Flinch Free",1,"","","",""
+217,"Lala Barina α","HELM","Barina Headgear α","Lala Barina head armor. The
+rose embellishments were
+fashioned from its carapace.",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Paralysis Resistance",1,"Foray",1,"",""
+218,"Lala Barina α","BODY","Barina Mail α","Lala Barina chest armor. It may
+look like normal clothing, but
+it's just as hardy as armor.",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",2,"Evade Window",1,"",""
+219,"Lala Barina α","ARM","Barina Vambraces α","Lala Barina armguards that
+are so elegant they could
+pass as formal wear.",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Recovery Up",1,"Foray",1,"",""
+220,"Lala Barina α","WAIST","Barina Coil α","Lala Barina waistgear that
+nobility would gladly don
+just to make an impression.",36,-3,3,0,0,3,2,0,0,"","Neopteron Alert","Paralysis Resistance",2,"","","",""
+221,"Lala Barina α","LEG","Barina Greaves α","Lala Barina leg armor. Pulls
+the rose motif back in with
+subtle but elegant detailing.",36,-3,3,0,0,3,0,0,0,"","Neopteron Alert","Evade Window",1,"Foray",1,"",""
+222,"Lala Barina β","HELM","Barina Headgear β","Lala Barina head armor. The
+rose embellishments were
+fashioned from its carapace.",36,-3,3,0,0,3,1,0,0,"","Neopteron Camouflage","Foray",1,"","","",""
+223,"Lala Barina β","BODY","Barina Mail β","Lala Barina chest armor. It may
+look like normal clothing, but
+it's just as hardy as armor.",36,-3,3,0,0,3,1,0,0,"","Neopteron Camouflage","Recovery Up",1,"Evade Window",1,"",""
+224,"Lala Barina β","ARM","Barina Vambraces β","Lala Barina armguards that
+are so elegant they could
+pass as formal wear.",36,-3,3,0,0,3,2,1,0,"","Neopteron Camouflage","Recovery Up",1,"","","",""
+225,"Lala Barina β","WAIST","Barina Coil β","Lala Barina waistgear that
+nobility would gladly don
+just to make an impression.",36,-3,3,0,0,3,2,1,0,"","Neopteron Camouflage","Paralysis Resistance",1,"","","",""
+226,"Lala Barina β","LEG","Barina Greaves β","Lala Barina leg armor. Pulls
+the rose motif back in with
+subtle but elegant detailing.",36,-3,3,0,0,3,1,1,1,"","Neopteron Camouflage","Evade Window",1,"","","",""
+227,"Rompopolo α","HELM","Rompopolo Helm α","Rompopolo head armor.
+The mask is needed to ward off
+the material's residual toxins.",36,0,-3,0,0,1,1,1,0,"","Flexible Leathercraft","Wide-Range",2,"","","",""
+228,"Rompopolo α","BODY","Rompopolo Mail α","Well-padded Rompopolo chest
+armor. The fabric contains poison
+that—supposedly—never leaks.",36,0,-3,0,0,1,1,0,0,"","Flexible Leathercraft","Poison Resistance",2,"Wide-Range",1,"",""
+229,"Rompopolo α","ARM","Rompopolo Vambraces α","Rompopolo armguards. The
+poisonous needles in the claws
+are neat, but tricky to use.",36,0,-3,0,0,1,1,0,0,"","Flexible Leathercraft","Poison Resistance",1,"Earplugs",1,"",""
+230,"Rompopolo α","WAIST","Rompopolo Coil α","Rompopolo waistgear fully
+equipped with instruments
+needed to handle poison.",36,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",1,"Foray",1,"",""
+231,"Rompopolo α","LEG","Rompopolo Greaves α","Rompopolo leg armor. Careful
+you don't accidentally lean on
+those spare vials of poison...",36,0,-3,0,0,1,0,0,0,"","Flexible Leathercraft","Wide-Range",2,"Earplugs",1,"",""
+232,"Rompopolo β","HELM","Rompopolo Helm β","Rompopolo head armor.
+The mask is needed to ward off
+the material's residual toxins.",36,0,-3,0,0,1,2,1,0,"","Buttery Leathercraft","Wide-Range",1,"","","",""
+233,"Rompopolo β","BODY","Rompopolo Mail β","Well-padded Rompopolo chest
+armor. The fabric contains poison
+that—supposedly—never leaks.",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Poison Resistance",2,"","","",""
+234,"Rompopolo β","ARM","Rompopolo Vambraces β","Rompopolo armguards. The
+poisonous needles in the claws
+are neat, but tricky to use.",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Earplugs",1,"","","",""
+235,"Rompopolo β","WAIST","Rompopolo Coil β","Rompopolo waistgear fully
+equipped with instruments
+needed to handle poison.",36,0,-3,0,0,1,1,0,0,"","Buttery Leathercraft","Foray",1,"","","",""
+236,"Rompopolo β","LEG","Rompopolo Greaves β","Rompopolo leg armor. Careful
+you don't accidentally lean on
+those spare vials of poison...",36,0,-3,0,0,1,2,0,0,"","Buttery Leathercraft","Wide-Range",2,"","","",""
+237,"Conga α","HELM","Conga Helm α","Head armor made from Congalala
+materials. Remember: it's ""feral,""
+not ""unkempt.""",36,-3,1,1,-1,2,1,0,0,"","Fortifying Pelt","Intimidator",1,"Free Meal",1,"",""
+238,"Conga α","BODY","Conga Mail α","Chest armor made from Congalala
+materials. The shocks of monster
+fur help hunters keep it wild.",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Intimidator",2,"Burst",1,"",""
+239,"Conga α","ARM","Conga Vambraces α","Armguards made from Congalala
+materials. Crudely made but
+highly protective.",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"Speed Eating",1,"",""
+240,"Conga α","WAIST","Conga Coil α","Waistgear made from Congalala
+materials, complete with an array
+of handy pockets!",36,-3,1,1,-1,2,1,0,0,"","Fortifying Pelt","Mushroomancer",1,"Free Meal",1,"",""
+241,"Conga α","LEG","Conga Greaves α","Greaves made of Congalala parts.
+Wild crafting perfect for those
+who run in the wilderness.",36,-3,1,1,-1,2,0,0,0,"","Fortifying Pelt","Mushroomancer",1,"Burst",1,"",""
+242,"Conga β","HELM","Conga Helm β","Head armor made from Congalala
+materials. Remember: it's ""feral,""
+not ""unkempt.""",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Intimidator",1,"","","",""
+243,"Conga β","BODY","Conga Mail β","Chest armor made from Congalala
+materials. The shocks of monster
+fur help hunters keep it wild.",36,-3,1,1,-1,2,1,1,1,"","Alluring Pelt","Intimidator",2,"","","",""
+244,"Conga β","ARM","Conga Vambraces β","Armguards made from Congalala
+materials. Crudely made but
+highly protective.",36,-3,1,1,-1,2,1,0,0,"","Alluring Pelt","Mushroomancer",1,"","","",""
+245,"Conga β","WAIST","Conga Coil β","Waistgear made from Congalala
+materials, complete with an array
+of handy pockets!",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Mushroomancer",1,"","","",""
+246,"Conga β","LEG","Conga Greaves β","Greaves made of Congalala parts.
+Wild crafting perfect for those
+who run in the wilderness.",36,-3,1,1,-1,2,2,0,0,"","Alluring Pelt","Burst",1,"","","",""
+247,"Balahara α","HELM","Balahara Helm α","A Balahara helmet covered in
+roughly polished protrusions
+to strongly evoke its namesake.",38,-1,2,-3,1,1,1,0,0,"","Scaling Prowess","Geologist",1,"Evade Window",1,"",""
+248,"Balahara α","BODY","Balahara Mail α","Balahara chest armor. The bulky
+shoulders are roomy enough
+to allow ample movement.",38,-1,2,-3,1,1,1,0,0,"","Scaling Prowess","Geologist",1,"Stamina Surge",1,"",""
+249,"Balahara α","ARM","Balahara Vambraces α","Balahara armguards. The spikes
+are arranged artfully in a way
+that maximizes movement.",38,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"Stamina Surge",1,"",""
+250,"Balahara α","WAIST","Balahara Coil α","Balahara waistgear. The fabric
+is colored a shade of red that
+stirs a competitive spirit.",38,-1,2,-3,1,1,0,0,0,"","Scaling Prowess","Evade Extender",1,"Evade Window",1,"",""
+251,"Balahara α","LEG","Balahara Greaves α","Spiny Balahara leg armor.
+The carapace has been split
+into clever, fluid parts.",38,-1,2,-3,1,1,1,1,0,"","Scaling Prowess","Evade Extender",1,"Geologist",1,"",""
+252,"Balahara β","HELM","Balahara Helm β","A Balahara helmet covered in
+roughly polished protrusions
+to strongly evoke its namesake.",38,-1,2,-3,1,1,2,0,0,"","Scale Layering","Evade Window",1,"","","",""
+253,"Balahara β","BODY","Balahara Mail β","Balahara chest armor. The bulky
+shoulders are roomy enough
+to allow ample movement.",38,-1,2,-3,1,1,1,1,1,"","Scale Layering","Geologist",1,"","","",""
+254,"Balahara β","ARM","Balahara Vambraces β","Balahara armguards. The spikes
+are arranged artfully in a way
+that maximizes movement.",38,-1,2,-3,1,1,2,0,0,"","Scale Layering","Evade Extender",1,"","","",""
+255,"Balahara β","WAIST","Balahara Coil β","Balahara waistgear. The fabric
+is colored a shade of red that
+stirs a competitive spirit.",38,-1,2,-3,1,1,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
+256,"Balahara β","LEG","Balahara Greaves β","Spiny Balahara leg armor.
+The carapace has been split
+into clever, fluid parts.",38,-1,2,-3,1,1,1,1,1,"","Scale Layering","Evade Extender",1,"","","",""
+257,"Rathian α","HELM","Rathian Helm α","Replete with queenly refinement,
+grace, and might, this sleek
+Rathian head armor has it all.",38,2,0,-2,0,-3,2,0,0,"","Scaling Prowess","Divine Blessing",1,"Recovery Speed",1,"",""
+258,"Rathian α","BODY","Rathian Mail α","Worthy of the Queen of the Land's
+name, common metals cannot
+pierce this Rathian chest armor.",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",2,"","","",""
+259,"Rathian α","ARM","Rathian Vambraces α","The green scales gracing these
+Rathian armguards show their
+true beauty when wreathed
+in hellfire.",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Divine Blessing",2,"",""
+260,"Rathian α","WAIST","Rathian Coil α","Resplendent with judicious
+light, this Rathian waistgear
+strikes fear into even the most
+vicious monsters.",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Tool Specialist",1,"",""
+261,"Rathian α","LEG","Rathian Greaves α","Imbued with the Queen of the
+Land's strength, this Rathian
+leg armor tames the ground at
+your feet.",38,2,0,-2,0,-3,0,0,0,"","Scaling Prowess","Foray",1,"Recovery Speed",2,"",""
+262,"Rathian β","HELM","Rathian Helm β","Replete with queenly refinement,
+grace, and might, this sleek
+Rathian head armor has it all.",38,2,0,-2,0,-3,2,1,0,"","Scale Layering","Divine Blessing",1,"","","",""
+263,"Rathian β","BODY","Rathian Mail β","Worthy of the Queen of the Land's
+name, common metals cannot
+pierce this Rathian chest armor.",38,2,0,-2,0,-3,1,1,1,"","Scale Layering","Foray",1,"","","",""
+264,"Rathian β","ARM","Rathian Vambraces β","The green scales gracing these
+Rathian armguards show their
+true beauty when wreathed
+in hellfire.",38,2,0,-2,0,-3,1,0,0,"","Scale Layering","Foray",1,"Divine Blessing",1,"",""
+265,"Rathian β","WAIST","Rathian Coil β","Resplendent with judicious
+light, this Rathian waistgear
+strikes fear into even the most
+vicious monsters.",38,2,0,-2,0,-3,2,0,0,"","Scale Layering","Foray",1,"","","",""
+266,"Rathian β","LEG","Rathian Greaves β","Imbued with the Queen of the
+Land's strength, this Rathian
+leg armor tames the ground at
+your feet.",38,2,0,-2,0,-3,1,0,0,"","Scale Layering","Foray",1,"Recovery Speed",1,"",""
+267,"Nerscylla α","HELM","Nerscylla Helm α","A helmet made from Nerscylla
+spoils. Protection this durable
+requires masterful precision
+and execution.",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Poison Resistance",2,"",""
+268,"Nerscylla α","BODY","Nerscylla Mail α","Chest armor made from Nerscylla
+materials. Advanced engineering
+makes it feel impossibly light.",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Ambush",1,"Weakness Exploit",1,"",""
+269,"Nerscylla α","ARM","Nerscylla Vambraces α","Armguards made from Nerscylla
+spoils. Extra play in the fingers
+helps improve weapon handling.",38,-2,2,-2,1,2,1,0,0,"","Neopteron Alert","Ambush",1,"Poison Resistance",1,"",""
+270,"Nerscylla α","WAIST","Nerscylla Coil α","Waistgear made from Nerscylla
+spoils. A work of art that exhibits
+a deep dedication to armor craft.",38,-2,2,-2,1,2,0,0,0,"","Neopteron Alert","Bind Resistance",1,"Sleep Resistance",2,"",""
+271,"Nerscylla α","LEG","Nerscylla Greaves α","Leg armor made from Nerscylla
+spoils. It keeps hunters light
+on their feet and looking good
+in action.",38,-2,2,-2,1,2,1,0,0,"","Neopteron Alert","Ambush",1,"Sleep Resistance",1,"",""
+272,"Nerscylla β","HELM","Nerscylla Helm β","A helmet made from Nerscylla
+spoils. Protection this durable
+requires masterful precision
+and execution.",38,-2,2,-2,1,2,2,0,0,"","Neopteron Camouflage","Bind Resistance",1,"","","",""
+273,"Nerscylla β","BODY","Nerscylla Mail β","Chest armor made from Nerscylla
+materials. Advanced engineering
+makes it feel impossibly light.",38,-2,2,-2,1,2,1,1,1,"","Neopteron Camouflage","Ambush",1,"","","",""
+274,"Nerscylla β","ARM","Nerscylla Vambraces β","Armguards made from Nerscylla
+spoils. Extra play in the fingers
+helps improve weapon handling.",38,-2,2,-2,1,2,2,0,0,"","Neopteron Camouflage","Ambush",1,"","","",""
+275,"Nerscylla β","WAIST","Nerscylla Coil β","Waistgear made from Nerscylla
+spoils. A work of art that exhibits
+a deep dedication to armor craft.",38,-2,2,-2,1,2,1,1,0,"","Neopteron Camouflage","Bind Resistance",1,"","","",""
+276,"Nerscylla β","LEG","Nerscylla Greaves β","Leg armor made from Nerscylla
+spoils. It keeps hunters light
+on their feet and looking good
+in action.",38,-2,2,-2,1,2,2,1,0,"","Neopteron Camouflage","Sleep Resistance",1,"","","",""
+277,"Doshaguma α","HELM","Doshaguma Helm α","Head armor made from Doshaguma
+parts. Pity any enemy who dares
+scoff at its imposing crest.",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",2,"Stun Resistance",1,"",""
+278,"Doshaguma α","BODY","Doshaguma Mail α","Doshaguma chest armor. The
+lush shocks of fur function as
+a robust defensive layer.",48,-3,2,-1,-1,4,1,0,0,"Doshaguma's Might","Fortifying Pelt","Latent Power",1,"Stamina Surge",1,"",""
+279,"Doshaguma α","ARM","Doshaguma Braces α","Doshaguma armguards. Teeming
+with such feral power, they
+had to be restrained with
+metal bracers.",48,-3,2,-1,-1,4,2,0,0,"Doshaguma's Might","Fortifying Pelt","Stun Resistance",2,"Stamina Surge",1,"",""
+280,"Doshaguma α","WAIST","Doshaguma Coil α","Waistgear made from Doshaguma
+parts. Nothing can muss the
+thick pile of this sturdy sash.",48,-3,2,-1,-1,4,1,0,0,"Doshaguma's Might","Fortifying Pelt","Latent Power",2,"","","",""
+281,"Doshaguma α","LEG","Doshaguma Greaves α","Doshaguma leg armor. Whether
+dune or sandstorm, nothing can
+slow its wearer's progress.",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Fortifying Pelt","Free Meal",1,"Recovery Up",2,"",""
+282,"Doshaguma β","HELM","Doshaguma Helm β","Head armor made from Doshaguma
+parts. Pity any enemy who dares
+scoff at its imposing crest.",48,-3,2,-1,-1,4,2,1,1,"Doshaguma's Might","Alluring Pelt","Free Meal",1,"Stun Resistance",1,"",""
+283,"Doshaguma β","BODY","Doshaguma Mail β","Doshaguma chest armor. The
+lush shocks of fur function as
+a robust defensive layer.",48,-3,2,-1,-1,4,1,1,1,"Doshaguma's Might","Alluring Pelt","Latent Power",1,"","","",""
+284,"Doshaguma β","ARM","Doshaguma Braces β","Doshaguma armguards. Teeming
+with such feral power, they
+had to be restrained with
+metal bracers.",48,-3,2,-1,-1,4,2,1,0,"Doshaguma's Might","Alluring Pelt","Stun Resistance",1,"Stamina Surge",1,"",""
+285,"Doshaguma β","WAIST","Doshaguma Coil β","Waistgear made from Doshaguma
+parts. Nothing can muss the
+thick pile of this sturdy sash.",48,-3,2,-1,-1,4,2,2,0,"Doshaguma's Might","Alluring Pelt","Latent Power",1,"","","",""
+286,"Doshaguma β","LEG","Doshaguma Greaves β","Doshaguma leg armor. Whether
+dune or sandstorm, nothing can
+slow its wearer's progress.",48,-3,2,-1,-1,4,2,1,1,"Doshaguma's Might","Alluring Pelt","Free Meal",1,"Recovery Up",1,"",""
+287,"Hirabami α","HELM","Hirabami Headdress α","Head armor made from Hirabami
+spoils. It keeps the wearer
+attuned and bound to the wind
+at all times.",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Evade Extender",1,"",""
+288,"Hirabami α","BODY","Hirabami Mail α","Chest armor made from Hirabami
+spoils. The style is inspired by the
+gallant warriors of a foreign land.",38,-3,2,-2,3,0,1,0,0,"","Scaling Prowess","Ice Resistance",2,"Evade Window",1,"",""
+289,"Hirabami α","ARM","Hirabami Vambraces α","Armguards made from Hirabami
+spoils. Wind rises at the fingertips
+in warning to all adversaries.",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",1,"Peak Performance",1,"",""
+290,"Hirabami α","WAIST","Hirabami Coil α","Waistgear made from Hirabami
+spoils. The elegant sash harnesses
+the wind to mitigate impacts.",38,-3,2,-2,3,0,0,0,0,"","Scaling Prowess","Evade Window",2,"","","",""
+291,"Hirabami α","LEG","Hirabami Greaves α","Leg armor made from Hirabami
+spoils. Designed for mobility,
+they feel like walking on wind.",38,-3,2,-2,3,0,1,0,0,"","Scaling Prowess","Ice Resistance",1,"Peak Performance",1,"",""
+292,"Hirabami β","HELM","Hirabami Headdress β","Head armor made from Hirabami
+spoils. It keeps the wearer
+attuned and bound to the wind
+at all times.",38,-3,2,-2,3,0,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
+293,"Hirabami β","BODY","Hirabami Mail β","Chest armor made from Hirabami
+spoils. The style is inspired by the
+gallant warriors of a foreign land.",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Ice Resistance",1,"Evade Window",1,"",""
+294,"Hirabami β","ARM","Hirabami Vambraces β","Armguards made from Hirabami
+spoils. Wind rises at the fingertips
+in warning to all adversaries.",38,-3,2,-2,3,0,1,1,0,"","Scale Layering","Evade Window",1,"","","",""
+295,"Hirabami β","WAIST","Hirabami Coil β","Waistgear made from Hirabami
+spoils. The elegant sash harnesses
+the wind to mitigate impacts.",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Evade Window",1,"","","",""
+296,"Hirabami β","LEG","Hirabami Greaves β","Leg armor made from Hirabami
+spoils. Designed for mobility,
+they feel like walking on wind.",38,-3,2,-2,3,0,2,0,0,"","Scale Layering","Peak Performance",1,"","","",""
+297,"Guardian Fulgur α","HELM","G. Fulgur Helm α","Head armor made from Guardian
+Fulgur Anjanath spoils. To don it
+is to be seized by unspeakable
+cravings.",48,-1,-1,2,-3,-2,0,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Agitator",2,"Coalescence",1,"",""
+298,"Guardian Fulgur α","BODY","G. Fulgur Mail α","Chest armor made from Guardian
+Fulgur Anjanath spoils. It
+instills a new vitality and
+sense of purpose.",48,-1,-1,2,-3,-2,2,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Maximum Might",1,"Coalescence",1,"",""
+299,"Guardian Fulgur α","ARM","G. Fulgur Vambraces α","Armguards made from Guardian
+Fulgur Anjanath spoils. They
+agitate the wearer unless in
+constant motion.",48,-1,-1,2,-3,-2,1,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Maximum Might",1,"Agitator",1,"",""
+300,"Guardian Fulgur α","WAIST","G. Fulgur Coil α","Waistgear made from Guardian
+Fulgur Anjanath spoils. The
+white areas self-repair when
+damaged.",48,-1,-1,2,-3,-2,1,1,0,"Fulgur Anjanath's Will","Guardian's Pulse","Stamina Surge",1,"Maximum Might",1,"",""
+301,"Guardian Fulgur α","LEG","G. Fulgur Greaves α","Leg armor made from Guardian
+Fulgur Anjanath spoils. Produces
+a faint white aura when worn.",48,-1,-1,2,-3,-2,1,0,0,"Fulgur Anjanath's Will","Guardian's Pulse","Coalescence",1,"Stamina Surge",2,"",""
+302,"Guardian Fulgur β","HELM","G. Fulgur Helm β","Head armor made from Guardian
+Fulgur Anjanath spoils. To don it
+is to be seized by unspeakable
+cravings.",48,-1,-1,2,-3,-2,2,0,0,"Fulgur Anjanath's Will","Guardian's Protection","Agitator",2,"","","",""
+303,"Guardian Fulgur β","BODY","G. Fulgur Mail β","Chest armor made from Guardian
+Fulgur Anjanath spoils. It
+instills a new vitality and
+sense of purpose.",48,-1,-1,2,-3,-2,2,1,1,"Fulgur Anjanath's Will","Guardian's Protection","Maximum Might",1,"","","",""
+304,"Guardian Fulgur β","ARM","G. Fulgur Vambraces β","Armguards made from Guardian
+Fulgur Anjanath spoils. They
+agitate the wearer unless in
+constant motion.",48,-1,-1,2,-3,-2,2,2,0,"Fulgur Anjanath's Will","Guardian's Protection","Maximum Might",1,"","","",""
+305,"Guardian Fulgur β","WAIST","G. Fulgur Coil β","Waistgear made from Guardian
+Fulgur Anjanath spoils. The
+white areas self-repair when
+damaged.",48,-1,-1,2,-3,-2,2,2,0,"Fulgur Anjanath's Will","Guardian's Protection","Stamina Surge",1,"","","",""
+306,"Guardian Fulgur β","LEG","G. Fulgur Greaves β","Leg armor made from Guardian
+Fulgur Anjanath spoils. Produces
+a faint white aura when worn.",48,-1,-1,2,-3,-2,2,1,0,"Fulgur Anjanath's Will","Guardian's Protection","Coalescence",1,"Stamina Surge",1,"",""
+307,"Ingot α","HELM","Ingot Helm α","Head armor fashioned from
+lustrous, golden ore. Regal
+protection with a crown to
+complete the look.",44,-2,0,3,-1,0,2,0,0,"","","Divine Blessing",2,"Resentment",1,"",""
+308,"Ingot α","BODY","Ingot Mail α","Chest armor crafted from
+brilliant golden ore. Its color and
+design are both highly pleasing.",44,-2,0,3,-1,0,1,1,0,"","","Windproof",1,"Resentment",1,"",""
+309,"Ingot α","ARM","Ingot Vambraces α","Armguards fashioned from
+lustrous, golden ore. A union
+of artistry and utility with
+no absence of durability.",44,-2,0,3,-1,0,2,0,0,"","","Stun Resistance",2,"Resentment",1,"",""
+310,"Ingot α","WAIST","Ingot Coil α","Waistgear fashioned from lustrous,
+golden ore. It joins haute design
+with the very latest in armor craft.",44,-2,0,3,-1,0,1,1,1,"","","Divine Blessing",1,"Resentment",1,"",""
+311,"Ingot α","LEG","Ingot Greaves α","Leg armor fashioned from lustrous,
+golden ore. Clever smithing makes
+the metal feel fluid and light.",44,-2,0,3,-1,0,2,0,0,"","","Windproof",1,"Resentment",1,"",""
+312,"Guardian Seikret α","WAIST","G. Seikret Coil α","Guardian Seikret waistgear.
+The long, white feathers
+produce a faint, exquisite glow.",44,0,0,4,0,-3,1,0,0,"","Guardian's Pulse","Jump Master",1,"Earplugs",2,"",""
+313,"Guardian Seikret β","WAIST","G. Seikret Coil β","Guardian Seikret waistgear.
+The long, white feathers
+produce a faint, exquisite glow.",44,0,0,4,0,-3,2,1,0,"","Guardian's Protection","Jump Master",1,"Earplugs",1,"",""
+314,"Ajarakan α","HELM","Ajarakan Helm α","Imposing Ajarakan head armor.
+Donning it will draw the fires
+from within to burst forth.",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Resentment",2,"Bombardier",1,"",""
+315,"Ajarakan α","BODY","Ajarakan Mail α","Ajarakan chest armor. The
+heat of its flames warns prey
+of their final immolation.",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Resentment",2,"Blast Resistance",1,"",""
+316,"Ajarakan α","ARM","Ajarakan Vambraces α","Mighty Ajarakan armguards.
+They have just as much
+ground-shaking power
+as their namesake.",48,3,-3,1,-2,0,2,0,0,"","Fortifying Pelt","Partbreaker",1,"Bombardier",2,"",""
+317,"Ajarakan α","WAIST","Ajarakan Coil α","Ajarakan waistgear. It acts
+as a tether to quell the
+wearer's exploding rage.",48,3,-3,1,-2,0,1,0,0,"","Fortifying Pelt","Partbreaker",2,"Blast Resistance",2,"",""
+318,"Ajarakan α","LEG","Ajarakan Greaves α","Flame crested Ajarakan leg
+armor. A heat so fierce that
+each step makes the earth
+shudder in agony.",48,3,-3,1,-2,0,0,0,0,"","Fortifying Pelt","Partbreaker",2,"Resentment",1,"",""
+319,"Ajarakan β","HELM","Ajarakan Helm β","Imposing Ajarakan head armor.
+Donning it will draw the fires
+from within to burst forth.",48,3,-3,1,-2,0,2,1,0,"","Alluring Pelt","Resentment",1,"Bombardier",1,"",""
+320,"Ajarakan β","BODY","Ajarakan Mail β","Ajarakan chest armor. The
+heat of its flames warns prey
+of their final immolation.",48,3,-3,1,-2,0,2,0,0,"","Alluring Pelt","Resentment",2,"","","",""
+321,"Ajarakan β","ARM","Ajarakan Vambraces β","Mighty Ajarakan armguards.
+They have just as much
+ground-shaking power
+as their namesake.",48,3,-3,1,-2,0,2,1,0,"","Alluring Pelt","Partbreaker",1,"Bombardier",1,"",""
+322,"Ajarakan β","WAIST","Ajarakan Coil β","Ajarakan waistgear. It acts
+as a tether to quell the
+wearer's exploding rage.",48,3,-3,1,-2,0,2,0,0,"","Alluring Pelt","Partbreaker",2,"Blast Resistance",1,"",""
+323,"Ajarakan β","LEG","Ajarakan Greaves β","Flame crested Ajarakan leg
+armor. A heat so fierce that
+each step makes the earth
+shudder in agony.",48,3,-3,1,-2,0,1,1,0,"","Alluring Pelt","Partbreaker",2,"","","",""
+324,"Blango α","HELM","Blango Helm α","Head armor made from Blangonga
+materials. Overflowing with
+the honor of a foreign god.",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Fortifying Pelt","Wide-Range",2,"Counterstrike",1,"",""
+325,"Blango α","BODY","Blango Mail α","Chest armor made of Blangonga
+materials. It has a distinct,
+eastern feel to it.",48,-4,1,0,4,0,0,0,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",2,"Item Prolonger",2,"",""
+326,"Blango α","ARM","Blango Vambraces α","Armguards made from Blangonga
+parts. The tough pelt is woven
+with gentle, inspiring elegance.",48,-4,1,0,4,0,2,0,0,"Blangonga's Spirit","Fortifying Pelt","Counterstrike",1,"Palico Rally",2,"",""
+327,"Blango α","WAIST","Blango Coil α","Waistgear made of Blangonga
+parts with technology from the
+""Eastern Land of the Gods.""",48,-4,1,0,4,0,1,0,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",2,"Wide-Range",1,"",""
+328,"Blango α","LEG","Blango Greaves α","Leg armor made from Blangonga
+spoils. The striking, exotic shapes
+draw from Far Eastern ritual garb.",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Fortifying Pelt","Agitator",1,"Counterstrike",1,"",""
+329,"Blango β","HELM","Blango Helm β","Head armor made from Blangonga
+materials. Overflowing with
+the honor of a foreign god.",48,-4,1,0,4,0,2,1,1,"Blangonga's Spirit","Alluring Pelt","Wide-Range",2,"","","",""
+330,"Blango β","BODY","Blango Mail β","Chest armor made of Blangonga
+materials. It has a distinct,
+eastern feel to it.",48,-4,1,0,4,0,2,0,0,"Blangonga's Spirit","Alluring Pelt","Agitator",2,"","","",""
+331,"Blango β","ARM","Blango Vambraces β","Armguards made from Blangonga
+parts. The tough pelt is woven
+with gentle, inspiring elegance.",48,-4,1,0,4,0,2,2,0,"Blangonga's Spirit","Alluring Pelt","Counterstrike",1,"","","",""
+332,"Blango β","WAIST","Blango Coil β","Waistgear made of Blangonga
+parts with technology from the
+""Eastern Land of the Gods.""",48,-4,1,0,4,0,1,1,0,"Blangonga's Spirit","Alluring Pelt","Agitator",2,"","","",""
+333,"Blango β","LEG","Blango Greaves β","Leg armor made from Blangonga
+spoils. The striking, exotic shapes
+draw from Far Eastern ritual garb.",48,-4,1,0,4,0,2,2,0,"Blangonga's Spirit","Alluring Pelt","Agitator",1,"","","",""
+334,"Guardian Doshaguma α","HELM","G. Doshaguma Helm α","Head armor made from Guardian
+Doshaguma spoils. To don it is
+to be seized by unspeakable
+cravings.",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Hunger Resistance",2,"",""
+335,"Guardian Doshaguma α","BODY","G. Doshaguma Mail α","Chest armor made from
+Guardian Doshaguma spoils.
+It instills a new vitality and
+sense of purpose.",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Pulse","Constitution",2,"Iron Skin",1,"",""
+336,"Guardian Doshaguma α","ARM","G. Doshaguma Braces α","Armguards made from Guardian
+Doshaguma spoils. They agitate
+the wearer unless in constant
+motion.",48,-3,2,-1,-2,2,1,1,1,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Iron Skin",2,"",""
+337,"Guardian Doshaguma α","WAIST","G. Doshaguma Coil α","Waistgear made from Guardian
+Doshaguma spoils. The white
+areas self-repair when damaged.",48,-3,2,-1,-2,2,2,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",2,"Hunger Resistance",1,"",""
+338,"Guardian Doshaguma α","LEG","G. Doshaguma Greaves α","Leg armor made from Guardian
+Doshaguma spoils. Produces
+a faint white aura when worn.",48,-3,2,-1,-2,2,2,0,0,"Doshaguma's Might","Guardian's Pulse","Heroics",1,"Constitution",2,"",""
+339,"Guardian Doshaguma β","HELM","G. Doshaguma Helm β","Head armor made from Guardian
+Doshaguma spoils. To don it is
+to be seized by unspeakable
+cravings.",48,-3,2,-1,-2,2,2,2,1,"Doshaguma's Might","Guardian's Protection","Heroics",1,"","","",""
+340,"Guardian Doshaguma β","BODY","G. Doshaguma Mail β","Chest armor made from
+Guardian Doshaguma spoils.
+It instills a new vitality and
+sense of purpose.",48,-3,2,-1,-2,2,2,2,0,"Doshaguma's Might","Guardian's Protection","Constitution",2,"","","",""
+341,"Guardian Doshaguma β","ARM","G. Doshaguma Braces β","Armguards made from Guardian
+Doshaguma spoils. They agitate
+the wearer unless in constant
+motion.",48,-3,2,-1,-2,2,2,2,1,"Doshaguma's Might","Guardian's Protection","Heroics",1,"","","",""
+342,"Guardian Doshaguma β","WAIST","G. Doshaguma Coil β","Waistgear made from Guardian
+Doshaguma spoils. The white
+areas self-repair when damaged.",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Protection","Heroics",2,"","","",""
+343,"Guardian Doshaguma β","LEG","G. Doshaguma Greaves β","Leg armor made from Guardian
+Doshaguma spoils. Produces
+a faint white aura when worn.",48,-3,2,-1,-2,2,2,1,0,"Doshaguma's Might","Guardian's Protection","Heroics",1,"Constitution",1,"",""
+344,"Guardian Rathalos α","HELM","G. Rathalos Helm α","Head armor made from Guardian
+Rathalos spoils. To don it is to be
+seized by unspeakable cravings.",48,3,1,-2,1,-5,1,1,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Survival Expert",2,"",""
+345,"Guardian Rathalos α","BODY","G. Rathalos Mail α","Chest armor made from Guardian
+Rathalos spoils. It instills a new
+vitality and sense of purpose.",48,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",2,"",""
+346,"Guardian Rathalos α","ARM","G. Rathalos Vambraces α","Armguards made from Guardian
+Rathalos spoils. They agitate the
+wearer unless in constant motion.",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Intimidator",1,"Survival Expert",1
+347,"Guardian Rathalos α","WAIST","G. Rathalos Coil α","Waistgear made from Guardian
+Rathalos spoils. The white areas
+self-repair when damaged.",48,3,1,-2,1,-5,1,1,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Windproof",1,"",""
+348,"Guardian Rathalos α","LEG","G. Rathalos Greaves α","Leg armor made from Guardian
+Rathalos spoils. Produces
+a faint white aura when worn.",48,3,1,-2,1,-5,1,0,0,"Rathalos's Flare","Guardian's Pulse","Weakness Exploit",1,"Windproof",2,"",""
+349,"Guardian Rathalos β","HELM","G. Rathalos Helm β","Head armor made from Guardian
+Rathalos spoils. To don it is to be
+seized by unspeakable cravings.",48,3,1,-2,1,-5,2,2,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"","","",""
+350,"Guardian Rathalos β","BODY","G. Rathalos Mail β","Chest armor made from Guardian
+Rathalos spoils. It instills a new
+vitality and sense of purpose.",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"Intimidator",1,"",""
+351,"Guardian Rathalos β","ARM","G. Rathalos Vambraces β","Armguards made from Guardian
+Rathalos spoils. They agitate the
+wearer unless in constant motion.",48,3,1,-2,1,-5,2,1,1,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"","","",""
+352,"Guardian Rathalos β","WAIST","G. Rathalos Coil β","Waistgear made from Guardian
+Rathalos spoils. The white areas
+self-repair when damaged.",48,3,1,-2,1,-5,2,2,1,"Rathalos's Flare","Guardian's Protection","Windproof",1,"","","",""
+353,"Guardian Rathalos β","LEG","G. Rathalos Greaves β","Leg armor made from Guardian
+Rathalos spoils. Produces
+a faint white aura when worn.",48,3,1,-2,1,-5,2,0,0,"Rathalos's Flare","Guardian's Protection","Weakness Exploit",1,"Windproof",1,"",""
+354,"Gravios α","HELM","Gravios Helm α","A helm cast from Gravios
+materials. This rock-like
+armor deflects attacks.",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Tremor Resistance",1,"",""
+355,"Gravios α","BODY","Gravios Mail α","Chest armor made from
+Gravios parts. Striking it
+is more likely to hurt the
+attacker.",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Recovery Speed",2,"",""
+356,"Gravios α","ARM","Gravios Vambraces α","Armguards made from Gravios
+parts. Their powerful
+appearance hints at their
+true strength.",52,4,-3,1,0,-2,1,0,0,"Gravios's Protection","Scaling Prowess","Peak Performance",2,"Flinch Free",1,"",""
+357,"Gravios α","WAIST","Gravios Coil α","Waist armor made with Gravios
+parts. Its thickness and weight are
+indicative of its defensive power.",52,4,-3,1,0,-2,2,0,0,"Gravios's Protection","Scaling Prowess","Peak Performance",1,"Flinch Free",2,"",""
+358,"Gravios α","LEG","Gravios Greaves α","Greaves made from Gravios
+parts. Tightly fastened to
+protect like a castle gate.",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scaling Prowess","Tremor Resistance",2,"Recovery Speed",1,"",""
+359,"Gravios β","HELM","Gravios Helm β","A helm cast from Gravios
+materials. This rock-like
+armor deflects attacks.",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"","","",""
+360,"Gravios β","BODY","Gravios Mail β","Chest armor made from
+Gravios parts. Striking it
+is more likely to hurt the
+attacker.",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"Recovery Speed",1,"",""
+361,"Gravios β","ARM","Gravios Vambraces β","Armguards made from Gravios
+parts. Their powerful
+appearance hints at their
+true strength.",52,4,-3,1,0,-2,2,0,0,"Gravios's Protection","Scale Layering","Peak Performance",2,"","","",""
+362,"Gravios β","WAIST","Gravios Coil β","Waist armor made with Gravios
+parts. Its thickness and weight are
+indicative of its defensive power.",52,4,-3,1,0,-2,2,1,0,"Gravios's Protection","Scale Layering","Peak Performance",1,"Flinch Free",1,"",""
+363,"Gravios β","LEG","Gravios Greaves β","Greaves made from Gravios
+parts. Tightly fastened to
+protect like a castle gate.",52,4,-3,1,0,-2,2,2,0,"Gravios's Protection","Scale Layering","Tremor Resistance",1,"Recovery Speed",1,"",""
+364,"Guardian Ebony α","HELM","G. Ebony Helm α","Head armor made from Guardian
+Ebony Odogaron spoils. To don it
+is to be seized by unspeakable
+cravings.",48,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",2,"Earplugs",1,"",""
+365,"Guardian Ebony α","BODY","G. Ebony Mail α","Chest armor made from Guardian
+Ebony Odogaron spoils. It
+instills a new vitality and
+sense of purpose.",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Earplugs",1,"Bleeding Resistance",2,"",""
+366,"Guardian Ebony α","ARM","G. Ebony Braces α","Armguards made from Guardian
+Ebony Odogaron spoils. They
+agitate the wearer unless in
+constant motion.",48,-2,-3,-2,-2,4,0,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",2,"Divine Blessing",1,"",""
+367,"Guardian Ebony α","WAIST","G. Ebony Coil α","Waistgear made from Guardian
+Ebony Odogaron spoils. The
+white areas self-repair
+when damaged.",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Burst",1,"Bleeding Resistance",1,"",""
+368,"Guardian Ebony α","LEG","G. Ebony Greaves α","Leg armor made from Guardian
+Ebony Odogaron spoils. Produces
+a faint white aura when worn.",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Pulse","Earplugs",1,"Divine Blessing",2,"",""
+369,"Guardian Ebony β","HELM","G. Ebony Helm β","Head armor made from Guardian
+Ebony Odogaron spoils. To don it
+is to be seized by unspeakable
+cravings.",48,-2,-3,-2,-2,4,2,0,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",2,"","","",""
+370,"Guardian Ebony β","BODY","G. Ebony Mail β","Chest armor made from Guardian
+Ebony Odogaron spoils. It
+instills a new vitality and
+sense of purpose.",48,-2,-3,-2,-2,4,2,2,0,"Ebony Odogaron's Power","Guardian's Protection","Earplugs",1,"","","",""
+371,"Guardian Ebony β","ARM","G. Ebony Braces β","Armguards made from Guardian
+Ebony Odogaron spoils. They
+agitate the wearer unless in
+constant motion.",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",1,"Divine Blessing",1,"",""
+372,"Guardian Ebony β","WAIST","G. Ebony Coil β","Waistgear made from Guardian
+Ebony Odogaron spoils. The
+white areas self-repair
+when damaged.",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Burst",1,"","","",""
+373,"Guardian Ebony β","LEG","G. Ebony Greaves β","Leg armor made from Guardian
+Ebony Odogaron spoils. Produces
+a faint white aura when worn.",48,-2,-3,-2,-2,4,2,1,0,"Ebony Odogaron's Power","Guardian's Protection","Earplugs",1,"Divine Blessing",1,"",""
+374,"Rathalos α","HELM","Rathalos Helm α","Head armor crafted from
+Rathalos parts. Equivalent
+to a king's crown with
+unparalleled defense.",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scaling Prowess","Evade Window",2,"Constitution",1,"",""
+375,"Rathalos α","BODY","Rathalos Mail α","Chest armor made of Rathalos
+parts. Carved from the King
+of the Skies, it boasts
+overwhelming defense.",48,3,1,-2,1,-3,1,0,0,"Rathalos's Flare","Scaling Prowess","Adrenaline Rush",2,"Constitution",1,"",""
+376,"Rathalos α","ARM","Rathalos Vambraces α","Crafted from Rathalos parts.
+These armguards deliver
+sundering blows with the power
+of the King of the Skies.",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scaling Prowess","Constitution",2,"Evade Window",1,"",""
+377,"Rathalos α","WAIST","Rathalos Coil α","Crafted from Rathalos parts, this
+waistgear has the wearer appear
+as if they were a wyvern
+themself.",48,3,1,-2,1,-3,0,0,0,"Rathalos's Flare","Scaling Prowess","Adrenaline Rush",2,"Evade Window",1,"",""
+378,"Rathalos α","LEG","Rathalos Greaves α","Sturdy and supple, this Rathalos
+leg armor makes one as nimble
+as a fire wyvern mounting the
+skies.",48,3,1,-2,1,-3,2,0,0,"Rathalos's Flare","Scaling Prowess","Evade Window",2,"Adrenaline Rush",1,"",""
+379,"Rathalos β","HELM","Rathalos Helm β","Head armor crafted from
+Rathalos parts. Equivalent
+to a king's crown with
+unparalleled defense.",48,3,1,-2,1,-3,2,2,0,"Rathalos's Flare","Scale Layering","Evade Window",1,"Constitution",1,"",""
+380,"Rathalos β","BODY","Rathalos Mail β","Chest armor made of Rathalos
+parts. Carved from the King
+of the Skies, it boasts
+overwhelming defense.",48,3,1,-2,1,-3,1,1,0,"Rathalos's Flare","Scale Layering","Adrenaline Rush",2,"","","",""
+381,"Rathalos β","ARM","Rathalos Vambraces β","Crafted from Rathalos parts.
+These armguards deliver
+sundering blows with the power
+of the King of the Skies.",48,3,1,-2,1,-3,2,1,1,"Rathalos's Flare","Scale Layering","Constitution",2,"","","",""
+382,"Rathalos β","WAIST","Rathalos Coil β","Crafted from Rathalos parts, this
+waistgear has the wearer appear
+as if they were a wyvern
+themself.",48,3,1,-2,1,-3,2,0,0,"Rathalos's Flare","Scale Layering","Adrenaline Rush",2,"","","",""
+383,"Rathalos β","LEG","Rathalos Greaves β","Sturdy and supple, this Rathalos
+leg armor makes one as nimble
+as a fire wyvern mounting the
+skies.",48,3,1,-2,1,-3,2,2,1,"Rathalos's Flare","Scale Layering","Evade Window",2,"","","",""
+384,"Xu Wu α","HELM","Xu Wu Helm α","Concealing Xu Wu head armor.
+Fitting attire for hunters who
+dwell in darkness.",48,1,1,1,-3,2,1,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Adrenaline Rush",2,"Ambush",1,"",""
+385,"Xu Wu α","BODY","Xu Wu Mail α","Xu Wu chest armor. The long
+scarf can be used as protective
+gear and multi-purpose rope.",48,1,1,1,-3,2,0,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Heroics",3,"Ambush",1,"",""
+386,"Xu Wu α","ARM","Xu Wu Vambraces α","Xu Wu armguards. The clever
+design gives the wearer's fingers
+a nimble edge even in the dark.",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Flexible Leathercraft","Earplugs",2,"","","",""
+387,"Xu Wu α","WAIST","Xu Wu Coil α","Slinky Xu Wu waistgear. The
+uniquely textured leather
+moves silent as a whisper.",48,1,1,1,-3,2,2,0,0,"Xu Wu's Vigor","Flexible Leathercraft","Earplugs",1,"Heroics",2,"",""
+388,"Xu Wu α","LEG","Xu Wu Greaves α","Xu Wu leg armor. Meticulously
+crafted to allow the wearer to
+slink silently through the dark.",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Flexible Leathercraft","Adrenaline Rush",1,"Ambush",1,"",""
+389,"Xu Wu β","HELM","Xu Wu Helm β","Concealing Xu Wu head armor.
+Fitting attire for hunters who
+dwell in darkness.",48,1,1,1,-3,2,2,1,0,"Xu Wu's Vigor","Buttery Leathercraft","Adrenaline Rush",2,"","","",""
+390,"Xu Wu β","BODY","Xu Wu Mail β","Xu Wu chest armor. The long
+scarf can be used as protective
+gear and multi-purpose rope.",48,1,1,1,-3,2,1,1,0,"Xu Wu's Vigor","Buttery Leathercraft","Heroics",3,"","","",""
+391,"Xu Wu β","ARM","Xu Wu Vambraces β","Xu Wu armguards. The clever
+design gives the wearer's fingers
+a nimble edge even in the dark.",48,1,1,1,-3,2,2,2,1,"Xu Wu's Vigor","Buttery Leathercraft","Earplugs",1,"","","",""
+392,"Xu Wu β","WAIST","Xu Wu Coil β","Slinky Xu Wu waistgear. The
+uniquely textured leather
+moves silent as a whisper.",48,1,1,1,-3,2,2,1,1,"Xu Wu's Vigor","Buttery Leathercraft","Earplugs",1,"Heroics",1,"",""
+393,"Xu Wu β","LEG","Xu Wu Greaves β","Xu Wu leg armor. Meticulously
+crafted to allow the wearer to
+slink silently through the dark.",48,1,1,1,-3,2,2,2,1,"Xu Wu's Vigor","Buttery Leathercraft","Adrenaline Rush",1,"","","",""
+394,"Dober α","HELM","Dober Helm α","Head armor fashioned from
+obsidian bone of unknown
+provenance. It resembles
+an all-powerful monster.",56,-2,0,-1,-1,4,3,0,0,"","","Constitution",1,"Stamina Surge",1,"",""
+395,"Dober α","BODY","Dober Mail α","Chest armor fashioned from
+obsidian bone of unknown
+provenance. It resembles
+an all-powerful monster.",56,-2,0,-1,-1,4,3,2,0,"","","Constitution",1,"Marathon Runner",1,"",""
+396,"Dober α","ARM","Dober Vambraces α","Armguards made of unknown
+black bones, which surely
+belonged to a mighty beast.",56,-2,0,-1,-1,4,3,0,0,"","","Constitution",1,"Stamina Surge",2,"",""
+397,"Dober α","WAIST","Dober Coil α","Waistgear made of unknown
+black bones, perhaps from an
+ancient dragon king.",56,-2,0,-1,-1,4,3,1,0,"","","Constitution",1,"Marathon Runner",2,"",""
+398,"Dober α","LEG","Dober Greaves α","Leg armor fashioned from
+obsidian bone of unknown
+provenance. It resembles
+an all-powerful monster.",56,-2,0,-1,-1,4,2,2,0,"","","Constitution",1,"Mushroomancer",2,"",""
+399,"Damascus α","HELM","Damascus Helm α","A steel helmet of precious origin
+and rare manufacture that is said
+to lead the wearer to glory.",56,4,-2,0,0,0,3,1,0,"","","Wide-Range",1,"Divine Blessing",2,"",""
+400,"Damascus α","BODY","Damascus Mail α","Steel chest armor capable of
+stopping a thousand arrows as
+it leads the wearer to glory.",56,4,-2,0,0,0,2,2,0,"","","Wide-Range",1,"Recovery Up",2,"",""
+401,"Damascus α","ARM","Damascus Vambraces α","Steel armor said to lead
+its wearer to glory. Once
+thought to be mythical.",56,4,-2,0,0,0,3,1,0,"","","Wide-Range",1,"Divine Blessing",1,"",""
+402,"Damascus α","WAIST","Damascus Coil α","Steel waistgear said to lead
+its wearer to glory. Rarely
+glimpsed in a lifetime.",56,4,-2,0,0,0,3,2,0,"","","Wide-Range",1,"Recovery Up",1,"",""
+403,"Damascus α","LEG","Damascus Greaves α","This legendary steel armor
+is said to lead its wearer
+down the conqueror's path.",56,4,-2,0,0,0,3,0,0,"","","Wide-Range",1,"Item Prolonger",2,"",""
+404,"Dahaad α","HELM","Dahaad Shardhelm α","Jin Dahaad head armor modelled
+after the helm of a member of a
+lost kingdom's royalty. It evokes
+the royal's icy gaze.",60,-3,2,-1,2,-1,1,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",1,"Weakness Exploit",1,"",""
+405,"Dahaad α","BODY","Dahaad Shardmail α","Jin Dahaad chest armor. The
+layered plates repel all pain
+and nurture an icy vengeance.",60,-3,2,-1,2,-1,3,1,0,"Jin Dahaad's Revolt","Lord's Favor","Adaptability",1,"Bind Resistance",2,"",""
+406,"Dahaad α","ARM","Dahaad Shardbraces α","Jin Dahaad armguards. Directly
+rejecting warmth, they freeze
+everything they touch.",60,-3,2,-1,2,-1,0,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",2,"Adaptability",1,"",""
+407,"Dahaad α","WAIST","Dahaad Shardcoil α","Jin Dahaad waistgear. The
+ornate design recalls the
+majesty of a lost dynasty.",60,-3,2,-1,2,-1,1,1,0,"Jin Dahaad's Revolt","Lord's Favor","Weakness Exploit",1,"Tremor Resistance",2,"",""
+408,"Dahaad α","LEG","Dahaad Shardgreaves α","Jin Dahaad leg armor. Every
+footfall coats the earth in
+spiderwebs of ice.",60,-3,2,-1,2,-1,1,0,0,"Jin Dahaad's Revolt","Lord's Favor","Agitator",2,"Tremor Resistance",1,"",""
+409,"Dahaad β","HELM","Dahaad Shardhelm β","Jin Dahaad head armor modelled
+after the helm of a member of a
+lost kingdom's royalty. It evokes
+the royal's icy gaze.",60,-3,2,-1,2,-1,2,2,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",1,"","","",""
+410,"Dahaad β","BODY","Dahaad Shardmail β","Jin Dahaad chest armor. The
+layered plates repel all pain
+and nurture an icy vengeance.",60,-3,2,-1,2,-1,3,2,0,"Jin Dahaad's Revolt","Lord's Fury","Adaptability",1,"Bind Resistance",1,"",""
+411,"Dahaad β","ARM","Dahaad Shardbraces β","Jin Dahaad armguards. Directly
+rejecting warmth, they freeze
+everything they touch.",60,-3,2,-1,2,-1,3,0,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",1,"Adaptability",1,"",""
+412,"Dahaad β","WAIST","Dahaad Shardcoil β","Jin Dahaad waistgear. The
+ornate design recalls the
+majesty of a lost dynasty.",60,-3,2,-1,2,-1,1,1,1,"Jin Dahaad's Revolt","Lord's Fury","Weakness Exploit",1,"Tremor Resistance",1,"",""
+413,"Dahaad β","LEG","Dahaad Shardgreaves β","Jin Dahaad leg armor. Every
+footfall coats the earth in
+spiderwebs of ice.",60,-3,2,-1,2,-1,2,0,0,"Jin Dahaad's Revolt","Lord's Fury","Agitator",2,"","","",""
+414,"Rey Dau α","HELM","Rey Sandhelm α","Rey Dau head armor. Its crest
+reaches the heavens—proof that
+this creature bows to no one.",60,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",2,"Evade Extender",1,"",""
+415,"Rey Dau α","BODY","Rey Sandmail α","Rey Dau chest armor. Its carapace
+has been meticulously paneled
+into a bastion of defense.",60,0,-2,4,-3,0,1,1,0,"Rey Dau's Voltage","Lord's Favor","Maximum Might",2,"Stamina Surge",1,"",""
+416,"Rey Dau α","ARM","Rey Sandbraces α","Rey Dau armguards. A lingering
+charge gives the wearer a grip
+like a vice.",60,0,-2,4,-3,0,2,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",2,"Stun Resistance",1,"",""
+417,"Rey Dau α","WAIST","Rey Sandcoil α","Rey Dau waistgear. The
+faintly glowing buckle
+inspires awe and respect.",60,0,-2,4,-3,0,2,0,0,"Rey Dau's Voltage","Lord's Favor","Stamina Surge",2,"Stun Resistance",2,"",""
+418,"Rey Dau α","LEG","Rey Sandgreaves α","Rey Dau leg armor. A layer
+of latent electricity cushions
+blows and softens landings.",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Favor","Latent Power",1,"Maximum Might",1,"",""
+419,"Rey Dau β","HELM","Rey Sandhelm β","Rey Dau head armor. Its crest
+reaches the heavens—proof that
+this creature bows to no one.",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Fury","Latent Power",1,"Evade Extender",1,"",""
+420,"Rey Dau β","BODY","Rey Sandmail β","Rey Dau chest armor. Its carapace
+has been meticulously paneled
+into a bastion of defense.",60,0,-2,4,-3,0,2,1,1,"Rey Dau's Voltage","Lord's Fury","Maximum Might",1,"Stamina Surge",1,"",""
+421,"Rey Dau β","ARM","Rey Sandbraces β","Rey Dau armguards. A lingering
+charge gives the wearer a grip
+like a vice.",60,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Fury","Latent Power",2,"","","",""
+422,"Rey Dau β","WAIST","Rey Sandcoil β","Rey Dau waistgear. The
+faintly glowing buckle
+inspires awe and respect.",60,0,-2,4,-3,0,3,1,0,"Rey Dau's Voltage","Lord's Fury","Stamina Surge",1,"Stun Resistance",2,"",""
+423,"Rey Dau β","LEG","Rey Sandgreaves β","Rey Dau leg armor. A layer
+of latent electricity cushions
+blows and softens landings.",60,0,-2,4,-3,0,3,1,1,"Rey Dau's Voltage","Lord's Fury","Latent Power",1,"","","",""
+424,"Uth Duna α","HELM","Duna Wildhelm α","Uth Duna head armor. The
+plumage crafted from its
+fins convey the forest's
+will to the wearer.",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",2,"Earplugs",1,"",""
+425,"Uth Duna α","BODY","Duna Wildmail α","Uth Duna chest armor. The tightly
+fitted scales make the wearer feel
+as if they are one with nature.",60,-1,4,-3,0,0,3,0,0,"Uth Duna's Cover","Lord's Favor","Tool Specialist",2,"Aquatic/Oilsilt Mobility",1,"",""
+426,"Uth Duna α","ARM","Duna Wildbraces α","Uth Duna armguards. The rows
+of stone beading are an elegant
+touch that boosts concentration.",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",2,"Quick Sheathe",1,"",""
+427,"Uth Duna α","WAIST","Duna Wildcoil α","Uth Duna waistgear. The fabric
+is imbued with the breath of the
+forest, absorbing any impact.",60,-1,4,-3,0,0,2,1,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",2,"Aquatic/Oilsilt Mobility",1,"",""
+428,"Uth Duna α","LEG","Duna Wildgreaves α","Elaborately patterned Uth Duna
+leg armor. The design is said to
+invoke the forest's protection.",60,-1,4,-3,0,0,3,0,0,"Uth Duna's Cover","Lord's Favor","Peak Performance",1,"Tool Specialist",1,"",""
+429,"Uth Duna β","HELM","Duna Wildhelm β","Uth Duna head armor. The
+plumage crafted from its
+fins convey the forest's
+will to the wearer.",60,-1,4,-3,0,0,3,2,0,"Uth Duna's Cover","Lord's Fury","Tool Specialist",1,"Earplugs",1,"",""
+430,"Uth Duna β","BODY","Duna Wildmail β","Uth Duna chest armor. The tightly
+fitted scales make the wearer feel
+as if they are one with nature.",60,-1,4,-3,0,0,3,1,0,"Uth Duna's Cover","Lord's Fury","Tool Specialist",2,"","","",""
+431,"Uth Duna β","ARM","Duna Wildbraces β","Uth Duna armguards. The rows
+of stone beading are an elegant
+touch that boosts concentration.",60,-1,4,-3,0,0,3,1,1,"Uth Duna's Cover","Lord's Fury","Peak Performance",1,"Quick Sheathe",1,"",""
+432,"Uth Duna β","WAIST","Duna Wildcoil β","Uth Duna waistgear. The fabric
+is imbued with the breath of the
+forest, absorbing any impact.",60,-1,4,-3,0,0,3,1,0,"Uth Duna's Cover","Lord's Fury","Peak Performance",2,"","","",""
+433,"Uth Duna β","LEG","Duna Wildgreaves β","Elaborately patterned Uth Duna
+leg armor. The design is said to
+invoke the forest's protection.",60,-1,4,-3,0,0,3,1,1,"Uth Duna's Cover","Lord's Fury","Peak Performance",1,"","","",""
+434,"Nu Udra α","HELM","Udra Mirehelm α","Nu Udra head armor. The world
+through this mask is swathed
+in vengeance and ebony fire.",60,5,-4,0,1,0,1,1,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",2,"Counterstrike",1,"",""
+435,"Nu Udra α","BODY","Udra Miremail α","Nu Udra chest armor. As if a
+curse manifested, tentacles drape
+down to form a haunting cape.",60,5,-4,0,1,0,1,1,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",1,"Burst",1,"",""
+436,"Nu Udra α","ARM","Udra Mirebraces α","Chilling Nu Udra armguards.
+They warp one's sense of
+touch, changing warmth to
+cold nothingness.",60,5,-4,0,1,0,2,0,0,"Nu Udra's Mutiny","Lord's Favor","Speed Eating",2,"Counterstrike",2,"",""
+437,"Nu Udra α","WAIST","Udra Mirecoil α","Nu Udra waistgear. The gnash
+of spikes and fangs are bound
+by a personalized curse.",60,5,-4,0,1,0,2,0,0,"Nu Udra's Mutiny","Lord's Favor","Resentment",2,"Speed Eating",1,"",""
+438,"Nu Udra α","LEG","Udra Miregreaves α","Nu Udra leg armor. The wearer
+could cross a sea of fire without
+so much as a blister.",60,5,-4,0,1,0,3,0,0,"Nu Udra's Mutiny","Lord's Favor","Burst",1,"Windproof",2,"",""
+439,"Nu Udra β","HELM","Udra Mirehelm β","Nu Udra head armor. The world
+through this mask is swathed
+in vengeance and ebony fire.",60,5,-4,0,1,0,2,2,0,"Nu Udra's Mutiny","Lord's Fury","Resentment",1,"Counterstrike",1,"",""
+440,"Nu Udra β","BODY","Udra Miremail β","Nu Udra chest armor. As if a
+curse manifested, tentacles drape
+down to form a haunting cape.",60,5,-4,0,1,0,3,1,1,"Nu Udra's Mutiny","Lord's Fury","Resentment",1,"","","",""
+441,"Nu Udra β","ARM","Udra Mirebraces β","Chilling Nu Udra armguards.
+They warp one's sense of
+touch, changing warmth to
+cold nothingness.",60,5,-4,0,1,0,3,1,0,"Nu Udra's Mutiny","Lord's Fury","Speed Eating",2,"Counterstrike",1,"",""
+442,"Nu Udra β","WAIST","Udra Mirecoil β","Nu Udra waistgear. The gnash
+of spikes and fangs are bound
+by a personalized curse.",60,5,-4,0,1,0,3,0,0,"Nu Udra's Mutiny","Lord's Fury","Resentment",2,"","","",""
+443,"Nu Udra β","LEG","Udra Miregreaves β","Nu Udra leg armor. The wearer
+could cross a sea of fire without
+so much as a blister.",60,5,-4,0,1,0,3,1,0,"Nu Udra's Mutiny","Lord's Fury","Burst",1,"Windproof",1,"",""
+444,"Gore α","HELM","Gore Helm α","A helmet made from Gore Magala
+spoils. The nether-black surface
+thrums with its late master's
+power.",60,-2,3,-1,2,-1,2,0,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",2,"Coalescence",1,"",""
+445,"Gore α","BODY","Gore Mail α","Chest armor made from Gore
+Magala spoils. Its agonizing
+miasma sends prey screaming
+to the netherworld.",60,-2,3,-1,2,-1,3,0,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",2,"Antivirus",1,"",""
+446,"Gore α","ARM","Gore Vambraces α","Armguards made from Gore
+Magala materials. Even the
+largest prey will be drawn
+into oblivion.",60,-2,3,-1,2,-1,2,1,0,"Gore Magala's Tyranny","Scaling Prowess","Evade Window",1,"Constitution",2,"",""
+447,"Gore α","WAIST","Gore Coil α","Waistgear made from Gore
+Magala materials. Darkens the
+world and seduces prey toward
+certain demise.",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scaling Prowess","Constitution",2,"Antivirus",1,"",""
+448,"Gore α","LEG","Gore Greaves α","Leg armor made from Gore
+Magala materials. Spirits you
+across hunting grounds as fast
+as the wind.",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scaling Prowess","Antivirus",1,"Flinch Free",2,"",""
+449,"Gore β","HELM","Gore Helm β","A helmet made from Gore Magala
+spoils. The nether-black surface
+thrums with its late master's
+power.",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",1,"Coalescence",1,"",""
+450,"Gore β","BODY","Gore Mail β","Chest armor made from Gore
+Magala spoils. Its agonizing
+miasma sends prey screaming
+to the netherworld.",60,-2,3,-1,2,-1,3,1,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",2,"","","",""
+451,"Gore β","ARM","Gore Vambraces β","Armguards made from Gore
+Magala materials. Even the
+largest prey will be drawn
+into oblivion.",60,-2,3,-1,2,-1,2,2,0,"Gore Magala's Tyranny","Scale Layering","Evade Window",1,"Constitution",1,"",""
+452,"Gore β","WAIST","Gore Coil β","Waistgear made from Gore
+Magala materials. Darkens the
+world and seduces prey toward
+certain demise.",60,-2,3,-1,2,-1,3,2,0,"Gore Magala's Tyranny","Scale Layering","Constitution",2,"","","",""
+453,"Gore β","LEG","Gore Greaves β","Leg armor made from Gore
+Magala materials. Spirits you
+across hunting grounds as fast
+as the wind.",60,-2,3,-1,2,-1,3,1,1,"Gore Magala's Tyranny","Scale Layering","Antivirus",1,"Flinch Free",1,"",""
+454,"Arkveld α","HELM","Arkvulcan Helm α","A helmet made from Arkveld
+spoils. The design was worn
+by a knight errant who
+reshaped the world.",66,2,0,-1,0,-3,0,0,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Elemental Absorption",2,"",""
+455,"Arkveld α","BODY","Arkvulcan Mail α","Chest armor made from Arkveld
+spoils. The knight fearlessly
+broke the will of every
+adversary.",66,2,0,-1,0,-3,2,0,0,"Arkveld's Hunger","Fortifying Pelt","Weakness Exploit",1,"Elemental Absorption",1,"",""
+456,"Arkveld α","ARM","Arkvulcan Vambraces α","Armguards made from Arkveld
+spoils. Legions a hundred
+thousand strong succumbed
+before the knight.",66,2,0,-1,0,-3,2,2,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Recovery Speed",1,"",""
+457,"Arkveld α","WAIST","Arkvulcan Coil α","Waistgear made from Arkveld
+spoils. Until the kingdom was
+restored, the knight bowed
+before no hardship.",66,2,0,-1,0,-3,1,0,0,"Arkveld's Hunger","Fortifying Pelt","Weakness Exploit",2,"Recovery Speed",2,"",""
+458,"Arkveld α","LEG","Arkvulcan Greaves α","Leg armor made from Arkveld
+spoils. No bloody war nor
+bitter loss could halt the
+knight's march to victory.",66,2,0,-1,0,-3,2,1,0,"Arkveld's Hunger","Fortifying Pelt","Convert Element",1,"Quick Sheathe",2,"",""
+459,"Arkveld β","HELM","Arkvulcan Helm β","A helmet made from Arkveld
+spoils. The design was worn
+by a knight errant who
+reshaped the world.",66,2,0,-1,0,-3,3,2,1,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"","","",""
+460,"Arkveld β","BODY","Arkvulcan Mail β","Chest armor made from Arkveld
+spoils. The knight fearlessly
+broke the will of every
+adversary.",66,2,0,-1,0,-3,3,2,0,"Arkveld's Hunger","Alluring Pelt","Weakness Exploit",1,"","","",""
+461,"Arkveld β","ARM","Arkvulcan Vambraces β","Armguards made from Arkveld
+spoils. Legions a hundred
+thousand strong succumbed
+before the knight.",66,2,0,-1,0,-3,2,2,1,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"","","",""
+462,"Arkveld β","WAIST","Arkvulcan Coil β","Waistgear made from Arkveld
+spoils. Until the kingdom was
+restored, the knight bowed
+before no hardship.",66,2,0,-1,0,-3,1,1,0,"Arkveld's Hunger","Alluring Pelt","Weakness Exploit",2,"Recovery Speed",1,"",""
+463,"Arkveld β","LEG","Arkvulcan Greaves β","Leg armor made from Arkveld
+spoils. No bloody war nor
+bitter loss could halt the
+knight's march to victory.",66,2,0,-1,0,-3,3,1,0,"Arkveld's Hunger","Alluring Pelt","Convert Element",1,"Quick Sheathe",1,"",""
+464,"Guardian Arkveld α","HELM","G. Arkveld Helm α","Guardian Arkveld head armor.
+A host of heightened senses
+make up for the narrow view.",66,2,0,-1,0,-4,1,1,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",1,"Partbreaker",2,"",""
+465,"Guardian Arkveld α","BODY","G. Arkveld Mail α","Guardian Arkveld chest armor.
+It beckons forth a shudder of
+indescribable power.",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",2,"Blight Resistance",2,"",""
+466,"Guardian Arkveld α","ARM","G. Arkveld Vambraces α","Guardian Arkveld armguards.
+Instills the desire to tear at
+friend and foe alike.",66,2,0,-1,0,-4,1,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Weakness Exploit",2,"Blight Resistance",1,"",""
+467,"Guardian Arkveld α","WAIST","G. Arkveld Coil α","Guardian Arkveld waistgear.
+The chains writhe subtly, eager
+to ensnare prey.",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Flayer",2,"Elemental Absorption",1,"",""
+468,"Guardian Arkveld α","LEG","G. Arkveld Greaves α","Guardian Arkveld leg armor.
+Their power grows with each
+relentless, hungry step.",66,2,0,-1,0,-4,0,0,0,"Guardian Arkveld's Vitality","Guardian's Pulse","Elemental Absorption",2,"Weakness Exploit",1,"",""
+469,"Guardian Arkveld β","HELM","G. Arkveld Helm β","Guardian Arkveld head armor.
+A host of heightened senses
+make up for the narrow view.",66,2,0,-1,0,-4,3,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",1,"Partbreaker",1,"",""
+470,"Guardian Arkveld β","BODY","G. Arkveld Mail β","Guardian Arkveld chest armor.
+It beckons forth a shudder of
+indescribable power.",66,2,0,-1,0,-4,3,0,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",1,"Blight Resistance",2,"",""
+471,"Guardian Arkveld β","ARM","G. Arkveld Vambraces β","Guardian Arkveld armguards.
+Instills the desire to tear at
+friend and foe alike.",66,2,0,-1,0,-4,1,1,1,"Guardian Arkveld's Vitality","Guardian's Protection","Weakness Exploit",2,"","","",""
+472,"Guardian Arkveld β","WAIST","G. Arkveld Coil β","Guardian Arkveld waistgear.
+The chains writhe subtly, eager
+to ensnare prey.",66,2,0,-1,0,-4,2,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Flayer",2,"","","",""
+473,"Guardian Arkveld β","LEG","G. Arkveld Greaves β","Guardian Arkveld leg armor.
+Their power grows with each
+relentless, hungry step.",66,2,0,-1,0,-4,2,1,0,"Guardian Arkveld's Vitality","Guardian's Protection","Elemental Absorption",1,"Weakness Exploit",1,"",""
+474,"Kunafa α","HELM","Kunafa Headgear α","Head armor with large horns
+traditionally worn by the
+leader of the Vanguard in
+the Windsong Village.",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Wide-Range",2,"Palico Rally",1,"",""
+475,"Kunafa α","BODY","Kunafa Cloak α","A cloak worn for generations in
+the Windsong Village, notable
+for the Seikret feathers woven
+into it.",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Free Meal",2,"Palico Rally",1,"",""
+476,"Kunafa α","WAIST","Kunafa Sash α","Waistgear worn in the Windsong
+Village. The sash's patterns
+represent their hopes and
+prayers.",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Speed Eating",2,"Palico Rally",1,"",""
+477,"Kunafa α","LEG","Kunafa Chaps α","Leg armor worn in the Windsong
+Village. Handsome Dalthydon
+pelts keep the legs well
+protected.",44,1,1,4,1,1,2,0,0,"","Imparted Wisdom","Wide-Range",2,"Palico Rally",1,"",""
+478,"Azuz α","HELM","Azuz Headdress α","Headwear worn in the village of
+the Everforge. The hairpin's fine
+details speak to the Bonefolk's
+artistry.",44,4,1,1,1,1,2,0,0,"","Imparted Wisdom","Maximum Might",2,"","","",""
+479,"Azuz α","BODY","Azuz Apron α","Chest armor worn in the village of
+the Everforge. Large medallions
+denoting mastery are sewn on
+as reinforcement. ",44,4,1,1,1,1,1,1,0,"","Imparted Wisdom","Heroics",3,"","","",""
+480,"Azuz α","LEG","Azuz Pants α","Legwear worn in the village of
+the Everforge. The rubbery, oil-
+based material is completely
+waterproof.",44,4,1,1,1,1,2,1,1,"","Imparted Wisdom","Geologist",3,"","","",""
+481,"Suja α","WAIST","Suja Sash α","Waistgear worn in the Peaks of
+Accord. A ritual blade hangs at
+the sash as blessed protection.",44,1,1,1,4,1,2,1,1,"","Imparted Wisdom","Divine Blessing",3,"","","",""
+482,"Sild α","HELM","Sild Hood α","A hood worn in the Keepers' Vigil.
+The cocoon-like fibers afford solid
+protection, and breathe well too.",44,1,1,1,1,4,2,1,1,"","Imparted Wisdom","Botanist",3,"","","",""
+483,"Sild α","BODY","Sild Coat α","A coat worn in the Keepers' Vigil.
+Thick, but also extremely light so
+as not to impede their daily work.",44,1,1,1,1,4,2,0,0,"","Imparted Wisdom","Wide-Range",4,"","","",""
+484,"Death Stench α","HELM","Death Stench Brain α","Accursed armor, said to bring
+death. The wearer hears echoes
+of their victim's death throes.",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
+485,"Death Stench α","BODY","Death Stench Muscle α","Armor said to bring death.
+Unworldly light and
+penetratingly cold.",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
+486,"Death Stench α","ARM","Death Stench Grip α","Armor drenched in the stench
+of decay and a sensation as if
+the god of death resides within.",44,3,2,-2,3,4,2,0,0,"","Imparted Wisdom","Resentment",1,"Ambush",1,"",""
+487,"Death Stench α","WAIST","Death Stench Bowels α","This gear gives off a stench of
+decay, as though death's aroma
+permeates the air around you...",44,3,2,-2,3,4,2,1,0,"","Imparted Wisdom","Resentment",1,"Intimidator",2,"",""
+488,"Death Stench α","LEG","Death Stench Heel α","Modeled on the god of death.
+Hearing the black footsteps
+means your time has come.",44,3,2,-2,3,4,2,1,0,"","Imparted Wisdom","Resentment",1,"Stun Resistance",2,"",""
+489,"Butterfly α","HELM","Butterfly Vertex α","Dazzling armor made from insect
+parts. Its light weight and color
+are proof of one's class.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
+490,"Butterfly α","BODY","Butterfly Thorax α","Dazzling armor made from
+insect parts. The wearer's every
+movement exudes elegance.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
+491,"Butterfly α","ARM","Butterfly Brachia α","Dazzling armor made from insect
+parts. The gorgeous material
+has a lovely silky feel to it.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Recovery Speed",2
+492,"Butterfly α","WAIST","Butterfly Elytra α","Dazzling armor made from insect
+parts. It radiates style akin
+to that of nobility.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Evade Extender",1
+493,"Butterfly α","LEG","Butterfly Crura α","Dazzling armor made from insect
+parts. Its light weight and
+color are proof of one's class.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Constitution",1,"Evade Window",1,"Recovery Up",2
+494,"King Beetle α","HELM","King Beetle Vertex α","Armor to fulfill the ambitions
+of those who dreamed of wielding
+the power to rule over bugdom.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Sleep Resistance",1
+495,"King Beetle α","BODY","King Beetle Thorax α","Chest armor so tough it's hard
+to believe that it's made from
+insect parts.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Paralysis Resistance",1
+496,"King Beetle α","ARM","King Beetle Brachia α","Armor to fulfill the ambitions
+of those who dreamed of wielding
+the power to rule over bug-kind.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Foray",1,"Poison Resistance",1
+497,"King Beetle α","WAIST","King Beetle Elytra α","Waistgear made from insect
+materials. Wearers resemble
+a black bullet when running.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Flayer",1,"Paralysis Resistance",1
+498,"King Beetle α","LEG","King Beetle Crura α","Armor so perfect that one could
+get tread upon by a wyvern and
+not even flinch.",44,-1,-1,2,0,2,2,0,0,"","Imparted Wisdom","Heroics",1,"Flayer",1,"Poison Resistance",1
+499,"High Metal α","HELM","High Metal Helm α","Armor made from a generous
+portion of ore. Don't worry, it
+breathes surprisingly well.",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Stun Resistance",3,"Partbreaker",1,"",""
+500,"High Metal α","BODY","High Metal Mail α","Armor made from a generous
+portion of ore. Can repel even
+the fiercest blows.",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Iron Skin",3,"Partbreaker",1,"",""
+501,"High Metal α","ARM","High Metal Braces α","Armor made from a generous
+portion of ore. Ordinary attacks
+won't even scratch it!",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Blast Resistance",3,"Partbreaker",1,"",""
+502,"High Metal α","WAIST","High Metal Coil α","Armor made from a generous
+portion of ore. Has multiple
+layers for extra protection.",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Bombardier",3,"Aquatic/Oilsilt Mobility",2,"",""
+503,"High Metal α","LEG","High Metal Greaves α","Armor made from a generous
+portion of ore. Renowned for
+its ability to withstand monster
+attacks.",44,0,-1,-2,3,0,2,0,0,"","Imparted Wisdom","Flinch Free",3,"Bleeding Resistance",3,"",""
+504,"Battle α","HELM","Battle Helm α","Head armor designed for seasoned
+hunters. They say it must be
+earned, so novices dare not wear
+it.",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Stamina Surge",2,"","","",""
+505,"Battle α","BODY","Battle Mail α","Chest armor designed for seasoned
+hunters. Stylish, useful, and solid
+protection—it checks all the boxes.",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Hunger Resistance",3,"Sleep Resistance",2,"",""
+506,"Battle α","ARM","Battle Vambraces α","Armguards designed for seasoned
+hunters. Highly utile, with extra
+consideration given to mobility.",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Free Meal",3,"","","",""
+507,"Battle α","WAIST","Battle Coil α","Waistgear designed for seasoned
+hunters. The striking design offers
+a light, functional build.",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Item Prolonger",3,"Bind Resistance",2,"",""
+508,"Battle α","LEG","Battle Greaves α","Leg armor designed for seasoned
+hunters. No compromises were
+made for this sought-after
+masterpiece.",44,2,-1,-1,0,0,2,0,0,"","Imparted Wisdom","Marathon Runner",3,"Constitution",2,"",""
+509,"Melahoa α","HELM","Melahoa Hat α","Fragrant head protection that
+instills a deep longing to return
+to the old days.",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Survival Expert",3,"Poison Resistance",2,"",""
+510,"Melahoa α","BODY","Melahoa Jacket α","Fragrant chest armor that brings
+tears to the wearer's eyes as they
+cannot help remembering the
+past.",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Tool Specialist",3,"","","",""
+511,"Melahoa α","ARM","Melahoa Branch α","Fragrant armguards with pastel
+coloring and a nostalgic scent
+that tug at an aging hunter's
+heart.",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Recovery Speed",3,"Paralysis Resistance",2,"",""
+512,"Melahoa α","WAIST","Melahoa Folia α","Fragrant waistgear that is
+silky to the touch. Its sweet
+scent reminds hunters of times
+gone by.",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Recovery Up",3,"Bleeding Resistance",2,"",""
+513,"Melahoa α","LEG","Melahoa Roots α","Fragrant leg armor that could
+intoxicate even a wyvern with its
+sweet, wafting aroma.",44,0,1,3,0,0,2,0,0,"","Imparted Wisdom","Mushroomancer",3,"","","",""
+519,"Artian α","HELM","Artian Helm α","Head armor made of eldritch
+scraps. Artisans debated its
+design for seven nights.",44,1,-2,-2,2,3,2,1,0,"","Guardian's Protection","Flayer",1,"Earplugs",1,"",""
+520,"Artian α","BODY","Artian Mail α","Chest armor made from eldritch
+scraps, which even the Smithy
+struggled with.",44,1,-2,-2,2,3,2,1,1,"","Guardian's Protection","Flayer",1,"Adaptability",1,"",""
+521,"Artian α","ARM","Artian Vambraces α","Arm guards made from eldritch
+scraps. Unlocking its potential
+took patience.",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Blight Resistance",2,"",""
+522,"Artian α","WAIST","Artian Coil α","Waistgear made from eldritch
+scraps. Its original purpose
+remains a mystery.",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Windproof",2,"",""
+523,"Artian α","LEG","Artian Greaves α","Leg armor made from eldritch
+scraps. Wearing it bestows
+tremendous power.",44,1,-2,-2,2,3,2,0,0,"","Guardian's Protection","Flayer",1,"Tremor Resistance",2,"",""
+524,"Gajau α","LEG","Gajau Boots α","Leg armor made from Gajau
+spoils. The pliable hide even
+has fans outside the hunter
+community.",44,0,5,0,0,0,1,1,1,"","Flexible Leathercraft","Water Resistance",1,"Outdoorsman",1,"",""
+526,"Commission α","HELM","Commission Helm α","Head armor worn by hunters
+on an expedition to the New
+World. Sturdily made.",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Maximum Might",1,"",""
+527,"Commission α","BODY","Commission Mail α","Chest armor worn by hunters
+on an expedition to the New
+World. Sturdily made.",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Divine Blessing",2,"",""
+528,"Commission α","ARM","Commission Vambraces α","Armguards worn by hunters
+on an expedition to the New
+World. Sturdily made.",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Quick Sheathe",2,"",""
+529,"Commission α","WAIST","Commission Coil α","Waistgear worn by hunters
+on an expedition to the New
+World. Sturdily made.",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Tool Specialist",1,"",""
+530,"Commission α","LEG","Commission Greaves α","Leg armor worn by hunters
+on an expedition to the New
+World. Sturdily made.",44,2,2,0,0,0,1,0,0,"","","Agitator",1,"Earplugs",1,"",""
+531,"Mimiphyta α","HELM","Mimiphyta α","A Mimiphyta plushie so closely
+reminiscent of the real flower
+that it attracts all sorts of
+Scarlet Forest insects.",36,-3,2,-2,2,2,1,0,0,"","Fortifying Pelt","Entomologist",1,"Ambush",1,"",""
+514,"Guild Ace α","HELM","Guild Ace Earrings α","Head protection worn by an
+Astrum Unit hunter. Crafted
+with special protections
+exclusive to veterans.",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
+515,"Guild Ace α","BODY","Guild Ace Mail α","Chest armor worn by an Astrum
+Unit hunter. Looks plain, but is
+quite bespoke on closer inspection.",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
+516,"Guild Ace α","ARM","Guild Ace Vambraces α","Armguards worn by an Astrum Unit
+hunter. Primarily made of leather
+to make weapon handling a breeze.",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
+517,"Guild Ace α","WAIST","Guild Ace Coil α","Waistgear worn by an Astrum Unit
+hunter. Ensures you can get what
+you need when you need it.",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
+518,"Guild Ace α","LEG","Guild Ace Boots α","Leg armor worn by an Astrum Unit
+hunter. The design was carefully
+calibrated to traverse any terrain.",60,2,2,2,2,2,3,0,0,"","","Peak Performance",1,"Foray",1,"Constitution",1
+786,"#N/A","HELM","No Equipment","<COLOR FF0000>#Rejected#</COLOR> Armor_EXPID00746",0,0,0,0,0,0,0,0,0,"","","","","","","",""
+787,"#N/A","BODY","No Equipment","<COLOR FF0000>#Rejected#</COLOR> Armor_EXPID00747",0,0,0,0,0,0,0,0,0,"","","","","","","",""
+788,"#N/A","ARM","No Equipment","<COLOR FF0000>#Rejected#</COLOR> Armor_EXPID00748",0,0,0,0,0,0,0,0,0,"","","","","","","",""
+789,"#N/A","WAIST","No Equipment","<COLOR FF0000>#Rejected#</COLOR> Armor_EXPID00749",0,0,0,0,0,0,0,0,0,"","","","","","","",""
+790,"#N/A","LEG","No Equipment","<COLOR FF0000>#Rejected#</COLOR> Armor_EXPID00750",0,0,0,0,0,0,0,0,0,"","","","","","","",""
+38,"Gajau","LEG","Gajau Boots","Leg armor made from Gajau
+spoils. The pliable hide even
+has fans outside the hunter
+community.",4,0,5,0,0,0,0,0,0,"","Flexible Leathercraft","Water Resistance",1,"","","",""
+525,"Dragonking α","HELM","Dragonking Eyepatch α","An accessory that instantly makes
+you look dashing and imposing.
+Bring out your budding dark side.",60,0,0,0,0,0,0,0,0,"","","Counterstrike",3,"","","",""
+532,"Expedition Headgear α","HELM","Expedition Headgear α","Headgear based on the expedition's
+emblem. A leaf representing the
+ideals of harmony and order glitters
+magnificently for all to see.",40,1,1,1,1,1,1,0,0,"","","Blight Resistance",1,"Coalescence",1,"",""
+533,"Guild Cross α","HELM","Guild Cross Circlet α","Golden armor for Arena
+champions. It shines with
+the wisdom of heroes.",36,0,0,0,0,0,1,0,0,"","Glory's Favor","Earplugs",1,"Flinch Free",1,"Bind Resistance",2
+534,"Guild Cross α","BODY","Guild Cross Suit α","Armor for Arena champions.
+Proof that the Guild has
+recognized the wearer's power.",36,0,0,0,0,0,2,1,0,"","Glory's Favor","Earplugs",1,"Tremor Resistance",1,"",""
+535,"Guild Cross α","ARM","Guild Cross Vambraces α","Armor for Arena champions.
+Worthy of its wearer's power.
+A complex design.",36,0,0,0,0,0,2,0,0,"","Glory's Favor","Flinch Free",2,"Tremor Resistance",1,"Bind Resistance",1
+536,"Guild Cross α","WAIST","Guild Cross Coil α","Armor for Arena champions.
+Finely made. Proves the
+wearer is a true champion.",36,0,0,0,0,0,2,0,0,"","Glory's Favor","Earplugs",1,"Windproof",2,"",""
+537,"Guild Cross α","LEG","Guild Cross Boots α","Armor for Arena champions.
+Painstakingly made. For true
+heroes.",36,0,0,0,0,0,2,2,0,"","Glory's Favor","Tremor Resistance",1,"Windproof",1,"",""
+538,"Clerk α","HELM","Clerk Visor α","Grand Hub handler head armor.
+Woven in a unique way to
+provide more protection than
+its appearance suggests.",48,2,2,2,2,2,2,1,0,"","Glory's Favor","Divine Blessing",2,"Recovery Up",1,"Palico Rally",2
+539,"Clerk α","BODY","Clerk Suit α","Grand Hub handler chest armor.
+A manifestation of the desire
+to fill the Grand Hub with color.",48,2,2,2,2,2,2,1,0,"","Glory's Favor","Divine Blessing",1,"Survival Expert",2,"",""
+540,"Clerk α","ARM","Clerk Vambraces α","Grand Hub handler armguards.
+Their minimalist design is
+perfectly suited to clerical
+work.",48,2,2,2,2,2,2,1,0,"","Glory's Favor","Tool Specialist",2,"Survival Expert",1,"Palico Rally",1
+541,"Clerk α","WAIST","Clerk Belt α","Grand Hub handler waistgear.
+A fine piece of equipment that's
+unparalleled in both form
+and function.",48,2,2,2,2,2,1,0,0,"","Glory's Favor","Tool Specialist",2,"Recovery Up",2,"",""
+542,"Clerk α","LEG","Clerk Shoes α","Grand Hub handler leg armor.
+Designed to help the wearer
+stand for hours on end without
+getting sore feet.",48,2,2,2,2,2,2,2,0,"","Glory's Favor","Tool Specialist",1,"Palico Rally",2,"",""
+543,"Gourmand's Earring α","HELM","Gourmand's Earring α","Dignified earrings awarded to
+Arena combatants. Symbolizes
+the spirit of the gourmet, who
+loves food as much as the hunt.",36,0,0,0,0,0,1,0,0,"","Glory's Favor","Speed Eating",2,"Free Meal",2,"",""
+544,"Earrings of Dedication α","HELM","Earrings of Dedication α","Dignified earrings awarded to
+Arena combatants. Symbolizes
+those who support their comrades
+through countless challenges.",48,0,0,0,0,0,2,0,0,"","Glory's Favor","Wide-Range",4,"","","",""
+545,"Mizutsune α","HELM","Mizutsune Helm α","Mizutsune head armor.
+A wedding headdress for
+only the most elegant and
+refined wedding ceremonies.",48,0,2,-3,1,-1,3,0,0,"Mizutsune's Prowess","Fortifying Pelt","Evade Extender",1,"Aquatic/Oilsilt Mobility",2,"",""
+546,"Mizutsune α","BODY","Mizutsune Mail α","Mizutsune chest armor.
+A piece of wedding attire
+that took a holy maiden
+100 nights to sew.",48,0,2,-3,1,-1,1,0,0,"Mizutsune's Prowess","Fortifying Pelt","Burst",2,"Constitution",1,"",""
+547,"Mizutsune α","ARM","Mizutsune Braces α","Mizutsune armguards.
+Wedding attire so lavish
+and beautiful that it brings
+kings to their knees.",48,0,2,-3,1,-1,1,0,0,"Mizutsune's Prowess","Fortifying Pelt","Evade Extender",2,"Evade Window",2,"",""
+548,"Mizutsune α","WAIST","Mizutsune Coil α","Mizutsune waistgear.
+Wedding attire so stunning,
+people wouldn't notice if
+you grew a second head.",48,0,2,-3,1,-1,2,1,0,"Mizutsune's Prowess","Fortifying Pelt","Burst",1,"Constitution",2,"",""
+549,"Mizutsune α","LEG","Mizutsune Greaves α","Mizutsune leg armor.
+Beautiful wedding footwear
+that features an enchanting
+split-toe design.",48,0,2,-3,1,-1,1,0,0,"Mizutsune's Prowess","Fortifying Pelt","Burst",2,"Peak Performance",1,"",""
+550,"Mizutsune β","HELM","Mizutsune Helm β","Mizutsune head armor.
+A wedding headdress for
+only the most elegant and
+refined wedding ceremonies.",48,0,2,-3,1,-1,3,2,0,"Mizutsune's Prowess","Alluring Pelt","Aquatic/Oilsilt Mobility",2,"","","",""
+551,"Mizutsune β","BODY","Mizutsune Mail β","Mizutsune chest armor.
+A piece of wedding attire
+that took a holy maiden
+100 nights to sew.",48,0,2,-3,1,-1,2,2,0,"Mizutsune's Prowess","Alluring Pelt","Burst",1,"Constitution",1,"",""
+552,"Mizutsune β","ARM","Mizutsune Braces β","Mizutsune armguards.
+Wedding attire so lavish
+and beautiful that it brings
+kings to their knees.",48,0,2,-3,1,-1,3,0,0,"Mizutsune's Prowess","Alluring Pelt","Evade Extender",1,"Evade Window",2,"",""
+553,"Mizutsune β","WAIST","Mizutsune Coil β","Mizutsune waistgear.
+Wedding attire so stunning,
+people wouldn't notice if
+you grew a second head.",48,0,2,-3,1,-1,3,2,1,"Mizutsune's Prowess","Alluring Pelt","Constitution",2,"","","",""
+554,"Mizutsune β","LEG","Mizutsune Greaves β","Mizutsune leg armor.
+Beautiful wedding footwear
+that features an enchanting
+split-toe design.",48,0,2,-3,1,-1,3,0,0,"Mizutsune's Prowess","Alluring Pelt","Burst",2,"","","",""
+555,"Numinous α","HELM","Numinous Crown α","Head armor imbued with
+Zoh Shia's soul. Fights
+the urge to eradicate all.",68,-2,2,2,0,-4,3,2,0,"Zoh Shia's Pulse","Guardian's Pulse","Agitator",1,"Recovery Speed",2,"",""
+556,"Numinous α","BODY","Numinous Shroud α","Chest armor imbued with
+Zoh Shia's soul. Restrains
+the impulse to crush
+everything in its path.",68,-2,2,2,0,-4,1,0,0,"Zoh Shia's Pulse","Guardian's Pulse","Agitator",2,"Counterstrike",1,"",""
+557,"Numinous α","ARM","Numinous Vambraces α","Armguards imbued with
+Zoh Shia's soul, which
+suppresses the desire
+to devastate the world.",68,-2,2,2,0,-4,2,0,0,"Zoh Shia's Pulse","Guardian's Pulse","Elemental Absorption",2,"Coalescence",1,"",""
+558,"Numinous α","WAIST","Numinous Overlay α","Waistgear imbued with
+Zoh Shia's soul, which
+resists the instinct to
+obliterate all living things.",68,-2,2,2,0,-4,0,0,0,"Zoh Shia's Pulse","Guardian's Pulse","Agitator",2,"Coalescence",2,"",""
+559,"Numinous α","LEG","Numinous Greaves α","Leg armor imbued with
+Zoh Shia's soul. Denies its
+all-consuming thirst for
+extermination.",68,-2,2,2,0,-4,2,1,0,"Zoh Shia's Pulse","Guardian's Pulse","Elemental Absorption",1,"Counterstrike",2,"Recovery Speed",1
+560,"Numinous β","HELM","Numinous Crown β","Head armor imbued with
+Zoh Shia's soul. Fights
+the urge to eradicate all.",68,-2,2,2,0,-4,3,2,1,"Zoh Shia's Pulse","Guardian's Protection","Agitator",1,"Recovery Speed",1,"",""
+561,"Numinous β","BODY","Numinous Shroud β","Chest armor imbued with
+Zoh Shia's soul. Restrains
+the impulse to crush
+everything in its path.",68,-2,2,2,0,-4,3,0,0,"Zoh Shia's Pulse","Guardian's Protection","Agitator",2,"","","",""
+562,"Numinous β","ARM","Numinous Vambraces β","Armguards imbued with
+Zoh Shia's soul, which
+suppresses the desire
+to devastate the world.",68,-2,2,2,0,-4,3,1,0,"Zoh Shia's Pulse","Guardian's Protection","Elemental Absorption",2,"","","",""
+563,"Numinous β","WAIST","Numinous Overlay β","Waistgear imbued with
+Zoh Shia's soul, which
+resists the instinct to
+obliterate all living things.",68,-2,2,2,0,-4,2,0,0,"Zoh Shia's Pulse","Guardian's Protection","Agitator",2,"Coalescence",1,"",""
+564,"Numinous β","LEG","Numinous Greaves β","Leg armor imbued with
+Zoh Shia's soul. Denies its
+all-consuming thirst for
+extermination.",68,-2,2,2,0,-4,3,2,0,"Zoh Shia's Pulse","Guardian's Protection","Elemental Absorption",1,"Counterstrike",1,"Recovery Speed",1
+595,"Rey Dau γ","HELM","Rey Sandhelm γ","Head armor made from special
+Rey Dau materials. The azure
+horns evoke the dignity of the
+Arch-tempered.",68,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Soul","Weakness Exploit",1,"Maximum Might",1,"Stamina Surge",1
+596,"Rey Dau γ","BODY","Rey Sandmail γ","Chest armor made from special
+Rey Dau materials. The azure
+armor evokes the valor of the
+Arch-tempered.",68,0,-2,4,-3,0,1,0,0,"Rey Dau's Voltage","Lord's Soul","Latent Power",3,"","","",""
+597,"Rey Dau γ","ARM","Rey Sandbraces γ","Armguards made from special
+Rey Dau materials. The azure
+gauntlets evoke the ambition
+of the Arch-tempered.",68,0,-2,4,-3,0,3,3,0,"Rey Dau's Voltage","Lord's Soul","Evade Extender",2,"","","",""
+598,"Rey Dau γ","WAIST","Rey Sandcoil γ","Waist armor made from special
+Rey Dau materials. The azure
+design evokes the fortitude
+of the Arch-tempered.",68,0,-2,4,-3,0,0,0,0,"Rey Dau's Voltage","Lord's Soul","Latent Power",2,"Maximum Might",2,"",""
+599,"Rey Dau γ","LEG","Rey Sandgreaves γ","Leg armor made from special
+Rey Dau materials. The azure
+greaves evoke the independence
+of the Arch-tempered.",68,0,-2,4,-3,0,3,0,0,"Rey Dau's Voltage","Lord's Soul","Stamina Surge",2,"Stun Resistance",3,"",""
+620,"Sakuratide α","HELM","Sakuratide Headgear α","Blossomdance Ticket headgear.
+It embodies the vigor of
+resplendent warriors from
+spring sunrises past.",36,2,2,-3,2,2,0,0,0,"Blossomdance Prayer","Festival Spirit","Foray",2,"Adaptability",1,"",""
+621,"Sakuratide α","BODY","Sakuratide Robe α","Blossomdance Ticket chest
+armor. It embodies the spirit
+of resplendent warriors from
+spring sunrises past.",36,2,2,-3,2,2,2,0,0,"Blossomdance Prayer","Festival Spirit","Foray",1,"Quick Sheathe",1,"",""
+622,"Sakuratide α","ARM","Sakuratide Bracers α","Blossomdance Ticket armguards.
+They embody the virtue of
+resplendent warriors from
+spring sunrises past.",36,2,2,-3,2,2,2,1,0,"Blossomdance Prayer","Festival Spirit","Foray",1,"Item Prolonger",1,"",""
+623,"Sakuratide α","WAIST","Sakuratide Obi α","Blossomdance Ticket waistgear.
+It embodies the determination
+of resplendent warriors from
+spring sunrises past.",36,2,2,-3,2,2,2,1,0,"Blossomdance Prayer","Festival Spirit","Quick Sheathe",2,"Adaptability",1,"",""
+624,"Sakuratide α","LEG","Sakuratide Hakama α","Blossomdance Ticket leg
+armor. It embodies the allure
+of resplendent warriors from
+spring sunrises past.",36,2,2,-3,2,2,2,0,0,"Blossomdance Prayer","Festival Spirit","Foray",1,"Item Prolonger",2,"",""
+625,"Blossom α","HELM","Blossom Headgear α","Blossom Ticket head armor.
+This eye-catching accessory
+is sure to brighten up the
+season.",36,1,1,4,1,1,2,1,0,"","Festival Spirit","Paralysis Resistance",2,"","","",""
+626,"Blossom α","BODY","Blossom Vest α","Blossom Ticket chest armor.
+The flower brooch adds
+a snazzy touch.",36,1,1,4,1,1,2,1,1,"","Festival Spirit","Paralysis Resistance",1,"","","",""
+627,"Blossom α","ARM","Blossom Cuffs α","Blossom Ticket armguards.
+A flower-inspired design to
+add some elegance and cheer.",36,1,1,4,1,1,1,1,1,"","Festival Spirit","Poison Resistance",2,"","","",""
+628,"Blossom α","WAIST","Blossom Coat α","Blossom Ticket waistgear.
+Sure to make you as graceful
+as a spring butterfly
+floating among the flowers.",36,1,1,4,1,1,2,2,0,"","Festival Spirit","Entomologist",1,"Recovery Speed",1,"",""
+629,"Blossom α","LEG","Blossom Boots α","Blossom Ticket leg armor.
+Elegant footwear that's
+perfectly suited for a spring
+celebration.",36,1,1,4,1,1,1,1,0,"","Festival Spirit","Poison Resistance",1,"Recovery Speed",2,"",""
+682,"Sealed Eyepatch α","HELM","Sealed Eyepatch α","A special order-made eyepatch.
+The cloth gives off a black
+glow, one that is difficult
+to comprehend.",60,3,2,0,2,0,3,3,0,"","","Fire Resistance",2,"","","",""
+683,"Shadow Shades α","HELM","Shadow Shades α","A sensible pair of shades.
+You'll always look cool in
+these, no matter the situation!",60,4,0,4,2,0,3,0,0,"","","Stun Resistance",3,"Blindsider",1,"",""
+684,"Strategist Spectacles α","HELM","Strategist Spectacles α","Spectacles co-designed by
+Gemma and the Stonefolk,
+destined to achieve
+legendary fame.",48,2,2,2,2,2,2,1,1,"","","Geologist",3,"","","",""
+680,"Amstrigian α","HELM","Amstrigian α","A stuffed Amstrigian. Its original
+design could blow bubbles, but
+the feature was removed after
+proving unpopular.",36,-2,2,1,-2,3,0,0,0,"","Buttery Leathercraft","Wide-Range",2,"Evade Extender",1,"",""
+681,"Sealed Dragon Cloth α","HELM","Sealed Dragon Cloth α","A cloth used to wrap the
+remains of an elder dragon.
+It has been sealed to prevent
+another calamity.",48,-3,0,0,1,5,0,0,0,"","","Resentment",2,"Dragon Resistance",3,"",""
+685,"Round Glasses α","HELM","Round Glasses α","A fashionable pair of glasses.
+The tinted lenses are sure to
+add a chic flair to your hunts.",60,0,4,2,0,4,1,1,0,"","","Blight Resistance",3,"","","",""
+686,"Square Glasses α","HELM","Square Glasses α","A sophisticated pair of glasses.
+A versatile look that's perfect
+for the hunt or the home.",48,2,2,2,2,2,1,1,0,"","","Botanist",4,"Outdoorsman",1,"",""

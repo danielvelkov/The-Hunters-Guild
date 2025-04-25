@@ -1,534 +1,588 @@
-"Index","Recipe Number","Series","Type","Key Item","Key Enemy","Key Story","Item 1","Quantity 1","Item 2","Quantity 2","Item 3","Quantity 3","Item 4","Quantity 4"
-0,10002,"Hope","HELM","","-","00000000","",0,"",0,"",0,"",0
-1,20002,"Hope","BODY","","-","00000000","",0,"",0,"",0,"",0
-2,30002,"Hope","ARM","","-","00000000","",0,"",0,"",0,"",0
-3,40002,"Hope","WAIST","","-","00000000","",0,"",0,"",0,"",0
-4,50002,"Hope","LEG","","-","00000000","",0,"",0,"",0,"",0
-5,10003,"Leather","HELM","","-","00000000","",0,"",0,"",0,"",0
-6,20003,"Leather","BODY","","-","00000000","",0,"",0,"",0,"",0
-7,30003,"Leather","ARM","","-","00000000","",0,"",0,"",0,"",0
-8,40003,"Leather","WAIST","","-","00000000","",0,"",0,"",0,"",0
-9,50003,"Leather","LEG","","-","00000000","",0,"",0,"",0,"",0
-10,10004,"Chainmail","HELM","","-","00000000","",0,"",0,"",0,"",0
-11,20004,"Chainmail","BODY","","-","00000000","",0,"",0,"",0,"",0
-12,30004,"Chainmail","ARM","","-","00000000","",0,"",0,"",0,"",0
-13,40004,"Chainmail","WAIST","","-","00000000","",0,"",0,"",0,"",0
-14,50004,"Chainmail","LEG","","-","00000000","",0,"",0,"",0,"",0
-15,10005,"Bone","HELM","","-","00000000","Mystery Bone",1,"",0,"",0,"",0
-16,20005,"Bone","BODY","","-","00000000","Mystery Bone",1,"",0,"",0,"",0
-17,30005,"Bone","ARM","","-","00000000","Mystery Bone",1,"",0,"",0,"",0
-18,40005,"Bone","WAIST","","-","00000000","Mystery Bone",1,"",0,"",0,"",0
-19,50005,"Bone","LEG","","-","00000000","Mystery Bone",1,"",0,"",0,"",0
-20,10012,"Bulaqchi","HELM","","Bulaqchi","00000000","Bulaqchi Shell",2,"",0,"",0,"",0
-21,30011,"Talioth","ARM","","Talioth","00000000","Talioth Scale",1,"Sharp Fang",1,"",0,"",0
-22,1204287120,"Chatacabra","HELM","","Chatacabra","00000000","Chatacabra Scale",2,"Chatacabra Jaw",1,"",0,"",0
-23,1204297120,"Chatacabra","BODY","","Chatacabra","00000000","Chatacabra Scale",2,"Chatacabra Hide",2,"Chatacabra Shell",1,"",0
-24,1204307120,"Chatacabra","ARM","","Chatacabra","00000000","Chatacabra Hide",2,"Chatacabra Shell",1,"",0,"",0
-25,1204317120,"Chatacabra","WAIST","","Chatacabra","00000000","Chatacabra Certificate",1,"Chatacabra Scale",2,"Chatacabra Jaw",1,"Sharp Fang",1
-26,1204327120,"Chatacabra","LEG","","Chatacabra","00000000","Chatacabra Jaw",1,"Chatacabra Shell",1,"Mystery Bone",1,"",0
-27,-2109555568,"Quematrice","HELM","","Quematrice","00000000","Quematrice Certificate",1,"Quematrice Tail",1,"Quematrice Igniter",1,"Iron Ore",1
-28,-2109545568,"Quematrice","BODY","","Quematrice","00000000","Quematrice Igniter",1,"Quematrice Crest",1,"Quematrice Tail",1,"",0
-29,-2109535568,"Quematrice","ARM","","Quematrice","00000000","Quematrice Scale",2,"Quematrice Igniter",1,"",0,"",0
-30,-2109525568,"Quematrice","WAIST","","Quematrice","00000000","Quematrice Hide",2,"Quematrice Crest",1,"",0,"",0
-31,-2109515568,"Quematrice","LEG","","Quematrice","00000000","Quematrice Scale",2,"Quematrice Hide",2,"Quematrice Crest",1,"",0
-32,10007,"Alloy","HELM","","-","E00F49A0","Machalite Ore",1,"Iron Ore",1,"",0,"",0
-33,20007,"Alloy","BODY","","-","E00F49A0","Machalite Ore",1,"Iron Ore",1,"",0,"",0
-34,30007,"Alloy","ARM","","-","E00F49A0","Machalite Ore",1,"Iron Ore",1,"",0,"",0
-35,40007,"Alloy","WAIST","","-","E00F49A0","Machalite Ore",1,"Earth Crystal",1,"",0,"",0
-36,50007,"Alloy","LEG","","-","E00F49A0","Machalite Ore",1,"Earth Crystal",1,"",0,"",0
-37,1766354512,"Piragill","LEG","","Piragill","00000000","Piragill Fin",1,"Machalite Ore",1,"",0,"",0
-38,-1823663856,"Vespoid","HELM","","Vespoid","00000000","Vespoid Shell",1,"Mystery Bone",1,"",0,"",0
-39,-1823653856,"Vespoid","BODY","","Vespoid","00000000","Vespoid Shell",1,"Mystery Bone",1,"",0,"",0
-40,-1823643856,"Vespoid","ARM","","Vespoid","00000000","Vespoid Shell",1,"Vespoid Wing",1,"",0,"",0
-41,-1823633856,"Vespoid","WAIST","","Vespoid","00000000","Vespoid Shell",1,"Monster Fluid",1,"",0,"",0
-42,-1823623856,"Vespoid","LEG","","Vespoid","00000000","Vespoid Shell",1,"Vespoid Wing",1,"",0,"",0
-43,-909889840,"Gajau","LEG","Gajau Hide","-","00000000","Gajau Hide",1,"",0,"",0,"",0
-44,-24820612,"Lala Barina","HELM","","Lala Barina","00000000","Lala Barina Floret",2,"Lala Barina Mucus",1,"",0,"",0
-45,-24810612,"Lala Barina","BODY","","Lala Barina","00000000","Lala Barina Floret",2,"Lala Barina Shell",2,"Lala Barina Stinger",1,"",0
-46,-24800612,"Lala Barina","ARM","","Lala Barina","00000000","Lala Barina Shell",2,"Lala Barina Claw",1,"",0,"",0
-47,-24790612,"Lala Barina","WAIST","","Lala Barina","00000000","Lala Barina Mucus",1,"Lala Barina Claw",1,"Lala Barina Stinger",1,"",0
-48,-24780612,"Lala Barina","LEG","","Lala Barina","00000000","Lala Barina Certificate",1,"Lala Barina Floret",2,"Lala Barina Mucus",1,"Monster Fluid",1
-49,672504016,"Conga","HELM","","Congalala","00000000","Congalala Claw",2,"Vibrant Pelt",1,"",0,"",0
-50,672514016,"Conga","BODY","","Congalala","00000000","Congalala Pelt",2,"Congalala Claw",1,"Vibrant Pelt",1,"",0
-51,672524016,"Conga","ARM","","Congalala","00000000","Congalala Fang",1,"Vibrant Pelt",1,"Machalite Ore",1,"",0
-52,672534016,"Conga","WAIST","","Congalala","00000000","Congalala Pelt",2,"Congalala Fang",1,"",0,"",0
-53,672544016,"Conga","LEG","","Congalala","00000000","Congalala Certificate",1,"Congalala Pelt",1,"Congalala Fang",1,"Conga Pelt",1
-54,1699075088,"Balahara","HELM","","Balahara","00000000","Balahara Scale",2,"Balahara Skull",1,"",0,"",0
-55,1699085088,"Balahara","BODY","","Balahara","00000000","Balahara Scale",2,"Balahara Shell",1,"Balahara Tail",1,"",0
-56,1699095088,"Balahara","ARM","","Balahara","00000000","Balahara Skull",1,"Balahara Tail",1,"Aqua Sac",1,"",0
-57,1699105088,"Balahara","WAIST","","Balahara","00000000","Balahara Certificate",1,"Balahara Scale",2,"Balahara Shell",1,"Balahara Black Pearl",1
-58,1699115088,"Balahara","LEG","","Balahara","00000000","Balahara Shell",2,"Balahara Skull",1,"",0,"",0
-59,-1727208944,"Doshaguma","HELM","","Doshaguma","00000000","Doshaguma Fur",2,"Doshaguma Hide",2,"Doshaguma Fang",1,"Herbivore Shell",1
-60,-1727198944,"Doshaguma","BODY","","Doshaguma","00000000","Doshaguma Fur",2,"Doshaguma Claw",1,"",0,"",0
-61,-1727188944,"Doshaguma","ARM","","Doshaguma","00000000","Doshaguma Hide",2,"Doshaguma Fang",1,"",0,"",0
-62,-1727178944,"Doshaguma","WAIST","","Doshaguma","00000000","Doshaguma Claw",1,"Doshaguma Fang",2,"Sturdy Bone",1,"",0
-63,-1727168944,"Doshaguma","LEG","","Doshaguma","00000000","Doshaguma Certificate",1,"Doshaguma Fur",2,"Doshaguma Claw",1,"Brute Bone",1
-64,10008,"Ingot","HELM","","-","86FD6D00","Dragonite Ore",1,"Machalite Ore",1,"",0,"",0
-65,20008,"Ingot","BODY","","-","86FD6D00","Dragonite Ore",1,"Earth Crystal",1,"",0,"",0
-66,30008,"Ingot","ARM","","-","86FD6D00","Dragonite Ore",1,"Machalite Ore",1,"",0,"",0
-67,40008,"Ingot","WAIST","","-","86FD6D00","Dragonite Ore",1,"Earth Crystal",1,"",0,"",0
-68,50008,"Ingot","LEG","","-","86FD6D00","Dragonite Ore",1,"Firestone",1,"",0,"",0
-69,-1253472608,"Kranodath","BODY","","Kranodath","00000000","Kranodath Skull",1,"Charred Oilbone",1,"",0,"",0
-70,2045222544,"Rompopolo","HELM","","Rompopolo","00000000","Rompopolo Hide",2,"Rompopolo Claw",1,"Rompopolo Beak",1,"",0
-71,2045232544,"Rompopolo","BODY","","Rompopolo","00000000","Rompopolo Hide",2,"Spotted Poison Hide",1,"",0,"",0
-72,2045242544,"Rompopolo","ARM","","Rompopolo","00000000","Spotted Poison Hide",1,"Rompopolo Beak",1,"Poison Sac",1,"",0
-73,2045252544,"Rompopolo","WAIST","","Rompopolo","00000000","Rompopolo Certificate",1,"Rompopolo Hide",2,"Spotted Poison Hide",1,"Dragonite Ore",1
-74,2045262544,"Rompopolo","LEG","","Rompopolo","00000000","Rompopolo Claw",2,"Rompopolo Beak",1,"",0,"",0
-75,417064528,"Comaqchi","HELM","","Comaqchi","00000000","Comaqchi Shell",2,"",0,"",0,"",0
-76,690925648,"Nerscylla","HELM","","Nerscylla","00000000","Nerscylla Certificate",1,"Rubbery Hide",1,"Nerscylla Chelicera",1,"Sleep Sac",1
-77,690935648,"Nerscylla","BODY","","Nerscylla","00000000","Nerscylla Claw",2,"Nerscylla Spike",1,"",0,"",0
-78,690945648,"Nerscylla","ARM","","Nerscylla","00000000","Nerscylla Shell",2,"Nerscylla Claw",1,"Nerscylla Spike",1,"",0
-79,690955648,"Nerscylla","WAIST","","Nerscylla","00000000","Nerscylla Chelicera",1,"Nerscylla Spike",1,"Rubbery Hide",1,"",0
-80,690965648,"Nerscylla","LEG","","Nerscylla","00000000","Nerscylla Shell",2,"Nerscylla Chelicera",1,"",0,"",0
-81,-1916381168,"Hirabami","HELM","","Hirabami","00000000","Hirabami Webbing",1,"Hirabami Tail Claw",1,"Frost Sac",1,"",0
-82,-1916371168,"Hirabami","BODY","","Hirabami","00000000","Hirabami Hide",2,"Hirabami Tail Claw",1,"",0,"",0
-83,-1916361168,"Hirabami","ARM","","Hirabami","00000000","Hirabami Scale",2,"Hirabami Webbing",1,"",0,"",0
-84,-1916351168,"Hirabami","WAIST","","Hirabami","00000000","Hirabami Scale",2,"Hirabami Hide",1,"Hirabami Tail Claw",1,"",0
-85,-1916341168,"Hirabami","LEG","","Hirabami","00000000","Hirabami Certificate",1,"Hirabami Scale",2,"Hirabami Webbing",1,"Frozen Icebone",1
-86,1254412048,"Ajarakan","HELM","","Ajarakan","00000000","Ajarakan Certificate",1,"Ajarakan Tail",1,"Ajarakan Jewel",1,"Ajarakan Marrow",1
-87,1254422048,"Ajarakan","BODY","","Ajarakan","00000000","Ajarakan Scale",2,"Ajarakan Jewel",1,"",0,"",0
-88,1254432048,"Ajarakan","ARM","","Ajarakan","00000000","Ajarakan Scale",2,"Ajarakan Shell",2,"Ajarakan Ridge",1,"",0
-89,1254442048,"Ajarakan","WAIST","","Ajarakan","00000000","Ajarakan Shell",2,"Ajarakan Ridge",1,"",0,"",0
-90,1254452048,"Ajarakan","LEG","","Ajarakan","00000000","Ajarakan Jewel",1,"Ajarakan Ridge",1,"Ajarakan Tail",1,"",0
-91,-1564839104,"Guardian Seikret","WAIST","","-","D9C1E4C0","Guardian Seikret Feather",2,"Tough Guardian Bone",1,"",0,"",0
-92,-282984240,"Uth Duna","HELM","","-","D9C1E4C0","Uth Duna Certificate",1,"Uth Duna Scale",2,"Uth Duna Plate",1,"Guardian Blood",1
-93,-282974240,"Uth Duna","BODY","","-","D9C1E4C0","Uth Duna Cilia",1,"Uth Duna Tentacle",1,"Uth Duna Claw",2,"Guardian Scale",1
-94,-282964240,"Uth Duna","ARM","","-","D9C1E4C0","Uth Duna Hide",2,"Uth Duna Tentacle",1,"Guardian Pelt",1,"",0
-95,-282954240,"Uth Duna","WAIST","","-","97DC3400","Uth Duna Scale",2,"Uth Duna Cilia",1,"",0,"",0
-96,-282944240,"Uth Duna","LEG","","-","97DC3400","Uth Duna Scale",2,"Uth Duna Hide",2,"Uth Duna Claw",1,"",0
-97,-972600496,"Rey Dau","HELM","","Rey Dau","00000000","Rey Dau Scale",2,"Rey Dau Shell",2,"Rey Dau Thunderhorn",1,"",0
-98,-972590496,"Rey Dau","BODY","","Rey Dau","00000000","Rey Dau Scale",2,"Rey Dau Wingtalon",1,"",0,"",0
-99,-972580496,"Rey Dau","ARM","","-","D9C1E4C0","Rey Dau Wingtalon",1,"Rey Dau Thunderhorn",1,"Rey Dau Tail",1,"Guardian Scale",1
-100,-972570496,"Rey Dau","WAIST","","-","D9C1E4C0","Rey Dau Shell",2,"Rey Dau Thunderhorn",1,"Guardian Pelt",1,"Wingdrake Hide",1
-101,-972560496,"Rey Dau","LEG","","-","D9C1E4C0","Rey Dau Certificate",1,"Rey Dau Tail",1,"Rey Dau Plate",1,"Guardian Blood",1
-102,1044081680,"Nu Udra","HELM","","Nu Udra","00000000","Nu Udra Hide",2,"Nu Udra Spike",1,"Nu Udra Horn",1,"",0
-103,1044091680,"Nu Udra","BODY","","-","D9C1E4C0","Nu Udra Certificate",1,"Nu Udra Hide",2,"Nu Udra Cerebrospinal Fluid",1,"Guardian Blood",1
-104,1044101680,"Nu Udra","ARM","","Nu Udra","00000000","Nu Udra Hide",2,"Nu Udra Oilmucus",1,"",0,"",0
-105,1044111680,"Nu Udra","WAIST","","-","D9C1E4C0","Nu Udra Oilmucus",1,"Nu Udra Tentacle",1,"Nu Udra Horn",1,"Guardian Scale",1
-106,1044121680,"Nu Udra","LEG","","-","D9C1E4C0","Nu Udra Spike",2,"Nu Udra Tentacle",1,"Guardian Pelt",1,"Charred Oilbone",1
-107,-1158381424,"Guardian Doshaguma","HELM","","-","D9C1E4C0","Guardian Doshaguma Fur",2,"Guardian Doshaguma Hide",2,"Guardian Doshaguma Fang",1,"",0
-108,-1158371424,"Guardian Doshaguma","BODY","","-","D9C1E4C0","Guardian Doshaguma Fur",2,"Guardian Doshaguma Claw",1,"",0,"",0
-109,-1158361424,"Guardian Doshaguma","ARM","","-","D9C1E4C0","Guardian Doshaguma Hide",2,"Guardian Doshaguma Fang",1,"",0,"",0
-110,-1158351424,"Guardian Doshaguma","WAIST","","-","D9C1E4C0","G. Doshaguma Certificate",1,"Guardian Doshaguma Fur",2,"Guardian Doshaguma Claw",1,"Guardian Blood",1
-111,-1158341424,"Guardian Doshaguma","LEG","","-","D9C1E4C0","Guardian Doshaguma Claw",1,"Guardian Doshaguma Fang",1,"Guardian Pelt",1,"",0
-112,-309467024,"Guardian Rathalos","HELM","","-","D9C1E4C0","G. Rathalos Certificate",1,"Guardian Rathalos Scale",2,"Guardian Rathalos Shell",1,"Guardian Rathalos Plate",1
-113,-309457024,"Guardian Rathalos","BODY","","-","D9C1E4C0","Guardian Rathalos Shell",2,"Guardian Rathalos Webbing",1,"",0,"",0
-114,-309447024,"Guardian Rathalos","ARM","","-","D9C1E4C0","Guardian Rathalos Scale",2,"Guardian Rathalos Shell",2,"Guardian Rathalos Tail",1,"",0
-115,-309437024,"Guardian Rathalos","WAIST","","-","D9C1E4C0","Guardian Rathalos Scale",2,"Guardian Rathalos Webbing",1,"",0,"",0
-116,-309427024,"Guardian Rathalos","LEG","","-","D9C1E4C0","Guardian Rathalos Webbing",1,"Guardian Rathalos Tail",1,"Guardian Scale",1,"",0
-117,608791568,"Guardian Ebony","HELM","","Guardian Ebony Odogaron","00000000","Guardian Ebony Claw",1,"Guardian Ebony Fang",1,"Guardian Ebony Tail",1,"",0
-118,608801568,"Guardian Ebony","BODY","","Guardian Ebony Odogaron","00000000","Guardian Ebony Sinew",2,"Guardian Ebony Fang",1,"",0,"",0
-119,608811568,"Guardian Ebony","ARM","","Guardian Ebony Odogaron","00000000","Guardian Ebony Scale",2,"Guardian Ebony Sinew",2,"Guardian Ebony Fang",1,"",0
-120,608821568,"Guardian Ebony","WAIST","","Guardian Ebony Odogaron","00000000","G. Ebony Odogaron Certificate",1,"Guardian Ebony Tail",1,"Guardian Ebony Claw",1,"Guardian Ebony Plate",1
-121,608831568,"Guardian Ebony","LEG","","Guardian Ebony Odogaron","00000000","Guardian Ebony Scale",2,"Guardian Ebony Claw",1,"",0,"",0
-122,-520728208,"Xu Wu","HELM","","Xu Wu","00000000","Xu Wu Hide",2,"Golden Corneum",2,"Xu Wu Fang",1,"Tough Guardian Bone",1
-123,-520718208,"Xu Wu","BODY","","Xu Wu","00000000","Golden Corneum",2,"Xu Wu Tentacle",1,"",0,"",0
-124,-520708208,"Xu Wu","ARM","","Xu Wu","00000000","Xu Wu Hide",2,"Xu Wu Claw",1,"",0,"",0
-125,-520698208,"Xu Wu","WAIST","","Xu Wu","00000000","Xu Wu Certificate",1,"Xu Wu Hide",2,"Xu Wu Claw",1,"Xu Wu Cerebrospinal Fluid",1
-126,-520688208,"Xu Wu","LEG","","Xu Wu","00000000","Xu Wu Claw",1,"Xu Wu Tentacle",1,"Xu Wu Fang",1,"",0
-127,-1346576880,"Guardian Arkveld","HELM","","Guardian Arkveld","00000000","Guardian Blood",1,"Guardian Rathalos Webbing",2,"Guardian Scale",1,"",0
-128,-1346566880,"Guardian Arkveld","BODY","","Guardian Arkveld","00000000","Guardian Blood",1,"Guardian Ebony Claw",2,"Tough Guardian Bone",3,"",0
-129,-1346556880,"Guardian Arkveld","ARM","","Guardian Arkveld","00000000","Guardian Blood",1,"Guardian Scale",2,"Guardian Seikret Feather",2,"",0
-130,-1346546880,"Guardian Arkveld","WAIST","","Guardian Arkveld","00000000","Guardian Blood",1,"Guardian Doshaguma Claw",2,"Guardian Pelt",1,"",0
-131,-1346536880,"Guardian Arkveld","LEG","","Guardian Arkveld","00000000","Guardian Blood",1,"Guardian Pelt",2,"",0,"",0
-132,660587600,"Hope α","HELM","","-","65760700","Sturdy Bone",2,"Iron Ore",1,"",0,"",0
-133,660597600,"Hope α","BODY","","-","65760700","Sturdy Bone",1,"Earth Crystal",1,"",0,"",0
-134,660607600,"Hope α","ARM","","-","65760700","Sturdy Bone",2,"Earth Crystal",1,"",0,"",0
-135,660617600,"Hope α","WAIST","","-","65760700","Sturdy Bone",1,"Iron Ore",1,"",0,"",0
-136,660627600,"Hope α","LEG","","-","65760700","Sturdy Bone",3,"",0,"",0,"",0
-137,1845874960,"Leather α","HELM","","-","65760700","Guardian Pelt",1,"",0,"",0,"",0
-138,1845884960,"Leather α","BODY","","-","65760700","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
-139,1845894960,"Leather α","ARM","","-","65760700","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
-140,1845904960,"Leather α","WAIST","","-","65760700","Guardian Pelt",1,"",0,"",0,"",0
-141,1845914960,"Leather α","LEG","","-","65760700","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
-142,2013203984,"Chainmail α","HELM","","-","65760700","Guardian Scale",1,"Icium",1,"",0,"",0
-143,2013213984,"Chainmail α","BODY","","-","65760700","Guardian Scale",1,"",0,"",0,"",0
-144,2013223984,"Chainmail α","ARM","","-","65760700","Guardian Scale",1,"Icium",1,"",0,"",0
-145,2013233984,"Chainmail α","WAIST","","-","65760700","Guardian Scale",1,"",0,"",0,"",0
-146,2013243984,"Chainmail α","LEG","","-","65760700","Guardian Scale",1,"Icium",1,"",0,"",0
-147,-1830980336,"Bone α","HELM","","-","65760700","Quality Bone",1,"Frozen Icebone",1,"",0,"",0
-148,-1830970336,"Bone α","BODY","","-","65760700","Quality Bone",1,"Charred Oilbone",1,"",0,"",0
-149,-1830960336,"Bone α","ARM","","-","65760700","Quality Bone",1,"Frozen Icebone",1,"",0,"",0
-150,-1830950336,"Bone α","WAIST","","-","65760700","Quality Bone",1,"Tough Guardian Bone",1,"",0,"",0
-151,-1830940336,"Bone α","LEG","","-","65760700","Quality Bone",1,"Charred Oilbone",1,"",0,"",0
-152,-1862494960,"Alloy α","HELM","","-","65760700","Carbalite Ore",1,"Dragonite Ore",3,"",0,"",0
-153,-1862484960,"Alloy α","BODY","","-","65760700","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
-154,-1862474960,"Alloy α","ARM","","-","65760700","Carbalite Ore",1,"Dragonite Ore",3,"",0,"",0
-155,-1862464960,"Alloy α","WAIST","","-","65760700","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
-156,-1862454960,"Alloy α","LEG","","-","65760700","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
-157,1719990800,"Bulaqchi α","HELM","","-","65760700","Bulaqchi Carapace",5,"",0,"",0,"",0
-158,790337424,"Bulaqchi β","HELM","","-","65760700","Bulaqchi Carapace",5,"",0,"",0,"",0
-159,-1128762192,"Talioth α","ARM","","-","65760700","Talioth Scale+",3,"Acute Fang",2,"",0,"",0
-160,1122670768,"Talioth β","ARM","","-","65760700","Talioth Scale+",3,"Acute Fang",2,"",0,"",0
-161,303282896,"Piragill α","LEG","","-","65760700","Piragill Fin+",3,"Carbalite Ore",2,"",0,"",0
-162,139667472,"Piragill β","LEG","","-","65760700","Piragill Fin+",3,"Carbalite Ore",2,"",0,"",0
-163,-2040652912,"Vespoid α","HELM","","-","65760700","Vespoid Carapace",2,"Monster Broth",3,"",0,"",0
-164,-2040642912,"Vespoid α","BODY","","-","65760700","Vespoid Carapace",2,"Vespoid Innerwing",2,"",0,"",0
-165,-2040632912,"Vespoid α","ARM","","-","65760700","Vespoid Carapace",2,"Vespoid Innerwing",3,"",0,"",0
-166,-2040622912,"Vespoid α","WAIST","","-","65760700","Vespoid Carapace",2,"Quality Bone",2,"",0,"",0
-167,-2040612912,"Vespoid α","LEG","","-","65760700","Vespoid Carapace",2,"Quality Bone",1,"",0,"",0
-168,744522064,"Vespoid β","HELM","","-","65760700","Vespoid Carapace",2,"Monster Broth",3,"",0,"",0
-169,744532064,"Vespoid β","BODY","","-","65760700","Vespoid Carapace",2,"Vespoid Innerwing",2,"",0,"",0
-170,744542064,"Vespoid β","ARM","","-","65760700","Vespoid Carapace",2,"Vespoid Innerwing",3,"",0,"",0
-171,744552064,"Vespoid β","WAIST","","-","65760700","Vespoid Carapace",2,"Quality Bone",2,"",0,"",0
-172,744562064,"Vespoid β","LEG","","-","65760700","Vespoid Carapace",2,"Quality Bone",1,"",0,"",0
-173,-1284110432,"Kranodath α","BODY","","-","65760700","Kranodath Skull+",4,"Firecell Stone",2,"",0,"",0
-174,1349307168,"Kranodath β","BODY","","-","65760700","Kranodath Skull+",4,"Firecell Stone",2,"",0,"",0
-175,2048570000,"Comaqchi α","HELM","","-","65760700","Comaqchi Carapace",5,"",0,"",0,"",0
-176,-1569694320,"Comaqchi β","HELM","","-","65760700","Comaqchi Carapace",5,"",0,"",0,"",0
-177,-636722672,"Kut-Ku α","HELM","","Yian Kut-Ku","00000000","Kut-Ku Scale+",2,"Kut-Ku Wing",2,"Monster Keenbone",1,"",0
-178,-636712672,"Kut-Ku α","BODY","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Kut-Ku Scale+",2,"Kut-Ku Wing",1,"Firecell Stone",1
-179,-636702672,"Kut-Ku α","ARM","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Kut-Ku Carapace",3,"Giant Beak",1,"",0
-180,-636692672,"Kut-Ku α","WAIST","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Giant Beak",3,"Kut-Ku Ear",1,"Inferno Sac",1
-181,-636682672,"Kut-Ku α","LEG","","Yian Kut-Ku","00000000","Kut-Ku Scale+",2,"Kut-Ku Carapace",2,"Kut-Ku Wing",1,"Kut-Ku Ear",1
-182,459961104,"Kut-Ku β","HELM","","Yian Kut-Ku","00000000","Kut-Ku Scale+",2,"Kut-Ku Wing",2,"Monster Keenbone",1,"",0
-183,459971104,"Kut-Ku β","BODY","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Kut-Ku Scale+",2,"Kut-Ku Wing",1,"Firecell Stone",1
-184,459981104,"Kut-Ku β","ARM","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Kut-Ku Carapace",3,"Giant Beak",1,"",0
-185,459991104,"Kut-Ku β","WAIST","","Yian Kut-Ku","00000000","Yian Kut-Ku Certificate S",1,"Giant Beak",3,"Kut-Ku Ear",1,"Inferno Sac",1
-186,460001104,"Kut-Ku β","LEG","","Yian Kut-Ku","00000000","Kut-Ku Scale+",2,"Kut-Ku Carapace",2,"Kut-Ku Wing",1,"Kut-Ku Ear",1
-187,-1843255280,"Chatacabra α","HELM","","-","65760700","Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Stoutbone",1,"",0
-188,-1843245280,"Chatacabra α","BODY","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Carapace",2,"Quality Bone",1,"",0
-189,-1843235280,"Chatacabra α","ARM","","-","65760700","Chatacabra Scale+",2,"Chatacabra Hide+",2,"Chatacabra Jaw+",1,"Chatacabra Carapace",1
-190,-1843225280,"Chatacabra α","WAIST","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Hide+",3,"Chatacabra Carapace",1,"",0
-191,-1843215280,"Chatacabra α","LEG","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Wingdrake Hide+",1
-192,297921136,"Chatacabra β","HELM","","-","65760700","Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Stoutbone",1,"",0
-193,297931136,"Chatacabra β","BODY","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Carapace",2,"Quality Bone",1,"",0
-194,297941136,"Chatacabra β","ARM","","-","65760700","Chatacabra Scale+",2,"Chatacabra Hide+",2,"Chatacabra Jaw+",1,"Chatacabra Carapace",1
-195,297951136,"Chatacabra β","WAIST","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Hide+",3,"Chatacabra Carapace",1,"",0
-196,297961136,"Chatacabra β","LEG","","-","65760700","Chatacabra Certificate S",1,"Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Wingdrake Hide+",1
-197,307888816,"Quematrice α","HELM","","-","65760700","Quematrice Certificate S",1,"Quematrice Igniter+",2,"Quematrice Hide+",2,"Quality Bone",1
-198,307898816,"Quematrice α","BODY","","-","65760700","Quematrice Certificate S",1,"Quematrice Crest+",1,"Quematrice Tail",1,"Firestone",1
-199,307908816,"Quematrice α","ARM","","-","65760700","Quematrice Scale+",3,"Quematrice Hide+",3,"Quematrice Igniter+",1,"Quematrice Crest+",1
-200,307918816,"Quematrice α","WAIST","","-","65760700","Quematrice Certificate S",1,"Quematrice Hide+",2,"Quematrice Crest+",1,"",0
-201,307928816,"Quematrice α","LEG","","-","65760700","Quematrice Scale+",3,"Quematrice Igniter+",1,"Monster Keenbone",1,"",0
-202,-647486960,"Quematrice β","HELM","","-","65760700","Quematrice Certificate S",1,"Quematrice Igniter+",2,"Quematrice Hide+",2,"Quality Bone",1
-203,-647476960,"Quematrice β","BODY","","-","65760700","Quematrice Certificate S",1,"Quematrice Crest+",1,"Quematrice Tail",1,"Firestone",1
-204,-647466960,"Quematrice β","ARM","","-","65760700","Quematrice Scale+",3,"Quematrice Hide+",3,"Quematrice Igniter+",1,"Quematrice Crest+",1
-205,-647456960,"Quematrice β","WAIST","","-","65760700","Quematrice Certificate S",1,"Quematrice Hide+",2,"Quematrice Crest+",1,"",0
-206,-647446960,"Quematrice β","LEG","","-","65760700","Quematrice Scale+",3,"Quematrice Igniter+",1,"Monster Keenbone",1,"",0
-207,3259367,"Lala Barina α","HELM","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Carapace",3,"Lala Barina Claw+",2,"",0
-208,3269367,"Lala Barina α","BODY","","-","65760700","Lala Barina Floret+",2,"Lala Barina Carapace",2,"Lala Barina Mucus+",1,"Lala Barina Stinger+",1
-209,3279367,"Lala Barina α","ARM","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Claw+",1,"Lala Barina Stinger+",1,"Monster Broth",1
-210,3289367,"Lala Barina α","WAIST","","-","65760700","Lala Barina Floret+",2,"Lala Barina Mucus+",2,"Carbalite Ore",2,"",0
-211,3299367,"Lala Barina α","LEG","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Floret+",2,"Lala Barina Mucus+",1,"Novacrystal",1
-212,-631490928,"Lala Barina β","HELM","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Carapace",3,"Lala Barina Claw+",2,"",0
-213,-631480928,"Lala Barina β","BODY","","-","65760700","Lala Barina Floret+",2,"Lala Barina Carapace",2,"Lala Barina Mucus+",1,"Lala Barina Stinger+",1
-214,-631470928,"Lala Barina β","ARM","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Claw+",1,"Lala Barina Stinger+",1,"Monster Broth",1
-215,-631460928,"Lala Barina β","WAIST","","-","65760700","Lala Barina Floret+",2,"Lala Barina Mucus+",2,"Carbalite Ore",2,"",0
-216,-631450928,"Lala Barina β","LEG","","-","65760700","Lala Barina Certificate S",1,"Lala Barina Floret+",2,"Lala Barina Mucus+",1,"Novacrystal",1
-217,-2117193456,"Conga α","HELM","","-","65760700","Congalala Pelt+",2,"Congalala Fang+",1,"Stoutbone",1,"",0
-218,-2117183456,"Conga α","BODY","","-","65760700","Congalala Pelt+",2,"Congalala Claw+",2,"Congalala Fang+",1,"Vibrant Pelt+",1
-219,-2117173456,"Conga α","ARM","","-","65760700","Congalala Certificate S",1,"Vibrant Pelt+",1,"Conga Pelt+",2,"",0
-220,-2117163456,"Conga α","WAIST","","-","65760700","Congalala Certificate S",1,"Congalala Claw+",3,"Vibrant Pelt+",1,"",0
-221,-2117153456,"Conga α","LEG","","-","65760700","Congalala Certificate S",1,"Congalala Pelt+",2,"Congalala Fang+",1,"Acute Fang",1
-222,-1456497776,"Conga β","HELM","","-","65760700","Congalala Pelt+",2,"Congalala Fang+",1,"Stoutbone",1,"",0
-223,-1456487776,"Conga β","BODY","","-","65760700","Congalala Pelt+",2,"Congalala Claw+",2,"Congalala Fang+",1,"Vibrant Pelt+",1
-224,-1456477776,"Conga β","ARM","","-","65760700","Congalala Certificate S",1,"Vibrant Pelt+",1,"Conga Pelt+",2,"",0
-225,-1456467776,"Conga β","WAIST","","-","65760700","Congalala Certificate S",1,"Congalala Claw+",3,"Vibrant Pelt+",1,"",0
-226,-1456457776,"Conga β","LEG","","-","65760700","Congalala Certificate S",1,"Congalala Pelt+",2,"Congalala Fang+",1,"Acute Fang",1
-227,2113420944,"Rompopolo α","HELM","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Claw+",3,"Rompopolo Beak+",1,"",0
-228,2113430944,"Rompopolo α","BODY","","-","65760700","Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Monster Keenbone",1,"",0
-229,2113440944,"Rompopolo α","ARM","","-","65760700","Rompopolo Hide+",2,"Rompopolo Claw+",2,"Spotted Poison Hide+",1,"Rompopolo Beak+",1
-230,2113450944,"Rompopolo α","WAIST","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Kranodath Skull+",1
-231,2113460944,"Rompopolo α","LEG","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Beak+",2,"Toxin Sac",1,"",0
-232,1064469456,"Rompopolo β","HELM","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Claw+",3,"Rompopolo Beak+",1,"",0
-233,1064479456,"Rompopolo β","BODY","","-","65760700","Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Monster Keenbone",1,"",0
-234,1064489456,"Rompopolo β","ARM","","-","65760700","Rompopolo Hide+",2,"Rompopolo Claw+",2,"Spotted Poison Hide+",1,"Rompopolo Beak+",1
-235,1064499456,"Rompopolo β","WAIST","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Kranodath Skull+",1
-236,1064509456,"Rompopolo β","LEG","","-","65760700","Rompopolo Certificate S",1,"Rompopolo Beak+",2,"Toxin Sac",1,"",0
-237,-1400384880,"Gypceros α","HELM","","Gypceros","00000000","Gypceros Certificate S",1,"Gypceros Wing",2,"Gypceros Head",1,"",0
-238,-1400374880,"Gypceros α","BODY","","Gypceros","00000000","Rubbery Hide+",2,"Gypceros Wing",1,"Gypceros Tail",1,"Gypceros Head",1
-239,-1400364880,"Gypceros α","ARM","","Gypceros","00000000","Rubbery Hide+",2,"Gypceros Tail",1,"Monster Keenbone",1,"",0
-240,-1400354880,"Gypceros α","WAIST","","Gypceros","00000000","Gypceros Certificate S",1,"Rubbery Hide+",2,"Gypceros Tail",1,"Novacrystal",1
-241,-1400344880,"Gypceros α","LEG","","Gypceros","00000000","Gypceros Certificate S",1,"Gypceros Head",1,"Toxin Sac",1,"",0
-242,-805132080,"Gypceros β","HELM","","Gypceros","00000000","Gypceros Certificate S",1,"Gypceros Wing",2,"Gypceros Head",1,"",0
-243,-805122080,"Gypceros β","BODY","","Gypceros","00000000","Rubbery Hide+",2,"Gypceros Wing",1,"Gypceros Tail",1,"Gypceros Head",1
-244,-805112080,"Gypceros β","ARM","","Gypceros","00000000","Rubbery Hide+",2,"Gypceros Tail",1,"Monster Keenbone",1,"",0
-245,-805102080,"Gypceros β","WAIST","","Gypceros","00000000","Gypceros Certificate S",1,"Rubbery Hide+",2,"Gypceros Tail",1,"Novacrystal",1
-246,-805092080,"Gypceros β","LEG","","Gypceros","00000000","Gypceros Certificate S",1,"Gypceros Head",1,"Toxin Sac",1,"",0
-247,1116503056,"Nerscylla α","HELM","Nerscylla Carapace","-","00000000","Nerscylla Carapace",2,"Nerscylla Shear",1,"Monster Broth",2,"",0
-248,1116513056,"Nerscylla α","BODY","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Shear",1,"Nerscylla Claw+",2,"Bird Wyvern Gem",1
-249,1116523056,"Nerscylla α","ARM","Nerscylla Carapace","-","00000000","Nerscylla Carapace",3,"Nerscylla Claw+",3,"Nerscylla Shear",1,"Nerscylla Spike+",1
-250,1116533056,"Nerscylla α","WAIST","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Claw+",2,"Nerscylla Spike+",2,"Comaqchi Carapace",2
-251,1116543056,"Nerscylla α","LEG","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Spike+",1,"Rubbery Hide+",2,"Coma Sac",1
-252,-1535106544,"Nerscylla β","HELM","Nerscylla Carapace","-","00000000","Nerscylla Carapace",2,"Nerscylla Shear",1,"Monster Broth",2,"",0
-253,-1535096544,"Nerscylla β","BODY","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Shear",1,"Nerscylla Claw+",2,"Bird Wyvern Gem",1
-254,-1535086544,"Nerscylla β","ARM","Nerscylla Carapace","-","00000000","Nerscylla Carapace",3,"Nerscylla Claw+",3,"Nerscylla Shear",1,"Nerscylla Spike+",1
-255,-1535076544,"Nerscylla β","WAIST","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Claw+",2,"Nerscylla Spike+",2,"Comaqchi Carapace",2
-256,-1535066544,"Nerscylla β","LEG","Nerscylla Carapace","-","00000000","Nerscylla Certificate S",1,"Nerscylla Spike+",1,"Rubbery Hide+",2,"Coma Sac",1
-257,-932850800,"Balahara α","HELM","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Carapace",2,"Balahara Skull+",1,"",0
-258,-932840800,"Balahara α","BODY","Balahara Scale+","-","00000000","Balahara Scale+",2,"Balahara Skull+",1,"Monster Keenbone",1,"",0
-259,-932830800,"Balahara α","ARM","Balahara Scale+","-","00000000","Balahara Scale+",2,"Balahara Carapace",2,"Balahara Skull+",1,"Balahara Tail",1
-260,-932820800,"Balahara α","WAIST","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Skull+",1,"Torrent Sac",1,"",0
-261,-932810800,"Balahara α","LEG","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Scale+",2,"Balahara Carapace",2,"Balahara Black Pearl",1
-262,12340399,"Balahara β","HELM","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Carapace",2,"Balahara Skull+",1,"",0
-263,12350399,"Balahara β","BODY","Balahara Scale+","-","00000000","Balahara Scale+",2,"Balahara Skull+",1,"Monster Keenbone",1,"",0
-264,12360399,"Balahara β","ARM","Balahara Scale+","-","00000000","Balahara Scale+",2,"Balahara Carapace",2,"Balahara Skull+",1,"Balahara Tail",1
-265,12370399,"Balahara β","WAIST","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Skull+",1,"Torrent Sac",1,"",0
-266,12380399,"Balahara β","LEG","Balahara Scale+","-","00000000","Balahara Certificate S",1,"Balahara Scale+",2,"Balahara Carapace",2,"Balahara Black Pearl",1
-267,-1118116720,"Hirabami α","HELM","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Hide+",3,"Hirabami Tail Claw+",2,"",0
-268,-1118106720,"Hirabami α","BODY","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Tail Claw+",1,"Freezer Sac",1,"",0
-269,-1118096720,"Hirabami α","ARM","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Scale+",2,"Hirabami Webbing+",1,"Wyvern Gem",1
-270,-1118086720,"Hirabami α","WAIST","Hirabami Scale+","-","00000000","Hirabami Scale+",2,"Hirabami Webbing+",1,"Monster Keenbone",1,"",0
-271,-1118076720,"Hirabami α","LEG","Hirabami Scale+","-","00000000","Hirabami Scale+",2,"Hirabami Hide+",2,"Hirabami Webbing+",2,"Hirabami Tail Claw+",1
-272,951302800,"Hirabami β","HELM","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Hide+",3,"Hirabami Tail Claw+",2,"",0
-273,951312800,"Hirabami β","BODY","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Tail Claw+",1,"Freezer Sac",1,"",0
-274,951322800,"Hirabami β","ARM","Hirabami Scale+","-","00000000","Hirabami Certificate S",1,"Hirabami Scale+",2,"Hirabami Webbing+",1,"Wyvern Gem",1
-275,951332800,"Hirabami β","WAIST","Hirabami Scale+","-","00000000","Hirabami Scale+",2,"Hirabami Webbing+",1,"Monster Keenbone",1,"",0
-276,951342800,"Hirabami β","LEG","Hirabami Scale+","-","00000000","Hirabami Scale+",2,"Hirabami Hide+",2,"Hirabami Webbing+",2,"Hirabami Tail Claw+",1
-277,-1376653552,"Rathian α","HELM","Rathian Scale+","-","00000000","Rathian Scale+",2,"Rathian Webbing",2,"Monster Keenbone",2,"",0
-278,-1376643552,"Rathian α","BODY","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Scale+",2,"Rathian Ruby",1,"",0
-279,-1376633552,"Rathian α","ARM","Rathian Scale+","-","00000000","Rathian Scale+",3,"Rathian Carapace",3,"Rathian Spike+",2,"Toxin Sac",2
-280,-1376623552,"Rathian α","WAIST","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Carapace",1,"Rath Medulla",1,"",0
-281,-1376613552,"Rathian α","LEG","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Carapace",2,"Rathian Webbing",2,"Dragonbone Relic",1
-282,-1581536752,"Rathian β","HELM","Rathian Scale+","-","00000000","Rathian Scale+",2,"Rathian Webbing",2,"Monster Keenbone",2,"",0
-283,-1581526752,"Rathian β","BODY","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Scale+",2,"Rathian Ruby",1,"",0
-284,-1581516752,"Rathian β","ARM","Rathian Scale+","-","00000000","Rathian Scale+",3,"Rathian Carapace",3,"Rathian Spike+",2,"Toxin Sac",2
-285,-1581506752,"Rathian β","WAIST","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Carapace",1,"Rath Medulla",1,"",0
-286,-1581496752,"Rathian β","LEG","Rathian Scale+","-","00000000","Rathian Certificate S",1,"Rathian Carapace",2,"Rathian Webbing",2,"Dragonbone Relic",1
-287,-1077020272,"Ingot α","HELM","","-","85F88180","Fucium Ore",1,"Carbalite Ore",2,"Firecell Stone",1,"",0
-288,-1077010272,"Ingot α","BODY","","-","85F88180","Fucium Ore",1,"Carbalite Ore",1,"Icium",4,"",0
-289,-1077000272,"Ingot α","ARM","","-","85F88180","Fucium Ore",1,"Carbalite Ore",2,"Lightcrystal",2,"",0
-290,-1076990272,"Ingot α","WAIST","","-","85F88180","Fucium Ore",1,"Carbalite Ore",3,"Novacrystal",1,"",0
-291,-1076980272,"Ingot α","LEG","","-","85F88180","Fucium Ore",1,"Carbalite Ore",1,"Firestone",2,"",0
-292,253755744,"Guardian Seikret α","WAIST","","-","85F88180","Guardian Seikret Feather+",4,"Tough Guardian Bone",4,"",0,"",0
-293,-355127712,"Guardian Seikret β","WAIST","","-","85F88180","Guardian Seikret Feather+",4,"Tough Guardian Bone",4,"",0,"",0
-294,-238499872,"Gajau α","LEG","","-","85F88180","Gajau Hide",3,"Monster Broth",5,"",0,"",0
-295,1493213456,"Guardian Fulgur α","HELM","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",1,"Guardian Fulgur Pelt+",5,"Guardian Fulgur Nosebone+",4,"Thunder Sac",3
-296,1493223456,"Guardian Fulgur α","BODY","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",2,"Guardian Fulgur Nosebone+",4,"Guardian Fulgur Fang+",4,"Wyvern Gem",1
-297,1493233456,"Guardian Fulgur α","ARM","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Scale+",5,"Guardian Fulgur Fang+",3,"Guardian Pelt+",3,"",0
-298,1493243456,"Guardian Fulgur α","WAIST","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",1,"Guardian Fulgur Scale+",3,"Guardian Fulgur Fang+",2,"Guardian Fulgur Gem",1
-299,1493253456,"Guardian Fulgur α","LEG","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Scale+",6,"Guardian Fulgur Pelt+",6,"Guardian Fulgur Tail",2,"Guardian Blood+",2
-300,1725749136,"Guardian Fulgur β","HELM","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",1,"Guardian Fulgur Pelt+",5,"Guardian Fulgur Nosebone+",4,"Thunder Sac",3
-301,1725759136,"Guardian Fulgur β","BODY","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",2,"Guardian Fulgur Nosebone+",4,"Guardian Fulgur Fang+",4,"Wyvern Gem",1
-302,1725769136,"Guardian Fulgur β","ARM","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Scale+",5,"Guardian Fulgur Fang+",3,"Guardian Pelt+",3,"",0
-303,1725779136,"Guardian Fulgur β","WAIST","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Certificate S",1,"Guardian Fulgur Scale+",3,"Guardian Fulgur Fang+",2,"Guardian Fulgur Gem",1
-304,1725789136,"Guardian Fulgur β","LEG","","Guardian Fulgur Anjanath","00000000","Guardian Fulgur Scale+",6,"Guardian Fulgur Pelt+",6,"Guardian Fulgur Tail",2,"Guardian Blood+",2
-305,884431248,"Doshaguma α","HELM","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",2,"Doshaguma Fang+",3,"Quality Bone",2,"",0
-306,884441248,"Doshaguma α","BODY","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",1,"Doshaguma Hide+",5,"Doshaguma Fang+",2,"Herbivore Carapace",2
-307,884451248,"Doshaguma α","ARM","Doshaguma Fur+","-","00000000","Doshaguma Fur+",3,"Doshaguma Claw+",2,"Doshaguma Fang+",2,"Great Stoutbone",3
-308,884461248,"Doshaguma α","WAIST","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",1,"Doshaguma Fur+",5,"Doshaguma Claw+",3,"Beast Gem",1
-309,884471248,"Doshaguma α","LEG","Doshaguma Fur+","-","00000000","Doshaguma Fur+",3,"Doshaguma Hide+",4,"Doshaguma Claw+",2,"Acute Fang",2
-310,130312384,"Doshaguma β","HELM","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",2,"Doshaguma Fang+",3,"Quality Bone",2,"",0
-311,130322384,"Doshaguma β","BODY","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",1,"Doshaguma Hide+",5,"Doshaguma Fang+",2,"Herbivore Carapace",2
-312,130332384,"Doshaguma β","ARM","Doshaguma Fur+","-","00000000","Doshaguma Fur+",3,"Doshaguma Claw+",2,"Doshaguma Fang+",2,"Great Stoutbone",3
-313,130342384,"Doshaguma β","WAIST","Doshaguma Fur+","-","00000000","Doshaguma Certificate S",1,"Doshaguma Fur+",5,"Doshaguma Claw+",3,"Beast Gem",1
-314,130352384,"Doshaguma β","LEG","Doshaguma Fur+","-","00000000","Doshaguma Fur+",3,"Doshaguma Hide+",4,"Doshaguma Claw+",2,"Acute Fang",2
-315,472250160,"Guardian Doshaguma α","HELM","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",2,"Guardian Doshaguma Claw+",2,"Guardian Doshaguma Fang+",3,"Guardian Blood+",2
-316,472260160,"Guardian Doshaguma α","BODY","Guardian Doshaguma Fur+","-","00000000","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Claw+",2,"Guardian Pelt+",3,"",0
-317,472270160,"Guardian Doshaguma α","ARM","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",1,"Guardian Doshaguma Fur+",5,"Guardian Doshaguma Claw+",3,"Beast Gem",1
-318,472280160,"Guardian Doshaguma α","WAIST","Guardian Doshaguma Fur+","-","00000000","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Hide+",4,"Guardian Doshaguma Fang+",2,"Stoutbone",2
-319,472290160,"Guardian Doshaguma α","LEG","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",1,"Guardian Doshaguma Hide+",5,"Guardian Doshaguma Fang+",2,"Guardian Seikret Feather+",2
-320,29907828,"Guardian Doshaguma β","HELM","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",2,"Guardian Doshaguma Claw+",2,"Guardian Doshaguma Fang+",3,"Guardian Blood+",2
-321,29917828,"Guardian Doshaguma β","BODY","Guardian Doshaguma Fur+","-","00000000","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Claw+",2,"Guardian Pelt+",3,"",0
-322,29927828,"Guardian Doshaguma β","ARM","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",1,"Guardian Doshaguma Fur+",5,"Guardian Doshaguma Claw+",3,"Beast Gem",1
-323,29937828,"Guardian Doshaguma β","WAIST","Guardian Doshaguma Fur+","-","00000000","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Hide+",4,"Guardian Doshaguma Fang+",2,"Stoutbone",2
-324,29947828,"Guardian Doshaguma β","LEG","Guardian Doshaguma Fur+","-","00000000","G. Doshaguma Certificate S",1,"Guardian Doshaguma Hide+",5,"Guardian Doshaguma Fang+",2,"Guardian Seikret Feather+",2
-325,1905432464,"Ajarakan α","HELM","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",1,"Ajarakan Carapace",5,"Ajarakan Ridge+",4,"Charred Oilbone",2
-326,1905442464,"Ajarakan α","BODY","Ajarakan Scale+","-","00000000","Ajarakan Scale+",5,"Ajarakan Jewel+",3,"Great Stoutbone",3,"",0
-327,1905452464,"Ajarakan α","ARM","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",1,"Ajarakan Jewel+",2,"Ajarakan Scale+",3,"Ajarakan Medulla",1
-328,1905462464,"Ajarakan α","WAIST","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",2,"Ajarakan Ridge+",2,"Ajarakan Tail",2,"Ajarakan Marrow",1
-329,1905472464,"Ajarakan α","LEG","Ajarakan Scale+","-","00000000","Ajarakan Scale+",6,"Ajarakan Carapace",6,"Ajarakan Jewel+",4,"Ajarakan Ridge+",3
-330,1354800272,"Ajarakan β","HELM","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",1,"Ajarakan Carapace",5,"Ajarakan Ridge+",4,"Charred Oilbone",2
-331,1354810272,"Ajarakan β","BODY","Ajarakan Scale+","-","00000000","Ajarakan Scale+",5,"Ajarakan Jewel+",3,"Great Stoutbone",3,"",0
-332,1354820272,"Ajarakan β","ARM","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",1,"Ajarakan Jewel+",2,"Ajarakan Scale+",3,"Ajarakan Medulla",1
-333,1354830272,"Ajarakan β","WAIST","Ajarakan Scale+","-","00000000","Ajarakan Certificate S",2,"Ajarakan Ridge+",2,"Ajarakan Tail",2,"Ajarakan Marrow",1
-334,1354840272,"Ajarakan β","LEG","Ajarakan Scale+","-","00000000","Ajarakan Scale+",6,"Ajarakan Carapace",6,"Ajarakan Jewel+",4,"Ajarakan Ridge+",3
-335,1552534288,"Guardian Ebony α","HELM","Guardian Ebony Scale+","-","00000000","Guardian Ebony Scale+",6,"Guardian Ebony Sinew+",6,"Guardian Ebony Claw+",4,"Guardian Ebony Fang+",3
-336,1552544288,"Guardian Ebony α","BODY","Guardian Ebony Scale+","-","00000000","Guardian Ebony Scale+",5,"Guardian Ebony Claw+",3,"Guardian Scale+",3,"",0
-337,1552554288,"Guardian Ebony α","ARM","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Claw+",2,"Guardian Ebony Scale+",3,"Guardian Ebony Gem",1
-338,1552564288,"Guardian Ebony α","WAIST","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",2,"Guardian Ebony Fang+",2,"Guardian Ebony Tail",2,"Guardian Ebony Plate",1
-339,1552574288,"Guardian Ebony α","LEG","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Sinew+",5,"Guardian Ebony Fang+",4,"Tough Guardian Bone",2
-340,124531752,"Guardian Ebony β","HELM","Guardian Ebony Scale+","-","00000000","Guardian Ebony Scale+",6,"Guardian Ebony Sinew+",6,"Guardian Ebony Claw+",4,"Guardian Ebony Fang+",3
-341,124541752,"Guardian Ebony β","BODY","Guardian Ebony Scale+","-","00000000","Guardian Ebony Scale+",5,"Guardian Ebony Claw+",3,"Guardian Scale+",3,"",0
-342,124551752,"Guardian Ebony β","ARM","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Claw+",2,"Guardian Ebony Scale+",3,"Guardian Ebony Gem",1
-343,124561752,"Guardian Ebony β","WAIST","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",2,"Guardian Ebony Fang+",2,"Guardian Ebony Tail",2,"Guardian Ebony Plate",1
-344,124571752,"Guardian Ebony β","LEG","Guardian Ebony Scale+","-","00000000","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Sinew+",5,"Guardian Ebony Fang+",4,"Tough Guardian Bone",2
-345,-796402032,"Xu Wu α","HELM","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",2,"Xu Wu Tentacle+",4,"Xu Wu Fang+",5,"Xu Wu Cerebrospinal Fluid",1
-346,-796392032,"Xu Wu α","BODY","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",1,"Xu Wu Hide+",4,"Xu Wu Claw+",4,"Xu Wu Umbragem",1
-347,-796382032,"Xu Wu α","ARM","Xu Wu Hide+","-","00000000","Xu Wu Hide+",6,"Golden Corneum+",6,"Xu Wu Claw+",3,"Xu Wu Fang+",3
-348,-796372032,"Xu Wu α","WAIST","Xu Wu Hide+","-","00000000","Xu Wu Hide+",5,"Xu Wu Claw+",3,"Guardian Seikret Feather+",2,"",0
-349,-796362032,"Xu Wu α","LEG","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",1,"Golden Corneum+",5,"Xu Wu Tentacle+",4,"Torrent Sac",2
-350,1827384976,"Xu Wu β","HELM","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",2,"Xu Wu Tentacle+",4,"Xu Wu Fang+",5,"Xu Wu Cerebrospinal Fluid",1
-351,1827394976,"Xu Wu β","BODY","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",1,"Xu Wu Hide+",4,"Xu Wu Claw+",4,"Xu Wu Umbragem",1
-352,1827404976,"Xu Wu β","ARM","Xu Wu Hide+","-","00000000","Xu Wu Hide+",6,"Golden Corneum+",6,"Xu Wu Claw+",3,"Xu Wu Fang+",3
-353,1827414976,"Xu Wu β","WAIST","Xu Wu Hide+","-","00000000","Xu Wu Hide+",5,"Xu Wu Claw+",3,"Guardian Seikret Feather+",2,"",0
-354,1827424976,"Xu Wu β","LEG","Xu Wu Hide+","-","00000000","Xu Wu Certificate S",1,"Golden Corneum+",5,"Xu Wu Tentacle+",4,"Torrent Sac",2
-355,1769669776,"Rathalos α","HELM","","Rathalos","00000000","Rathalos Scale+",5,"Rathalos Wing",3,"Monster Keenbone",3,"",0
-356,1769679776,"Rathalos α","BODY","","Rathalos","00000000","Rathalos Scale+",6,"Rathalos Carapace",6,"Rathalos Tail",2,"Dragonbone Relic",1
-357,1769689776,"Rathalos α","ARM","","Rathalos","00000000","Rathalos Certificate S",1,"Rathalos Scale+",4,"Rathalos Ruby",1,"Inferno Sac",3
-358,1769699776,"Rathalos α","WAIST","","Rathalos","00000000","Rathalos Certificate S",2,"Rathalos Carapace",3,"Rath Medulla",1,"Firestone",2
-359,1769709776,"Rathalos α","LEG","","Rathalos","00000000","Rathalos Certificate S",1,"Rathalos Carapace",5,"Rathalos Wing",4,"Wingdrake Hide+",2
-360,-1853771504,"Rathalos β","HELM","","Rathalos","00000000","Rathalos Scale+",5,"Rathalos Wing",3,"Monster Keenbone",3,"",0
-361,-1853761504,"Rathalos β","BODY","","Rathalos","00000000","Rathalos Scale+",6,"Rathalos Carapace",6,"Rathalos Tail",2,"Dragonbone Relic",1
-362,-1853751504,"Rathalos β","ARM","","Rathalos","00000000","Rathalos Certificate S",1,"Rathalos Scale+",4,"Rathalos Ruby",1,"Inferno Sac",3
-363,-1853741504,"Rathalos β","WAIST","","Rathalos","00000000","Rathalos Certificate S",2,"Rathalos Carapace",3,"Rath Medulla",1,"Firestone",2
-364,-1853731504,"Rathalos β","LEG","","Rathalos","00000000","Rathalos Certificate S",1,"Rathalos Carapace",5,"Rathalos Wing",4,"Wingdrake Hide+",2
-365,-1309868016,"Guardian Rathalos α","HELM","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",1,"Guardian Rathalos Carapace",5,"Guardian Rathalos Wing",2,"Novacrystal",1
-366,-1309858016,"Guardian Rathalos α","BODY","Guardian Rathalos Scale+","-","00000000","Guardian Rathalos Scale+",5,"Guardian Rathalos Wing",2,"Guardian Scale+",3,"",0
-367,-1309848016,"Guardian Rathalos α","ARM","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",1,"Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",5,"Guardian Rathalos Ruby",1
-368,-1309838016,"Guardian Rathalos α","WAIST","Guardian Rathalos Scale+","-","00000000","Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",6,"Guardian Rathalos Wing",2,"Guardian Rathalos Tail",2
-369,-1309828016,"Guardian Rathalos α","LEG","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",2,"Guardian Rathalos Wing",2,"Guardian Rathalos Plate",1,"Inferno Sac",5
-370,-1699192560,"Guardian Rathalos β","HELM","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",1,"Guardian Rathalos Carapace",5,"Guardian Rathalos Wing",2,"Novacrystal",1
-371,-1699182560,"Guardian Rathalos β","BODY","Guardian Rathalos Scale+","-","00000000","Guardian Rathalos Scale+",5,"Guardian Rathalos Wing",2,"Guardian Scale+",3,"",0
-372,-1699172560,"Guardian Rathalos β","ARM","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",1,"Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",5,"Guardian Rathalos Ruby",1
-373,-1699162560,"Guardian Rathalos β","WAIST","Guardian Rathalos Scale+","-","00000000","Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",6,"Guardian Rathalos Wing",2,"Guardian Rathalos Tail",2
-374,-1699152560,"Guardian Rathalos β","LEG","Guardian Rathalos Scale+","-","00000000","G. Rathalos Certificate S",2,"Guardian Rathalos Wing",2,"Guardian Rathalos Plate",1,"Inferno Sac",5
-375,-295002384,"Gravios α","HELM","","Gravios","00000000","Gravios Carapace",5,"Gravios Pleura+",3,"Monster Keenbone",3,"",0
-376,-294992384,"Gravios α","BODY","","Gravios","00000000","Gravios Certificate S",1,"Gravios Wing",3,"Wyvern Gem",1,"Firestone",2
-377,-294982384,"Gravios α","ARM","","Gravios","00000000","Gravios Certificate S",2,"Gravios Carapace",4,"Gravios Medulla",1,"Firecell Stone",1
-378,-294972384,"Gravios α","WAIST","","Gravios","00000000","Gravios Certificate S",1,"Gravios Wing",5,"Gravios Pleura+",4,"Kranodath Skull+",2
-379,-294962384,"Gravios α","LEG","","Gravios","00000000","Gravios Carapace",6,"Gravios Wing",6,"Gravios Skull",2,"Coma Sac",3
-380,-436928720,"Gravios β","HELM","","Gravios","00000000","Gravios Carapace",5,"Gravios Pleura+",3,"Monster Keenbone",3,"",0
-381,-436918720,"Gravios β","BODY","","Gravios","00000000","Gravios Certificate S",1,"Gravios Wing",3,"Wyvern Gem",1,"Firestone",2
-382,-436908720,"Gravios β","ARM","","Gravios","00000000","Gravios Certificate S",2,"Gravios Carapace",4,"Gravios Medulla",1,"Firecell Stone",1
-383,-436898720,"Gravios β","WAIST","","Gravios","00000000","Gravios Certificate S",1,"Gravios Wing",5,"Gravios Pleura+",4,"Kranodath Skull+",2
-384,-436888720,"Gravios β","LEG","","Gravios","00000000","Gravios Carapace",6,"Gravios Wing",6,"Gravios Skull",2,"Coma Sac",3
-385,458243920,"Blango α","HELM","","Blangonga","00000000","Blangonga Pelt+",3,"Blangonga Fang+",4,"Blangonga Tail",2,"Colossal Bone",2
-386,458253920,"Blango α","BODY","","Blangonga","00000000","Blangonga Certificate S",2,"Blangonga Whisker",3,"Blango Pelt+",2,"",0
-387,458263920,"Blango α","ARM","","Blangonga","00000000","Blangonga Certificate S",1,"Blangonga Pelt+",5,"Blangonga Tail",3,"Beast Gem",1
-388,458273920,"Blango α","WAIST","","Blangonga","00000000","Blangonga Certificate S",1,"Blangonga Fang+",5,"Blangonga Whisker",2,"Freezer Sac",3
-389,458283920,"Blango α","LEG","","Blangonga","00000000","Blangonga Pelt+",3,"Blangonga Tail",2,"Blangonga Whisker",2,"Great Stoutbone",3
-390,-2058661360,"Blango β","HELM","","Blangonga","00000000","Blangonga Pelt+",3,"Blangonga Fang+",4,"Blangonga Tail",2,"Colossal Bone",2
-391,-2058651360,"Blango β","BODY","","Blangonga","00000000","Blangonga Certificate S",2,"Blangonga Whisker",3,"Blango Pelt+",2,"",0
-392,-2058641360,"Blango β","ARM","","Blangonga","00000000","Blangonga Certificate S",1,"Blangonga Pelt+",5,"Blangonga Tail",3,"Beast Gem",1
-393,-2058631360,"Blango β","WAIST","","Blangonga","00000000","Blangonga Certificate S",1,"Blangonga Fang+",5,"Blangonga Whisker",2,"Freezer Sac",3
-394,-2058621360,"Blango β","LEG","","Blangonga","00000000","Blangonga Pelt+",3,"Blangonga Tail",2,"Blangonga Whisker",2,"Great Stoutbone",3
-395,-1649892080,"Kunafa α","HELM","Dalthydon Wool","-","00000000","Dalthydon Wool",1,"Talioth Scale+",2,"",0,"",0
-396,-1649882080,"Kunafa α","BODY","Dalthydon Wool","-","00000000","Dalthydon Wool",1,"Acute Fang",1,"",0,"",0
-397,-1649862080,"Kunafa α","WAIST","Dalthydon Wool","-","00000000","Dalthydon Wool",1,"Acute Fang",1,"",0,"",0
-398,-1649852080,"Kunafa α","LEG","Dalthydon Wool","-","00000000","Dalthydon Wool",1,"Talioth Scale+",2,"",0,"",0
-399,1869299088,"Azuz α","HELM","Azuz Tanned Leather","-","00000000","Azuz Tanned Leather",1,"Charred Oilbone",2,"",0,"",0
-400,1869309088,"Azuz α","BODY","Azuz Tanned Leather","-","00000000","Azuz Tanned Leather",1,"Firecell Stone",1,"",0,"",0
-401,1869339088,"Azuz α","LEG","Azuz Tanned Leather","-","00000000","Azuz Tanned Leather",1,"Firestone",2,"",0,"",0
-402,-746435968,"Suja α","WAIST","Suja Textiles","-","00000000","Suja Textiles",3,"Fucium Ore",5,"",0,"",0
-403,-1496440816,"Sild α","HELM","Sild Cotton","-","00000000","Sild Cotton",2,"Guardian Seikret Feather+",3,"",0,"",0
-404,-1496430816,"Sild α","BODY","Sild Cotton","-","00000000","Sild Cotton",2,"Guardian Seikret Feather+",3,"",0,"",0
-405,808946256,"Death Stench α","HELM","Sinister Cloth","-","00000000","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
-406,808956256,"Death Stench α","BODY","Sinister Cloth","-","00000000","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
-407,808966256,"Death Stench α","ARM","Sinister Cloth","-","00000000","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
-408,808976256,"Death Stench α","WAIST","Sinister Cloth","-","00000000","Sinister Cloth",1,"Herbivore Carapace",1,"Colossal Bone",1,"",0
-409,808986256,"Death Stench α","LEG","Sinister Cloth","-","00000000","Sinister Cloth",1,"Herbivore Carapace",1,"Colossal Bone",1,"",0
-410,-1266833008,"Butterfly α","HELM","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
-411,-1266823008,"Butterfly α","BODY","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
-412,-1266813008,"Butterfly α","ARM","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
-413,-1266803008,"Butterfly α","WAIST","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
-414,-1266793008,"Butterfly α","LEG","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
-415,939931856,"King Beetle α","HELM","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
-416,939941856,"King Beetle α","BODY","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
-417,939951856,"King Beetle α","ARM","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
-418,939961856,"King Beetle α","WAIST","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
-419,939971856,"King Beetle α","LEG","Great Hornfly","-","00000000","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
-420,638901520,"High Metal α","HELM","Drearisite Scraps","-","00000000","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
-421,638911520,"High Metal α","BODY","Drearisite Scraps","-","00000000","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
-422,638921520,"High Metal α","ARM","Drearisite Scraps","-","00000000","Drearisite Scraps",1,"Carbalite Ore",1,"Charred Oilbone",1,"",0
-423,638931520,"High Metal α","WAIST","Drearisite Scraps","-","00000000","Drearisite Scraps",1,"Carbalite Ore",1,"Charred Oilbone",1,"",0
-424,638941520,"High Metal α","LEG","Drearisite Scraps","-","00000000","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
-425,889243792,"Battle α","HELM","Scarred Scale","-","00000000","Scarred Scale",1,"Blango Pelt+",1,"Frozen Icebone",1,"",0
-426,889253792,"Battle α","BODY","Scarred Scale","-","00000000","Scarred Scale",1,"Colossal Bone",1,"Frozen Icebone",1,"",0
-427,889263792,"Battle α","ARM","Scarred Scale","-","00000000","Scarred Scale",1,"Colossal Bone",1,"Frozen Icebone",1,"",0
-428,889273792,"Battle α","WAIST","Scarred Scale","-","00000000","Scarred Scale",1,"Colossal Bone",1,"Dragonbone Relic",1,"",0
-429,889283792,"Battle α","LEG","Scarred Scale","-","00000000","Scarred Scale",1,"Blango Pelt+",1,"Frozen Icebone",1,"",0
-430,-830754992,"Melahoa α","HELM","Great Hibiscus","-","00000000","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
-431,-830744992,"Melahoa α","BODY","Great Hibiscus","-","00000000","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
-432,-830734992,"Melahoa α","ARM","Great Hibiscus","-","00000000","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
-433,-830724992,"Melahoa α","WAIST","Great Hibiscus","-","00000000","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
-434,-830714992,"Melahoa α","LEG","Great Hibiscus","-","00000000","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Novacrystal",1,"",0
-435,1619467664,"Artian α","HELM","","-","1563F5E0","Gracium",5,"Frenzy Crystal",1,"Novacrystal",1,"",0
-436,1619477664,"Artian α","BODY","","-","1563F5E0","Gracium",5,"Frenzy Shard",2,"Earth Crystal",10,"",0
-437,1619487664,"Artian α","ARM","","-","1563F5E0","Gracium",5,"Frenzy Crystal",1,"Dragonbone Relic",1,"",0
-438,1619497664,"Artian α","WAIST","","-","1563F5E0","Gracium",5,"Frenzy Shard",2,"Firecell Stone",1,"",0
-439,1619507664,"Artian α","LEG","","-","1563F5E0","Gracium",5,"Frenzy Crystal",1,"Guardian Blood+",3,"",0
-440,-1414653552,"Dober α","HELM","","-","0D846690","Monster Hardbone",3,"Colossal Bone",4,"Charred Oilbone",3,"",0
-441,-1414643552,"Dober α","BODY","","-","0D846690","Monster Hardbone",3,"Colossal Bone",4,"Dragonbone Relic",1,"",0
-442,-1414633552,"Dober α","ARM","","-","0D846690","Monster Hardbone",4,"Stoutbone",4,"Tough Guardian Bone",3,"Rath Medulla",1
-443,-1414623552,"Dober α","WAIST","","-","0D846690","Monster Hardbone",4,"Monster Keenbone",4,"Frozen Icebone",3,"Ajarakan Medulla",1
-444,-1414613552,"Dober α","LEG","","-","0D846690","Monster Hardbone",5,"Great Stoutbone",4,"Quality Bone",3,"Gravios Medulla",1
-445,1903097232,"Damascus α","HELM","","-","0D846690","Fucium Ore",4,"Guardian Pelt+",3,"Frenzy Shard",3,"Bird Wyvern Gem",1
-446,1903107232,"Damascus α","BODY","","-","0D846690","Fucium Ore",5,"Guardian Blood+",2,"Carbalite Ore",5,"Wyvern Gem",1
-447,1903117232,"Damascus α","ARM","","-","0D846690","Fucium Ore",4,"Guardian Pelt+",4,"Gracium",4,"Beast Gem",1
-448,1903127232,"Damascus α","WAIST","","-","0D846690","Fucium Ore",3,"Guardian Scale+",4,"Novacrystal",1,"",0
-449,1903137232,"Damascus α","LEG","","-","0D846690","Fucium Ore",3,"Guardian Scale+",3,"Firecell Stone",1,"",0
-450,-1332051952,"Dahaad α","HELM","Jin Dahaad Scale+","-","00000000","Jin Dahaad Certificate S",2,"Jin Dahaad Scale+",3,"Jin Dahaad Claw+",4,"Wyvern Gem",1
-451,-1332041952,"Dahaad α","BODY","Jin Dahaad Scale+","-","00000000","Jin Dahaad Scale+",5,"Jin Dahaad Carapace",6,"Jin Dahaad Iceplate",3,"Monster Hardbone",3
-452,-1332031952,"Dahaad α","ARM","Jin Dahaad Scale+","-","00000000","Jin Dahaad Certificate S",1,"Jin Dahaad Carapace",5,"Jin Dahaad Claw+",4,"Gracium",3
-453,-1332021952,"Dahaad α","WAIST","Jin Dahaad Scale+","-","00000000","Jin Dahaad Iceplate",2,"Jin Dahaad Horn",3,"Jin Dahaad Icegem",1,"Freezer Sac",3
-454,-1332011952,"Dahaad α","LEG","Jin Dahaad Scale+","-","00000000","Jin Dahaad Scale+",6,"Jin Dahaad Iceplate",4,"Jin Dahaad Horn",2,"Comaqchi Carapace",2
-455,-59341948,"Dahaad β","HELM","Jin Dahaad Scale+","-","00000000","Jin Dahaad Certificate S",2,"Jin Dahaad Scale+",3,"Jin Dahaad Claw+",4,"Wyvern Gem",1
-456,-59331948,"Dahaad β","BODY","Jin Dahaad Scale+","-","00000000","Jin Dahaad Scale+",5,"Jin Dahaad Carapace",6,"Jin Dahaad Iceplate",3,"Monster Hardbone",3
-457,-59321948,"Dahaad β","ARM","Jin Dahaad Scale+","-","00000000","Jin Dahaad Certificate S",1,"Jin Dahaad Carapace",5,"Jin Dahaad Claw+",4,"Gracium",3
-458,-59311948,"Dahaad β","WAIST","Jin Dahaad Scale+","-","00000000","Jin Dahaad Iceplate",2,"Jin Dahaad Horn",3,"Jin Dahaad Icegem",1,"Freezer Sac",3
-459,-59301948,"Dahaad β","LEG","Jin Dahaad Scale+","-","00000000","Jin Dahaad Scale+",6,"Jin Dahaad Iceplate",4,"Jin Dahaad Horn",2,"Comaqchi Carapace",2
-460,-1314902640,"Uth Duna α","HELM","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",1,"Uth Duna Scale+",4,"Uth Duna Cilia+",4,"Uth Duna Watergem",1
-461,-1314892640,"Uth Duna α","BODY","Uth Duna Scale+","-","00000000","Uth Duna Scale+",6,"Uth Duna Hide+",6,"Uth Duna Cilia+",3,"Torrent Sac",3
-462,-1314882640,"Uth Duna α","ARM","Uth Duna Scale+","-","00000000","Uth Duna Scale+",5,"Uth Duna Cilia+",3,"Uth Duna Claw+",3,"Monster Hardbone",2
-463,-1314872640,"Uth Duna α","WAIST","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",2,"Uth Duna Tentacle+",4,"Uth Duna Claw+",5,"Uth Duna Plate",1
-464,-1314862640,"Uth Duna α","LEG","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",2,"Uth Duna Hide+",5,"Uth Duna Tentacle+",4,"Piragill Fin+",2
-465,-1116013296,"Uth Duna β","HELM","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",1,"Uth Duna Scale+",4,"Uth Duna Cilia+",4,"Uth Duna Watergem",1
-466,-1116003296,"Uth Duna β","BODY","Uth Duna Scale+","-","00000000","Uth Duna Scale+",6,"Uth Duna Hide+",6,"Uth Duna Cilia+",3,"Torrent Sac",3
-467,-1115993296,"Uth Duna β","ARM","Uth Duna Scale+","-","00000000","Uth Duna Scale+",5,"Uth Duna Cilia+",3,"Uth Duna Claw+",3,"Monster Hardbone",2
-468,-1115983296,"Uth Duna β","WAIST","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",2,"Uth Duna Tentacle+",4,"Uth Duna Claw+",5,"Uth Duna Plate",1
-469,-1115973296,"Uth Duna β","LEG","Uth Duna Scale+","-","00000000","Uth Duna Certificate S",2,"Uth Duna Hide+",5,"Uth Duna Tentacle+",4,"Piragill Fin+",2
-470,-1311775984,"Rey Dau α","HELM","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",2,"Rey Dau Carapace",5,"Rey Dau Bolthorn",4,"Bulaqchi Carapace",2
-471,-1311765984,"Rey Dau α","BODY","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",2,"Rey Dau Bolthorn",2,"Rey Dau Tail",2,"Rey Dau Plate",1
-472,-1311755984,"Rey Dau α","ARM","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",1,"Rey Dau Fulgurtalon",2,"Rey Dau Scale+",3,"Rey Dau Boltgem",1
-473,-1311745984,"Rey Dau α","WAIST","Rey Dau Scale+","-","00000000","Rey Dau Scale+",5,"Rey Dau Carapace",6,"Rey Dau Fulgurtalon",3,"Monster Hardbone",3
-474,-1311735984,"Rey Dau α","LEG","Rey Dau Scale+","-","00000000","Rey Dau Scale+",6,"Rey Dau Fulgurtalon",4,"Rey Dau Bolthorn",3,"Lightcrystal",3
-475,598410000,"Rey Dau β","HELM","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",2,"Rey Dau Carapace",5,"Rey Dau Bolthorn",4,"Bulaqchi Carapace",2
-476,598420000,"Rey Dau β","BODY","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",2,"Rey Dau Bolthorn",2,"Rey Dau Tail",2,"Rey Dau Plate",1
-477,598430000,"Rey Dau β","ARM","Rey Dau Scale+","-","00000000","Rey Dau Certificate S",1,"Rey Dau Fulgurtalon",2,"Rey Dau Scale+",3,"Rey Dau Boltgem",1
-478,598440000,"Rey Dau β","WAIST","Rey Dau Scale+","-","00000000","Rey Dau Scale+",5,"Rey Dau Carapace",6,"Rey Dau Fulgurtalon",3,"Monster Hardbone",3
-479,598450000,"Rey Dau β","LEG","Rey Dau Scale+","-","00000000","Rey Dau Scale+",6,"Rey Dau Fulgurtalon",4,"Rey Dau Bolthorn",3,"Lightcrystal",3
-480,1178176400,"Nu Udra α","HELM","Nu Udra Hide+","-","00000000","Nu Udra Hide+",6,"Nu Udra Spike+",6,"Nu Udra Oilmucus+",3,"Dragonbone Relic",1
-481,1178186400,"Nu Udra α","BODY","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",2,"Nu Udra Tentacle+",4,"Nu Udra Horn+",5,"Nu Udra Cerebrospinal Fluid",1
-482,1178196400,"Nu Udra α","ARM","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",2,"Nu Udra Spike+",5,"Nu Udra Tentacle+",4,"Kranodath Skull+",2
-483,1178206400,"Nu Udra α","WAIST","Nu Udra Hide+","-","00000000","Nu Udra Hide+",5,"Nu Udra Oilmucus+",3,"Nu Udra Horn+",3,"Inferno Sac",2
-484,1178216400,"Nu Udra α","LEG","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",1,"Nu Udra Hide+",4,"Nu Udra Oilmucus+",4,"Nu Udra Flamegem",1
-485,327355216,"Nu Udra β","HELM","Nu Udra Hide+","-","00000000","Nu Udra Hide+",6,"Nu Udra Spike+",6,"Nu Udra Oilmucus+",3,"Dragonbone Relic",1
-486,327365216,"Nu Udra β","BODY","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",2,"Nu Udra Tentacle+",4,"Nu Udra Horn+",5,"Nu Udra Cerebrospinal Fluid",1
-487,327375216,"Nu Udra β","ARM","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",2,"Nu Udra Spike+",5,"Nu Udra Tentacle+",4,"Kranodath Skull+",2
-488,327385216,"Nu Udra β","WAIST","Nu Udra Hide+","-","00000000","Nu Udra Hide+",5,"Nu Udra Oilmucus+",3,"Nu Udra Horn+",3,"Inferno Sac",2
-489,327395216,"Nu Udra β","LEG","Nu Udra Hide+","-","00000000","Nu Udra Certificate S",1,"Nu Udra Hide+",4,"Nu Udra Oilmucus+",4,"Nu Udra Flamegem",1
-490,-2086647152,"Gore α","HELM","","Gore Magala","00000000","Gore Magala Certificate S",2,"Gore Magala Feeler+",2,"Gore Magala Wing+",4,"Wyvern Gem",1
-491,-2086637152,"Gore α","BODY","","Gore Magala","00000000","Gore Magala Scale+",6,"Gore Magala Carapace",6,"Gore Magala Ripclaw+",2,"Gore Magala Tail",2
-492,-2086627152,"Gore α","ARM","","Gore Magala","00000000","Gore Magala Certificate S",2,"Gore Magala Carapace",5,"Gore Magala Feeler+",2,"Frenzy Crystal",2
-493,-2086617152,"Gore α","WAIST","","Gore Magala","00000000","Gore Magala Scale+",5,"Gore Magala Ripclaw+",3,"Gore Magala Wing+",3,"Frenzy Shard",2
-494,-2086607152,"Gore α","LEG","","Gore Magala","00000000","Gore Magala Certificate S",1,"Gore Magala Scale+",3,"Gore Magala Wing+",4,"Gore Magala Nyctgem",1
-495,1956142992,"Gore β","HELM","","Gore Magala","00000000","Gore Magala Certificate S",2,"Gore Magala Feeler+",2,"Gore Magala Wing+",4,"Wyvern Gem",1
-496,1956152992,"Gore β","BODY","","Gore Magala","00000000","Gore Magala Scale+",6,"Gore Magala Carapace",6,"Gore Magala Ripclaw+",2,"Gore Magala Tail",2
-497,1956162992,"Gore β","ARM","","Gore Magala","00000000","Gore Magala Certificate S",2,"Gore Magala Carapace",5,"Gore Magala Feeler+",2,"Frenzy Crystal",2
-498,1956172992,"Gore β","WAIST","","Gore Magala","00000000","Gore Magala Scale+",5,"Gore Magala Ripclaw+",3,"Gore Magala Wing+",3,"Frenzy Shard",2
-499,1956182992,"Gore β","LEG","","Gore Magala","00000000","Gore Magala Certificate S",1,"Gore Magala Scale+",3,"Gore Magala Wing+",4,"Gore Magala Nyctgem",1
-500,-605689072,"Arkveld α","HELM","","Arkveld","00000000","Arkveld Scale+",5,"Arkveld Armorplate",3,"White Arkveld Pelt",2,"Arkveld Horn+",3
-501,-605679072,"Arkveld α","BODY","","Arkveld","00000000","Arkveld Certificate S",2,"Arkveld Scale+",3,"Arkveld Armorplate",4,"Arkveld Calloushell",4
-502,-605669072,"Arkveld α","ARM","","Arkveld","00000000","Arkveld Certificate S",2,"Arkveld Calloushell",3,"Arkveld Horn+",2,"Wyvern Gem",1
-503,-605659072,"Arkveld α","WAIST","","Arkveld","00000000","Arkveld Certificate S",1,"Arkveld Armorplate",3,"White Arkveld Pelt",3,"Arkveld Gem",1
-504,-605649072,"Arkveld α","LEG","","Arkveld","00000000","Arkveld Scale+",6,"Arkveld Armorplate",5,"Arkveld Calloushell",2,"Arkveld Tail",2
-505,1693976848,"Arkveld β","HELM","","Arkveld","00000000","Arkveld Scale+",5,"Arkveld Armorplate",3,"White Arkveld Pelt",2,"Arkveld Horn+",3
-506,1693986848,"Arkveld β","BODY","","Arkveld","00000000","Arkveld Certificate S",2,"Arkveld Scale+",3,"Arkveld Armorplate",4,"Arkveld Calloushell",4
-507,1693996848,"Arkveld β","ARM","","Arkveld","00000000","Arkveld Certificate S",2,"Arkveld Calloushell",3,"Arkveld Horn+",2,"Wyvern Gem",1
-508,1694006848,"Arkveld β","WAIST","","Arkveld","00000000","Arkveld Certificate S",1,"Arkveld Armorplate",3,"White Arkveld Pelt",3,"Arkveld Gem",1
-509,1694016848,"Arkveld β","LEG","","Arkveld","00000000","Arkveld Scale+",6,"Arkveld Armorplate",5,"Arkveld Calloushell",2,"Arkveld Tail",2
-510,238892304,"Guardian Arkveld α","HELM","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Scale+",6,"Guardian Pelt+",5,"Uth Duna Watergem",1
-511,238902304,"Guardian Arkveld α","BODY","","Arkveld","00000000","Hunter Symbol III",1,"White Arkveld Pelt",3,"Arkveld Gem",1,"Guardian Blood+",3
-512,238912304,"Guardian Arkveld α","ARM","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Armorplate",6,"White Arkveld Pelt",3,"Jin Dahaad Icegem",1
-513,238922304,"Guardian Arkveld α","WAIST","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Scale+",4,"Arkveld Calloushell",4,"Rey Dau Boltgem",1
-514,238932304,"Guardian Arkveld α","LEG","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Armorplate",4,"Guardian Scale+",5,"Nu Udra Flamegem",1
-515,955936336,"Guardian Arkveld β","HELM","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Scale+",6,"Guardian Pelt+",5,"Uth Duna Watergem",1
-516,955946336,"Guardian Arkveld β","BODY","","Arkveld","00000000","Hunter Symbol III",1,"White Arkveld Pelt",3,"Arkveld Gem",1,"Guardian Blood+",3
-517,955956336,"Guardian Arkveld β","ARM","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Armorplate",6,"White Arkveld Pelt",3,"Jin Dahaad Icegem",1
-518,955966336,"Guardian Arkveld β","WAIST","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Scale+",4,"Arkveld Calloushell",4,"Rey Dau Boltgem",1
-519,955976336,"Guardian Arkveld β","LEG","","Arkveld","00000000","Hunter Symbol III",1,"Arkveld Armorplate",4,"Guardian Scale+",5,"Nu Udra Flamegem",1
-520,-2043803888,"Guild Ace α","HELM","","Arkveld","00000000","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Pelt+",3,"",0
-521,-2043793888,"Guild Ace α","BODY","","Arkveld","00000000","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Scale+",3,"",0
-522,-2043783888,"Guild Ace α","ARM","","Arkveld","00000000","Hunter Symbol III",1,"Fucium Ore",2,"Carbalite Ore",5,"",0
-523,-2043773888,"Guild Ace α","WAIST","","Arkveld","00000000","Hunter Symbol III",1,"Fucium Ore",2,"Quality Bone",5,"",0
-524,-2043763888,"Guild Ace α","LEG","","Arkveld","00000000","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Blood+",3,"",0
-525,309175664,"Commission α","HELM","Commission Ticket","-","00000000","Commission Ticket",1,"Carbalite Ore",2,"Chatacabra Scale+",5,"",0
-526,309185664,"Commission α","BODY","Commission Ticket","-","00000000","Commission Ticket",1,"Gracium",2,"Lala Barina Floret+",5,"",0
-527,309195664,"Commission α","ARM","Commission Ticket","-","00000000","Commission Ticket",1,"Monster Keenbone",2,"Balahara Scale+",5,"",0
-528,309205664,"Commission α","WAIST","Commission Ticket","-","00000000","Commission Ticket",1,"Stoutbone",2,"Doshaguma Fur+",5,"",0
-529,309215664,"Commission α","LEG","Commission Ticket","-","00000000","Commission Ticket",1,"Quality Bone",2,"Quematrice Scale+",5,"",0
-530,2057684112,"Dragonking α","HELM","","Arkveld","00000000","Hunter Symbol III",3,"Guardian Blood+",3,"Wyvern Gem",1,"",0
-531,-434180656,"Mimiphyta α","HELM","Mimiphyta Ticket","-","00000000","Mimiphyta Ticket",2,"Kut-Ku Scale+",4,"Congalala Pelt+",2,"",0
-532,42515,"Expedition Headgear α","HELM","Expedition Headgear Ticket","-","00000000","Expedition Headgear Ticket",3,"Rathian Scale+",4,"Monster Keenbone",2,"Novacrystal",1
+"Index","Recipe Number","Series","Type","Key Item","Key Enemy","Key Story","Time Rank","Item 1","Number 1","Item 2","Number 2","Item 3","Number 3","Item 4","Number 4"
+0,10002,"Hope","HELM","","-","00000000","NONE","",0,"",0,"",0,"",0
+1,20002,"Hope","BODY","","-","00000000","NONE","",0,"",0,"",0,"",0
+2,30002,"Hope","ARM","","-","00000000","NONE","",0,"",0,"",0,"",0
+3,40002,"Hope","WAIST","","-","00000000","NONE","",0,"",0,"",0,"",0
+4,50002,"Hope","LEG","","-","00000000","NONE","",0,"",0,"",0,"",0
+5,10003,"Leather","HELM","","-","00000000","NONE","",0,"",0,"",0,"",0
+6,20003,"Leather","BODY","","-","00000000","NONE","",0,"",0,"",0,"",0
+7,30003,"Leather","ARM","","-","00000000","NONE","",0,"",0,"",0,"",0
+8,40003,"Leather","WAIST","","-","00000000","NONE","",0,"",0,"",0,"",0
+9,50003,"Leather","LEG","","-","00000000","NONE","",0,"",0,"",0,"",0
+10,10004,"Chainmail","HELM","","-","00000000","NONE","",0,"",0,"",0,"",0
+11,20004,"Chainmail","BODY","","-","00000000","NONE","",0,"",0,"",0,"",0
+12,30004,"Chainmail","ARM","","-","00000000","NONE","",0,"",0,"",0,"",0
+13,40004,"Chainmail","WAIST","","-","00000000","NONE","",0,"",0,"",0,"",0
+14,50004,"Chainmail","LEG","","-","00000000","NONE","",0,"",0,"",0,"",0
+15,10005,"Bone","HELM","","-","00000000","NONE","Mystery Bone",1,"",0,"",0,"",0
+16,20005,"Bone","BODY","","-","00000000","NONE","Mystery Bone",1,"",0,"",0,"",0
+17,30005,"Bone","ARM","","-","00000000","NONE","Mystery Bone",1,"",0,"",0,"",0
+18,40005,"Bone","WAIST","","-","00000000","NONE","Mystery Bone",1,"",0,"",0,"",0
+19,50005,"Bone","LEG","","-","00000000","NONE","Mystery Bone",1,"",0,"",0,"",0
+20,10012,"Bulaqchi","HELM","","Bulaqchi","00000000","NONE","Bulaqchi Shell",2,"",0,"",0,"",0
+21,30011,"Talioth","ARM","","Talioth","00000000","NONE","Talioth Scale",1,"Sharp Fang",1,"",0,"",0
+22,1204287120,"Chatacabra","HELM","","Chatacabra","00000000","NONE","Chatacabra Scale",2,"Chatacabra Jaw",1,"",0,"",0
+23,1204297120,"Chatacabra","BODY","","Chatacabra","00000000","NONE","Chatacabra Scale",2,"Chatacabra Hide",2,"Chatacabra Shell",1,"",0
+24,1204307120,"Chatacabra","ARM","","Chatacabra","00000000","NONE","Chatacabra Hide",2,"Chatacabra Shell",1,"",0,"",0
+25,1204317120,"Chatacabra","WAIST","","Chatacabra","00000000","NONE","Chatacabra Certificate",1,"Chatacabra Scale",2,"Chatacabra Jaw",1,"Sharp Fang",1
+26,1204327120,"Chatacabra","LEG","","Chatacabra","00000000","NONE","Chatacabra Jaw",1,"Chatacabra Shell",1,"Mystery Bone",1,"",0
+27,-2109555568,"Quematrice","HELM","","Quematrice","00000000","NONE","Quematrice Certificate",1,"Quematrice Tail",1,"Quematrice Igniter",1,"Iron Ore",1
+28,-2109545568,"Quematrice","BODY","","Quematrice","00000000","NONE","Quematrice Igniter",1,"Quematrice Crest",1,"Quematrice Tail",1,"",0
+29,-2109535568,"Quematrice","ARM","","Quematrice","00000000","NONE","Quematrice Scale",2,"Quematrice Igniter",1,"",0,"",0
+30,-2109525568,"Quematrice","WAIST","","Quematrice","00000000","NONE","Quematrice Hide",2,"Quematrice Crest",1,"",0,"",0
+31,-2109515568,"Quematrice","LEG","","Quematrice","00000000","NONE","Quematrice Scale",2,"Quematrice Hide",2,"Quematrice Crest",1,"",0
+32,10007,"Alloy","HELM","","-","E00F49A0","NONE","Machalite Ore",1,"Iron Ore",1,"",0,"",0
+33,20007,"Alloy","BODY","","-","E00F49A0","NONE","Machalite Ore",1,"Iron Ore",1,"",0,"",0
+34,30007,"Alloy","ARM","","-","E00F49A0","NONE","Machalite Ore",1,"Iron Ore",1,"",0,"",0
+35,40007,"Alloy","WAIST","","-","E00F49A0","NONE","Machalite Ore",1,"Earth Crystal",1,"",0,"",0
+36,50007,"Alloy","LEG","","-","E00F49A0","NONE","Machalite Ore",1,"Earth Crystal",1,"",0,"",0
+37,1766354512,"Piragill","LEG","","Piragill","00000000","NONE","Piragill Fin",1,"Machalite Ore",1,"",0,"",0
+38,-1823663856,"Vespoid","HELM","","Vespoid","00000000","NONE","Vespoid Shell",1,"Mystery Bone",1,"",0,"",0
+39,-1823653856,"Vespoid","BODY","","Vespoid","00000000","NONE","Vespoid Shell",1,"Mystery Bone",1,"",0,"",0
+40,-1823643856,"Vespoid","ARM","","Vespoid","00000000","NONE","Vespoid Shell",1,"Vespoid Wing",1,"",0,"",0
+41,-1823633856,"Vespoid","WAIST","","Vespoid","00000000","NONE","Vespoid Shell",1,"Monster Fluid",1,"",0,"",0
+42,-1823623856,"Vespoid","LEG","","Vespoid","00000000","NONE","Vespoid Shell",1,"Vespoid Wing",1,"",0,"",0
+43,-909889840,"Gajau","LEG","Gajau Hide","-","00000000","NONE","Gajau Hide",1,"",0,"",0,"",0
+44,-24820612,"Lala Barina","HELM","","Lala Barina","00000000","NONE","Lala Barina Floret",2,"Lala Barina Mucus",1,"",0,"",0
+45,-24810612,"Lala Barina","BODY","","Lala Barina","00000000","NONE","Lala Barina Floret",2,"Lala Barina Shell",2,"Lala Barina Stinger",1,"",0
+46,-24800612,"Lala Barina","ARM","","Lala Barina","00000000","NONE","Lala Barina Shell",2,"Lala Barina Claw",1,"",0,"",0
+47,-24790612,"Lala Barina","WAIST","","Lala Barina","00000000","NONE","Lala Barina Mucus",1,"Lala Barina Claw",1,"Lala Barina Stinger",1,"",0
+48,-24780612,"Lala Barina","LEG","","Lala Barina","00000000","NONE","Lala Barina Certificate",1,"Lala Barina Floret",2,"Lala Barina Mucus",1,"Monster Fluid",1
+49,672504016,"Conga","HELM","","Congalala","00000000","NONE","Congalala Claw",2,"Vibrant Pelt",1,"",0,"",0
+50,672514016,"Conga","BODY","","Congalala","00000000","NONE","Congalala Pelt",2,"Congalala Claw",1,"Vibrant Pelt",1,"",0
+51,672524016,"Conga","ARM","","Congalala","00000000","NONE","Congalala Fang",1,"Vibrant Pelt",1,"Machalite Ore",1,"",0
+52,672534016,"Conga","WAIST","","Congalala","00000000","NONE","Congalala Pelt",2,"Congalala Fang",1,"",0,"",0
+53,672544016,"Conga","LEG","","Congalala","00000000","NONE","Congalala Certificate",1,"Congalala Pelt",1,"Congalala Fang",1,"Conga Pelt",1
+54,1699075088,"Balahara","HELM","","Balahara","00000000","NONE","Balahara Scale",2,"Balahara Skull",1,"",0,"",0
+55,1699085088,"Balahara","BODY","","Balahara","00000000","NONE","Balahara Scale",2,"Balahara Shell",1,"Balahara Tail",1,"",0
+56,1699095088,"Balahara","ARM","","Balahara","00000000","NONE","Balahara Skull",1,"Balahara Tail",1,"Aqua Sac",1,"",0
+57,1699105088,"Balahara","WAIST","","Balahara","00000000","NONE","Balahara Certificate",1,"Balahara Scale",2,"Balahara Shell",1,"Balahara Black Pearl",1
+58,1699115088,"Balahara","LEG","","Balahara","00000000","NONE","Balahara Shell",2,"Balahara Skull",1,"",0,"",0
+59,-1727208944,"Doshaguma","HELM","","Doshaguma","00000000","NONE","Doshaguma Fur",2,"Doshaguma Hide",2,"Doshaguma Fang",1,"Herbivore Shell",1
+60,-1727198944,"Doshaguma","BODY","","Doshaguma","00000000","NONE","Doshaguma Fur",2,"Doshaguma Claw",1,"",0,"",0
+61,-1727188944,"Doshaguma","ARM","","Doshaguma","00000000","NONE","Doshaguma Hide",2,"Doshaguma Fang",1,"",0,"",0
+62,-1727178944,"Doshaguma","WAIST","","Doshaguma","00000000","NONE","Doshaguma Claw",1,"Doshaguma Fang",2,"Sturdy Bone",1,"",0
+63,-1727168944,"Doshaguma","LEG","","Doshaguma","00000000","NONE","Doshaguma Certificate",1,"Doshaguma Fur",2,"Doshaguma Claw",1,"Brute Bone",1
+64,10008,"Ingot","HELM","","-","86FD6D00","NONE","Dragonite Ore",1,"Machalite Ore",1,"",0,"",0
+65,20008,"Ingot","BODY","","-","86FD6D00","NONE","Dragonite Ore",1,"Earth Crystal",1,"",0,"",0
+66,30008,"Ingot","ARM","","-","86FD6D00","NONE","Dragonite Ore",1,"Machalite Ore",1,"",0,"",0
+67,40008,"Ingot","WAIST","","-","86FD6D00","NONE","Dragonite Ore",1,"Earth Crystal",1,"",0,"",0
+68,50008,"Ingot","LEG","","-","86FD6D00","NONE","Dragonite Ore",1,"Firestone",1,"",0,"",0
+69,-1253472608,"Kranodath","BODY","","Kranodath","00000000","NONE","Kranodath Skull",1,"Charred Oilbone",1,"",0,"",0
+70,2045222544,"Rompopolo","HELM","","Rompopolo","00000000","NONE","Rompopolo Hide",2,"Rompopolo Claw",1,"Rompopolo Beak",1,"",0
+71,2045232544,"Rompopolo","BODY","","Rompopolo","00000000","NONE","Rompopolo Hide",2,"Spotted Poison Hide",1,"",0,"",0
+72,2045242544,"Rompopolo","ARM","","Rompopolo","00000000","NONE","Spotted Poison Hide",1,"Rompopolo Beak",1,"Poison Sac",1,"",0
+73,2045252544,"Rompopolo","WAIST","","Rompopolo","00000000","NONE","Rompopolo Certificate",1,"Rompopolo Hide",2,"Spotted Poison Hide",1,"Dragonite Ore",1
+74,2045262544,"Rompopolo","LEG","","Rompopolo","00000000","NONE","Rompopolo Claw",2,"Rompopolo Beak",1,"",0,"",0
+75,417064528,"Comaqchi","HELM","","Comaqchi","00000000","NONE","Comaqchi Shell",2,"",0,"",0,"",0
+76,690925648,"Nerscylla","HELM","","Nerscylla","00000000","NONE","Nerscylla Certificate",1,"Rubbery Hide",1,"Nerscylla Chelicera",1,"Sleep Sac",1
+77,690935648,"Nerscylla","BODY","","Nerscylla","00000000","NONE","Nerscylla Claw",2,"Nerscylla Spike",1,"",0,"",0
+78,690945648,"Nerscylla","ARM","","Nerscylla","00000000","NONE","Nerscylla Shell",2,"Nerscylla Claw",1,"Nerscylla Spike",1,"",0
+79,690955648,"Nerscylla","WAIST","","Nerscylla","00000000","NONE","Nerscylla Chelicera",1,"Nerscylla Spike",1,"Rubbery Hide",1,"",0
+80,690965648,"Nerscylla","LEG","","Nerscylla","00000000","NONE","Nerscylla Shell",2,"Nerscylla Chelicera",1,"",0,"",0
+81,-1916381168,"Hirabami","HELM","","Hirabami","00000000","NONE","Hirabami Webbing",1,"Hirabami Tail Claw",1,"Frost Sac",1,"",0
+82,-1916371168,"Hirabami","BODY","","Hirabami","00000000","NONE","Hirabami Hide",2,"Hirabami Tail Claw",1,"",0,"",0
+83,-1916361168,"Hirabami","ARM","","Hirabami","00000000","NONE","Hirabami Scale",2,"Hirabami Webbing",1,"",0,"",0
+84,-1916351168,"Hirabami","WAIST","","Hirabami","00000000","NONE","Hirabami Scale",2,"Hirabami Hide",1,"Hirabami Tail Claw",1,"",0
+85,-1916341168,"Hirabami","LEG","","Hirabami","00000000","NONE","Hirabami Certificate",1,"Hirabami Scale",2,"Hirabami Webbing",1,"Frozen Icebone",1
+86,1254412048,"Ajarakan","HELM","","Ajarakan","00000000","NONE","Ajarakan Certificate",1,"Ajarakan Tail",1,"Ajarakan Jewel",1,"Ajarakan Marrow",1
+87,1254422048,"Ajarakan","BODY","","Ajarakan","00000000","NONE","Ajarakan Scale",2,"Ajarakan Jewel",1,"",0,"",0
+88,1254432048,"Ajarakan","ARM","","Ajarakan","00000000","NONE","Ajarakan Scale",2,"Ajarakan Shell",2,"Ajarakan Ridge",1,"",0
+89,1254442048,"Ajarakan","WAIST","","Ajarakan","00000000","NONE","Ajarakan Shell",2,"Ajarakan Ridge",1,"",0,"",0
+90,1254452048,"Ajarakan","LEG","","Ajarakan","00000000","NONE","Ajarakan Jewel",1,"Ajarakan Ridge",1,"Ajarakan Tail",1,"",0
+91,-1564839104,"Guardian Seikret","WAIST","","-","D9C1E4C0","NONE","Guardian Seikret Feather",2,"Tough Guardian Bone",1,"",0,"",0
+92,-282984240,"Uth Duna","HELM","","-","D9C1E4C0","NONE","Uth Duna Certificate",1,"Uth Duna Scale",2,"Uth Duna Plate",1,"Guardian Blood",1
+93,-282974240,"Uth Duna","BODY","","-","D9C1E4C0","NONE","Uth Duna Cilia",1,"Uth Duna Tentacle",1,"Uth Duna Claw",2,"Guardian Scale",1
+94,-282964240,"Uth Duna","ARM","","-","D9C1E4C0","NONE","Uth Duna Hide",2,"Uth Duna Tentacle",1,"Guardian Pelt",1,"",0
+95,-282954240,"Uth Duna","WAIST","","-","97DC3400","NONE","Uth Duna Scale",2,"Uth Duna Cilia",1,"",0,"",0
+96,-282944240,"Uth Duna","LEG","","-","97DC3400","NONE","Uth Duna Scale",2,"Uth Duna Hide",2,"Uth Duna Claw",1,"",0
+97,-972600496,"Rey Dau","HELM","","Rey Dau","00000000","NONE","Rey Dau Scale",2,"Rey Dau Shell",2,"Rey Dau Thunderhorn",1,"",0
+98,-972590496,"Rey Dau","BODY","","Rey Dau","00000000","NONE","Rey Dau Scale",2,"Rey Dau Wingtalon",1,"",0,"",0
+99,-972580496,"Rey Dau","ARM","","-","D9C1E4C0","NONE","Rey Dau Wingtalon",1,"Rey Dau Thunderhorn",1,"Rey Dau Tail",1,"Guardian Scale",1
+100,-972570496,"Rey Dau","WAIST","","-","D9C1E4C0","NONE","Rey Dau Shell",2,"Rey Dau Thunderhorn",1,"Guardian Pelt",1,"Wingdrake Hide",1
+101,-972560496,"Rey Dau","LEG","","-","D9C1E4C0","NONE","Rey Dau Certificate",1,"Rey Dau Tail",1,"Rey Dau Plate",1,"Guardian Blood",1
+102,1044081680,"Nu Udra","HELM","","Nu Udra","00000000","NONE","Nu Udra Hide",2,"Nu Udra Spike",1,"Nu Udra Horn",1,"",0
+103,1044091680,"Nu Udra","BODY","","-","D9C1E4C0","NONE","Nu Udra Certificate",1,"Nu Udra Hide",2,"Nu Udra Cerebrospinal Fluid",1,"Guardian Blood",1
+104,1044101680,"Nu Udra","ARM","","Nu Udra","00000000","NONE","Nu Udra Hide",2,"Nu Udra Oilmucus",1,"",0,"",0
+105,1044111680,"Nu Udra","WAIST","","-","D9C1E4C0","NONE","Nu Udra Oilmucus",1,"Nu Udra Tentacle",1,"Nu Udra Horn",1,"Guardian Scale",1
+106,1044121680,"Nu Udra","LEG","","-","D9C1E4C0","NONE","Nu Udra Spike",2,"Nu Udra Tentacle",1,"Guardian Pelt",1,"Charred Oilbone",1
+107,-1158381424,"Guardian Doshaguma","HELM","","-","D9C1E4C0","NONE","Guardian Doshaguma Fur",2,"Guardian Doshaguma Hide",2,"Guardian Doshaguma Fang",1,"",0
+108,-1158371424,"Guardian Doshaguma","BODY","","-","D9C1E4C0","NONE","Guardian Doshaguma Fur",2,"Guardian Doshaguma Claw",1,"",0,"",0
+109,-1158361424,"Guardian Doshaguma","ARM","","-","D9C1E4C0","NONE","Guardian Doshaguma Hide",2,"Guardian Doshaguma Fang",1,"",0,"",0
+110,-1158351424,"Guardian Doshaguma","WAIST","","-","D9C1E4C0","NONE","G. Doshaguma Certificate",1,"Guardian Doshaguma Fur",2,"Guardian Doshaguma Claw",1,"Guardian Blood",1
+111,-1158341424,"Guardian Doshaguma","LEG","","-","D9C1E4C0","NONE","Guardian Doshaguma Claw",1,"Guardian Doshaguma Fang",1,"Guardian Pelt",1,"",0
+112,-309467024,"Guardian Rathalos","HELM","","-","D9C1E4C0","NONE","G. Rathalos Certificate",1,"Guardian Rathalos Scale",2,"Guardian Rathalos Shell",1,"Guardian Rathalos Plate",1
+113,-309457024,"Guardian Rathalos","BODY","","-","D9C1E4C0","NONE","Guardian Rathalos Shell",2,"Guardian Rathalos Webbing",1,"",0,"",0
+114,-309447024,"Guardian Rathalos","ARM","","-","D9C1E4C0","NONE","Guardian Rathalos Scale",2,"Guardian Rathalos Shell",2,"Guardian Rathalos Tail",1,"",0
+115,-309437024,"Guardian Rathalos","WAIST","","-","D9C1E4C0","NONE","Guardian Rathalos Scale",2,"Guardian Rathalos Webbing",1,"",0,"",0
+116,-309427024,"Guardian Rathalos","LEG","","-","D9C1E4C0","NONE","Guardian Rathalos Webbing",1,"Guardian Rathalos Tail",1,"Guardian Scale",1,"",0
+117,608791568,"Guardian Ebony","HELM","","Guardian Ebony Odogaron","00000000","NONE","Guardian Ebony Claw",1,"Guardian Ebony Fang",1,"Guardian Ebony Tail",1,"",0
+118,608801568,"Guardian Ebony","BODY","","Guardian Ebony Odogaron","00000000","NONE","Guardian Ebony Sinew",2,"Guardian Ebony Fang",1,"",0,"",0
+119,608811568,"Guardian Ebony","ARM","","Guardian Ebony Odogaron","00000000","NONE","Guardian Ebony Scale",2,"Guardian Ebony Sinew",2,"Guardian Ebony Fang",1,"",0
+120,608821568,"Guardian Ebony","WAIST","","Guardian Ebony Odogaron","00000000","NONE","G. Ebony Odogaron Certificate",1,"Guardian Ebony Tail",1,"Guardian Ebony Claw",1,"Guardian Ebony Plate",1
+121,608831568,"Guardian Ebony","LEG","","Guardian Ebony Odogaron","00000000","NONE","Guardian Ebony Scale",2,"Guardian Ebony Claw",1,"",0,"",0
+122,-520728208,"Xu Wu","HELM","","Xu Wu","00000000","NONE","Xu Wu Hide",2,"Golden Corneum",2,"Xu Wu Fang",1,"Tough Guardian Bone",1
+123,-520718208,"Xu Wu","BODY","","Xu Wu","00000000","NONE","Golden Corneum",2,"Xu Wu Tentacle",1,"",0,"",0
+124,-520708208,"Xu Wu","ARM","","Xu Wu","00000000","NONE","Xu Wu Hide",2,"Xu Wu Claw",1,"",0,"",0
+125,-520698208,"Xu Wu","WAIST","","Xu Wu","00000000","NONE","Xu Wu Certificate",1,"Xu Wu Hide",2,"Xu Wu Claw",1,"Xu Wu Cerebrospinal Fluid",1
+126,-520688208,"Xu Wu","LEG","","Xu Wu","00000000","NONE","Xu Wu Claw",1,"Xu Wu Tentacle",1,"Xu Wu Fang",1,"",0
+127,-1346576880,"Guardian Arkveld","HELM","","Guardian Arkveld","00000000","NONE","Guardian Blood",1,"Guardian Rathalos Webbing",2,"Guardian Scale",1,"",0
+128,-1346566880,"Guardian Arkveld","BODY","","Guardian Arkveld","00000000","NONE","Guardian Blood",1,"Guardian Ebony Claw",2,"Tough Guardian Bone",3,"",0
+129,-1346556880,"Guardian Arkveld","ARM","","Guardian Arkveld","00000000","NONE","Guardian Blood",1,"Guardian Scale",2,"Guardian Seikret Feather",2,"",0
+130,-1346546880,"Guardian Arkveld","WAIST","","Guardian Arkveld","00000000","NONE","Guardian Blood",1,"Guardian Doshaguma Claw",2,"Guardian Pelt",1,"",0
+131,-1346536880,"Guardian Arkveld","LEG","","Guardian Arkveld","00000000","NONE","Guardian Blood",1,"Guardian Pelt",2,"",0,"",0
+132,660587600,"Hope α","HELM","","-","65760700","NONE","Sturdy Bone",2,"Iron Ore",1,"",0,"",0
+133,660597600,"Hope α","BODY","","-","65760700","NONE","Sturdy Bone",1,"Earth Crystal",1,"",0,"",0
+134,660607600,"Hope α","ARM","","-","65760700","NONE","Sturdy Bone",2,"Earth Crystal",1,"",0,"",0
+135,660617600,"Hope α","WAIST","","-","65760700","NONE","Sturdy Bone",1,"Iron Ore",1,"",0,"",0
+136,660627600,"Hope α","LEG","","-","65760700","NONE","Sturdy Bone",3,"",0,"",0,"",0
+137,1845874960,"Leather α","HELM","","-","65760700","NONE","Guardian Pelt",1,"",0,"",0,"",0
+138,1845884960,"Leather α","BODY","","-","65760700","NONE","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
+139,1845894960,"Leather α","ARM","","-","65760700","NONE","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
+140,1845904960,"Leather α","WAIST","","-","65760700","NONE","Guardian Pelt",1,"",0,"",0,"",0
+141,1845914960,"Leather α","LEG","","-","65760700","NONE","Guardian Pelt",1,"Machalite Ore",1,"",0,"",0
+142,2013203984,"Chainmail α","HELM","","-","65760700","NONE","Guardian Scale",1,"Icium",1,"",0,"",0
+143,2013213984,"Chainmail α","BODY","","-","65760700","NONE","Guardian Scale",1,"",0,"",0,"",0
+144,2013223984,"Chainmail α","ARM","","-","65760700","NONE","Guardian Scale",1,"Icium",1,"",0,"",0
+145,2013233984,"Chainmail α","WAIST","","-","65760700","NONE","Guardian Scale",1,"",0,"",0,"",0
+146,2013243984,"Chainmail α","LEG","","-","65760700","NONE","Guardian Scale",1,"Icium",1,"",0,"",0
+147,-1830980336,"Bone α","HELM","","-","65760700","NONE","Quality Bone",1,"Frozen Icebone",1,"",0,"",0
+148,-1830970336,"Bone α","BODY","","-","65760700","NONE","Quality Bone",1,"Charred Oilbone",1,"",0,"",0
+149,-1830960336,"Bone α","ARM","","-","65760700","NONE","Quality Bone",1,"Frozen Icebone",1,"",0,"",0
+150,-1830950336,"Bone α","WAIST","","-","65760700","NONE","Quality Bone",1,"Tough Guardian Bone",1,"",0,"",0
+151,-1830940336,"Bone α","LEG","","-","65760700","NONE","Quality Bone",1,"Charred Oilbone",1,"",0,"",0
+152,-1862494960,"Alloy α","HELM","","-","65760700","NONE","Carbalite Ore",1,"Dragonite Ore",3,"",0,"",0
+153,-1862484960,"Alloy α","BODY","","-","65760700","NONE","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
+154,-1862474960,"Alloy α","ARM","","-","65760700","NONE","Carbalite Ore",1,"Dragonite Ore",3,"",0,"",0
+155,-1862464960,"Alloy α","WAIST","","-","65760700","NONE","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
+156,-1862454960,"Alloy α","LEG","","-","65760700","NONE","Carbalite Ore",1,"Dragonite Ore",2,"",0,"",0
+157,1719990800,"Bulaqchi α","HELM","","-","65760700","NONE","Bulaqchi Carapace",5,"",0,"",0,"",0
+158,790337424,"Bulaqchi β","HELM","","-","65760700","NONE","Bulaqchi Carapace",5,"",0,"",0,"",0
+159,-1128762192,"Talioth α","ARM","","-","65760700","NONE","Talioth Scale+",3,"Acute Fang",2,"",0,"",0
+160,1122670768,"Talioth β","ARM","","-","65760700","NONE","Talioth Scale+",3,"Acute Fang",2,"",0,"",0
+161,303282896,"Piragill α","LEG","","-","65760700","NONE","Piragill Fin+",3,"Carbalite Ore",2,"",0,"",0
+162,139667472,"Piragill β","LEG","","-","65760700","NONE","Piragill Fin+",3,"Carbalite Ore",2,"",0,"",0
+163,-2040652912,"Vespoid α","HELM","","-","65760700","NONE","Vespoid Carapace",2,"Monster Broth",3,"",0,"",0
+164,-2040642912,"Vespoid α","BODY","","-","65760700","NONE","Vespoid Carapace",2,"Vespoid Innerwing",2,"",0,"",0
+165,-2040632912,"Vespoid α","ARM","","-","65760700","NONE","Vespoid Carapace",2,"Vespoid Innerwing",3,"",0,"",0
+166,-2040622912,"Vespoid α","WAIST","","-","65760700","NONE","Vespoid Carapace",2,"Quality Bone",2,"",0,"",0
+167,-2040612912,"Vespoid α","LEG","","-","65760700","NONE","Vespoid Carapace",2,"Quality Bone",1,"",0,"",0
+168,744522064,"Vespoid β","HELM","","-","65760700","NONE","Vespoid Carapace",2,"Monster Broth",3,"",0,"",0
+169,744532064,"Vespoid β","BODY","","-","65760700","NONE","Vespoid Carapace",2,"Vespoid Innerwing",2,"",0,"",0
+170,744542064,"Vespoid β","ARM","","-","65760700","NONE","Vespoid Carapace",2,"Vespoid Innerwing",3,"",0,"",0
+171,744552064,"Vespoid β","WAIST","","-","65760700","NONE","Vespoid Carapace",2,"Quality Bone",2,"",0,"",0
+172,744562064,"Vespoid β","LEG","","-","65760700","NONE","Vespoid Carapace",2,"Quality Bone",1,"",0,"",0
+173,-1284110432,"Kranodath α","BODY","","-","65760700","NONE","Kranodath Skull+",4,"Firecell Stone",2,"",0,"",0
+174,1349307168,"Kranodath β","BODY","","-","65760700","NONE","Kranodath Skull+",4,"Firecell Stone",2,"",0,"",0
+175,2048570000,"Comaqchi α","HELM","","-","65760700","NONE","Comaqchi Carapace",5,"",0,"",0,"",0
+176,-1569694320,"Comaqchi β","HELM","","-","65760700","NONE","Comaqchi Carapace",5,"",0,"",0,"",0
+177,-636722672,"Kut-Ku α","HELM","","Yian Kut-Ku","00000000","NONE","Kut-Ku Scale+",2,"Kut-Ku Wing",2,"Monster Keenbone",1,"",0
+178,-636712672,"Kut-Ku α","BODY","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Kut-Ku Scale+",2,"Kut-Ku Wing",1,"Firecell Stone",1
+179,-636702672,"Kut-Ku α","ARM","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Kut-Ku Carapace",3,"Giant Beak",1,"",0
+180,-636692672,"Kut-Ku α","WAIST","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Giant Beak",3,"Kut-Ku Ear",1,"Inferno Sac",1
+181,-636682672,"Kut-Ku α","LEG","","Yian Kut-Ku","00000000","NONE","Kut-Ku Scale+",2,"Kut-Ku Carapace",2,"Kut-Ku Wing",1,"Kut-Ku Ear",1
+182,459961104,"Kut-Ku β","HELM","","Yian Kut-Ku","00000000","NONE","Kut-Ku Scale+",2,"Kut-Ku Wing",2,"Monster Keenbone",1,"",0
+183,459971104,"Kut-Ku β","BODY","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Kut-Ku Scale+",2,"Kut-Ku Wing",1,"Firecell Stone",1
+184,459981104,"Kut-Ku β","ARM","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Kut-Ku Carapace",3,"Giant Beak",1,"",0
+185,459991104,"Kut-Ku β","WAIST","","Yian Kut-Ku","00000000","NONE","Yian Kut-Ku Certificate S",1,"Giant Beak",3,"Kut-Ku Ear",1,"Inferno Sac",1
+186,460001104,"Kut-Ku β","LEG","","Yian Kut-Ku","00000000","NONE","Kut-Ku Scale+",2,"Kut-Ku Carapace",2,"Kut-Ku Wing",1,"Kut-Ku Ear",1
+187,-1843255280,"Chatacabra α","HELM","","-","65760700","NONE","Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Stoutbone",1,"",0
+188,-1843245280,"Chatacabra α","BODY","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Carapace",2,"Quality Bone",1,"",0
+189,-1843235280,"Chatacabra α","ARM","","-","65760700","NONE","Chatacabra Scale+",2,"Chatacabra Hide+",2,"Chatacabra Jaw+",1,"Chatacabra Carapace",1
+190,-1843225280,"Chatacabra α","WAIST","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Hide+",3,"Chatacabra Carapace",1,"",0
+191,-1843215280,"Chatacabra α","LEG","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Wingdrake Hide+",1
+192,297921136,"Chatacabra β","HELM","","-","65760700","NONE","Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Stoutbone",1,"",0
+193,297931136,"Chatacabra β","BODY","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Carapace",2,"Quality Bone",1,"",0
+194,297941136,"Chatacabra β","ARM","","-","65760700","NONE","Chatacabra Scale+",2,"Chatacabra Hide+",2,"Chatacabra Jaw+",1,"Chatacabra Carapace",1
+195,297951136,"Chatacabra β","WAIST","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Hide+",3,"Chatacabra Carapace",1,"",0
+196,297961136,"Chatacabra β","LEG","","-","65760700","NONE","Chatacabra Certificate S",1,"Chatacabra Scale+",2,"Chatacabra Jaw+",1,"Wingdrake Hide+",1
+197,307888816,"Quematrice α","HELM","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Igniter+",2,"Quematrice Hide+",2,"Quality Bone",1
+198,307898816,"Quematrice α","BODY","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Crest+",1,"Quematrice Tail",1,"Firestone",1
+199,307908816,"Quematrice α","ARM","","-","65760700","NONE","Quematrice Scale+",3,"Quematrice Hide+",3,"Quematrice Igniter+",1,"Quematrice Crest+",1
+200,307918816,"Quematrice α","WAIST","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Hide+",2,"Quematrice Crest+",1,"",0
+201,307928816,"Quematrice α","LEG","","-","65760700","NONE","Quematrice Scale+",3,"Quematrice Igniter+",1,"Monster Keenbone",1,"",0
+202,-647486960,"Quematrice β","HELM","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Igniter+",2,"Quematrice Hide+",2,"Quality Bone",1
+203,-647476960,"Quematrice β","BODY","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Crest+",1,"Quematrice Tail",1,"Firestone",1
+204,-647466960,"Quematrice β","ARM","","-","65760700","NONE","Quematrice Scale+",3,"Quematrice Hide+",3,"Quematrice Igniter+",1,"Quematrice Crest+",1
+205,-647456960,"Quematrice β","WAIST","","-","65760700","NONE","Quematrice Certificate S",1,"Quematrice Hide+",2,"Quematrice Crest+",1,"",0
+206,-647446960,"Quematrice β","LEG","","-","65760700","NONE","Quematrice Scale+",3,"Quematrice Igniter+",1,"Monster Keenbone",1,"",0
+207,3259367,"Lala Barina α","HELM","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Carapace",3,"Lala Barina Claw+",2,"",0
+208,3269367,"Lala Barina α","BODY","","-","65760700","NONE","Lala Barina Floret+",2,"Lala Barina Carapace",2,"Lala Barina Mucus+",1,"Lala Barina Stinger+",1
+209,3279367,"Lala Barina α","ARM","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Claw+",1,"Lala Barina Stinger+",1,"Monster Broth",1
+210,3289367,"Lala Barina α","WAIST","","-","65760700","NONE","Lala Barina Floret+",2,"Lala Barina Mucus+",2,"Carbalite Ore",2,"",0
+211,3299367,"Lala Barina α","LEG","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Floret+",2,"Lala Barina Mucus+",1,"Novacrystal",1
+212,-631490928,"Lala Barina β","HELM","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Carapace",3,"Lala Barina Claw+",2,"",0
+213,-631480928,"Lala Barina β","BODY","","-","65760700","NONE","Lala Barina Floret+",2,"Lala Barina Carapace",2,"Lala Barina Mucus+",1,"Lala Barina Stinger+",1
+214,-631470928,"Lala Barina β","ARM","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Claw+",1,"Lala Barina Stinger+",1,"Monster Broth",1
+215,-631460928,"Lala Barina β","WAIST","","-","65760700","NONE","Lala Barina Floret+",2,"Lala Barina Mucus+",2,"Carbalite Ore",2,"",0
+216,-631450928,"Lala Barina β","LEG","","-","65760700","NONE","Lala Barina Certificate S",1,"Lala Barina Floret+",2,"Lala Barina Mucus+",1,"Novacrystal",1
+217,-2117193456,"Conga α","HELM","","-","65760700","NONE","Congalala Pelt+",2,"Congalala Fang+",1,"Stoutbone",1,"",0
+218,-2117183456,"Conga α","BODY","","-","65760700","NONE","Congalala Pelt+",2,"Congalala Claw+",2,"Congalala Fang+",1,"Vibrant Pelt+",1
+219,-2117173456,"Conga α","ARM","","-","65760700","NONE","Congalala Certificate S",1,"Vibrant Pelt+",1,"Conga Pelt+",2,"",0
+220,-2117163456,"Conga α","WAIST","","-","65760700","NONE","Congalala Certificate S",1,"Congalala Claw+",3,"Vibrant Pelt+",1,"",0
+221,-2117153456,"Conga α","LEG","","-","65760700","NONE","Congalala Certificate S",1,"Congalala Pelt+",2,"Congalala Fang+",1,"Acute Fang",1
+222,-1456497776,"Conga β","HELM","","-","65760700","NONE","Congalala Pelt+",2,"Congalala Fang+",1,"Stoutbone",1,"",0
+223,-1456487776,"Conga β","BODY","","-","65760700","NONE","Congalala Pelt+",2,"Congalala Claw+",2,"Congalala Fang+",1,"Vibrant Pelt+",1
+224,-1456477776,"Conga β","ARM","","-","65760700","NONE","Congalala Certificate S",1,"Vibrant Pelt+",1,"Conga Pelt+",2,"",0
+225,-1456467776,"Conga β","WAIST","","-","65760700","NONE","Congalala Certificate S",1,"Congalala Claw+",3,"Vibrant Pelt+",1,"",0
+226,-1456457776,"Conga β","LEG","","-","65760700","NONE","Congalala Certificate S",1,"Congalala Pelt+",2,"Congalala Fang+",1,"Acute Fang",1
+227,2113420944,"Rompopolo α","HELM","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Claw+",3,"Rompopolo Beak+",1,"",0
+228,2113430944,"Rompopolo α","BODY","","-","65760700","NONE","Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Monster Keenbone",1,"",0
+229,2113440944,"Rompopolo α","ARM","","-","65760700","NONE","Rompopolo Hide+",2,"Rompopolo Claw+",2,"Spotted Poison Hide+",1,"Rompopolo Beak+",1
+230,2113450944,"Rompopolo α","WAIST","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Kranodath Skull+",1
+231,2113460944,"Rompopolo α","LEG","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Beak+",2,"Toxin Sac",1,"",0
+232,1064469456,"Rompopolo β","HELM","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Claw+",3,"Rompopolo Beak+",1,"",0
+233,1064479456,"Rompopolo β","BODY","","-","65760700","NONE","Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Monster Keenbone",1,"",0
+234,1064489456,"Rompopolo β","ARM","","-","65760700","NONE","Rompopolo Hide+",2,"Rompopolo Claw+",2,"Spotted Poison Hide+",1,"Rompopolo Beak+",1
+235,1064499456,"Rompopolo β","WAIST","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Hide+",2,"Spotted Poison Hide+",2,"Kranodath Skull+",1
+236,1064509456,"Rompopolo β","LEG","","-","65760700","NONE","Rompopolo Certificate S",1,"Rompopolo Beak+",2,"Toxin Sac",1,"",0
+237,-1400384880,"Gypceros α","HELM","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Gypceros Wing",2,"Gypceros Head",1,"",0
+238,-1400374880,"Gypceros α","BODY","","Gypceros","00000000","NONE","Rubbery Hide+",2,"Gypceros Wing",1,"Gypceros Tail",1,"Gypceros Head",1
+239,-1400364880,"Gypceros α","ARM","","Gypceros","00000000","NONE","Rubbery Hide+",2,"Gypceros Tail",1,"Monster Keenbone",1,"",0
+240,-1400354880,"Gypceros α","WAIST","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Rubbery Hide+",2,"Gypceros Tail",1,"Novacrystal",1
+241,-1400344880,"Gypceros α","LEG","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Gypceros Head",1,"Toxin Sac",1,"",0
+242,-805132080,"Gypceros β","HELM","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Gypceros Wing",2,"Gypceros Head",1,"",0
+243,-805122080,"Gypceros β","BODY","","Gypceros","00000000","NONE","Rubbery Hide+",2,"Gypceros Wing",1,"Gypceros Tail",1,"Gypceros Head",1
+244,-805112080,"Gypceros β","ARM","","Gypceros","00000000","NONE","Rubbery Hide+",2,"Gypceros Tail",1,"Monster Keenbone",1,"",0
+245,-805102080,"Gypceros β","WAIST","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Rubbery Hide+",2,"Gypceros Tail",1,"Novacrystal",1
+246,-805092080,"Gypceros β","LEG","","Gypceros","00000000","NONE","Gypceros Certificate S",1,"Gypceros Head",1,"Toxin Sac",1,"",0
+247,1116503056,"Nerscylla α","HELM","Nerscylla Carapace","-","00000000","NONE","Nerscylla Carapace",2,"Nerscylla Shear",1,"Monster Broth",2,"",0
+248,1116513056,"Nerscylla α","BODY","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Shear",1,"Nerscylla Claw+",2,"Bird Wyvern Gem",1
+249,1116523056,"Nerscylla α","ARM","Nerscylla Carapace","-","00000000","NONE","Nerscylla Carapace",3,"Nerscylla Claw+",3,"Nerscylla Shear",1,"Nerscylla Spike+",1
+250,1116533056,"Nerscylla α","WAIST","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Claw+",2,"Nerscylla Spike+",2,"Comaqchi Carapace",2
+251,1116543056,"Nerscylla α","LEG","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Spike+",1,"Rubbery Hide+",2,"Coma Sac",1
+252,-1535106544,"Nerscylla β","HELM","Nerscylla Carapace","-","00000000","NONE","Nerscylla Carapace",2,"Nerscylla Shear",1,"Monster Broth",2,"",0
+253,-1535096544,"Nerscylla β","BODY","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Shear",1,"Nerscylla Claw+",2,"Bird Wyvern Gem",1
+254,-1535086544,"Nerscylla β","ARM","Nerscylla Carapace","-","00000000","NONE","Nerscylla Carapace",3,"Nerscylla Claw+",3,"Nerscylla Shear",1,"Nerscylla Spike+",1
+255,-1535076544,"Nerscylla β","WAIST","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Claw+",2,"Nerscylla Spike+",2,"Comaqchi Carapace",2
+256,-1535066544,"Nerscylla β","LEG","Nerscylla Carapace","-","00000000","NONE","Nerscylla Certificate S",1,"Nerscylla Spike+",1,"Rubbery Hide+",2,"Coma Sac",1
+257,-932850800,"Balahara α","HELM","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Carapace",2,"Balahara Skull+",1,"",0
+258,-932840800,"Balahara α","BODY","Balahara Scale+","-","00000000","NONE","Balahara Scale+",2,"Balahara Skull+",1,"Monster Keenbone",1,"",0
+259,-932830800,"Balahara α","ARM","Balahara Scale+","-","00000000","NONE","Balahara Scale+",2,"Balahara Carapace",2,"Balahara Skull+",1,"Balahara Tail",1
+260,-932820800,"Balahara α","WAIST","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Skull+",1,"Torrent Sac",1,"",0
+261,-932810800,"Balahara α","LEG","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Scale+",2,"Balahara Carapace",2,"Balahara Black Pearl",1
+262,12340399,"Balahara β","HELM","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Carapace",2,"Balahara Skull+",1,"",0
+263,12350399,"Balahara β","BODY","Balahara Scale+","-","00000000","NONE","Balahara Scale+",2,"Balahara Skull+",1,"Monster Keenbone",1,"",0
+264,12360399,"Balahara β","ARM","Balahara Scale+","-","00000000","NONE","Balahara Scale+",2,"Balahara Carapace",2,"Balahara Skull+",1,"Balahara Tail",1
+265,12370399,"Balahara β","WAIST","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Skull+",1,"Torrent Sac",1,"",0
+266,12380399,"Balahara β","LEG","Balahara Scale+","-","00000000","NONE","Balahara Certificate S",1,"Balahara Scale+",2,"Balahara Carapace",2,"Balahara Black Pearl",1
+267,-1118116720,"Hirabami α","HELM","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Hide+",3,"Hirabami Tail Claw+",2,"",0
+268,-1118106720,"Hirabami α","BODY","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Tail Claw+",1,"Freezer Sac",1,"",0
+269,-1118096720,"Hirabami α","ARM","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Scale+",2,"Hirabami Webbing+",1,"Wyvern Gem",1
+270,-1118086720,"Hirabami α","WAIST","Hirabami Scale+","-","00000000","NONE","Hirabami Scale+",2,"Hirabami Webbing+",1,"Monster Keenbone",1,"",0
+271,-1118076720,"Hirabami α","LEG","Hirabami Scale+","-","00000000","NONE","Hirabami Scale+",2,"Hirabami Hide+",2,"Hirabami Webbing+",2,"Hirabami Tail Claw+",1
+272,951302800,"Hirabami β","HELM","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Hide+",3,"Hirabami Tail Claw+",2,"",0
+273,951312800,"Hirabami β","BODY","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Tail Claw+",1,"Freezer Sac",1,"",0
+274,951322800,"Hirabami β","ARM","Hirabami Scale+","-","00000000","NONE","Hirabami Certificate S",1,"Hirabami Scale+",2,"Hirabami Webbing+",1,"Wyvern Gem",1
+275,951332800,"Hirabami β","WAIST","Hirabami Scale+","-","00000000","NONE","Hirabami Scale+",2,"Hirabami Webbing+",1,"Monster Keenbone",1,"",0
+276,951342800,"Hirabami β","LEG","Hirabami Scale+","-","00000000","NONE","Hirabami Scale+",2,"Hirabami Hide+",2,"Hirabami Webbing+",2,"Hirabami Tail Claw+",1
+277,-1376653552,"Rathian α","HELM","Rathian Scale+","-","00000000","NONE","Rathian Scale+",2,"Rathian Webbing",2,"Monster Keenbone",2,"",0
+278,-1376643552,"Rathian α","BODY","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Scale+",2,"Rathian Ruby",1,"",0
+279,-1376633552,"Rathian α","ARM","Rathian Scale+","-","00000000","NONE","Rathian Scale+",3,"Rathian Carapace",3,"Rathian Spike+",2,"Toxin Sac",2
+280,-1376623552,"Rathian α","WAIST","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Carapace",1,"Rath Medulla",1,"",0
+281,-1376613552,"Rathian α","LEG","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Carapace",2,"Rathian Webbing",2,"Dragonbone Relic",1
+282,-1581536752,"Rathian β","HELM","Rathian Scale+","-","00000000","NONE","Rathian Scale+",2,"Rathian Webbing",2,"Monster Keenbone",2,"",0
+283,-1581526752,"Rathian β","BODY","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Scale+",2,"Rathian Ruby",1,"",0
+284,-1581516752,"Rathian β","ARM","Rathian Scale+","-","00000000","NONE","Rathian Scale+",3,"Rathian Carapace",3,"Rathian Spike+",2,"Toxin Sac",2
+285,-1581506752,"Rathian β","WAIST","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Carapace",1,"Rath Medulla",1,"",0
+286,-1581496752,"Rathian β","LEG","Rathian Scale+","-","00000000","NONE","Rathian Certificate S",1,"Rathian Carapace",2,"Rathian Webbing",2,"Dragonbone Relic",1
+287,-1077020272,"Ingot α","HELM","","-","85F88180","NONE","Fucium Ore",1,"Carbalite Ore",2,"Firecell Stone",1,"",0
+288,-1077010272,"Ingot α","BODY","","-","85F88180","NONE","Fucium Ore",1,"Carbalite Ore",1,"Icium",4,"",0
+289,-1077000272,"Ingot α","ARM","","-","85F88180","NONE","Fucium Ore",1,"Carbalite Ore",2,"Lightcrystal",2,"",0
+290,-1076990272,"Ingot α","WAIST","","-","85F88180","NONE","Fucium Ore",1,"Carbalite Ore",3,"Novacrystal",1,"",0
+291,-1076980272,"Ingot α","LEG","","-","85F88180","NONE","Fucium Ore",1,"Carbalite Ore",1,"Firestone",2,"",0
+292,253755744,"Guardian Seikret α","WAIST","","-","85F88180","NONE","Guardian Seikret Feather+",4,"Tough Guardian Bone",4,"",0,"",0
+293,-355127712,"Guardian Seikret β","WAIST","","-","85F88180","NONE","Guardian Seikret Feather+",4,"Tough Guardian Bone",4,"",0,"",0
+294,-238499872,"Gajau α","LEG","","-","85F88180","NONE","Gajau Hide",3,"Monster Broth",5,"",0,"",0
+295,1493213456,"Guardian Fulgur α","HELM","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",1,"Guardian Fulgur Pelt+",5,"Guardian Fulgur Nosebone+",4,"Thunder Sac",3
+296,1493223456,"Guardian Fulgur α","BODY","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",2,"Guardian Fulgur Nosebone+",4,"Guardian Fulgur Fang+",4,"Wyvern Gem",1
+297,1493233456,"Guardian Fulgur α","ARM","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Scale+",5,"Guardian Fulgur Fang+",3,"Guardian Pelt+",3,"",0
+298,1493243456,"Guardian Fulgur α","WAIST","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",1,"Guardian Fulgur Scale+",3,"Guardian Fulgur Fang+",2,"Guardian Fulgur Gem",1
+299,1493253456,"Guardian Fulgur α","LEG","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Scale+",6,"Guardian Fulgur Pelt+",6,"Guardian Fulgur Tail",2,"Guardian Blood+",2
+300,1725749136,"Guardian Fulgur β","HELM","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",1,"Guardian Fulgur Pelt+",5,"Guardian Fulgur Nosebone+",4,"Thunder Sac",3
+301,1725759136,"Guardian Fulgur β","BODY","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",2,"Guardian Fulgur Nosebone+",4,"Guardian Fulgur Fang+",4,"Wyvern Gem",1
+302,1725769136,"Guardian Fulgur β","ARM","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Scale+",5,"Guardian Fulgur Fang+",3,"Guardian Pelt+",3,"",0
+303,1725779136,"Guardian Fulgur β","WAIST","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Certificate S",1,"Guardian Fulgur Scale+",3,"Guardian Fulgur Fang+",2,"Guardian Fulgur Gem",1
+304,1725789136,"Guardian Fulgur β","LEG","","Guardian Fulgur Anjanath","00000000","NONE","Guardian Fulgur Scale+",6,"Guardian Fulgur Pelt+",6,"Guardian Fulgur Tail",2,"Guardian Blood+",2
+305,884431248,"Doshaguma α","HELM","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",2,"Doshaguma Fang+",3,"Quality Bone",2,"",0
+306,884441248,"Doshaguma α","BODY","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",1,"Doshaguma Hide+",5,"Doshaguma Fang+",2,"Herbivore Carapace",2
+307,884451248,"Doshaguma α","ARM","Doshaguma Fur+","-","00000000","NONE","Doshaguma Fur+",3,"Doshaguma Claw+",2,"Doshaguma Fang+",2,"Great Stoutbone",3
+308,884461248,"Doshaguma α","WAIST","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",1,"Doshaguma Fur+",5,"Doshaguma Claw+",3,"Beast Gem",1
+309,884471248,"Doshaguma α","LEG","Doshaguma Fur+","-","00000000","NONE","Doshaguma Fur+",3,"Doshaguma Hide+",4,"Doshaguma Claw+",2,"Acute Fang",2
+310,130312384,"Doshaguma β","HELM","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",2,"Doshaguma Fang+",3,"Quality Bone",2,"",0
+311,130322384,"Doshaguma β","BODY","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",1,"Doshaguma Hide+",5,"Doshaguma Fang+",2,"Herbivore Carapace",2
+312,130332384,"Doshaguma β","ARM","Doshaguma Fur+","-","00000000","NONE","Doshaguma Fur+",3,"Doshaguma Claw+",2,"Doshaguma Fang+",2,"Great Stoutbone",3
+313,130342384,"Doshaguma β","WAIST","Doshaguma Fur+","-","00000000","NONE","Doshaguma Certificate S",1,"Doshaguma Fur+",5,"Doshaguma Claw+",3,"Beast Gem",1
+314,130352384,"Doshaguma β","LEG","Doshaguma Fur+","-","00000000","NONE","Doshaguma Fur+",3,"Doshaguma Hide+",4,"Doshaguma Claw+",2,"Acute Fang",2
+315,472250160,"Guardian Doshaguma α","HELM","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",2,"Guardian Doshaguma Claw+",2,"Guardian Doshaguma Fang+",3,"Guardian Blood+",2
+316,472260160,"Guardian Doshaguma α","BODY","Guardian Doshaguma Fur+","-","00000000","NONE","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Claw+",2,"Guardian Pelt+",3,"",0
+317,472270160,"Guardian Doshaguma α","ARM","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",1,"Guardian Doshaguma Fur+",5,"Guardian Doshaguma Claw+",3,"Beast Gem",1
+318,472280160,"Guardian Doshaguma α","WAIST","Guardian Doshaguma Fur+","-","00000000","NONE","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Hide+",4,"Guardian Doshaguma Fang+",2,"Stoutbone",2
+319,472290160,"Guardian Doshaguma α","LEG","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",1,"Guardian Doshaguma Hide+",5,"Guardian Doshaguma Fang+",2,"Guardian Seikret Feather+",2
+320,29907828,"Guardian Doshaguma β","HELM","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",2,"Guardian Doshaguma Claw+",2,"Guardian Doshaguma Fang+",3,"Guardian Blood+",2
+321,29917828,"Guardian Doshaguma β","BODY","Guardian Doshaguma Fur+","-","00000000","NONE","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Claw+",2,"Guardian Pelt+",3,"",0
+322,29927828,"Guardian Doshaguma β","ARM","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",1,"Guardian Doshaguma Fur+",5,"Guardian Doshaguma Claw+",3,"Beast Gem",1
+323,29937828,"Guardian Doshaguma β","WAIST","Guardian Doshaguma Fur+","-","00000000","NONE","Guardian Doshaguma Fur+",3,"Guardian Doshaguma Hide+",4,"Guardian Doshaguma Fang+",2,"Stoutbone",2
+324,29947828,"Guardian Doshaguma β","LEG","Guardian Doshaguma Fur+","-","00000000","NONE","G. Doshaguma Certificate S",1,"Guardian Doshaguma Hide+",5,"Guardian Doshaguma Fang+",2,"Guardian Seikret Feather+",2
+325,1905432464,"Ajarakan α","HELM","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",1,"Ajarakan Carapace",5,"Ajarakan Ridge+",4,"Charred Oilbone",2
+326,1905442464,"Ajarakan α","BODY","Ajarakan Scale+","-","00000000","NONE","Ajarakan Scale+",5,"Ajarakan Jewel+",3,"Great Stoutbone",3,"",0
+327,1905452464,"Ajarakan α","ARM","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",1,"Ajarakan Jewel+",2,"Ajarakan Scale+",3,"Ajarakan Medulla",1
+328,1905462464,"Ajarakan α","WAIST","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",2,"Ajarakan Ridge+",2,"Ajarakan Tail",2,"Ajarakan Marrow",1
+329,1905472464,"Ajarakan α","LEG","Ajarakan Scale+","-","00000000","NONE","Ajarakan Scale+",6,"Ajarakan Carapace",6,"Ajarakan Jewel+",4,"Ajarakan Ridge+",3
+330,1354800272,"Ajarakan β","HELM","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",1,"Ajarakan Carapace",5,"Ajarakan Ridge+",4,"Charred Oilbone",2
+331,1354810272,"Ajarakan β","BODY","Ajarakan Scale+","-","00000000","NONE","Ajarakan Scale+",5,"Ajarakan Jewel+",3,"Great Stoutbone",3,"",0
+332,1354820272,"Ajarakan β","ARM","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",1,"Ajarakan Jewel+",2,"Ajarakan Scale+",3,"Ajarakan Medulla",1
+333,1354830272,"Ajarakan β","WAIST","Ajarakan Scale+","-","00000000","NONE","Ajarakan Certificate S",2,"Ajarakan Ridge+",2,"Ajarakan Tail",2,"Ajarakan Marrow",1
+334,1354840272,"Ajarakan β","LEG","Ajarakan Scale+","-","00000000","NONE","Ajarakan Scale+",6,"Ajarakan Carapace",6,"Ajarakan Jewel+",4,"Ajarakan Ridge+",3
+335,1552534288,"Guardian Ebony α","HELM","Guardian Ebony Scale+","-","00000000","NONE","Guardian Ebony Scale+",6,"Guardian Ebony Sinew+",6,"Guardian Ebony Claw+",4,"Guardian Ebony Fang+",3
+336,1552544288,"Guardian Ebony α","BODY","Guardian Ebony Scale+","-","00000000","NONE","Guardian Ebony Scale+",5,"Guardian Ebony Claw+",3,"Guardian Scale+",3,"",0
+337,1552554288,"Guardian Ebony α","ARM","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Claw+",2,"Guardian Ebony Scale+",3,"Guardian Ebony Gem",1
+338,1552564288,"Guardian Ebony α","WAIST","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",2,"Guardian Ebony Fang+",2,"Guardian Ebony Tail",2,"Guardian Ebony Plate",1
+339,1552574288,"Guardian Ebony α","LEG","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Sinew+",5,"Guardian Ebony Fang+",4,"Tough Guardian Bone",2
+340,124531752,"Guardian Ebony β","HELM","Guardian Ebony Scale+","-","00000000","NONE","Guardian Ebony Scale+",6,"Guardian Ebony Sinew+",6,"Guardian Ebony Claw+",4,"Guardian Ebony Fang+",3
+341,124541752,"Guardian Ebony β","BODY","Guardian Ebony Scale+","-","00000000","NONE","Guardian Ebony Scale+",5,"Guardian Ebony Claw+",3,"Guardian Scale+",3,"",0
+342,124551752,"Guardian Ebony β","ARM","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Claw+",2,"Guardian Ebony Scale+",3,"Guardian Ebony Gem",1
+343,124561752,"Guardian Ebony β","WAIST","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",2,"Guardian Ebony Fang+",2,"Guardian Ebony Tail",2,"Guardian Ebony Plate",1
+344,124571752,"Guardian Ebony β","LEG","Guardian Ebony Scale+","-","00000000","NONE","G. Ebony Odogaron Certificate S",1,"Guardian Ebony Sinew+",5,"Guardian Ebony Fang+",4,"Tough Guardian Bone",2
+345,-796402032,"Xu Wu α","HELM","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",2,"Xu Wu Tentacle+",4,"Xu Wu Fang+",5,"Xu Wu Cerebrospinal Fluid",1
+346,-796392032,"Xu Wu α","BODY","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",1,"Xu Wu Hide+",4,"Xu Wu Claw+",4,"Xu Wu Umbragem",1
+347,-796382032,"Xu Wu α","ARM","Xu Wu Hide+","-","00000000","NONE","Xu Wu Hide+",6,"Golden Corneum+",6,"Xu Wu Claw+",3,"Xu Wu Fang+",3
+348,-796372032,"Xu Wu α","WAIST","Xu Wu Hide+","-","00000000","NONE","Xu Wu Hide+",5,"Xu Wu Claw+",3,"Guardian Seikret Feather+",2,"",0
+349,-796362032,"Xu Wu α","LEG","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",1,"Golden Corneum+",5,"Xu Wu Tentacle+",4,"Torrent Sac",2
+350,1827384976,"Xu Wu β","HELM","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",2,"Xu Wu Tentacle+",4,"Xu Wu Fang+",5,"Xu Wu Cerebrospinal Fluid",1
+351,1827394976,"Xu Wu β","BODY","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",1,"Xu Wu Hide+",4,"Xu Wu Claw+",4,"Xu Wu Umbragem",1
+352,1827404976,"Xu Wu β","ARM","Xu Wu Hide+","-","00000000","NONE","Xu Wu Hide+",6,"Golden Corneum+",6,"Xu Wu Claw+",3,"Xu Wu Fang+",3
+353,1827414976,"Xu Wu β","WAIST","Xu Wu Hide+","-","00000000","NONE","Xu Wu Hide+",5,"Xu Wu Claw+",3,"Guardian Seikret Feather+",2,"",0
+354,1827424976,"Xu Wu β","LEG","Xu Wu Hide+","-","00000000","NONE","Xu Wu Certificate S",1,"Golden Corneum+",5,"Xu Wu Tentacle+",4,"Torrent Sac",2
+355,1769669776,"Rathalos α","HELM","","Rathalos","00000000","NONE","Rathalos Scale+",5,"Rathalos Wing",3,"Monster Keenbone",3,"",0
+356,1769679776,"Rathalos α","BODY","","Rathalos","00000000","NONE","Rathalos Scale+",6,"Rathalos Carapace",6,"Rathalos Tail",2,"Dragonbone Relic",1
+357,1769689776,"Rathalos α","ARM","","Rathalos","00000000","NONE","Rathalos Certificate S",1,"Rathalos Scale+",4,"Rathalos Ruby",1,"Inferno Sac",3
+358,1769699776,"Rathalos α","WAIST","","Rathalos","00000000","NONE","Rathalos Certificate S",2,"Rathalos Carapace",3,"Rath Medulla",1,"Firestone",2
+359,1769709776,"Rathalos α","LEG","","Rathalos","00000000","NONE","Rathalos Certificate S",1,"Rathalos Carapace",5,"Rathalos Wing",4,"Wingdrake Hide+",2
+360,-1853771504,"Rathalos β","HELM","","Rathalos","00000000","NONE","Rathalos Scale+",5,"Rathalos Wing",3,"Monster Keenbone",3,"",0
+361,-1853761504,"Rathalos β","BODY","","Rathalos","00000000","NONE","Rathalos Scale+",6,"Rathalos Carapace",6,"Rathalos Tail",2,"Dragonbone Relic",1
+362,-1853751504,"Rathalos β","ARM","","Rathalos","00000000","NONE","Rathalos Certificate S",1,"Rathalos Scale+",4,"Rathalos Ruby",1,"Inferno Sac",3
+363,-1853741504,"Rathalos β","WAIST","","Rathalos","00000000","NONE","Rathalos Certificate S",2,"Rathalos Carapace",3,"Rath Medulla",1,"Firestone",2
+364,-1853731504,"Rathalos β","LEG","","Rathalos","00000000","NONE","Rathalos Certificate S",1,"Rathalos Carapace",5,"Rathalos Wing",4,"Wingdrake Hide+",2
+365,-1309868016,"Guardian Rathalos α","HELM","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",1,"Guardian Rathalos Carapace",5,"Guardian Rathalos Wing",2,"Novacrystal",1
+366,-1309858016,"Guardian Rathalos α","BODY","Guardian Rathalos Scale+","-","00000000","NONE","Guardian Rathalos Scale+",5,"Guardian Rathalos Wing",2,"Guardian Scale+",3,"",0
+367,-1309848016,"Guardian Rathalos α","ARM","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",1,"Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",5,"Guardian Rathalos Ruby",1
+368,-1309838016,"Guardian Rathalos α","WAIST","Guardian Rathalos Scale+","-","00000000","NONE","Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",6,"Guardian Rathalos Wing",2,"Guardian Rathalos Tail",2
+369,-1309828016,"Guardian Rathalos α","LEG","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",2,"Guardian Rathalos Wing",2,"Guardian Rathalos Plate",1,"Inferno Sac",5
+370,-1699192560,"Guardian Rathalos β","HELM","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",1,"Guardian Rathalos Carapace",5,"Guardian Rathalos Wing",2,"Novacrystal",1
+371,-1699182560,"Guardian Rathalos β","BODY","Guardian Rathalos Scale+","-","00000000","NONE","Guardian Rathalos Scale+",5,"Guardian Rathalos Wing",2,"Guardian Scale+",3,"",0
+372,-1699172560,"Guardian Rathalos β","ARM","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",1,"Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",5,"Guardian Rathalos Ruby",1
+373,-1699162560,"Guardian Rathalos β","WAIST","Guardian Rathalos Scale+","-","00000000","NONE","Guardian Rathalos Scale+",6,"Guardian Rathalos Carapace",6,"Guardian Rathalos Wing",2,"Guardian Rathalos Tail",2
+374,-1699152560,"Guardian Rathalos β","LEG","Guardian Rathalos Scale+","-","00000000","NONE","G. Rathalos Certificate S",2,"Guardian Rathalos Wing",2,"Guardian Rathalos Plate",1,"Inferno Sac",5
+375,-295002384,"Gravios α","HELM","","Gravios","00000000","NONE","Gravios Carapace",5,"Gravios Pleura+",3,"Monster Keenbone",3,"",0
+376,-294992384,"Gravios α","BODY","","Gravios","00000000","NONE","Gravios Certificate S",1,"Gravios Wing",3,"Wyvern Gem",1,"Firestone",2
+377,-294982384,"Gravios α","ARM","","Gravios","00000000","NONE","Gravios Certificate S",2,"Gravios Carapace",4,"Gravios Medulla",1,"Firecell Stone",1
+378,-294972384,"Gravios α","WAIST","","Gravios","00000000","NONE","Gravios Certificate S",1,"Gravios Wing",5,"Gravios Pleura+",4,"Kranodath Skull+",2
+379,-294962384,"Gravios α","LEG","","Gravios","00000000","NONE","Gravios Carapace",6,"Gravios Wing",6,"Gravios Skull",2,"Coma Sac",3
+380,-436928720,"Gravios β","HELM","","Gravios","00000000","NONE","Gravios Carapace",5,"Gravios Pleura+",3,"Monster Keenbone",3,"",0
+381,-436918720,"Gravios β","BODY","","Gravios","00000000","NONE","Gravios Certificate S",1,"Gravios Wing",3,"Wyvern Gem",1,"Firestone",2
+382,-436908720,"Gravios β","ARM","","Gravios","00000000","NONE","Gravios Certificate S",2,"Gravios Carapace",4,"Gravios Medulla",1,"Firecell Stone",1
+383,-436898720,"Gravios β","WAIST","","Gravios","00000000","NONE","Gravios Certificate S",1,"Gravios Wing",5,"Gravios Pleura+",4,"Kranodath Skull+",2
+384,-436888720,"Gravios β","LEG","","Gravios","00000000","NONE","Gravios Carapace",6,"Gravios Wing",6,"Gravios Skull",2,"Coma Sac",3
+385,458243920,"Blango α","HELM","","Blangonga","00000000","NONE","Blangonga Pelt+",3,"Blangonga Fang+",4,"Blangonga Tail",2,"Colossal Bone",2
+386,458253920,"Blango α","BODY","","Blangonga","00000000","NONE","Blangonga Certificate S",2,"Blangonga Whisker",3,"Blango Pelt+",2,"",0
+387,458263920,"Blango α","ARM","","Blangonga","00000000","NONE","Blangonga Certificate S",1,"Blangonga Pelt+",5,"Blangonga Tail",3,"Beast Gem",1
+388,458273920,"Blango α","WAIST","","Blangonga","00000000","NONE","Blangonga Certificate S",1,"Blangonga Fang+",5,"Blangonga Whisker",2,"Freezer Sac",3
+389,458283920,"Blango α","LEG","","Blangonga","00000000","NONE","Blangonga Pelt+",3,"Blangonga Tail",2,"Blangonga Whisker",2,"Great Stoutbone",3
+390,-2058661360,"Blango β","HELM","","Blangonga","00000000","NONE","Blangonga Pelt+",3,"Blangonga Fang+",4,"Blangonga Tail",2,"Colossal Bone",2
+391,-2058651360,"Blango β","BODY","","Blangonga","00000000","NONE","Blangonga Certificate S",2,"Blangonga Whisker",3,"Blango Pelt+",2,"",0
+392,-2058641360,"Blango β","ARM","","Blangonga","00000000","NONE","Blangonga Certificate S",1,"Blangonga Pelt+",5,"Blangonga Tail",3,"Beast Gem",1
+393,-2058631360,"Blango β","WAIST","","Blangonga","00000000","NONE","Blangonga Certificate S",1,"Blangonga Fang+",5,"Blangonga Whisker",2,"Freezer Sac",3
+394,-2058621360,"Blango β","LEG","","Blangonga","00000000","NONE","Blangonga Pelt+",3,"Blangonga Tail",2,"Blangonga Whisker",2,"Great Stoutbone",3
+395,-1649892080,"Kunafa α","HELM","Dalthydon Wool","-","00000000","NONE","Dalthydon Wool",1,"Talioth Scale+",2,"",0,"",0
+396,-1649882080,"Kunafa α","BODY","Dalthydon Wool","-","00000000","NONE","Dalthydon Wool",1,"Acute Fang",1,"",0,"",0
+397,-1649862080,"Kunafa α","WAIST","Dalthydon Wool","-","00000000","NONE","Dalthydon Wool",1,"Acute Fang",1,"",0,"",0
+398,-1649852080,"Kunafa α","LEG","Dalthydon Wool","-","00000000","NONE","Dalthydon Wool",1,"Talioth Scale+",2,"",0,"",0
+399,1869299088,"Azuz α","HELM","Azuz Tanned Leather","-","00000000","NONE","Azuz Tanned Leather",1,"Charred Oilbone",2,"",0,"",0
+400,1869309088,"Azuz α","BODY","Azuz Tanned Leather","-","00000000","NONE","Azuz Tanned Leather",1,"Firecell Stone",1,"",0,"",0
+401,1869339088,"Azuz α","LEG","Azuz Tanned Leather","-","00000000","NONE","Azuz Tanned Leather",1,"Firestone",2,"",0,"",0
+402,-746435968,"Suja α","WAIST","Suja Textiles","-","00000000","NONE","Suja Textiles",3,"Fucium Ore",5,"",0,"",0
+403,-1496440816,"Sild α","HELM","Sild Cotton","-","00000000","NONE","Sild Cotton",2,"Guardian Seikret Feather+",3,"",0,"",0
+404,-1496430816,"Sild α","BODY","Sild Cotton","-","00000000","NONE","Sild Cotton",2,"Guardian Seikret Feather+",3,"",0,"",0
+405,808946256,"Death Stench α","HELM","Sinister Cloth","-","00000000","NONE","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
+406,808956256,"Death Stench α","BODY","Sinister Cloth","-","00000000","NONE","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
+407,808966256,"Death Stench α","ARM","Sinister Cloth","-","00000000","NONE","Sinister Cloth",1,"Wingdrake Hide+",1,"Quality Bone",1,"",0
+408,808976256,"Death Stench α","WAIST","Sinister Cloth","-","00000000","NONE","Sinister Cloth",1,"Herbivore Carapace",1,"Colossal Bone",1,"",0
+409,808986256,"Death Stench α","LEG","Sinister Cloth","-","00000000","NONE","Sinister Cloth",1,"Herbivore Carapace",1,"Colossal Bone",1,"",0
+410,-1266833008,"Butterfly α","HELM","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
+411,-1266823008,"Butterfly α","BODY","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
+412,-1266813008,"Butterfly α","ARM","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
+413,-1266803008,"Butterfly α","WAIST","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
+414,-1266793008,"Butterfly α","LEG","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Innerwing",1,"Monster Broth",1,"",0
+415,939931856,"King Beetle α","HELM","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
+416,939941856,"King Beetle α","BODY","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
+417,939951856,"King Beetle α","ARM","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
+418,939961856,"King Beetle α","WAIST","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
+419,939971856,"King Beetle α","LEG","Great Hornfly","-","00000000","NONE","Great Hornfly",1,"Vespoid Carapace",1,"Monster Broth",1,"",0
+420,638901520,"High Metal α","HELM","Drearisite Scraps","-","00000000","NONE","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
+421,638911520,"High Metal α","BODY","Drearisite Scraps","-","00000000","NONE","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
+422,638921520,"High Metal α","ARM","Drearisite Scraps","-","00000000","NONE","Drearisite Scraps",1,"Carbalite Ore",1,"Charred Oilbone",1,"",0
+423,638931520,"High Metal α","WAIST","Drearisite Scraps","-","00000000","NONE","Drearisite Scraps",1,"Carbalite Ore",1,"Charred Oilbone",1,"",0
+424,638941520,"High Metal α","LEG","Drearisite Scraps","-","00000000","NONE","Drearisite Scraps",1,"Carbalite Ore",1,"Kranodath Skull+",1,"",0
+425,889243792,"Battle α","HELM","Scarred Scale","-","00000000","NONE","Scarred Scale",1,"Blango Pelt+",1,"Frozen Icebone",1,"",0
+426,889253792,"Battle α","BODY","Scarred Scale","-","00000000","NONE","Scarred Scale",1,"Colossal Bone",1,"Frozen Icebone",1,"",0
+427,889263792,"Battle α","ARM","Scarred Scale","-","00000000","NONE","Scarred Scale",1,"Colossal Bone",1,"Frozen Icebone",1,"",0
+428,889273792,"Battle α","WAIST","Scarred Scale","-","00000000","NONE","Scarred Scale",1,"Colossal Bone",1,"Dragonbone Relic",1,"",0
+429,889283792,"Battle α","LEG","Scarred Scale","-","00000000","NONE","Scarred Scale",1,"Blango Pelt+",1,"Frozen Icebone",1,"",0
+430,-830754992,"Melahoa α","HELM","Great Hibiscus","-","00000000","NONE","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
+431,-830744992,"Melahoa α","BODY","Great Hibiscus","-","00000000","NONE","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
+432,-830734992,"Melahoa α","ARM","Great Hibiscus","-","00000000","NONE","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
+433,-830724992,"Melahoa α","WAIST","Great Hibiscus","-","00000000","NONE","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Lightcrystal",1,"",0
+434,-830714992,"Melahoa α","LEG","Great Hibiscus","-","00000000","NONE","Great Hibiscus",1,"Guardian Seikret Feather+",1,"Novacrystal",1,"",0
+435,1619467664,"Artian α","HELM","","-","1563F5E0","NONE","Gracium",5,"Frenzy Crystal",1,"Novacrystal",1,"",0
+436,1619477664,"Artian α","BODY","","-","1563F5E0","NONE","Gracium",5,"Frenzy Shard",2,"Earth Crystal",10,"",0
+437,1619487664,"Artian α","ARM","","-","1563F5E0","NONE","Gracium",5,"Frenzy Crystal",1,"Dragonbone Relic",1,"",0
+438,1619497664,"Artian α","WAIST","","-","1563F5E0","NONE","Gracium",5,"Frenzy Shard",2,"Firecell Stone",1,"",0
+439,1619507664,"Artian α","LEG","","-","1563F5E0","NONE","Gracium",5,"Frenzy Crystal",1,"Guardian Blood+",3,"",0
+440,-1414653552,"Dober α","HELM","","-","0D846690","NONE","Monster Hardbone",3,"Colossal Bone",4,"Charred Oilbone",3,"",0
+441,-1414643552,"Dober α","BODY","","-","0D846690","NONE","Monster Hardbone",3,"Colossal Bone",4,"Dragonbone Relic",1,"",0
+442,-1414633552,"Dober α","ARM","","-","0D846690","NONE","Monster Hardbone",4,"Stoutbone",4,"Tough Guardian Bone",3,"Rath Medulla",1
+443,-1414623552,"Dober α","WAIST","","-","0D846690","NONE","Monster Hardbone",4,"Monster Keenbone",4,"Frozen Icebone",3,"Ajarakan Medulla",1
+444,-1414613552,"Dober α","LEG","","-","0D846690","NONE","Monster Hardbone",5,"Great Stoutbone",4,"Quality Bone",3,"Gravios Medulla",1
+445,1903097232,"Damascus α","HELM","","-","0D846690","NONE","Fucium Ore",4,"Guardian Pelt+",3,"Frenzy Shard",3,"Bird Wyvern Gem",1
+446,1903107232,"Damascus α","BODY","","-","0D846690","NONE","Fucium Ore",5,"Guardian Blood+",2,"Carbalite Ore",5,"Wyvern Gem",1
+447,1903117232,"Damascus α","ARM","","-","0D846690","NONE","Fucium Ore",4,"Guardian Pelt+",4,"Gracium",4,"Beast Gem",1
+448,1903127232,"Damascus α","WAIST","","-","0D846690","NONE","Fucium Ore",3,"Guardian Scale+",4,"Novacrystal",1,"",0
+449,1903137232,"Damascus α","LEG","","-","0D846690","NONE","Fucium Ore",3,"Guardian Scale+",3,"Firecell Stone",1,"",0
+450,-1332051952,"Dahaad α","HELM","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Certificate S",2,"Jin Dahaad Scale+",3,"Jin Dahaad Claw+",4,"Wyvern Gem",1
+451,-1332041952,"Dahaad α","BODY","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Scale+",5,"Jin Dahaad Carapace",6,"Jin Dahaad Iceplate",3,"Monster Hardbone",3
+452,-1332031952,"Dahaad α","ARM","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Certificate S",1,"Jin Dahaad Carapace",5,"Jin Dahaad Claw+",4,"Gracium",3
+453,-1332021952,"Dahaad α","WAIST","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Iceplate",2,"Jin Dahaad Horn",3,"Jin Dahaad Icegem",1,"Freezer Sac",3
+454,-1332011952,"Dahaad α","LEG","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Scale+",6,"Jin Dahaad Iceplate",4,"Jin Dahaad Horn",2,"Comaqchi Carapace",2
+455,-59341948,"Dahaad β","HELM","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Certificate S",2,"Jin Dahaad Scale+",3,"Jin Dahaad Claw+",4,"Wyvern Gem",1
+456,-59331948,"Dahaad β","BODY","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Scale+",5,"Jin Dahaad Carapace",6,"Jin Dahaad Iceplate",3,"Monster Hardbone",3
+457,-59321948,"Dahaad β","ARM","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Certificate S",1,"Jin Dahaad Carapace",5,"Jin Dahaad Claw+",4,"Gracium",3
+458,-59311948,"Dahaad β","WAIST","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Iceplate",2,"Jin Dahaad Horn",3,"Jin Dahaad Icegem",1,"Freezer Sac",3
+459,-59301948,"Dahaad β","LEG","Jin Dahaad Scale+","-","00000000","NONE","Jin Dahaad Scale+",6,"Jin Dahaad Iceplate",4,"Jin Dahaad Horn",2,"Comaqchi Carapace",2
+460,-1314902640,"Uth Duna α","HELM","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",1,"Uth Duna Scale+",4,"Uth Duna Cilia+",4,"Uth Duna Watergem",1
+461,-1314892640,"Uth Duna α","BODY","Uth Duna Scale+","-","00000000","NONE","Uth Duna Scale+",6,"Uth Duna Hide+",6,"Uth Duna Cilia+",3,"Torrent Sac",3
+462,-1314882640,"Uth Duna α","ARM","Uth Duna Scale+","-","00000000","NONE","Uth Duna Scale+",5,"Uth Duna Cilia+",3,"Uth Duna Claw+",3,"Monster Hardbone",2
+463,-1314872640,"Uth Duna α","WAIST","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",2,"Uth Duna Tentacle+",4,"Uth Duna Claw+",5,"Uth Duna Plate",1
+464,-1314862640,"Uth Duna α","LEG","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",2,"Uth Duna Hide+",5,"Uth Duna Tentacle+",4,"Piragill Fin+",2
+465,-1116013296,"Uth Duna β","HELM","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",1,"Uth Duna Scale+",4,"Uth Duna Cilia+",4,"Uth Duna Watergem",1
+466,-1116003296,"Uth Duna β","BODY","Uth Duna Scale+","-","00000000","NONE","Uth Duna Scale+",6,"Uth Duna Hide+",6,"Uth Duna Cilia+",3,"Torrent Sac",3
+467,-1115993296,"Uth Duna β","ARM","Uth Duna Scale+","-","00000000","NONE","Uth Duna Scale+",5,"Uth Duna Cilia+",3,"Uth Duna Claw+",3,"Monster Hardbone",2
+468,-1115983296,"Uth Duna β","WAIST","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",2,"Uth Duna Tentacle+",4,"Uth Duna Claw+",5,"Uth Duna Plate",1
+469,-1115973296,"Uth Duna β","LEG","Uth Duna Scale+","-","00000000","NONE","Uth Duna Certificate S",2,"Uth Duna Hide+",5,"Uth Duna Tentacle+",4,"Piragill Fin+",2
+470,-1311775984,"Rey Dau α","HELM","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",2,"Rey Dau Carapace",5,"Rey Dau Bolthorn",4,"Bulaqchi Carapace",2
+471,-1311765984,"Rey Dau α","BODY","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",2,"Rey Dau Bolthorn",2,"Rey Dau Tail",2,"Rey Dau Plate",1
+472,-1311755984,"Rey Dau α","ARM","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",1,"Rey Dau Fulgurtalon",2,"Rey Dau Scale+",3,"Rey Dau Boltgem",1
+473,-1311745984,"Rey Dau α","WAIST","Rey Dau Scale+","-","00000000","NONE","Rey Dau Scale+",5,"Rey Dau Carapace",6,"Rey Dau Fulgurtalon",3,"Monster Hardbone",3
+474,-1311735984,"Rey Dau α","LEG","Rey Dau Scale+","-","00000000","NONE","Rey Dau Scale+",6,"Rey Dau Fulgurtalon",4,"Rey Dau Bolthorn",3,"Lightcrystal",3
+475,598410000,"Rey Dau β","HELM","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",2,"Rey Dau Carapace",5,"Rey Dau Bolthorn",4,"Bulaqchi Carapace",2
+476,598420000,"Rey Dau β","BODY","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",2,"Rey Dau Bolthorn",2,"Rey Dau Tail",2,"Rey Dau Plate",1
+477,598430000,"Rey Dau β","ARM","Rey Dau Scale+","-","00000000","NONE","Rey Dau Certificate S",1,"Rey Dau Fulgurtalon",2,"Rey Dau Scale+",3,"Rey Dau Boltgem",1
+478,598440000,"Rey Dau β","WAIST","Rey Dau Scale+","-","00000000","NONE","Rey Dau Scale+",5,"Rey Dau Carapace",6,"Rey Dau Fulgurtalon",3,"Monster Hardbone",3
+479,598450000,"Rey Dau β","LEG","Rey Dau Scale+","-","00000000","NONE","Rey Dau Scale+",6,"Rey Dau Fulgurtalon",4,"Rey Dau Bolthorn",3,"Lightcrystal",3
+480,1178176400,"Nu Udra α","HELM","Nu Udra Hide+","-","00000000","NONE","Nu Udra Hide+",6,"Nu Udra Spike+",6,"Nu Udra Oilmucus+",3,"Dragonbone Relic",1
+481,1178186400,"Nu Udra α","BODY","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",2,"Nu Udra Tentacle+",4,"Nu Udra Horn+",5,"Nu Udra Cerebrospinal Fluid",1
+482,1178196400,"Nu Udra α","ARM","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",2,"Nu Udra Spike+",5,"Nu Udra Tentacle+",4,"Kranodath Skull+",2
+483,1178206400,"Nu Udra α","WAIST","Nu Udra Hide+","-","00000000","NONE","Nu Udra Hide+",5,"Nu Udra Oilmucus+",3,"Nu Udra Horn+",3,"Inferno Sac",2
+484,1178216400,"Nu Udra α","LEG","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",1,"Nu Udra Hide+",4,"Nu Udra Oilmucus+",4,"Nu Udra Flamegem",1
+485,327355216,"Nu Udra β","HELM","Nu Udra Hide+","-","00000000","NONE","Nu Udra Hide+",6,"Nu Udra Spike+",6,"Nu Udra Oilmucus+",3,"Dragonbone Relic",1
+486,327365216,"Nu Udra β","BODY","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",2,"Nu Udra Tentacle+",4,"Nu Udra Horn+",5,"Nu Udra Cerebrospinal Fluid",1
+487,327375216,"Nu Udra β","ARM","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",2,"Nu Udra Spike+",5,"Nu Udra Tentacle+",4,"Kranodath Skull+",2
+488,327385216,"Nu Udra β","WAIST","Nu Udra Hide+","-","00000000","NONE","Nu Udra Hide+",5,"Nu Udra Oilmucus+",3,"Nu Udra Horn+",3,"Inferno Sac",2
+489,327395216,"Nu Udra β","LEG","Nu Udra Hide+","-","00000000","NONE","Nu Udra Certificate S",1,"Nu Udra Hide+",4,"Nu Udra Oilmucus+",4,"Nu Udra Flamegem",1
+490,-2086647152,"Gore α","HELM","","Gore Magala","00000000","NONE","Gore Magala Certificate S",2,"Gore Magala Feeler+",2,"Gore Magala Wing+",4,"Wyvern Gem",1
+491,-2086637152,"Gore α","BODY","","Gore Magala","00000000","NONE","Gore Magala Scale+",6,"Gore Magala Carapace",6,"Gore Magala Ripclaw+",2,"Gore Magala Tail",2
+492,-2086627152,"Gore α","ARM","","Gore Magala","00000000","NONE","Gore Magala Certificate S",2,"Gore Magala Carapace",5,"Gore Magala Feeler+",2,"Frenzy Crystal",2
+493,-2086617152,"Gore α","WAIST","","Gore Magala","00000000","NONE","Gore Magala Scale+",5,"Gore Magala Ripclaw+",3,"Gore Magala Wing+",3,"Frenzy Shard",2
+494,-2086607152,"Gore α","LEG","","Gore Magala","00000000","NONE","Gore Magala Certificate S",1,"Gore Magala Scale+",3,"Gore Magala Wing+",4,"Gore Magala Nyctgem",1
+495,1956142992,"Gore β","HELM","","Gore Magala","00000000","NONE","Gore Magala Certificate S",2,"Gore Magala Feeler+",2,"Gore Magala Wing+",4,"Wyvern Gem",1
+496,1956152992,"Gore β","BODY","","Gore Magala","00000000","NONE","Gore Magala Scale+",6,"Gore Magala Carapace",6,"Gore Magala Ripclaw+",2,"Gore Magala Tail",2
+497,1956162992,"Gore β","ARM","","Gore Magala","00000000","NONE","Gore Magala Certificate S",2,"Gore Magala Carapace",5,"Gore Magala Feeler+",2,"Frenzy Crystal",2
+498,1956172992,"Gore β","WAIST","","Gore Magala","00000000","NONE","Gore Magala Scale+",5,"Gore Magala Ripclaw+",3,"Gore Magala Wing+",3,"Frenzy Shard",2
+499,1956182992,"Gore β","LEG","","Gore Magala","00000000","NONE","Gore Magala Certificate S",1,"Gore Magala Scale+",3,"Gore Magala Wing+",4,"Gore Magala Nyctgem",1
+500,-605689072,"Arkveld α","HELM","","Arkveld","00000000","NONE","Arkveld Scale+",5,"Arkveld Armorplate",3,"White Arkveld Pelt",2,"Arkveld Horn+",3
+501,-605679072,"Arkveld α","BODY","","Arkveld","00000000","NONE","Arkveld Certificate S",2,"Arkveld Scale+",3,"Arkveld Armorplate",4,"Arkveld Calloushell",4
+502,-605669072,"Arkveld α","ARM","","Arkveld","00000000","NONE","Arkveld Certificate S",2,"Arkveld Calloushell",3,"Arkveld Horn+",2,"Wyvern Gem",1
+503,-605659072,"Arkveld α","WAIST","","Arkveld","00000000","NONE","Arkveld Certificate S",1,"Arkveld Armorplate",3,"White Arkveld Pelt",3,"Arkveld Gem",1
+504,-605649072,"Arkveld α","LEG","","Arkveld","00000000","NONE","Arkveld Scale+",6,"Arkveld Armorplate",5,"Arkveld Calloushell",2,"Arkveld Tail",2
+505,1693976848,"Arkveld β","HELM","","Arkveld","00000000","NONE","Arkveld Scale+",5,"Arkveld Armorplate",3,"White Arkveld Pelt",2,"Arkveld Horn+",3
+506,1693986848,"Arkveld β","BODY","","Arkveld","00000000","NONE","Arkveld Certificate S",2,"Arkveld Scale+",3,"Arkveld Armorplate",4,"Arkveld Calloushell",4
+507,1693996848,"Arkveld β","ARM","","Arkveld","00000000","NONE","Arkveld Certificate S",2,"Arkveld Calloushell",3,"Arkveld Horn+",2,"Wyvern Gem",1
+508,1694006848,"Arkveld β","WAIST","","Arkveld","00000000","NONE","Arkveld Certificate S",1,"Arkveld Armorplate",3,"White Arkveld Pelt",3,"Arkveld Gem",1
+509,1694016848,"Arkveld β","LEG","","Arkveld","00000000","NONE","Arkveld Scale+",6,"Arkveld Armorplate",5,"Arkveld Calloushell",2,"Arkveld Tail",2
+510,238892304,"Guardian Arkveld α","HELM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Scale+",6,"Guardian Pelt+",5,"Uth Duna Watergem",1
+511,238902304,"Guardian Arkveld α","BODY","","Arkveld","00000000","NONE","Hunter Symbol III",1,"White Arkveld Pelt",3,"Arkveld Gem",1,"Guardian Blood+",3
+512,238912304,"Guardian Arkveld α","ARM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Armorplate",6,"White Arkveld Pelt",3,"Jin Dahaad Icegem",1
+513,238922304,"Guardian Arkveld α","WAIST","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Scale+",4,"Arkveld Calloushell",4,"Rey Dau Boltgem",1
+514,238932304,"Guardian Arkveld α","LEG","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Armorplate",4,"Guardian Scale+",5,"Nu Udra Flamegem",1
+515,955936336,"Guardian Arkveld β","HELM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Scale+",6,"Guardian Pelt+",5,"Uth Duna Watergem",1
+516,955946336,"Guardian Arkveld β","BODY","","Arkveld","00000000","NONE","Hunter Symbol III",1,"White Arkveld Pelt",3,"Arkveld Gem",1,"Guardian Blood+",3
+517,955956336,"Guardian Arkveld β","ARM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Armorplate",6,"White Arkveld Pelt",3,"Jin Dahaad Icegem",1
+518,955966336,"Guardian Arkveld β","WAIST","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Scale+",4,"Arkveld Calloushell",4,"Rey Dau Boltgem",1
+519,955976336,"Guardian Arkveld β","LEG","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Arkveld Armorplate",4,"Guardian Scale+",5,"Nu Udra Flamegem",1
+520,-2043803888,"Guild Ace α","HELM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Pelt+",3,"",0
+521,-2043793888,"Guild Ace α","BODY","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Scale+",3,"",0
+522,-2043783888,"Guild Ace α","ARM","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Fucium Ore",2,"Carbalite Ore",5,"",0
+523,-2043773888,"Guild Ace α","WAIST","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Fucium Ore",2,"Quality Bone",5,"",0
+524,-2043763888,"Guild Ace α","LEG","","Arkveld","00000000","NONE","Hunter Symbol III",1,"Fucium Ore",2,"Guardian Blood+",3,"",0
+525,309175664,"Commission α","HELM","Commission Ticket","-","00000000","NONE","Commission Ticket",1,"Carbalite Ore",2,"Chatacabra Scale+",5,"",0
+526,309185664,"Commission α","BODY","Commission Ticket","-","00000000","NONE","Commission Ticket",1,"Gracium",2,"Lala Barina Floret+",5,"",0
+527,309195664,"Commission α","ARM","Commission Ticket","-","00000000","NONE","Commission Ticket",1,"Monster Keenbone",2,"Balahara Scale+",5,"",0
+528,309205664,"Commission α","WAIST","Commission Ticket","-","00000000","NONE","Commission Ticket",1,"Stoutbone",2,"Doshaguma Fur+",5,"",0
+529,309215664,"Commission α","LEG","Commission Ticket","-","00000000","NONE","Commission Ticket",1,"Quality Bone",2,"Quematrice Scale+",5,"",0
+530,2057684112,"Dragonking α","HELM","","Arkveld","00000000","NONE","Hunter Symbol III",3,"Guardian Blood+",3,"Wyvern Gem",1,"",0
+531,-434180656,"Mimiphyta α","HELM","Mimiphyta Ticket","-","00000000","NONE","Mimiphyta Ticket",2,"Kut-Ku Scale+",4,"Congalala Pelt+",2,"",0
+532,42515,"Expedition Headgear α","HELM","Expedition Headgear Ticket","-","00000000","NONE","Expedition Headgear Ticket",3,"Rathian Scale+",4,"Monster Keenbone",2,"Novacrystal",1
+533,15330,"Guild Cross α","HELM","Chata Coin","-","00000000","NONE","Chata Coin",3,"Pinnacle Coin",1,"Nerscylla Carapace",2,"",0
+534,25330,"Guild Cross α","BODY","Chata Coin","-","00000000","NONE","Chata Coin",3,"Pinnacle Coin",1,"Congalala Pelt+",2,"",0
+535,35330,"Guild Cross α","ARM","Chata Coin","-","00000000","NONE","Chata Coin",3,"Pinnacle Coin",1,"Rubbery Hide+",2,"",0
+536,45330,"Guild Cross α","WAIST","Chata Coin","-","00000000","NONE","Chata Coin",3,"Pinnacle Coin",1,"Rathian Scale+",2,"",0
+537,55330,"Guild Cross α","LEG","Chata Coin","-","00000000","NONE","Chata Coin",3,"Pinnacle Coin",1,"Kut-Ku Scale+",2,"",0
+538,27725,"Clerk α","HELM","Rathian Coin","-","00000000","NONE","Rathian Coin",2,"Chata Coin",1,"Pinnacle Coin",1,"Doshaguma Hide+",2
+539,37725,"Clerk α","BODY","Rathian Coin","-","00000000","NONE","Rathian Coin",2,"Chata Coin",1,"Pinnacle Coin",1,"Gravios Carapace",2
+540,47725,"Clerk α","ARM","Rathian Coin","-","00000000","NONE","Rathian Coin",2,"Chata Coin",1,"Pinnacle Coin",1,"Blangonga Pelt+",2
+541,57725,"Clerk α","WAIST","Rathian Coin","-","00000000","NONE","Rathian Coin",2,"Chata Coin",1,"Pinnacle Coin",1,"Guardian Fulgur Pelt+",2
+542,67725,"Clerk α","LEG","Rathian Coin","-","00000000","NONE","Rathian Coin",2,"Chata Coin",1,"Pinnacle Coin",1,"Rathalos Scale+",2
+543,21061,"Gourmand's Earring α","HELM","","-","000076D7","RANK_A","Chata Coin",5,"Pinnacle Coin",3,"Carbalite Ore",4,"Firestone",2
+544,12261,"Earrings of Dedication α","HELM","","-","00001624","RANK_A","Rathian Coin",5,"Pinnacle Coin",3,"Gracium",3,"Fucium Ore",3
+545,40086,"Mizutsune α","HELM","","Mizutsune","00000000","NONE","Mizutsune Scale+",5,"Bubblefoam+",3,"Piragill Fin+",2,"",0
+546,50086,"Mizutsune α","BODY","","Mizutsune","00000000","NONE","Mizutsune Certificate S",2,"Mizutsune Claw+",3,"Mizutsune Fin+",5,"Wyvern Gem",1
+547,60086,"Mizutsune α","ARM","","Mizutsune","00000000","NONE","Mizutsune Scale+",6,"Mizutsune Purplefur+",6,"Bubblefoam+",3,"Mizutsune Fin+",3
+548,70086,"Mizutsune α","WAIST","","Mizutsune","00000000","NONE","Mizutsune Certificate S",1,"Mizutsune Purplefur+",5,"Mizutsune Claw+",3,"Torrent Sac",2
+549,80086,"Mizutsune α","LEG","","Mizutsune","00000000","NONE","Mizutsune Certificate S",1,"Mizutsune Scale+",4,"Bubblefoam+",4,"Mizutsune Water Orb",1
+550,22183,"Mizutsune β","HELM","","Mizutsune","00000000","NONE","Mizutsune Scale+",5,"Bubblefoam+",3,"Piragill Fin+",2,"",0
+551,32183,"Mizutsune β","BODY","","Mizutsune","00000000","NONE","Mizutsune Certificate S",2,"Mizutsune Claw+",3,"Mizutsune Fin+",5,"Wyvern Gem",1
+552,42183,"Mizutsune β","ARM","","Mizutsune","00000000","NONE","Mizutsune Scale+",6,"Mizutsune Purplefur+",6,"Bubblefoam+",3,"Mizutsune Fin+",3
+553,52183,"Mizutsune β","WAIST","","Mizutsune","00000000","NONE","Mizutsune Certificate S",1,"Mizutsune Purplefur+",5,"Mizutsune Claw+",3,"Torrent Sac",2
+554,62183,"Mizutsune β","LEG","","Mizutsune","00000000","NONE","Mizutsune Certificate S",1,"Mizutsune Scale+",4,"Bubblefoam+",4,"Mizutsune Water Orb",1
+555,40569,"Numinous α","HELM","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Crystalscale",6,"Zoh Shia Stakeclaw",2,"Zoh Shia Crystalhorn",2,"Tough Guardian Bone",5
+556,50569,"Numinous α","BODY","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Certificate S",1,"Zoh Shia Layershell",5,"Blackember Mass",3,"Guardian Blood+",3
+557,60569,"Numinous α","ARM","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Certificate S",2,"Zoh Shia Crystalscale",5,"Zoh Shia Stakeclaw",3,"Arkveld Gem",1
+558,70569,"Numinous α","WAIST","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Layershell",6,"Blackember Mass",3,"Zoh Shia Crystalhorn",3,"Faux Whitegleam Orb",1
+559,80569,"Numinous α","LEG","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Crystalscale",3,"Zoh Shia Stakeclaw",4,"Zoh Shia Crystaltail",1,"Gore Magala Nyctgem",1
+560,32297,"Numinous β","HELM","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Crystalscale",6,"Zoh Shia Stakeclaw",2,"Zoh Shia Crystalhorn",2,"Tough Guardian Bone",5
+561,42297,"Numinous β","BODY","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Certificate S",1,"Zoh Shia Layershell",5,"Blackember Mass",3,"Guardian Blood+",3
+562,52297,"Numinous β","ARM","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Certificate S",2,"Zoh Shia Crystalscale",5,"Zoh Shia Stakeclaw",3,"Arkveld Gem",1
+563,62297,"Numinous β","WAIST","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Layershell",6,"Blackember Mass",3,"Zoh Shia Crystalhorn",3,"Faux Whitegleam Orb",1
+564,72297,"Numinous β","LEG","Zoh Shia Certificate S","-","00000000","NONE","Zoh Shia Crystalscale",3,"Zoh Shia Stakeclaw",4,"Zoh Shia Crystaltail",1,"Gore Magala Nyctgem",1
+595,42083,"Rey Dau γ","HELM","Rey Dau Certificate γ","-","00000000","NONE","Rey Dau Certificate γ",1,"Rey Dau Scale+",5,"Rey Dau Bolthorn",3,"Wyvern Gem",2
+596,52083,"Rey Dau γ","BODY","Rey Dau Certificate γ","-","00000000","NONE","Rey Dau Certificate γ",1,"Rey Dau Carapace",6,"Rey Dau Fulgurtalon",3,"Rey Dau Plate",2
+597,62083,"Rey Dau γ","ARM","Rey Dau Certificate γ","-","00000000","NONE","Rey Dau Certificate γ",1,"Rey Dau Scale+",3,"Rey Dau Fulgurtalon",4,"Rey Dau Boltgem",1
+598,72083,"Rey Dau γ","WAIST","Rey Dau Certificate γ","-","00000000","NONE","Rey Dau Certificate γ",1,"Rey Dau Scale+",6,"Rey Dau Carapace",5,"Rey Dau Fulgurtalon",2
+599,82083,"Rey Dau γ","LEG","Rey Dau Certificate γ","-","00000000","NONE","Rey Dau Certificate γ",1,"Rey Dau Bolthorn",2,"Rey Dau Tail",2,"Novacrystal",2
+620,25655,"Sakuratide α","HELM","Blossomdance Ticket","-","0000170A","NONE","Blossomdance Ticket",1,"Carbalite Ore",3,"",0,"",0
+621,35655,"Sakuratide α","BODY","Blossomdance Ticket","-","0000170A","NONE","Blossomdance Ticket",1,"Carbalite Ore",1,"",0,"",0
+622,45655,"Sakuratide α","ARM","Blossomdance Ticket","-","0000170A","NONE","Blossomdance Ticket",1,"Carbalite Ore",2,"",0,"",0
+623,55655,"Sakuratide α","WAIST","Blossomdance Ticket","-","0000170A","NONE","Blossomdance Ticket",1,"Carbalite Ore",1,"",0,"",0
+624,65655,"Sakuratide α","LEG","Blossomdance Ticket","-","0000170A","NONE","Blossomdance Ticket",1,"Carbalite Ore",2,"",0,"",0
+625,30042,"Blossom α","HELM","Blossom Ticket","-","00000000","NONE","Blossom Ticket",1,"Lala Barina Mucus+",3,"Bulaqchi Carapace",4,"Monster Broth",1
+626,40042,"Blossom α","BODY","Blossom Ticket","-","00000000","NONE","Blossom Ticket",1,"Lala Barina Claw+",2,"Vespoid Innerwing",3,"Monster Broth",1
+627,50042,"Blossom α","ARM","Blossom Ticket","-","00000000","NONE","Blossom Ticket",1,"Lala Barina Carapace",3,"Vespoid Carapace",4,"Monster Broth",1
+628,60042,"Blossom α","WAIST","Blossom Ticket","-","00000000","NONE","Blossom Ticket",1,"Lala Barina Stinger+",2,"Great Hornfly",3,"Monster Broth",1
+629,70042,"Blossom α","LEG","Blossom Ticket","-","00000000","NONE","Blossom Ticket",1,"Lala Barina Floret+",3,"Comaqchi Carapace",4,"Monster Broth",1
+680,26685,"Amstrigian α","HELM","Amstrigian Ticket","-","00000000","NONE","Amstrigian Ticket",3,"Quematrice Crest+",3,"Monster Keenbone",5,"",0
+681,34693,"Sealed Dragon Cloth α","HELM","Sealed Dragon Cloth","-","00000000","NONE","Sealed Dragon Cloth",3,"Guardian Fulgur Nosebone+",3,"Guardian Blood+",2,"Tough Guardian Bone",5
+682,26428,"Strategist Spectacles α","HELM","","-","000001A6","NONE","Novacrystal",1,"Lightcrystal",2,"Firecell Stone",1,"Firestone",2
+683,17067,"Square Glasses α","HELM","","-","000001A6","NONE","Novacrystal",1,"Lightcrystal",2,"Gracium",2,"Icium",4
+684,16716,"Sealed Eyepatch α","HELM","Blossomdance Catalog","-","00000000","NONE","Blossomdance Catalog",2,"Hunter Symbol II",2,"Xu Wu Hide+",5,"Sinister Cloth",2
+685,40074,"Shadow Shades α","HELM","Blossomdance Catalog","-","00000000","NONE","Blossomdance Catalog",2,"Hunter Symbol II",2,"Golden Corneum+",4,"Fucium Ore",4
+686,20911,"Round Glasses α","HELM","Blossomdance Catalog","-","00000000","NONE","Blossomdance Catalog",2,"Hunter Symbol II",2,"Xu Wu Claw+",3,"Fucium Ore",4

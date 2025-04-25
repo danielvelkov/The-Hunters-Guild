@@ -1,0 +1,1782 @@
+"Index","EM ID","Species","Name","Description","Extra Name","Extra Description","Frenzied Name","Tempered Name","Arch-tempered Name","Enemy Features Raw","Features","Tips","First Capture Raw","Endemic Life Description","Memo Raw","Endemic Life Features","Grammar Raw","Grammar","Boss Icon Type Raw","Large Monster Icon","Small Monster Icon","Item Icon","Map Icon","Endemic Life Icon","Icon Colour","Is Map Draw","Palico Pickup","Alma Pickup","Support Hunter Pickup","Category For NPC","Map Filtering Type","Scoutfly Target Type","Animation Type"
+0,"INVALID","","","","","","","","","5F03D253-0BE3-4B97-8854-5D4A567E38BF","","","CDD905AB-ECBE-42E8-8AFF-9D2AA041606E","","6066E9AB-6E89-43A4-A6FD-DD7E3024CD2C","","6BC6D8CB-F05D-496B-B52F-C5B3E635B5E2","","00000000","","","","","","I_NONE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+1,"EM0001_00_0","Flying Wyvern","Rathian","The ""Queen of the Land,"" these female fire-
+breathing wyverns are known for their powerful
+legs and lethal, poison-secreting tails.","","","","Tempered Rathian","","2BA1D432-D160-4A01-A202-7FB4337A0BE9","Fire-breathing female wyverns known as
+the ""Queens of the Land."" Their powerful
+legs and venomous tails make them
+efficient ground hunters. At times, Rathian
+and Rathalos can be sighted hunting as a
+couple. After laying eggs, Rathian are
+extremely watchful of their nests. Proceed
+with extra caution, as a mother will move
+swiftly to protect her young.","Hunters will need to maneuver carefully
+to avoid the potent venom in the
+Rathian's tail spikes and her wide
+attack range. By severing the tail, you
+can limit her reach and gain the upper
+hand. After breathing fire, the inside
+of the Rathian's mouth becomes tender,
+making it a prime target to strike.","30F1DF52-68DC-47D0-8B78-21F8635D1056","","EA3408DF-88A9-4361-B2ED-D114BBC1BB62","","921F6AA3-7F74-4978-916A-272BCFFAE395","","00000007",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+2,"EM0002_00_0","Flying Wyvern","Rathalos","Fearsome wyverns known as ""Kings of the Skies.""
+Armed with powerful poison claws, they use their
+aerial prowess to descend on prey from above.","","","","Tempered Rathalos","","80E09613-A7C3-400A-BA14-A7DF0A4782AD","Fearsome male wyverns known as the
+""Kings of the Skies."" Alongside the Rathian,
+they stake out a wide territory around their
+nests, and it is the male's role to watch
+from above. Armed with powerful poisonous
+claws and fiery breath, Rathalos use their
+aerial prowess to descend on invaders.","As Kings of the Skies, Rathalos will attack
+with a variety of aerial strikes. A bright
+flash should be enough to disorient them
+and bring them down. When Rathalos
+are in trouble, their Rathian mates may
+swoop in to help, so be sure to have dung
+pods and large dung pods at the ready.","284F71B6-24D7-47E1-89F9-86342DB3A76C","","24EE63BA-DF5C-4F3D-B302-1B4DDCF546D5","","E3B2D85C-BF75-4801-9CBF-1AECD8480757","","00000018",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+3,"EM0002_50_0","Construct","Guardian Rathalos","An artificial species created by an ancient
+civilization with a Rathalos's power. Beware the
+energy released by their powerful claw attacks.","","","","Tempered Guardian Rathalos","","751732DD-F199-43CA-8086-1BCDA90D33FF","An artificial monster species created by
+an ancient civilization and imbued with
+Rathalos's power. Guardian Rathalos cannot
+reproduce and do not require food, relying
+instead on Wyvern Milk for energy. Just like
+the original Rathalos, they are superior
+fliers and will attack more violently with
+their claws while airborne.","The unique Guardian energy from Guardian
+Rathalos's claw attacks is explosive and
+dangerous. This energy will cause wyvern
+milk on the ground to crystalize, and if
+these crystals are hit by the monster's fire
+attacks it will cause an explosion of the
+same element. Given that they are triggered
+by elemental interference, Slinger ammo
+could be used effectively against them.","BE75B80B-1F7C-427F-B3EB-3DD2C63EB140","","1B6C0840-3DA4-4151-B551-F4881CA70AAE","","0B1B9D0D-5BFF-43D6-8ADB-35AB153CA137","","00000012",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+4,"EM0005_00_0","Flying Wyvern","Gravios","Large wyverns found in the Oilwell Basin.
+Their highly developed carapaces repel
+attacks and emit powerful heat rays.","","","","Tempered Gravios","","59A1B9EC-21BD-4B8F-836B-19B5C36F818C","Large wyverns found in Oilwell Basin. They
+have a developed physique, powerful heat
+rays, and a host of gases they can emit
+from their body. Their bony carapaces are
+famously tough but expose a surprisingly
+brittle interior once destroyed.","It's no easy task breaking through that
+heavy armor covering a Gravios head to
+talon, but repeated attacks will eventually
+make a crack. That—and the weaknesses
+a Gravios exposes in its carapace during
+certain attacks—are your chances to deliver
+Focus Strikes, demolish it piece by piece,
+and create even more opportunities.","2BDC80AC-1FE4-454C-9688-FDC50C9F7C2E","","1E2C410F-D481-416C-BBBC-95D8D54ABE76","","335FF40A-49F4-4074-928A-72528F4DB95A","","0000001A",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+5,"EM0008_00_0","Bird Wyvern","Yian Kut-Ku","Bird wyverns with impressive beaks, big ears,
+and an appetite for insects. Skittish by nature,
+they will still put up a fight if threatened.","","","Frenzied Yian Kut-Ku","Tempered Yian Kut-Ku","","50513714-D986-4719-A614-AD6FFC20103F","Bird wyverns with impressive beaks and
+large ears. They tend to be skittish but will
+sometimes initiate attacks on a perceived
+threat. Yian Kut-Ku arrive in large groups
+during the season of Plenty in the Scarlet
+Forest. The absence of eggs or young
+suggests that the purpose of this is not
+to breed, but rather to seek out mates
+and nourishment.","The Yian Kut-Ku's superior hearing comes
+with great sensitivity to sound. A loud
+noise is sometimes all it takes to stop them
+in their tracks, reason enough to make
+liberal use of sonic bombs. But there's a
+catch: once a Yian Kut-Ku comes back to
+itself, it's going to be really flocking mad
+and come at a hunter even more viciously
+than before.","B6143E21-5492-445D-ABA5-8AF8A650F387","","8462099A-CA93-43FB-880B-81A95359F820","","F67DD984-CF3E-44BE-9CB3-EEA46F7B7863","","00000015",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+6,"EM0009_00_0","Bird Wyvern","Gypceros","Monsters that use their prominent crest to stun
+foes with disorienting flashes of light before
+finishing them off with poisonous saliva.","","","Frenzied Gypceros","Tempered Gypceros","","841D5D64-61A0-48A1-ADD9-1D351747ACA6","Wyverns that can stun enemies by striking
+their prominent crests to produce powerful
+flashes of light. Their stretchy, rubbery
+hide resists blunt impacts and reduces the
+effectiveness of shock traps. A smart hunter
+knows to maneuver carefully around the
+poisonous filth they spew, which drips from
+ceilings or down slopes.","Faced with a Gypceros, a hunter has two
+headaches to deal with: the poison and
+the flashes. The poison will pool and
+hamper your movements, but you can
+clear it away with some watermoss. As for
+the flashes, destroying its crest will stop
+them; in the meantime, it's a good idea
+to take cover. If you can see its crest glow
+before the attack, that means you're still
+inside the dazzling danger radius.","9750DAB0-FB3A-49FC-B165-98A3F4E953FE","","4C848E14-41AD-41FA-8089-C79663CF47C6","","DC9B5E94-91EE-4CBA-BA7B-EA3515D028A5","","00000016",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+7,"EM0021_00_0","Fanged Beast","Congalala","Large, pink fanged beasts. Beware their potent
+breath, which changes based on their mushroom
+diet, and stench, which disables recovery items.","","","","Tempered Congalala","","F5223A04-5C2A-4C12-9860-7983B713D41B","Large fanged beasts with pink fur and
+a distinct crest, which the males sculpt
+with plant oils and juices as a sign of virility.
+Congalala are common in temperate
+forests and are therefore well researched.
+They're big eaters and love mushrooms,
+which they absorb and then exhale as
+a variety of potent breaths that inflict
+poison, blast, paralysis, and more.","The stench from a Congalala is so rancid
+that healing items have no effect. But you
+can quickly dispel it with a deodorant or
+by evading in water. Those farts are also
+trouble, but a hunter might just spot an
+opportunity if they watch carefully.
+Congalala are also known to use any breath
+type—a trick some have attributed to the
+black mushrooms they're seen digging up.","077A44DB-8E65-4BA1-B534-48F643B29192","","A2AFF890-469C-4FE2-8DE3-612707810A07","","B50442B1-8129-4D89-95C7-A0A1A988193D","","00000009",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+8,"EM0022_00_0","Fanged Beast","Blangonga","Large, white fanged beasts that rule over other
+Blango, attacking as a pack. They exhibit a
+range of mobility, particularly in snowy climes.","","","Frenzied Blangonga","Tempered Blangonga","","96A2AAAD-30B4-48CC-8FE5-D95DBFDBAE10","Large, white fanged beasts that rule over
+other Blango, attacking intruders as
+a pack. Its muscularity and mobility allows
+it to strike swiftly, even on fresh snow,
+and pounce from long distances—so
+hunters with long-range weapons still
+need to stay on guard. Large tusks are
+the mark of a powerful leader.","Blangonga use snowy ground to their
+advantage for extra mobility, and can summon
+other Blangos to gang up on unwary hunters.
+Use extra caution when they're angry,
+because they can direct the whole pack at
+a chosen target with perilous efficiency.
+Watch out for that freezing breath, too.
+Destroying a Blangonga's tusks is believed
+to undermine its authority with the other
+Blangos, disrupting their teamwork.","B13C9FEA-6ED4-403B-A019-7EB94F5C8AD4","","5A07361F-4F65-4793-BE40-D7F1AD56E0AC","","9389FF9D-7559-4FAE-8B69-573EA946D16F","","0000001B",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+10,"EM0070_00_0","Temnoceran","Nerscylla","Temnocerans that afflict poison, sleep, and
+webbing ailments—skillfully cornering prey,
+then hunting it with their pincer-like jaws.","","","Frenzied Nerscylla","Tempered Nerscylla","","9731ABDF-959C-41BF-9BAB-0431ADCDE97A","Temnocerans that inhabit the Iceshard
+Cliffs. They weave vast, sticky webs across
+their territory, using them and various
+status ailments to corner prey before
+utilizing pincer-like jaws to finish it off.
+Sometimes dead Gypceros can be found
+in the webs, the hides of which Nerscylla
+are known to adorn themselves with after
+devouring the rest of the carcass.","To defend against the poison, sleep, and
+binding effects of a Nerscylla's webbing,
+a hunter must go in duly prepared. While its
+powerful pincers are quite dangerous, they
+can and should be targeted as a weakness,
+provided they are approached correctly. The
+Gypceros hides draped on a Nerscylla's back
+are resistant to thunder but susceptible to
+fire—qualities that are reversed once the
+hide is destroyed.","263A10CB-FF98-4777-963A-DEB1CBC9847C","","09588520-0FE2-4A35-A00C-07636A97F701","","B6C7F8EB-4900-4D5B-AF29-A2A644E5FA82","","0000000E",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+11,"EM0071_00_0","Demi Elder","Gore Magala","Monsters draped in great wings like a black
+overcoat. They have no eyes, so instead they
+use a scattering of fine scales to locate prey.","","","","Tempered Gore Magala","","CE579169-3A63-4707-8504-7EE7645E22D7","Monsters that drape themselves in their
+great wings, like a black overcoat. They
+have no eye sensory organs, so instead they
+use a scattering of fine scales from their
+wings to locate prey. When their sensory
+capacity increases, antennae appear on their
+heads and they unfurl their wings, entering
+the aggressive Frenzy State. Their black
+scales can Frenzy other creatures as well,
+making them fearsome adversaries.","Gore Magala will use its wings to attack
+anything it detects with its sensory scales
+without abandon. If a hunter contracts the
+Frenzy, their natural healing will decrease
+and any damage taken will increase, but an
+experienced hunter knows to keep attacking
+to raise their metabolism before the virus
+takes to avoid negative effects. Target the
+head to put a stop to Gore Magala's Frenzy.","7155E996-69BB-4558-AF71-9AB92411599F","","F628EBB7-1411-441F-9FD0-B8B73668616E","","0313303D-DFC4-4778-A932-5AFFFB8A5DDE","","0000001C",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+14,"EM0082_00_0","Leviathan","Mizutsune","Specially evolved leviathans, Mizutsune
+can secrete a peculiar foam that deftly
+covers their foes in dangerous bubbles.","","","","Tempered Mizutsune","","99216CAC-2112-4BF1-92C0-43725A852D8C","Specially evolved leviathans with sleek,
+lithe bodies, Mizutsune can secrete
+a peculiar foam that covers their foes
+in immobilizing bubbles. Once their prey's
+movement is impaired, they'll close
+in with spry, dance-like movements.","The foam of a Mizutsune allows it to move
+with incredible agility even on land, but
+that's not all. Different kinds of foam
+produce unique effects, such as inflicting
+bubbleblight, healing hunters, or boosting
+your attacks. They can even employ an
+explosive foam when angered. If you are
+inflicted with bubbleblight, you'll be left
+open for longer after taking an attack,
+so fix yourself up quickly with a cleanser.","CEDE417C-D329-49B4-B91F-6E09DF0AFE88","","8A8C6429-8E67-4AC6-B253-025A176D07FE","","A1BDF52A-E0DD-4040-B176-0B979520F34D","","00000021",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","ALL","NONE","GET"
+15,"EM0100_51_0","Construct","Guardian Fulgur Anjanath","An artificial species created by an ancient
+civilization with a Fulgur Anjanath's power. They
+can discharge lightning and have a nasty bite.","","","","Tempered Guardian Fulgur Anjanath","","9A49E448-A096-47AD-AACD-9473CB2F4590","An artificial monster species created by an
+ancient civilization and imbued with Fulgur
+Anjanath's power. Guardian Fulgur Anjanath
+cannot reproduce and do not require food,
+relying instead on Wyvern Milk for energy.
+Not only can the lightning charged in their
+bodies be released as an attack, they can
+also use it to empower themselves and
+perform vicious biting attacks.","A hunter must watch out for a Guardian
+Fulgur Anjanath's sparks and teeth. While
+their lightning attacks alone are a threat,
+their maws infused with Guardian energy will
+cause wide-range explosions. Try to topple
+one by aggressively targeting its legs. The
+crystals that form from their attacks will
+explode through elemental interference,
+so Slinger ammo can also be effective.","B3344203-D86E-4954-BCB6-C123F989B8D0","","DA0710EA-A800-47AD-9967-B740D5DEAD25","","E522E785-E49C-4220-AC14-4CDF4AC58CD6","","00000017",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+16,"EM0113_51_0","Construct","Guardian Ebony Odogaron","An artificial species created by an ancient
+civilization with an Ebony Odogaron's power.
+The flurries from their foreclaws pose a threat.","","","","Tempered Guardian Ebony Odogaron","","8583ABD1-5FF3-4774-A31C-514157656FD5","An artificial monster species created by an
+ancient civilization and imbued with Ebony
+Odogaron's power. Guardian Ebony Odogaron
+cannot reproduce and do not require food,
+relying instead on Wyvern Milk for energy.
+They will attempt to corner targets with
+flurries of attacks from their well-
+developed claws and tails.","Guardian Ebony Odogaron are most notable for
+their honed claws that induce bleeding and
+dexterous tails, both of which carry Guardian
+energy that can trigger explosions. If their
+dragon-element attacks connect with
+Wylkrystals, it will cause an explosion of the
+same element. However, since the crystals
+are triggered through elemental interference
+Slinger ammo can also be used effectively.","73E8EE65-FEA9-473B-A548-3FB7DB6C29E0","","D08E60B7-50BE-4DAE-BFAE-3CCEB73D6BD8","","DE62DE65-AB1C-41EC-A62E-9D5508A6DAC3","","00000013",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+17,"EM0150_00_0","Fanged Beast","Doshaguma","Rugged, territorial fanged beasts that exhibit
+an aggressive disposition and inhabit a large
+range. Sometimes observed in large packs.","Alpha Doshaguma","Alpha Doshaguma are identifiable by their deeper
+red color and larger frame. Tread lightly—one
+of them is most likely leading a pack.","","Tempered Doshaguma","","CE75B3EB-9795-4302-852E-EA695CAC3081","Fanged beasts that are sometimes seen
+traveling in packs. Ruggedly built and
+extremely aggressive, Doshaguma won't
+hesitate to throw everything they've got at
+enemies—even other small monsters. They have
+been known to take prey back to their dens,
+which sometimes leads to violent disputes.","When Doshaguma are low on health, their
+wounds open exposing a weak point. They'll
+grow more aggressive, though, so beware of
+counterattacks. Their stomachs are exposed
+when rising to their hind legs, which is a
+relatively soft target and potential weak
+point. Use their mobility to lure them into
+rock and vine traps. If a Doshaguma pack
+attacks during a separate hunt, dung pods and
+large dung pods are a hunter's best friend.","A5AE675E-E071-4D55-BFF5-7453E8DF128A","","603A7CEB-EF8C-4B0F-B954-5A4C8DB520A6","","19553860-DCF3-4292-90CC-18F6D86ADC70","","00000003",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+18,"EM0150_50_0","Construct","Guardian Doshaguma","An artificial species created by an ancient
+civilization with a Doshaguma's power. They boast
+an incredibly robust physique and can spew acid.","","","","Tempered Guardian Doshaguma","","478D75FC-5F6E-4E62-92BD-67A1EEEA68FE","An artificial monster species created by
+an ancient civilization and imbued with
+Doshaguma's power. Guardian Doshaguma
+cannot reproduce and do not require food,
+relying instead on Wyvern Milk for energy.
+While anything but agile, they're tough
+enough to charge right through attacks
+without flinching, making them extremely
+dangerous.","Most Guardian Doshaguma attacks are big
+forelimb swings. While not agile, the
+attacks that carry Guardian energy will
+cause wide explosions. Watch out for the
+acid in their saliva, which temporarily
+lowers defense. By dealing with their forearm
+attacks properly, you can expose a weak point
+worth exploiting. The crystals formed by
+their attacks will explode from elemental
+interference, making Slinger ammo effective.","9565B43E-179B-4BC7-B196-903CEA10E76A","","9ED48D19-0F9A-416A-A32C-F5E440D730FC","","E2847D79-CE77-462B-8159-D2E5129D4C20","","00000011",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+19,"EM0151_00_0","Leviathan","Balahara","Desert-dwelling leviathans that use their supple,
+serpentine bodies to create quicksand traps. Weak
+against sonic bombs when they're submerged.","","","","Tempered Balahara","","C111CC55-DEE2-4B1C-82E8-B554F4E9A1A3","Desert-dwelling leviathans that build
+carapaces out of the fulgurite formed by
+lightning strikes. They use their flexible
+skeletons and serpentine bodies to create
+quicksand traps for unwary prey. Inside
+their mouths are multiple eye-like sensory
+organs. The mucus they secrete contains
+luminous bacteria and is believed to aid
+visibility while they are submerged and
+other low-light conditions like sandstorms.","The interior of a Balahara's mouth is a soft
+target that can be exploited if you strike
+right after it expels mucus. Since they rely
+on heightened hearing while submerged, sonic
+bombs or screamer pods—obtainable from
+Baunos—are highly effective. Sometimes the
+large monster you're hunting will get sucked
+into a Balahara sand pit...but there's
+nothing stopping you from going after it.","FFAD263F-0533-4D21-8828-0557523C44C0","","5A9FCFBC-785B-4F3E-B4C2-1ACC62178441","","0E7DDF79-3EDC-47CA-B75E-10D97CAB867A","","00000004",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+20,"EM0152_00_0","Amphibian","Chatacabra","Amphibians that affix rocks to their forelimbs
+to power up attacks. Break this ""armor"" to create
+an attack opening. The tongue is most vulnerable.","","","","Tempered Chatacabra","","B84AD91C-C272-4BFA-A200-9CBB23368781","Amphibians that use their long tongues to seize
+and devour prey such as Bulaqchi. Their evolved
+forelimbs store a sticky mucus-like substance.
+When agitated, Chatacabra rub their forelimbs
+against the ground to collect stone and ore,
+widening the range and destructiveness of their
+blows.","The Chatacabra's soft tongue is the place to
+strike; look for openings after their attacks or
+when they become tired. Destroying the ore
+stuck to their forelimbs will leave them wide
+open to attack. They roam a wide area, so
+environmental elements like falling boulders
+or Flashflies will be useful in taking them down.
+To give you an idea of how hungry these things
+can get, some hunters have witnessed them
+swallowing entire barrels during their charges.","03814B16-C331-4D4A-8A7D-A35F0AE3129D","","974DDB8B-89BF-406C-8EB3-AE82EE3E818F","","29D31C60-AEF2-40CB-8A4A-BFE65B17B96F","","00000002",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+21,"EM0153_00_0","Brute Wyvern","Quematrice","Brute wyverns that spread flammable vapor which
+they then ignite with their tails. They subsist
+on prey stolen from other predators.","","","","Tempered Quematrice","","0662E2A3-3B6B-467B-B158-CD96683C3BC4","Brute wyverns with disproportionately long
+tails. They spread a flammable substance
+which vaporizes quickly, then ignite it by
+dragging their tails along the ground. By
+nature, Quematrice rarely hunt their own
+prey, and instead scavenge herbivore
+carrion left behind by other predators.
+This often leads to confrontations with
+other, smaller carnivores.","Keep an eye on where flammable material
+settles on the ground to gauge how much
+a Quematrice's fire will spread. Since they
+rely on their tails to attack from a distance
+as well as to start blazes, a hunter can
+weaken this monster significantly by
+cutting it off.","89F5639B-CCED-46C3-81CD-FB9B5F29983E","","83D183C2-F4A4-4CB8-AA0A-4B1BA3BF6BAA","","23236584-BB19-436D-853F-2AE637D99306","","00000005",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+22,"EM0154_00_0","Temnoceran","Lala Barina","Temnocerans native to the Scarlet Forest
+with distinctive, pirouette-like movements.
+The florets they release have a paralytic effect.","","","","Tempered Lala Barina","","1E8E87C5-2FFC-4B20-9747-0DFF4A1657DD","Temnocerans native to the Scarlet Forest
+with distinctive, pirouette-like movements.
+Their fluids contain a neuroplegic agent
+which they mix with water to produce red,
+petal-like bristles on their abdomens.
+When agitated, Lala Barina open these
+bristles like a deadly, blossoming flower
+and release them as florets that paralyze
+whatever they come into contact with.","The paralytic effects of a single Lala
+Barina floret are weak and not enough to
+subdue a hunter, but repeated contact should
+be avoided. The stinger on their abdomens
+makes approaching from the rear a risky bet,
+but when tired, the stinger will stay exposed
+and vulnerable. There are reports that when
+in terrain such as their nests where they
+hang from above, sustained attacks will
+knock them down.","90A8BB8C-66BD-41C1-AC33-027D7354F4FA","","74BBBE32-E13A-4103-805D-1186A817BB7C","","F7DDBC92-E8EA-4E82-BB97-6A78B1A9897B","","00000008",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+23,"EM0155_00_0","Brute Wyvern","Rompopolo","Dappled brute wyverns that prowl Oilwell Basin.
+The gas from their tongues is toxic, and the
+gas in their tails can detonate the earth.","","","","Tempered Rompopolo","","FC208E4A-143A-4A21-9AA6-69AAAACEBBF2","Dappled brute wyverns that prowl Oilwell
+Basin. They use their tails to inject gas
+into the ground and detonate it, then
+feed on the small creatures that are
+unearthed. The toxic gas they spray from
+their tongues serve to weaken prey, which
+they then finish off with the blasts.
+Rompopolo are extremely territorial and
+will readily engage their own kind.","Hunters must be wary of the Rompopolo's
+poisonous explosions. Gas sacs can be found
+all over their bodies; the anterior ones contain
+poison, while the posterior sacs are for
+explosions. If you see one start to swell,
+strike it to shrink it back down. When
+fighting in oilsilt, the blasts will kick up
+rubble that can act as stable footholds.","0ED7E19A-BD9B-4724-915F-2CE7E40974C1","","D0BC8056-E3F1-47AC-BAE4-3885BB053FA6","","E2B8EDB0-DD77-4168-AAFE-D08B8638CC14","","0000000B",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+24,"EM0156_00_0","Flying Wyvern","Rey Dau","The flying wyvern that reigns supreme over the
+Windward Plains' ecosystem. It is able to store,
+amplify, and discharge the Sandtide's lightning.","","","","Tempered Rey Dau","Arch-tempered Rey Dau","2D3C039D-55A4-4DFC-85A4-7EDB7A9635F2","The flying wyvern that reigns supreme over
+the Windward Plains' ecosystem. It has
+adapted to the Sandtide—when it most
+frequently appears—and is able to store,
+amplify, and discharge the storm's heavy
+lightning to lethal effect. Rey Dau is highly
+territorial and will attack any and all
+intruders on sight. The fulgurite against
+its carapace emits a sound that puts
+every monster in the region on guard.","When a Rey Dau's wing or tail touches the
+ground while charged, it causes a reaction
+that produces a mantle of fulgurite. This
+widens the appendage's attack range and
+increases the monster's charging capacity—
+so make it a point to break these parts.
+Their heads may also be vulnerable after
+a discharge attack. Hunters are advised
+to bring thunder-resistant armor and
+ice-based weaponry.","77A2B597-5F3E-46EC-BB56-34BF7D49B946","","09D79D76-A7CC-4A9E-9DC0-B39D9E7456DB","","0D0330BE-6FC8-4974-BC2A-E56DD5D4F63E","","00000006",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+25,"EM0157_00_0","Leviathan","Uth Duna","The leviathan that reigns supreme over the
+Scarlet Forest's ecosystem. Its protective veil
+can also generate a wave to keep foes at bay.","","","","Tempered Uth Duna","","84890E18-F7B4-40B7-B30F-25374C643FAA","The leviathan that reigns supreme over the
+Scarlet Forest's ecosystem. It has adapted
+to water-rich environments and is sighted
+most often during the Downpour. Uth Duna's
+secretions when combined with water form
+a protective veil that not only absorbs
+hostile blows but also adds weight, which it
+slams down with enough force to sweep away
+surrounding threats in the resulting wave.","Seeing as an Uth Duna's veil reduces attack
+damage, the first order of business is to
+dispel it quickly. It will fall away once it
+loses enough water, but that's not entirely
+good news; without the veil weighing the
+monster down, an Uth Duna will become more
+agile and aggressive. You can dodge their
+wave with some creative evading, or by using
+things like Wedge Beetles to escape upward.","190CB65A-837C-45CD-B7A6-9E941771972F","","83FC3764-F740-46F1-ACE4-66D3CCD9F3AA","","F96F133F-2CF5-4EE3-9F36-A9B8CCD7D825","","0000000A",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+26,"EM0158_00_0","Cephalopod","Nu Udra","The cephalopod that reigns supreme over
+Oilwell Basin's ecosystem. A vision of hell,
+it attacks with tentacles and ignited oilsilt.","","","","Tempered Nu Udra","","1F26F5CF-9D42-4911-A5DB-6A2BB31DE5E9","The cephalopod that reigns supreme over
+Oilwell Basin's ecosystem. Usually, when
+sighted, Nu Udra is covered in oilsilt, but
+when enraged it will ignite the coating,
+transfiguring itself into a horror of flame.
+The oculi that appear on its body and many
+arms are presumed to be sensory organs,
+but the truth is still being investigated.","Each of a Nu Udra's many unique tentacles
+can be severed. But watch out when they get
+angry and burst into flame. You can douse
+any parts that are burning with watermoss—
+a recommended strategy, since it will
+leave the monster weakened. A Nu Udra's soft
+body allows them to slip through crevasses
+and move in surprising ways, so be careful
+not to let them get the jump on you.","0F69D948-42BD-499C-A96C-278ECC16E05F","","6453AF89-B343-4033-A04A-A2D8795DF8C2","","71384D66-0467-4C49-B7B7-1940D0DBA395","","0000000D",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+27,"EM0159_00_0","Fanged Beast","Ajarakan","Fanged beasts that adhere metal to their bodies
+and use friction to heat and cause explosions.
+They move in groups during the Firespring.","","","","Tempered Ajarakan","","1859A6AD-AC7E-45C1-98DF-89B3344995D0","Characteristic by their highly developed
+carapaces, Ajarakan wrap themselves in
+molten metal that they rub together to heat
+up and create explosions. Presumably due
+to the friction of the metal, they can reach
+high enough temperatures to melt even the
+ground or bullets. They can also use their
+strong limbs to grip onto the ceiling and
+move around freely, so a hunter must watch
+out from every angle, including above.","Approaching an Ajarakan's extreme heat
+will sap your health, so use cool drinks
+or Chillmantle Bugs to counteract it. Normal
+Ammo and arrows will melt if you try to
+pierce their molten carapaces, so you must
+use heat-resistant equipment or hit them with
+Watermoss to bring down their temperature
+first. Continuous friction will cause their
+body temperature to rise, but soften their
+outer shells.","CE31AD76-C6B0-4B42-B39A-E062C338DD6E","","F4B0C457-2C72-4AF6-AB29-CEBE78DB44B8","","71ED36B2-6AB3-481B-B0F3-B87D1CB0063B","","0000000C",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+28,"EM0160_00_0","Flying Wyvern","Arkveld","A wyvern with chain-like wings. The flexible
+chainblades on their wings are used to mow
+down prey and absorb elemental energy.","","","","Tempered Arkveld","","6A072773-1760-4CE0-8340-08E8992EA50C","A flying wyvern that was considered extinct
+according to documents left behind by the
+Guild. Their wings have a unique, chain-like
+blade that can extend and retract freely to
+reap their prey. They feed on elemental energy
+absorbed through these chainblades, and are
+able to convert the energy to unleash dragon
+element attacks.","The more energy this monster absorbs, the
+more ferocious its attacks become. Once they
+fill their energy tanks, their chainblades
+will sweep out to attack an even wider area.
+Conversely, since their wings possess organs
+that absorb energy, a hunter can force the
+energy to leak out by focusing attacks there.
+Flooding them with continuous elemental
+attacks will eventually overload the organs,
+forcing the monster out of its enhanced state.","28125218-21B1-404C-BA88-AE4678EEF0AA","","C7BD0487-0DC7-4EE1-8879-91F6868E8884","","7E3F0A6A-F288-43D3-B975-C5BFEFCF8414","","0000001E",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+29,"EM0160_50_0","Construct","Guardian Arkveld","An artificial species created by an ancient
+civilization based on a presumed extinct,
+legendary monster called Arkveld.","","","","","","07DF3144-061E-4AF0-ACC8-624B4898AB99","An artificial species created by an ancient
+civilization and imbued with the power of
+a monster called Arkveld. It cannot reproduce
+and does not require food, relying instead
+on Wyvern Milk for energy. In addition to
+absorbing and discharging energy the way
+other Guardians do, Guardian Arkveld can
+also absorb elemental energy through the
+chainblades on its wings and use it for
+sustenance.","Guardian Arkveld use retractable chainblades
+on their wings to attack. Not only are the
+blades used to absorb and release energy like
+other Guardians, but they can also convert
+the energy to the dragon element and
+discharge it, which will trigger an explosion
+of the same element if it comes into contact
+with Wylkrystals. The crystals formed by
+their attacks will explode from elemental
+interference, making Slinger ammo effective.","1C464609-769D-4DF5-B22C-3CC12399D354","","82789BC0-034A-4FF7-A695-FFF7117428EE","","AE032042-311B-4138-BC6B-5ABF3785B4B1","","0000001D",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+30,"EM0161_00_0","Leviathan","Hirabami","Leviathans that inhabit the Iceshard Cliffs. They
+have sharp, pincer-like tails and membranes on
+their necks that catch the wind to keep them aloft.","","","Frenzied Hirabami","Tempered Hirabami","","97330325-7BB0-4B6A-8E6B-F77AB60DD1FE","Leviathans that inhabit the Iceshard Cliffs.
+They have sharp, pincer-like tails and
+peculiar membranes on their necks that
+catch the wind and keep them aloft.
+Hirabami can sometimes be sighted nesting
+in groups along the cliffs, using their
+scales or foreclaws to cling to walls or
+ceilings while they sleep.","Hirabami can remain aloft as they maneuver
+skillfully between the ground and the sky.
+You'll need to watch out for those tail
+claws, but handle an attack well to turn it
+into a counterstrike opportunity. Destroying
+the membrane on their necks will lower their
+guards while aloft. Furthermore, you can
+target the membrane wound to knock them out
+of the air, making this a prime target.","9349ED15-FB7E-4ACB-BCF8-5CB240187BCC","","92430D6B-BA05-43EB-882D-8EC66869A4AF","","F60B6D86-3EC4-4D7C-AAFC-D0C6C402E7F4","","0000000F",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+31,"EM0162_00_0","Leviathan","Jin Dahaad","A leviathan that sits at the peak of the
+Iceshard Cliffs' ecosystem. It generates cold
+air via cooling organs across its massive body.","","","","Tempered Jin Dahaad","","59614AD7-CE72-4E70-B278-8BB4612D1D5C","A leviathan that sits at the peak of the
+Iceshard Cliffs' ecosystem. It surrounds
+its massive form in cold temperatures
+via ridge-like cooling organs across its
+body; the frost its limbs produce
+doubles as a potent weapon and a way
+to travel along walls and floating rocks.","Every part of Jin Dahaad's massive
+body is capable of powerful freezing
+attacks. Diminish their offensive
+capabilities by attacking the ridges
+that they use for cooling. The largest
+ridges on their back are particularly
+powerful and should be destroyed, but
+the hide there is very tough unless
+the other ridges are dealt with first.","06D05C9D-F0A8-488B-951E-89DDE82F1FF0","","B8D3FC14-E12A-4AB5-8D68-1E2A80FBCCBF","","51784E65-C0F0-4DF3-8135-0625EA1B4D18","","00000010",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+32,"EM0163_00_0","Cephalopod","Xu Wu","Cephalopods that roam the Ruins of Wyveria and
+prey on Guardians. This often leads to conflicts
+between the two monsters.","","","","Tempered Xu Wu","","D0533569-0976-4727-89F7-63DE71B8DA6D","Cephalopod predators whose prey include
+Guardian monsters. The mucus secreted from
+their tentacles hardens quickly into sharp edges
+that resemble blades or spears, which is why
+some call Xu Wu the ""Piercing Assassin."" The
+sizable mouth hidden on their underside allows
+them to devour even rather large prey.","Due to their predatory nature, you can
+expect Xu Wu to attack Guardians inside
+their habitat. They have no eyes, but their
+other senses are developed and they excel at
+catching prey off guard, especially with
+their ability to enter small crevices and
+crawl quickly across the ground. When one
+exposes its mouth, that means a deadly
+attack is coming, but with a powerful blow,
+you might be able to topple the creature. ","779EB844-7ADD-4935-9CDB-7FF0CAF27EC8","","B6B368E3-F036-41B8-89E4-6168C03018ED","","0CE2C339-E6B2-4810-92A5-0051EA937619","","00000014",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+33,"EM0164_50_0","Construct","Zoh Shia","A Guardian created to be Wyveria's savior.
+It was feeding off the Dragontorch, drawing from
+the vast stores of energy while it slumbered.","","","","","","4C66564D-4181-46A8-81C5-C7813FF193B3","A massive Guardian that has been feeding
+off the Dragontorch's energy. Its body
+is encased in crystallized Wyvern Milk,
+allowing it to regenerate. Zoh Shia, like
+other Guardians, excels at energy attacks
+and can produce repeated explosions to
+crystallize the whole area. Beneath its
+white Guardian coat, its body pulses with
+dark recollection—which you may see, should
+it reveal its full power from the days of yore.","Zoh Shia share the same basic traits of
+other Guardians. The crystals on their wings
+and heads can be stripped away to deplete
+their energy stores. The white crystals on
+their bodies will grow back weaker, making
+them easier to destroy a second time. The
+crystals they create will detonate if they
+take elemental damage, but a talented hunter
+can use elemental Slinger ammo and smart
+maneuvering to make good use of them.","EE525674-701E-4B6C-8C3F-3C4745CB7781","","78DF3964-7445-4F84-B532-DEF5B811D8A9","","BC3E3EB5-D411-42F1-BF13-B8BC78035D00","","0000001F",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+34,"EM0165_00_0","","High Purrformance Barrel Puncher","<COLOR FF0000>#Rejected#</COLOR> EnemyText_EXP_EM0165_00_0","","","","","","87F77B03-D219-4D66-94F2-255328AB33A0","","","C2E1E15F-9271-43BE-BA56-BECC4F4B120A","","0AB79BC5-7120-4A8E-9682-07BF2DC9950B","","B57B2DB0-CC0B-4A58-B02C-809756D1EAE5","","00000020",CellImage,"","","","","I_NONE",true,false,false,false,"INVALID","NON_FILTERING_TARGET","NONE","GET"
+36,"EM1006_00_0","Neopteran","Vespoid","Neopterons with paralyzing poison stingers. They
+are quite fragile, so carefully take them down with
+your Slinger or poison to safely carve materials.","","","","","","670C2D1D-CF61-4409-A0A6-62DACE118BC1","Neopterons with paralyzing poison stingers
+on their abdomens. Since Vespoids are
+attracted to light, hunters can use
+brightmoss to mark large monsters, which
+Vespoid will then attack and paralyze.
+To finish off a Vespoid without damaging
+its delicate materials, a hunter must avoid
+blunt trauma and use attacks that gradually
+drain its health. Vespoid fluids are useful
+for crafting with monster bones.","","79F030A6-7EC5-41B0-8C97-766FC87D8E11","","BE0D519B-AADC-4564-B6B9-D50B158C65BA","","5EA3FCC8-4933-4BF2-87A0-3EF5A7746ECA","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+37,"EM1022_00_0","Fanged Beast","Conga","Fanged beasts with pink fur that prefer mild,
+damp climates. Generally, they don't form large
+packs and only live together in small numbers.","","","","","","F6D900BF-B812-42F0-B368-0C82DCB54268","Fanged beasts with pink fur. Packs typically
+consist of females and juveniles. An adult
+male Congalala may occasionally be sighted
+within a pack, but these are non-social
+creatures that don't establish a chain of
+command. Beware their terrific flatulence,
+as they will use it to inflict stench on
+perceived threats.","","17A9145B-0B66-4728-84D6-FBF55EF5AC2A","","82782618-C587-4208-843D-FE0E1F47ED04","","7E0CD1C3-7B15-45F0-9D2F-393BA1B0CB33","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+38,"EM1023_00_0","Fanged Beast","Blango","Fanged beasts with snow-white pelts. Blango
+travel in packs with a Blangonga at the head,
+working together to eliminate intruders.","","","","","","D0941CB4-37C3-4431-9505-C394500B5457","Fanged beasts with snow-white pelts.
+Blango generally travel in groups with
+a Blangonga leading them. As a pack, they
+work together efficiently to eliminate
+threats to their territory, responding
+instantly to their leader's commands.","","0BE77FD6-AA51-4E29-934C-29C7A1EFFF3C","","943F343D-CC7A-4CAA-8D56-BB9F8F5836A5","","3C0BB855-1285-4067-BBDE-5F6C73409A29","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+39,"EM1150_00_0","Herbivore","Ceratonoth (Male)","Male Ceratonoth. They use their large spikes
+to disperse lightning into the ground and
+protect the females of their sizeable herds.","","","","","","28B3BB33-8680-44AB-86AA-F6474C96461B","Male Ceratonoth, known for their large
+herds. During sandstorms, they use their
+large spikes to channel any lightning
+strikes. This process sometimes causes
+fulgurite to form on parts of their bodies.
+A male responds quickly when a large
+predator attacks and makes an effort to
+lead his herd to safety.","","8A15D090-9E11-4CB7-A5D2-76D88201398A","","6AF87259-1F11-4EB3-9F66-C002D0A7221E","","DD0443A1-01B2-43DB-9F69-5830DB6DBA1F","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+40,"EM1150_00_1","Herbivore","Ceratonoth (Female)","Female Ceratonoth. In a harsh climate where
+nourishment is difficult to come by, they
+are frequently targeted by predators.","Ceratonoth","Ceratonoth juveniles are treasured by their
+herds. Due to their arrival during the Plenty,
+the people of Kunafa view them as a good omen.","","","","B9C6E44C-DE7C-49EA-83E6-1343A6218376","","","7F654B2C-B35B-49B6-B907-DB37C5FEC9A3","","DC740EB7-9DD2-4C0E-81C0-592111D4DE0F","","35C77D36-85FA-4B5D-89A2-5D81A0137B80","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+41,"EM1151_00_0","Herbivore","Dalthydon","Herbivores that move between habitats in response
+to environmental changes. When in danger, they
+use their head plating to fight back.","Dalthydon","Juvenile Dalthydon. Their cranial plating
+hasn't fully hardened yet, and their pelts are
+a neutral color to avoid drawing attention.","","","","B82D163B-27B7-43EC-9EF6-3C5F9CBD78BD","Herbivores that live in herds and move
+between habitats in response to environmental
+changes. Dalthydon are bred as livestock
+and play an important role in human life.
+Although they are docile in general, when
+the herd is in danger, they assume a group
+defensive formation and use their evolved
+cranial plating as a weapon.","","7FFF6947-E1CC-42D9-A645-85CD589D1D1D","","B9F54DB5-345D-4BFB-B01B-99FF0470424D","","DF372D57-AA07-455A-8243-2A94EA9DEAD2","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+42,"EM1151_00_1","Herbivore","Dalthydon (Livestock)","Herbivores that are raised as livestock.
+In addition to providing wool and milk, they
+are also used for physical labor.","Dalthydon (Livestock)","Juvenile Dalthydon. Their cranial plating
+hasn't fully hardened yet, and their pelts are
+a neutral color to avoid drawing attention.","","","","3D0E9E3C-91F7-4830-A757-B71E7461FE9E","","","C4DDFA28-67AE-4322-B9F9-A85D6BAE0A1A","","1D06FAF6-2D2F-439B-A325-8A94EA09E760","","430E1ECD-A036-406C-8D04-9D2D074B2D62","","00000000","",CellImage,"","","","I_NONE",false,false,false,false,"INVALID","INVISIBLE_ADDBEACON","NONE","GET"
+43,"EM1152_00_0","Neopteran","Bulaqchi","Neopterons that use swarming tactics to contain
+and subdue prey, then dissolve it from the inside.
+Sonic bombs will disable their sensory organs.","","","","","","120C797E-0300-436F-967F-8C7B5CDE80DF","Neopterons that inhabit the Windward Plains.
+They use their needle-like mouths to pour
+digestive juices into carrion to dissolve it
+into easily consumed fluids. Feeding makes
+them bloated and sluggish, so they have to
+rest on walls or ceilings. Their forelegs
+double as sensory organs that they use to
+assess their surroundings, but they are
+quite sensitive, so a loud noise is usually
+enough to immobilize a Bulaqchi.","","78FFB6BD-AD46-4FA1-8218-E9BC7EC60F48","","E585D99C-5DB7-40C6-8ADB-F47F28A7FD20","","0FEF4F57-9E28-4517-B8A2-0607A5CAA179","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+44,"EM1153_00_0","Bird Wyvern","Talioth","Carnivores that work together to attack
+intruders using their powerful jaws. A clever
+hunter can turn them against larger monsters.","","","","","","F4F402A0-49F9-4864-BBBB-561E510EFB09","Carnivores that prowl the Windward Plains.
+Their distinct jaw is designed to grab
+prey and not let go, and they excel at
+working together to hunt and deal with
+intruders. It's not uncommon to see a pack
+of Talioth take on a bigger monster and
+win by sheer numbers; a clever hunter will
+take advantage of this and use Talioth to
+distract or weaken their main target.","","7619184D-CD46-4108-8EC2-4E5017CC58B1","","42E4B948-CDB5-4C45-B78A-157B0C24CD00","","5210C8A4-8546-4BCC-BE97-2A08D692A1C5","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+45,"EM1154_00_0","Wingdrake","Baunos","Winged wyverns that vibrate their thoraxes
+to create a deafening roar. You can nab screamer
+pods from them using the Hook Slinger.","","","","","","76FFA055-1476-4864-A7D1-B82610634975","Winged wyverns that inhabit the Windward
+Plains. Rather than do their own hunting,
+they use their high vantage to scavenge
+carrion. Baunos take shelter to avoid the
+lightning during an Inclemency. When
+a little intimidation is called for, they
+vibrate their thorax feathers to create
+a deafening roar. You can get screamer pods
+from them with the Hook Slinger.","","CBB026F3-2F4B-4D41-B825-D4D588D6F359","","803F593C-F571-43B0-A3C7-F5AE0B0F0BCF","","D2E534E4-7F25-439A-9B21-AF6C31238897","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","EXCEPT_BATTLE","GET"
+46,"EM1155_00_0","Leviathan","Gajios","Leviathans with distinct snouts that live near
+water. Obtain bleeding pods by firing your Hook
+Slinger at them.","","","","","","0CAB4090-5260-4969-BE9C-AFBFE137D85A","Leviathans with distinct snouts that live
+near water. If the water is deep enough, a
+Gajios will stay submerged with only the tip
+of its nose exposed, waiting for prey to
+wander by. You can obtain bleeding pods with
+the Hook Slinger—but not without a fight.","","6F13774B-A697-4D90-9168-712CF2879C86","","65EB321A-186D-4F12-9D3A-7F0E4C1FA4C5","","BE65F14D-DF94-4C2F-9F91-E47242F338B3","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","EXCEPT_BATTLE","GET"
+47,"EM1156_00_0","Leviathan","Piragill","Leviathans with beautiful scales and blade-like
+protrusions. They primarily inhabit the Scarlet
+Forest, and hunt in highly organized packs.","","","","","","B8A01623-9211-4885-A806-2772D5DC2539","Leviathans whose bodies are covered with
+beautiful scales and sharp blades. As a pack,
+they work together to surround prey, but
+since most Piragill are too timid to make
+the kill, they usually wait for an opening
+and lunge all at once. Don't underestimate
+them; on water, their speed is unmatched,
+and those blades will make mincemeat of a
+hunter that wanders too close.","","2E88F2A7-CF54-4CF0-AA1F-3822FE7D1C0E","","A4E84298-F321-4728-A8DD-759D7710C72C","","0744EAC6-0CBE-4095-B46F-2EBDA25F2414","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+48,"EM1157_00_0","Wingdrake","Harpios","Winged wyverns that are identifiable by the
+long, sharp horn on their heads. Obtain piercing
+pods by firing the Hook Slinger at them.","","","","","","CC572076-F146-4462-BB3B-700C21B12730","Winged wyverns that are identifiable by the
+long, sharp horn on their heads—which just
+so happen to make great Slinger ammo.
+Large as the Harpios may be, they never
+attack hunters, choosing instead to stay by
+the water and prey on fish. On occasions
+when large fish scare the smaller ones to
+the surface, you might even get to see a
+bona fide Harpios feeding frenzy.","","C8FD2395-C67D-4C2C-9BB4-CF3762302571","","3729FCA4-D0E9-4C96-B053-9B225B39985D","","7F1CE083-7562-46C8-B739-8C04A2A2326A","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","EXCEPT_BATTLE","GET"
+49,"EM1158_00_0","Bird Wyvern","Kranodath","Small carnivores that prowl Oilwell Basin,
+hunting in small packs. They have been known
+to engage larger monsters while feeding.","","","","","","0CE09772-CB51-41D5-8A64-B7021D04DAB6","Carnivores that prowl Oilwell Basin. Their
+skulls have evolved in a way that lets them
+expand and contract the plating, and lunge
+at prey with hammer-like blows. They hunt
+Gelidron and keep their packs small. There
+have been accounts of Kranodath engaging
+larger monsters while feeding, where they
+cling to the enemy's skull and stun it with
+repeated head bashes.","","517D12DD-779D-444A-A896-657BCECB7474","","EB483DA3-D302-4496-BEE8-69047CCDC6C0","","DE87A24E-C61C-41AA-8989-3036015F6F07","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+50,"EM1159_00_0","Neopteran","Comaqchi","Neopterons with well-developed tail stingers
+and forelegs. They surround prey in colonies,
+using their tails to inject a sleeping agent.","","","","","","4FA08DAA-37B4-4105-9B3B-576ED0792088","Neopterons that inhabit the Iceshard
+Cliffs. Comaqchi rarely move around,
+staying adhered to the walls most of
+the time in large colonies. Their forelegs
+are well adapted to striking, and they
+can use their well-developed tail
+stingers to inject a sleeping agent that
+make targets easier to prey upon.","","F6123FC8-0A77-4A34-B1E1-779AE0F2DD15","","BA6954F6-E4A6-499A-A8E6-E13BC6B62A2E","","8C40C13A-014E-4AD8-AEDF-DABD54449E12","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+51,"EM1160_00_0","Amphibian","Gelidron","Amphibians that have adapted to their dry, hot
+habitat by producing a protective slime. Their
+tasty flesh makes them a target of carnivores.","","","","","","CF441C88-DA70-4FD6-AC9F-9AEFDC631DF3","Amphibians commonly found in Oilwell Basin.
+Subcutaneous slime protects them from
+getting burned. Gelidron lay ambushes,
+waiting to snap up prey with their big,
+meaty tongues. Fine hairs on their digits,
+combined with sharp claws, allow them to
+climb straight up walls. Unfortunately for
+the Gelidron, their edible parts are
+delicious, putting them in high demand with
+carnivores in the wild...as well as in Azuz.","","F2DCB7FD-C4BF-47EF-9717-AE65A5EB5597","","3901A2A7-04DF-4092-9F49-E3DA3292D16E","","8041C125-A482-4323-A703-AD9E5D7A5DB9","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+52,"EM1161_00_0","Herbivore","Rafma","Herbivores that live in herds in cold areas.
+They are targeted by predators as a source of
+sustenance where flora and fauna are scarce.","Alpha Rafma","Herbivores that live primarily in cold regions.
+The larger alphas protect the herd, and can be
+harvested for paralytic Slinger ammo.","","","","92EFFDE5-6D8C-490E-85B9-39F8C79E2267","Herbivores that live primarily in cold
+regions. Rafma form herds with a large alpha
+at the head. When threatened, the alpha
+discharges static energy stored in its horn
+to shock foes and defend the herd. This horn
+can also be targeted with the Hook Slinger
+to get paralytic ammo. Rafma have been
+sighted moving along dizzyingly steep
+cliffsides, to the wonderment of observers.","","F4A6866F-A637-4B1D-9C95-A8932B850402","","5FDE058F-5BAD-4CF4-B9B6-0ACD930D8B56","","E7F770F9-A975-4815-91FB-938775CA1B2C","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","EXCEPT_BATTLE","GET"
+53,"EM1162_00_0","Bird Wyvern","Porkeplume","Bird wyverns with sharp bristles on their heads.
+Obtain Slinger ammo that is effective at creating
+wounds by firing your Hook Slinger at them.","","","","","","FEC607A2-7A53-4771-AE8E-09744BBA29B9","Bird wyverns that live in herds at the heart
+of the Ruins of Wyveria. Porkeplumes are
+extremely timid and will protect themselves
+against threats by puffing out the bristles
+on their heads. If the situation escalates,
+a member of the herd will slam into the foe
+with its bristles, giving the other members
+a window to escape. The head bristles can be
+used as bleeding pods for the Slinger.","","FA2643EB-E655-4B5A-95E8-B525EBA74EA4","","655DFD1B-3337-479D-B32F-C847BED1D8A0","","A31F3A55-53D8-4BA5-8790-C628BD369AC9","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","EXCEPT_BATTLE","GET"
+54,"EM1163_00_0","Temnoceran","Nerscylla Hatchling","Newly-hatched Nerscylla larvae. They form colonies
+in the bodies of devoured prey, nests, and other
+hidey-holes, and react as a group when provoked.","","","","","","E80B78C3-1208-4C80-A998-C92943E803A8","The larval form of a temnoceran that
+inhabits the Iceshard Cliffs. At this stage,
+they cannot use webbing or status ailments
+like adult Nerscylla, but these little fellows
+like to gang up, surround prey, and then
+pounce all at once.","","BDF3E978-1B6F-4633-9747-70CD6D88EC5A","","5A4FCCFF-1C50-4EFA-94C6-579D564C74FF","","89C62832-5D4B-4057-8074-5CAE7897D75A","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+55,"EM1164_50_0","Construct","Guardian Seikret","Artificial wyverns created by an ancient
+civilization. They hatch from small cocoons and
+travel in packs, attacking with sharp claws.","","","","","","B297E21D-1C5F-4A86-AF85-D7ED18DC8BA6","Artificial wyverns created by an ancient
+civilization. They dash through the Ruins
+of Wyveria in search of Wyvern Milk, their
+source of energy. Unlike the original
+Seikret, the Guardian types are aggressive
+and have sharp, dangerous claws on their
+unique forelegs. They generally travel in
+packs of two or three, but if threatened,
+they may call for more help and try to
+surround the adversary.","","BE2B1CA0-C06E-4A7B-8E82-1072180CE7AE","","050BB776-5327-48DF-A014-F0EFDA4293AA","","A6C43F62-047B-49C2-B877-F4B9A2EA849E","","00000000","",CellImage,"","","","I_NONE",true,false,false,false,"INVALID","EM_ZAKO","NONE","GET"
+57,"EM5001_00_0","","Paratoad","Toads containing a paralytic gas. Hitting them
+will release the gas, which is powerful enough
+to stop large monsters in their tracks.","","","","","","DADE7AC4-33FE-4C2E-A8C7-B1974995FC6D","","","D3CF1400-5EBC-4625-851F-E373EE163D63","Toads that contain a powerful, paralytic gas
+which they can use as a defensive measure
+to stop threats in their tracks.","16D56CF2-799C-41B7-9F70-9E587B029510","Toads containing a paralytic gas that are
+usually found by the water. They are
+sensitive to force and will release the
+gas as a defensive measure; it's powerful
+enough to stop hunters and large monsters in
+their tracks, which buys the Paratoad time
+to escape. Hunters can use this behavior to
+direct the gas at a desired target and gain
+the upper hand.","253AA2AD-E877-4D74-9DD0-DB68446B00A2","","00000000","","","",CellImage,CellImage,"I_LEMON",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+58,"EM5001_10_0","","Nitrotoad","When struck, Nitrotoads release a spray
+of volatile liquid that detonates with enough
+power to stagger even large monsters.","","","","","","9D77C833-B628-427A-A48D-0FA8B29993D4","","","8440BDBB-B660-4294-9E70-A0CE9A030D1D","A toad that stores an explosive liquid within
+its body. The explosions it produces are so
+strong they even make larger monsters flinch.","A8216B5F-5577-4F2F-8D2F-A5EF41B27C7A","Toads that store an explosive liquid within
+their bodies. Any physical stimulus causes
+them to spray this liquid and flee. Once
+the liquid contacts the air, it detonates,
+wreaking havoc. Though these creatures
+prefer to live in environments abounding in
+combustible materials like coal, their diet
+actually consists mostly of insects and
+crustaceans. It is yet unknown what causes
+them to produce the explosive liquid.","7FA47FEA-A2C5-47DB-829D-41C2DB3160DD","","00000000","","","",CellImage,CellImage,"I_RED",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+59,"EM5001_20_0","","Sleeptoad","Toads that store sleeping gas in their bodies.
+A shock will cause them to spray the gas, which
+is potent enough to affect monsters.","","","","","","D627F089-CCF8-484A-8284-109EE00883E5","","","17717459-8AA9-4C0A-9A30-5EB99F491A16","Toads that store a potent gas in their
+bodies that can put monsters to sleep.","0663EAC5-6EDD-4970-AD15-2125C0084D36","Toads that store sleeping gas in their
+bodies. A shock will cause them to spray the
+gas, putting the enemy to sleep while they
+escape. The gas is so potent that it affects
+hunters and even large monsters. You may
+be able to gain the upper hand if you use
+this to your advantage and direct the gas
+at a monster.","E8C6B998-B9D5-4841-9905-B7D1E8409404","","00000000","","","",CellImage,CellImage,"I_BLUE",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+60,"EM5002_00_0","","Vigorwasp","Insects that carry restorative nectar.
+A light impact causes the nectar to scatter,
+producing a continual healing effect.","","","","","","ABECAF70-B043-48D8-B98B-6E2C75FD7F7A","","","A9D35CE6-478B-4B1E-BFE7-DA5E880D36B4","Insects that gather restorative nectar from
+Vitalilies and store it, with more or less
+the same properties, in their abdomens.","00F7A379-E7B9-49FA-9175-D70571515244","Insects that gather restorative nectar from
+Vitalilies and store it in their abdomens.
+While the flowers and nectar have similar
+properties, the latter can be scattered in
+large quantities to produce a lingering,
+continual healing effect. There's a rise
+in the Vigorwasp population during
+the Plenty, when Vitalilies flourish.","4F2B8812-34B5-4FAE-A9EA-4823DFE7A746","","00000000","","","",CellImage,CellImage,"I_SGREEN",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+61,"EM5002_01_0","","Giant Vigorwasp","Large wasps that carry more nectar at a higher
+concentration. A light impact scatters the
+nectar, producing a continual healing effect.","","","","","","B82BF37C-47A6-420F-9E88-3C5811575E53","","","E913D7AF-5266-4332-9013-E577B4060F66","Large wasps that carry more nectar at
+a higher concentration. Frequently seen
+during the Plenty.","D8275325-3C30-4B5B-B299-25DBB0E59B23","Large wasps that carry more nectar at a
+higher concentration. This boosts the range
+and potency of the nectar's restorative
+effects. They are most prevalent during the
+Plenty, when the Vigorwasps have learned
+the nectar will be more plentiful. They are
+sometimes sighted in groups.","83E8D550-2D8F-4521-B9E7-03EF2F41EF03","","00000000","","","",CellImage,CellImage,"I_GREEN",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+62,"EM5002_10_0","","Purewasp","Insects that store nectar. An impact will cause
+them to release it, providing immediate health
+recovery and relief from status ailments.","","","","","","DF96224D-9667-44D8-BC16-21EC21F722E2","","","C76E8487-0B9E-4154-A219-37F0D116CF2A","Insects that store nectar in their abdomens
+with restorative, detoxifying, and
+deodorizing properties.","BEEB0E78-83FF-4D09-BBC6-ED219D5124E1","Insects that store nectar in their
+abdomens with restorative, detoxifying,
+and deodorizing properties. Since the
+effects are different from a Vigorwasp's,
+it is believed that this species collects
+ingredients from medicinal plants other
+than Vitalilies. However, based on ongoing
+research, it has been found that enzymes
+in their bodies could also play a role.","D9FE151D-BA98-4409-8798-D336343B904E","","00000000","","","",CellImage,CellImage,"I_SKY",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+63,"EM5003_00_0","","Flashflies","Insects that flash when struck. The larger their
+colony, the brighter they shine. They can be
+used to blind large monsters.","","","","","","3A6B8A21-487C-4D6E-8BD7-73F5E9FA43A5","","","E2529552-E37C-45B8-B806-0DD6A8732E55","Insects that flash when struck. Alone, their
+light is faint, but in colonies they shine
+more intensely.","FD548852-C4BB-412B-94C7-3F46A24BC305","Insects that flash when struck. Usually,
+they live solitary existences with too faint
+a flicker to even notice. In caves or the
+dark of night, they form colonies where
+their light is more intense; striking them
+causes them to shine even brighter. On hunts,
+they can be used like flash bombs to blind
+and disorient monsters.","709C92BE-297A-4485-B6D3-6E47B78DC854","","00000000","","","",CellImage,CellImage,"I_YELLOW",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+64,"EM5004_00_0","","Dung Beetle","Insects that habitually roll up monster dung.
+The dung pods are well compacted and can
+be used as Slinger ammo.","","","","","","76626095-A057-42B5-BC08-67807179D730","","","43556E97-47F1-4FD0-8432-BFEB421DA8D7","Insects that habitually roll up monster dung:
+nature's diligent decomposers. The dung pods
+can be used as Slinger ammo.","0A4F4479-C2D7-4563-A0BB-3F006A624276","Insects that habitually roll up monster
+dung. They bring it back to their
+underground nests not just for food, but to
+lay eggs on and feed their larvae. They're
+the faces of feces across the land: nature's
+diligent decomposers. The compacted dung
+pods formed by their efforts can be used as
+Slinger ammo. It's foul enough to send even
+large monsters running for fresh air—a
+useful trick when you're outnumbered.","1AC40A0A-06A8-4A38-9E39-329174D9CC5D","","00000000","","","",CellImage,CellImage,"I_BROWN",true,false,false,false,"INVALID","SLINGER","ALWAYS","GET"
+65,"EM5004_10_0","","Bomb Beetle","An insect that rolls explosive rocks and
+brings them back to its nest. These rocks
+can be used as Slinger ammo.","","","","","","76FFD723-1F2E-426E-90BD-5AC53615ACBF","","","0C8A4354-BFA7-465C-B9DC-45469C8876FA","An insect that rolls explosive rocks and
+brings them back to its nest. These rocks
+can be used as Slinger ammo.","C67C93F8-6DA0-42D8-9CC4-2C87B5CF3983","Beetles that roll around explosive rocks.
+Because both these rocks and their habitat
+are extremely hot, their bodies have evolved
+to withstand heat. It's yet unclear what
+they do with the rocks once they get back to
+their nests, but some theorize that they are
+fed to the beetles' young.","F843F22C-B8CE-4F93-B40E-E1B31EF7F3DD","","00000000","","","",CellImage,CellImage,"I_RED",true,false,false,false,"INVALID","SLINGER","ALWAYS","GET"
+66,"EM5004_20_0","","Rime Beetle","Beetles that gather up snowballs and roll them
+back to their nests. The snowballs can be used
+as Slinger frostburst ammo.","","","","","","460036C0-1C3C-4F30-9909-C0361E78131D","","","8104F531-2AFA-4022-8901-0640B678FFAD","Insects that roll balls of snow until they
+harden. These ice balls can be used as
+Slinger ammo.","478D9FE5-E3E7-4445-8C60-A6247201388B","Beetles that gather up snow. Their snowballs
+can be used as Frostburst Ammo. Due to their
+ecology, Icebeetles are limited to cold
+habitats and are more tolerant of cold than
+other insects. No one knows why they roll
+their snowballs back to their nests. Some
+theorize it's to grow the organic matter
+they feed on, while others think it could be
+related to reproductive behavior.","2EF26264-1A86-48B8-90FF-E09A582FF667","","00000000","","","",CellImage,CellImage,"I_BLUE",true,false,false,false,"INVALID","SLINGER","ALWAYS","GET"
+67,"EM5005_00_0","","Vigormantle Bug","Insects that wear healing herbs like cloaks,
+producing a restorative nectar that can be
+collected from them using the Hook Slinger.","","","","","","1BA575EA-6F0B-4C0C-B172-DCC776B5A521","","","15F619D1-6BDD-4693-9FC8-445A72A1B83B","Insects that wear healing herbs like cloaks.
+The cloak serves a double purpose: to store
+nutrients and to defend against predators.","AC0B2555-6D64-45B6-A23E-37A61657868B","Insects that wear healing herbs like
+cloaks, initiating a fermentation process
+that creates a nectar with similar
+restorative properties. Collecting the
+cloak by hand or with the Hook Slinger
+will restore health. The cloak stores
+nutrients but can be shed in a pinch as
+a distraction to defend against predators.","DF9381DD-6B52-402D-B729-68CE6BFE40B7","","00000000","","","",CellImage,CellImage,"I_GREEN",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+68,"EM5005_10_0","","Chillmantle Bug","Insects that hoard honey with heat-relieving
+properties in the casing on their backs. They
+ferment plants with cooling components.","","","","","","3DA42AD4-8501-4679-8E8D-43162CF67C27","","","3C2E8B55-43F2-41C1-BA79-BF470FC6CF80","An insect that wraps itself in a case of
+plant matter. The case has a mucus that
+protects it from high temperatures.","5752AEC9-5EB6-4E53-8233-B30959611780","Insects that live in extremely hot
+environments. They wrap themselves in a
+case of plant matter—much like their mantle
+bug brethren—but the plants they use have
+cooling properties, allowing them to
+withstand heat. They are able to survive
+without the casing by burrowing
+underground.","BB434B91-7767-4D3E-9355-F7750F34B105","","00000000","","","",CellImage,CellImage,"I_SKY",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+69,"EM5005_20_0","","Heatmantle Bug","Insects that hoard honey with cold-relieving
+properties in the casing on their backs. They
+ferment plants with heating components.","","","","","","E19685CD-B79A-4888-B1FE-9DC551065C55","","","1D774F41-EF44-487D-BE19-ACE8EFF97C76","An insect that wraps itself in a case of
+plant matter. The case has a mucus that
+protects it from low temperatures.","39986EE1-0FA9-4EBB-AE19-EF66FB7223D8","Insects that live in extremely cold
+environments. They wrap themselves in
+plant matter—much like their mantle bug
+brethren—but they use plants with heating
+properties, such as hot peppers, to
+mitigate the cold. They can live on the
+surface thanks to this, but if uncloaked
+they must burrow underground to survive.","A478501A-972E-4D10-9F70-10642CDD7696","","00000000","","","",CellImage,CellImage,"I_ORANGE",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+70,"EM5006_00_0","","Wiggly Litchi","Insects that thrive in rotting wood and soil.
+Highly nutritious, they can be consumed to
+increase stamina and halve its depletion rate.","","","","","","D73B240B-A115-48A3-BAB1-70B15660634F","","","6F483714-F685-4EEE-BD18-0D04A41EF3B9","Insects that thrive in rotting wood and soil.
+Even monsters consume them because of their
+high nutritional value.","E741A917-B05E-4849-8A56-3539C2BC5015","Insects that thrive in rotting wood and
+soil due to their diet of plants and
+rotting leaves. Consuming them will
+increase stamina and halve its depletion
+rate. Their high nutritional value makes
+them a common snack for some monsters.","CD998F14-743C-457A-9BFD-0B2D4DFBC565","","00000000","","","",CellImage,CellImage,"I_IVORY",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+71,"EM5007_00_0","","Dark Hornet","Nocturnal hornets that use a luminous organ to
+warn foes before attacking with their stingers—
+even large monsters aren't safe.","","","","","","144D145E-207E-4EED-86AA-446DFF1EC8B7","","","05922441-43E6-4357-9069-1BB9EBFAB6E9","Nocturnal, territorial hornets that use a
+luminous organ to light up targets before
+attacking with poison stingers.","4857582B-5AFE-4E3A-862A-74FF5F98343C","Nocturnal hornets with strong defensive
+instincts. When they sense danger, they
+use a luminous organ to illuminate the
+area to check for threats, if one is spotted,
+they attack relentlessly with their poisonous
+stingers. Unlike other endemic life, Dark
+Hornets will readily attack large monsters
+that disturb their nests. Their diet also
+doesn't stimulate honey production, so
+hunters are better off steering clear.","136F80E4-3FB8-4A97-9228-CD990970E35B","","00000000","","","",CellImage,CellImage,"I_IVORY",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","NONE","GET"
+72,"EM5008_00_0","","Great Thunderbugs","A colony of Thunderbugs galvanized by
+sandstorm lightning. A population this dense
+can stop even large monsters in their tracks.","","","","","","F6CF893E-BC10-4058-B695-029784B41262","","","2C1009E6-8025-40F6-919E-F0C4D7F3F769","A large colony of Thunderbugs that have been
+vitalized by the sandstorm's lightning,
+resulting in a dense population.","74ADBFFE-35DE-4FB6-9BEB-D7450B639436","A large colony of Thunderbugs that
+reproduced rapidly as a result of the
+sandstorm lightning. A population this dense
+can produce enough current to stop even
+large monsters in their tracks. Since
+Thunderbugs are the fuel behind shock traps,
+there's merit to trying to lead large
+monsters into the colony as a way to
+gain the upper hand.","C864873F-2540-4F42-8C1A-3DF2D528C1CE","","00000000","","","",CellImage,CellImage,"I_YELLOW",true,false,false,false,"INVALID","ENVIRONMENT_TRAP","ALWAYS","INSTANT"
+73,"EM5009_00_0","","Wedge Beetle","Insects that cling firmly to walls and other
+surfaces. Latching on to them with the Slinger
+can help you traverse terrain and evade attacks.","","","","","","2282166C-2573-4A95-8448-D7F5E6A71111","","","32E4C1F4-92C5-465F-A7CB-817C1CB5062C","Insects with robust shells that can
+withstand lesser impacts. They make great
+latching points for the Slinger.","6ABBB66D-862B-4835-8531-7B1508A020C9","Insects with robust shells that can
+withstand most lesser impacts. They cling
+firmly to walls and other surfaces, making
+them excellent latching points for the
+Slinger, whether it's to get around or
+simply to hang out indefinitely. However,
+a Wedge Beetle in flight can only bear
+the weight for a limited time, so it's best
+to latch on briefly to gain some height.","001C2829-80F9-447B-94D9-DB0826B7995D","","00000000","","","",CellImage,CellImage,"I_BLUE",true,false,false,false,"INVALID","ANIMAL","ALWAYS","UNIQUE"
+74,"EM5100_00_0","","Thunderbug","Insects that store electricity. Found near
+electrical sources, they can be used to make
+tools like shock traps and Thunder Ammo.","","","","","","8E71A54A-59D9-493A-A155-3BEDF177F693","","","53CEFC29-B1DC-4841-94C6-C439A488AE28","Insects capable of discharging small amounts
+of electricity. They are drawn to electrical
+sources, which enhance them on contact.","CF117532-E567-427B-9A30-D0E23C404451","Insects capable of discharging small amounts
+of electricity. They are drawn to electrical
+sources, particularly the fulgurite formed
+by lightning strikes. Thunderbug materials
+can be used to craft many useful tools such
+as shock traps and Thunder Ammo.","EA2450EC-1331-4BB8-8DF6-6B8D22663497","","00000000","","",CellImage,"",CellImage,"I_LEMON",true,false,true,true,"INVALID","COLLECT","EXCEPT_BATTLE","GET"
+75,"EM5101_00_0","","Flashbug","Insects with apparatuses capable of
+producing strong bursts of light. Their
+materials are used in Slinger flash pods.","","","","","","B51BE3EF-FFED-4012-A2F0-5E5B254F5815","","","92A9D3D9-07CA-4610-8AD2-C10410BD7F33","Insects that emit strong, involuntary bursts
+of light in response to external factors.","C3D19388-0ABE-4BF2-A8B8-DF753314E882","Insects that emit strong bursts of light in
+response to external factors. It was long
+believed that blunt trauma or death were the
+triggers, but this theory has been rejected.
+It is now thought that some constituent
+element of their body fluid vaporizes and
+produces the flash. In any case, their
+materials are highly prized for their utility
+in items like Slinger flash pods.","EFE3BD45-66BB-492E-BAD3-F402C109D44E","","00000000","","",CellImage,"",CellImage,"I_YELLOW",true,false,true,true,"INVALID","COLLECT","EXCEPT_BATTLE","GET"
+76,"EM5101_10_0","","Godbug","Insects said to live for a thousand years. Their
+extracts can be combined with other items to
+create powders with their supportive properties.","","","","","","2904D242-B982-40AB-9D38-D5A62C68E136","","","81D4D7CD-502C-4D52-94E6-3EB713488D78","Insects that live a very long time—
+a thousand years, by some accounts, although
+no such specimens have been discovered.","AC93C6A3-BA85-4673-AD44-0798927DCDA1","Insects that are claimed by some tomes and
+oral histories to live for a thousand years.
+No such specimens have been discovered, but
+studies of the Godbug's tissue prove that
+they do enjoy significant longevity. Their
+body fluids have diffusive properties that
+can be combined with other items to create
+powders with the same attributes.","48AD0F15-667C-41D1-8B87-0E77FBBC2055","","00000000","","",CellImage,"",CellImage,"I_WHITE",true,false,true,true,"INVALID","COLLECT","EXCEPT_BATTLE","GET"
+77,"EM5101_20_0","","Bitterbug","Insects whose bitter extracts promote
+natural healing and can be combined into
+a variety of useful medicines and items.","","","","","","A5493B8D-23E0-472B-B7AC-A5272D7920FC","","","8B75ACD5-B1BD-4A8B-B1E8-BD74F7912D7C","Insects whose bitter extracts promote
+natural healing, disinfect wounds, and more,
+making them a valuable material.","B99992E8-0E67-4FF7-A878-0B24B98BE681","Insects whose bitter extracts are used
+for a wide variety of medicinal purposes.
+In addition to promoting natural healing,
+disinfecting, and mitigating poisons,
+they also boost the efficacy of other
+medicines, making them highly useful.
+That said, by themselves they have little
+effect and taste extremely bitter, so
+it's best to consider them an ingredient,
+not a solution in their own right.","B3353BEC-CC3E-41F8-B834-6FDB44AC04F6","","00000000","","",CellImage,"",CellImage,"I_BLUE",true,false,true,true,"INVALID","COLLECT","EXCEPT_BATTLE","GET"
+78,"EM5102_00_0","","Leaflugger Ant","Forest ants that form ranks and carry
+leaves with medicinal properties, which
+can be collected to make healing items.","","","","","","464FAE16-0FCF-4D55-9DBF-C02B0C1B5F18","","","70FFB94D-046C-431A-854B-3BFBF5183ACD","An ant that gathers leaves in droves. The
+leaves are brought to its nest and used to
+cultivate the fungi it eats.","BE2B594C-2BB3-497B-98B1-BAF7E836B472","Forest ants known for forming ranks and
+carrying leaves. Their sharp mandibles
+consist of a sharp edge for cutting and a
+separate apparatus for bending the leaves
+back behind their heads for easy carrying.
+Leaflugger Ants use these leaves as
+substrates to grow fungi, their primary
+sustenance. As it turns out, the leaves also
+have medicinal properties, making them
+useful to hunters.","E1479BA3-E152-4F5E-A826-9758D1FBA14E","","00000000","","",CellImage,"",CellImage,"I_EMERALD",true,false,false,false,"INVALID","ANIMAL","EXCEPT_BATTLE","GET"
+79,"EM5200_00_0","","Windrustler","Herding monsters that mostly inhabit the savannah.
+They use their distinctive arrow-shaped crests to communicate
+and warn other members of their herd of danger.","","","","","","BD59E00C-F908-4C35-8901-0E8AF9181DEB","","","66ECC911-8B4C-4EF2-A23A-34456F6D2B3F","Small, common plains dwellers with
+arrow-like crests they use to coordinate
+with others in their pack.","9ED1A45A-AEEE-4451-9D08-411669AABDA8","Plains dwellers that move in packs. They
+use their arrow-like crests to coordinate
+movements and alert each other to threats.
+Since they stand their crests up when people
+and monsters draw near, that gesture is
+believed to indicate danger. Windrustlers
+have been sighted in Kunafa, a sign that
+they have learned two things: people aren't
+always a threat...and where there's people,
+there's food.","60BB2699-B4BF-4B42-A58E-AA04860666D8","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+80,"EM5200_09_0","","Black Windrustler","","","","","","","22DE056D-511A-4BDB-B83F-52C86A14FBB1","","","CBE43487-5690-4789-ADAB-3B7C373249A9","A rare variant occasionally spotted in a
+Windrustler pack. Distinguishable by their
+charcoal skin and larger frame.","A7FCF3F7-FD66-4206-A900-DA926997A555","A rare variant occasionally spotted in
+a Windrustler pack, with charcoal skin and
+a larger frame. While it could be a type of
+melanistic mutation, there are enough unique
+examples to suggest this might even be
+a subspecies. Their role in the pack and
+relationship with others of their kind are
+important topics that warrant further study.","1DB4D81A-D49F-46D8-AC55-DFBDFF986056","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+81,"EM5201_00_0","","Nothpecker","","","","","","","76E5AE33-68C8-4164-AD97-66A9D4E1FD85","","","E49134A9-6E58-427C-B2E9-8ED188255597","Birds that live in symbiosis with the
+Ceratonoth. They pick away old scales
+and feed on insects in between the cracks.","FC727F39-EF11-4EE9-B0E1-2BE097439194","Birds that live in symbiosis with the
+Ceratonoths and are often seen perched on
+their backs. They use their plier-like beaks
+to pick away old scales and feed on insects
+that have wormed their way into the cracks.
+In return for this grooming service, the
+Ceratonoths give the Nothpeckers a place
+to feed and shelter from outside threats—
+a win-win situation for all creatures
+involved.","84D66DEF-D93C-44E7-ADE7-9B1AA7077AE3","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+82,"EM5202_00_0","","Landlight Shrimp","A decomposer that breaks down the Fulgurite
+in its body consumed in order to eat the attached
+microbes. The Fulgurite makes its carapace shine.","","","","","","B6AAEF47-BD96-459A-AEA0-A8336D0DBF47","","","7DD84917-49F2-41FA-9332-FB6FE281958E","Crustaceans that use their secretions to
+break down fulgurite and feed on the
+organic matter and microbes found within.","FF036805-81B4-4994-AD98-3372FA10B7D8","Shrimp-like creatures that use their
+secretions to comb through fulgurite and
+feed on organic matter like dead Thunderbugs.
+The consumption of some of these microbes
+seems to have given the Landlight Shrimp a
+kind of luminescence. They use hook-like
+appendages to cling to rock faces in large
+numbers, happily eating away at the fulgurite
+and occasionally triggering falling boulders.","94C64F80-24A5-456A-B989-3BF9411BCDC4","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+83,"EM5202_10_0","","Pink Landlight Shrimp","","","","","","","D19941DD-03DF-4A48-8D28-824416092740","","","3A4E0A6F-CE9D-487E-ADEB-3717CC02BF37","A land-dwelling crustacean that gathers on
+gaseous vents. Comes in a variety of sizes.","7A8C8CFC-8EF1-46B6-B140-F76BE78A4EA1","Land-dwelling crustaceans that gather on
+gaseous vents in the Oilwell Basin. The hair
+on their heads and chests collects particles
+from the gas and steam, which attract the
+microbes that they feed on. The faint light
+they produce is thought to be a byproduct of
+the microbes they eat. They appear in a
+variety of sizes during the Firespring.","E54AF139-83E6-4601-A4CB-4AF6EED3EAE6","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+84,"EM5203_00_0","","Amstrigian","A migratory bird that flocks to the savannah during
+the bounty season to raise its young. It makes its nest
+largely from the bubbles it produces internally.","","","","","","0E967B1A-B268-45C7-9F17-02895472F062","","","CA95CE33-4581-4CDC-9E22-2D1D5F53F8E1","Migrant birds that live in the forest, but
+travel to the plains during the Plenty.
+Known for their foam nests and birdsong.","31EE0B4B-C612-4D6E-9114-B62E69444E57","Migrant birds that live in the forest, but
+travel to the plains during the Plenty
+to raise their young. Amstrigians choose
+lifelong mates and share the work when it
+comes to gathering food, building nests, and
+minding their young. Their meal of choice
+is insects, particularly Emperor Hoppers.
+They use their syrinxes to sing in chorus at
+the turning of the season, a social ritual
+that doubles as a form of communication.","CA0D9631-FEC0-4ED2-8CF5-4606DC735836","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+85,"EM5203_09_0","","Hymstrigian","","","","","","","6492C258-8249-4BEC-BA21-B8F18395D796","","","00867169-AC83-44E2-B359-6D001C525763","A bird with a beautiful voice. It's very
+similar to the Amstrigian and can be seen
+mixed in with their flocks.","4217DCC1-D6E6-4DA7-A208-B48DB6E18294","Rare birds with beautiful voices. Though
+similar to the Amstrigian, their stunning
+songs and colorful feathers distinguish
+them. Not much is known about them due
+to their rarity.","E2D9ADD6-0497-4658-A323-3D02CAD2AD56","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+86,"EM5204_00_0","","Rufflizard","A lizard that stores nutrients in a handkerchief-like
+sac. During the bounty season, it becomes predatorily
+active and its body takes on a red color.","","","","","","E09A0604-87BE-4EF7-AD08-EF394B710580","","","7759D3D2-3610-4E59-A53C-DD3A10E4FE02","Plateau-dwelling lizards with adipose
+tissue near their jaws that differ
+depending on their nutritional intake.","9758B0D2-512F-4BB8-B5E4-837F2BAB15C4","Lizards with adipose tissue near their
+jaws and tail. When food is plentiful, these
+sac-like reservoirs fatten up and turn a
+healthy red. A Rufflizard with plenty of
+food in the tank is a happy Rufflizard, and
+you may see them basking in the sun and
+bobbing to each other in greeting. A poorly
+fed Rufflizard however, will move as
+little as possible.","61E07151-6090-4519-A3D6-172B03667A70","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+87,"EM5204_10_0","","Ember Rufflizard","","","","","","","AD8A48AF-16EC-47A0-B1C2-DABA51C7ECFF","","","CC135DA1-5D2D-465F-BD62-7FE8B5E44978","A lizard with a distinctive crease on
+its head. It loves hot environments
+and is often seen in volcanic areas.","2BFCF3C4-C8E7-4D88-9FEA-6724CDB3F851","Lizards with distinctive creases on their
+heads. When they bob their heads to
+communicate, the crease opens and glows
+along with the pattern on their bodies. They
+prefer hot environments such as volcanic
+areas. Though rarely seen in the oilsilt-
+filled upper areas of the Oilwell Basin,
+they become far more active during the
+Firespring. It's theorized that they primarily
+feed on bugs that lurk among the rocks.","4375AF9C-2DEB-4752-99DB-ECE5D7CA58A4","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+88,"EM5204_19_0","","Azure Rufflizard","","","","","","","ADFE5CF5-7466-4A1A-A775-93E65252D069","","","40AF80D9-649F-4FB4-A33B-D6462F652278","An Ember Rufflizard peculiarly clad in blue
+and yellow.","55002A8F-43A9-4FA4-AE98-C76C155A7894","Rare lizards with a different coloration
+than the more common Ember Rufflizard.
+Since they so closely resemble the common
+Ember Rufflizard in every other way, they are
+currently thought to be a mere color variant
+as opposed to a subspecies. However, many
+reports claim these lizards are far larger,
+so they may be in the process of evolving
+into their own subspecies, a current hot
+topic among researchers.","6053A9DA-C206-422D-987B-B15FEA937F6E","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+89,"EM5205_00_0","","Pallbug","A decomposer that eats dead monster carcasses.
+It holds food with its hair-covered ambulatory legs.","","","","","","6ABB8EAC-6D26-4815-A6C1-6D6907BBE9F0","","","F62999B1-EF1A-4D46-800A-5D3849D9543D","Insects that gather on carrion and feed on
+the dead flesh. Their foreleg bristles help
+them sweep food into their mouths.","2DBEF75D-5410-43AB-8D0B-DE616BA6A1D0","Insects that feed on dead flesh and serve
+as decomposers in the ecosystem. They use
+the bristles on their forelegs and joints to
+sweep organic matter from the carrion.
+When they're not feeding on dead monsters,
+they can usually be found lurking in between
+rocks or other places the sun doesn't reach.","E4162802-69AC-45B3-A282-637ADB6F9B18","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+90,"EM5206_00_0","","Tracktail Lizard","An animal distinctive for the monogamous pairing
+it forms with another individual of its species. It can
+use its large tail to stand itself up and warn others.","","","","","","8FFB6ADC-EBD0-45CA-BCC1-A6A91AE78A71","","","59B6A42A-11DB-42F8-8D2B-E9147120D0E4","Creatures with unusual tails that are native
+to the sands. They typically travel in pairs.","F941CEA7-F658-4C3A-97D3-EAA606B09006","Endemic creatures that are native to the
+Windward Plains—particularly its deserts.
+Thanks to their unusual tails, they can
+sit upright and assess their surroundings,
+or they can shield themselves from the hot
+sun. When they sit, their tails leave a
+mark in the sand that resembles a large
+monster's footprint. They typically travel
+in pairs to watch each other's back while
+doing things like drinking.","BB00FE3E-7BDB-42B2-B238-C412E1482B35","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+91,"EM5207_00_0","","Emperor Hopper","A grasshopper as big as its moniker
+would suggest. Its swift, frenetic
+jumps make it hard to capture.","","","","","","AACD0DBC-E372-4255-BEC9-7F5D735DA1E1","","","4186A62D-F89C-44CD-AFB0-961061F25983","Huge grasshoppers worthy of their name.
+Their powerful hind legs allow them to jump
+away, making them difficult to catch.","36E04054-C021-4C75-9952-16329A4BE3BA","Huge grasshoppers that have fully
+earned their name. Their powerful hind
+legs allow them to jump long distances
+and escape in a pinch. If you rustle
+through the grass—their usual hiding
+spot—you're bound to see at least one
+Emperor Hopper spring away. Grass fires
+throw them into a panic, a situation
+that certain other hungry creatures
+might be eager to take advantage of.","202C187C-A81F-4E7E-8DA6-7D698CE2F69C","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+92,"EM5207_10_0","","Tyrant Hopper","","","","","","","71E6AD0D-B1B9-4B2F-A7A9-164697F031B6","","","0D1F4316-7A2B-40D0-AC44-8FF721C60BDF","A puzzling phase mutation of the Emperor
+Hopper. Their bodies have a reddish-black
+discoloration, and are way more ferocious.","CD14EBB2-5414-446D-A3FE-42578935F2DA","A phase mutation of the Emperor Hopper.
+Their bodies are reddish-black and are more
+ferocious. While Hoppers are usually
+herbivorous, this type feeds on carrion. Due
+to similarities across different regions, it
+is believed the mutation must occur in
+environments where plants are scarce. This
+causal relationship between a creature's
+formative environment and its mutations has
+become a major subject of research.","FD6DD0E9-2FDF-4E26-8A7F-CDE993C42DAB","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+93,"EM5208_00_0","","Hercudrome","A large beetle with impressive horns.
+Hercudrome only inhabit seven
+specific spots in the Windward Plains.","","","","","","4CB52158-27F1-477B-ADC9-A9DD5C922298","","","016FF6B6-AE6D-4E28-8BF9-EF3B29E50AAD","Beetles with distinct horns extending from the
+head and pronotum. They feed mainly on sap,
+and can often be found resting on tree trunks.","73CC531B-71B0-4FA8-A15D-75FEA66E73AB","Beetles with distinct horns extending from
+the head and pronotum. They are nocturnal
+and feed mainly on sap, which you can see if
+you observe tree trunks at night. The horns
+are used to compete for this food. They have
+wings, but their large size and heavy shells
+limit their flight capability. Since they
+buzz loudly while flying, you'll have an
+easier time finding them if you keep your
+ears open.","8B99EEA7-3A1C-4B8B-A3BC-DF3544420D26","","00000000","","",CellImage,"",CellImage,"I_ORANGE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+94,"EM5208_10_0","","Gold Hercudrome","","","","","","","F3EB1DC3-B0C0-4AAE-B26B-33BB81E11BD2","","","07A9A0A5-8F57-4F22-90E6-256DC6951315","A Hercudrome subspecies with a shiny, golden
+carapace. While they share their ecology with the
+base species, these are significantly more rare.","2B7C0697-EFFD-446C-A5A6-D64C17358509","A Hercudrome subspecies with a shiny, golden
+carapace. Very few of these have been found,
+and no one has figured out why the carapaces
+are gold. However, the sightings span
+several regions and these are classified
+as a subspecies, not just a color variation.
+Because of their beauty, they are in high
+demand among collectors.","AAA66824-4FC4-4844-B200-1F218138F00C","","00000000","","",CellImage,"",CellImage,"I_LEMON",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+95,"EM5208_20_0","","Prism Hercudrome","","","","","","","5A46E7B4-CE24-4D5C-BA36-3D0C08ABEB05","","","4613B0F8-86F7-418A-B784-AA61B16D592B","A member of the Hercudrome family with
+an iridescent carapace. The few confirmed
+sightings were in certain times or seasons.","E99A36CE-AA33-40B9-BEE9-C6FCAB308412","A member of the Hercudrome family with an
+iridescent carapace. Its pronotum is large
+and developed, with three prominent horns.
+Unlike ordinary Hercudromes, these inhabit
+the Ruins of Wyveria. Alas, there have been
+precious few sightings. Most have been at
+dawn or dusk, so that might be the best
+time to attempt and capture one.","1FBCF73E-3873-430A-8C04-BDEE5A440CDA","","00000000","","",CellImage,"",CellImage,"I_SKY",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+96,"EM5209_00_0","","Quatreflies","Delicate insects that choose habitats that
+monsters won't approach, making them good
+indicators of where to set up a Pop-up Camp.","","","","","","5FB60D67-52E6-4F3F-B0CF-96AD9E52ED2D","","","B76C0E39-9BA3-4841-BAFA-ADB6BF5404C4","Delicate insects that can be found in
+nearly any climate. They choose habitats
+that monsters are unlikely to approach.","9709D2FD-E77C-4F64-9646-68962B1C5DC6","Flying insects that resemble four-leaf
+clovers. Resilient to any weather, they can
+be found day or night in nearly any climate
+at places where monsters aren't likely to
+prowl. Which is a good indicator that an
+area is safe enough for a Pop-up Camp.","F8BACE5B-4CF1-44F1-A4E8-9EDEE7404355","","00000000","","","",CellImage,CellImage,"I_EMERALD",true,false,false,false,"INVALID","ANIMAL","NONE","GET"
+97,"EM5210_00_0","","Myriads","","","","","","","AABD9EBB-0BEA-4549-8B06-54610CE8753B","","","B27B8B93-E9B0-4DA2-990C-F0BCBF330342","Butterflies that emerge at the start
+of the Plenty in large numbers, making
+them a crucial part of the ecosystem.","7A007247-B524-4483-8405-228D4BCD357C","Butterflies that hatch during the Plenty and
+pupate near its close. Those that survive
+the harsh Fallow emerge during the following
+season of Plenty. They adapt their life cycle
+to the Scarlet Forest, so if a population
+hatches early, it may reach adulthood
+within the same season. They feed a variety
+of organisms, including insectivorous plants,
+making them a crucial, non-predatory part
+of the ecosystem.","E9504610-96C6-4FAE-986E-DEEAD9741D39","","00000000","","",CellImage,"",CellImage,"I_VERMILION",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+98,"EM5210_10_0","","Myriads","","","","","","","0C838C5F-765F-46CD-B3A5-53BB261DFBE0","","","15A5E58F-FFAE-4DA0-BEAD-B914AE9D92DE","","BBF77B13-0A4A-4333-A580-CBCCC318191B","","DA1F99D1-3566-4709-AA91-454E5FB43DD0","","00000000","","",CellImage,"",CellImage,"I_VERMILION",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+99,"EM5211_00_0","","Jewel Scarab","","","","","","","2B52F8A7-D8FA-4290-8856-3E6384A6224E","","","44107F3C-8511-44CB-97C1-B4046A036D11","Brightly colored beetles with impressive
+shells that fan outward. They gather on the
+trunks of trees in order to collect sap.","BAB96345-5277-4CE1-8BA5-57DDA5B81645","Brightly colored beetles with impressive
+shells that fan outward. Each beetle's
+coloring and shapes are different—and with
+their sparkle, it's no wonder they're
+likened to gems. They tend to be diurnal,
+gathering on the trunks of trees in hopes
+of getting a nip of sap.","75AA95DB-3388-4903-A584-1C7A3B8DFD20","","00000000","","",CellImage,"",CellImage,"I_VERMILION",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+100,"EM5211_09_0","","Regal Jewel Scarab","","","","","","","5BB12FF5-8F43-49CD-B62E-C993575AE394","","","8ABD441D-EF85-40AD-87FA-D4A1AB61BBFF","Jewel Scarabs with larger, more developed
+shells. The vast differences from specimen to
+specimen make them difficult to categorize.","1C86ECB4-C7C0-41E2-8393-15739DF7CFB6","The finest of Jewel Scarab specimens, with
+larger, more developed shells. They are found
+with the rest of their kind, feeding on sap,
+but are near impossible to spot. While Jewel
+Scarabs are known for variations in shape
+and color, the Regal variants are a bit
+harder to explain. Are they the result of
+a particular larval diet? An acquired
+mutation? Are they even the same species
+at all? Only more research will tell.","5652FF44-0820-4755-9A42-A21EFFCC91AC","","00000000","","",CellImage,"",CellImage,"I_VERMILION",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+101,"EM5212_00_0","","Vaporonid","","","","","","","5D941708-843B-42DE-97D4-84818020458D","","","14237614-234B-4BE2-B96F-DB4D02F9D528","Master weavers that ensnare prey using
+human-sized webs, but with an escape
+route in case predators approach.","2CB380A3-F5BD-4359-A599-8D854FEE0EE5","Master weavers that use webs to ensnare
+prey. You will often see butterflies and
+other insects caught in their webs, which
+is as big as a person and is equipped
+with an escape route for the Vaporonid
+in case predators approach. The silk used
+in the web is extremely sturdy and comes
+in handy if you need to make pitfall traps
+to ensnare a few monsters of your own.","FB7E7B29-3314-4660-A897-C3A3E1D620B8","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+102,"EM5213_00_0","","Omenfly","","","","","","","7939BF78-973A-49DD-BF54-3F4142AA4911","","","AA151B57-9281-4F84-9236-10BAFD7BFEAF","Insects whose bellies glow yellow or red
+when they detect threats. They inhabit
+areas with abundant vegetation.","3309C014-0D53-4187-ACB5-690FB8CDA7AC","Insects whose bellies glow yellow or red
+when they detect threats. Their resemblance
+to fossils seems to suggest that Omenflies
+have been around for quite a long time. The
+glowing seems to be a warning to enemies.
+Since Omenflies stay near the water, it is
+believed they keep their larvae in the water
+or in the moist soil nearby. Adults will stay
+airborne for the majority of their lives.","0DE4AE97-C420-4740-B228-F014883F6D0E","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+103,"EM5214_00_0","","Mimiphyta","","","","","","","2DC58242-6B65-4479-B0B7-CFEA37A85D4E","","","2668D7E4-3A5D-4A19-BB8B-C449138DAA32","Forest creatures that survive by disguising
+themselves as plants. They can change
+disguises to adapt to environmental changes.","EE680EC4-B845-48EE-9EA1-2A98BF9BC944","Forest creatures that survive by using
+mimicry to disguise themselves as plants,
+confusing predators and luring in prey.
+Mimiphyta change form in response to
+seasonal and environmental changes; during
+the Fallow, they'll snuggle up at the base
+of a tree to live as fungi, while in the
+season of Plenty they blossom into lovely
+flowers and prey on butterflies and
+insects that flutter near.","4CF81977-9C1C-4D9A-828D-5339848971DB","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+104,"EM5214_10_0","","Gawkie","","","","","","","19D6138E-6FA2-47E3-9EF7-3B231A6C21A3","","","856B6B2F-C353-49D6-933D-BCAB5AFE8574","Creatures that live in cold climates, often in
+abandoned buildings. They watch passers-by
+curiously while standing on their tails.","20B5D36C-90D2-4E92-B51A-894BD57D5CFC","Creatures that live in cold climates, often
+in abandoned buildings. Their slowness and
+lack of defensive measures suggest they aren't
+accustomed to threats. Perhaps because
+of this, they're not very cautious and will
+watch curiously while standing on their tails.
+They also like to gnaw on hard things like
+the Landspine to wear down their teeth.
+They are omnivorous today, but it's possible
+they fed on harder substances in the past.","2E8E4D41-A4C9-4C14-9311-382A549D2FBA","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+105,"EM5215_00_0","","Scarlet Joyperch","","","","","","","9DD1A264-B260-45FD-A1A7-D6AD8B543923","","","D12E1CB7-3E2B-4AA2-951F-9BC3B3517403","Creatures that have adapted to living both
+on land and in the water. At night, they
+light up their luminous organs and cry out.","8721BE1E-DC15-4D2A-BF1C-79C6E6AD0E4F","Creatures that have adapted to living both
+on land and in the water. They are precious
+evidence of how amphibious creatures might
+have come to walk the earth. Scarlet
+Joyperch become active at night, when they
+light up the luminous organs near their
+heads, spread their fins, and let out a cry—
+presumably their way of strutting their
+stuff to other members of their kind.","3135CCAD-3497-4D01-A1A7-4F5EF5E4275C","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+106,"EM5215_10_0","","Blink Angler","","","","","","","23893C71-B176-4D22-BB71-FF229F2753D1","","","EFA8A1D9-F335-4D54-8EF1-8EC830B52271","An aquatic creature that has adapted to life
+on land. It attracts prey with the light on
+its head.","032F8B64-FE52-48E6-BAA2-937EEF5BA84B","Aquatic creatures that have adapted to life
+on land. Though similar to the Andangler,
+the shape of the light on their heads are
+different and are designed to attract the
+Sparklerjelly that float in the air of the
+Oilwell Basin. Due to this, some theorize
+that the Andangler and Blink Angler may
+have evolved from other amphibious fish.","9FF18479-7133-4B98-963B-8E32294AC04C","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+107,"EM5216_00_0","","Florashell Crab","","","","","","","B4E86EBB-A1ED-4240-88A6-A983D34E3715","","","AB0D7EAF-D5C2-4B95-B9BC-977BD51378C6","A nocturnal creature that piles
+plants on its cup-like carapace and
+burrows into the ground to hide.","E4F0743C-C877-4E1E-852C-1072675E65DC","Crabs that pile plants on their cup-like
+carapaces and burrow into the ground to
+hide from predators. Their claws are
+shaped like shovels, allowing them to
+burrow more easily. They generally remain
+buried during the day, becoming active only
+at night, where they can be found digging
+for insects to eat.","1F30CC42-9230-47BC-B4F7-32D21D4676CA","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+108,"EM5216_10_0","","Crudeshell Crab","","","","","","","CA1D082F-956F-462D-9D90-872E7A2D4525","","","2D80F619-1A84-43C8-9235-FEC034A7A197","A nocturnal creature that piles
+plants on its cup-like carapace and
+burrows into the ground to hide.","B61BA61B-294A-44E0-B1D7-1E3B2FB1896B","Crabs that pile oilsilt on their cup-like
+carapaces and burrow into the ground
+to hide from predators. Because oilsilt itself
+changes appearance depending on the season,
+it's theorized that these crabs must replace
+their silt to match. They are rarely seen in
+volcanic regions or during the Firespring,
+suggesting that they aren't particularly
+resistant to heat.","17A1B4F3-A02E-4060-890C-724B5B6651DE","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+109,"EM5216_09_0","","Curioshell Crab","","","","","","","8C2F163F-3A6E-4192-B8F3-C68ABDA73112","","","D7B977C2-780C-4862-B015-BCC82EBA5B29","A Florashell Crab that has retained
+its ancient appearance. It flees at
+full speed the instant it spots a foe.","EBACE1FE-A7CE-4BCB-8217-DAD1DAB7126B","Crabs that have retained their ancient
+appearance and are bigger than their
+standard brethren. They flee at full speed
+the instant they spot a foe, not bothering
+to camouflage themselves. Instead, they
+heap metal objects onto their carapaces,
+which are thought to be artifacts from
+ancient civilizations.","2A218ED7-7C60-40A9-B545-AE7A7ACC969D","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+110,"EM5217_00_0","","Smokeshroud Gekko","","","","","","","A861B036-22BC-4282-8F2E-8CD6DA98E40E","","","3B3C7C04-452E-4D5A-AFE8-5E627FA21448","Lizards with luminous organs. When
+attacked, they drop luminous material as
+a decoy while they make a quick getaway.","F6A43851-ACD9-4FE9-AC84-6EB75CE09C6E","Lizards with luminous organs around their
+body. When attacked, they go dark and leave
+luminous material in their wake as a decoy
+while they make a quick getaway. From this
+observation, it can be surmised that it's not
+their epidermis that glows, but some other
+substance stored in their bodies. In line
+with these habits, Smokeshroud Gekkos can
+generally be found in dark, gloomy places.","AFE7C07A-9A2D-4450-B03D-1005E9D48C84","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+111,"EM5217_10_0","","Gloom Gekko","","","","","","","4B2D12A1-144C-4377-8097-055FD90115F9","","","A8A52385-ED61-4586-8908-83390A79BB76","Lizards that prefer deep caves and other
+places that light doesn't easily reach. They
+can live in even the harshest of climes.","A39E4411-683F-4CF8-85C7-1ED9947406BF","Lizards that prefer deep caves and other
+places that light doesn't easily reach. They
+can even survive in volcanic habitats, proof
+of their resilience in even the harshest of
+climes. Their toxicity is unknown, but the
+red and purple coloring of their skin is
+believed to be a warning. They survive
+by feeding on cave insects.","8D4F097E-4556-42C8-A451-350133F14AA5","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+112,"EM5218_00_0","","Dapperwing","","","","","","","1CE0319B-67DA-443C-A3D7-B5008248FB54","","","7E3FAC45-D344-405A-A790-9463E4BACD9A","A species noted for its males who
+grow spectacularly colorful plumage
+after their molt to court females.","30F02215-F956-4692-9F79-D3470AF24612","A species noted for its males, who don
+spectacularly colorful plumage after
+molting. During the Fallow, their plumage is
+a subdued green to match the vegetation, but
+once the Plenty arrives, males preen to the
+nines, adopting a vibrant color palette—
+presumably to court females, since the more
+flamboyant males with larger feathers seem
+to be the ones flapping away with a date.","A4DFF22A-412E-405A-9634-17CA70C72231","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+113,"EM5218_09_0","","Dazzlewing","","","","","","","5B4D9EA9-864D-47DE-A2A9-9FCD6531BEAA","","","29D79757-27FA-44FD-8A59-9FCDABA5D6DB","Male Dapperwings with bigger tails, brighter
+plumage, and some pretty good odds when
+it comes to courting the females.","0590C6D9-7C50-4058-A89A-931BA42CE657","Male Dapperwings with bigger tails, brighter
+plumage, and some pretty darn good odds when
+it comes to courting the females. Not only
+that, it is believed the plumage the males
+achieve after molting plays a vital role in
+what traits they pass on to their offspring.","6FE1455C-C135-4F6E-B6E5-89BF855E78D4","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+114,"EM5219_00_0","","Sandstar","","","","","","","4BF9DBA0-F518-41F7-A81D-A277CF0EAAE0","","","FAB9B6BB-2B82-4666-9AED-1EC6AD2C4950","Nocturnal creatures that live in the desert.
+They are extremely wary and use acute
+hearing to detect and flee from threats.","9FEC7570-F5D9-4C52-9388-D7E7CA36B6E4","Nocturnal desert creatures with pale,
+luminescent fur that is believed to be the
+result of the insects they primarily feed on.
+Highly vigilant, they use their excellent
+hearing to detect approaching threats and
+flee, so trying to chase one down is the
+wrong approach. You'll have a far easier
+time catching one if you use a sonic bomb
+to disrupt its hearing.","0624D38C-E434-4E6D-A133-13DBD3CF56C0","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+115,"EM5220_00_0","","Scalebat","","","","","","","7CCF0FAA-A5B1-4426-8746-EEDAED6F6ABC","","","7430E854-80AF-44BE-838B-5671032CD52B","A creature that is thought to have
+originally been a wyvern but
+evolved to live in caves like a bat.","059C9BDF-9084-41B5-86A1-D0C1C8F49C92","Creatures that greatly resemble bats. They
+hang from the ceiling in dark places like
+caves, and become active at night, preying
+on insects and smaller flying creatures.
+They can also be found in forests. Because
+of characteristics like their scales, it is
+theorized that they may have evolved from
+wyverns. Huge colonies live in caves in the
+Oilwell Basin, as evidenced by the piles
+of dung found there.","2DC1C00D-006A-4CAC-82B6-D75AC200A37D","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+116,"EM5221_00_0","","Sparklerjelly","","","","","","","A2351781-2441-427E-AC09-7FA74158EE80","","","DA3C23D5-41B5-40D8-99C4-BC7AC54B0917","A jellyfish that floats in the air, preying
+upon airborne microbes.","C081C0FC-E6E1-43A5-BF81-3A3E7538374E","Jellyfish that float in the air. Often seen
+around the Coral Highlands in the New World.
+Environments that contain the airborne
+microbes they feed on and the air currents
+they use to get around are quite rare.
+Because the yellow ones found in the Oilwell
+Basin are all male and the larger, more
+colorful Peony Sparklerjelly are all female,
+it is theorized that they actually belong to
+the same species.","6AB20AF0-0D3A-42E5-940D-1D930E68767E","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+117,"EM5221_09_0","","Peony Sparklerjelly","","","","","","","AF195A88-94C5-4CEA-9433-30C77F34DB99","","","784BFDF8-8CC8-4486-81B3-E9D0A8331126","A larger, rarer jellyfish that floats
+in the air.","A151ABA3-6C65-481B-8044-85C2AE99CD9D","Jellyfish that float in the air. They are
+larger and more colorful than their yellow
+brethren. The tiny beads of light within
+them are actually eggs and larvae, so it's
+believed that these creatures are entirely
+female. This suggests that they belong to
+the same species as the yellow Sparklerjelly,
+which are entirely male. That being said,
+it's exceptionally rare for jellyfish to have
+such extreme differences between sexes.","E7A523C6-F360-40A9-9ADF-7FF0FABEF5BD","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+118,"EM5222_00_0","","Nu Yaya","","","","","","","13E3C81B-7471-4871-80A0-9EF71C878DD5","","","E0D00546-F292-4E99-ABC2-3E9DE3E73FD3","The larva of a Nu Udra. Can be found
+floating in the area at certain times.","FD8191C7-A517-40CB-A8C0-36F42CC56E72","The larva of a Nu Udra. Though a fully grown
+Nu Udra hadn't been seen in a long time,
+there have been glimpses of this larval form.
+Not much is known about their breeding
+cycles, but it seems many eggs will hatch at
+once, meaning groups of the creature are not
+uncommon. The distinctive pattern on their
+heads appears to hide an underdeveloped
+eyeball and seems to grow into better
+support of the eye.","2F264235-D96A-483D-B4C5-915E1B54411D","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+119,"EM5222_10_0","","Xu Yo","","","","","","","3444F434-26BB-4A21-80E6-50690A1F7E63","","","66A1A1B0-03E1-436A-9290-AD188C4D4945","Xu Wu larvae. Their skin is transparent, and
+features a pattern unique to each specimen.","E715565F-D68B-4672-AD4A-970017805E1F","Xu Wu larvae, newly hatched from their eggs.
+They already give off a faint luminescence,
+and patterns can be seen through their thin,
+transparent skin. They generally move in
+groups, but not in an organized manner—
+it's only because they hatched at the same
+time. After hatching, the nutrients from
+their eggs sustain them for a while. Beyond
+that, their diet remains unknown.","68B4C07D-74B3-48EF-B072-FC30781A28EF","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+120,"EM5223_00_0","","Solanaria","","","","","","","E2DC5C42-6D85-4B2A-BDF6-10B88201B72B","","","B60277FE-58C6-4454-9CAC-164CE7FD2573","Creatures with fins that help them move
+through the air. They're delicate but have
+tremendous regenerative capabilities.","F1D2A12E-1B06-4B01-8A8A-FF31D1652204","Creatures with rippling fins on both sides
+of their body that help them move through
+the air. The fins possess a sort of
+circulatory system, similar to blood
+vessels, that give off light. Because their
+bodies are so fragile, even the slightest
+shock or gust of wind can tear them apart.
+Their regenerative abilities make up for
+this, however, as each piece becomes
+a separate individual.","6F766F2A-71E8-46D9-A1F4-58EC0C50C703","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+121,"EM5224_00_0","","Pillopod","","","","","","","443D5D82-DD0B-40A5-80F5-A4F106053E37","","","946172C7-F276-4363-B048-FBC10D952115","Creatures that survive by attaching to the
+Wyrmway, using energy-receptive organs along
+their abdomens to harvest its energy.","19108325-8CC3-4A0A-978A-78AE05B62EAA","Creatures that survive by attaching to the
+Wyrmway, using energy-receptive organs along
+their abdomens to harvest its energy. This
+specialized adaptation, and its other traits
+that are consistent with ancient organisms,
+makes this species a fascinating subject of
+study. For example, their vision and nervous
+systems are highly developed for such a
+simple body structure, a detail that invites
+further investigation.","3C3F6D8B-3A5D-4992-B35B-6A4CE4438B1B","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+122,"EM5224_09_0","","Gillopod","","","","","","","0D649BF6-B51B-45F6-ABD6-AA81515E4207","","","FF9B0E8F-C794-41A6-BE13-B1D985C6F7A5","A special type of Pillopod with a larger
+body and prominent, expanded energy
+circulation system.","69395DBA-5116-4547-9F9F-D71716C4D042","A special type of Pillopod with a larger
+body and prominent, expanded energy
+circulation system. Their eyes are
+compressed, suggesting a mutation caused
+by excessive energy intake. However,
+considering how little is known about
+ordinary Pillopods, these mysteries may
+take some time to elucidate.","E93C6504-C2B7-448D-A4AA-3065C7DB26F3","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+123,"EM5225_00_0","","Petalfly","","","","","","","83B6F468-F09C-4176-B22E-C451DE1B2DB8","","","F3D64ED3-F0C6-4389-9041-1CE7CCF29415","Insects found in abundance in the Ruins
+of Wyveria. While they are poor fliers,
+they use the wind to get around. ","90A7A410-F9C4-44F1-9F39-0E1A63E390C5","Insects found in areas with ample vegetation
+such as the heart of the Ruins of Wyveria.
+Petalflies have poor flight capabilities,
+but they can still use the wind to get
+around. The larvae live in water or on moist
+ground until they mature, while an adult's
+short life span is spent reproducing. It has
+been suggested that the flowery fragrance
+the Petalflies give off may be a pheromone
+linked to mating.","F282F3EB-F6BD-4E8B-B097-4DD959C1D2D3","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+124,"EM5226_00_0","","Downy Crake","","","","","","","B67A740A-24FE-40CA-85FE-3C83BB72224B","","","A606A439-1537-4873-8BFC-34742D1B4B37","Birds that can be sighted riding on the
+backs of small monsters. They are extremely
+wary of threats and are quick to flee,","E8F460FC-8336-4FE9-BD81-F989B21393A7","Birds that can be sighted riding on the
+backs of small monsters. They are extremely
+wary of external threats and are quick to
+flee, making them difficult to capture.
+Their disproportionately long legs allow
+them to move at high speeds. Populations
+have been observed living in some human
+settlements, allowing their eggs to be
+gathered in an extremely unusual symbiotic
+relationship.","18C5806F-CF95-416A-9492-4461D1969E2F","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+125,"EM5300_00_0","","Starduster","A small fish that moves in large schools. It is common
+in bodies of water of the Windward Plains and the Forest.
+Notable for its bright, reflective blue and gold scales.","","","","","","693D41DA-4208-47C7-BB25-569B35E4C3C9","","","EF91E08F-85A0-414E-86C0-FC604F78401E","A small fish that is common prey for many
+creatures and prefers to live in schools.
+The schools can become impressively large.","9B80DDA3-3DE5-48A2-A584-ED9DBCD23F37","Small fish with blue and yellow scales that
+prefer to live in schools. The sizes of
+these schools vary and at times can become
+impressively large. Because they both breed
+rapidly and exist in large numbers, they are
+frequently preyed upon, making them the
+backbone of the ecosystem. Splashes on the
+surface of bodies of water are a sign of
+this fish fleeing from large predators.","50DD04A9-E7D8-4AB4-B53D-8AB24ADD652B","","00000000","","",CellImage,"",CellImage,"I_SKY",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+126,"EM5300_10_0","","Starduster","","","","","","","252B9950-12A6-44EF-BA10-529CAA0DD0C8","","","BF6ACB0E-D265-40E2-827A-4037166488E1","","EA5FC2FA-2F2C-42F1-87FB-1EFDDAA7A03B","","7340818D-587A-4D7F-8F6F-A1E1A18E02FC","","00000000","","",CellImage,"",CellImage,"I_SKY",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+127,"EM5301_00_0","","Virid Bowfin","A fish whose physiology remains almost
+unchanged from its ancient ancestors.
+Its spiny fins help ward off predators.","","","","","","2E583C35-42D8-4743-A083-F9455D950A97","","","F68EA078-8605-49B1-B391-0CBB84E8F967","A species endemic to the Eastlands. They are
+more common in warm areas and are noted for
+their bright green bodies.","EECA0C99-1DE3-4CB5-A953-DACE89B68D04","A species endemic to the Eastlands. They are
+more common in warm areas, suggesting
+that they have adapted to more temperate
+climates. Compared to other fish, Virid
+Bowfins are neither particularly useful nor
+suitable for eating, so anglers tend to
+treat them as bycatch. On the other hand,
+they have high scientific value because they
+exhibit unique traits not seen outside their
+Eastland habitat.","172D925D-434F-47F8-BD82-7CBC82E308F4","","00000000","","",CellImage,"",CellImage,"I_EMERALD",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+128,"EM5302_00_0","","Whetfish","A fish with a dorsal fin
+hard enough to be used
+to sharpen weapons.","","","","","","28B839EB-17EF-4CD3-A083-691EA3BD0046","","","21A75EB9-5357-4535-BF88-9C4348E9403E","Fish with scales and fins hard enough to surpass
+common whetstones. The fins in particular are
+frequently used for sharpening.","9792E5FE-E7A2-46DD-8F4B-BD6124E489A7","Fish covered with scales and fins of
+considerable durability. In fact, Whetfish
+are so hard that they are often used in
+place of common whetstones to sharpen
+weapons. It is believed these hardened
+features evolved as a defense mechanism
+against predators. They show a strong
+interest in Emerald Jitterbait.","5D8AB162-B1AA-4DF2-B0C3-61AF61F7E265","","00000000","","",CellImage,"",CellImage,"I_YELLOW",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+129,"EM5303_00_0","","Sushifish","Sushifish are a popular hunter staple.
+Their nutrient-rich scales can also be
+used to restore health.","","","","","","1DE20065-A64F-4365-A4E0-B67FE262D2CF","","","38C94B32-BDCF-4585-8279-918C83B88E79","A popular food source high in nutrition.
+Their scales are capable of restoring
+health.","838B39F5-CDBE-4130-8ABB-0B5D818F3F9F","A popular food source found in many
+a hunter's pouch, these fish have very
+high nutritional value—not just in their
+flesh, but their scales too. They offer
+a remarkable range of benefits, including
+health and bleeding recovery, and stamina
+boosts. Because of this, Sushifish are common
+prey for many aquatic species. They show
+a strong interest in Emerald Jitterbait.","E9148DF0-AECC-4FC0-9F98-D900E5B261A7","","00000000","","",CellImage,"",CellImage,"I_ORANGE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+130,"EM5304_00_0","","Gastronome Tuna","","","","","","","B5078911-2245-46F6-B5B2-76E63844BB14","","","3E123903-4220-4B4D-A2D1-1AFAC8AF948F","Large fish with a habit of gobbling up
+everything they see—including a hunter's
+tools.","58AE4EC0-38D7-4A4A-B340-BAC8B9FE9750","Large fish that gobble up anything and
+everything they can swallow, including
+things a hunter might use for tools.
+Gastronome Tuna are commonly observed
+during the season of Plenty, when smaller
+fish are abundant. Food is scarce during
+the Fallow, however, so sightings become
+rare as they move to more fruitful feeding
+grounds. They show a strong interest in
+Tuff Joint Bait.","51E078E4-6F60-4C6C-B936-26C861F36ED4","","00000000","","",CellImage,"",CellImage,"I_ULTRAMARINE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+131,"EM5305_00_0","","Gajau","","","","","","","19509C4E-0D33-4E9C-91B3-0E6D936D0C12","","","2D89354A-64B5-4EED-BE19-55825C5CCAA4","Fish with flat heads, broad mouths, and
+long whiskers. They are known to grow
+to a considerable size.","1CA92AB3-AE02-49F7-97C9-1E0A202B7030","Large fish with flat heads, broad mouths,
+and long whiskers. They are known to grow
+to a considerable size—some as large as
+a human. While an Eastland Gajau is wary
+and will flee from a perceived threat, there
+have been documented Gajau attacks in other
+parts of the world. Researchers link such
+differences in behavior to habitat. Gajau
+show a strong interest in Duster Rigs.","5AA065E6-904D-445C-8C1E-CCDE08A9D1D3","","00000000","","",CellImage,"",CellImage,"I_BROWN",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+132,"EM5306_00_0","","Goldenfry","","","","","","","38DC6F5B-62CC-494E-A51B-B02C7FD44484","","","B5EDFC98-4D69-441B-90E2-AE679ED20E50","Sparkly fish often found in slow currents.
+They are in high demand for aquariums,
+and their scales fetch a pretty zenny, too.","B9B682E2-6E2E-410B-A7E7-AF94310D6A52","Due to their sparkly appearance, Goldenfry
+are in high demand as aquarium fish, and
+their scales fetch a pretty zenny as well.
+Their distinctive traits—the short body, the
+long, broad fins—are not commonly seen in
+nature, leading some researchers to believe
+an anthropogenic factor might be at play.
+Goldenfry show a strong interest in Golden
+Bugheads.","480AC285-7FD3-4FBB-86E4-86A11EB762A9","","00000000","","",CellImage,"",CellImage,"I_YELLOW",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+133,"EM5307_00_0","","Goldenfish","","","","","","","4770DAB4-C347-4ABB-B94E-A21EDC354720","","","1A70F577-616A-4F95-9CFE-227AB85E67E8","Fish with stunning golden scales covering
+their bodies. Their scales fetch high prices
+as accessory materials.","740D412C-EE31-4054-B183-A39CD4695A15","With the stunning golden scales covering
+their bodies, it's no wonder these fish are
+aquarium staples and often sell for high
+prices for use in accessories. Goldenfish
+can be found in caves and other places with
+no sunlight and calm waters. Conversely,
+you will rarely see them out in the sun or
+in swift currents. They show a strong
+interest in Golden Bugheads.","5E3D96CC-26AF-4A7F-A5D6-58173ACF8C79","","00000000","","",CellImage,"",CellImage,"I_YELLOW",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+134,"EM5308_00_0","","Platinumfish","","","","","","","08852E29-A57C-4255-821C-44E01CEB1F36","","","0A4969B5-8E2D-4D7F-A1B0-BBA2C890A316","Fish covered with platinum-colored scales.
+Some theorize they are related to Goldenfish
+due to their similar appearance and habits.","9C55B438-C60D-4FF9-AC72-4441227066D3","Fish covered with platinum-colored
+scales. Like the Goldenfish, they are
+a popular feature in aquariums and
+accessories—but at higher prices,
+because of their relative scarcity. The
+leading theory for the Platinumfish's
+unique coloring is that they adapted
+to their sunless cave environments.
+They show a strong interest in Golden
+Bugheads.","84B644CD-2FC3-4A7F-8405-8F016B7FBFB8","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+135,"EM5309_00_0","","Burst Arowana","","","","","","","77B11124-723F-438D-BE8D-F907F33501CE","","","EE9C65EE-6066-41B7-832D-CC345DC75E2F","Fish that possess scales with explosive
+properties. Useful for crafting items like
+bowgun ammo.","54618184-5C20-4CF1-93F6-5996D7A4EAB9","Fish with scales that detonate, a property
+that allows them to be crafted into things
+like bowgun ammo. How the Burst Arowana
+came to be this way is an unsolved mystery,
+and the debate rages on; some theorize it
+was an inherent trait, others that it was
+acquired through feeding habits. Burst
+Arowana show a strong interest in Emerald
+Jitterbait.","C769E73D-B0D6-47A1-ADFE-36EB6A33AB9E","","00000000","","",CellImage,"",CellImage,"I_RED",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+136,"EM5310_00_0","","Bomb Arowana","","","","","","","924B2DE3-A0AB-42B5-AEC3-AECE233FA9C7","","","4190E36F-AB5D-4883-84A1-EC4F5DD2353A","Fish with scales that trigger a powerful
+explosion, making them great material for
+potent bowgun ammo.","184A7714-2EF8-4029-8AC1-751EB8542204","Fish with scales that detonate even more
+powerfully than the Burst Arowana's, making
+them great material for potent bowgun ammo.
+The Burst and Bomb Arowana's relationship is
+disputed. Is the latter a subspecies? Should
+the difference be chalked up to habitat?
+Researchers are confident that this line of
+questioning will eventually reveal the
+fishes' explosive secrets. Bomb Arowanas
+show a strong interest in Emerald Jitterbait.","9C1776C9-D819-47EC-BA7F-E234195D233B","","00000000","","",CellImage,"",CellImage,"I_RED",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+137,"EM5311_00_0","","Gunpowderfish","","","","","","","159942B9-3B6F-43B4-9542-962BA91E44AF","","","5E1E082D-8A58-4FF3-87B1-4257B1B73B47","Fish that have large, protruding eyes on
+either side of their heads and explosive
+scales that are useful in bomb-making.","2C777C60-79BE-40CA-BAA0-A8F86F08D36B","Fish that have explosive scales useful in
+bomb-making. The large, protruding eyes they
+have on both sides are rarely seen in nature,
+prompting some to theorize that the species
+evolved through human manipulation, only
+to become wild sometime later. Gunpowderfish
+show a strong interest in Emerald Jitterbait.","06582888-37D8-4079-B16E-429728223B77","","00000000","","",CellImage,"",CellImage,"I_RED",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+138,"EM5312_00_0","","Speartuna","","","","","","","94C15075-8753-4537-BEB7-2DCEFC3CAF8D","","","3D0B1E6B-5A4B-4AAA-8C72-8BE47F119F1C","Large fish characterized by the long rostra
+extending from their heads. Seen often
+during Fallows, but absent during Plenties.","CC0716D9-5177-4C44-B790-CA0A69A59D16","Large fish characterized by the long rostra
+extending from their heads. The rostra are
+used to catch prey and defend against
+enemies. Speartuna are a common sight
+during the Fallow, but absent during the
+Plenty. It is believed that they avoid
+competing with other large fish over the
+abundant food. Speartuna show a strong
+interest in Tuff Joint Bait.","0C36A16F-E6B1-48EF-971C-01A848A8366E","","00000000","","",CellImage,"",CellImage,"I_ULTRAMARINE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+139,"EM5313_00_0","","Petricanths","","","","","","","27B189A9-F38E-4134-8BA9-133AD74EEAC3","","","1B5B1470-1C7E-40EB-AC94-C0DC0C5EB4BC","So few of these fish have been found alive
+that they were once thought to be extinct.
+They retain the same form as in ancient times.","FF1262C1-462F-41B4-A413-2F5C96E26151","So few of these fish have been found alive
+that they were once thought to be extinct.
+At one point, they only turned up as fossils
+—and in a way, they <ITALIC>are</ITALIC> living fossils
+since they retain the same form as in
+ancient times. Research on the ecology
+of the Petricanths might just elucidate
+how other prehistoric organisms lived.
+Petricanths show a strong interest
+in Duster Rigs.","F32B4E33-A88C-439B-B850-3838653A23F2","","00000000","","",CellImage,"",CellImage,"I_SKY",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+140,"EM5314_00_0","","Glass Parexus","","","","","","","66C20025-2242-4E53-8058-B258D6E29460","","","E2A236C5-C850-48EB-AD36-CDCF0A426443","Fish with transparent bodies, a protective
+measure to conceal themselves from
+predators. They prefer colder habitats.","B138A02B-F7D8-4FE5-96C3-25A8938391D8","Fish with transparent bodies that reveal
+their bones and organs. This protective
+coloration—or lack thereof, rather—hides
+them from predators. Glass Parexus prefer
+colder regions, and are often found in clear
+waters where their transparency is most
+effective.","2880D005-BF06-4F75-9A8C-053AF5CCCA4C","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+141,"EM5315_00_0","","Goliath Squid","","","","","","","2EB1F154-1C69-4C89-AA62-0E96278B3867","","","D316F001-499A-432E-8CC8-364DAF8ACDCA","Huge nocturnal aquatic creatures with long
+tentacles. Their bodies glow as they swim
+around at night.","035CD876-1203-4542-8DA6-BE094A28E530","Huge nocturnal creatures that have eight
+short legs, two long tentacles, and
+distinctive patterning on their bodies.
+Goliath Squids use special luminescent
+organs to light up their whole body, scaring
+off enemies and hunting prey. Some believe
+it might also be a way for them to
+communicate with each other. They show
+a strong interest in Tentacle Jigs.","74BFB45E-9D36-4FA7-A531-EEF62ACF941E","","00000000","","",CellImage,"",CellImage,"I_WHITE",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+142,"EM5316_00_0","","Great Trevally","","","","","","","E7CA0198-FFFD-4511-93C1-A9FD8879B642","","","F69DC79B-23FA-4FA0-A031-7ECFB7F1DB53","Large fish notable for their sizeable
+mouths, which can gobble down large prey
+in one gulp.","B690E72C-1B41-4CE0-82B1-10317D47FC09","Large fish notable for their sizeable mouths,
+which can gobble down most small- to medium-
+sized prey in one go. Great Trevally are
+diurnal and have a wide range of habitats.
+Smaller specimens can even be found in the
+shallows. They show a strong interest in
+Tuff Joint Bait.","950469ED-C1BA-467D-8AB4-21A964169505","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+143,"EM5317_00_0","","Escunite","","","","","","","60D6215B-1D92-4AE2-9408-483B32075786","","","AE2643DE-9C7A-4C9D-800D-B72F92C2BA15","Creatures with exceptionally hard shells that
+keep the majority of their bodies hidden from
+predators.","243BEF14-8AFB-4AC6-AACC-15BBB8674EB9","Creatures with exceptionally hard shells
+that keep the majority of their bodies
+hidden from predators. Their numerous
+tentacles draw in and catch prey. Escunites
+move by expelling water from organs called
+siphons that are hidden inside their
+tentacles. They show a strong interest in
+Tentacle Jigs.","776B27ED-4C10-4C65-B4FE-86768729ABC7","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+144,"EM5317_09_0","","Grand Escunite","","","","","","","1B36A283-2BB5-4DAC-9C5E-B05848C9BD38","","","E2604FB0-4D73-43E6-94A7-EAA66FB848EF","Escunite specimens with blanched bodies.
+Compared to normal Escunites, precious few
+have been discovered thus far.","717D983A-1EC6-4168-8964-844BC49AFD99","Escunite specimens with blanched bodies.
+Every part—shell, tentacles, and all—is
+white. Several theories have been put
+forward as to why this happens: a mutation,
+or a defensive measure to better blend into
+surroundings. However, until more specimens
+are collected and research conducted,
+it will remain as speculation. Grand Escunites
+show a strong interest in Tentacle Jigs.","96478C99-56AA-47C9-8CCA-88E84EAEAA5C","","00000000","","",CellImage,"",CellImage,"I_MOS",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+145,"EM5318_00_0","","Gravid Bowfin","","","","","","","D6EBF6FC-844E-45FE-A2F0-DAFA56052FF9","","","75278DCF-B8B2-4EE3-9DFE-643FA2E88CCE","Fish with head plating to defend against
+threats. The roe in their abdomens is safe
+for consumption and highly nutritious.","C216B23D-9590-4843-9BB6-A6FBA991CB90","Fish with head plating to defend against
+threats. The plating is not part of their
+biology but rather a collection of scavenged
+materials. Because of the similar fin
+shapes, some believe these are actually
+female Virid Bowfins in their breeding
+period. However, not enough specimens
+have been found or studied to shed light
+on these theories. Gravid Bowfins show
+a strong interest in Emerald Jitterbait.","E894F47E-980D-464B-A565-8FE03821E652","","00000000","","",CellImage,"",CellImage,"I_VERMILION",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"
+146,"EM5319_00_0","","Blind Perch","","","","","","","FB8FAFA9-87C5-43BE-80D5-B68E22034A3F","","","F3F47413-AF4E-4A69-A324-72EADC26F90C","Fish that have adapted to waters where
+Wyvern Milk flows. Their eyes have
+degenerated to reduce energy consumption.","F4151E1F-3916-43D9-9658-EF42F077D114","Fish that have adapted to waters where
+Wyvern Milk flows. Their eyes have
+degenerated, presumably to reduce energy
+consumption. In lieu of sight, Blind Perch
+have developed organs on the sides of their
+bodies to sense tremors in the water and
+gain awareness of their surroundings.
+What they use for nourishment still
+remains unknown.","497997D2-3B32-453F-9D59-4409ACEA5461","","00000000","","",CellImage,"",CellImage,"I_PINK",false,false,false,false,"INVALID","INVISIBLE","NONE","GET"

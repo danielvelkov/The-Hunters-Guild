@@ -26,9 +26,9 @@
 24,24,13,"Rey Szelatya III","Rey Szelatya II","Rey Dau Certificate S","-","00000000","Rey Dau Certificate S",3,"Rey Dau Fulgurtalon",4,"Rey Dau Tail",1,"Rey Dau Plate",1,false
 25,25,14,"Szelatya Clairgun","Rey Szelatya III","","Arkveld","00000000","Hunter Symbol III",5,"Rey Dau Carapace",6,"Rey Dau Bolthorn",4,"Rey Dau Boltgem",1,false
 26,26,58,"Windshear Light I","","","Hirabami","00000000","Hirabami Scale",3,"Hirabami Tail Claw",2,"Frost Sac",1,"","",false
-27,27,59,"Windshear Light II","#N/A","Hirabami Certificate S","-","00000000","Hirabami Certificate S",1,"Hirabami Tail Claw+",4,"Freezer Sac",3,"","",true
-28,28,60,"Windshear Light III","#N/A","Jin Dahaad Certificate S","-","00000000","Jin Dahaad Certificate S",3,"Hirabami Hide+",5,"Wyvern Gem",1,"","",false
-29,29,61,"Windshear Uchibami","#N/A","","Arkveld","00000000","Hunter Symbol I",5,"Hirabami Webbing+",6,"Jin Dahaad Icegem",1,"","",false
+27,27,59,"Windshear Light II","Windshear Light I","Hirabami Certificate S","-","00000000","Hirabami Certificate S",1,"Hirabami Tail Claw+",4,"Freezer Sac",3,"","",true
+28,28,60,"Windshear Light III","Windshear Light II","Jin Dahaad Certificate S","-","00000000","Jin Dahaad Certificate S",3,"Hirabami Hide+",5,"Wyvern Gem",1,"","",false
+29,29,61,"Windshear Uchibami","Windshear Light III","","Arkveld","00000000","Hunter Symbol I",5,"Hirabami Webbing+",6,"Jin Dahaad Icegem",1,"","",false
 30,30,52,"Ajara Shellgun I","","","Ajarakan","00000000","Ajarakan Scale",3,"Ajarakan Ridge",2,"Ajarakan Jewel",1,"","",false
 31,31,53,"Ajara Shellgun II","Ajara Shellgun I","Ajarakan Certificate S","-","00000000","Ajarakan Certificate S",2,"Ajarakan Ridge+",3,"Ajarakan Jewel+",2,"Ajarakan Marrow",1,false
 32,32,54,"Ajara-Angaja","Ajara Shellgun II","","Arkveld","00000000","Hunter Symbol II",5,"Ajarakan Carapace",6,"Ajarakan Medulla",1,"","",false

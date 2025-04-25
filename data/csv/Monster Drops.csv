@@ -448,6 +448,51 @@
 "EM0071_00_0","Gore Magala",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone",1,0.7
 "EM0071_00_0","Gore Magala",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.23
 "EM0071_00_0","Gore Magala",602,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.07
+"EM0082_00_0","Mizutsune",100,"RW000","Carving",-1,"HIGH","Mizutsune Scale+",1,0.24
+"EM0082_00_0","Mizutsune",101,"RW000","Carving",-1,"HIGH","Mizutsune Purplefur+",1,0.22
+"EM0082_00_0","Mizutsune",102,"RW000","Carving",-1,"HIGH","Bubblefoam+",1,0.16
+"EM0082_00_0","Mizutsune",103,"RW000","Carving",-1,"HIGH","Mizutsune Claw+",1,0.13
+"EM0082_00_0","Mizutsune",104,"RW000","Carving",-1,"HIGH","Mizutsune Fin+",1,0.11
+"EM0082_00_0","Mizutsune",105,"RW000","Carving",-1,"HIGH","Mizutsune Tail",1,0.11
+"EM0082_00_0","Mizutsune",106,"RW000","Carving",-1,"HIGH","Mizutsune Water Orb",1,0.03
+"EM0082_00_0","Mizutsune",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Mizutsune Scale+",1,0.4
+"EM0082_00_0","Mizutsune",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Mizutsune Purplefur+",1,0.3
+"EM0082_00_0","Mizutsune",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Monster Keenbone",1,0.3
+"EM0082_00_0","Mizutsune",200,"RW001","Carving (Severed Part)",-1,"HIGH","Mizutsune Tail",1,0.94
+"EM0082_00_0","Mizutsune",201,"RW001","Carving (Severed Part)",-1,"HIGH","Mizutsune Water Orb",1,0.06
+"EM0082_00_0","Mizutsune",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Mizutsune Scale+",1,0.6
+"EM0082_00_0","Mizutsune",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Mizutsune Tail",1,0.4
+"EM0082_00_0","Mizutsune",220,"RW005","Broken Part Rewards",0,"HIGH","Mizutsune Fin+",1,1
+"EM0082_00_0","Mizutsune",230,"RW005","Broken Part Rewards",1,"HIGH","Mizutsune Fin+",1,1
+"EM0082_00_0","Mizutsune",240,"RW005","Broken Part Rewards",2,"HIGH","Mizutsune Claw+",1,1
+"EM0082_00_0","Mizutsune",250,"RW005","Broken Part Rewards",3,"HIGH","Mizutsune Claw+",1,1
+"EM0082_00_0","Mizutsune",260,"RW005","Broken Part Rewards",4,"HIGH","Mizutsune Purplefur+",1,1
+"EM0082_00_0","Mizutsune",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Mizutsune Scale+",1,0.3
+"EM0082_00_0","Mizutsune",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Mizutsune Purplefur+",1,0.3
+"EM0082_00_0","Mizutsune",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Bubblefoam+",1,0.4
+"EM0082_00_0","Mizutsune",500,"RW004","Target Rewards",-1,"HIGH","Mizutsune Certificate S",1,0.08
+"EM0082_00_0","Mizutsune",500,"RW004","Target Rewards",-1,"HIGH","Mizutsune Scale+",1,0.24
+"EM0082_00_0","Mizutsune",500,"RW004","Target Rewards",-1,"HIGH","Bubblefoam+",1,0.25
+"EM0082_00_0","Mizutsune",500,"RW004","Target Rewards",-1,"HIGH","Mizutsune Water Orb",1,1
+"EM0082_00_0","Mizutsune",501,"RW004","Target Rewards",-1,"HIGH","Mizutsune Scale+",1,0.2
+"EM0082_00_0","Mizutsune",501,"RW004","Target Rewards",-1,"HIGH","Mizutsune Purplefur+",1,0.24
+"EM0082_00_0","Mizutsune",501,"RW004","Target Rewards",-1,"HIGH","Mizutsune Claw+",1,0.25
+"EM0082_00_0","Mizutsune",502,"RW004","Target Rewards",-1,"HIGH","Mizutsune Purplefur+",1,0.2
+"EM0082_00_0","Mizutsune",502,"RW004","Target Rewards",-1,"HIGH","Bubblefoam+",1,0.18
+"EM0082_00_0","Mizutsune",502,"RW004","Target Rewards",-1,"HIGH","Mizutsune Fin+",1,0.25
+"EM0082_00_0","Mizutsune",503,"RW004","Target Rewards",-1,"HIGH","Bubblefoam+",1,0.18
+"EM0082_00_0","Mizutsune",503,"RW004","Target Rewards",-1,"HIGH","Mizutsune Claw+",1,0.15
+"EM0082_00_0","Mizutsune",503,"RW004","Target Rewards",-1,"HIGH","Mizutsune Tail",1,0.18
+"EM0082_00_0","Mizutsune",504,"RW004","Target Rewards",-1,"HIGH","Mizutsune Claw+",1,0.15
+"EM0082_00_0","Mizutsune",504,"RW004","Target Rewards",-1,"HIGH","Mizutsune Fin+",1,0.08
+"EM0082_00_0","Mizutsune",504,"RW004","Target Rewards",-1,"HIGH","Mizutsune Water Orb",1,0.07
+"EM0082_00_0","Mizutsune",505,"RW004","Target Rewards",-1,"HIGH","Mizutsune Fin+",1,0.08
+"EM0082_00_0","Mizutsune",505,"RW004","Target Rewards",-1,"HIGH","Mizutsune Tail",1,0.08
+"EM0082_00_0","Mizutsune",506,"RW004","Target Rewards",-1,"HIGH","Mizutsune Tail",1,0.08
+"EM0082_00_0","Mizutsune",506,"RW004","Target Rewards",-1,"HIGH","Mizutsune Water Orb",1,0.03
+"EM0082_00_0","Mizutsune",507,"RW004","Target Rewards",-1,"HIGH","Mizutsune Water Orb",1,0.03
+"EM0082_00_0","Mizutsune",600,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone (L)",1,0.85
+"EM0082_00_0","Mizutsune",601,"RW015","Tempered Wound Destroyed Reward",-1,"HIGH","Wyverian Bloodstone Chunk",1,0.15
 "EM0100_51_0","Guardian Fulgur Anjanath",100,"RW000","Carving",-1,"HIGH","Guardian Fulgur Scale+",1,0.3
 "EM0100_51_0","Guardian Fulgur Anjanath",101,"RW000","Carving",-1,"HIGH","Guardian Fulgur Pelt+",1,0.23
 "EM0100_51_0","Guardian Fulgur Anjanath",102,"RW000","Carving",-1,"HIGH","Guardian Fulgur Fang+",1,0.18
@@ -1375,15 +1420,15 @@
 "EM0162_00_0","Jin Dahaad",101,"RW000","Carving",-1,"HIGH","Jin Dahaad Carapace",1,0.23
 "EM0162_00_0","Jin Dahaad",102,"RW000","Carving",-1,"HIGH","Jin Dahaad Claw+",1,0.18
 "EM0162_00_0","Jin Dahaad",103,"RW000","Carving",-1,"HIGH","Jin Dahaad Horn",1,0.13
-"EM0162_00_0","Jin Dahaad",104,"RW000","Carving",-1,"HIGH","Jin Dahaad Tail",1,0.11
+"EM0162_00_0","Jin Dahaad",104,"RW000","Carving",-1,"HIGH","",1,0.11
 "EM0162_00_0","Jin Dahaad",105,"RW000","Carving",-1,"HIGH","Jin Dahaad Icegem",1,0.05
 "EM0162_00_0","Jin Dahaad",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Jin Dahaad Scale+",1,0.4
 "EM0162_00_0","Jin Dahaad",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Jin Dahaad Carapace",1,0.3
 "EM0162_00_0","Jin Dahaad",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Freezer Sac",1,0.3
-"EM0162_00_0","Jin Dahaad",200,"RW001","Carving (Severed Part)",-1,"HIGH","Jin Dahaad Tail",1,0.93
+"EM0162_00_0","Jin Dahaad",200,"RW001","Carving (Severed Part)",-1,"HIGH","",1,0.93
 "EM0162_00_0","Jin Dahaad",201,"RW001","Carving (Severed Part)",-1,"HIGH","Jin Dahaad Icegem",1,0.07
 "EM0162_00_0","Jin Dahaad",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Jin Dahaad Scale+",1,0.6
-"EM0162_00_0","Jin Dahaad",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Jin Dahaad Tail",1,0.4
+"EM0162_00_0","Jin Dahaad",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","",1,0.4
 "EM0162_00_0","Jin Dahaad",220,"RW005","Broken Part Rewards",1,"HIGH","Jin Dahaad Iceplate",1,1
 "EM0162_00_0","Jin Dahaad",230,"RW005","Broken Part Rewards",2,"HIGH","Jin Dahaad Horn",1,1
 "EM0162_00_0","Jin Dahaad",240,"RW005","Broken Part Rewards",3,"HIGH","Jin Dahaad Claw+",1,1
@@ -1405,14 +1450,14 @@
 "EM0162_00_0","Jin Dahaad",501,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.21
 "EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Carapace",1,0.2
 "EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Claw+",1,0.18
-"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.21
+"EM0162_00_0","Jin Dahaad",502,"RW004","Target Rewards",-1,"HIGH","",1,0.21
 "EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Claw+",1,0.15
 "EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.11
 "EM0162_00_0","Jin Dahaad",503,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Iceplate",1,0.18
 "EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Horn",1,0.08
-"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.11
+"EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","",1,0.11
 "EM0162_00_0","Jin Dahaad",504,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Icegem",1,0.07
-"EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"HIGH","Jin Dahaad Tail",1,0.08
+"EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"HIGH","",1,0.08
 "EM0162_00_0","Jin Dahaad",505,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.11
 "EM0162_00_0","Jin Dahaad",506,"RW004","Target Rewards",-1,"","","",""
 "EM0162_00_0","Jin Dahaad",506,"RW004","Target Rewards",-1,"HIGH","Freezer Sac",1,0.18
@@ -1511,6 +1556,49 @@
 "EM0164_50_0","Zoh Shia",502,"RW004","Target Rewards",-1,"LOW","Guardian Pelt",1,0.15
 "EM0164_50_0","Zoh Shia",503,"RW004","Target Rewards",-1,"LOW","Nourishing Extract",1,0.3
 "EM0164_50_0","Zoh Shia",504,"RW004","Target Rewards",-1,"LOW","Tough Guardian Bone",1,0.2
+"EM0164_50_0","Zoh Shia",100,"RW000","Carving",-1,"HIGH","Zoh Shia Crystalscale",1,0.24
+"EM0164_50_0","Zoh Shia",101,"RW000","Carving",-1,"HIGH","Zoh Shia Layershell",1,0.22
+"EM0164_50_0","Zoh Shia",102,"RW000","Carving",-1,"HIGH","Zoh Shia Stakeclaw",1,0.16
+"EM0164_50_0","Zoh Shia",103,"RW000","Carving",-1,"HIGH","Blackember Mass",1,0.13
+"EM0164_50_0","Zoh Shia",104,"RW000","Carving",-1,"HIGH","Zoh Shia Crystalhorn",1,0.11
+"EM0164_50_0","Zoh Shia",105,"RW000","Carving",-1,"HIGH","Zoh Shia Crystaltail",1,0.11
+"EM0164_50_0","Zoh Shia",106,"RW000","Carving",-1,"HIGH","Faux Whitegleam Orb",1,0.03
+"EM0164_50_0","Zoh Shia",110,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Zoh Shia Crystalscale",1,0.4
+"EM0164_50_0","Zoh Shia",111,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Zoh Shia Layershell",1,0.35
+"EM0164_50_0","Zoh Shia",112,"RW008","Carving (Rotten Monster Carcass)",-1,"HIGH","Zoh Shia Stakeclaw",1,0.25
+"EM0164_50_0","Zoh Shia",200,"RW001","Carving (Severed Part)",-1,"HIGH","Zoh Shia Crystaltail",1,0.93
+"EM0164_50_0","Zoh Shia",201,"RW001","Carving (Severed Part)",-1,"HIGH","Faux Whitegleam Orb",1,0.07
+"EM0164_50_0","Zoh Shia",210,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Zoh Shia Crystalscale",1,0.6
+"EM0164_50_0","Zoh Shia",211,"RW012","Carving (Rotten Severed Part)",-1,"HIGH","Zoh Shia Crystaltail",1,0.4
+"EM0164_50_0","Zoh Shia",220,"RW005","Broken Part Rewards",6,"HIGH","Zoh Shia Crystalhorn",1,1
+"EM0164_50_0","Zoh Shia",230,"RW005","Broken Part Rewards",9,"HIGH","Zoh Shia Stakeclaw",1,1
+"EM0164_50_0","Zoh Shia",240,"RW005","Broken Part Rewards",10,"HIGH","Zoh Shia Stakeclaw",1,1
+"EM0164_50_0","Zoh Shia",250,"RW005","Broken Part Rewards",7,"HIGH","Blackember Mass",1,1
+"EM0164_50_0","Zoh Shia",260,"RW005","Broken Part Rewards",8,"HIGH","Blackember Mass",1,1
+"EM0164_50_0","Zoh Shia",400,"RW006","Wound Destroyed Reward",-1,"HIGH","Zoh Shia Crystalscale",1,0.4
+"EM0164_50_0","Zoh Shia",401,"RW006","Wound Destroyed Reward",-1,"HIGH","Zoh Shia Layershell",1,0.3
+"EM0164_50_0","Zoh Shia",402,"RW006","Wound Destroyed Reward",-1,"HIGH","Guardian Blood+",1,0.3
+"EM0164_50_0","Zoh Shia",500,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Certificate S",1,0.08
+"EM0164_50_0","Zoh Shia",500,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystalscale",1,0.24
+"EM0164_50_0","Zoh Shia",500,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Stakeclaw",1,0.25
+"EM0164_50_0","Zoh Shia",500,"RW004","Target Rewards",-1,"HIGH","Faux Whitegleam Orb",1,1
+"EM0164_50_0","Zoh Shia",501,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystalscale",1,0.2
+"EM0164_50_0","Zoh Shia",501,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Layershell",1,0.24
+"EM0164_50_0","Zoh Shia",501,"RW004","Target Rewards",-1,"HIGH","Blackember Mass",1,0.25
+"EM0164_50_0","Zoh Shia",502,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Layershell",1,0.2
+"EM0164_50_0","Zoh Shia",502,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Stakeclaw",1,0.18
+"EM0164_50_0","Zoh Shia",502,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystalhorn",1,0.25
+"EM0164_50_0","Zoh Shia",503,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Stakeclaw",1,0.18
+"EM0164_50_0","Zoh Shia",503,"RW004","Target Rewards",-1,"HIGH","Blackember Mass",1,0.15
+"EM0164_50_0","Zoh Shia",503,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystaltail",1,0.18
+"EM0164_50_0","Zoh Shia",504,"RW004","Target Rewards",-1,"HIGH","Blackember Mass",1,0.15
+"EM0164_50_0","Zoh Shia",504,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystalhorn",1,0.08
+"EM0164_50_0","Zoh Shia",504,"RW004","Target Rewards",-1,"HIGH","Faux Whitegleam Orb",1,0.07
+"EM0164_50_0","Zoh Shia",505,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystalhorn",1,0.08
+"EM0164_50_0","Zoh Shia",505,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystaltail",1,0.08
+"EM0164_50_0","Zoh Shia",506,"RW004","Target Rewards",-1,"HIGH","Zoh Shia Crystaltail",1,0.08
+"EM0164_50_0","Zoh Shia",506,"RW004","Target Rewards",-1,"HIGH","Faux Whitegleam Orb",1,0.03
+"EM0164_50_0","Zoh Shia",507,"RW004","Target Rewards",-1,"HIGH","Faux Whitegleam Orb",1,0.03
 "EM1006_00_0","Vespoid",100,"RW000","Carving",-1,"LOW","Vespoid Shell",1,0.42
 "EM1006_00_0","Vespoid",101,"RW000","Carving",-1,"LOW","Vespoid Wing",1,0.35
 "EM1006_00_0","Vespoid",102,"RW000","Carving",-1,"LOW","Monster Fluid",1,0.23
