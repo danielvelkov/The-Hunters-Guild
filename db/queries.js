@@ -27,37 +27,39 @@ async function getBonusQuestRewardsList() {
   return rows;
 }
 
-const getMonsters__AllWeaknesses = `SELECT
-  em_id,
-  large_monster_icon_id,
-  name,
-  frenzied,
-  tempered,
-  arch_tempered,
-  locale,
-  base_health,
-  special_attacks,
-  CONCAT(
-    weakness,
-    COALESCE(
-      '; ' || NULLIF(
-        (SELECT STRING_AGG(upper(key), ', ')
-         FROM (
-           SELECT (jsonb_each_text).key AS key, (jsonb_each_text).value AS value
-           FROM (
-             SELECT jsonb_each_text(to_jsonb(bc2.*))
-             FROM badcondition2 bc2
-             WHERE bc2.name = m.name
-           ) subquery
-           WHERE (jsonb_each_text).value Like '⭐⭐%'
-         ) inner_query
-        ),
-        ''
-      ),
-      ''
-    )
-  ) AS all_weaknesses
-FROM monsters m where m.class = 'Large';`;
+const getMonsters__AllWeaknesses = `WITH monsters AS
+  (SELECT m.em_id,
+          REPLACE(concat('E', to_char(hex_to_decimal(boss_icon_type_raw)-1, '0099')), ' ', '') AS large_monster_icon_id,
+          e.name,
+          frenzied,
+          tempered,
+          arch_tempered,
+          locale,
+          CLASS,
+          base_health,
+          special_attacks,
+          weakness
+   FROM monsters m
+   JOIN enemydata e ON e.em_id = m.em_id)
+SELECT DISTINCT em_id, monsters.name,
+                large_monster_icon_id,
+                frenzied,
+                tempered,
+                arch_tempered,
+                locale,
+                base_health,
+                special_attacks,
+                concat(weakness, coalesce('; ' || NULLIF(
+                                                           (SELECT string_agg(upper(KEY), ', ') from
+                                                              (SELECT (jsonb_each_text).key AS KEY, (jsonb_each_text).value AS value
+                                                               FROM
+                                                                 (SELECT jsonb_each_text(to_jsonb(mar.*))
+                                                                  FROM monster_ailment_resistances mar
+                                                                  WHERE monsters.name = mar.monster) AS sub
+                                                               WHERE (jsonb_each_text).key IN ('ko', 'blast', 'sleep', 'paralysis', 'poison')
+                                                                 AND (jsonb_each_text).value like '⭐⭐%') AS sub), ''), '')) AS all_weaknesses
+FROM monsters
+WHERE CLASS = 'Large';`;
 
 const getMonsters__OnlyElementalWeaknesses = `SELECT
   em_id,
@@ -76,8 +78,7 @@ FROM monsters;
 const getMonstersParts__DamageEffectiveness = `SELECT DISTINCT
   m.monster_id,
   m.monster,
-  parts_type,
-  icontype AS icon,
+  name as parts_type, monster_parts.icon_type as icon,
   slash,
   blow,
   shot,
@@ -87,12 +88,8 @@ const getMonstersParts__DamageEffectiveness = `SELECT DISTINCT
   ice,
   dragon,
   stun,
-  flash
-FROM monster_parts_array
-INNER JOIN monster_meat_array AS m ON meat_guid_normal = instance_guid
-LEFT JOIN monster_parts ON parts_type = empartstype
-WHERE parts_type != 'HIDE'
-  AND parts_type != '#N/A';`;
+  flash from monster_parts_array join monster_meat_array m on m.instance_guid = monster_parts_array.meat_guid_normal join monster_parts on parts_type_raw = monster_parts.fixed_id where icon_type != '' order
+ by m.monster;`;
 
 const getBonusRewards__NamesAndIconId = `SELECT DISTINCT
   id,
@@ -101,7 +98,7 @@ const getBonusRewards__NamesAndIconId = `SELECT DISTINCT
   rarity,
   icon_type AS icon,
   icon_colour,
-  rank_1,
+  get_rank_1,
   dropped_by,
 CASE
   WHEN  add_icon_type = 'INGREDIENTS' THEN 'Food Ingredient'
@@ -125,6 +122,32 @@ WHERE ((TYPE = 'GEM' OR add_icon_type = 'INGREDIENTS')
        OR (TYPE = 'MATERIAL' AND dropped_by != ''))
        OR (NAME = 'Basic Material' OR NAME = 'Valuable Material')
   AND NOT (type = 'GEM' AND name ILIKE 'Old%');`;
+
+const getMonstersItemRewards = `WITH numbered_rows AS
+  (SELECT *,
+          ROW_NUMBER() OVER () AS original_order
+   FROM monster_parts_break_array),
+drops_numbered_rows as
+(SELECT *,
+          ROW_NUMBER() OVER () AS drops_original_order
+   FROM monster_drops)
+SELECT DISTINCT drops_original_order, drops_numbered_rows.monster,
+                reward_type,
+                data_id,
+                rank,
+                item,
+                parts_type, number, probability,
+                                    target_category
+FROM drops_numbered_rows
+LEFT JOIN
+  (SELECT monster_id,
+          monster,
+          target_category,
+          parts_type,
+          DENSE_RANK() OVER (PARTITION BY monster
+                             ORDER BY original_order, parts_type) - 1 AS part_index
+   FROM numbered_rows) AS mp ON mp.part_index = Cast(drops_numbered_rows.parts_index AS bigint)
+AND mp.monster_id = drops_numbered_rows.monster_id order by drops_original_order;`;
 
 module.exports = {
   getMonstersInfo__AllWeaknesses,
