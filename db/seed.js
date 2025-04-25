@@ -33,6 +33,7 @@ const client = new Client({
 });
 
 const loadCSVfunc = fs.readFileSync('db/utils/load-csv-file.sql').toString();
+const hex2decFunc = fs.readFileSync('db/utils/hex-to-dec.sql').toString();
 
 const csvDir = path.join(__dirname, '../data/csv');
 const csvFiles = fs.readdirSync(csvDir);
@@ -48,6 +49,7 @@ async function seed() {
   try {
     await client.query('BEGIN');
     await client.query(loadCSVfunc);
+    await client.query(hex2decFunc);
 
     console.log('seeding...');
 
@@ -73,9 +75,11 @@ async function seed() {
     }
 
     // no references for some icons anywhere, so they're manually added
-    const setStatusIconsNamesSQL = fs.readFileSync(
-      'manual-seed/updateStatusIconsNames.sql'
-    );
+    const setStatusIconsNamesSQL = fs
+      .readFileSync(
+        path.join(__dirname, 'manual-seed/updateStatusIconsNames.sql')
+      )
+      .toString();
     await client.query(setStatusIconsNamesSQL);
 
     await client.query('COMMIT');
