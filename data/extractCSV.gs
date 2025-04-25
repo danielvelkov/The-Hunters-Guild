@@ -46,13 +46,20 @@ function saveImagesWithIds() {
       console.log(`Created new folder for sheet: ${sheetName}`);
     }
 
-    // Get all data in the sheet (assuming IDs in column A, images in column B)
+    // Get all data in the sheet
     const data = sheet.getDataRange().getValues();
+    let idColIndex = '0';
 
     // Process each row
     for (let i = 0; i < data.length; i++) {
-      const id = data[i][0]; // First column (A) is ID
-      const cell = sheet.getRange(i + 1, 2); // Second column (B) is image
+      if (i === 0) {
+        console.log(data[i]);
+        data[i].forEach((c, ind) => {
+          if (c.toString() === 'ID') idColIndex = ind;
+        });
+      }
+      const id = data[i][idColIndex]; // First column is ID
+      const cell = sheet.getRange(i + 1, idColIndex + 2); // Column afterwards is image
       const image = cell.getValue();
 
       // Skip if no ID or no image
@@ -243,11 +250,12 @@ function downloadAllSheetsCSV() {
     'Monster Parts', // unique parts. each monster has atleast one of those parts
     'Monster Meat Array', // each monster with all its part with resistances
     'Monster Parts Array', // basically the relationship between the last two sheets
-    'BadCondition2', // status effectiveness in STARS
+    'Monster Ailment Resistances', // status effectiveness in STARS
 
     // Regarding monster item drops
-    'Monster Drops', // Reward Type, Item ID, Monster Ids, Prob and Count
+    'Monster Drops', // Reward Type, Item ID, Monster Ids, Part Index, Prob and Count
     'Items', // every item with name, desc, type , rarity , icon ID etc
+    'Monster Parts Break Array', // contains the part name and the index
 
     // Armor Related
     'Armour', // every armor item with res and skills
@@ -315,11 +323,6 @@ function downloadAllSheetsCSV() {
 
     // Check if this sheet should be included
     if (!allowedSheetNames.includes(sheetName)) {
-      continue;
-    }
-
-    // Skip hidden sheets
-    if (sheet.isSheetHidden()) {
       continue;
     }
 
