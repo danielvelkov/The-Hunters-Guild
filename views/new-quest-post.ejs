@@ -526,6 +526,7 @@
         }
 
         let questTitle = `${questDetails.get('quest-type')} `;
+        let isHighRankQuest = questDetails.get('quest-star-rank') === 'HIGH' || +questDetails.get('quest-star-rank') > 4;
 
         if(selectedMonsterDetailsList.length === 1){
           const monsterName = `${monsterFormDataList[0].get('tempered') ? 'Tempered' : ''}
@@ -663,6 +664,9 @@
                     }).join('')}
                   </tbody>
                 </table>
+
+                <h3>Drop Rates ${isHighRankQuest ? '(High Rank)' : '(Low Rank)' }</h3>
+                ${createMonsterDropsSection(m.name, isHighRankQuest ? 'HIGH' : 'LOW').prop('outerHTML')}
               </div>`).join('')}
           </div>
         `)
@@ -697,6 +701,101 @@
         });
         return monsterDropsGroup;
       }
+
+      function createMonsterDropsSection (monster, rank) {
+        const dropsSection = $('<section>').addClass('drop-tables');
+        const monsterDrops = groupMonsterDrops(monster);
+
+        if(!monsterDrops[rank]){
+          dropsSection.append(`<p>No drop data is available for this monster at quest rank: <i>(${rank})</i></p>`);
+          return dropsSection;
+        }
+
+        const similarSections = {
+          carving: $('<div class="drop-section-group">'),
+          quest: $('<div class="drop-section-group">'),
+          bonus: $('<div class="drop-section-group">'),
+        }
+
+        Object.keys(monsterDrops[rank]).forEach(rewardType => {
+          const containsBreakablePartsCol = monsterDrops[rank][rewardType].some(i => i.brokenPart);
+          const partsArr = monsterDrops[rank][rewardType];
+
+          const dropTable = $('<table>');
+          const tableHeader = $('<thead>');
+          const tableBody = $('<tbody>');
+
+
+          const titleRow = $('<tr>').append(`<th colspan="100%">${rewardType}</th>`);
+          const colRow = $('<tr>').addClass('header-row');
+          titleRow.attr('align', 'center');
+          colRow.attr('align', 'left');
+
+          if(containsBreakablePartsCol)
+            colRow.append('<th> Broken Part </th>')
+
+          colRow.append('<th width="70%"> Item </th>')
+          colRow.append('<th width="30%"> Chance </th>')
+
+          tableHeader.append(titleRow);
+          tableHeader.append(colRow);
+
+          partsArr.forEach(p => {
+            const dataRow = $('<tr>')
+            if(p.brokenPart)
+            {
+              const brokenPartIconPath = `url('../icons/Item Icons/${p.brokenPartIcon}.png')`;
+               dataRow.append(`
+               <td>
+                <div style="display:flex; gap:0.5em; align-items:center;">
+                  <div class="item-img-container"
+                    data-icon-id="${p.brokenPartIcon}"
+                    style="--item-icon:${brokenPartIconPath}">
+                    <img height='23' src="icons/Item Icons/${p.brokenPartIcon}.png"/>
+                  </div>
+                <b>${p.brokenPart}</b>
+                </div>
+                </td>
+              `)
+            }
+            else if (containsBreakablePartsCol)
+              dataRow.append('<td> - </td>')
+
+            const itemIconPath = `url('../icons/Item Icons/${p.icon}.png')`;
+            dataRow.append(`
+              <td title="${'Rarity: ' + p.rarity + '\n'+ p.description}">
+                <div style="display:flex; gap:0.5em; align-items:center;">
+                  <div class="item-img-container"
+                    data-icon-id="${p.icon}"
+                    style="--item-icon:${itemIconPath}; --item-color: var(--${p.iconColor});">
+                    <img height='23' src="icons/Item Icons/${p.icon}.png" />
+                  </div>
+                ${p.name}<b>${+p.number !== 1 ? ` x${p.number}` : ''}</b>
+                </div>
+              </td>
+              <td>${Math.round(p.probability * 100)}%</td>
+            `);
+            tableBody.append(dataRow);
+          })
+
+          dropTable.append(tableHeader);
+          dropTable.append(tableBody);
+
+          if(rewardType.toLowerCase().includes('carv'))
+            similarSections.carving.append(dropTable)
+          else if(rewardType.toLowerCase().includes('wound') ||
+          rewardType.toLowerCase().includes('broken') ||
+           rewardType.toLowerCase().includes('target rewards'))
+            similarSections.quest.append(dropTable);
+          else similarSections.bonus.append(dropTable);
+        })
+
+        Object.values(similarSections).forEach(s => dropsSection.append(s));
+
+        return dropsSection;
+      }
+
+      // Monster Drops functions
     });
 
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
