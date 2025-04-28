@@ -667,7 +667,12 @@
                 </table>
 
                 <h3>Drop Rates ${isHighRankQuest ? '(High Rank)' : '(Low Rank)' }</h3>
-                ${createMonsterDropsSection(m.name, isHighRankQuest ? 'HIGH' : 'LOW').prop('outerHTML')}
+                ${createMonsterDropsSection(
+                  m.name,
+                  isHighRankQuest ? 'HIGH' : 'LOW',
+                  monsterFormDataList[i].get('tempered') === 'on',
+                  bonusRewardsIds
+                ).prop('outerHTML')}
               </div>`).join('')}
           </div>
         `)
@@ -703,9 +708,10 @@
         return monsterDropsGroup;
       }
 
-      function createMonsterDropsSection (monster, rank) {
+      function createMonsterDropsSection (monster, rank, isTempered, bonusRewardsIds) {
         const dropsSection = $('<section>').addClass('drop-tables');
         const monsterDrops = groupMonsterDrops(monster);
+        const bonusRewards = bonusRewardsIds.map(id => bonusQuestRewardsList.find(qr => qr.id === id));
 
         if(!monsterDrops[rank]){
           dropsSection.append(`<p>No drop data is available for this monster at quest rank: <i>(${rank})</i></p>`);
@@ -781,6 +787,19 @@
 
           dropTable.append(tableHeader);
           dropTable.append(tableBody);
+
+          const rewardConditions = {
+              'tempered': () => !isTempered,
+              'basic rewards': () => !bonusRewards.some(r => r.name === 'Basic Material'),
+              'valuable rewards': () => !bonusRewards.some(r => r.name === 'Valuable Material'),
+              'rare rewards': () => !bonusRewards.some(r => partsArr.find(pr => pr.name === r.name))
+          };
+
+          Object.entries(rewardConditions).forEach(([key, condition]) => {
+            if (rewardType.toLowerCase().includes(key) && condition()) {
+              dropTable.addClass('excluded-drop');
+            }
+          });
 
           if(rewardType.toLowerCase().includes('carv'))
             similarSections.carving.append(dropTable)

@@ -275,3 +275,8 @@ input[type='range'] + output {
   gap: 0.5em;
   flex: 1;
 }
+
+.drop-tables .excluded-drop {
+  color: #666;
+  opacity: 0.33;
+}
