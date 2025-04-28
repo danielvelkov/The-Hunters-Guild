@@ -27,6 +27,11 @@ async function getBonusQuestRewardsList() {
   return rows;
 }
 
+async function getMonsterDropsList() {
+  const { rows } = await pool.query(getMonsterDrops__NamesAndIconId);
+  return rows;
+}
+
 const getMonsters__AllWeaknesses = `WITH monsters AS
   (SELECT m.em_id,
           REPLACE(concat('E', to_char(hex_to_decimal(boss_icon_type_raw)-1, '0099')), ' ', '') AS large_monster_icon_id,
@@ -236,4 +241,5 @@ module.exports = {
   getMonsterSpecialAttacks__NamesAndDescription,
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
   getBonusQuestRewardsList,
+  getMonsterDropsList,
 };
