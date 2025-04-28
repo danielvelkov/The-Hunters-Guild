@@ -198,6 +198,8 @@
   <script>
       let monstersList = <%- JSON.stringify(monsters) -%>;
       let bonusQuestRewardsList  = <%- JSON.stringify(bonusQuestRewards) -%>;
+      let monstersDropsList = <%- JSON.stringify(monstersDrops) -%>;
+
       let monstersForms = [];
       let selectedMonsters = createObservableArray([], selectedMonstersChangeHandler);
 
@@ -598,7 +600,8 @@
                                 data-item-id="${bonusItem.id}"
                                 style="--item-color: var(--${bonusItem.iconColor}); --item-icon:${iconPath}; border: 2px double #806f49; background-color: #ac9b83;">
                                 <img height='30'  src="icons/Item Icons/${bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon }.png" on/>
-                                ${(+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') || (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5 ) ? `<div class="sparkles">${[...Array(6)].map(m => `<div class="sparkle"></div>`).join('')}</div>` : ''}
+                                ${(+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') || (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5 ) ?
+                                `<div class="sparkles">${[...Array(6)].map(m => `<div class="sparkle"></div>`).join('')}</div>` : ''}
                               </div>`
                           }).join('') : ''}
                         </div>
@@ -680,6 +683,20 @@
         }
       }
 
+      // Monster Drops functions
+
+      function groupMonsterDrops (monster) {
+        const monsterDrops = monstersDropsList.filter(md => md.source === monster);
+        const monsterDropsGroup = Object.groupBy(monsterDrops, ({rank}) => rank);
+        Object.keys(monsterDropsGroup).forEach((k) => {
+          const rewardGroups = Object.groupBy(monsterDropsGroup[k], ({rewardType}) => rewardType)
+          Object.keys(rewardGroups).forEach((rewardKey) => {
+            rewardGroups[rewardKey] = rewardGroups[rewardKey].sort((a,b) => b.probability - a.probability);
+          })
+          monsterDropsGroup[k] = rewardGroups;
+        });
+        return monsterDropsGroup;
+      }
     });
 
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
