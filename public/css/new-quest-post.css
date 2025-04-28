@@ -196,6 +196,11 @@ input[type='range'] + output {
   --item-icon: ''; /* Will be set via inline style */
 }
 
+.bonus-item {
+  border: 2px double #806f49;
+  background-color: #b69d7d;
+}
+
 .item-img-container img {
   z-index: 4; /* Lower than container but higher than tab background */
   display: block;
