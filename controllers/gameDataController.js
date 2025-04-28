@@ -4,9 +4,11 @@ const {
   getMonsterSpecialAttacks__NamesAndDescription,
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
   getBonusQuestRewardsList,
+  getMonsterDropsList,
 } = require('../db/queries');
 const Item = require('../models/Item');
 const Monster = require('../models/Monster');
+const MonsterDrop = require('../models/MonsterDrop');
 
 /**
  * Retrieves a list containing base details for each monster with
@@ -92,9 +94,37 @@ const monster__drops_TablesGet = async (monster) => {
   // TODO
 };
 
+const monsters_drops__ListGet = async () => {
+  const monstersDrops = [];
+  const dropsRows = await getMonsterDropsList();
+  dropsRows.forEach((i) =>
+    monstersDrops.push(
+      new MonsterDrop(
+        i.id,
+        i.item,
+        i.icon,
+        i.icon_colour ?? 'I_WHITE',
+        i.description,
+        'Material',
+        i.rarity,
+        i.monster,
+        i.reward_category ?? i.reward_type,
+        i.rank,
+        i.broken_part,
+        i.broken_part_icon,
+        i.number,
+        i.probability,
+        i.carvable_severed_part
+      )
+    )
+  );
+  return monstersDrops;
+};
+
 module.exports = {
   monsters__weakness_and_icons_ListGet,
   bonus_quest_rewards__ListGet,
+  monsters_drops__ListGet,
 };
 
 function groupWeaknesses(weaknesses, weaknessesIconsMap) {

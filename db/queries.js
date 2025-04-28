@@ -162,7 +162,7 @@ indexed_parts AS (
 drops_with_order AS (
     SELECT 
         *,
-          ROW_NUMBER() OVER () AS drops_original_order
+        ROW_NUMBER() OVER () AS drops_original_order
     FROM monster_drops
 ),
 
@@ -187,9 +187,9 @@ ranked_rewards AS (
 drops_with_category AS (
     SELECT 
         monster, 
-                reward_type,
-                data_id,
-                item,
+        reward_type, 
+        data_id, 
+        item,
         number, 
         probability,
         CASE 
