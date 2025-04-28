@@ -12,11 +12,13 @@ huntingQuestsRouter.get('/new', async (req, res) => {
     await gameDataController.monsters__weakness_and_icons_ListGet();
   const bonusQuestRewards =
     await gameDataController.bonus_quest_rewards__ListGet();
+  const monstersDrops = await gameDataController.monsters_drops__ListGet();
 
   res.render('new-quest-post', {
     title: 'Create Hunting Quest Post',
     monsters,
     bonusQuestRewards,
+    monstersDrops,
   });
 });
 
