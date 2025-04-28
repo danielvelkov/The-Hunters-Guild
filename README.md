@@ -6,7 +6,7 @@ This project is tool designed to enhance the gaming experience of Monster Hunter
 
 ## Features
 
-- create hunting quests posts with additional details (PLANNED)
+- create hunting quests posts with additional details (IN DEVELOPMENT)
 - create LFG posts (_this includes squads, link party, private lobby, etc_) (PLANNED)
 - filter through posts (PLANNED)
 
