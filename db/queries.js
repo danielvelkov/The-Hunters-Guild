@@ -122,31 +122,113 @@ WHERE ((TYPE = 'GEM' AND name not ilike 'old%' OR add_icon_type = 'INGREDIENTS' 
        OR (TYPE = 'MATERIAL' AND dropped_by != ''))
        OR (NAME = 'Basic Material' OR NAME = 'Valuable Material');`;
 
-const getMonstersItemRewards = `WITH numbered_rows AS
-  (SELECT *,
-          ROW_NUMBER() OVER () AS original_order
-   FROM monster_parts_break_array),
-drops_numbered_rows as
-(SELECT *,
+// TODO: this query works great, but for some of the monsters the broken parts table is incorrect or follows some other logic 
+// that I haven't figured out yet. (see Ebony Odogaron). Also For Mizutsune the parts to break straight up don't appear. 
+const getMonsterDrops__NamesAndIconId = `WITH 
+numbered_parts AS (
+    SELECT 
+        op.*,
+        mp.name AS part_name,
+        mp.icon_type AS part_icon_type,
+        mp.description
+    FROM (
+        SELECT *, ROW_NUMBER() OVER () AS original_order
+        FROM monster_parts_break_array
+    ) AS op
+    JOIN monster_parts mp ON op.parts_type LIKE '%' || mp.fixed_id || '%'
+),
+
+indexed_parts AS (
+    SELECT 
+        monster_id,
+        monster,
+        target_category,
+        part_name,
+        part_icon_type,
+        parts_type,
+        description,
+        DENSE_RANK() OVER (
+            PARTITION BY monster
+            ORDER BY original_order, parts_type
+        ) - 1 AS part_index
+    FROM numbered_parts
+),
+
+drops_with_order AS (
+    SELECT 
+        *,
           ROW_NUMBER() OVER () AS drops_original_order
-   FROM monster_drops)
-SELECT DISTINCT drops_original_order, drops_numbered_rows.monster,
+    FROM monster_drops
+),
+
+ordered_rewards AS (
+    SELECT 
+        *, 
+        ROW_NUMBER() OVER () AS id
+    FROM monster_drops
+    WHERE rank = 'HIGH' AND reward_type = 'Target Rewards'
+),
+
+ranked_rewards AS (
+    SELECT 
+        *,
+        ROW_NUMBER() OVER (
+            PARTITION BY monster, data_id 
+            ORDER BY id
+        ) AS row_num
+    FROM ordered_rewards
+),
+
+drops_with_category AS (
+    SELECT 
+        monster, 
                 reward_type,
                 data_id,
-                rank,
                 item,
-                parts_type, number, probability,
-                                    target_category
-FROM drops_numbered_rows
-LEFT JOIN
-  (SELECT monster_id,
-          monster,
-          target_category,
-          parts_type,
-          DENSE_RANK() OVER (PARTITION BY monster
-                             ORDER BY original_order, parts_type) - 1 AS part_index
-   FROM numbered_rows) AS mp ON mp.part_index = Cast(drops_numbered_rows.parts_index AS bigint)
-AND mp.monster_id = drops_numbered_rows.monster_id order by drops_original_order;`;
+        number, 
+        probability,
+        CASE 
+            WHEN row_num = 1 THEN 'Target Rewards'
+            WHEN row_num = 2 THEN 'Basic Rewards'
+            WHEN row_num = 3 THEN 'Valuable Rewards'
+            WHEN row_num = 4 THEN 'Guaranteed Rare Rewards'
+            ELSE 'Additional Rewards'
+        END AS reward_category
+    FROM ranked_rewards
+)
+
+SELECT DISTINCT 
+    i.id,
+    d.drops_original_order,
+    d.monster,
+    d.reward_type,
+    d.data_id,
+    dwtc.reward_category,
+    d.rank,
+    d.item,
+    i.description,
+    i.rarity,
+    i.icon_type as icon,
+    i.icon_colour,
+    p.part_name AS broken_part,
+    p.part_icon_type AS broken_part_icon,
+    d.number,
+    d.probability,
+    CASE WHEN p.description != '' THEN 'TRUE' END AS carvable_severed_part
+FROM 
+    drops_with_order d
+    JOIN items i ON i.name = d.item
+    LEFT JOIN indexed_parts p ON 
+        p.part_index = CAST(d.parts_index AS bigint) AND 
+        p.monster_id = d.monster_id
+    LEFT JOIN drops_with_category dwtc ON 
+        dwtc.monster = d.monster AND 
+        dwtc.probability = d.probability AND 
+        dwtc.reward_type = d.reward_type AND
+        dwtc.number = d.number AND
+        dwtc.data_id = d.data_id AND
+        dwtc.item = d.item
+Order By d.drops_original_order;`;
 
 module.exports = {
   getMonstersInfo__AllWeaknesses,
