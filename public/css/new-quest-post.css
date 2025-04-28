@@ -252,3 +252,21 @@ input[type='range'] + output {
 
   filter: drop-shadow(3px 3px 5px #bc49c0);
 }
+
+.drop-tables {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.drop-tables th,
+.drop-tables td {
+  border: 1px solid rgb(160 160 160);
+  padding: 4px 6px;
+  max-width: 10ch;
+}
+.drop-section-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  flex: 1;
+}
