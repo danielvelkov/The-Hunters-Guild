@@ -127,8 +127,9 @@ WHERE ((TYPE = 'GEM' AND name not ilike 'old%' OR add_icon_type = 'INGREDIENTS' 
        OR (TYPE = 'MATERIAL' AND dropped_by != ''))
        OR (NAME = 'Basic Material' OR NAME = 'Valuable Material');`;
 
-// TODO: this query works great, but for some of the monsters the broken parts table is incorrect or follows some other logic 
-// that I haven't figured out yet. (see Ebony Odogaron). Also For Mizutsune the parts to break straight up don't appear. 
+// TODO: this query works great, but for some of the monsters the broken parts table is incorrect or follows some other logic
+// that I haven't figured out yet. (see Ebony Odogaron). Also For Mizutsune the parts to break straight up don't appear.
+// Zoh shia broken parts is also wrong and some are even missing.
 const getMonsterDrops__NamesAndIconId = `WITH 
 numbered_parts AS (
     SELECT 
