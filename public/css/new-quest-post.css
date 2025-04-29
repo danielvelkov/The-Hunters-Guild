@@ -254,8 +254,13 @@ input[type='range'] + output {
 
 .monster-image.frenzied-outline {
   -webkit-filter: drop-shadow(1em 1em 10px #bc49c0);
-
   filter: drop-shadow(3px 3px 5px #bc49c0);
+}
+
+.dmg-effectiveness-table th,
+.dmg-effectiveness-table td {
+  padding: 2px 3px;
+  border: 1px solid rgb(160 160 160);
 }
 
 .drop-tables {
@@ -277,6 +282,5 @@ input[type='range'] + output {
 }
 
 .drop-tables .excluded-drop {
-  color: #666;
   opacity: 0.33;
 }
