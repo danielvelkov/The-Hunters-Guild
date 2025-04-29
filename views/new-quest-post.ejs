@@ -738,13 +738,12 @@
           const titleRow = $('<tr>').append(`<th colspan="100%">${rewardType}</th>`);
           const colRow = $('<tr>').addClass('header-row');
           titleRow.attr('align', 'center');
-          colRow.attr('align', 'left');
 
           if(containsBreakablePartsCol)
-            colRow.append('<th> Broken Part </th>')
+            colRow.append('<th> Part </th>')
 
-          colRow.append('<th width="70%"> Item </th>')
-          colRow.append('<th width="30%"> Chance </th>')
+          colRow.append('<th width="80%" align="left"> Item </th>')
+          colRow.append('<th width="20%" align="right"> Chance </th>')
 
           tableHeader.append(titleRow);
           tableHeader.append(colRow);
@@ -782,7 +781,7 @@
                 ${p.name}<b>${+p.number !== 1 ? ` x${p.number}` : ''}</b>
                 </div>
               </td>
-              <td>${Math.round(p.probability * 100)}%</td>
+              <td align="right">${Math.round(p.probability * 100)}%</td>
             `);
             tableBody.append(dataRow);
           })
