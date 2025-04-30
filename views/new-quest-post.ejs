@@ -563,7 +563,8 @@
                 <tbody>
                     <tr>
                       <th colspan="2" style="${getQuestCategoryStyle(questDetails.get('quest-category'))}">${questDetails.get('quest-category')}</th>
-                      <th colspan="3" align="right">${questDetails.get('quest-star-rank')}⭐</th>
+                      <th colspan="3" align="right">${questDetails.get('quest-star-rank')}${questDetails.get('quest-star-rank') > 1 ?
+                        [...new Array(+questDetails.get('quest-star-rank'))].map(star => '⭐').join('') : '⭐'}</th>
                     </tr>
                     <tr>
                       <th rowspan="2">Monsters:</th>
