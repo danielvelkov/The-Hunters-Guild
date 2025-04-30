@@ -527,7 +527,7 @@
         }
 
         let questTitle = `${questDetails.get('quest-type')} `;
-        let isHighRankQuest = questDetails.get('quest-star-rank') === 'HIGH' || +questDetails.get('quest-star-rank') > 4;
+        let isHighRankQuest = questDetails.get('quest-star-rank') === 'HIGH' || +questDetails.get('quest-star-rank') >= 4;
 
         if(selectedMonsterDetailsList.length === 1){
           const monsterName = `${monsterFormDataList[0].get('tempered') ? 'Tempered' : ''}
@@ -601,7 +601,7 @@
                             return `<div class="item-img-container bonus-item" title="${bonusItem.name}\nRarity: ${bonusItem.rarity}"
                                 data-item-id="${bonusItem.id}"
                                 style="--item-color: var(--${bonusItem.iconColor}); --item-icon:${iconPath}; ">
-                                <img height='30'  src="icons/Item Icons/${bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon }.png" on/>
+                                <img height='30'  src="icons/Item Icons/${bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon }.png" />
                                 ${(+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') || (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5 ) ?
                                 `<div class="sparkles">${[...Array(6)].map(m => `<div class="sparkle"></div>`).join('')}</div>` : ''}
                               </div>`
@@ -640,47 +640,99 @@
             ${selectedMonsterDetailsList.map((m,i) =>
               `<div id="tabs-monster-${i}">
                 <h2>${m.name}</h2>
-                <h3>Damage Effectiveness</h3>
-                <table style="width:fit-content;" class="dmg-effectiveness-table">
-                  <tbody align="center">
-                    <tr>
-                      <th align="left">Part</th>
-                      <th><img height="20" src="icons/slash.png" alt="Slash"></th>
-                      <th><img height="20" src="icons/blow.png" alt="Blow"></th>
-                      <th><img height="20" src="icons/shot.png" alt="Shot"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0000.png" title="Fire" alt="Fire"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0001.png" title="Water" alt="Water"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0002.png" title="Thunder" alt="Thunder"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0003.png" title="Ice" alt="Ice"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0004.png" title="Dragon" alt="Dragon"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0008.png" title="KO" alt="KO"></th>
-                      <th><img height="20" src="icons/Status Icons/STATUS_0047.png" title="Flash" alt="Flash"></th>
-                    </tr>
-                    ${m.part_dmg_effectiveness.map(de => {
-                      let tableRow = '<tr>';
-                      tableRow = tableRow.concat(`<td align="left"><img height="20" src="icons/Item Icons/${de.icon}.png"/> <b>${de.name}</b></td>`);
-                      de.damages.forEach(d => {
-                        let dmgColor = 'white';
-                        switch(d.type){
-                          case 'fire': dmgColor = 'red';
-                            break;
-                          case 'water': dmgColor = 'blue';
-                            break;
-                          case 'thunder': dmgColor = 'yellow';
-                            break;
-                          case 'ice': dmgColor = 'cyan';
-                            break;
-                          case 'dragon': dmgColor = 'purple';
-                            break;
+                <div style="display:flex;justify-content: space-between;flex-wrap: wrap;">
+                  <div>
+                    <h3>Damage Effectiveness</h3>
+                    <table style="width:fit-content;" class="dmg-effectiveness-table">
+                      <tbody align="center">
+                        <tr>
+                          <th align="left">Part</th>
+                          <th><img height="20" src="icons/slash.png" alt="Slash"></th>
+                          <th><img height="20" src="icons/blow.png" alt="Blow"></th>
+                          <th><img height="20" src="icons/shot.png" alt="Shot"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0000.png" title="Fire" alt="Fire"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0001.png" title="Water" alt="Water"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0002.png" title="Thunder" alt="Thunder"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0003.png" title="Ice" alt="Ice"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0004.png" title="Dragon" alt="Dragon"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0008.png" title="KO" alt="KO"></th>
+                          <th><img height="20" src="icons/Status Icons/STATUS_0047.png" title="Flash" alt="Flash"></th>
+                        </tr>
+                        ${m.part_dmg_effectiveness.map(de => {
+                          let tableRow = '<tr>';
+                          tableRow = tableRow.concat(`<td align="left"><img height="20" src="icons/Item Icons/${de.icon}.png"/> <b>${de.name}</b></td>`);
+                          de.damages.forEach(d => {
+                            let dmgColor = 'white';
+                            switch(d.type){
+                              case 'fire': dmgColor = 'red';
+                                break;
+                              case 'water': dmgColor = 'blue';
+                                break;
+                              case 'thunder': dmgColor = 'yellow';
+                                break;
+                              case 'ice': dmgColor = 'cyan';
+                                break;
+                              case 'dragon': dmgColor = 'purple';
+                                break;
+                            }
+                            tableRow = tableRow.concat(`<td style="background-color: ${getDmgColor(d.value, dmgColor)}">${d.value > 45 || ( dmgColor !== 'white' && d.value >= 20 ) ?
+                              `<b ${d.value >= 25 && dmgColor !== 'white' && dmgColor !== 'yellow' && dmgColor !== 'cyan' ? 'style="color:white"' : ''} >`+d.value+'</b>' : d.value}</td>`)
+                          });
+                          tableRow = tableRow.concat('</tr>');
+                          return tableRow;
+                        }).join('')}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div>
+                    <h3> Status Effectiveness</h3>
+                    <table class="dmg-effectiveness-table">
+                      <thead>
+                        <tr>
+                          <th>Status</th>
+                          <th>Effectiveness</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${m.status_effectiveness.map(se => {
+                          let tableRow = $('<tr>');
+                          tableRow.append(`<td align="left"><img height="20" src="icons/Status Icons/${se.icon}.png"/> <b>${se.name}</b></td>`);
+                          tableRow.append(`<td>${se.stats.value}</td>`)
+                          return tableRow.prop('outerHTML');
+                          }).join('')
                         }
-                        tableRow = tableRow.concat(`<td style="background-color: ${getDmgColor(d.value, dmgColor)}">${d.value > 45 || ( dmgColor !== 'white' && d.value >= 20 ) ?
-                           `<b ${d.value >= 25 && dmgColor !== 'white' && dmgColor !== 'yellow' && dmgColor !== 'cyan' ? 'style="color:white"' : ''} >`+d.value+'</b>' : d.value}</td>`)
-                      });
-                      tableRow = tableRow.concat('</tr>');
-                      return tableRow;
-                    }).join('')}
-                  </tbody>
-                </table>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div>
+                    <h3> Item Effectiveness</h3>
+                    <table class="dmg-effectiveness-table">
+                      <thead>
+                        <tr>
+                          <th>Item</th>
+                          <th>Effectiveness</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${m.item_effectiveness.map(ie => {
+                          let tableRow = $('<tr>');
+                          const iconPath = `url('../icons/Item Icons/${ie.icon}.png')`;
+                          tableRow.append(`<td align="left" >
+                            <div class="item-img-container"
+                                data-item-id="${ie.name}"
+                                style="--item-color: var(--${ie.iconColor}); --item-icon:${iconPath};">
+                                <img height="20" src="icons/Item Icons/${ie.icon}.png"/>
+                            </div>
+                            <b>${ie.name}</b>
+                          </td>`);
+                          tableRow.append(`<td>${ie.stats.effectiveness}</td>`)
+                          return tableRow.prop('outerHTML');
+                          }).join('')
+                        }
+                      </tbody>
+                    </table>
+                    </div>
+                </div>
 
                 <h3>Drop Rates ${isHighRankQuest ? '(High Rank)' : '(Low Rank)' }</h3>
                 ${createMonsterDropsSection(

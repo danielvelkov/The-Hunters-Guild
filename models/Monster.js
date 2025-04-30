@@ -25,6 +25,18 @@ class Monster {
    * @param {Object[]} part_dmg_effectiveness[].damages Damage type name and effectiveness value.
    * @param {string} part_dmg_effectiveness[].damages[].type Damage type name.
    * @param {string} part_dmg_effectiveness[].damages[].value Damage effectiveness.
+   * @param {Object[]} status_effectiveness Status effectiveness of the monster.
+   * @param {string} status_effectiveness[].name Status Effect name.
+   * @param {string} status_effectiveness[].icon Status Icon name.
+   * @param {Object} status_effectiveness[].stats Status related stats like buildup, duration, etc.
+   * @param {string} status_effectiveness[].stats.value Status value.
+   * @param {Object[]} item_effectiveness item effectiveness of the monster.
+   * @param {string} item_effectiveness[].name Item name.
+   * @param {string} item_effectiveness[].icon Item Icon name.
+   * @param {string} item_effectiveness[].iconColor Item Icon Color.
+   * @param {Object} item_effectiveness[].stats Item related stats like effectiveness, duration, tolerance, etc.
+   * @param {string} item_effectiveness[].stats.effectiveness item effectiveness.
+   * @param {boolean} canBeCaptured Monster can be captured
    */
   constructor(
     id,
@@ -37,7 +49,10 @@ class Monster {
     base_health,
     special_attacks,
     weaknesses,
-    part_dmg_effectiveness
+    part_dmg_effectiveness,
+    status_effectiveness,
+    item_effectiveness,
+    canBeCaptured
   ) {
     this.id = id;
     this.name = name;
@@ -50,6 +65,9 @@ class Monster {
     this.special_attacks = special_attacks;
     this.weaknesses = weaknesses;
     this.part_dmg_effectiveness = part_dmg_effectiveness;
+    this.status_effectiveness = status_effectiveness;
+    this.item_effectiveness = item_effectiveness;
+    this.canBeCaptured = canBeCaptured;
   }
 }
 

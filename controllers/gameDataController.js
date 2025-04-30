@@ -58,7 +58,10 @@ const monsters__weakness_and_icons_ListGet = async () => {
       getPartDamageEffectivenessForMonster(
         row.em_id,
         monstersPartDmgEffectivenessRows
-      )
+      ),
+      groupStatusEffectiveness(row, monstersWeaknessAndIconMap),
+      groupItemEffectiveness(row),
+      row.capture
     );
     monsters.push(monster);
   });
@@ -152,6 +155,79 @@ function groupWeaknesses(weaknesses, weaknessesIconsMap) {
             .map((w) => ({ name: w, icon: weaknessesIconsMap[w] }))
         : [],
     };
+}
+
+function groupStatusEffectiveness(row, weaknessesIconsMap) {
+  // Define status effects configuration
+  const statusEffects = [
+    { name: 'Poison', rowKey: 'poison', iconKey: 'POISON' },
+    { name: 'Paralysis', rowKey: 'paralysis', iconKey: 'PARALYSIS' },
+    { name: 'Sleep', rowKey: 'sleep', iconKey: 'SLEEP' },
+    { name: 'Blast', rowKey: 'blast', iconKey: 'BLAST' },
+    { name: 'KO', rowKey: 'ko', iconKey: 'KO' },
+    { name: 'Exhaust', rowKey: 'exhaust', iconKey: 'STAMINA' },
+  ];
+
+  // Map the configuration to the desired output format
+  return statusEffects.map((effect) => ({
+    name: effect.name,
+    icon: weaknessesIconsMap[effect.iconKey] ?? '',
+    stats: {
+      value: row[effect.rowKey],
+    },
+  }));
+}
+
+function groupItemEffectiveness(row) {
+  // Define item effects configuration
+  const itemEffects = [
+    {
+      name: 'Sonic Pod',
+      rowKey: 'sonic',
+      icon: 'ITEM_0061',
+      iconColor: 'I_GRAY',
+    },
+    {
+      name: 'Flash Pod',
+      rowKey: 'flash',
+      icon: 'ITEM_0061',
+      iconColor: 'I_LEMON',
+    },
+    {
+      name: 'Luring Pod',
+      rowKey: 'lure_pod',
+      icon: 'ITEM_0061',
+      iconColor: 'I_ROSE',
+    },
+    {
+      name: 'Shock Trap',
+      rowKey: 'shock_trap',
+      icon: 'ITEM_0018',
+      iconColor: 'I_LEMON',
+    },
+    {
+      name: 'Pitfall Trap',
+      rowKey: 'pitfall_trap',
+      icon: 'ITEM_0018',
+      iconColor: 'I_GREEN',
+    },
+    {
+      name: 'Vine Trap',
+      rowKey: 'ivy_trap',
+      icon: 'ITEM_0018',
+      iconColor: 'I_MOS',
+    },
+  ];
+
+  // Map the configuration to the desired output format
+  return itemEffects.map((effect) => ({
+    name: effect.name,
+    icon: effect.icon,
+    iconColor: effect.iconColor,
+    stats: {
+      effectiveness: row[effect.rowKey],
+    },
+  }));
 }
 
 function getPartDamageEffectivenessForMonster(

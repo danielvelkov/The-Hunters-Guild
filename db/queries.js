@@ -43,10 +43,26 @@ const getMonsters__AllWeaknesses = `WITH monsters AS
           CLASS,
           base_health,
           special_attacks,
-          weakness
+          weakness,
+          exhaust,
+          blast,
+          poison,
+          sleep,
+          paralysis,
+          ko,
+          sonic,
+          flash,
+          capture,
+          shock_trap,
+          pitfall_trap,
+          ivy_trap,
+          lure_pod
    FROM monsters m
+   JOIN monster_ailment_resistances ON m.name = monster_ailment_resistances.monster
+   OR m.name like monster_ailment_resistances.monster || CHR(10) || '%'
    JOIN enemydata e ON e.em_id = m.em_id)
-SELECT DISTINCT em_id, monsters.name,
+SELECT DISTINCT em_id,
+                monsters.name,
                 large_monster_icon_id,
                 frenzied,
                 tempered,
@@ -54,8 +70,22 @@ SELECT DISTINCT em_id, monsters.name,
                 locale,
                 base_health,
                 special_attacks,
+                exhaust,
+                blast,
+                poison,
+                sleep,
+                paralysis,
+                ko,
+                sonic,
+                flash,
+                capture,
+                shock_trap,
+                pitfall_trap,
+                ivy_trap,
+                lure_pod,
                 concat(weakness, coalesce('; ' || NULLIF(
-                                                           (SELECT string_agg(upper(KEY), ', ') from
+                                                           (SELECT string_agg(upper(KEY), ', ')
+                                                            FROM
                                                               (SELECT (jsonb_each_text).key AS KEY, (jsonb_each_text).value AS value
                                                                FROM
                                                                  (SELECT jsonb_each_text(to_jsonb(mar.*))
