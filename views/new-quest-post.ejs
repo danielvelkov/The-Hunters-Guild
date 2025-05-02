@@ -618,6 +618,14 @@
                     <tr>
                       <th>HR req:</th>
                       <td >${questDetails.get('hunter-rank-requirement')}+</td>
+                      <td rowspan="3">
+                        ${selectedMonsterDetailsList.map(m => m.special_attacks.map(sa => sa.skill_counters).flat()
+                        ).flat().map(s => {
+                          const skillDiv = $('<div>').addClass('flex-row');
+                            skillDiv.append(`<img src="icons/Skill Icons/${s.icon}.png" height="23" alt="Skill_Icon"/> <span>${s.name}</span>`)
+                          return skillDiv.prop('outerHTML');
+                        }).filter((v, i, arr) => arr.indexOf(v) === i).join('')}
+                      </td>
                     </tr>
                     <tr>
                       <th>Area:</th>

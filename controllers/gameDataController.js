@@ -1,7 +1,7 @@
 const {
   getMonstersInfo__AllWeaknesses,
   getStatusIcons__NamesAndIconId,
-  getMonsterSpecialAttacks__NamesAndDescription,
+  getMonsterSpecialAttacks__NamesAndCounterSkills,
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
   getBonusQuestRewardsList,
   getMonsterDropsList,
@@ -9,6 +9,7 @@ const {
 const Item = require('../models/Item');
 const Monster = require('../models/Monster');
 const MonsterDrop = require('../models/MonsterDrop');
+const Skill = require('../models/Skill');
 
 /**
  * Retrieves a list containing base details for each monster with
@@ -20,11 +21,10 @@ const monsters__weakness_and_icons_ListGet = async () => {
   const monstersRows = await getMonstersInfo__AllWeaknesses();
 
   const monstersSpecialAttacksRows =
-    await getMonsterSpecialAttacks__NamesAndDescription();
-  const monstersSpecialAttacksAndDescriptionsMap = {};
-
-  for (let row of monstersSpecialAttacksRows)
-    monstersSpecialAttacksAndDescriptionsMap[row.name] = row.description;
+    await getMonsterSpecialAttacks__NamesAndCounterSkills();
+  const monstersSpecialAttacksAndCountersList = mapAttacksToAttacksAndCounters(
+    Object.groupBy(monstersSpecialAttacksRows, ({ attack }) => attack)
+  );
 
   const statusIconsRows = await getStatusIcons__NamesAndIconId();
   const monstersWeaknessAndIconMap = {};
@@ -51,7 +51,12 @@ const monsters__weakness_and_icons_ListGet = async () => {
       row.special_attacks
         ? row.special_attacks.split(', ').map((sa) => ({
             name: sa,
-            description: monstersSpecialAttacksAndDescriptionsMap[sa],
+            description: monstersSpecialAttacksAndCountersList.find(
+              (a) => a.attackName === sa
+            )?.attackDescription,
+            skill_counters: monstersSpecialAttacksAndCountersList.find(
+              (a) => a.attackName === sa
+            )?.skill_counters,
           }))
         : [],
       groupWeaknesses(row.all_weaknesses, monstersWeaknessAndIconMap),
@@ -258,5 +263,52 @@ function getPartDamageEffectivenessForMonster(
     part.damages = damagesArr;
     result.push(part);
   });
+  return result;
+}
+
+/**
+ * Maps the attack data into a simplified format
+ */
+function mapAttacksToAttacksAndCounters(attacksData) {
+  const result = [];
+
+  // Iterate through each attack type in the data
+  for (const attackName in attacksData) {
+    const attackEntries = attacksData[attackName];
+
+    // Create the attack object with empty skill_counters array
+    const attackObject = {
+      attackName: attackName,
+      attackDescription: attackEntries[0].description, // Use description from the first entry
+      skill_counters: [],
+    };
+
+    // Process each skill counter for this attack
+    attackEntries.forEach((entry) => {
+      // Create level descriptions array from non-empty descriptions
+      const levelDescriptions = [];
+      for (let i = 1; i <= parseInt(entry.max_level); i++) {
+        const descKey = `description_${i}`;
+        if (entry[descKey]) {
+          levelDescriptions.push(entry[descKey]);
+        }
+      }
+
+      // Add the skill counter to the attack object
+      attackObject.skill_counters.push(
+        new Skill(
+          entry.skill_id,
+          entry.skill,
+          entry.icon,
+          entry.skill_description,
+          entry.category,
+          +entry.max_level,
+          levelDescriptions
+        )
+      );
+    });
+
+    result.push(attackObject);
+  }
   return result;
 }
