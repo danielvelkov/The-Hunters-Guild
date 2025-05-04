@@ -913,6 +913,17 @@
       }
 
       // Monster Drops functions
+
+      // DEBUG select the monster
+      $('#add-monster-button').trigger('click');
+      $('#monster-select-0').val('EM0001_00_0').trigger({
+        type: 'select2:select',
+        params: {
+            data: {
+              id: 'EM0001_00_0'
+            }
+        }
+      });
     });
 
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
