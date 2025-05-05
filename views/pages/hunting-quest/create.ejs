@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../../partials/header', { title: 'Create Hunting Quest' }) %>
+  <body>
+    <h1><%= title %></h1>
+    <main>
+      <%- include('../../components/hunting-quest/monster-form') %>
+
+      <div class="flex-row">
+        <%- include('../../components/hunting-quest/quest-details-form') %>
+        <section id="quest-preview"></section>
+      </div>
+    </main>
+    <%- include('../../partials/footer') %>
+
+    <!-- Include JavaScript files -->
+    <script>
+      // Pass server data to client scripts
+      const monstersList = <%- JSON.stringify(monsters) -%>;
+      const bonusQuestRewardsList = <%- JSON.stringify(bonusQuestRewards) -%>;
+      const monstersDropsList = <%- JSON.stringify(monstersDrops) -%>;
+
+      window.monstersList = monstersList;
+      window.bonusQuestRewardsList = bonusQuestRewardsList;
+      window.monstersDropsList = monstersDropsList;
+    </script>
+    <script src="/js/common.js"></script>
+    <script src="/js/hunting-quest/create.js"></script>
+    <script src="/js/hunting-quest/monster-form.js"></script>
+    <script src="/js/hunting-quest/quest-details.js"></script>
+    <script src="/js/hunting-quest/preview.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+// Utility functions shared across modules
+
+function createObservableArray(arr, callback) {
+  return new Proxy(arr, {
+    set(target, property, value) {
+      target[property] = value; 
+      callback(target); // Trigger callback on modification
+      return true;
+    },
+    deleteProperty(target, property) {
+      delete target[property]; 
+      callback(target);
+      return true;
+    }
+  });
+}
+
+// Get color for damage values
+function getDmgColor(value, baseColor) {
+  // Ensure value stays within range
+  let intensity = Math.min(Math.max(value, 0), 35);
+
+  // Define RGB values for base colors
+  const colors = {
+    red: [255, 255 - intensity * 5, 255 - intensity * 5],
+    yellow: [255, 255, 255 - intensity * 7],
+    blue: [255 - intensity * 10, 255 - intensity * 5, 255],
+    purple: [255 - intensity * 5, 255 - intensity * 5, 255],
+    cyan: [255 - intensity * 9, 255, 255]
+  };
+
+  // Get the RGB values based on baseColor
+  let color = colors[baseColor.toLowerCase()] || [255, 255, 255]; // Default to white if invalid baseColor
+
+  return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+}
+
+// Get style for quest category
+function getQuestCategoryStyle(category) {
+  switch (category) {
+    case 'Assignment': return 'background-color: #a61713; color: white;'
+    case 'Optional': return 'background-color: #6c808b; color: white;'
+    case 'Event': return 'background-color: #d3b24b; color: black;'
+    case 'Field Survey': return 'background-color: #9ea557; color: black;'
+    case 'Saved Investigation': return 'background-color: #7db065; color: black;'
+    case 'Arena Quest':
+    case 'Free Challenge Quest':
+    case 'Challenge Quest': return 'background-color: #4c4771; color: white;'
+    default: return ''
+  }
+}

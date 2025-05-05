@@ -30,7 +30,7 @@ nodemon({
 browserSync.init({
   proxy: `http://localhost:${PORT}`,
   port: BROWSER_SYNC_PORT,
-  files: ['public/**/*.css', 'views/**/*.ejs'],
+  files: ['public/**/*.css', 'public/**/*.js', 'views/**/*.ejs'],
   notify: true,
   open: false, // Set to true if you want the browser to open automatically
 });

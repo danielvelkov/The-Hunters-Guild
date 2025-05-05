@@ -1,0 +1,71 @@
+<fieldset id="monster-forms">
+  <legend>Monsters</legend>
+  <button id="add-monster-button">+ Add Monster</button>
+</fieldset>
+
+<!-- Template for monster form that will be cloned by JavaScript -->
+<template id="monster-form-template">
+  <form autocomplete="off" class="monster-form">
+    <label for="monster-select">Large Monsters: </label>
+    <select
+      class="form-control monster-select"
+      name="monster"
+      id="monster-select"
+      style="width: 300px"
+    >
+      <option></option>
+      <% if (monsters) { %> <% monsters.forEach((monster) => { %>
+      <option
+        value="<%= monster.id %>"
+        data-elements="<%= monster.weaknesses.elements.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+        data-ailments="<%= monster.weaknesses.ailments.map((ew) => `${ew.name},${ew.icon}`).join('|') %>"
+        data-monster-icon="<%= monster.icon %>"
+      >
+        <%= monster.name %>
+      </option>
+      <% }) %> <% } %>
+    </select>
+  </form>
+</template>
+
+<template id="monster-details-template">
+  <!-- Monster details fieldset - will be shown when a monster is selected -->
+  <fieldset class="monster-details">
+    <legend>Monster Details</legend>
+    <label for="monster-frenzied" class="monster-frenzied-label">
+      Frenzied?
+      <input type="checkbox" name="frenzied" class="monster-frenzied" />
+    </label>
+    <label for="monster-tempered" class="monster-tempered-label">
+      Tempered?
+      <input type="checkbox" name="tempered" class="monster-tempered" />
+    </label>
+    <label for="monster-arch-tempered" class="monster-arch-tempered-label">
+      Arch-tempered?
+      <input
+        type="checkbox"
+        name="arch-tempered"
+        class="monster-arch-tempered"
+      />
+    </label>
+
+    <label for="monster-strength">Monster Strength 💪</label>
+    <select class="monster-strength" name="monster-strength">
+      <option value="1">✨</option>
+      <option value="2">✨✨</option>
+      <option value="3" selected="selected">✨✨✨</option>
+      <option value="4">✨✨✨✨</option>
+      <option value="5">✨✨✨✨✨</option>
+    </select>
+
+    <label for="monster-crown" class="monster-crown-label"
+      >Monster Crown 👑</label
+    >
+    <select class="monster-crown" name="monster-crown">
+      <option value="Base" selected="selected">Base</option>
+      <option value="Mini">Mini</option>
+      <option value="Silver">Silver</option>
+      <option value="Gold">Gold</option>
+    </select>
+  </fieldset>
+</template>
