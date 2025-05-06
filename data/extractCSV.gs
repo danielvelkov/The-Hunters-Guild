@@ -266,6 +266,7 @@ function downloadAllSheetsCSV() {
     'Melee Weapons', // huge one, weapon id, name, weapon tree, price, type, rarity, attack, raw attack, affinity, element, element attack, defence, slot size (for 1,2,3), weapon specific stuff like shelling, notes etc
     'Ranged Weapons', // same as melee but for ranged
     'Sharpness', // for raw dmg multiplier to calculate actual damage for a given sharpness
+    'Weapon Attributes', // for type of weapon Attributes 
 
     // Weapon recipes
     'Great Sword Recipes',
