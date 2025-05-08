@@ -14,20 +14,19 @@
     <%- include('../../partials/footer') %>
 
     <!-- Include JavaScript files -->
-    <script>
-      // Pass server data to client scripts
+    <script type="module" src="/js/hunting-quest/create.js"></script>
+    <script type="module">
+      import {initiateCreatePageServerVariables} from '/js/hunting-quest/create.js'
       const monstersList = <%- JSON.stringify(monsters) -%>;
       const bonusQuestRewardsList = <%- JSON.stringify(bonusQuestRewards) -%>;
       const monstersDropsList = <%- JSON.stringify(monstersDrops) -%>;
 
-      window.monstersList = monstersList;
-      window.bonusQuestRewardsList = bonusQuestRewardsList;
-      window.monstersDropsList = monstersDropsList;
+      // Pass server data to client scripts
+      initiateCreatePageServerVariables(monstersList, bonusQuestRewardsList, monstersDropsList)
     </script>
     <script src="/js/common.js"></script>
-    <script src="/js/hunting-quest/create.js"></script>
-    <script src="/js/hunting-quest/monster-form.js"></script>
-    <script src="/js/hunting-quest/quest-details.js"></script>
-    <script src="/js/hunting-quest/preview.js"></script>
+    <script type="module" src="/js/hunting-quest/monster-form.js"></script>
+    <script type="module" src="/js/hunting-quest/quest-details.js"></script>
+    <script type="module" src="/js/hunting-quest/preview.js"></script>
   </body>
 </html>

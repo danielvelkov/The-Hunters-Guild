@@ -1,5 +1,7 @@
-function createMonsterDataForm() {
-  const formId = window.monstersForms.length;
+import { monstersForms, selectedMonsters, monstersList } from './create.js';
+
+export function createMonsterDataForm() {
+  const formId = monstersForms.length;
 
   // Clone the template
   const monsterFormTemplate = document.getElementById('monster-form-template');
@@ -25,7 +27,7 @@ function createMonsterDataForm() {
   // Event handling for form changes
   monsterForm.on('change', () => $('#quest-preview').trigger('preview:update'));
 
-  window.monstersForms.push(monsterForm);
+  monstersForms.push(monsterForm);
   return monsterForm;
 }
 
@@ -43,8 +45,8 @@ function initializeMonsterSelect(
   // Clear handler
   monsterSelect.on('select2:clear', () => {
     monsterSelect.closest('form').find('.monster-details').detach();
-    delete window.selectedMonsters[formId];
-    if (!window.selectedMonsters.some((m) => m)) {
+    delete selectedMonsters[formId];
+    if (!selectedMonsters.some((m) => m)) {
       $('#quest-post-form').hide();
     }
   });
@@ -65,7 +67,7 @@ function initializeMonsterSelect(
     const monsterDetails = monsterDetailsTemplate.clone().appendTo(monsterForm);
 
     // Update selected monsters
-    window.selectedMonsters[formId] = monster;
+    selectedMonsters[formId] = monster;
 
     // Configure monster variant options
     configureMonsterVariants(monsterDetails, monster);

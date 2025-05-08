@@ -1,55 +1,65 @@
-$(document).ready(function () {
-  // Global variables for the create page
-  const monstersForms = [];
-  let selectedMonsters = createObservableArray(
-    [],
-    selectedMonstersChangeHandler
-  );
+import { selectedMonstersChangeHandler } from './quest-details.js';
+import { createMonsterDataForm } from './monster-form.js';
 
-  // Add monster button handler
-  $('#add-monster-button').click((e) => {
-    if (monstersForms.length === 2) return;
-    $('#monster-forms').append(() => createMonsterDataForm());
-  });
+export function initiateCreatePageServerVariables(
+  monsters,
+  bonusQuestRewards,
+  monstersDrops
+) {
+  monstersList = monsters;
+  bonusQuestRewardsList = bonusQuestRewards;
+  monstersDropsList = monstersDrops;
+}
 
-  // Form submission handler
-  $('#quest-post-form').on('submit', (e) => {
-    e.preventDefault();
-    selectedMonsters.forEach((m, index) => {
-      console.log('Selected Monster data:');
-      console.log(m);
-      console.log('Monster Details Form data:');
-      console.log(new FormData(monstersForms[index][0]));
-    });
-    console.log('Quest Details form data:');
-    console.log(new FormData(e.target));
-    // TODO - create hunting quest post in db
-  });
+// Global variables for the create page
+export let monstersList = [];
+export let bonusQuestRewardsList = [];
+export let monstersDropsList = [];
+export const monstersForms = [];
+export const selectedMonsters = createObservableArray(
+  [],
+  selectedMonstersChangeHandler
+);
 
-  // Update preview when any form changes
-  $('#quest-post-form').on('change', () =>
-    $('#quest-preview').trigger('preview:update')
-  );
-
-  // Make variables available globally
-  window.monstersForms = monstersForms;
-  window.selectedMonsters = selectedMonsters;
-
-  // Add a monster form when the page loads
-  $('#add-monster-button').trigger('click');
-
-  // Initialize the first monster for debugging
-  // Can be removed in production
-  setTimeout(() => {
-    $('#monster-select-0')
-      .val('EM0001_00_0')
-      .trigger({
-        type: 'select2:select',
-        params: {
-          data: {
-            id: 'EM0001_00_0',
-          },
-        },
-      });
-  }, 100);
+// Add monster button handler
+$('#add-monster-button').click((e) => {
+  if (monstersForms.length === 2) return;
+  $('#monster-forms').append(() => createMonsterDataForm());
 });
+
+// Form submission handler
+$('#quest-post-form').on('submit', (e) => {
+  e.preventDefault();
+  selectedMonsters.forEach((m, index) => {
+    console.log('Selected Monster data:');
+    console.log(m);
+    console.log('Monster Details Form data:');
+    console.log(new FormData(monstersForms[index][0]));
+  });
+  console.log('Quest Details form data:');
+  console.log(new FormData(e.target));
+  // TODO - create hunting quest post in db
+});
+
+// Update preview when any form changes
+$('#quest-post-form').on('change', () =>
+  $('#quest-preview').trigger('preview:update')
+);
+
+// Add a monster form when the page loads
+$('#add-monster-button').trigger('click');
+
+// Initialize the first monster for debugging
+// Can be removed in production
+setTimeout(() => {
+  $('#monster-select-0')
+    .val('EM0001_00_0')
+    .trigger({
+      type: 'select2:select',
+      params: {
+        data: {
+          id: 'EM0001_00_0',
+        },
+      },
+    });
+}, 100);
