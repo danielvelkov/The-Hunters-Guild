@@ -14,6 +14,7 @@
     <%- include('../../partials/footer') %>
 
     <!-- Include JavaScript files -->
+    <script type="module" src="/js/common.js"></script>
     <script type="module" src="/js/hunting-quest/create.js"></script>
     <script type="module">
       import {initiateCreatePageServerVariables} from '/js/hunting-quest/create.js'
@@ -24,7 +25,6 @@
       // Pass server data to client scripts
       initiateCreatePageServerVariables(monstersList, bonusQuestRewardsList, monstersDropsList)
     </script>
-    <script src="/js/common.js"></script>
     <script type="module" src="/js/hunting-quest/monster-form.js"></script>
     <script type="module" src="/js/hunting-quest/quest-details.js"></script>
     <script type="module" src="/js/hunting-quest/preview.js"></script>
