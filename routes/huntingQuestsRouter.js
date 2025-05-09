@@ -14,6 +14,7 @@ huntingQuestsRouter.get('/create', async (req, res) => {
     await gameDataController.bonus_quest_rewards__ListGet();
   const monstersDrops = await gameDataController.monsters_drops__ListGet();
   const skills = await gameDataController.skills_ListGet();
+  const weaponTypes = await gameDataController.weapon_types_ListGet();
   const weaponAttributes = await gameDataController.weapon_attributes_ListGet();
 
   res.render('pages/hunting-quest/create', {
@@ -22,6 +23,7 @@ huntingQuestsRouter.get('/create', async (req, res) => {
     bonusQuestRewards,
     monstersDrops,
     skills,
+    weaponTypes,
     weaponAttributes,
   });
 });

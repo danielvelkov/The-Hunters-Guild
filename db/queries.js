@@ -18,6 +18,7 @@ const queries = {
     'spec_att_counters.sql'
   ),
   getSkills: loadSqlFile('skills.sql'),
+  getWeaponTypes: 'SELECT index as id, name FROM weapon_types;',
   getWeaponAttributes: `SELECT index AS id, weapon_attributes.id AS name, status_icons.id AS icon
      FROM weapon_attributes JOIN status_icons on status_icons.name ILIKE weapon_attributes.id ;`,
 };
@@ -62,6 +63,12 @@ module.exports = {
     const { rows } = await pool.query(queries.getSkills);
     return rows;
   },
+
+  async getWeaponTypes() {
+    const { rows } = await pool.query(queries.getWeaponTypes);
+    return rows;
+  },
+
   async getWeaponAttributes() {
     const { rows } = await pool.query(queries.getWeaponAttributes);
     return rows;

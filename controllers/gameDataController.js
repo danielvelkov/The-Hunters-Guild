@@ -5,6 +5,7 @@ const {
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
   getBonusQuestRewardsList,
   getMonsterDropsList,
+  getWeaponTypes,
   getWeaponAttributes,
   getSkills,
 } = require('../db/queries');
@@ -13,6 +14,7 @@ const Monster = require('../models/Monster');
 const MonsterDrop = require('../models/MonsterDrop');
 const Skill = require('../models/Skill');
 const WeaponAttribute = require('../models/WeaponAttribute');
+const WeaponType = require('../models/WeaponType');
 
 /**
  * Retrieves a list containing base details for each monster with
@@ -132,6 +134,13 @@ const monsters_drops__ListGet = async () => {
   return monstersDrops;
 };
 
+const weapon_types_ListGet = async () => {
+  const weaponTypes = [];
+  const typesRows = await getWeaponTypes();
+  typesRows.forEach((i) => weaponTypes.push(new WeaponType(i.id, i.name)));
+  return weaponTypes;
+};
+
 const weapon_attributes_ListGet = async () => {
   const weaponAttributes = [];
   const typesRows = await getWeaponAttributes();
@@ -165,6 +174,7 @@ module.exports = {
   monsters__weakness_and_icons_ListGet,
   bonus_quest_rewards__ListGet,
   monsters_drops__ListGet,
+  weapon_types_ListGet,
   weapon_attributes_ListGet,
   skills_ListGet,
 };
