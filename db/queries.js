@@ -17,6 +17,7 @@ const queries = {
   getMonsterSpecialAttacksAndCounterSkills: loadSqlFile(
     'spec_att_counters.sql'
   ),
+  getSkills: loadSqlFile('skills.sql'),
 };
 
 // Create and export database functions
@@ -52,6 +53,11 @@ module.exports = {
 
   async getMonsterDropsList() {
     const { rows } = await pool.query(queries.getMonsterDropsList);
+    return rows;
+  },
+
+  async getSkills() {
+    const { rows } = await pool.query(queries.getSkills);
     return rows;
   },
 };

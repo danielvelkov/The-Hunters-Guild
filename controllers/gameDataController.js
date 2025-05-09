@@ -5,6 +5,7 @@ const {
   getMonstersPartsDamageEffectiveness__NamesAndIconId,
   getBonusQuestRewardsList,
   getMonsterDropsList,
+  getSkills,
 } = require('../db/queries');
 const Item = require('../models/Item');
 const Monster = require('../models/Monster');
@@ -128,11 +129,31 @@ const monsters_drops__ListGet = async () => {
   );
   return monstersDrops;
 };
+const skills_ListGet = async () => {
+  const skills = [];
+  const skillsRows = await getSkills();
+  skillsRows.forEach((i) =>
+    skills.push(
+      new Skill(
+        i.id,
+        i.name,
+        i.icon_id,
+        i.description,
+        i.category,
+        i.max_level,
+        i.set_count,
+        getSkillsDescriptionsArr(i)
+      )
+    )
+  );
+  return skills;
+};
 
 module.exports = {
   monsters__weakness_and_icons_ListGet,
   bonus_quest_rewards__ListGet,
   monsters_drops__ListGet,
+  skills_ListGet,
 };
 
 function groupWeaknesses(weaknesses, weaknessesIconsMap) {
@@ -311,4 +332,12 @@ function mapAttacksToAttacksAndCounters(attacksData) {
     result.push(attackObject);
   }
   return result;
+}
+
+function getSkillsDescriptionsArr(row) {
+  const skillDescriptions = [];
+  for (let i = 1; i < 8; i++)
+    if (row[`description_${i}`] != '')
+      skillDescriptions.push(row[`description_${i}`]);
+  return skillDescriptions;
 }

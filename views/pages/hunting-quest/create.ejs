@@ -21,9 +21,15 @@
       const monstersList = <%- JSON.stringify(monsters) -%>;
       const bonusQuestRewardsList = <%- JSON.stringify(bonusQuestRewards) -%>;
       const monstersDropsList = <%- JSON.stringify(monstersDrops) -%>;
+      const skillsList = <%- JSON.stringify(skills) -%>;
 
       // Pass server data to client scripts
-      initiateCreatePageServerVariables(monstersList, bonusQuestRewardsList, monstersDropsList)
+      initiateCreatePageServerVariables(
+        monstersList,
+        bonusQuestRewardsList,
+        monstersDropsList,
+        skillsList,
+      );
     </script>
     <script type="module" src="/js/hunting-quest/monster-form.js"></script>
     <script type="module" src="/js/hunting-quest/quest-details.js"></script>

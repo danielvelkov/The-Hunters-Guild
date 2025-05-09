@@ -5,7 +5,8 @@ import { createMonsterDataForm } from './monster-form.js';
 export function initiateCreatePageServerVariables(
   monsters,
   bonusQuestRewards,
-  monstersDrops
+  monstersDrops,
+  skills,
 ) {
   monstersList = monsters;
   bonusQuestRewardsList = bonusQuestRewards;
@@ -16,6 +17,7 @@ export function initiateCreatePageServerVariables(
 export let monstersList = [];
 export let bonusQuestRewardsList = [];
 export let monstersDropsList = [];
+export let skillsList = [];
 export const monstersForms = [];
 export const selectedMonsters = createObservableArray(
   [],
