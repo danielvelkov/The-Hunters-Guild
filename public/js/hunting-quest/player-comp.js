@@ -105,6 +105,9 @@ class PlayerComp {
 
     tabs.tabs();
     initializeWeaponTypeSelect(tabs.find('select[name="weapon-types[]"]'));
+    initializeWeaponAttributeSelect(
+      tabs.find('select[name="weapon-attributes[]"]')
+    );
   }
 }
 
@@ -139,6 +142,44 @@ function formatWeaponTypeOption(item) {
             : ''
         }
         <b>${item.text}</b>
+      </span>
+    </span>`);
+}
+
+function initializeWeaponAttributeSelect(weaponAttributeSelect) {
+  weaponAttributeSelect.select2({
+    placeholder: '-- Choose an attribute --',
+    allowClear: true,
+    templateResult: formatWeaponAttributeOption,
+  });
+
+  // Clear handler
+  weaponAttributeSelect.on('select2:clear', () => {
+    // Update player slot
+  });
+
+  // Select handler
+  weaponAttributeSelect.on('select2:select', function (e) {
+    const data = e.params.data;
+    if (!data.id) {
+      return;
+    }
+    // Update player slot
+  });
+}
+
+function formatWeaponAttributeOption(item) {
+  return $(`<span class='monster-select-content'>
+      <span class='monster-select-name'>
+        ${
+          item.element?.dataset.attrIcon
+            ? `<img height='18' src="icons/Status Icons/${item.element?.dataset.attrIcon}.png"/>`
+            : ''
+        }
+        <b>${
+          item.text.trim().charAt(0).toUpperCase() +
+          item.text.trim().substring(1).toLowerCase()
+        }</b>
       </span>
     </span>`);
 }

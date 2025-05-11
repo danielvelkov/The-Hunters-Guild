@@ -80,6 +80,24 @@
           </option>
           <% }) %> <% } %>
         </select>
+
+        <label for="weapon-attributes">Weapon attribute:</label>
+        <select
+          id="weapon-attributes"
+          name="weapon-attributes[]"
+          multiple="multiple"
+        >
+          <option value="ANY">-- Any --</option>
+          <% if (weaponAttributes) { %> <% weaponAttributes.forEach((attribute)=> { %>
+          <option
+            data-attr-icon="<%= attribute.icon %>"
+            value="<%= attribute.id %>"
+          >
+            <%= attribute.name %>
+          </option>
+          <% }) %> <% } %>
+        </select>
+
       </form>
     </div>
   </div>
