@@ -81,9 +81,7 @@ class PlayerComp {
         this.removeSlot(slot);
       });
 
-    const title = $('<span>')
-      .text(slot.displayName)
-      .css('margin-left', '1em');
+    const title = $('<span>').text(slot.displayName).css('margin-left', '1em');
 
     const headerElement = $('<div>')
       .css('display', 'flex')
@@ -102,10 +100,47 @@ class PlayerComp {
     this.configureSlot.find('legend').text('Configure ' + slot.displayName);
 
     const tabs = this.playerConfigFormTabs.clone(true, true);
+
     this.configureSlot.append(tabs);
 
     tabs.tabs();
+    initializeWeaponTypeSelect(tabs.find('select[name="weapon-types[]"]'));
   }
+}
+
+function initializeWeaponTypeSelect(weaponTypeSelect) {
+  weaponTypeSelect.select2({
+    placeholder: '-- Choose a weapon--',
+    allowClear: true,
+    templateResult: formatWeaponTypeOption,
+  });
+
+  // Clear handler
+  weaponTypeSelect.on('select2:clear', () => {
+    // Update player slot
+  });
+
+  // Select handler
+  weaponTypeSelect.on('select2:select', function (e) {
+    const data = e.params.data;
+    if (!data.id) {
+      return;
+    }
+    // Update player slot
+  });
+}
+
+function formatWeaponTypeOption(item) {
+  return $(`<span class='monster-select-content'>
+      <span class='monster-select-name'>
+        ${
+          item.element?.dataset.weaponIcon
+            ? `<img height='18' src="icons/Weapon Types/${item.element?.dataset.weaponIcon}.png"/>`
+            : ''
+        }
+        <b>${item.text}</b>
+      </span>
+    </span>`);
 }
 
 class Slot {
