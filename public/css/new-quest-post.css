@@ -284,3 +284,60 @@ input[type='range'] + output {
 .drop-tables .excluded-drop {
   opacity: 0.33;
 }
+
+/* Player Composition */
+
+#player-comp {
+  flex: 1;
+  background-color: #f7f7f8;
+}
+
+.player-slot {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-sizing: border-box; /* Avoid spacing issues */
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em 0em;
+  border: #a7a3a3 solid 3px;
+}
+
+.open-slot {
+  border-style: dotted;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  align-items: center;
+  padding: 1em;
+}
+
+.add-slot button {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid darkgray;
+}
+
+.player-slots-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 0.5em;
+  padding: 0;
+}
+
+.remove-button {
+  height: fit-content;
+  background-color: rgb(202, 78, 78);
+  color: white;
+}
+
+.pill-button {
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+}
