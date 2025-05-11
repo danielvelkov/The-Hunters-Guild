@@ -1,0 +1,63 @@
+<template id="player-configure-form-template">
+  <div class="config-tabs">
+    <ul>
+      <li><a href="#tabs-loadouts">Loadouts</a></li>
+      <li><a href="#tabs-advanced">Advanced</a></li>
+    </ul>
+    <div
+      id="tabs-loadouts"
+      style="display: flex; flex-direction: column; gap: 0.5em"
+    >
+      <h2 style="margin: 0.5em 0em">Select Loadout</h2>
+      <div class="search-bar flex-row">
+        <input
+          type="text"
+          placeholder=" Search..."
+          style="border-radius: 1em; height: 2em; width: 100%"
+        />
+      </div>
+
+      <div class="flex-row" style="flex-wrap: wrap">
+        <button
+          class="pill-button"
+          style="background-color: #d84d4d; color: white"
+        >
+          DPS
+        </button>
+        <button
+          class="pill-button"
+          style="background-color: #3f8fcc; color: white"
+        >
+          Tank
+        </button>
+        <button
+          class="pill-button"
+          style="background-color: #e439bf; color: white"
+        >
+          Status
+        </button>
+        <button
+          class="pill-button"
+          style="background-color: #3dc471; color: white"
+        >
+          Support
+        </button>
+      </div>
+
+      <ul class="loadouts-list">
+        <!-- ... loadouts loaded here -->
+      </ul>
+    </div>
+    <div id="tabs-advanced">
+      <form>
+        <!-- ... slot fields, loadout config. Auto updated on change -->
+        <label for="weapon-types">Weapon type:</label>
+        <select id="weapon-types" name="weapon-types">
+          <% if (weaponTypes) { %> <% weaponTypes.forEach((type) => { %>
+          <option value="<%= type.id %>"><%= type.name %></option>
+          <% }) %> <% } %>
+        </select>
+      </form>
+    </div>
+  </div>
+</template>

@@ -7,6 +7,11 @@
       <%- include('../../components/hunting-quest/monster-form') %>
 
       <div class="flex-row">
+        <%- include('../../components/hunting-quest/player-comp',
+        {weaponAttributes, weaponTypes, skills}) %>
+      </div>
+
+      <div class="flex-row">
         <%- include('../../components/hunting-quest/quest-details-form') %>
         <section id="quest-preview"></section>
       </div>
@@ -38,5 +43,6 @@
     <script type="module" src="/js/hunting-quest/monster-form.js"></script>
     <script type="module" src="/js/hunting-quest/quest-details.js"></script>
     <script type="module" src="/js/hunting-quest/preview.js"></script>
+    <script type="module" src="/js/hunting-quest/player-comp.js"></script>
   </body>
 </html>
