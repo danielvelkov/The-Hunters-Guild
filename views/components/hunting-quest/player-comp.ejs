@@ -68,6 +68,14 @@
     <div id="tabs-advanced">
       <form>
         <!-- ... slot fields, loadout config. Auto updated on change -->
+        <label for="roles">Role:</label>
+        <select id="roles" name="roles[]" multiple="multiple">
+          <option value="ANY">-- Flexible --</option>
+          <option value="DPS">DPS</option>
+          <option value="Tank">Tank</option>
+          <option value="Healer">Healer</option>
+        </select>
+
         <label for="weapon-types">Weapon type:</label>
         <select id="weapon-types" name="weapon-types[]" multiple="multiple">
           <option value="ANY">-- Any --</option>
@@ -88,7 +96,8 @@
           multiple="multiple"
         >
           <option value="ANY">-- Any --</option>
-          <% if (weaponAttributes) { %> <% weaponAttributes.forEach((attribute)=> { %>
+          <% if (weaponAttributes) { %> <%
+          weaponAttributes.forEach((attribute)=> { %>
           <option
             data-attr-icon="<%= attribute.icon %>"
             value="<%= attribute.id %>"
@@ -97,7 +106,6 @@
           </option>
           <% }) %> <% } %>
         </select>
-
       </form>
     </div>
   </div>

@@ -116,6 +116,12 @@ class PlayerComp {
       '-- Choose an attribute --',
       (item) => formatOption(item, 'attrIcon', 'Status Icons')
     );
+
+    initializeSelect(
+      tabs.find('select[name="roles[]"]'),
+      '-- Choose a role --',
+      (item) => item.text
+    );
   }
 }
 
