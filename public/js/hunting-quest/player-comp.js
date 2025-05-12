@@ -104,27 +104,33 @@ class PlayerComp {
     this.configureSlot.append(tabs);
 
     tabs.tabs();
-    initializeWeaponTypeSelect(tabs.find('select[name="weapon-types[]"]'));
-    initializeWeaponAttributeSelect(
-      tabs.find('select[name="weapon-attributes[]"]')
+
+    initializeSelect(
+      tabs.find('select[name="weapon-types[]"]'),
+      '-- Choose a weapon --',
+      (item) => formatOption(item, 'weaponIcon', 'Weapon Types')
+    );
+
+    initializeSelect(
+      tabs.find('select[name="weapon-attributes[]"]'),
+      '-- Choose an attribute --',
+      (item) => formatOption(item, 'attrIcon', 'Status Icons')
     );
   }
 }
 
-function initializeWeaponTypeSelect(weaponTypeSelect) {
-  weaponTypeSelect.select2({
-    placeholder: '-- Choose a weapon--',
+function initializeSelect(selectElement, placeholder, formatFunction) {
+  selectElement.select2({
+    placeholder: placeholder,
     allowClear: true,
-    templateResult: formatWeaponTypeOption,
+    templateResult: formatFunction,
   });
 
-  // Clear handler
-  weaponTypeSelect.on('select2:clear', () => {
+  selectElement.on('select2:clear', () => {
     // Update player slot
   });
 
-  // Select handler
-  weaponTypeSelect.on('select2:select', function (e) {
+  selectElement.on('select2:select', function (e) {
     const data = e.params.data;
     if (!data.id) {
       return;
@@ -133,47 +139,12 @@ function initializeWeaponTypeSelect(weaponTypeSelect) {
   });
 }
 
-function formatWeaponTypeOption(item) {
+function formatOption(item, iconType, folderName) {
   return $(`<span class='monster-select-content'>
       <span class='monster-select-name'>
         ${
-          item.element?.dataset.weaponIcon
-            ? `<img height='18' src="icons/Weapon Types/${item.element?.dataset.weaponIcon}.png"/>`
-            : ''
-        }
-        <b>${item.text}</b>
-      </span>
-    </span>`);
-}
-
-function initializeWeaponAttributeSelect(weaponAttributeSelect) {
-  weaponAttributeSelect.select2({
-    placeholder: '-- Choose an attribute --',
-    allowClear: true,
-    templateResult: formatWeaponAttributeOption,
-  });
-
-  // Clear handler
-  weaponAttributeSelect.on('select2:clear', () => {
-    // Update player slot
-  });
-
-  // Select handler
-  weaponAttributeSelect.on('select2:select', function (e) {
-    const data = e.params.data;
-    if (!data.id) {
-      return;
-    }
-    // Update player slot
-  });
-}
-
-function formatWeaponAttributeOption(item) {
-  return $(`<span class='monster-select-content'>
-      <span class='monster-select-name'>
-        ${
-          item.element?.dataset.attrIcon
-            ? `<img height='18' src="icons/Status Icons/${item.element?.dataset.attrIcon}.png"/>`
+          item.element?.dataset[iconType]
+            ? `<img height='18' src="icons/${folderName}/${item.element?.dataset[iconType]}.png"/>`
             : ''
         }
         <b>${
@@ -216,9 +187,9 @@ class Slot {
       'Any skills and equipment are permitted for this slot.'; // Description of the current loadout configuration.
 
     // Hunter Tab Fields
-    this.roles = ['Any']; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
-    this.weaponTypes = ['Any']; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible). From "also multiple selection have Any as weapon".
-    this.elementsAilments = []; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']). From "alsi multiple selection, is enabled after selection weapon type".
+    this.roles = ['ANY']; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
+    this.weaponTypes = ['ANY']; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible).
+    this.weaponAttributes = ['ANY']; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']).
 
     // Skills Tab Fields
     this.skills = []; // Array of skill objects, where each object contains skill name and level.
