@@ -14,4 +14,4 @@ SELECT
     description_6,
     description_7
 FROM
-    skills;
+    skills where name != '' AND icon_id != '' AND icon_id != 'INVALID';

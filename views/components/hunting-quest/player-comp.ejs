@@ -66,7 +66,7 @@
       </ul>
     </div>
     <div id="tabs-advanced">
-      <form>
+      <form class="advanced-form">
         <!-- ... slot fields, loadout config. Auto updated on change -->
         <label for="roles">Role:</label>
         <select id="roles" name="roles[]" multiple="multiple">
@@ -96,17 +96,46 @@
           multiple="multiple"
         >
           <option value="ANY">-- Any --</option>
-          <% if (weaponAttributes) { %> <%
-          weaponAttributes.forEach((attribute)=> { %>
+          <% if (weaponAttributes) { weaponAttributes.forEach((attribute) => {
+          %>
           <option
             data-attr-icon="<%= attribute.icon %>"
             value="<%= attribute.id %>"
           >
             <%= attribute.name %>
           </option>
-          <% }) %> <% } %>
+          <% }) } %>
         </select>
+
+        <label for="notes">Notes:</label>
+        <textarea
+          name="notes"
+          id="notes"
+          placeholder="Your insane strat here..."
+        ></textarea>
+
+        <label>Skills:</label>
+        <button type="button" class="add-skill-button">Add Skill +</button>
       </form>
     </div>
+  </div>
+</template>
+
+<template id="skill-template">
+  <div class="flex-row skill" style="align-items: center">
+    <select class="skill-dropdown">
+      <option value="ANY">-- Any --</option>
+      <% if (skills) { %> <% skills.forEach((skill)=> { %>
+      <option
+        data-skill-icon="<%= skill.icon %>"
+        data-skill-max-level="<%= skill.max_level %>"
+        value="<%= skill.id %>"
+      >
+        <%= skill.name %>
+      </option>
+      <% }) %> <% } %>
+    </select>
+    <select disabled class="skill-level" placeholder="Select level..."></select>
+    <button type="button" class="remove-skill-button">X</button>
   </div>
 </template>

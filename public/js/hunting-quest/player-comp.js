@@ -25,6 +25,9 @@ class PlayerComp {
     this.playerConfigFormTabs = $(
       playerConfigFormTemplate.content.cloneNode(true)
     ).find('.config-tabs');
+
+    const skillTemplate = document.getElementById('skill-template');
+    this.skillElement = $(skillTemplate.content).clone(true).find('.skill');
   }
 
   bindEvents() {
@@ -102,26 +105,31 @@ class PlayerComp {
     const tabs = this.playerConfigFormTabs.clone(true, true);
 
     this.configureSlot.append(tabs);
+    const advancedTab = tabs.find('.advanced-form');
 
     tabs.tabs();
 
     initializeSelect(
-      tabs.find('select[name="weapon-types[]"]'),
+      advancedTab.find('select[name="weapon-types[]"]'),
       '-- Choose a weapon --',
       (item) => formatOption(item, 'weaponIcon', 'Weapon Types')
     );
 
     initializeSelect(
-      tabs.find('select[name="weapon-attributes[]"]'),
+      advancedTab.find('select[name="weapon-attributes[]"]'),
       '-- Choose an attribute --',
       (item) => formatOption(item, 'attrIcon', 'Status Icons')
     );
 
     initializeSelect(
-      tabs.find('select[name="roles[]"]'),
+      advancedTab.find('select[name="roles[]"]'),
       '-- Choose a role --',
       (item) => item.text
     );
+
+    advancedTab
+      .find('.add-skill-button')
+      .on('click', () => addSkillSelectElement(advancedTab, this.skillElement));
   }
 }
 
@@ -130,18 +138,6 @@ function initializeSelect(selectElement, placeholder, formatFunction) {
     placeholder: placeholder,
     allowClear: true,
     templateResult: formatFunction,
-  });
-
-  selectElement.on('select2:clear', () => {
-    // Update player slot
-  });
-
-  selectElement.on('select2:select', function (e) {
-    const data = e.params.data;
-    if (!data.id) {
-      return;
-    }
-    // Update player slot
   });
 }
 
@@ -159,6 +155,49 @@ function formatOption(item, iconType, folderName) {
         }</b>
       </span>
     </span>`);
+}
+
+function addSkillSelectElement(container, skillTemplate) {
+  const nextSkillId = container.find('.skill').length;
+  const skillElement = skillTemplate.clone(true, true);
+
+  const skillSelect = skillElement.find('select[class="skill-dropdown"]');
+  const levelSelect = skillElement.find('select[class="skill-level"]');
+  const removeButton = skillElement.find('.remove-skill-button');
+
+  container.append(skillElement);
+  skillElement.prop('id', 'skill-' + nextSkillId);
+  initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
+    formatOption(item, 'skillIcon', 'Skill Icons')
+  );
+
+  skillSelect.on('select2:clear', function () {
+    levelSelect.empty();
+    levelSelect.prop('disabled', true);
+  });
+
+  skillSelect.on('select2:select', function (e) {
+    const data = e.params.data;
+    if (!data.id) {
+      return;
+    }
+
+    const skillMaxLevel = data.element.dataset.skillMaxLevel;
+
+    levelSelect.empty();
+
+    if (skillMaxLevel) {
+      levelSelect.prop('disabled', false);
+      [...new Array(+skillMaxLevel)].forEach((_, i) => {
+        levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
+      });
+    }
+  });
+
+  removeButton.on('click', () => {
+    console.log('Remove skill');
+    skillElement.remove();
+  });
 }
 
 class Slot {
