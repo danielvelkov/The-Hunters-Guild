@@ -1,6 +1,8 @@
 import { skillsList, weaponAttributesList, weaponTypesList } from './create.js';
 
 class PlayerComp {
+  nextSkillIndex = 0;
+
   constructor(playerSlots = []) {
     this.playerSlots = playerSlots;
     this.cacheDOM();
@@ -129,7 +131,71 @@ class PlayerComp {
 
     advancedTab
       .find('.add-skill-button')
-      .on('click', () => addSkillSelectElement(advancedTab, this.skillElement));
+      .on('click', () => this.addSkillSelectElement(advancedTab));
+
+    advancedTab.on('change', (event) => {
+      const field = $(event.target);
+      console.log(field);
+      const fieldName = field.attr('name');
+      const fieldValue = field.val();
+
+      // Update the playerSlot object
+      // slot[fieldName] = fieldValue;
+
+      // Optional: Log or trigger additional updates
+      console.log(`Updated ${fieldName} to ${fieldValue}`);
+
+      // Update Quest Preview
+    });
+  }
+
+  addSkillSelectElement(container) {
+    const skillElement = this.skillElement.clone(true, true);
+
+    const skillSelect = skillElement.find('select[class="skill-dropdown"]');
+    const levelSelect = skillElement.find('select[class="skill-level"]');
+    const removeButton = skillElement.find('.remove-skill-button');
+
+    container.append(skillElement);
+    skillElement.prop('name', 'skill-' + this.nextSkillIndex);
+    skillSelect.prop('name', 'skill-select-' + this.nextSkillIndex);
+
+    this.nextSkillIndex++;
+    initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
+      formatOption(item, 'skillIcon', 'Skill Icons')
+    );
+
+    skillSelect.on('select2:clear', function () {
+      levelSelect.empty();
+      levelSelect.prop('disabled', true);
+    });
+
+    skillSelect.on('select2:select', function (e) {
+      const data = e.params.data;
+      if (!data.id) {
+        return;
+      }
+
+      const skillMaxLevel = data.element.dataset.skillMaxLevel;
+
+      levelSelect.empty();
+
+      if (skillMaxLevel) {
+        levelSelect.prop('disabled', false);
+        [...new Array(+skillMaxLevel)].forEach((_, i) => {
+          levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
+        });
+      }
+    });
+
+    levelSelect.on('change', (e) => {
+      
+    })
+
+    removeButton.on('click', () => {
+      console.log('Remove skill');
+      skillElement.remove();
+    });
   }
 }
 
@@ -155,49 +221,6 @@ function formatOption(item, iconType, folderName) {
         }</b>
       </span>
     </span>`);
-}
-
-function addSkillSelectElement(container, skillTemplate) {
-  const nextSkillId = container.find('.skill').length;
-  const skillElement = skillTemplate.clone(true, true);
-
-  const skillSelect = skillElement.find('select[class="skill-dropdown"]');
-  const levelSelect = skillElement.find('select[class="skill-level"]');
-  const removeButton = skillElement.find('.remove-skill-button');
-
-  container.append(skillElement);
-  skillElement.prop('id', 'skill-' + nextSkillId);
-  initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
-    formatOption(item, 'skillIcon', 'Skill Icons')
-  );
-
-  skillSelect.on('select2:clear', function () {
-    levelSelect.empty();
-    levelSelect.prop('disabled', true);
-  });
-
-  skillSelect.on('select2:select', function (e) {
-    const data = e.params.data;
-    if (!data.id) {
-      return;
-    }
-
-    const skillMaxLevel = data.element.dataset.skillMaxLevel;
-
-    levelSelect.empty();
-
-    if (skillMaxLevel) {
-      levelSelect.prop('disabled', false);
-      [...new Array(+skillMaxLevel)].forEach((_, i) => {
-        levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
-      });
-    }
-  });
-
-  removeButton.on('click', () => {
-    console.log('Remove skill');
-    skillElement.remove();
-  });
 }
 
 class Slot {
@@ -231,21 +254,17 @@ class Slot {
     this.loadoutDescription =
       'Any skills and equipment are permitted for this slot.'; // Description of the current loadout configuration.
 
-    // Hunter Tab Fields
     this.roles = ['ANY']; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
     this.weaponTypes = ['ANY']; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible).
     this.weaponAttributes = ['ANY']; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']).
 
-    // Skills Tab Fields
     this.skills = []; // Array of skill objects, where each object contains skill name and level.
     // e.g., [{ skillName: 'Attack Boost', skillLevel: 7 }, { skillName: 'Health Boost', skillLevel: 3 }]
     // From "Skills on the left... You will also be able to select the skill level".
 
-    // Strategy Tab Fields (as per "Ideas 1")
     this.monsterPartFocus = []; // Array of preferred monster parts to target (e.g., ['Head', 'Tail']). From "part focus dropdown".
     // Also corresponds to "Monster Part focus preference" from "Role Loadout Fields".
 
-    // Role-Specific Notes (from "Role Loadout Fields")
     this.roleNotes = ''; // "Notes - More details about the role - text field. Something specific for that position".
 
     // Initialize for 'Flexible' state (most fields are already at their 'Flexible' defaults)
