@@ -107,69 +107,69 @@ class PlayerComp {
     const tabs = this.playerConfigFormTabs.clone(true, true);
 
     this.configureSlot.append(tabs);
-    const advancedTab = tabs.find('.advanced-form');
+    const advancedTabForm = tabs.find('.advanced-form');
 
     tabs.tabs();
 
     initializeSelect(
-      advancedTab.find('select[name="weapon-types[]"]'),
+      advancedTabForm.find('select[name="weapon-types[]"]'),
       '-- Choose a weapon --',
       (item) => formatOption(item, 'weaponIcon', 'Weapon Types')
     );
 
     initializeSelect(
-      advancedTab.find('select[name="weapon-attributes[]"]'),
+      advancedTabForm.find('select[name="weapon-attributes[]"]'),
       '-- Choose an attribute --',
       (item) => formatOption(item, 'attrIcon', 'Status Icons')
     );
 
     initializeSelect(
-      advancedTab.find('select[name="roles[]"]'),
+      advancedTabForm.find('select[name="roles[]"]'),
       '-- Choose a role --',
       (item) => item.text
     );
 
-    advancedTab
+    advancedTabForm
       .find('.add-skill-button')
-      .on('click', () => this.addSkillSelectElement(advancedTab));
+      .on('click', () => this.addSkillSelectElement(advancedTabForm));
 
-    advancedTab.on('change', (event) => {
-      const field = $(event.target);
-      console.log(field);
-      const fieldName = field.attr('name');
-      const fieldValue = field.val();
-
-      // Update the playerSlot object
-      // slot[fieldName] = fieldValue;
-
-      // Optional: Log or trigger additional updates
-      console.log(`Updated ${fieldName} to ${fieldValue}`);
-
+    advancedTabForm.on('change', (event) => {
       // Update Quest Preview
+      console.log(new FormData(advancedTabForm[0]));
     });
   }
 
   addSkillSelectElement(container) {
     const skillElement = this.skillElement.clone(true, true);
+    const skillFormGroup = $('<div>').addClass('skill-form-group');
 
     const skillSelect = skillElement.find('select[class="skill-dropdown"]');
     const levelSelect = skillElement.find('select[class="skill-level"]');
     const removeButton = skillElement.find('.remove-skill-button');
 
-    container.append(skillElement);
-    skillElement.prop('name', 'skill-' + this.nextSkillIndex);
-    skillSelect.prop('name', 'skill-select-' + this.nextSkillIndex);
+    // Wrap the skill element in our form group for easier data association
+    skillElement.appendTo(skillFormGroup);
+    container.append(skillFormGroup);
+
+    // Set name attributes for form submission
+    skillFormGroup.attr('data-skill-index', this.nextSkillIndex);
+    skillSelect.attr('name', 'skill-select-' + this.nextSkillIndex);
+    levelSelect.attr('name', 'skill-level-' + this.nextSkillIndex);
 
     this.nextSkillIndex++;
+
+    // Initialize select2 for skill dropdown
     initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
       formatOption(item, 'skillIcon', 'Skill Icons')
     );
 
+    // When skill is cleared, reset level dropdown
     skillSelect.on('select2:clear', function () {
       levelSelect.empty();
       levelSelect.prop('disabled', true);
     });
 
+    // When skill is selected, populate level options
     skillSelect.on('select2:select', function (e) {
       const data = e.params.data;
       if (!data.id) {
@@ -185,22 +185,22 @@ class PlayerComp {
         [...new Array(+skillMaxLevel)].forEach((_, i) => {
           levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
         });
+
+        // Default to level 1
+        levelSelect.val(1).trigger('change');
       }
     });
 
-    levelSelect.on('change', (e) => {
-      
-    })
-
+    // Remove button handler
     removeButton.on('click', () => {
-      console.log('Remove skill');
-      skillElement.remove();
+      skillFormGroup.remove();
+      container.trigger('change');
     });
   }
 }
 
 function initializeSelect(selectElement, placeholder, formatFunction) {
-  selectElement.select2({
+  return selectElement.select2({
     placeholder: placeholder,
     allowClear: true,
     templateResult: formatFunction,
