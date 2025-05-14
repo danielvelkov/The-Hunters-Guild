@@ -20,6 +20,8 @@ export const getDmgColor = (value, baseColor) => {
   // Ensure value stays within range
   let intensity = Math.min(Math.max(value, 0), 35);
 
+  if (intensity === 0) return `none`;
+
   // Define RGB values for base colors
   const colors = {
     red: [255, 255 - intensity * 5, 255 - intensity * 5],
@@ -30,7 +32,7 @@ export const getDmgColor = (value, baseColor) => {
   };
 
   // Get the RGB values based on baseColor
-  let color = colors[baseColor.toLowerCase()] || [255, 255, 255]; // Default to white if invalid baseColor
+  let color = colors[baseColor.toLowerCase()] || []; 
 
   return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
 };

@@ -20,7 +20,6 @@
   --I_BLUE: #6687ff;
   --I_ULTRAMARINE: #4c4cd9;
   --I_BROWN: #b38f48;
-  --BACKGROUND_LIGHT: #faefbb;
   --RARE_01: #969696;
   --RARE_02: #dedede;
   --RARE_03: #a4c43b;
@@ -40,18 +39,6 @@ main {
   padding-right: 5vmax;
 }
 
-/* General form styling */
-form,
-form > fieldset {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-form label {
-  font-weight: bold;
-  display: block;
-}
-
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -64,49 +51,6 @@ form label {
   gap: 1em;
 }
 
-.themetable {
-  border: 1px solid #ccc;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.themetable th {
-  font-weight: bold;
-  color: #161111;
-  background-color: white;
-  border: 1px solid #e8f5e9;
-  border-bottom: 1px solid #8a9091;
-}
-
-tr:nth-child(even) {
-  background-color: #d9e6e7;
-}
-tr:nth-child(odd) {
-  background-color: #e8f5e9;
-}
-
-input,
-select,
-textarea + label {
-  margin-top: -0.25em;
-}
-
-form input,
-form select,
-form textarea {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-form input:disabled,
-form select:disabled {
-  background-color: #e9ecef;
-  cursor: not-allowed;
-}
-
 /* Monster form container */
 #monster-forms {
   display: flex;
@@ -115,10 +59,6 @@ form select:disabled {
 }
 
 #monster-forms .monster-form {
-  padding: 1em;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  background-color: #fff;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -147,17 +87,15 @@ form select:disabled {
 #add-monster-button {
   display: inline-block;
   padding: 10px 15px;
-  font-size: 14px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
+  font-size: 1.1em;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 #add-monster-button:hover {
-  background-color: #0056b3;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 /* Quest Details  */
@@ -167,23 +105,27 @@ form select:disabled {
 
 input[type='range'] + output {
   align-self: stretch;
-  font-size: larger;
-  border: 2px solid #ccc;
+  border: 1px solid var(--border-color);
   padding: 0.5em 1em;
   margin-top: -1em;
 }
 
 /* Cross-play toggle */
+
 #platform-options {
-  margin-top: 15px;
   padding: 10px;
-  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
   border-radius: 4px;
-  background-color: #f8f9fa;
+  background: var(--header-bg);
+  color: var(--text-color);
 }
 
-#platform-options input {
-  margin-right: 5px;
+.platform-options-list > li {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
 }
 
 /* Quest Post Form */
@@ -197,7 +139,7 @@ input[type='range'] + output {
 }
 
 .bonus-item {
-  border: 2px double #806f49;
+  border: 2px inset #806f49;
   background-color: #b69d7d;
 }
 
@@ -260,7 +202,7 @@ input[type='range'] + output {
 .dmg-effectiveness-table th,
 .dmg-effectiveness-table td {
   padding: 2px 3px;
-  border: 1px solid rgb(160 160 160);
+  border: 1px solid var(--border-color);
 }
 
 .drop-tables {
@@ -270,7 +212,7 @@ input[type='range'] + output {
 }
 .drop-tables th,
 .drop-tables td {
-  border: 1px solid rgb(160 160 160);
+  border: 1px solid var(--border-color);
   padding: 4px 6px;
   max-width: 10ch;
 }
@@ -289,18 +231,17 @@ input[type='range'] + output {
 
 #player-comp {
   flex: 1;
-  background-color: #f7f7f8;
 }
 
 .player-slot {
+  position: relative;
   display: flex;
   flex-direction: column;
   flex: 1;
   box-sizing: border-box; /* Avoid spacing issues */
-  background-color: white;
   border-radius: 0.5em;
   padding: 1em 0em;
-  border: #a7a3a3 solid 3px;
+  border: var(--border-color) solid 3px;
 }
 
 .open-slot {
@@ -321,6 +262,7 @@ input[type='range'] + output {
   aspect-ratio: 1;
   border-radius: 50%;
   border: 1px solid darkgray;
+  font-size: 1em;
 }
 
 .player-slots-list {
@@ -333,8 +275,15 @@ input[type='range'] + output {
 
 .remove-button {
   height: fit-content;
-  background-color: rgb(202, 78, 78);
-  color: white;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  border: none;
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: fit-content;
+  font-size: 0.7em;
 }
 
 .pill-button {

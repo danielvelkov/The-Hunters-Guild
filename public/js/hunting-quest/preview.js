@@ -366,18 +366,17 @@ function generateDamageEffectivenessTable(monster) {
                 `<td style="background-color: ${getDmgColor(
                   d.value,
                   dmgColor
-                )}">${
-                  d.value > 45 || (dmgColor !== 'white' && d.value >= 20)
-                    ? `<b ${
-                        d.value >= 25 &&
-                        dmgColor !== 'white' &&
-                        dmgColor !== 'yellow' &&
-                        dmgColor !== 'cyan'
-                          ? 'style="color:white"'
-                          : ''
-                      } >` +
-                      d.value +
-                      '</b>'
+                )};${
+                  dmgColor !== 'white'
+                    ? `
+                           color: var(--secondary-color);
+                `
+                    : ''
+                }
+                ">${
+                  (dmgColor !== 'white' && d.value >= 15) ||
+                  (dmgColor === 'white' && d.value >= 45)
+                    ? `<b>${d.value}</b>`
                     : d.value
                 }</td>`
               );
