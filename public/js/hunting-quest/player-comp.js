@@ -1,41 +1,58 @@
 import { skillsList, weaponAttributesList, weaponTypesList } from './create.js';
+import { createObservableArray } from '../common.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
 
   constructor(playerSlots = []) {
-    this.playerSlots = playerSlots;
+    this.playerSlots = createObservableArray(playerSlots, () =>
+      this.handlePlayerSlotsChange()
+    );
     this.cacheDOM();
     this.bindEvents();
-    this.addSlot(new Slot('Custom Slot #' + this.playerSlots.length, true));
+    this.addSlot(
+      new Slot({
+        displayName: 'Custom Slot #' + this.playerSlots.length,
+        isOwner: true,
+      })
+    );
     this.setSelectedSlot(this.playerSlots[0]);
-    this.displaySlots();
   }
 
   cacheDOM() {
     this.playerSlotsList = $('.player-slots-list');
-    this.configureSlot = $('#configure-slot');
+    this.configureSlotSection = $('#configure-slot');
 
-    const addSlotTemplate = document.getElementById('add-player-slot-template');
-    this.addPlayerPlaceholderElement = $(
-      addSlotTemplate.content.cloneNode(true)
+    this.addSlotTemplate = $(
+      document
+        .getElementById('add-player-slot-template')
+        .content.cloneNode(true)
     ).find('.player-slot.open-slot');
 
-    const playerConfigFormTemplate = document.getElementById(
-      'player-configure-form-template'
-    );
-    this.playerConfigFormTabs = $(
-      playerConfigFormTemplate.content.cloneNode(true)
+    this.slotConfigFormTemplate = $(
+      document
+        .getElementById('player-configure-form-template')
+        .content.cloneNode(true)
     ).find('.config-tabs');
 
-    const skillTemplate = document.getElementById('skill-template');
-    this.skillElement = $(skillTemplate.content).clone(true).find('.skill');
+    this.skillSelectTemplate = $(
+      document.getElementById('skill-template').content
+    )
+      .clone(true)
+      .find('.skill');
   }
 
   bindEvents() {
-    this.addPlayerPlaceholderElement.on('click', () => {
-      this.addSlot(new Slot('Custom Slot #' + this.playerSlots.length));
+    this.addSlotTemplate.on('click', () => {
+      this.addSlot(
+        new Slot({ displayName: 'Custom Slot #' + this.playerSlots.length })
+      );
     });
+  }
+
+  handlePlayerSlotsChange() {
+    console.log('Slot changed');
+    this.displaySlots();
   }
 
   get isSlotAvailable() {
@@ -44,32 +61,27 @@ class PlayerComp {
 
   addSlot(slot) {
     this.playerSlots.push(slot);
-    console.log('Slot added at index:' + this.playerSlots.length);
-    this.displaySlots();
   }
 
   removeSlot(slot) {
     if (this.selectedSlot === slot) this.setSelectedSlot(this.playerSlots[0]);
     this.playerSlots.splice(this.playerSlots.indexOf(slot), 1);
-    this.displaySlots();
   }
 
   setSelectedSlot(slot) {
     this.selectedSlot = slot;
     console.log('Selected slot: ' + slot.displayName);
-    this.createPlayerSlotConfigurationElement(slot);
+    this.createSlotConfigElement(slot);
   }
 
   displaySlots() {
     this.playerSlotsList.empty();
-    this.playerSlots.forEach((playerSlot, i) => {
+    this.playerSlots.forEach((playerSlot) => {
       this.playerSlotsList.append(this.createSlotElement(playerSlot));
     });
 
     if (this.isSlotAvailable)
-      this.playerSlotsList.append(
-        this.addPlayerPlaceholderElement.clone(true, true)
-      );
+      this.playerSlotsList.append(this.addSlotTemplate.clone(true, true));
   }
 
   createSlotElement(slot) {
@@ -100,13 +112,15 @@ class PlayerComp {
     return slotElement;
   }
 
-  createPlayerSlotConfigurationElement(slot) {
-    this.configureSlot.find('.config-tabs').remove();
-    this.configureSlot.find('legend').text('Configure ' + slot.displayName);
+  createSlotConfigElement(slot) {
+    this.configureSlotSection.find('.config-tabs').remove();
+    this.configureSlotSection
+      .find('legend')
+      .text('Configure ' + slot.displayName);
 
-    const tabs = this.playerConfigFormTabs.clone(true, true);
+    const tabs = this.slotConfigFormTemplate.clone(true, true);
 
-    this.configureSlot.append(tabs);
+    this.configureSlotSection.append(tabs);
     const advancedTabForm = tabs.find('.advanced-form');
 
     tabs.tabs();
@@ -135,19 +149,22 @@ class PlayerComp {
 
     advancedTabForm.on('change', (event) => {
       // Update Quest Preview
-      console.log(new FormData(advancedTabForm[0]));
+      // console.log(new FormData(advancedTabForm[0]));
+      // console.log(processFormData(new FormData(advancedTabForm[0])));
+      const updatedSlot = processFormData(new FormData(advancedTabForm[0]));
+      this.playerSlots[this.playerSlots.indexOf(slot)] = updatedSlot;
+      slot = updatedSlot;
     });
   }
 
   addSkillSelectElement(container) {
-    const skillElement = this.skillElement.clone(true, true);
+    const skillElement = this.skillSelectTemplate.clone(true, true);
     const skillFormGroup = $('<div>').addClass('skill-form-group');
 
     const skillSelect = skillElement.find('select[class="skill-dropdown"]');
     const levelSelect = skillElement.find('select[class="skill-level"]');
     const removeButton = skillElement.find('.remove-skill-button');
 
-    // Wrap the skill element in our form group for easier data association
     skillElement.appendTo(skillFormGroup);
     container.append(skillFormGroup);
 
@@ -158,12 +175,10 @@ class PlayerComp {
 
     this.nextSkillIndex++;
 
-    // Initialize select2 for skill dropdown
     initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
       formatOption(item, 'skillIcon', 'Skill Icons')
     );
 
-    // When skill is cleared, reset level dropdown
     skillSelect.on('select2:clear', function () {
       levelSelect.empty();
       levelSelect.prop('disabled', true);
@@ -223,14 +238,88 @@ function formatOption(item, iconType, folderName) {
     </span>`);
 }
 
+function processFormData(formData) {
+  const slotData = new Slot({
+    displayName: 'Custom Slot #1',
+    isOwner: true,
+    configurationType: 'Advanced',
+    loadoutName: 'Custom Loadout',
+    loadoutDescription: 'This loadout has specific requirements for joining.',
+    roles: [],
+    weaponTypes: [],
+    weaponAttributes: [],
+    skills: [],
+    monsterPartFocus: [],
+    roleNotes: '',
+  });
+
+  // Process form data entries
+  for (const [key, value] of formData.entries()) {
+    // Process roles
+    if (key === 'roles[]') {
+      slotData.roles.push(value);
+    }
+    // Process weapon types
+    else if (key === 'weapon-types[]') {
+      slotData.weaponTypes.push(value);
+    }
+    // Process weapon attributes
+    else if (key === 'weapon-attributes[]') {
+      slotData.weaponAttributes.push(value);
+    }
+    // Process notes
+    else if (key === 'notes') {
+      slotData.roleNotes = value;
+    }
+    // Process skills
+    else if (key.startsWith('skill-select-')) {
+      const skillIndex = key.split('-').pop();
+      const levelKey = `skill-level-${skillIndex}`;
+      const levelValue = formData.get(levelKey);
+
+      if (value && levelValue) {
+        slotData.skills.push({
+          skillName: value,
+          skillLevel: parseInt(levelValue, 10),
+        });
+      }
+    }
+  }
+
+  // Set configuration type based on selections
+  if (
+    slotData.weaponTypes.length > 0 ||
+    slotData.weaponAttributes.length > 0 ||
+    slotData.skills.length > 0 ||
+    slotData.roles.length > 0
+  ) {
+    slotData.configurationType = 'Advanced';
+    slotData.loadoutName = 'Custom Loadout';
+    slotData.loadoutDescription =
+      'This loadout has specific requirements for joining.';
+  }
+
+  return slotData;
+}
+
 class Slot {
   /**
    * @param {string} displayName - The display name for this slot (e.g., "Player 1", "Newbie Hunter").
    * @param {boolean} [isOwner=false] - Flag indicating if this slot is for the quest owner.
    * @param {boolean} canEdit - Flag indicating if this slot can be edited.
-   * @param {object} loadout -
    */
-  constructor(displayName, isOwner = false, canEdit = true, loadout) {
+  constructor({
+    displayName,
+    isOwner = false,
+    loadoutName = 'Custom Loadout',
+    loadoutDescription = 'Any skills and equipment are permitted for this slot.',
+    roles = ['ANY'],
+    weaponTypes = ['ANY'],
+    weaponAttributes = ['ANY'],
+    skills = ['ANY'],
+    monsterPartFocus = ['ANY'],
+    roleNotes = '',
+  }) {
     // --- Slot Identification ---
     this.displayName = displayName;
     this.isOwner = isOwner;
@@ -249,23 +338,21 @@ class Slot {
     // Their values are determined by the configurationType and user input.
 
     // General Loadout Information
-    this.loadoutName = 'Flexible'; // Name of the applied loadout configuration (e.g., "Flexible", "Vaal Hazak Support", "Custom Bow Build").
+    this.loadoutName = loadoutName; // Name of the applied loadout configuration (e.g., "Flexible", "Vaal Hazak Support", "Custom Bow Build").
     // If a RoleLoadout is chosen, this would be its name. If modified, becomes "Custom Loadout".
-    this.loadoutDescription =
-      'Any skills and equipment are permitted for this slot.'; // Description of the current loadout configuration.
+    this.loadoutDescription = loadoutDescription; // Description of the current loadout configuration.
 
-    this.roles = ['ANY']; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
-    this.weaponTypes = ['ANY']; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible).
-    this.weaponAttributes = ['ANY']; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']).
+    this.roles = skills; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
+    this.weaponTypes = weaponTypes; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible).
+    this.weaponAttributes = weaponAttributes; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']).
 
-    this.skills = []; // Array of skill objects, where each object contains skill name and level.
+    this.skills = skills; // Array of skill objects, where each object contains skill name and level.
     // e.g., [{ skillName: 'Attack Boost', skillLevel: 7 }, { skillName: 'Health Boost', skillLevel: 3 }]
-    // From "Skills on the left... You will also be able to select the skill level".
 
-    this.monsterPartFocus = []; // Array of preferred monster parts to target (e.g., ['Head', 'Tail']). From "part focus dropdown".
+    this.monsterPartFocus = monsterPartFocus; // Array of preferred monster parts to target (e.g., ['Head', 'Tail']). From "part focus dropdown".
     // Also corresponds to "Monster Part focus preference" from "Role Loadout Fields".
 
-    this.roleNotes = ''; // "Notes - More details about the role - text field. Something specific for that position".
+    this.roleNotes = roleNotes; // "Notes - More details about the role - text field. Something specific for that position".
 
     // Initialize for 'Flexible' state (most fields are already at their 'Flexible' defaults)
     if (this.configurationType === 'Flexible') {
