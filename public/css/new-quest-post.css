@@ -235,13 +235,7 @@ input[type='range'] + output {
 
 .player-slot {
   position: relative;
-  display: flex;
-  flex-direction: column;
   flex: 1;
-  box-sizing: border-box; /* Avoid spacing issues */
-  border-radius: 0.5em;
-  padding: 1em 0em;
-  border: var(--border-color) solid 3px;
 }
 
 .open-slot {
@@ -271,10 +265,10 @@ input[type='range'] + output {
   flex-direction: column;
   row-gap: 0.5em;
   padding: 0;
+  list-style-type: none;
 }
 
 .remove-button {
-  height: fit-content;
   position: absolute;
   top: 0%;
   right: 0%;
@@ -283,7 +277,7 @@ input[type='range'] + output {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   height: fit-content;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .pill-button {

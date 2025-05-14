@@ -1,4 +1,4 @@
-<template>
+<template id="hunter-slot-template">
   <div class="hunter-slot">
     <div class="slot-header">
       <div>
@@ -85,10 +85,8 @@
   }
 
   .hunter-slot {
-    max-width: 800px;
-    margin: 20px auto;
     background-color: rgba(35, 30, 25, 0.9);
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -96,7 +94,7 @@
 
   .slot-header {
     background-color: var(--header-bg);
-    padding: 15px 20px;
+    padding: 1em;
     border-bottom: 2px solid var(--border-color);
     display: flex;
     justify-content: space-between;
@@ -112,7 +110,7 @@
   .slot-owner {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 3px 8px;
+    padding: 1em 1.5em;
     border-radius: 4px;
     font-size: 0.8rem;
     font-weight: bold;
@@ -285,10 +283,10 @@
   }
 
   .level-circle {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width: 1em;
+    aspect-ratio: 1/1;
     background-color: var(--primary-color);
+    border: 1px double var(--border-color);
   }
 
   .level-empty {
