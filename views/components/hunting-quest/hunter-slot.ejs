@@ -1,0 +1,348 @@
+<template>
+  <div class="hunter-slot">
+    <div class="slot-header">
+      <div>
+        <h2 id="slot-display-name">
+          <!-- Slot Display Name will be inserted here -->
+          Custom Slot #1
+        </h2>
+        <div class="slot-type">Advanced Configuration</div>
+      </div>
+      <span class="slot-owner">QUEST OWNER</span>
+    </div>
+
+    <div class="slot-content">
+      <div class="loadout-info">
+        <div class="loadout-name">
+          <!-- Loadout Name will be inserted here -->
+          Custom Loadout
+        </div>
+        <div class="loadout-description">
+          <!-- Loadout description will be inserted here -->
+          This loadout has specific requirements for joining.
+        </div>
+      </div>
+
+      <div class="slot-details">
+        <div class="detail-section">
+          <h3>Hunter Roles</h3>
+          <ul class="roles-list">
+            <!-- Roles will be inserted here -->
+          </ul>
+        </div>
+
+        <div class="detail-section weapons-section">
+          <h3>Weapon Requirements</h3>
+          <ul class="weapon-list">
+            <!-- Weapons will be inserted here -->
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Required Skills</h3>
+          <ul class="skills-list">
+            <!-- Skills will be inserted here -->
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Weapon Attributes</h3>
+          <ul class="attribute-list">
+            <!-- Attributes will be inserted here -->
+          </ul>
+        </div>
+
+        <div class="detail-section">
+          <h3>Monster Part Focus</h3>
+          <ul class="part-focus-list">
+            <!-- Part focus will be inserted here -->
+            <li class="empty-message">No specific part focus required</li>
+          </ul>
+        </div>
+
+        <div class="notes-section" id="notes-section">
+          <div class="notes-title">
+            <span class="notes-icon">📝</span>
+            <h3>Hunter Notes</h3>
+          </div>
+          <div class="notes-content" id="notes-content">
+            No additional notes for this slot.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style>
+  :root {
+    --skill-bg: #3d3126;
+    --weapon-bg: #35291d;
+    --role-dps: #d12c2c;
+    --role-tank: #3b7bc0;
+    --role-healer: #4caf50;
+    --role-support: #9c64f3;
+  }
+
+  .hunter-slot {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(35, 30, 25, 0.9);
+    border: 2px solid var(--border-color);
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .slot-header {
+    background-color: var(--header-bg);
+    padding: 15px 20px;
+    border-bottom: 2px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slot-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .slot-owner {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .slot-type {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+
+  .slot-content {
+    padding: 20px;
+  }
+
+  .loadout-info {
+    margin-bottom: 15px;
+  }
+
+  .loadout-name {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .loadout-description {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 15px;
+  }
+
+  .slot-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .detail-section {
+    margin-bottom: 20px;
+  }
+
+  .detail-section h3 {
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+  }
+
+  /* Roles styling */
+  .roles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .role-tag {
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+
+  .role-DPS {
+    background-color: var(--role-dps);
+  }
+
+  .role-Tank {
+    background-color: var(--role-tank);
+  }
+
+  .role-Healer {
+    background-color: var(--role-healer);
+  }
+
+  .role-Support {
+    background-color: var(--role-support);
+  }
+
+  .role-ANY {
+    background-color: #777;
+  }
+
+  /* Weapons styling */
+  .weapons-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .weapon-list,
+  .attribute-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .weapon-tag {
+    display: flex;
+    align-items: center;
+    background-color: var(--weapon-bg);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    gap: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .weapon-icon,
+  .attribute-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+
+  .attribute-tag {
+    display: flex;
+    align-items: center;
+    background-color: var(--weapon-bg);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    gap: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Skills styling */
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--skill-bg);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .skill-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .skill-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .skill-level {
+    display: flex;
+    gap: 2px;
+  }
+
+  .level-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+  }
+
+  .level-empty {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Notes styling */
+  .notes-section {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+  }
+
+  .notes-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .notes-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+  }
+
+  .notes-content {
+    font-style: italic;
+    white-space: pre-line;
+  }
+
+  /* Part focus styling */
+  .part-focus-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .part-focus-tag {
+    background-color: var(--weapon-bg);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .empty-message {
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+</style>
