@@ -40,6 +40,12 @@ class PlayerComp {
     )
       .clone(true)
       .find('.skill');
+
+    this.slotTemplate = $(
+      document.getElementById('hunter-slot-template').content
+    )
+      .clone(true)
+      .find('.hunter-slot');
   }
 
   bindEvents() {
@@ -98,17 +104,11 @@ class PlayerComp {
         this.removeSlot(slot);
       });
 
-    const title = $('<span>').text(slot.displayName).css('margin-left', '1em');
+    let slotContainer = this.slotTemplate.clone(true, true);
 
-    const headerElement = $('<div>')
-      .css('display', 'flex')
-      .css('justify-content', 'space-between')
-      .css('width', '100%');
-
-    headerElement.append(title);
-    if (!slot.isOwner) headerElement.append(removeButtonElement);
-
-    slotElement.append(headerElement);
+    slotElement.append(slotContainer);
+    this.updateSlotDisplay(slotContainer, slot);
+    if (!slot.isOwner) slotElement.prepend(removeButtonElement);
     return slotElement;
   }
 
@@ -212,6 +212,145 @@ class PlayerComp {
       container.trigger('change');
     });
   }
+
+  updateSlotDisplay(slotContainer, slotData) {
+    // Basic slot info
+    slotContainer
+      .find('.slot-display-name')
+      .text(slotData.displayName || 'Hunter Slot');
+    slotContainer
+      .find('.slot-config-type')
+      .text(slotData.configurationType + ' Configuration');
+
+    // Show/hide owner badge
+    const ownerBadge = slotContainer.find('.slot-owner-badge');
+    ownerBadge.css('display', slotData.isOwner ? 'inline-block' : 'none');
+
+    // Loadout info
+    slotContainer
+      .find('.loadout-name')
+      .text(slotData.loadoutName || 'Custom Loadout');
+    slotContainer
+      .find('.loadout-description')
+      .text(slotData.loadoutDescription || 'Custom hunter configuration.');
+
+    // Roles
+    const rolesList = slotContainer.find('.roles-list');
+    rolesList.empty();
+    if (slotData.roles?.length) {
+      slotData.roles.forEach((role) => {
+        console.log('role', role);
+        $('<li>')
+          .addClass(`role-tag role-${role}`)
+          .text(role)
+          .appendTo(rolesList);
+      });
+    } else {
+      rolesList.html('<li class="empty-message">Any role</li>');
+    }
+
+    // Weapons
+    const weaponList = slotContainer.find('.weapon-list');
+    weaponList.empty();
+    if (slotData.weaponTypes?.length) {
+      slotData.weaponTypes.forEach((weapon) => {
+        const weaponType = getWeaponType(weapon);
+        if (weaponType) {
+          $('<li>')
+            .addClass('weapon-tag')
+            .html(
+              `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+                ' ',
+                '_'
+              )}.png" alt="${weaponType.name}" class="weapon-icon">
+                  <span>${weaponType.name}</span>`
+            )
+            .appendTo(weaponList);
+        } else {
+          $('<li>')
+            .addClass('weapon-tag')
+            .html(`<span>${weapon}</span>`)
+            .appendTo(weaponList);
+        }
+      });
+    } else {
+      weaponList.html('<li class="empty-message">Any weapon type</li>');
+    }
+
+    // Attributes
+    const attributeList = slotContainer.find('.attribute-list');
+    attributeList.empty();
+    if (
+      slotData.weaponAttributes?.length &&
+      slotData.weaponAttributes[0] !== 'ANY'
+    ) {
+      slotData.weaponAttributes.forEach((attr) => {
+        const weaponAttr = getWeaponAttribute(attr);
+        $('<li>')
+          .addClass('attribute-tag')
+          .html(
+            `<img src="icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">
+                  <span>${weaponAttr.name}</span>`
+          )
+          .appendTo(attributeList);
+      });
+    } else {
+      attributeList.html('<li class="empty-message">Any element/status</li>');
+    }
+
+    // Skills
+    const skillsList = slotContainer.find('.skills-list');
+    skillsList.empty();
+    if (slotData.skills?.length) {
+      slotData.skills.forEach((skill) => {
+        const skillItem = $('<li>').addClass('skill-item');
+        const skillInfo = getSkillInfo(skill.id);
+        if (skillInfo) {
+          const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
+          const maxLevel = skillInfo?.max_level || 7;
+
+          const skillNameEl = $('<div>').addClass('skill-name')
+            .html(`<img src="icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
+                  <span>${skillInfo.name}</span>`);
+
+          const skillLevelEl = $('<div>').addClass('skill-level');
+          for (let i = 0; i < maxLevel; i++) {
+            $('<div>')
+              .addClass(
+                i < skill.min_level
+                  ? 'level-circle'
+                  : 'level-circle level-empty'
+              )
+              .appendTo(skillLevelEl);
+          }
+
+          skillItem.append(skillNameEl, skillLevelEl).appendTo(skillsList);
+        } else skillItem.append('Any Skill').appendTo(skillsList);
+      });
+    } else {
+      skillsList.html(
+        '<li class="empty-message">No specific skills required</li>'
+      );
+    }
+
+    // Monster part focus
+    const partFocusList = slotContainer.find('.part-focus-list');
+    partFocusList.empty();
+    if (slotData.monsterPartFocus?.length) {
+      slotData.monsterPartFocus.forEach((part) => {
+        $('<li>').addClass('part-focus-tag').text(part).appendTo(partFocusList);
+      });
+    } else {
+      partFocusList.html(
+        '<li class="empty-message">No specific part focus required</li>'
+      );
+    }
+
+    // Notes
+    slotContainer
+      .find('.notes-content')
+      .text(slotData.roleNotes || 'No additional notes for this slot.');
+  }
 }
 
 function initializeSelect(selectElement, placeholder, formatFunction) {
@@ -279,8 +418,8 @@ function processFormData(formData) {
 
       if (value && levelValue) {
         slotData.skills.push({
-          skillName: value,
-          skillLevel: parseInt(levelValue, 10),
+          id: value,
+          min_level: parseInt(levelValue, 10),
         });
       }
     }
@@ -301,6 +440,11 @@ function processFormData(formData) {
 
   return slotData;
 }
+
+const getSkillInfo = (id) => skillsList.find((s) => s.id === id);
+const getWeaponType = (id) => weaponTypesList.find((w) => w.id === id);
+const getWeaponAttribute = (id) =>
+  weaponAttributesList.find((w) => w.id === id);
 
 class Slot {
   /**
@@ -333,16 +477,12 @@ class Slot {
     // 'Custom': Indicates a 'Flexible' or 'RoleLoadout' that has been modified.
     this.configurationType = 'Flexible';
 
-    // --- Loadout Details ---
-    // These fields store the specific requirements or preferences for the hunter in this slot.
-    // Their values are determined by the configurationType and user input.
-
     // General Loadout Information
     this.loadoutName = loadoutName; // Name of the applied loadout configuration (e.g., "Flexible", "Vaal Hazak Support", "Custom Bow Build").
     // If a RoleLoadout is chosen, this would be its name. If modified, becomes "Custom Loadout".
     this.loadoutDescription = loadoutDescription; // Description of the current loadout configuration.
 
-    this.roles = skills; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
+    this.roles = roles; // Array of selected roles (e.g., ['DPS', 'TANK'], or ['Any'] as default for Flexible). From "checkboxes for each role, multiple selection".
     this.weaponTypes = weaponTypes; // Array of selected weapon types (e.g., ['Sword', 'Bow'], or ['Any'] as default for Flexible).
     this.weaponAttributes = weaponAttributes; // Array of selected elements or ailments (e.g., ['Fire', 'Poison', 'KO']).
 
