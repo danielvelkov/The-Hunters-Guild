@@ -35,8 +35,16 @@
 }
 
 main {
-  padding-left: 5vmax;
-  padding-right: 5vmax;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20vmax;
+  padding-right: 20vmax;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    padding: 0;
+  }
 }
 
 .flex-row {
