@@ -425,17 +425,30 @@ function processFormData(formData) {
     }
   }
 
+  // // If no specific selections were made, set to ANY
+  // if (slotData.roles.length === 0) slotData.roles = ['ANY'];
+  // if (slotData.weaponTypes.length === 0) slotData.weaponTypes = ['ANY'];
+  // if (slotData.weaponAttributes.length === 0)
+  //   slotData.weaponAttributes = ['ANY'];
+  // if (slotData.skills.length === 0) slotData.skills = ['ANY'];
+
   // Set configuration type based on selections
   if (
-    slotData.weaponTypes.length > 0 ||
-    slotData.weaponAttributes.length > 0 ||
-    slotData.skills.length > 0 ||
-    slotData.roles.length > 0
+    (slotData.weaponTypes.length > 0 && slotData.weaponTypes[0] !== 'ANY') ||
+    (slotData.weaponAttributes.length > 0 &&
+      slotData.weaponAttributes[0] !== 'ANY') ||
+    (slotData.skills.length > 0 && slotData.skills[0] !== 'ANY') ||
+    (slotData.roles.length > 0 && slotData.roles[0] !== 'ANY')
   ) {
     slotData.configurationType = 'Advanced';
     slotData.loadoutName = 'Custom Loadout';
     slotData.loadoutDescription =
       'This loadout has specific requirements for joining.';
+  } else {
+    slotData.configurationType = 'Flexible';
+    slotData.loadoutName = 'Flexible Loadout';
+    slotData.loadoutDescription =
+      'Any skills and equipment are permitted for this slot.';
   }
 
   return slotData;
