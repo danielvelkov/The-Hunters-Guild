@@ -234,9 +234,8 @@ class PlayerComp {
     // Roles
     const rolesList = slotContainer.find('.roles-list');
     rolesList.empty();
-    if (slotData.roles?.length) {
+    if (slotData.roles?.length && slotData.roles[0] !== 'ANY') {
       slotData.roles.forEach((role) => {
-        console.log('role', role);
         $('<li>')
           .addClass(`role-tag role-${role}`)
           .text(role)
@@ -249,7 +248,7 @@ class PlayerComp {
     // Weapons
     const weaponList = slotContainer.find('.weapon-list');
     weaponList.empty();
-    if (slotData.weaponTypes?.length) {
+    if (slotData.weaponTypes?.length && slotData.weaponTypes[0] !== 'ANY') {
       slotData.weaponTypes.forEach((weapon) => {
         const weaponType = getWeaponType(weapon);
         if (weaponType) {
@@ -414,10 +413,11 @@ function processFormData(formData) {
       const levelValue = formData.get(levelKey);
 
       if (value && levelValue) {
-        slotData.skills.push({
-          id: value,
-          min_level: parseInt(levelValue, 10),
-        });
+        if (!slotData.skills.find((s) => s.id === value))
+          slotData.skills.push({
+            id: value,
+            min_level: parseInt(levelValue, 10),
+          });
       }
     }
   }
