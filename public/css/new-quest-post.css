@@ -292,3 +292,7 @@ input[type='range'] + output {
   border-radius: 1em;
   padding: 0.5em 1.5em;
 }
+
+.config-tabs {
+  margin-top: 16px;
+}

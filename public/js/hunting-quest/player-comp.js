@@ -114,9 +114,6 @@ class PlayerComp {
 
   createSlotConfigElement(slot) {
     this.configureSlotSection.find('.config-tabs').remove();
-    this.configureSlotSection
-      .find('legend')
-      .text('Configure ' + slot.displayName);
 
     const tabs = this.slotConfigFormTemplate.clone(true, true);
 

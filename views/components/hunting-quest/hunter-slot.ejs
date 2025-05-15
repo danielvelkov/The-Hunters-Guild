@@ -32,16 +32,17 @@
         </div>
 
         <div class="detail-section weapons-section">
-          <h3>Weapon Requirements</h3>
+          <h3>Weapon Type</h3>
           <ul class="weapon-list">
             <!-- Weapons will be inserted here -->
           </ul>
         </div>
 
         <div class="detail-section">
-          <h3>Required Skills</h3>
-          <ul class="skills-list">
-            <!-- Skills will be inserted here -->
+          <h3>Monster Part Focus</h3>
+          <ul class="part-focus-list">
+            <!-- Part focus will be inserted here -->
+            <li class="empty-message">No specific part focus required</li>
           </ul>
         </div>
 
@@ -53,10 +54,9 @@
         </div>
 
         <div class="detail-section">
-          <h3>Monster Part Focus</h3>
-          <ul class="part-focus-list">
-            <!-- Part focus will be inserted here -->
-            <li class="empty-message">No specific part focus required</li>
+          <h3>Required Skills</h3>
+          <ul class="skills-list">
+            <!-- Skills will be inserted here -->
           </ul>
         </div>
 
@@ -123,11 +123,11 @@
   }
 
   .slot-content {
-    padding: 20px;
+    padding: 1.5em;
   }
 
   .loadout-info {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .loadout-name {
@@ -146,11 +146,11 @@
   .slot-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
   }
 
   .detail-section {
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
   }
 
   .detail-section h3 {
@@ -159,6 +159,10 @@
     border-bottom: 1px solid var(--border-color);
     color: var(--primary-color);
     font-size: 1rem;
+  }
+
+  .detail-section:has(.skills-list) {
+    grid-column: span 2;
   }
 
   /* Roles styling */
@@ -202,7 +206,6 @@
   .weapons-section {
     display: flex;
     flex-direction: column;
-    gap: 10px;
   }
 
   .weapon-list,
@@ -246,6 +249,7 @@
 
   /* Skills styling */
   .skills-list {
+    max-width: max-content;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -257,11 +261,13 @@
   .skill-item {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    gap: 2em;
     background-color: var(--skill-bg);
     padding: 8px 12px;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -297,7 +303,7 @@
   .notes-section {
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 15px;
+    padding: 1em;
     border-radius: 4px;
     border: 1px solid var(--border-color);
   }
@@ -305,14 +311,20 @@
   .notes-title {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
+    gap: 0.5em;
+    margin-bottom: 1em;
+  }
+
+  .notes-title > h3 {
+    margin: 0;
+    padding: 0;
   }
 
   .notes-icon {
     width: 16px;
     height: 16px;
     opacity: 0.7;
+    margin-bottom: 3px;
   }
 
   .notes-content {
