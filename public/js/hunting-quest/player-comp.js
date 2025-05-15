@@ -1,5 +1,5 @@
 import { skillsList, weaponAttributesList, weaponTypesList } from './create.js';
-import { createObservableArray } from '../common.js';
+import { guidGenerator } from '../common.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -12,7 +12,7 @@ class PlayerComp {
     this.bindEvents();
     this.addSlot(
       new Slot({
-        displayName: 'Custom Slot #' + this.playerSlots.length,
+        displayName: 'Custom Slot #' + guidGenerator().substring(0, 4),
         isOwner: true,
       })
     );
@@ -51,7 +51,10 @@ class PlayerComp {
   bindEvents() {
     this.addSlotTemplate.on('click', () => {
       this.addSlot(
-        new Slot({ displayName: 'Custom Slot #' + this.playerSlots.length })
+        new Slot({
+          displayName: 'Custom Slot #' + guidGenerator().substring(0, 4),
+          isOwner: false,
+        })
       );
     });
   }
@@ -220,7 +223,7 @@ class PlayerComp {
       .text(slotData.configurationType + ' Configuration');
 
     // Show/hide owner badge
-    const ownerBadge = slotContainer.find('.slot-owner-badge');
+    const ownerBadge = slotContainer.find('.slot-owner');
     ownerBadge.css('display', slotData.isOwner ? 'inline-block' : 'none');
 
     // Loadout info

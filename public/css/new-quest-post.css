@@ -250,6 +250,7 @@ input[type='range'] + output {
   border-style: dotted;
   align-items: center;
   justify-content: center;
+  margin-top: 0.5em;
 }
 
 .add-slot {
@@ -268,12 +269,7 @@ input[type='range'] + output {
 }
 
 .player-slots-list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  row-gap: 0.5em;
   padding: 0;
-  list-style-type: none;
 }
 
 .remove-button {
@@ -295,4 +291,37 @@ input[type='range'] + output {
 
 .config-tabs {
   margin-top: 16px;
+}
+
+.ui-state-active,
+.ui-accordion-header,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  border: 1px solid var(--border-color) !important;
+  background: inherit !important;
+  color: inherit !important;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  background: inherit !important;
+  color: inherit !important;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: inherit !important;
+  border: 1px solid var(--border-color);
+}
+
+.ui-widget-content {
+  background: inherit !important;
+  color: inherit !important;
+  border: none !important;
 }

@@ -32,7 +32,7 @@ export const getDmgColor = (value, baseColor) => {
   };
 
   // Get the RGB values based on baseColor
-  let color = colors[baseColor.toLowerCase()] || []; 
+  let color = colors[baseColor.toLowerCase()] || [];
 
   return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
 };
@@ -58,3 +58,23 @@ export const getQuestCategoryStyle = (category) => {
       return '';
   }
 };
+
+export function guidGenerator() {
+  var S4 = function () {
+    return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+  };
+  return (
+    S4() +
+    S4() +
+    '-' +
+    S4() +
+    '-' +
+    S4() +
+    '-' +
+    S4() +
+    '-' +
+    S4() +
+    S4() +
+    S4()
+  );
+}
