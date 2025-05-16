@@ -19,7 +19,6 @@ class PlayerComp {
 
   cacheDOM() {
     this.playerSlotsList = $('.player-slots-list').accordion({
-      autoHeight: false,
       collapsible: true,
       animate: false,
       header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
@@ -424,8 +423,15 @@ class PlayerComp {
     skillsList.empty();
     if (slotData.skills?.length && slotData.skills[0] !== 'ANY') {
       slotData.skills.forEach((skill) => {
-        const skillItem = $('<li>').addClass('skill-item');
+        const skillItem = $('<li>')
+          .addClass('skill-item')
+          .tooltip({
+            content: function () {
+              return $(this).prop('title');
+            },
+          });
         const skillInfo = getSkillInfo(skill.id);
+        skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
         if (skillInfo) {
           const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
           const maxLevel = skillInfo?.max_level || 7;
@@ -499,6 +505,20 @@ function formatOption(item, iconType, folderName) {
         }</b>
       </span>
     </span>`);
+}
+
+function formatSkillInfoTooltip(skill) {
+  return `<div class="tooltip skill-info-tooltip">
+     <img src="icons/Skill Icons/${skill.icon}.png" alt="${
+    skill.name
+  }" height="50">
+     <h3 style="margin:0;padding:0em;">${skill.name}</h3> 
+     <span style="opacity:0.9; font-size:0.9rem;">${skill.category}</span>
+     <ul style="padding-left:1em">
+      ${skill.level_descriptions.map((d) => `<li>${d}</li>`).join('')}
+     </ul>
+     <p style="font-size: 0.9rem;"><i>${skill.description}</i></p>
+  </div>`;
 }
 
 function processFormData(formData, originalSlot) {
