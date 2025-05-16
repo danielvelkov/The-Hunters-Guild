@@ -21,6 +21,7 @@ class PlayerComp {
     this.playerSlotsList = $('.player-slots-list').accordion({
       autoHeight: false,
       collapsible: true,
+      animate: false,
       header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
     });
     this.configureSlotSection = $('#configure-slot');
