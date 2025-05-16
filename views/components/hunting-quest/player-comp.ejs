@@ -1,12 +1,13 @@
 <fieldset id="player-comp">
   <legend>Party Composition</legend>
-  <ul class="player-slots-list"></ul>
+  <div class="player-slots-list"></div>
 </fieldset>
 <fieldset id="configure-slot" style="flex: 1">
   <legend>Configure slot</legend>
 </fieldset>
 
 <template id="add-player-slot-template">
+  <h3 class="ignore"></h3>
   <div class="player-slot open-slot">
     <div class="add-slot">
       <button id="add-player">+</button>
@@ -70,7 +71,6 @@
         <!-- ... slot fields, loadout config. Auto updated on change -->
         <label for="roles">Role:</label>
         <select id="roles" name="roles[]" multiple="multiple">
-          <option value="ANY">-- Flexible --</option>
           <option value="DPS">DPS</option>
           <option value="Tank">Tank</option>
           <option value="Healer">Healer</option>
@@ -78,7 +78,6 @@
 
         <label for="weapon-types">Weapon type:</label>
         <select id="weapon-types" name="weapon-types[]" multiple="multiple">
-          <option value="ANY">-- Any --</option>
           <% if (weaponTypes) { %> <% weaponTypes.forEach((type) => { %>
           <option
             data-weapon-icon="<%= type.name.replaceAll(' ','_') %>"
@@ -95,7 +94,6 @@
           name="weapon-attributes[]"
           multiple="multiple"
         >
-          <option value="ANY">-- Any --</option>
           <% if (weaponAttributes) { weaponAttributes.forEach((attribute) => {
           %>
           <option
@@ -124,7 +122,7 @@
 <template id="skill-template">
   <div class="flex-row skill" style="align-items: center">
     <select class="skill-dropdown">
-      <option value="ANY">-- Any --</option>
+      <option value="ANY">Any</option>
       <% if (skills) { %> <% skills.forEach((skill)=> { %>
       <option
         data-skill-icon="<%= skill.icon %>"
