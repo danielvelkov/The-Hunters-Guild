@@ -10,7 +10,7 @@ class PlayerComp {
     this.bindEvents();
     this.addSlot(
       new Slot({
-        displayName: 'Custom Slot #' + guidGenerator().substring(0, 4),
+        displayName: 'Host',
         isOwner: true,
       })
     );
@@ -25,25 +25,25 @@ class PlayerComp {
     });
     this.configureSlotSection = $('#configure-slot');
 
-    this.addSlotTemplate = $(
+    this.addPlayerSlotTemplate = $(
       document
         .getElementById('add-player-slot-template')
         .content.cloneNode(true)
     ).find('.player-slot.open-slot');
 
-    this.slotConfigFormTemplate = $(
+    this.slotConfigTabsTemplate = $(
       document
         .getElementById('player-configure-form-template')
         .content.cloneNode(true)
     ).find('.config-tabs');
 
-    this.skillSelectTemplate = $(
+    this.skillElementTemplate = $(
       document.getElementById('skill-template').content
     )
       .clone(true)
       .find('.skill');
 
-    this.slotTemplate = $(
+    this.playerSlotTemplate = $(
       document.getElementById('hunter-slot-template').content
     )
       .clone(true)
@@ -51,10 +51,11 @@ class PlayerComp {
   }
 
   bindEvents() {
-    this.addSlotTemplate.on('click', () => {
+    let nextSlotIndex = 1;
+    this.addPlayerSlotTemplate.on('click', () => {
       this.addSlot(
         new Slot({
-          displayName: 'Custom Slot #' + guidGenerator().substring(0, 4),
+          displayName: 'Custom Slot #' + nextSlotIndex++,
           isOwner: false,
         })
       );
@@ -67,10 +68,6 @@ class PlayerComp {
     });
 
     this.playerSlotsList.on('click', 'h3', (event) => {
-      // ok thats kinda cool
-      // index() shows which index the h3 is
-      // but because each h3 has a div for accordion content
-      // we divide by 2
       const slotIndex = $(event.target).index() / 2;
       this.setSelectedSlot(this.playerSlots[slotIndex]);
     });
@@ -90,13 +87,9 @@ class PlayerComp {
     if (index === -1) return;
 
     // Select prev slot if the removed one was selected
-    if (this.selectedSlot === slot) {
+    if (this.selectedSlot.id === slot.id) {
       const newSelectedIndex = Math.max(0, index - 1);
-      if (this.playerSlots.length > 1) {
-        this.setSelectedSlot(this.playerSlots[newSelectedIndex]);
-      } else {
-        this.selectedSlot = null;
-      }
+      this.setSelectedSlot(this.playerSlots[newSelectedIndex]);
     }
 
     this.playerSlots.splice(index, 1);
@@ -105,8 +98,7 @@ class PlayerComp {
 
   setSelectedSlot(slot) {
     this.selectedSlot = slot;
-    this.createSlotConfigElement(slot);
-    console.log('selected slot', this.playerSlots.indexOf(slot));
+    this.createSlotConfigTabs(slot);
   }
 
   // Complete rendering of all slots
@@ -121,7 +113,7 @@ class PlayerComp {
 
     // Add "add slot" button if slots are available
     if (this.isSlotAvailable) {
-      this.playerSlotsList.append(this.addSlotTemplate.clone(true));
+      this.playerSlotsList.append(this.addPlayerSlotTemplate.clone(true));
     }
 
     this.playerSlotsList.accordion('refresh');
@@ -145,22 +137,21 @@ class PlayerComp {
 
     // Create slot content
     let slotElement = $('<div>').addClass('player-slot');
-    let slotContainer = this.slotTemplate.clone(true);
+    let slotContainer = this.playerSlotTemplate.clone(true);
     slotElement.append(slotContainer);
 
     // Update slot display with current data
-    console.log('Creating slot element', slot.skills);
     this.updateSlotDisplay(slotContainer, slot);
 
     return [title, slotElement];
   }
 
-  createSlotConfigElement(slot) {
+  createSlotConfigTabs(slot) {
     if (!slot) return;
 
     this.configureSlotSection.find('.config-tabs').remove();
 
-    const tabs = this.slotConfigFormTemplate.clone(true);
+    const tabs = this.slotConfigTabsTemplate.clone(true);
 
     this.configureSlotSection.append(tabs);
 
@@ -169,7 +160,7 @@ class PlayerComp {
 
     const advancedTabForm = tabs.find('.advanced-form');
 
-    // Initialize selects with current values
+    // Initialize selects with current slot values
     this.initializeFormControls(advancedTabForm, slot);
 
     // Add event listeners for form changes
@@ -232,7 +223,7 @@ class PlayerComp {
     // Store slot's initial index for later reference
     const initialIndex = this.playerSlots.indexOf(slot);
     if (initialIndex === -1) {
-      console.log('Slot not found');
+      console.error('Slot not found.');
       return; // Slot not found in array
     }
 
@@ -242,9 +233,7 @@ class PlayerComp {
 
       // Always use the current slot from the array instead of the closure reference
       const currentSlot = this.playerSlots[initialIndex];
-      console.log('Current slot skills', currentSlot.skills); // only skills gone, everything
       const updatedSlot = processFormData(formData, currentSlot);
-      console.log('updated ', updatedSlot.skills); // skills gone
 
       // Update the slot in the array
       this.playerSlots[initialIndex] = updatedSlot;
@@ -266,7 +255,7 @@ class PlayerComp {
   }
 
   addSkillSelectElement(container, existingSkill = null) {
-    const skillElement = this.skillSelectTemplate.clone(true);
+    const skillElement = this.skillElementTemplate.clone(true);
     const skillFormGroup = $('<div>').addClass('skill-form-group');
 
     const skillSelect = skillElement.find('select[class="skill-dropdown"]');
@@ -294,10 +283,8 @@ class PlayerComp {
 
       const skillMaxLevel = data.element.dataset.skillMaxLevel;
       levelSelect.empty();
-      console.log({ skillMaxLevel });
 
       if (skillMaxLevel) {
-        console.log('adding skill level');
         levelSelect.prop('disabled', false);
         [...new Array(+skillMaxLevel)].forEach((_, i) => {
           levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
@@ -316,13 +303,28 @@ class PlayerComp {
 
     // Set existing skill if provided
     if (existingSkill) {
-      console.log('Existing skill', existingSkill);
-      skillSelect.val(existingSkill.id).trigger('change');
+      setTimeout(() => {
+        skillSelect
+          .val(existingSkill.id)
+          .trigger('change')
+          .trigger({
+            type: 'select2:select',
+            params: {
+              data: {
+                id: existingSkill.id,
+                element: {
+                  dataset: {
+                    skillMaxLevel: existingSkill.max_level,
+                  },
+                },
+              },
+            },
+          });
+      }, 100);
 
-      // Need to wait for the levels to be populated
       setTimeout(() => {
         levelSelect.val(+existingSkill.min_level).trigger('change');
-      }, 100);
+      }, 200);
     }
 
     // Remove button handler
@@ -419,7 +421,6 @@ class PlayerComp {
     // Skills
     const skillsList = slotContainer.find('.skills-list');
     skillsList.empty();
-    console.log('render Skills', slotData.skills);
     if (slotData.skills?.length && slotData.skills[0] !== 'ANY') {
       slotData.skills.forEach((skill) => {
         const skillItem = $('<li>').addClass('skill-item');
@@ -476,7 +477,7 @@ class PlayerComp {
 }
 
 function initializeSelect(selectElement, placeholder, formatFunction) {
-  return selectElement.select2({
+  selectElement.select2({
     placeholder: placeholder,
     allowClear: true,
     templateResult: formatFunction,
@@ -502,6 +503,7 @@ function formatOption(item, iconType, folderName) {
 function processFormData(formData, originalSlot) {
   // Create a new slot object based on the original // this makes every field other than skills work
   const slotData = new Slot({
+    id: originalSlot.id,
     displayName: originalSlot.displayName,
     isOwner: originalSlot.isOwner,
     configurationType: 'Advanced',
@@ -510,7 +512,7 @@ function processFormData(formData, originalSlot) {
     roles: [],
     weaponTypes: [],
     weaponAttributes: [],
-    skills: originalSlot.skills || ['ANY'],
+    skills: [],
     monsterPartFocus: originalSlot.monsterPartFocus || ['ANY'],
     roleNotes: '',
   });
@@ -545,35 +547,28 @@ function processFormData(formData, originalSlot) {
       const levelValue = formData.get(levelKey);
 
       if (value && levelValue) {
+        // skill doesn't exist -> add it
         if (!slotData.skills.find((s) => s.id === value))
           slotData.skills.push({
             id: value,
             min_level: parseInt(levelValue, 10),
+            max_level: parseInt(getSkillInfo(value).max_level),
           });
+        // update min level
+        else
+          slotData.skills[
+            slotData.skills.indexOf(slotData.skills.find((s) => s.id === value))
+          ].min_level = parseInt(levelValue, 10);
       }
     }
   }
 
   // // If no specific selections were made, set to ANY
   if (slotData.roles.length === 0) slotData.roles = ['ANY'];
-  else if (slotData.roles.length > 1 && slotData.roles[0] === 'ANY')
-    slotData.roles.shift();
-
   if (slotData.weaponTypes.length === 0) slotData.weaponTypes = ['ANY'];
-  else if (slotData.weaponTypes.length > 1 && slotData.weaponTypes[0] === 'ANY')
-    slotData.weaponTypes.shift();
-
   if (slotData.weaponAttributes.length === 0)
     slotData.weaponAttributes = ['ANY'];
-  else if (
-    slotData.weaponAttributes.length > 1 &&
-    slotData.weaponAttributes[0] === 'ANY'
-  )
-    slotData.weaponAttributes.shift();
-
   if (slotData.skills.length === 0) slotData.skills = ['ANY'];
-  else if (slotData.skills.length > 1 && slotData.skills[0] === 'ANY')
-    slotData.skills.shift();
 
   // Set configuration type based on selections
   if (
@@ -609,6 +604,7 @@ class Slot {
    * @param {boolean} canEdit - Flag indicating if this slot can be edited.
    */
   constructor({
+    id = guidGenerator().substring(0, 4),
     displayName,
     isOwner = false,
     configurationType = 'Flexible',
@@ -621,6 +617,8 @@ class Slot {
     monsterPartFocus = ['ANY'],
     roleNotes = '',
   }) {
+    // Generate ID
+    this.id = id;
     // --- Slot Identification ---
     this.displayName = displayName;
     this.isOwner = isOwner;
