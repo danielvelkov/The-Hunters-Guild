@@ -64,6 +64,7 @@ $('#add-monster-button').trigger('click');
 setTimeout(() => {
   $('#monster-select-0')
     .val('EM0001_00_0')
+    .trigger('change')
     .trigger({
       type: 'select2:select',
       params: {
