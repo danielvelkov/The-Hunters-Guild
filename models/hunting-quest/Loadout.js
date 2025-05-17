@@ -1,6 +1,6 @@
-import Skill from '../Skill.js';
-import WeaponAttribute from '../WeaponAttribute.js';
-import WeaponType from '../WeaponType.js';
+const Skill = require('../Skill.js');
+const WeaponAttribute = require('../WeaponAttribute.js');
+const WeaponType = require('../WeaponType.js');
 
 /** Class representing info about a loadout. */
 class Loadout {
@@ -29,7 +29,7 @@ class LoadoutRole {
   static DPS = new LoadoutRole('DPS', 'Tons of damage.');
   static STATUS = new LoadoutRole('Status', 'Applies status.');
   static TANK = new LoadoutRole('Tank', 'Can take a hit.');
-  static HEALER = new LoadoutRole('Healer', 'Heals teammates.');
+  static SUPPORT = new LoadoutRole('Support', 'Heals/buffs teammates.');
 
   constructor(name, summary) {
     this.name = name;
@@ -80,4 +80,8 @@ class LoadoutSkill extends Skill {
   }
 }
 
-module.exports = Loadout;
+module.exports = {
+  Loadout,
+  LoadoutRole,
+  LoadoutSkill,
+};
