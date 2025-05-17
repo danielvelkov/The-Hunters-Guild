@@ -225,3 +225,11 @@ input[type='range'] {
   border-radius: 20px;
   box-shadow: 0 0 7px black;
 }
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
