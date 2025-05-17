@@ -299,7 +299,10 @@ input[type='range'] + output {
 
 .skill > .remove-skill-button {
   align-self: stretch;
-  flex: 0.5;
+}
+
+.skill > .select2 {
+  flex: 1;
 }
 
 .ui-state-active,

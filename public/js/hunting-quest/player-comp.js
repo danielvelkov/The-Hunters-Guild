@@ -569,14 +569,14 @@ function processFormData(formData, originalSlot) {
 
       if (value && levelValue) {
         // skill doesn't exist -> add it
-        if (!slotData.skills.find((s) => s.id === value))
+        if (!slotData.skills.find((s) => s.id === value) && getSkillInfo(value))
           slotData.skills.push({
             id: value,
             min_level: parseInt(levelValue, 10),
             max_level: parseInt(getSkillInfo(value).max_level),
           });
         // update min level
-        else
+        else if (getSkillInfo(value))
           slotData.skills[
             slotData.skills.indexOf(slotData.skills.find((s) => s.id === value))
           ].min_level = parseInt(levelValue, 10);
