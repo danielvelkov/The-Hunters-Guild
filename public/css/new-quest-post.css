@@ -272,10 +272,15 @@ input[type='range'] + output {
   padding: 0;
 }
 
+.selected-slot > .remove-button {
+  margin: 0;
+  border: 1px solid var(--secondary-color);
+}
+
 .remove-button {
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: -1px;
+  right: -0.5%;
   border: none;
   border-radius: 0;
   border-top-right-radius: 5px;
@@ -291,6 +296,20 @@ input[type='range'] + output {
 }
 
 .config-tabs {
+}
+
+.loadouts-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  padding: 0;
+  overflow: scroll;
+  max-height: 60vh;
+}
+
+.loadout-item {
+  border: 1px solid var(--border-color);
+  border-radius: 0.5em;
 }
 
 .skill {
@@ -325,6 +344,12 @@ html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   background: inherit !important;
   color: inherit !important;
+}
+
+.ui-accordion-header.ui-state-active {
+  background-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  font-weight: bold;
 }
 
 .ui-accordion .ui-accordion-content {

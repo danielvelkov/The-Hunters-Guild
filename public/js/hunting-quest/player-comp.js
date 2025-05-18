@@ -1,4 +1,9 @@
-import { skillsList, weaponAttributesList, weaponTypesList } from './create.js';
+import {
+  skillsList,
+  weaponAttributesList,
+  weaponTypesList,
+  systemLoadoutsList,
+} from './create.js';
 import { guidGenerator } from '../common.js';
 
 class PlayerComp {
@@ -47,6 +52,12 @@ class PlayerComp {
     )
       .clone(true)
       .find('.hunter-slot');
+
+    this.loadoutElementTemplate = $(
+      document.getElementById('loadout-template').content
+    )
+      .clone(true)
+      .find('.loadout-item');
   }
 
   bindEvents() {
@@ -100,6 +111,11 @@ class PlayerComp {
     this.createSlotConfigTabs(slot);
     this.render();
   }
+
+  getHunterSlotContainer(index) {
+    return this.playerSlotsList.find(
+      `> h3:eq(${index}) + .player-slot > .hunter-slot`
+    );
   }
 
   // Complete rendering of all slots
@@ -169,13 +185,31 @@ class PlayerComp {
     // Initialize jQuery UI tabs
     tabs.tabs();
 
+    const loadoutsTab = tabs.find('#tabs-loadouts');
     const customTabForm = tabs.find('.custom-tab-form');
+
+    this.initializeLoadoutsTab(loadoutsTab);
 
     // Initialize selects with current slot values
     this.initializeCustomTabFormControls(customTabForm, slot);
 
     // Add event listeners for form changes
     this.bindCustomTabFormEvents(customTabForm, slot);
+  }
+
+  initializeLoadoutsTab(container) {
+    const loadoutsList = container.find('.loadouts-list');
+    const searchBar = container.find('.loadouts-search');
+    let filter = '';
+    let searchTimer;
+    searchBar.on('change', (e) => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        console.log('Searchbar:', e.target.value);
+      }, 500);
+    });
+
+    this.updateLoadoutsDisplay(loadoutsList, filter);
   }
 
   initializeCustomTabFormControls(form, slot) {
@@ -492,6 +526,38 @@ class PlayerComp {
       .find('.notes-content')
       .text(slotData.roleNotes || 'No additional notes for this slot.');
   }
+
+  updateLoadoutsDisplay(loadoutsContainer, filter) {
+    console.log('updating loadouts');
+    console.log('Filter:', filter);
+    const loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
+      index: i,
+      ...obj,
+    }));
+
+    loadoutsContainer.empty();
+    loadoutsWithIndex.forEach((loadout) =>
+      loadoutsContainer.append(this.createLoadoutElement(loadout))
+    );
+  }
+
+  createLoadoutElement(loadout) {
+    console.log('Loadout element');
+    const loadoutElement = this.loadoutElementTemplate.clone(true);
+    loadoutElement.find('.loadout-title').text(loadout.name);
+    loadoutElement.on('click', () => {
+      console.log('element clicked');
+      this.selectedSlot.initFromLoadout(loadout);
+      this.updateSlotDisplay(
+        this.getHunterSlotContainer(
+          this.playerSlots.indexOf(this.selectedSlot)
+        ),
+        this.selectedSlot
+      );
+      this.createSlotConfigTabs(this.selectedSlot);
+    });
+    return loadoutElement;
+  }
 }
 
 function initializeSelect(selectElement, placeholder, formatFunction) {
@@ -543,7 +609,7 @@ function processFormData(formData, originalSlot) {
     displayName: originalSlot.displayName,
     isOwner: originalSlot.isOwner,
     configurationType: 'Advanced',
-    loadoutName: 'Custom Loadout',
+    loadoutName: originalSlot.loadoutName,
     loadoutDescription: 'This loadout has specific requirements for joining.',
     roles: [],
     weaponTypes: [],
@@ -615,8 +681,9 @@ function processFormData(formData, originalSlot) {
     (slotData.roles.length > 0 && slotData.roles[0] !== 'ANY')
   ) {
     slotData.configurationType = 'Advanced';
-    slotData.loadoutName = 'Custom Loadout';
+    slotData.loadoutName = originalSlot.loadoutName || 'Custom Loadout';
     slotData.loadoutDescription =
+      originalSlot.loadoutDescription ||
       'This loadout has specific requirements for joining.';
   } else {
     slotData.configurationType = 'Flexible';
@@ -672,6 +739,15 @@ class Slot {
     this.skills = skills;
     this.monsterPartFocus = monsterPartFocus;
     this.roleNotes = roleNotes;
+  }
+
+  initFromLoadout(loadout) {
+    this.loadoutName = loadout.name;
+    this.loadoutDescription = loadout.description;
+    this.roles = loadout.roles.map((r) => r.name);
+    this.weaponTypes = loadout.weapon_types.map((wp) => wp.id.toString());
+    this.weaponAttributes = loadout.weapon_attr.map((wa) => wa.id.toString());
+    this.skills = loadout.skills;
   }
 }
 
