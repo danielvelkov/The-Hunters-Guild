@@ -19,7 +19,6 @@ class PlayerComp {
 
   cacheDOM() {
     this.playerSlotsList = $('.player-slots-list').accordion({
-      collapsible: true,
       animate: false,
       header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
     });
@@ -67,7 +66,7 @@ class PlayerComp {
       this.removeSlot(this.playerSlots[slotIndex]);
     });
 
-    this.playerSlotsList.on('click', 'h3', (event) => {
+    this.playerSlotsList.on('click', 'h3.accordion-title', (event) => {
       const slotIndex = $(event.target).index() / 2;
       this.setSelectedSlot(this.playerSlots[slotIndex]);
     });
@@ -99,6 +98,8 @@ class PlayerComp {
   setSelectedSlot(slot) {
     this.selectedSlot = slot;
     this.createSlotConfigTabs(slot);
+    this.render();
+  }
   }
 
   // Complete rendering of all slots
@@ -119,13 +120,23 @@ class PlayerComp {
     this.playerSlotsList.accordion('refresh');
 
     // If no slot is selected, select the first one
-    if (!this.selectedSlot) {
+    if (this.playerSlots.length > 0 && !this.selectedSlot) {
       this.setSelectedSlot(this.playerSlots[0]);
     }
+
+    this.playerSlotsList.accordion(
+      'option',
+      'active',
+      this.playerSlots.indexOf(this.selectedSlot)
+    );
   }
 
   createSlotElementAccordion(slot) {
-    let title = $('<h3>').css('position', 'relative').text(slot.displayName);
+    let title = $('<h3>')
+      .addClass('accordion-title')
+      .addClass(slot === this.selectedSlot ? 'selected-slot' : '')
+      .css('position', 'relative')
+      .text(slot.displayName);
 
     // Add remove button if not the owner slot
     if (!slot.isOwner) {
@@ -508,6 +519,10 @@ function formatOption(item, iconType, folderName) {
 }
 
 function formatSkillInfoTooltip(skill) {
+  if (!skill) {
+    console.error('No skill provided');
+    return '';
+  }
   return `<div class="tooltip skill-info-tooltip">
      <img src="icons/Skill Icons/${skill.icon}.png" alt="${
     skill.name
