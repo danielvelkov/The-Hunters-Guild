@@ -544,9 +544,102 @@ class PlayerComp {
   createLoadoutElement(loadout) {
     console.log('Loadout element');
     const loadoutElement = this.loadoutElementTemplate.clone(true);
-    loadoutElement.find('.loadout-title').text(loadout.name);
+
+    loadoutElement.find('.loadout-title').text(loadout.name || 'Custom Loadout');
+
+    loadoutElement
+      .find('.loadout-description')
+      .text(loadout.description || 'No description available.');
+
+    // Weapons
+    const weaponList = loadoutElement.find('.weapon-list');
+    weaponList.empty();
+
+    if (loadout.weapon_types?.length) {
+      loadout.weapon_types.forEach((weaponType) => {
+        if (weaponType) {
+          $('<li>')
+            .addClass('weapon-tag')
+            .html(
+              `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+                ' ',
+                '_'
+              )}.png" 
+                alt="${weaponType.name}" class="weapon-icon">
+            <span>${weaponType.name}</span>`
+            )
+            .appendTo(weaponList);
+        } else {
+          $('<li>')
+            .addClass('weapon-tag')
+            .html(`<span>${weapon}</span>`)
+            .appendTo(weaponList);
+        }
+      });
+    } else {
+      weaponList.html('<li class="empty-message">Any weapon</li>');
+    }
+
+    // Attributes
+    const attributeList = loadoutElement.find('.attribute-list');
+    attributeList.empty();
+
+    if (loadout.weapon_attr?.length) {
+      loadout.weapon_attr.forEach((weaponAttr) => {
+        if (weaponAttr?.icon)
+          $('<li>')
+            .addClass('attribute-tag')
+            .html(
+              `<img src="icons/Status Icons/${weaponAttr.icon}.png" 
+              alt="${weaponAttr.name}" class="attribute-icon">
+          <span>${weaponAttr.name}</span>`
+            )
+            .appendTo(attributeList);
+      });
+    } else {
+      attributeList.html('<li class="empty-message">Any</li>');
+    }
+
+    // Skills
+    const skillsList = loadoutElement.find('.skills-icons');
+    skillsList.empty();
+
+    if (loadout.skills?.length && loadout.skills[0] !== 'ANY') {
+      loadout.skills.forEach((skillInfo) => {
+        const skillItem = $('<li>')
+          .addClass('skill-item')
+          .tooltip({
+            content: function () {
+              return $(this).prop('title');
+            },
+          });
+
+        if (skillInfo) {
+          skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
+
+          const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
+
+          // Add skill icon
+          $('<img>')
+            .addClass('skill-icon')
+            .attr('src', `icons/Skill Icons/${iconSrc}`)
+            .attr('alt', skillInfo.name)
+            .appendTo(skillItem);
+
+          // Add level indicator
+          $('<span>')
+            .addClass('skill-level')
+            .text(skillInfo.min_level)
+            .appendTo(skillItem);
+
+          skillItem.appendTo(skillsList);
+        }
+      });
+    } else {
+      skillsList.html('<li class="empty-message">No specific skills</li>');
+    }
+
     loadoutElement.on('click', () => {
-      console.log('element clicked');
       this.selectedSlot.initFromLoadout(loadout);
       this.updateSlotDisplay(
         this.getHunterSlotContainer(
@@ -596,7 +689,15 @@ function formatSkillInfoTooltip(skill) {
      <h3 style="margin:0;padding:0em;">${skill.name}</h3> 
      <span style="opacity:0.9; font-size:0.9rem;">${skill.category}</span>
      <ul style="padding-left:1em">
-      ${skill.level_descriptions.map((d) => `<li>${d}</li>`).join('')}
+      ${skill.level_descriptions
+        .map((d, i) =>
+          skill.min_level
+            ? i + 1 === skill?.min_level
+              ? `<li><b>${d}</b></li>`
+              : `<li style="opacity:0.5">${d}</li>`
+            : `<li>${d}</li>`
+        )
+        .join('')}
      </ul>
      <p style="font-size: 0.9rem;"><i>${skill.description}</i></p>
   </div>`;
