@@ -299,8 +299,8 @@ input[type='range'] + output {
 }
 
 .loadouts-list {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 8px;
   padding: 0;
   overflow: scroll;
@@ -309,7 +309,133 @@ input[type='range'] + output {
 
 .loadout-item {
   border: 1px solid var(--border-color);
-  border-radius: 0.5em;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.loadout-item {
+  .loadout-header {
+    background-color: var(--header-bg);
+    padding: 0.6em 0.8em;
+  }
+
+  .loadout-title {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .loadout-content {
+    padding: 0.6em 0.8em;
+  }
+
+  .loadout-description {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin: 0 0 0.6em 0;
+    max-height: 2.4em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .loadout-weapons-attributes {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 0.6em;
+  }
+
+  .loadout-section {
+    flex: 1;
+  }
+
+  .loadout-skills {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 0.6em;
+  }
+
+  .weapon-list,
+  .attribute-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .weapon-tag,
+  .attribute-tag {
+    display: flex;
+    align-items: center;
+    background-color: var(--weapon-bg);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    gap: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .weapon-icon,
+  .attribute-icon {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  }
+
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    object-fit: fill;
+  }
+
+  .skill-icon {
+    height: 2em;
+    width: 2em;
+  }
+
+  .skill-item {
+    position: relative;
+    background-color: var(--skill-bg);
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-level {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #000;
+  }
+}
+
+.loadout-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .skill {
