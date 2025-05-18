@@ -158,16 +158,16 @@ class PlayerComp {
     // Initialize jQuery UI tabs
     tabs.tabs();
 
-    const advancedTabForm = tabs.find('.advanced-form');
+    const customTabForm = tabs.find('.custom-tab-form');
 
     // Initialize selects with current slot values
-    this.initializeFormControls(advancedTabForm, slot);
+    this.initializeCustomTabFormControls(customTabForm, slot);
 
     // Add event listeners for form changes
-    this.bindFormEvents(advancedTabForm, slot);
+    this.bindCustomTabFormEvents(customTabForm, slot);
   }
 
-  initializeFormControls(form, slot) {
+  initializeCustomTabFormControls(form, slot) {
     // Initialize weapon types select
     const weaponTypesSelect = form.find('select[name="weapon-types[]"]');
     initializeSelect(weaponTypesSelect, '-- Choose a weapon --', (item) =>
@@ -219,7 +219,7 @@ class PlayerComp {
     });
   }
 
-  bindFormEvents(form, slot) {
+  bindCustomTabFormEvents(form, slot) {
     // Store slot's initial index for later reference
     const initialIndex = this.playerSlots.indexOf(slot);
     if (initialIndex === -1) {
@@ -236,7 +236,7 @@ class PlayerComp {
       const updatedSlot = processFormData(formData, currentSlot);
 
       // Update the slot in the array
-      this.playerSlots[initialIndex] = updatedSlot;
+      Object.assign(this.playerSlots[initialIndex], updatedSlot);
 
       // Update the slot display
       const slotContainer = this.playerSlotsList
