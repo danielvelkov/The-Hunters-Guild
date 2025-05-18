@@ -29,6 +29,7 @@
       const skillsList = <%- JSON.stringify(skills) -%>;
       const weaponTypesList = <%- JSON.stringify(weaponTypes) -%>;
       const weaponAttributesList = <%- JSON.stringify(weaponAttributes) -%>;
+      const systemLoadoutsList = <%- JSON.stringify(systemLoadouts) -%>;
 
       // Pass server data to client scripts
       initiateCreatePageServerVariables(
@@ -37,7 +38,8 @@
         monstersDropsList,
         skillsList,
         weaponTypesList,
-        weaponAttributesList
+        weaponAttributesList,
+        systemLoadoutsList,
       );
     </script>
     <script type="module" src="/js/hunting-quest/monster-form.js"></script>

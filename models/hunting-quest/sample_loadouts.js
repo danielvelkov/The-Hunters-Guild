@@ -678,7 +678,7 @@ module.exports = [
 
   // Charge Blade Meta Build
   new Loadout(
-    'SAED Charge Blade',
+    'Charge Blade - Amped Discharge',
     'Focus on Super Amped Element Discharge with artillery and focus',
     [LoadoutRole.DPS],
     [WeaponType.CHARGE_BLADE],

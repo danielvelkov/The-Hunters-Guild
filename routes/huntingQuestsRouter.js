@@ -16,6 +16,7 @@ huntingQuestsRouter.get('/create', async (req, res) => {
   const skills = await gameDataController.skills_ListGet();
   const weaponTypes = await gameDataController.weapon_types_ListGet();
   const weaponAttributes = await gameDataController.weapon_attributes_ListGet();
+  const systemLoadouts = await gameDataController.system_loadouts_ListGet();
 
   res.render('pages/hunting-quest/create', {
     title: 'Create Hunting Quest Post',
@@ -25,6 +26,7 @@ huntingQuestsRouter.get('/create', async (req, res) => {
     skills,
     weaponTypes,
     weaponAttributes,
+    systemLoadouts,
   });
 });
 

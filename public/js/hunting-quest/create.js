@@ -8,7 +8,8 @@ export function initiateCreatePageServerVariables(
   monstersDrops,
   skills,
   weaponTypes,
-  weaponAttributes
+  weaponAttributes,
+  systemLoadouts
 ) {
   monstersList = monsters;
   bonusQuestRewardsList = bonusQuestRewards;
@@ -16,6 +17,7 @@ export function initiateCreatePageServerVariables(
   skillsList = skills;
   weaponTypesList = weaponTypes;
   weaponAttributesList = weaponAttributes;
+  systemLoadoutsList = systemLoadouts;
 }
 
 // Global variables for the create page
@@ -25,6 +27,7 @@ export let monstersDropsList = [];
 export let skillsList = [];
 export let weaponTypesList = [];
 export let weaponAttributesList = [];
+export let systemLoadoutsList = [];
 export const monstersForms = [];
 export const selectedMonsters = createObservableArray(
   [],

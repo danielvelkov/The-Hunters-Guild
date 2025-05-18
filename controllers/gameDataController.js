@@ -15,6 +15,8 @@ const MonsterDrop = require('../models/MonsterDrop');
 const Skill = require('../models/Skill');
 const WeaponAttribute = require('../models/WeaponAttribute');
 const WeaponType = require('../models/WeaponType');
+// const Loadout = require('../models/hunting-quest/Loadout');
+const sample_loadouts = require('../models/hunting-quest/sample_loadouts');
 
 /**
  * Retrieves a list containing base details for each monster with
@@ -170,6 +172,10 @@ const skills_ListGet = async () => {
   return skills;
 };
 
+const system_loadouts_ListGet = async () => {
+  return sample_loadouts;
+};
+
 module.exports = {
   monsters__weakness_and_icons_ListGet,
   bonus_quest_rewards__ListGet,
@@ -177,6 +183,7 @@ module.exports = {
   weapon_types_ListGet,
   weapon_attributes_ListGet,
   skills_ListGet,
+  system_loadouts_ListGet,
 };
 
 function groupWeaknesses(weaknesses, weaknessesIconsMap) {
