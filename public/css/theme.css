@@ -1,6 +1,5 @@
 :root {
   --primary-color: #f0b64b;
-  /* --secondary-color: #3b3225; */
   --secondary-color: #3d2709;
   --bg-color: #2a2520;
   --text-color: #f7eacd;
@@ -13,7 +12,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 0;
-  padding: 0;
+  padding: 1em;
   line-height: 1.2;
 }
 
@@ -23,10 +22,11 @@ button {
   padding: 3px 8px;
   border-radius: 0.5em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 input {
-  background-color: var(--bg-color);
+  background-color: var(--header-bg);
   color: var(--text-color);
 }
 
@@ -95,6 +95,7 @@ form > fieldset {
   flex-direction: column;
   gap: 1em;
 }
+
 form label {
   font-weight: bold;
   display: block;
@@ -111,7 +112,6 @@ fieldset {
   border: 2px solid var(--border-color);
   text-align: center;
   justify-content: center;
-  margin-bottom: 1rem;
 }
 
 .themetable th {
@@ -121,11 +121,11 @@ fieldset {
 }
 
 tr:nth-child(even) {
-  background-color: #4e3a24;
+  background-color: #473624;
 }
 
 tr:nth-child(odd) {
-  background-color: #2d261e;
+  background-color: #3b3125;
 }
 
 form input,
@@ -139,7 +139,7 @@ form textarea {
 
 form input:disabled,
 form select:disabled {
-  background-color: #e9ecef;
+  background-color: #e9ecef67;
   cursor: not-allowed;
 }
 
@@ -182,6 +182,8 @@ input[type='range'] {
   accent-color: var(--primary-color);
 }
 
+/* Jquery UI tabs styling */
+
 .ui-tabs {
   padding: none !important;
 }
@@ -211,6 +213,8 @@ input[type='range'] {
 .ui-widget-content {
   background-color: transparent !important;
 }
+
+/* Tooltip styling */
 
 .tooltip {
   background-color: var(--bg-color);
