@@ -37,7 +37,11 @@
     "pg": "^8.14.1"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
     "browser-sync": "^3.0.4",
+    "jest": "^29.7.0",
+    "jsdom": "^26.1.0",
     "nodemon": "^3.1.10"
   }
 }
