@@ -4,10 +4,12 @@ require('dotenv').config();
 const { Client } = require('pg');
 
 const DB_NAME = process.env.DB_NAME || 'wilds_data';
-const DB_USER = process.env.DB_USER || 'postgres';
-const DB_HOST = process.env.DB_HOST || 'localhost';
-const DB_PASSWORD = process.env.DB_PASSWORD || 'root';
-const DB_PORT = process.env.DB_PORT || 5432;
+
+const PG_NAME = process.env.PG_NAME;
+const PG_USER = process.env.PG_USER;
+const PG_HOST = process.env.PG_HOST;
+const PG_PASSWORD = process.env.PG_PASSWORD;
+const PG_PORT = process.env.PG_PORT;
 
 async function main() {
   const isDev = process.env.NODE_ENV === 'development';
@@ -17,13 +19,12 @@ async function main() {
       'In production environment - skipping database creation.'
     );
 
-  // NOTE: change this to match your default postgres db cluster config settings
   const client = new Client({
-    host: DB_HOST,
-    user: DB_USER,
-    password: DB_PASSWORD,
-    database: 'postgres',
-    port: 5432,
+    host: PG_HOST,
+    user: PG_USER,
+    password: PG_PASSWORD,
+    database: PG_NAME,
+    port: PG_PORT,
   });
 
   await client.connect();
