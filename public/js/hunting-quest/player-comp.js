@@ -542,7 +542,6 @@ class PlayerComp {
   }
 
   createLoadoutElement(loadout) {
-    console.log('Loadout element');
     const loadoutElement = this.loadoutElementTemplate.clone(true);
 
     loadoutElement.find('.loadout-title').text(loadout.name || 'Custom Loadout');
