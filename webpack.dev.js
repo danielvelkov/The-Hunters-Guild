@@ -12,6 +12,9 @@ const { PORT } = process.env;
  *  - webpack-dev-server handles frontend assets (JS, CSS)
  *  - All other requests (routes, API calls) are forwarded to the Express server
  *  - Hot Module Replacement (HMR) will work properly for frontend change
+ *  
+ * Another added thing is a 'source map' tool so that any error messages reference files and
+ * lines from our development code and not the jumbled mess inside our single bundled .js file
  */
 module.exports = merge(common, {
   mode: 'development',
