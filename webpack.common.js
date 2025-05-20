@@ -16,6 +16,9 @@ module.exports = {
       './src/public/js/hunting-quest/create.js', // Create page specific code
     ],
   },
+  optimization: {
+    usedExports: true, // ensures unused code is removed
+  },
   plugins: [
     // Automatically load jQuery as a global variable when $ or jQuery is encountered
     // This avoids needing to import jQuery in every file that uses it
