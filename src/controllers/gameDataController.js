@@ -8,7 +8,7 @@ const {
   getWeaponTypes,
   getWeaponAttributes,
   getSkills,
-} = require('../db/queries');
+} = require('../../db/queries.js');
 const Item = require('../models/Item.js');
 const Monster = require('../models/Monster');
 const MonsterDrop = require('../models/MonsterDrop');
