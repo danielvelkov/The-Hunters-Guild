@@ -42,7 +42,6 @@
     "jquery": "^3.7.1",
     "jquery-ui": "^1.14.1",
     "jquery-ui-css": "^1.11.5",
-    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.9.2",
     "pg": "^8.14.1",
     "select2": "^4.1.0-rc.0"
