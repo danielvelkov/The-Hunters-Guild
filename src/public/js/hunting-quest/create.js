@@ -1,4 +1,4 @@
-import { createObservableArray } from '../common.js';
+import { createObservableArray } from '../common/common.js';
 import { selectedMonstersChangeHandler } from './quest-details.js';
 import { createMonsterDataForm } from './monster-form.js';
 

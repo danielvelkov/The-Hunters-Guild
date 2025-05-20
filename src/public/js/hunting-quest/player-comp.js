@@ -4,7 +4,7 @@ import {
   weaponTypesList,
   systemLoadoutsList,
 } from './create.js';
-import { guidGenerator } from '../common.js';
+import { guidGenerator } from '../common/common.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -544,7 +544,9 @@ class PlayerComp {
   createLoadoutElement(loadout) {
     const loadoutElement = this.loadoutElementTemplate.clone(true);
 
-    loadoutElement.find('.loadout-title').text(loadout.name || 'Custom Loadout');
+    loadoutElement
+      .find('.loadout-title')
+      .text(loadout.name || 'Custom Loadout');
 
     loadoutElement
       .find('.loadout-description')
