@@ -2,7 +2,7 @@ import {
   monstersForms,
   selectedMonsters,
   bonusQuestRewardsList,
-} from './create.js';
+} from '../create.js';
 
 // Display Platform options depending on whether 'Cross-play' disabled
 $('#cross-play-enabled').click(function () {

@@ -18,33 +18,17 @@
     </main>
     <%- include('../../partials/footer') %>
 
-    <!-- Include JavaScript files -->
-    <script type="module" src="/js/common.js"></script>
-    <script type="module" src="/js/hunting-quest/create.js"></script>
-    <script type="module">
-      import {initiateCreatePageServerVariables} from '/js/hunting-quest/create.js'
-      const monstersList = <%- JSON.stringify(monsters) -%>;
-      const bonusQuestRewardsList = <%- JSON.stringify(bonusQuestRewards) -%>;
-      const monstersDropsList = <%- JSON.stringify(monstersDrops) -%>;
-      const skillsList = <%- JSON.stringify(skills) -%>;
-      const weaponTypesList = <%- JSON.stringify(weaponTypes) -%>;
-      const weaponAttributesList = <%- JSON.stringify(weaponAttributes) -%>;
-      const systemLoadoutsList = <%- JSON.stringify(systemLoadouts) -%>;
-
-      // Pass server data to client scripts
-      initiateCreatePageServerVariables(
-        monstersList,
-        bonusQuestRewardsList,
-        monstersDropsList,
-        skillsList,
-        weaponTypesList,
-        weaponAttributesList,
-        systemLoadoutsList,
-      );
+    <script>
+        globalThis.serverData = {
+        monstersList: <%- JSON.stringify(monsters) -%>,
+        bonusQuestRewardsList: <%- JSON.stringify(bonusQuestRewards) -%>,
+        monstersDropsList: <%- JSON.stringify(monstersDrops) -%>,
+        skillsList: <%- JSON.stringify(skills) -%>,
+        weaponTypesList: <%- JSON.stringify(weaponTypes) -%>,
+        weaponAttributesList: <%- JSON.stringify(weaponAttributes) -%>,
+        systemLoadoutsList: <%- JSON.stringify(systemLoadouts) -%>,
+      };
     </script>
-    <script type="module" src="/js/hunting-quest/monster-form.js"></script>
-    <script type="module" src="/js/hunting-quest/quest-details.js"></script>
-    <script type="module" src="/js/hunting-quest/preview.js"></script>
-    <script type="module" src="/js/hunting-quest/player-comp.js"></script>
+    <script src="/hunting-quest/create.js"></script>
   </body>
 </html>

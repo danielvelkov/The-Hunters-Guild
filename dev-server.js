@@ -10,12 +10,11 @@ nodemon({
   script: './server.js', // A minimal server file that imports your app.js
   watch: [
     'app.js',
-    'routes/**/*.js',
-    'models/**/*.js',
-    'controllers/**/*.js',
-    'middleware/**/*.js',
-    'utils/**/*.js',
-    'views/**/*.ejs',
+    'src/routes/**/*.js',
+    'src/models/**/*.js',
+    'src/controllers/**/*.js',
+    'src/middleware/**/*.js',
+    'src/utils/**/*.js',
   ],
   ext: 'js,json,ejs',
 })
@@ -30,7 +29,7 @@ nodemon({
 browserSync.init({
   proxy: `http://localhost:${PORT}`,
   port: BROWSER_SYNC_PORT,
-  files: ['public/**/*.css', 'public/**/*.js', 'views/**/*.ejs'],
+  files: ['src/public/**/*.css', 'src/public/**/*.js', 'src/views/**/*.ejs'],
   notify: true,
   open: false, // Set to true if you want the browser to open automatically
 });

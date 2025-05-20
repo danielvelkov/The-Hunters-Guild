@@ -3,8 +3,8 @@ import {
   selectedMonsters,
   bonusQuestRewardsList,
   monstersDropsList,
-} from './create.js';
-import { getDmgColor, getQuestCategoryStyle } from '../common.js';
+} from '../create.js';
+import { getDmgColor, getQuestCategoryStyle } from '../../common/common.js';
 
 /**
  * Quest Preview Functionality

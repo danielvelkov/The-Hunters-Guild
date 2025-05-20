@@ -3,8 +3,8 @@ import {
   weaponAttributesList,
   weaponTypesList,
   systemLoadoutsList,
-} from './create.js';
-import { guidGenerator } from '../common/common.js';
+} from '../create.js';
+import { guidGenerator } from '../../common/common.js';
 
 class PlayerComp {
   nextSkillIndex = 0;

@@ -1,33 +1,29 @@
+import { createMonsterDataForm } from './create/monster-form.js';
+import { selectedMonstersChangeHandler } from './create/quest-details.js';
 import { createObservableArray } from '../common/common.js';
-import { selectedMonstersChangeHandler } from './quest-details.js';
-import { createMonsterDataForm } from './monster-form.js';
+import './create/player-comp.js';
+import './create/preview.js';
 
-export function initiateCreatePageServerVariables(
-  monsters,
-  bonusQuestRewards,
-  monstersDrops,
-  skills,
-  weaponTypes,
-  weaponAttributes,
-  systemLoadouts
-) {
-  monstersList = monsters;
-  bonusQuestRewardsList = bonusQuestRewards;
-  monstersDropsList = monstersDrops;
-  skillsList = skills;
-  weaponTypesList = weaponTypes;
-  weaponAttributesList = weaponAttributes;
-  systemLoadoutsList = systemLoadouts;
-}
+import 'css/pages/hunting-quest/create.css';
 
+
+export const {
+  monstersList,
+  bonusQuestRewardsList,
+  monstersDropsList,
+  skillsList,
+  weaponTypesList,
+  weaponAttributesList,
+  systemLoadoutsList,
+} = globalThis.serverData;
 // Global variables for the create page
-export let monstersList = [];
-export let bonusQuestRewardsList = [];
-export let monstersDropsList = [];
-export let skillsList = [];
-export let weaponTypesList = [];
-export let weaponAttributesList = [];
-export let systemLoadoutsList = [];
+// export let monstersList = [];
+// export let bonusQuestRewardsList = [];
+// export let monstersDropsList = [];
+// export let skillsList = [];
+// export let weaponTypesList = [];
+// export let weaponAttributesList = [];
+// export let systemLoadoutsList = [];
 export const monstersForms = [];
 export const selectedMonsters = createObservableArray(
   [],
