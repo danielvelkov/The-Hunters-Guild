@@ -5,6 +5,7 @@ import {
   systemLoadoutsList,
 } from '../create.js';
 import { guidGenerator } from '../../common/common.js';
+import 'css/components/hunter-slot.css';
 
 class PlayerComp {
   nextSkillIndex = 0;
