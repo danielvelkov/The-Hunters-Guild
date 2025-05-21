@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "css/*": ["src/public/css*"],
+      "js/*": ["src/public/js*"],
+      "icons/*": ["src/public/icons*"]
+    }
+  }
+}

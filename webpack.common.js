@@ -57,6 +57,8 @@ module.exports = {
     // Instead of '../../../../css/some-file.css', you can use 'css/some-file.css'
     alias: {
       css: path.resolve(__dirname, 'src/public/css'),
+      js: path.resolve(__dirname, 'src/public/js'),
+      icons: path.resolve(__dirname, 'src/public/icons'),
     },
   },
 
