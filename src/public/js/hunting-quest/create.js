@@ -6,7 +6,6 @@ import './create/preview.js';
 
 import 'css/pages/hunting-quest/create.css';
 
-
 export const {
   monstersList,
   bonusQuestRewardsList,
@@ -16,14 +15,7 @@ export const {
   weaponAttributesList,
   systemLoadoutsList,
 } = globalThis.serverData;
-// Global variables for the create page
-// export let monstersList = [];
-// export let bonusQuestRewardsList = [];
-// export let monstersDropsList = [];
-// export let skillsList = [];
-// export let weaponTypesList = [];
-// export let weaponAttributesList = [];
-// export let systemLoadoutsList = [];
+
 export const monstersForms = [];
 export const selectedMonsters = createObservableArray(
   [],
