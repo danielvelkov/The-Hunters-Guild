@@ -23,9 +23,9 @@ export const selectedMonsters = createObservableArray(
 );
 
 // Add monster button handler
-$('#add-monster-button').click((e) => {
+$('#add-monster-button').on('click', (e) => {
   if (monstersForms.length === 2) return;
-  $('#monster-forms').append(() => createMonsterDataForm());
+  $('#monster-forms').append(createMonsterDataForm());
 });
 
 // Form submission handler
@@ -48,7 +48,7 @@ $('#quest-post-form').on('change', () =>
 );
 
 // Add a monster form when the page loads
-$('#add-monster-button').trigger('click');
+$('#monster-forms').append(createMonsterDataForm());
 
 // Initialize the first monster for debugging
 // Can be removed in production

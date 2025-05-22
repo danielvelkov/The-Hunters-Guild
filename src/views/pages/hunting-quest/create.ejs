@@ -29,6 +29,7 @@
         weaponAttributesList: <%- JSON.stringify(weaponAttributes) -%>,
         systemLoadoutsList: <%- JSON.stringify(systemLoadouts) -%>,
       };
+      Object.freeze(globalThis.serverData);
     </script>
     <script src="/hunting-quest/create.js"></script>
   </body>

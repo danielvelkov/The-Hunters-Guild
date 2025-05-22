@@ -5,7 +5,7 @@ import {
 } from '../create.js';
 
 // Display Platform options depending on whether 'Cross-play' disabled
-$('#cross-play-enabled').click(function () {
+$('#cross-play-enabled').on('click', function () {
   if (!$(this).is(':checked')) {
     $('#platform-options').show();
     $('#platform-options * input').each((_, inputElem) =>
@@ -20,7 +20,7 @@ $('#cross-play-enabled').click(function () {
 });
 
 // Display Bonus Rewards depending on whether 'Bonus Rewards' enabled
-$('#bonus-rewards-enabled').click(function () {
+$('#bonus-rewards-enabled').on('click', function () {
   if (!$(this).is(':checked')) {
     $('#bonus-rewards').next().hide();
     $('#bonus-rewards').prop('disabled', true);
