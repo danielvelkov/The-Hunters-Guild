@@ -1,22 +1,37 @@
-const {
-  getMonstersInfo__AllWeaknesses,
-  getStatusIcons__NamesAndIconId,
-  getMonsterSpecialAttacks__NamesAndCounterSkills,
-  getMonstersPartsDamageEffectiveness__NamesAndIconId,
-  getBonusQuestRewardsList,
-  getMonsterDropsList,
-  getWeaponTypes,
-  getWeaponAttributes,
-  getSkills,
-} = require('../../db/queries.js');
-const Item = require('../models/Item.js');
-const Monster = require('../models/Monster');
-const MonsterDrop = require('../models/MonsterDrop');
-const Skill = require('../models/Skill');
-const WeaponAttribute = require('../models/WeaponAttribute');
-const WeaponType = require('../models/WeaponType');
-// const Loadout = require('../models/hunting-quest/Loadout');
-const sample_loadouts = require('../models/hunting-quest/sample_loadouts');
+const fs = require('fs');
+const path = require('path');
+const pool = require('./pool');
+const Item = require('../src/models/Item.js');
+const Monster = require('../src/models/Monster');
+const MonsterDrop = require('../src/models/MonsterDrop');
+const Skill = require('../src/models/Skill');
+const WeaponAttribute = require('../src/models/WeaponAttribute');
+const WeaponType = require('../src/models/WeaponType');
+const sample_loadouts = require('../src/models/hunting-quest/sample_loadouts');
+
+// Helper function to load SQL files
+function loadSqlFile(filename) {
+  return fs.readFileSync(
+    path.join(__dirname, './queries', filename),
+    'utf8'
+  );
+}
+
+// Load all SQL queries
+const queries = {
+  getMonsters__AllWeaknesses: loadSqlFile('monsters.sql'),
+  getStatusIcons__NamesAndIconId: 'SELECT id, name from status_icons;',
+  getMonstersParts__DamageEffectiveness: loadSqlFile('parts_dmg_eff.sql'),
+  getBonusQuestRewardsList: loadSqlFile('bonus_rewards.sql'),
+  getMonsterDropsList: loadSqlFile('monster_drops.sql'),
+  getMonsterSpecialAttacksAndCounterSkills: loadSqlFile(
+    'spec_att_counters.sql'
+  ),
+  getSkills: loadSqlFile('skills.sql'),
+  getWeaponTypes: 'SELECT index as id, name FROM weapon_types;',
+  getWeaponAttributes: `SELECT index AS id, weapon_attributes.id AS name, status_icons.id AS icon
+     FROM weapon_attributes JOIN status_icons on status_icons.name ILIKE weapon_attributes.id ;`,
+};
 
 /**
  * Retrieves a list containing base details for each monster with
@@ -25,22 +40,28 @@ const sample_loadouts = require('../models/hunting-quest/sample_loadouts');
  * @returns {Monster[]}
  */
 const monsters__weakness_and_icons_ListGet = async () => {
-  const monstersRows = await getMonstersInfo__AllWeaknesses();
+  const { rows: monstersRows } = await pool.query(
+    queries.getMonsters__AllWeaknesses
+  );
 
-  const monstersSpecialAttacksRows =
-    await getMonsterSpecialAttacks__NamesAndCounterSkills();
+  const { rows: monstersSpecialAttacksRows } = await pool.query(
+    queries.getMonsterSpecialAttacksAndCounterSkills
+  );
   const monstersSpecialAttacksAndCountersList = mapAttacksToAttacksAndCounters(
     Object.groupBy(monstersSpecialAttacksRows, ({ attack }) => attack)
   );
 
-  const statusIconsRows = await getStatusIcons__NamesAndIconId();
+  const { rows: statusIconsRows } = await pool.query(
+    queries.getStatusIcons__NamesAndIconId
+  );
   const monstersWeaknessAndIconMap = {};
 
   for (let row of statusIconsRows)
     if (row.name) monstersWeaknessAndIconMap[row.name.toUpperCase()] = row.id;
 
-  const monstersPartDmgEffectivenessRows =
-    await getMonstersPartsDamageEffectiveness__NamesAndIconId();
+  const { rows: monstersPartDmgEffectivenessRows } = await pool.query(
+    queries.getMonstersParts__DamageEffectiveness
+  );
 
   const monsters = [];
   if (monstersRows.length === 0) return monsters;
@@ -82,7 +103,7 @@ const monsters__weakness_and_icons_ListGet = async () => {
 
 const bonus_quest_rewards__ListGet = async () => {
   const bonusRewards = [];
-  const itemRows = await getBonusQuestRewardsList();
+  const { rows: itemRows } = await pool.query(queries.getBonusQuestRewardsList);
   itemRows.forEach((i) =>
     bonusRewards.push(
       new Item(
@@ -111,7 +132,7 @@ const monster__drops_TablesGet = async (monster) => {
 
 const monsters_drops__ListGet = async () => {
   const monstersDrops = [];
-  const dropsRows = await getMonsterDropsList();
+  const { rows: dropsRows } = await pool.query(queries.getMonsterDropsList);
   dropsRows.forEach((i) =>
     monstersDrops.push(
       new MonsterDrop(
@@ -138,14 +159,14 @@ const monsters_drops__ListGet = async () => {
 
 const weapon_types_ListGet = async () => {
   const weaponTypes = [];
-  const typesRows = await getWeaponTypes();
+  const { rows: typesRows } = await pool.query(queries.getWeaponTypes);
   typesRows.forEach((i) => weaponTypes.push(new WeaponType(i.id, i.name)));
   return weaponTypes;
 };
 
 const weapon_attributes_ListGet = async () => {
   const weaponAttributes = [];
-  const typesRows = await getWeaponAttributes();
+  const { rows: typesRows } = await pool.query(queries.getWeaponAttributes);
   typesRows.forEach((i) =>
     weaponAttributes.push(new WeaponAttribute(i.id, i.name, i.icon))
   );
@@ -154,7 +175,7 @@ const weapon_attributes_ListGet = async () => {
 
 const skills_ListGet = async () => {
   const skills = [];
-  const skillsRows = await getSkills();
+  const { rows: skillsRows } = await pool.query(queries.getSkills);
   skillsRows.forEach((i) =>
     skills.push(
       new Skill(
@@ -174,16 +195,6 @@ const skills_ListGet = async () => {
 
 const system_loadouts_ListGet = async () => {
   return sample_loadouts;
-};
-
-module.exports = {
-  monsters__weakness_and_icons_ListGet,
-  bonus_quest_rewards__ListGet,
-  monsters_drops__ListGet,
-  weapon_types_ListGet,
-  weapon_attributes_ListGet,
-  skills_ListGet,
-  system_loadouts_ListGet,
 };
 
 function groupWeaknesses(weaknesses, weaknessesIconsMap) {
@@ -371,3 +382,13 @@ function getSkillsDescriptionsArr(row) {
       skillDescriptions.push(row[`description_${i}`]);
   return skillDescriptions;
 }
+
+module.exports = {
+  monsters__weakness_and_icons_ListGet,
+  bonus_quest_rewards__ListGet,
+  monsters_drops__ListGet,
+  weapon_types_ListGet,
+  weapon_attributes_ListGet,
+  skills_ListGet,
+  system_loadouts_ListGet,
+};
