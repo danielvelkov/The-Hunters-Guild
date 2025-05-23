@@ -3,8 +3,8 @@ const huntingQuestController = require('../controllers/huntingQuestController');
 
 const huntingQuestsRouter = express.Router();
 
-huntingQuestsRouter.get('/', huntingQuestController.indexGet);
+huntingQuestsRouter.get('/', huntingQuestController.index_GET);
 
-huntingQuestsRouter.get('/create', huntingQuestController.createGet);
+huntingQuestsRouter.get('/create', huntingQuestController.create_GET);
 
 module.exports = huntingQuestsRouter;

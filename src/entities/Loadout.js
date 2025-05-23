@@ -1,6 +1,6 @@
-const Skill = require('../Skill.js');
-const WeaponAttribute = require('../WeaponAttribute.js');
-const WeaponType = require('../WeaponType.js');
+const Skill = require('./game-data/Skill');
+const WeaponAttribute = require('./game-data/WeaponAttribute');
+const WeaponType = require('./game-data/WeaponType');
 
 /** Class representing info about a loadout. */
 class Loadout {

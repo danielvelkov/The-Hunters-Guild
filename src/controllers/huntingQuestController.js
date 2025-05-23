@@ -1,25 +1,17 @@
-import {
-  monsters__weakness_and_icons_ListGet,
-  bonus_quest_rewards__ListGet,
-  monsters_drops__ListGet,
-  weapon_types_ListGet,
-  weapon_attributes_ListGet,
-  skills_ListGet,
-  system_loadouts_ListGet,
-} from '../../db/game-data-queries.js';
+const GameData = require('../models/GameData');
 
-export const indexGet = (req, res) => {
+const index_GET = (req, res) => {
   res.render('pages/hunting-quest/index', { title: 'Hunting Quests' });
 };
 
-export const createGet = async (req, res) => {
-  const monsters = await monsters__weakness_and_icons_ListGet();
-  const bonusQuestRewards = await bonus_quest_rewards__ListGet();
-  const monstersDrops = await monsters_drops__ListGet();
-  const skills = await skills_ListGet();
-  const weaponTypes = await weapon_types_ListGet();
-  const weaponAttributes = await weapon_attributes_ListGet();
-  const systemLoadouts = await system_loadouts_ListGet();
+const create_GET = async (req, res) => {
+  const monsters = await GameData.monsters__weakness_and_icons_ListGet();
+  const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
+  const monstersDrops = await GameData.monsters_drops__ListGet();
+  const skills = await GameData.skills_ListGet();
+  const weaponTypes = await GameData.weapon_types_ListGet();
+  const weaponAttributes = await GameData.weapon_attributes_ListGet();
+  const systemLoadouts = await GameData.system_loadouts_ListGet();
 
   res.render('pages/hunting-quest/create', {
     title: 'Create Hunting Quest Post',
@@ -31,4 +23,9 @@ export const createGet = async (req, res) => {
     weaponAttributes,
     systemLoadouts,
   });
+};
+
+module.exports = {
+  index_GET,
+  create_GET,
 };

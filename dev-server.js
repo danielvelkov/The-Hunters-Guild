@@ -1,6 +1,5 @@
 const browserSync = require('browser-sync');
 const nodemon = require('nodemon');
-const path = require('path');
 require('dotenv').config();
 const { PORT } = process.env;
 const BROWSER_SYNC_PORT = 3001;

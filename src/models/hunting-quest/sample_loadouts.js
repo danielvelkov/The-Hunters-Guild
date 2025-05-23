@@ -1,6 +1,10 @@
-const { Loadout, LoadoutRole, LoadoutSkill } = require('./Loadout.js');
-const WeaponType = require('../WeaponType.js');
-const WeaponAttribute = require('../WeaponAttribute.js');
+const {
+  Loadout,
+  LoadoutRole,
+  LoadoutSkill,
+} = require('../../entities/Loadout');
+const WeaponType = require('../../entities/game-data/WeaponType');
+const WeaponAttribute = require('../../entities/game-data/WeaponAttribute');
 
 const skillsMap = {
   AttackBoost: new LoadoutSkill(
@@ -589,10 +593,7 @@ module.exports = [
     'High elemental damage with critical element for maximum elemental DPS',
     [LoadoutRole.DPS],
     [WeaponType.DUAL_BLADES],
-    [
-      WeaponAttribute.ICE,
-      WeaponAttribute.THUNDER,
-    ],
+    [WeaponAttribute.ICE, WeaponAttribute.THUNDER],
     [
       skillsMap.CriticalElement,
       skillsMap.WeaknessExploit,
@@ -718,10 +719,7 @@ module.exports = [
     'High elemental damage with critical element and stamina management',
     [LoadoutRole.DPS],
     [WeaponType.BOW],
-    [
-      WeaponAttribute.THUNDER,
-      WeaponAttribute.WATER,
-    ],
+    [WeaponAttribute.THUNDER, WeaponAttribute.WATER],
     [
       skillsMap.CriticalElement,
       skillsMap.ConstitutionSkill,
