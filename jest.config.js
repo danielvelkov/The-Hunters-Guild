@@ -8,6 +8,14 @@ const config = {
   // The glob patterns Jest uses to detect test files
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[tj]s?(x)'],
   setupFiles: ['<rootDir>/tests/jest.setup.js'],
+
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@models/(.*)$': '<rootDir>/src/models/$1',
+    '^@js/(.*)$': '<rootDir>/src/public/js/$1',
+  },
+  // If using subpath imports
+  resolver: undefined, // Jest handles subpath imports automatically in newer versions
 };
 
 module.exports = config;

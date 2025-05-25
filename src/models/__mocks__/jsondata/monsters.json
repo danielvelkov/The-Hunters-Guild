@@ -1,0 +1,585 @@
+[
+  {
+    "id": "EM0001_00_0",
+    "name": "Rathian",
+    "icon": "E0006",
+    "frenzied": false,
+    "tempered": true,
+    "arch_tempered": false,
+    "locales": [
+      "Windward Plains",
+      "Scarlet Forest",
+      "Oilwell Basin",
+      "Ruins of Wyveria",
+      "Wounded Hollow"
+    ],
+    "base_health": 4500,
+    "special_attacks": [
+      {
+        "name": "Weak Roar",
+        "description": "Temporarily immobilizes you.",
+        "skill_counters": [
+          {
+            "id": "0B7D15C0",
+            "name": "Earplugs",
+            "icon": "SKILL_0009",
+            "description": "Grants protection from large monsters'\nroars.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the effects of weak\nmonster roars.",
+              "Nullifies weak monster roars and\nreduces the effects of strong\nmonster roars.",
+              "Nullifies weak and strong\nmonster roars."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Major Wind Pressure",
+        "description": "Temporarily immobilizes you.",
+        "skill_counters": [
+          {
+            "id": "CA9ABE00",
+            "name": "Windproof",
+            "icon": "SKILL_0009",
+            "description": "Grants protection against wind pressure.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Negates minor wind pressure\nand halves the effects of\nmajor wind pressure.",
+              "Negates minor and major wind\npressure and halves the effects\nof dragon wind pressure.",
+              "Negates all kinds of wind pressure."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fireblight",
+        "description": "Temporarily causes your health\nto deplete. Evading repeatedly\nremoves the condition.",
+        "skill_counters": [
+          {
+            "id": "54FB4F80",
+            "name": "Fire Resistance",
+            "icon": "SKILL_0005",
+            "description": "Increases fire resistance.\nAlso improves defense at\nhigher levels.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Fire resistance +6",
+              "Fire resistance +12",
+              "Fire resistance +20\nDefense +10"
+            ]
+          },
+          {
+            "id": "DE183740",
+            "name": "Blight Resistance",
+            "icon": "SKILL_0005",
+            "description": "Grants protection against all elemental\nblights.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the duration of all\nelemental blights by 50%.",
+              "Reduces the duration of all\nelemental blights by 75%.",
+              "Nullifies all elemental blights."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Poison",
+        "description": "Temporarily causes your health\nto deplete.",
+        "skill_counters": [
+          {
+            "id": "56FF6980",
+            "name": "Poison Resistance",
+            "icon": "SKILL_0005",
+            "description": "Reduces damage while poisoned.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the number of times\nyou take poison damage.",
+              "Greatly reduces the number of\ntimes you take poison damage.",
+              "Prevents poison."
+            ]
+          }
+        ]
+      }
+    ],
+    "weaknesses": {
+      "elements": [
+        { "name": "THUNDER", "icon": "STATUS_0002" },
+        { "name": "DRAGON", "icon": "STATUS_0004" }
+      ],
+      "ailments": [
+        { "name": "KO", "icon": "STATUS_0008" },
+        { "name": "BLAST", "icon": "STATUS_0010" },
+        { "name": "SLEEP", "icon": "STATUS_0009" },
+        { "name": "PARALYSIS", "icon": "STATUS_0007" }
+      ]
+    },
+    "part_dmg_effectiveness": [
+      {
+        "name": "Head",
+        "icon": "ITEM_0048",
+        "damages": [
+          { "type": "slash", "value": "70" },
+          { "type": "blow", "value": "75" },
+          { "type": "shot", "value": "65" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "15" },
+          { "type": "thunder", "value": "20" },
+          { "type": "ice", "value": "15" },
+          { "type": "dragon", "value": "30" },
+          { "type": "stun", "value": "100" },
+          { "type": "flash", "value": "100" }
+        ]
+      },
+      {
+        "name": "Left Leg",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "40" },
+          { "type": "blow", "value": "40" },
+          { "type": "shot", "value": "35" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "0" },
+          { "type": "thunder", "value": "5" },
+          { "type": "ice", "value": "0" },
+          { "type": "dragon", "value": "15" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Left Wing",
+        "icon": "ITEM_0047",
+        "damages": [
+          { "type": "slash", "value": "55" },
+          { "type": "blow", "value": "50" },
+          { "type": "shot", "value": "45" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "10" },
+          { "type": "thunder", "value": "15" },
+          { "type": "ice", "value": "10" },
+          { "type": "dragon", "value": "25" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Right Leg",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "40" },
+          { "type": "blow", "value": "40" },
+          { "type": "shot", "value": "35" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "0" },
+          { "type": "thunder", "value": "5" },
+          { "type": "ice", "value": "0" },
+          { "type": "dragon", "value": "15" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Right Wing",
+        "icon": "ITEM_0047",
+        "damages": [
+          { "type": "slash", "value": "55" },
+          { "type": "blow", "value": "50" },
+          { "type": "shot", "value": "45" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "10" },
+          { "type": "thunder", "value": "15" },
+          { "type": "ice", "value": "10" },
+          { "type": "dragon", "value": "25" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Tail",
+        "icon": "ITEM_0046",
+        "damages": [
+          { "type": "slash", "value": "45" },
+          { "type": "blow", "value": "40" },
+          { "type": "shot", "value": "35" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "5" },
+          { "type": "thunder", "value": "10" },
+          { "type": "ice", "value": "5" },
+          { "type": "dragon", "value": "20" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Torso",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "35" },
+          { "type": "blow", "value": "30" },
+          { "type": "shot", "value": "25" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "5" },
+          { "type": "thunder", "value": "10" },
+          { "type": "ice", "value": "5" },
+          { "type": "dragon", "value": "20" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      }
+    ],
+    "status_effectiveness": [
+      { "name": "Poison", "icon": "STATUS_0005", "stats": { "value": "⭐" } },
+      {
+        "name": "Paralysis",
+        "icon": "STATUS_0007",
+        "stats": { "value": "⭐⭐" }
+      },
+      { "name": "Sleep", "icon": "STATUS_0009", "stats": { "value": "⭐⭐" } },
+      { "name": "Blast", "icon": "STATUS_0010", "stats": { "value": "⭐⭐" } },
+      { "name": "KO", "icon": "STATUS_0008", "stats": { "value": "⭐⭐" } },
+      { "name": "Exhaust", "icon": "STATUS_0021", "stats": { "value": "⭐⭐" } }
+    ],
+    "item_effectiveness": [
+      {
+        "name": "Sonic Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_GRAY",
+        "stats": { "effectiveness": "❌" }
+      },
+      {
+        "name": "Flash Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_LEMON",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Luring Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_ROSE",
+        "stats": { "effectiveness": "⭐⭐" }
+      },
+      {
+        "name": "Shock Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_LEMON",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Pitfall Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_GREEN",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Vine Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_MOS",
+        "stats": { "effectiveness": "✅" }
+      }
+    ],
+    "canBeCaptured": "✅"
+  },
+  {
+    "id": "EM0002_00_0",
+    "name": "Rathalos",
+    "icon": "E0023",
+    "frenzied": false,
+    "tempered": true,
+    "arch_tempered": false,
+    "locales": [
+      "Scarlet Forest",
+      "Oilwell Basin",
+      "Ruins of Wyveria",
+      "Wounded Hollow"
+    ],
+    "base_health": 4500,
+    "special_attacks": [
+      {
+        "name": "Weak Roar",
+        "description": "Temporarily immobilizes you.",
+        "skill_counters": [
+          {
+            "id": "0B7D15C0",
+            "name": "Earplugs",
+            "icon": "SKILL_0009",
+            "description": "Grants protection from large monsters'\nroars.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the effects of weak\nmonster roars.",
+              "Nullifies weak monster roars and\nreduces the effects of strong\nmonster roars.",
+              "Nullifies weak and strong\nmonster roars."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Major Wind Pressure",
+        "description": "Temporarily immobilizes you.",
+        "skill_counters": [
+          {
+            "id": "CA9ABE00",
+            "name": "Windproof",
+            "icon": "SKILL_0009",
+            "description": "Grants protection against wind pressure.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Negates minor wind pressure\nand halves the effects of\nmajor wind pressure.",
+              "Negates minor and major wind\npressure and halves the effects\nof dragon wind pressure.",
+              "Negates all kinds of wind pressure."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fireblight",
+        "description": "Temporarily causes your health\nto deplete. Evading repeatedly\nremoves the condition.",
+        "skill_counters": [
+          {
+            "id": "54FB4F80",
+            "name": "Fire Resistance",
+            "icon": "SKILL_0005",
+            "description": "Increases fire resistance.\nAlso improves defense at\nhigher levels.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Fire resistance +6",
+              "Fire resistance +12",
+              "Fire resistance +20\nDefense +10"
+            ]
+          },
+          {
+            "id": "DE183740",
+            "name": "Blight Resistance",
+            "icon": "SKILL_0005",
+            "description": "Grants protection against all elemental\nblights.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the duration of all\nelemental blights by 50%.",
+              "Reduces the duration of all\nelemental blights by 75%.",
+              "Nullifies all elemental blights."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Poison",
+        "description": "Temporarily causes your health\nto deplete.",
+        "skill_counters": [
+          {
+            "id": "56FF6980",
+            "name": "Poison Resistance",
+            "icon": "SKILL_0005",
+            "description": "Reduces damage while poisoned.",
+            "category": "EQUIP",
+            "max_level": 3,
+            "set_count": [
+              "Reduces the number of times\nyou take poison damage.",
+              "Greatly reduces the number of\ntimes you take poison damage.",
+              "Prevents poison."
+            ]
+          }
+        ]
+      }
+    ],
+    "weaknesses": {
+      "elements": [
+        { "name": "THUNDER", "icon": "STATUS_0002" },
+        { "name": "DRAGON", "icon": "STATUS_0004" }
+      ],
+      "ailments": [
+        { "name": "KO", "icon": "STATUS_0008" },
+        { "name": "BLAST", "icon": "STATUS_0010" },
+        { "name": "SLEEP", "icon": "STATUS_0009" },
+        { "name": "PARALYSIS", "icon": "STATUS_0007" }
+      ]
+    },
+    "part_dmg_effectiveness": [
+      {
+        "name": "Head",
+        "icon": "ITEM_0048",
+        "damages": [
+          { "type": "slash", "value": "65" },
+          { "type": "blow", "value": "70" },
+          { "type": "shot", "value": "60" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "15" },
+          { "type": "thunder", "value": "20" },
+          { "type": "ice", "value": "15" },
+          { "type": "dragon", "value": "30" },
+          { "type": "stun", "value": "100" },
+          { "type": "flash", "value": "100" }
+        ]
+      },
+      {
+        "name": "Left Leg",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "45" },
+          { "type": "blow", "value": "45" },
+          { "type": "shot", "value": "30" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "0" },
+          { "type": "thunder", "value": "5" },
+          { "type": "ice", "value": "0" },
+          { "type": "dragon", "value": "15" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Left Wing",
+        "icon": "ITEM_0047",
+        "damages": [
+          { "type": "slash", "value": "55" },
+          { "type": "blow", "value": "50" },
+          { "type": "shot", "value": "40" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "10" },
+          { "type": "thunder", "value": "15" },
+          { "type": "ice", "value": "10" },
+          { "type": "dragon", "value": "25" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Neck",
+        "icon": "ITEM_0048",
+        "damages": [
+          { "type": "slash", "value": "35" },
+          { "type": "blow", "value": "40" },
+          { "type": "shot", "value": "30" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "5" },
+          { "type": "thunder", "value": "10" },
+          { "type": "ice", "value": "5" },
+          { "type": "dragon", "value": "20" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Right Leg",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "45" },
+          { "type": "blow", "value": "45" },
+          { "type": "shot", "value": "30" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "0" },
+          { "type": "thunder", "value": "5" },
+          { "type": "ice", "value": "0" },
+          { "type": "dragon", "value": "15" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Right Wing",
+        "icon": "ITEM_0047",
+        "damages": [
+          { "type": "slash", "value": "55" },
+          { "type": "blow", "value": "50" },
+          { "type": "shot", "value": "40" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "10" },
+          { "type": "thunder", "value": "15" },
+          { "type": "ice", "value": "10" },
+          { "type": "dragon", "value": "25" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Tail",
+        "icon": "ITEM_0046",
+        "damages": [
+          { "type": "slash", "value": "45" },
+          { "type": "blow", "value": "40" },
+          { "type": "shot", "value": "35" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "5" },
+          { "type": "thunder", "value": "10" },
+          { "type": "ice", "value": "5" },
+          { "type": "dragon", "value": "20" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      },
+      {
+        "name": "Torso",
+        "icon": "ITEM_0040",
+        "damages": [
+          { "type": "slash", "value": "25" },
+          { "type": "blow", "value": "25" },
+          { "type": "shot", "value": "20" },
+          { "type": "fire", "value": "0" },
+          { "type": "water", "value": "5" },
+          { "type": "thunder", "value": "10" },
+          { "type": "ice", "value": "5" },
+          { "type": "dragon", "value": "20" },
+          { "type": "stun", "value": "0" },
+          { "type": "flash", "value": "0" }
+        ]
+      }
+    ],
+    "status_effectiveness": [
+      { "name": "Poison", "icon": "STATUS_0005", "stats": { "value": "⭐" } },
+      {
+        "name": "Paralysis",
+        "icon": "STATUS_0007",
+        "stats": { "value": "⭐⭐" }
+      },
+      { "name": "Sleep", "icon": "STATUS_0009", "stats": { "value": "⭐⭐" } },
+      { "name": "Blast", "icon": "STATUS_0010", "stats": { "value": "⭐⭐" } },
+      { "name": "KO", "icon": "STATUS_0008", "stats": { "value": "⭐⭐" } },
+      { "name": "Exhaust", "icon": "STATUS_0021", "stats": { "value": "⭐⭐" } }
+    ],
+    "item_effectiveness": [
+      {
+        "name": "Sonic Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_GRAY",
+        "stats": { "effectiveness": "❌" }
+      },
+      {
+        "name": "Flash Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_LEMON",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Luring Pod",
+        "icon": "ITEM_0061",
+        "iconColor": "I_ROSE",
+        "stats": { "effectiveness": "⭐⭐" }
+      },
+      {
+        "name": "Shock Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_LEMON",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Pitfall Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_GREEN",
+        "stats": { "effectiveness": "✅" }
+      },
+      {
+        "name": "Vine Trap",
+        "icon": "ITEM_0018",
+        "iconColor": "I_MOS",
+        "stats": { "effectiveness": "✅" }
+      }
+    ],
+    "canBeCaptured": "✅"
+  }
+]
