@@ -59,52 +59,6 @@ main {
   gap: 1em;
 }
 
-/* Monster form container */
-#monster-forms {
-  display: flex;
-  gap: 1em;
-  align-items: stretch;
-}
-
-#monster-forms .monster-form {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.monster-select-name {
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-
-/* Weaknesses display */
-.monster-elements img,
-.monster-ailments img {
-  margin-right: 5px;
-  vertical-align: middle;
-}
-
-.monster-elements,
-.monster-ailments {
-  margin-top: 10px;
-}
-
-/* Add monster button */
-#add-monster-button {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 1.1em;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#add-monster-button:hover {
-  background-color: var(--secondary-color);
-  color: var(--text-color);
-}
 
 /* Quest Details  */
 #quest-details {

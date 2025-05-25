@@ -1,4 +1,5 @@
 import { monstersForms, selectedMonsters, monstersList } from '../create.js';
+import 'css/components/monster-form.css';
 
 export function createMonsterDataForm() {
   const formId = monstersForms.length;
