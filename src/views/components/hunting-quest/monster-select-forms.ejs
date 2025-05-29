@@ -1,11 +1,14 @@
-<fieldset id="monster-forms">
+<fieldset>
   <legend>Monsters</legend>
-  <button id="add-monster-button">+ Add Monster</button>
+  <div class="add-monster-container">
+    <button id="add-monster-button">+ Add Monster</button>
+    <section id="monster-forms"></section>
+  </div>
 </fieldset>
 
 <!-- Template for monster form that will be cloned by JavaScript -->
 <template id="monster-form-template">
-  <form autocomplete="off" class="monster-form">
+  <form autocomplete="off" class="monster-form" aria-label="form">
     <label for="monster-select">Large Monsters: </label>
     <select
       class="form-control monster-select"
@@ -30,15 +33,25 @@
 
 <template id="monster-details-template">
   <!-- Monster details fieldset - will be shown when a monster is selected -->
-  <fieldset class="monster-details">
+  <fieldset class="monster-details" aria-label="monster-details">
     <legend>Monster Details</legend>
     <label for="monster-frenzied" class="monster-frenzied-label">
       Frenzied?
-      <input type="checkbox" name="frenzied" class="monster-frenzied" />
+      <input
+        type="checkbox"
+        name="frenzied"
+        class="monster-frenzied"
+        aria-label="monster-frenzied"
+      />
     </label>
     <label for="monster-tempered" class="monster-tempered-label">
       Tempered?
-      <input type="checkbox" name="tempered" class="monster-tempered" />
+      <input
+        type="checkbox"
+        name="tempered"
+        class="monster-tempered"
+        aria-label="monster-tempered"
+      />
     </label>
     <label for="monster-arch-tempered" class="monster-arch-tempered-label">
       Arch-tempered?
@@ -46,11 +59,16 @@
         type="checkbox"
         name="arch-tempered"
         class="monster-arch-tempered"
+        aria-label="monster-arch-tempered"
       />
     </label>
 
     <label for="monster-strength">Monster Strength 💪</label>
-    <select class="monster-strength" name="monster-strength">
+    <select
+      class="monster-strength"
+      name="monster-strength"
+      id="monster-strength"
+    >
       <option value="1">✨</option>
       <option value="2">✨✨</option>
       <option value="3" selected="selected">✨✨✨</option>
@@ -61,7 +79,7 @@
     <label for="monster-crown" class="monster-crown-label"
       >Monster Crown 👑</label
     >
-    <select class="monster-crown" name="monster-crown">
+    <select class="monster-crown" name="monster-crown" id="monster-crown">
       <option value="Base" selected="selected">Base</option>
       <option value="Mini">Mini</option>
       <option value="Silver">Silver</option>

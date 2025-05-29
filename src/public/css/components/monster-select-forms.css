@@ -1,11 +1,17 @@
 /* Monster forms container */
-#monster-forms {
+.add-monster-container {
   display: flex;
   gap: 1em;
   align-items: stretch;
 }
 
-#monster-forms .monster-form {
+#monster-forms {
+  flex: 1;
+  display: flex;
+  gap: 1em;
+}
+
+.monster-form {
   flex: 1;
   display: flex;
   flex-direction: column;
