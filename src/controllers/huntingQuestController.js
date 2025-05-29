@@ -13,6 +13,44 @@ const create_GET = async (req, res) => {
   const weaponAttributes = await GameData.weapon_attributes_ListGet();
   const systemLoadouts = await GameData.system_loadouts_ListGet();
 
+  ////////////////////////
+  // FOR CREATING MOCKS //
+  ////////////////////////
+  // const path = require('path');
+  // const fs = require('fs');
+  // const mocksData = {
+  //   monsters,
+  //   bonusQuestRewards,
+  //   monstersDrops,
+  //   skills,
+  //   weaponTypes,
+  //   weaponAttributes,
+  //   systemLoadouts,
+  // };
+
+  // for (const key in mocksData) {
+  //   console.log(key);
+  //   fs.writeFile(
+  //     path.resolve(
+  //       process.cwd(),
+  //       'src',
+  //       'models',
+  //       '__mocks__',
+  //       'jsondata',
+  //       `${key}.json`
+  //     ),
+  //     JSON.stringify(mocksData[key].splice(0, 5)),
+  //     (err) => {
+  //       if (err) {
+  //         console.error(err);
+  //       } else {
+  //         // file written successfully
+  //       }
+  //     }
+  //   );
+  // }
+  ////////////////////////
+
   res.render('pages/hunting-quest/create', {
     title: 'Create Hunting Quest Post',
     monsters,

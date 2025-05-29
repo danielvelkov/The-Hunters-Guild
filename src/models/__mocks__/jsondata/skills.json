@@ -1,0 +1,80 @@
+[
+  {
+    "id": "00000001",
+    "name": "Attack Boost",
+    "icon": "SKILL_0000",
+    "description": "Increases attack power.",
+    "category": "WEAPON",
+    "max_level": "5",
+    "set_count": "",
+    "level_descriptions": [
+      "Attack +3",
+      "Attack +5",
+      "Attack +7",
+      "Attack +2%\nBonus: +8",
+      "Attack +4%\nBonus: +9"
+    ]
+  },
+  {
+    "id": "510D3C80",
+    "name": "Resentment",
+    "icon": "SKILL_0000",
+    "description": "Increases attack when you have\nrecoverable damage (the red\nportion of your Health Gauge).",
+    "category": "EQUIP",
+    "max_level": "5",
+    "set_count": "",
+    "level_descriptions": [
+      "Attack +5 while active.",
+      "Attack +10 while active.",
+      "Attack +15 while active.",
+      "Attack +20 while active.",
+      "Attack +25 while active."
+    ]
+  },
+  {
+    "id": "4608B500",
+    "name": "Adrenaline Rush",
+    "icon": "SKILL_0000",
+    "description": "Temporarily increases attack power\nafter executing a perfectly-timed\nevade just as a monster attacks.",
+    "category": "EQUIP",
+    "max_level": "5",
+    "set_count": "",
+    "level_descriptions": [
+      "Attack +10 while active.",
+      "Attack +15 while active.",
+      "Attack +20 while active.",
+      "Attack +25 while active.",
+      "Attack +30 while active."
+    ]
+  },
+  {
+    "id": "F53436B0",
+    "name": "Offensive Guard",
+    "icon": "SKILL_0000",
+    "description": "Temporarily increases attack\npower after executing\na perfectly-timed guard.",
+    "category": "WEAPON",
+    "max_level": "3",
+    "set_count": "",
+    "level_descriptions": [
+      "Attack +5% while active.",
+      "Attack +10% while active.",
+      "Attack +15% while active."
+    ]
+  },
+  {
+    "id": "7D946580",
+    "name": "Peak Performance",
+    "icon": "SKILL_0000",
+    "description": "Increases attack when\nyour health is full.",
+    "category": "EQUIP",
+    "max_level": "5",
+    "set_count": "",
+    "level_descriptions": [
+      "Attack +3 while active.",
+      "Attack +6 while active.",
+      "Attack +10 while active.",
+      "Attack +15 while active.",
+      "Attack +20 while active."
+    ]
+  }
+]

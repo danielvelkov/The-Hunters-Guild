@@ -1,0 +1,7 @@
+[
+  { "id": "1", "name": "FIRE", "icon": "STATUS_0000" },
+  { "id": "2", "name": "WATER", "icon": "STATUS_0001" },
+  { "id": "3", "name": "ICE", "icon": "STATUS_0003" },
+  { "id": "4", "name": "THUNDER", "icon": "STATUS_0002" },
+  { "id": "5", "name": "DRAGON", "icon": "STATUS_0004" }
+]

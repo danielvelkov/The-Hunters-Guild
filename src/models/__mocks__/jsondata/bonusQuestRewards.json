@@ -1,0 +1,52 @@
+[
+  {
+    "id": "160",
+    "name": "Rusted Weapon Shard",
+    "icon": "INVALID",
+    "iconColor": "I_PINK",
+    "description": "An old, rusted weapon part.\nNeeds to be appraised.",
+    "type": "Artisan Part",
+    "rarity": "6",
+    "source": null
+  },
+  {
+    "id": "620",
+    "name": "Glowing Orb - Sword",
+    "icon": "ITEM_0055",
+    "iconColor": "I_BROWN",
+    "description": "A sphere with hidden power that\ncan be revealed through appraisal.\nBecomes an offensive decoration.",
+    "type": "Sword Decoration",
+    "rarity": "5",
+    "source": null
+  },
+  {
+    "id": "106",
+    "name": "Rathian Ruby",
+    "icon": "ITEM_0019",
+    "iconColor": "I_GREEN",
+    "description": "A rare, precious gem from inside\na Rathian. Almost too nice to use.",
+    "type": "Rare Drop",
+    "rarity": "7",
+    "source": "Rathian"
+  },
+  {
+    "id": "222",
+    "name": "Specialty Sild Garlic",
+    "icon": "ITEM_0079",
+    "iconColor": "I_IVORY",
+    "description": "The ultimate bulb of garlic, grown\nin just the right conditions.\nA great addition to any dish.",
+    "type": "Food Ingredient",
+    "rarity": "5",
+    "source": null
+  },
+  {
+    "id": "520",
+    "name": "Nerscylla Spike+",
+    "icon": "ITEM_0040",
+    "iconColor": "I_WHITE",
+    "description": "An especially large Nerscylla\nspike, prized more for its lethal\npoison sac than its sharpness.",
+    "type": "Rare Drop",
+    "rarity": "6",
+    "source": "Nerscylla"
+  }
+]

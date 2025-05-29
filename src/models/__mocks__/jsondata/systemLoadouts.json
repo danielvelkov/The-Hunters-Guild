@@ -1,0 +1,623 @@
+[
+  {
+    "name": "Crit Draw Great Sword",
+    "description": "Focuses on maximizing draw attack damage with high affinity and critical damage",
+    "roles": [{ "name": "DPS", "summary": "Tons of damage." }],
+    "weapon_types": [{ "id": "14", "name": "Great Sword" }],
+    "weapon_attr": [{ "id": "5", "name": "DRAGON", "icon": "STATUS_0004" }],
+    "skills": [
+      {
+        "id": "28EBAB40",
+        "name": "Critical Draw",
+        "icon": "SKILL_0001",
+        "description": "Increases affinity when performing draw attacks. (Not effective while riding.)",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Affinity +50%",
+          "Affinity +75%",
+          "Affinity +100%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "A02B7A00",
+        "name": "Critical Boost",
+        "icon": "SKILL_0001",
+        "description": "Increases the damage of critical hits.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Increases damage dealt by critical hits to 28%",
+          "Increases damage dealt by critical hits to 31%",
+          "Increases damage dealt by critical hits to 34%",
+          "Increases damage dealt by critical hits to 37%",
+          "Increases damage dealt by critical hits to 40%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "C0053240",
+        "name": "Quick Sheathe",
+        "icon": "SKILL_0009",
+        "description": "Speeds up weapon sheathing.",
+        "category": "EQUIP",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Slightly increases sheathing speed",
+          "Increases sheathing speed",
+          "Greatly increases sheathing speed"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "EF1CAA60",
+        "name": "Focus",
+        "icon": "SKILL_0008",
+        "description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Slightly increases gauge fill rate and reduces charge times by 5%",
+          "Moderately increases gauge fill rate and reduces charge times by 10%",
+          "Increases gauge fill rate and reduces charge times by 15%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "00000001",
+        "name": "Attack Boost",
+        "icon": "SKILL_0000",
+        "description": "Increases attack power.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3",
+          "Attack +5",
+          "Attack +7",
+          "Attack +2% Bonus: +8",
+          "Attack +4% Bonus: +9"
+        ],
+        "min_level": 4
+      },
+      {
+        "id": "E84D8E60",
+        "name": "Weakness Exploit",
+        "icon": "SKILL_0000",
+        "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds",
+          "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds",
+          "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds",
+          "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds",
+          "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "8BFD1E80",
+        "name": "Punishing Draw",
+        "icon": "SKILL_0008",
+        "description": "Adds a stun effect to draw attacks and slightly increases attack power. (Not effective while riding.)",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Draw attacks deal a small amount of stun damage and gain attack +3",
+          "Draw attacks deal a medium amount of stun damage and gain attack +5",
+          "Draw attacks deal a large amount of stun damage and gain attack +7"
+        ],
+        "min_level": 3
+      }
+    ]
+  },
+  {
+    "name": "Counter LS",
+    "description": "Counter-focused build with high critical rate and quick sheathe for Iai moves",
+    "roles": [{ "name": "DPS", "summary": "Tons of damage." }],
+    "weapon_types": [{ "id": "11", "name": "Long Sword" }],
+    "weapon_attr": [{ "id": "5", "name": "DRAGON", "icon": "STATUS_0004" }],
+    "skills": [
+      {
+        "id": "C0053240",
+        "name": "Quick Sheathe",
+        "icon": "SKILL_0009",
+        "description": "Speeds up weapon sheathing.",
+        "category": "EQUIP",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Slightly increases sheathing speed",
+          "Increases sheathing speed",
+          "Greatly increases sheathing speed"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "830A1C00",
+        "name": "Critical Eye",
+        "icon": "SKILL_0001",
+        "description": "Increases affinity.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Affinity +4%",
+          "Affinity +8%",
+          "Affinity +12%",
+          "Affinity +16%",
+          "Affinity +20%"
+        ],
+        "min_level": 5
+      },
+      {
+        "id": "A02B7A00",
+        "name": "Critical Boost",
+        "icon": "SKILL_0001",
+        "description": "Increases the damage of critical hits.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Increases damage dealt by critical hits to 28%",
+          "Increases damage dealt by critical hits to 31%",
+          "Increases damage dealt by critical hits to 34%",
+          "Increases damage dealt by critical hits to 37%",
+          "Increases damage dealt by critical hits to 40%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "E84D8E60",
+        "name": "Weakness Exploit",
+        "icon": "SKILL_0000",
+        "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds",
+          "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds",
+          "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds",
+          "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds",
+          "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "00000001",
+        "name": "Attack Boost",
+        "icon": "SKILL_0000",
+        "description": "Increases attack power.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3",
+          "Attack +5",
+          "Attack +7",
+          "Attack +2% Bonus: +8",
+          "Attack +4% Bonus: +9"
+        ],
+        "min_level": 4
+      },
+      {
+        "id": "7D946580",
+        "name": "Peak Performance",
+        "icon": "SKILL_0000",
+        "description": "Increases attack when your health is full.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3 while active",
+          "Attack +6 while active",
+          "Attack +10 while active",
+          "Attack +15 while active",
+          "Attack +20 while active"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "21BA7280",
+        "name": "Burst",
+        "icon": "SKILL_0008",
+        "description": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "On first hit, gain a small temporary attack and element boost, replaced by a larger boost after the fifth hit",
+          "Hit 5 successive times for a moderate stat boost",
+          "Hit 5 successive times for a bigger stat boost",
+          "Hit 5 successive times for an even bigger stat boost",
+          "Hit 5 successive times for a huge stat boost"
+        ],
+        "min_level": 3
+      }
+    ]
+  },
+  {
+    "name": "Perfect Rush SnS",
+    "description": "Maximizes Perfect Rush damage with high affinity and sharpness management",
+    "roles": [{ "name": "DPS", "summary": "Tons of damage." }],
+    "weapon_types": [{ "id": "13", "name": "Sword & Shield" }],
+    "weapon_attr": [{ "id": "9", "name": "BLAST", "icon": "STATUS_0010" }],
+    "skills": [
+      {
+        "id": "00000001",
+        "name": "Attack Boost",
+        "icon": "SKILL_0000",
+        "description": "Increases attack power.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3",
+          "Attack +5",
+          "Attack +7",
+          "Attack +2% Bonus: +8",
+          "Attack +4% Bonus: +9"
+        ],
+        "min_level": 4
+      },
+      {
+        "id": "830A1C00",
+        "name": "Critical Eye",
+        "icon": "SKILL_0001",
+        "description": "Increases affinity.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Affinity +4%",
+          "Affinity +8%",
+          "Affinity +12%",
+          "Affinity +16%",
+          "Affinity +20%"
+        ],
+        "min_level": 5
+      },
+      {
+        "id": "E84D8E60",
+        "name": "Weakness Exploit",
+        "icon": "SKILL_0000",
+        "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds",
+          "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds",
+          "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds",
+          "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds",
+          "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "A02B7A00",
+        "name": "Critical Boost",
+        "icon": "SKILL_0001",
+        "description": "Increases the damage of critical hits.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Increases damage dealt by critical hits to 28%",
+          "Increases damage dealt by critical hits to 31%",
+          "Increases damage dealt by critical hits to 34%",
+          "Increases damage dealt by critical hits to 37%",
+          "Increases damage dealt by critical hits to 40%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "596A2780",
+        "name": "Protective Polish",
+        "icon": "SKILL_0003",
+        "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Grants no sharpness loss for 30 seconds after activation",
+          "Grants no sharpness loss for 60 seconds after activation",
+          "Grants no sharpness loss for 90 seconds after activation"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "21BA7280",
+        "name": "Burst",
+        "icon": "SKILL_0008",
+        "description": "Continuously landing hits gradually increases attack and elemental attack. (Amount increased depends on weapon.)",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "On first hit, gain a small temporary attack and element boost, replaced by a larger boost after the fifth hit",
+          "Hit 5 successive times for a moderate stat boost",
+          "Hit 5 successive times for a bigger stat boost",
+          "Hit 5 successive times for an even bigger stat boost",
+          "Hit 5 successive times for a huge stat boost"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "6F378580",
+        "name": "Agitator",
+        "icon": "SKILL_0008",
+        "description": "Increases attack power and affinity when large monsters become enraged.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +4 and affinity +3% while active",
+          "Attack +8 and affinity +5% while active",
+          "Attack +12 and affinity +7% while active",
+          "Attack +16 and affinity +10% while active",
+          "Attack +20 and affinity +15% while active"
+        ],
+        "min_level": 3
+      }
+    ]
+  },
+  {
+    "name": "Elemental Dual Blades",
+    "description": "High elemental damage with critical element for maximum elemental DPS",
+    "roles": [{ "name": "DPS", "summary": "Tons of damage." }],
+    "weapon_types": [{ "id": "12", "name": "Dual Blades" }],
+    "weapon_attr": [
+      { "id": "3", "name": "ICE", "icon": "STATUS_0003" },
+      { "id": "4", "name": "THUNDER", "icon": "STATUS_0002" }
+    ],
+    "skills": [
+      {
+        "id": "12B121E0",
+        "name": "Critical Element",
+        "icon": "SKILL_0002",
+        "description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits.",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Slightly increases elemental damage while active",
+          "Increases elemental damage while active",
+          "Greatly increases elemental damage while active"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "E84D8E60",
+        "name": "Weakness Exploit",
+        "icon": "SKILL_0000",
+        "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds",
+          "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds",
+          "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds",
+          "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds",
+          "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "830A1C00",
+        "name": "Critical Eye",
+        "icon": "SKILL_0001",
+        "description": "Increases affinity.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Affinity +4%",
+          "Affinity +8%",
+          "Affinity +12%",
+          "Affinity +16%",
+          "Affinity +20%"
+        ],
+        "min_level": 5
+      },
+      {
+        "id": "568DE880",
+        "name": "Thunder Attack",
+        "icon": "SKILL_0002",
+        "description": "Increases thunder element attack power. (Elemental attack power has a maximum limit.)",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Thunder attack +40",
+          "Thunder attack +10% Bonus: +50",
+          "Thunder attack +20% Bonus: +60"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "4B953800",
+        "name": "Ice Attack",
+        "icon": "SKILL_0002",
+        "description": "Increases ice element attack power. (Elemental attack power has a maximum limit.)",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Ice attack +40",
+          "Ice attack +10% Bonus: +50",
+          "Ice attack +20% Bonus: +60"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "596A2780",
+        "name": "Protective Polish",
+        "icon": "SKILL_0003",
+        "description": "Weapon sharpness does not decrease for a set time after sharpening.",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Grants no sharpness loss for 30 seconds after activation",
+          "Grants no sharpness loss for 60 seconds after activation",
+          "Grants no sharpness loss for 90 seconds after activation"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "9B4DED80",
+        "name": "Constitution",
+        "icon": "SKILL_0007",
+        "description": "Reduces stamina depletion when evading, blocking, or doing certain other actions.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Reduces fixed stamina depletion by 10%",
+          "Reduces fixed stamina depletion by 20%",
+          "Reduces fixed stamina depletion by 30%",
+          "Reduces fixed stamina depletion by 40%",
+          "Reduces fixed stamina depletion by 50%"
+        ],
+        "min_level": 3
+      }
+    ]
+  },
+  {
+    "name": "Slugger Hammer",
+    "description": "KO-focused build with high raw damage for maximum stun potential",
+    "roles": [{ "name": "DPS", "summary": "Tons of damage." }],
+    "weapon_types": [{ "id": "10", "name": "Hammer" }],
+    "weapon_attr": [{ "id": "9", "name": "BLAST", "icon": "STATUS_0010" }],
+    "skills": [
+      {
+        "id": "CABFAFC0",
+        "name": "Slugger",
+        "icon": "SKILL_0008",
+        "description": "Makes it easier to stun monsters.",
+        "category": "WEAPON",
+        "max_level": 3,
+        "set_count": "",
+        "level_descriptions": [
+          "Stun power +20%",
+          "Stun power +30%",
+          "Stun power +40%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "00000001",
+        "name": "Attack Boost",
+        "icon": "SKILL_0000",
+        "description": "Increases attack power.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3",
+          "Attack +5",
+          "Attack +7",
+          "Attack +2% Bonus: +8",
+          "Attack +4% Bonus: +9"
+        ],
+        "min_level": 4
+      },
+      {
+        "id": "E84D8E60",
+        "name": "Weakness Exploit",
+        "icon": "SKILL_0000",
+        "description": "Increases the affinity of attacks that exploit a monster's weak points and wounds.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attacks that hit weak points gain affinity +5%, with an extra 3% on wounds",
+          "Attacks that hit weak points gain affinity +10%, with an extra 5% on wounds",
+          "Attacks that hit weak points gain affinity +15%, with an extra 10% on wounds",
+          "Attacks that hit weak points have 20% increased affinity, with an extra 15% on wounds",
+          "Attacks that hit weak points have 30% increased affinity, with an extra 20% on wounds"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "830A1C00",
+        "name": "Critical Eye",
+        "icon": "SKILL_0001",
+        "description": "Increases affinity.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Affinity +4%",
+          "Affinity +8%",
+          "Affinity +12%",
+          "Affinity +16%",
+          "Affinity +20%"
+        ],
+        "min_level": 5
+      },
+      {
+        "id": "A02B7A00",
+        "name": "Critical Boost",
+        "icon": "SKILL_0001",
+        "description": "Increases the damage of critical hits.",
+        "category": "WEAPON",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Increases damage dealt by critical hits to 28%",
+          "Increases damage dealt by critical hits to 31%",
+          "Increases damage dealt by critical hits to 34%",
+          "Increases damage dealt by critical hits to 37%",
+          "Increases damage dealt by critical hits to 40%"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "6F378580",
+        "name": "Agitator",
+        "icon": "SKILL_0008",
+        "description": "Increases attack power and affinity when large monsters become enraged.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +4 and affinity +3% while active",
+          "Attack +8 and affinity +5% while active",
+          "Attack +12 and affinity +7% while active",
+          "Attack +16 and affinity +10% while active",
+          "Attack +20 and affinity +15% while active"
+        ],
+        "min_level": 3
+      },
+      {
+        "id": "7D946580",
+        "name": "Peak Performance",
+        "icon": "SKILL_0000",
+        "description": "Increases attack when your health is full.",
+        "category": "EQUIP",
+        "max_level": 5,
+        "set_count": "",
+        "level_descriptions": [
+          "Attack +3 while active",
+          "Attack +6 while active",
+          "Attack +10 while active",
+          "Attack +15 while active",
+          "Attack +20 while active"
+        ],
+        "min_level": 3
+      }
+    ]
+  }
+]
