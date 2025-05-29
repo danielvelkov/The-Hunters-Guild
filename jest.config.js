@@ -12,7 +12,9 @@ const config = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
     '^@models/(.*)$': '<rootDir>/src/models/$1',
-    '^@js/(.*)$': '<rootDir>/src/public/js/$1',
+    '^js/(.*)$': '<rootDir>/src/public/js/$1',
+    '^css/(.*)$': '<rootDir>/tests/__mocks__/styleMock.js', // mock all css imports
+    '@tests/(.*)$': '<rootDir>/tests/$1',
   },
   // If using subpath imports
   resolver: undefined, // Jest handles subpath imports automatically in newer versions

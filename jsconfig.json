@@ -4,7 +4,9 @@
     "paths": {
       "css/*": ["./src/public/css/*"],
       "js/*": ["./src/public/js/*"],
-      "icons/*": ["./src/public/icons/*"]
+      "icons/*": ["./src/public/icons/*"],
+      "@tests/*": ["./tests/*"],
+      "@models/*": ["./src/models/*"]
     }
   }
 }
