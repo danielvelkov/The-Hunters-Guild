@@ -53,6 +53,21 @@ const MonsterSelectForms = (() => {
     // Set unique IDs
     monsterForm.attr('id', `monster-form-${formId}`);
 
+    [monsterForm, monsterDetails].forEach((container) => {
+      // Update all elements that have an ID
+      container.find('[id]').each(function () {
+        const $el = $(this);
+        const currentId = $el.attr('id');
+        $el.attr('id', `${currentId}-${formId}`);
+      });
+
+      // Update all labels that have a 'for' attribute
+      container.find('label[for]').each(function () {
+        const $label = $(this);
+        const currentFor = $label.attr('for');
+        $label.attr('for', `${currentFor}-${formId}`);
+      });
+    });
 
     const monsterSelect = monsterForm.find('.monster-select');
 
