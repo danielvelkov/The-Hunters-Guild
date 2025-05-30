@@ -1,4 +1,5 @@
 import { monstersList, createPageMediator } from '../create.js';
+import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
 import 'css/components/monster-select-forms.css';
 
 const MonsterSelectForms = (() => {
@@ -17,23 +18,26 @@ const MonsterSelectForms = (() => {
   // Bind Events
   $addButton.on('click', () => {
     const newForm = createForm();
-    add(newForm);
+    addForm(newForm);
   });
   container.on('change', () => {
-    createPageMediator.trigger('monsterSelectFormsChange', _monsterSelectForms);
+    createPageMediator.trigger(
+      MONSTER_SELECT_FORMS_CHANGE,
+      _monsterSelectForms
+    );
   });
 
   function getMonsterSelectForms() {
     return _monsterSelectForms;
   }
 
-  function add(form) {
+  function addForm(form) {
     if (_monsterSelectForms.size >= 2) return;
     _monsterSelectForms.add(form);
     container.append(form);
   }
 
-  function remove(form) {
+  function removeForm(form) {
     if (_monsterSelectForms.has(form)) {
       _monsterSelectForms.delete(form);
       form.remove();
@@ -107,7 +111,7 @@ const MonsterSelectForms = (() => {
       // use RAF cuz dropdown is present
       requestAnimationFrame(() => {
         monsterSelect.select2('close');
-        remove(form);
+        removeForm(form);
       });
     });
 

@@ -3,6 +3,7 @@ import './create/player-comp.js';
 import './create/preview.js';
 import Mediator from 'js/common/mediator';
 import './create/monster-select-forms.js';
+import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
 
 import 'css/pages/hunting-quest/create.css';
 
@@ -18,7 +19,7 @@ export const {
 
 export const createPageMediator = new Mediator();
 
-createPageMediator.on('monsterSelectFormsChange', (monsterSelectForms) => {
+createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
   monstersForms = [...monsterSelectForms];
   selectedMonsters = [];
   for (const form of monsterSelectForms) {

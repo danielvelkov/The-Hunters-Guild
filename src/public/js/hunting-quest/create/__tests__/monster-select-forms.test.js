@@ -6,6 +6,7 @@ import userEvent from '@testing-library/user-event';
 
 import GameData from '@models/GameData';
 import { select2Clear, selectSelect2Option } from '@tests/helper';
+import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
 jest.mock('@models/GameData');
@@ -17,7 +18,7 @@ const ejsViewPath = path.resolve(
 
 const mockMonsters = GameData.monsters__weakness_and_icons_ListGet();
 
-describe('monster forms section', () => {
+describe('monster select forms section', () => {
   let user = userEvent.setup();
   const mockMediator = {
     trigger: jest.fn(),
@@ -37,7 +38,7 @@ describe('monster forms section', () => {
     }));
 
     jest.isolateModules(() => {
-      require('../monster-select-forms');
+      require('js/hunting-quest/create/monster-select-forms');
     });
   });
 
@@ -46,7 +47,7 @@ describe('monster forms section', () => {
     jest.restoreAllMocks();
   });
 
-  test('should show monster form on add monster button click', async () => {
+  test('should show monster select form on add monster button click', async () => {
     const addMonsterButton = screen.getByRole('button', {
       name: /add monster/i,
     });
@@ -160,7 +161,7 @@ describe('monster forms section', () => {
 
     expect(spy).toHaveBeenCalledTimes(1);
     expect(spy).toHaveBeenCalledWith(
-      'monsterSelectFormsChange',
+      MONSTER_SELECT_FORMS_CHANGE,
       expect.anything()
     );
   });
