@@ -1,6 +1,6 @@
-import { monstersList, createPageMediator } from '../create.js';
-import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
+import { monstersList } from '../create.js';
 import 'css/components/monster-select-forms.css';
+import createPageMediator from 'js/common/mediator';
 
 const MonsterSelectForms = (() => {
   let _monsterFormCounter = 0;

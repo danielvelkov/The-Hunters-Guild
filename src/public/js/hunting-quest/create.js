@@ -1,7 +1,7 @@
 import { selectedMonstersChangeHandler } from './create/quest-details.js';
 import './create/player-comp.js';
 import './create/preview.js';
-import Mediator from 'js/common/mediator';
+import createPageMediator from 'js/common/mediator';
 import './create/monster-select-forms.js';
 import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
 
@@ -16,8 +16,6 @@ export const {
   weaponAttributesList,
   systemLoadoutsList,
 } = globalThis.serverData;
-
-export const createPageMediator = new Mediator();
 
 createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
   monstersForms = [...monsterSelectForms];

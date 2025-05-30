@@ -22,6 +22,7 @@ describe('monster select forms section', () => {
   let user = userEvent.setup();
   const mockMediator = {
     trigger: jest.fn(),
+    on: jest.fn(),
   };
 
   beforeEach(async () => {
@@ -34,8 +35,8 @@ describe('monster select forms section', () => {
 
     jest.doMock('js/hunting-quest/create', () => ({
       monstersList: mockMonsters,
-      createPageMediator: mockMediator,
     }));
+    jest.doMock('js/common/mediator', () => mockMediator);
 
     jest.isolateModules(() => {
       require('js/hunting-quest/create/monster-select-forms');
@@ -148,7 +149,7 @@ describe('monster select forms section', () => {
   });
 
   test('should trigger event monsterSelectFormsChange on monster select', async () => {
-    const { createPageMediator } = jest.requireMock('js/hunting-quest/create');
+    const createPageMediator = jest.requireMock('js/common/mediator');
     const spy = jest.spyOn(createPageMediator, 'trigger');
 
     const addMonsterButton = screen.getByRole('button', {

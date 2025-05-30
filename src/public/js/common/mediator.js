@@ -1,7 +1,7 @@
 /**
  * A super-basic JavaScript Publish-Subscribe (PubSub) pattern.
  */
-export default class Mediator {
+class Mediator {
   /**
    * Creates a new Mediator instance.
    */
@@ -52,3 +52,5 @@ export default class Mediator {
     }
   }
 }
+
+export default new Mediator();
