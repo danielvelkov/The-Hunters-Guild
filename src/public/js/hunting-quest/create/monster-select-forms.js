@@ -1,10 +1,15 @@
 import { monstersList } from '../create.js';
+import {
+  MONSTER_SELECT_FORMS_CHANGE,
+  QUEST_CATEGORY_CHANGE,
+} from 'js/common/events.js';
 import 'css/components/monster-select-forms.css';
 import createPageMediator from 'js/common/mediator';
 
 const MonsterSelectForms = (() => {
   let _monsterFormCounter = 0;
   let _monsterSelectForms = new Set();
+  let _crownSelectVisibility = true;
 
   // Cache DOM
   const container = $('#monster-forms');
@@ -27,8 +32,39 @@ const MonsterSelectForms = (() => {
     );
   });
 
+  createPageMediator.on(QUEST_CATEGORY_CHANGE, setCrownVisibility);
+
   function getMonsterSelectForms() {
     return _monsterSelectForms;
+  }
+
+  function setCrownVisibility(value) {
+    _crownSelectVisibility = value;
+    changeCrownSelectVisibility(_crownSelectVisibility);
+  }
+
+  function changeCrownSelectVisibility(visible) {
+    _monsterSelectForms.forEach((form) => {
+      // Only apply to forms that have monster details
+      if (form.find('.monster-details').length > 0) {
+        applyCrownVisibility(form);
+      }
+    });
+  }
+
+  function applyCrownVisibility(form) {
+    const monsterCrownSelect = form.find('.monster-crown');
+    const label = form.find('.monster-crown-label');
+
+    if (_crownSelectVisibility) {
+      label.show();
+      monsterCrownSelect.show();
+      monsterCrownSelect.prop('disabled', false);
+    } else {
+      label.hide();
+      monsterCrownSelect.hide();
+      monsterCrownSelect.prop('disabled', true);
+    }
   }
 
   function addForm(form) {
@@ -128,6 +164,7 @@ const MonsterSelectForms = (() => {
 
       // Configure monster variant options
       configureMonsterVariants(monsterDetails, monster);
+      applyCrownVisibility(form);
     });
   }
 

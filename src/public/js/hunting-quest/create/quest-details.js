@@ -1,8 +1,10 @@
+import { QUEST_CATEGORY_CHANGE } from 'js/common/events.js';
 import {
   monstersForms,
   selectedMonsters,
   bonusQuestRewardsList,
 } from '../create.js';
+import createPageMediator from 'js/common/mediator';
 
 // Display Platform options depending on whether 'Cross-play' disabled
 $('#cross-play-enabled').on('click', function () {
@@ -33,20 +35,10 @@ $('#bonus-rewards-enabled').on('click', function () {
 // Quest category change handler
 $('#quest-category').on('change', (e) => {
   const category = e.target.value;
-  monstersForms.forEach((mf) => {
-    const monsterCrownSelect = mf.find('.monster-crown');
-    const label = mf.find('.monster-crown-label');
-
-    if (category === 'Saved Investigation' || category === 'Field Survey') {
-      label.show();
-      monsterCrownSelect.show();
-      monsterCrownSelect.prop('disabled', false);
-    } else {
-      label.hide();
-      monsterCrownSelect.hide();
-      monsterCrownSelect.prop('disabled', true);
-    }
-  });
+  createPageMediator.trigger(
+    QUEST_CATEGORY_CHANGE,
+    category === 'Saved Investigation' || category === 'Field Survey'
+  );
 });
 
 // Handler for when selected monsters change
