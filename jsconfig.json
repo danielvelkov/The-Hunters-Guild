@@ -6,7 +6,8 @@
       "js/*": ["./src/public/js/*"],
       "icons/*": ["./src/public/icons/*"],
       "@tests/*": ["./tests/*"],
-      "@models/*": ["./src/models/*"]
+      "@models/*": ["./src/models/*"],
+      "entities/*": ["./src/entities/*"]
     }
   }
 }

@@ -15,6 +15,7 @@ const config = {
     '^js/(.*)$': '<rootDir>/src/public/js/$1',
     '^css/(.*)$': '<rootDir>/tests/__mocks__/styleMock.js', // mock all css imports
     '@tests/(.*)$': '<rootDir>/tests/$1',
+    '^entities/(.*)$': '<rootDir>/src/entities/$1',
   },
   // If using subpath imports
   resolver: undefined, // Jest handles subpath imports automatically in newer versions

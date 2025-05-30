@@ -59,6 +59,7 @@ module.exports = {
       css: path.resolve(__dirname, 'src/public/css'),
       js: path.resolve(__dirname, 'src/public/js'),
       icons: path.resolve(__dirname, 'src/public/icons'),
+      entities: path.resolve(__dirname, 'src/entities'),
     },
   },
 
