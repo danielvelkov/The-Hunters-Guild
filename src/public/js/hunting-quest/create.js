@@ -6,7 +6,24 @@ import './create/monster-select-forms.js';
 import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
 
 import 'css/pages/hunting-quest/create.css';
-
+import Monster from 'entities/game-data/Monster.js';
+import Item from 'entities/game-data/Item.js';
+import MonsterDrop from 'entities/game-data/MonsterDrop.js';
+import Skill from 'entities/game-data/Skill.js';
+import WeaponType from 'entities/game-data/WeaponType.js';
+import WeaponAttribute from 'entities/game-data/WeaponAttribute.js';
+import { Loadout } from 'entities/Loadout.js';
+/**
+ * @type {{
+ *   monstersList: Array<Monster>,
+ *   bonusQuestRewardsList: Array<Item>,
+ *   monstersDropsList: Array<MonsterDrop>,
+ *   skillsList: Array<Skill>,
+ *   weaponTypesList: Array<WeaponType>,
+ *   weaponAttributesList: Array<WeaponAttribute>,
+ *   systemLoadoutsList: Array<Loadout>
+ * }}
+ */
 export const {
   monstersList,
   bonusQuestRewardsList,
