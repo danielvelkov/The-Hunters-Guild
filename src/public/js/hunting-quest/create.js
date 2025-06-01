@@ -1,4 +1,4 @@
-import { selectedMonstersChangeHandler } from './create/quest-details.js';
+import { selectedMonstersChangeHandler } from './create/quest-details-form';
 import './create/player-comp.js';
 import './create/preview.js';
 import createPageMediator from 'js/common/mediator';
@@ -26,8 +26,6 @@ createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
     const selectedMonster = monstersList.find((m) => m.id === monsterId);
     if (selectedMonster) selectedMonsters.push(selectedMonster);
   }
-  if (selectedMonsters.length) $('#quest-post-form').show();
-  else $('#quest-post-form').hide();
   selectedMonstersChangeHandler();
 });
 

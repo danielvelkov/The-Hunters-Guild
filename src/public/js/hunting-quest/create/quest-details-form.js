@@ -1,10 +1,15 @@
-import { QUEST_CATEGORY_CHANGE } from 'js/common/events.js';
 import {
-  monstersForms,
-  selectedMonsters,
-  bonusQuestRewardsList,
-} from '../create.js';
+  MONSTER_SELECT_FORMS_CHANGE,
+  QUEST_CATEGORY_CHANGE,
+} from 'js/common/events.js';
+import { selectedMonsters, bonusQuestRewardsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
+
+createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterForms) => {
+  console.log(monsterForms.size);
+  if (monsterForms.size) $('#quest-post-form').show();
+  else $('#quest-post-form').hide();
+});
 
 // Display Platform options depending on whether 'Cross-play' disabled
 $('#cross-play-enabled').on('click', function () {
