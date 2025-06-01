@@ -5,7 +5,7 @@ import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
 import GameData from '@models/GameData';
-import { select2Clear, selectSelect2Option } from '@tests/helper';
+import { selectSelect2Option } from '@tests/helper';
 import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
@@ -130,7 +130,7 @@ describe('monster select forms section', () => {
       .forEach((checkbox) => expect(checkbox).toBeDisabled());
   });
 
-  test('should remove monster form on clear select', async () => {
+  test('should remove monster form on remove button click', async () => {
     const addMonsterButton = screen.getByRole('button', {
       name: /add monster/i,
     });
@@ -140,12 +140,12 @@ describe('monster select forms section', () => {
 
     selectSelect2Option(select, mockMonsters[0].id);
 
-    select2Clear(select);
+    const removeButton = screen.getByRole('button', { name: /remove/i });
 
-    await waitFor(() => {
-      expect(select).not.toBeInTheDocument();
-      expect(screen.queryByRole('form')).not.toBeInTheDocument();
-    });
+    await user.click(removeButton);
+
+    expect(select).not.toBeInTheDocument();
+    expect(screen.queryByRole('form')).not.toBeInTheDocument();
   });
 
   test('should trigger event monsterSelectFormsChange on monster select', async () => {

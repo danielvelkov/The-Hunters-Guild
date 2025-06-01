@@ -16,6 +16,9 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  position: relative;
+  border: 1px solid var(--border-color);
+  padding: 1em;
 }
 
 .monster-select-name {

@@ -77,6 +77,7 @@ const MonsterSelectForms = (() => {
     if (_monsterSelectForms.has(form)) {
       _monsterSelectForms.delete(form);
       form.remove();
+      container.trigger('change');
     }
   }
 
@@ -128,6 +129,10 @@ const MonsterSelectForms = (() => {
         });
     });
 
+    monsterForm
+      .find('.remove-button')
+      .on('click', () => removeForm(monsterForm));
+
     return monsterForm;
   }
 
@@ -138,17 +143,7 @@ const MonsterSelectForms = (() => {
   ) {
     monsterSelect.select2({
       placeholder: '-- Choose a monster --',
-      allowClear: true,
       templateResult: formatMonsterOption,
-    });
-
-    // Clear handler
-    monsterSelect.on('select2:clear', (e) => {
-      // use RAF cuz dropdown is present
-      requestAnimationFrame(() => {
-        monsterSelect.select2('close');
-        removeForm(form);
-      });
     });
 
     // Select handler
