@@ -1,4 +1,14 @@
-/** Class representing item info. */
+/**
+ * Class representing item info.
+ * @property {string} id - Unique Item ID
+ * @property {string} name - Item name
+ * @property {string} icon - Icon name
+ * @property {string} iconColor - Icon coloring
+ * @property {string} description - Item description
+ * @property {string} type - Item type ('Food Ingredient', 'Material', 'Consumable', etc)
+ * @property {number} rarity - 1-7 with 1 being common; 7 - Super Rare
+ * @property {string} source - Where to get the item
+ */
 class Item {
   /**
    * @param {string} id Unique Item ID
@@ -18,7 +28,7 @@ class Item {
     this.description = description;
     this.type = type;
     this.rarity = rarity;
-    this.source= source;
+    this.source = source;
   }
 }
 
