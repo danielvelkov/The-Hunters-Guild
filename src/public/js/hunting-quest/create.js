@@ -1,14 +1,15 @@
-import './create/player-comp.js';
-import './create/preview.js';
 import createPageMediator from 'js/common/mediator';
-import './create/monster-select-forms.js';
-import './create/quest-details-form.js';
 import {
   MONSTER_SELECT_FORMS_CHANGE,
   SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
+import './create/player-comp.js';
+import './create/preview.js';
+import './create/monster-select-forms.js';
+import './create/quest-details-form.js';
 
 import 'css/pages/hunting-quest/create.css';
+
 import Monster from 'entities/game-data/Monster.js';
 import Item from 'entities/game-data/Item.js';
 import MonsterDrop from 'entities/game-data/MonsterDrop.js';
