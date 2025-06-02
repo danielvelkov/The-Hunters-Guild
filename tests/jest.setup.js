@@ -19,3 +19,5 @@ const select2 = require('select2');
 if (typeof $.fn.select2 === 'undefined') {
   $.fn.select2 = select2;
 }
+
+global.structuredClone = (val) => JSON.parse(JSON.stringify(val))
