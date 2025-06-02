@@ -1,6 +1,6 @@
 import path from 'path';
 import ejs from 'ejs';
-import { screen, waitFor } from '@testing-library/dom';
+import { screen } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
