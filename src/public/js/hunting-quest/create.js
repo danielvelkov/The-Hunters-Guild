@@ -1,9 +1,12 @@
-import { selectedMonstersChangeHandler } from './create/quest-details-form';
 import './create/player-comp.js';
 import './create/preview.js';
 import createPageMediator from 'js/common/mediator';
 import './create/monster-select-forms.js';
-import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events.js';
+import './create/quest-details-form.js';
+import {
+  MONSTER_SELECT_FORMS_CHANGE,
+  SELECTED_MONSTERS_CHANGE,
+} from 'js/common/events.js';
 
 import 'css/pages/hunting-quest/create.css';
 import Monster from 'entities/game-data/Monster.js';
@@ -43,7 +46,7 @@ createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
     const selectedMonster = monstersList.find((m) => m.id === monsterId);
     if (selectedMonster) selectedMonsters.push(selectedMonster);
   }
-  selectedMonstersChangeHandler();
+  createPageMediator.trigger(SELECTED_MONSTERS_CHANGE, selectedMonsters);
 });
 
 export let monstersForms = [];

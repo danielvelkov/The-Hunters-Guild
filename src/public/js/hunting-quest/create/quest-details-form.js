@@ -1,152 +1,179 @@
 import {
-  MONSTER_SELECT_FORMS_CHANGE,
-  QUEST_CATEGORY_CHANGE,
+  CROWN_SELECT_VISIBILITY_CHANGE,
+  SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
-import { selectedMonsters, bonusQuestRewardsList } from '../create.js';
+import { bonusQuestRewardsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
 
-createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterForms) => {
-  console.log(monsterForms.size);
-  if (monsterForms.size) $('#quest-post-form').show();
-  else $('#quest-post-form').hide();
-});
+const QuestDetails = (() => {
+  // Cache DOM elements
+  const $crossPlayEnabled = $('#cross-play-enabled');
+  const $platformOptions = $('#platform-options');
+  const $bonusRewardsEnabled = $('#bonus-rewards-enabled');
+  const $bonusRewards = $('#bonus-rewards');
+  const $questCategory = $('#quest-category');
+  const $questPostForm = $('#quest-post-form');
+  const $locale = $('#locale');
 
-// Display Platform options depending on whether 'Cross-play' disabled
-$('#cross-play-enabled').on('click', function () {
-  if (!$(this).is(':checked')) {
-    $('#platform-options').show();
-    $('#platform-options * input').each((_, inputElem) =>
-      $(inputElem).prop('disabled', false)
-    );
-  } else {
-    $('#platform-options').hide();
-    $('#platform-options * input').each((_, inputElem) =>
-      $(inputElem).prop('disabled', true)
+  // Bind Events
+  $crossPlayEnabled.on('click', handleCrossPlayCheckboxChange);
+  $bonusRewardsEnabled.on('click', handleBonusRewardsCheckboxChange);
+  $questCategory.on('change', handleQuestCategoryChange);
+
+  // Subscribe to mediator events
+  createPageMediator.on(SELECTED_MONSTERS_CHANGE, handleSelectedMonstersChange);
+
+  function handleCrossPlayCheckboxChange() {
+    if (!$crossPlayEnabled.is(':checked')) {
+      $platformOptions.show();
+      $platformOptions.find('input').each((_, inputElem) => {
+        $(inputElem).prop('disabled', false);
+      });
+    } else {
+      $platformOptions.hide();
+      $platformOptions.find('input').each((_, inputElem) => {
+        $(inputElem).prop('disabled', true);
+      });
+    }
+  }
+
+  function handleBonusRewardsCheckboxChange() {
+    if (!$bonusRewardsEnabled.is(':checked')) {
+      $bonusRewards.next().hide();
+      $bonusRewards.prop('disabled', true);
+    } else {
+      $bonusRewards.next().show();
+      $bonusRewards.prop('disabled', false);
+    }
+  }
+
+  function handleQuestCategoryChange(e) {
+    const category = e.target.value;
+    createPageMediator.trigger(
+      CROWN_SELECT_VISIBILITY_CHANGE,
+      category === 'Saved Investigation' || category === 'Field Survey'
     );
   }
-});
 
-// Display Bonus Rewards depending on whether 'Bonus Rewards' enabled
-$('#bonus-rewards-enabled').on('click', function () {
-  if (!$(this).is(':checked')) {
-    $('#bonus-rewards').next().hide();
-    $('#bonus-rewards').prop('disabled', true);
-  } else {
-    $('#bonus-rewards').next().show();
-    $('#bonus-rewards').prop('disabled', false);
+  function handleSelectedMonstersChange(selectedMonsters) {
+    if (selectedMonsters.length) {
+      $questPostForm.show();
+    } else {
+      $questPostForm.hide();
+    }
+
+    selectedMonstersChangeHandler(selectedMonsters);
   }
-});
 
-// Quest category change handler
-$('#quest-category').on('change', (e) => {
-  const category = e.target.value;
-  createPageMediator.trigger(
-    QUEST_CATEGORY_CHANGE,
-    category === 'Saved Investigation' || category === 'Field Survey'
-  );
-});
+  function selectedMonstersChangeHandler(selectedMonsters) {
+    updateLocaleOptions(selectedMonsters);
+    updateBonusRewards(selectedMonsters);
+    $questCategory.trigger('change');
+  }
 
-// Handler for when selected monsters change
-export function selectedMonstersChangeHandler() {
-  updateLocaleOptions();
-  updateBonusRewards();
-  $('#quest-category').trigger('change');
-}
+  function updateLocaleOptions(selectedMonsters) {
+    let monsterLocales = [];
 
-function updateLocaleOptions() {
-  let monsterLocales = [];
-
-  selectedMonsters.forEach((m) => {
-    if (m) monsterLocales = monsterLocales.concat(m.locales);
-  });
-
-  // If two monsters are selected, show only common locales
-  if (selectedMonsters.filter((m) => m).length === 2) {
-    const localeCounts = {};
-    monsterLocales.forEach((str) => {
-      localeCounts[str] = (localeCounts[str] || 0) + 1;
+    selectedMonsters.forEach((m) => {
+      if (m) monsterLocales = monsterLocales.concat(m.locales);
     });
 
-    // Filter strings that appear more than once
-    monsterLocales = Object.keys(localeCounts).filter(
-      (str) => localeCounts[str] > 1
+    // If two monsters are selected, show only common locales
+    if (selectedMonsters.filter((m) => m).length === 2) {
+      const localeCounts = {};
+      monsterLocales.forEach((str) => {
+        localeCounts[str] = (localeCounts[str] || 0) + 1;
+      });
+
+      // Filter strings that appear more than once
+      monsterLocales = Object.keys(localeCounts).filter(
+        (str) => localeCounts[str] > 1
+      );
+      if (monsterLocales.length === 0) {
+        monsterLocales = ['-- No Common Locale --'];
+      }
+    }
+
+    $locale.html(
+      monsterLocales.map(
+        (l, index) =>
+          `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`
+      )
     );
-    if (monsterLocales.length === 0)
-      monsterLocales = ['-- No Common Locale --'];
   }
 
-  $('#locale').html(
-    monsterLocales.map(
-      (l, index) =>
-        `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`
-    )
-  );
-}
+  function updateBonusRewards(selectedMonsters) {
+    const questRewardsGroupsMap = {};
 
-function updateBonusRewards() {
-  const questRewardsGroupsMap = {};
+    bonusQuestRewardsList.forEach((qr) => {
+      // Skip if monster is not in source
+      if (
+        qr.source &&
+        selectedMonsters.every((m) => !qr.source.split(',').includes(m?.name))
+      ) {
+        return;
+      }
 
-  bonusQuestRewardsList.forEach((qr) => {
-    // Skip if monster is not in source
-    if (
-      qr.source &&
-      selectedMonsters.every((m) => !qr.source.split(',').includes(m?.name))
-    ) {
-      return;
-    }
+      if (!questRewardsGroupsMap.hasOwnProperty(qr.type)) {
+        questRewardsGroupsMap[qr.type] = [];
+      }
+      questRewardsGroupsMap[qr.type].push(qr);
+    });
 
-    if (!questRewardsGroupsMap.hasOwnProperty(qr.type)) {
-      questRewardsGroupsMap[qr.type] = [];
-    }
-    questRewardsGroupsMap[qr.type].push(qr);
-  });
+    // Build HTML for bonus rewards select
+    $bonusRewards.html(
+      Object.entries(questRewardsGroupsMap)
+        .reverse()
+        .map(([k, v]) => {
+          let optGroupHTML = `<optgroup label="${k + 's'}"><option></option>`;
+          optGroupHTML += v
+            .sort((qr1, qr2) => qr1.rarity - qr2.rarity)
+            .map(
+              (qr) =>
+                `<option data-icon="${
+                  qr.icon === 'INVALID' ? 'ITEM_0001' : qr.icon
+                }" data-color="${qr.iconColor}" value="${qr.id}">
+          ${qr.name}
+        </option>`
+            )
+            .join('');
+          optGroupHTML += '</optgroup>';
+          return optGroupHTML;
+        })
+        .join('')
+    );
 
-  // Build HTML for bonus rewards select
-  $('#bonus-rewards').html(
-    Object.entries(questRewardsGroupsMap)
-      .reverse()
-      .map(([k, v]) => {
-        let optGroupHTML = `<optgroup label="${k + 's'}"><option></option>`;
-        optGroupHTML += v
-          .sort((qr1, qr2) => qr1.rarity - qr2.rarity)
-          .map(
-            (qr) =>
-              `<option data-icon="${
-                qr.icon === 'INVALID' ? 'ITEM_0001' : qr.icon
-              }" data-color="${qr.iconColor}" value="${qr.id}">
-        ${qr.name}
-      </option>`
-          )
-          .join('');
-        optGroupHTML += '</optgroup>';
-        return optGroupHTML;
-      })
-      .join('')
-  );
+    // Initialize Select2 for bonus rewards
+    $bonusRewards.select2({
+      dropdownAutoWidth: true,
+      multiple: true,
+      placeholder: '-- Select Bonus Rewards --',
+      templateResult: formatBonusRewardOption,
+    });
+  }
 
-  // Initialize Select2 for bonus rewards
-  $('#bonus-rewards').select2({
-    dropdownAutoWidth: true,
-    multiple: true,
-    placeholder: '-- Select Bonus Rewards --',
-    templateResult: formatBonusRewardOption,
-  });
-}
+  // Public API
+  return {
+    selectedMonstersChangeHandler,
+  };
+})();
 
 function formatBonusRewardOption(item) {
   if (item.element && item.text && item.id) {
     const iconPath = `url('../icons/Item Icons/${item.element?.dataset.icon}.png')`;
     return $(`
-      <span class='bonus-select-name' style="display:flex; gap:0.5em; align-items:center;">
-        <div class="item-img-container"
-          data-icon-id="${item.id}"
-          style="--item-color: var(--${item.element?.dataset.color}); --item-icon:${iconPath}">
-          <img height='23' src="icons/Item Icons/${item.element?.dataset.icon}.png"/>
-        </div>
-        <b>${item.text}</b>
-      </span>
-    `);
+        <span class='bonus-select-name' style="display:flex; gap:0.5em; align-items:center;">
+          <div class="item-img-container"
+            data-icon-id="${item.id}"
+            style="--item-color: var(--${item.element?.dataset.color}); --item-icon:${iconPath}">
+            <img height='23' src="icons/Item Icons/${item.element?.dataset.icon}.png"/>
+          </div>
+          <b>${item.text}</b>
+        </span>
+      `);
   } else if (item.text) {
     return item.text;
   }
 }
+
+export default QuestDetails;

@@ -136,7 +136,7 @@
       </ul>
     </label>
 
-    <label for="bonus-rewards-enabled">
+    <label id="bonus-rewards-label" for="bonus-rewards-enabled">
       Bonus Rewards ?
       <input
         type="checkbox"
@@ -150,6 +150,7 @@
       id="bonus-rewards"
       name="bonus-rewards[]"
       multiple="multiple"
+      aria-labelledby="bonus-rewards-label"
     ></select>
   </fieldset>
 
