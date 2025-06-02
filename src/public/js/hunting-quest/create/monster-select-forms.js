@@ -1,7 +1,7 @@
 import { monstersList } from '../create.js';
 import {
   MONSTER_SELECT_FORMS_CHANGE,
-  QUEST_CATEGORY_CHANGE,
+  CROWN_SELECT_VISIBILITY_CHANGE,
 } from 'js/common/events.js';
 import 'css/components/monster-select-forms.css';
 import createPageMediator from 'js/common/mediator';
@@ -32,7 +32,7 @@ const MonsterSelectForms = (() => {
     );
   });
 
-  createPageMediator.on(QUEST_CATEGORY_CHANGE, setCrownVisibility);
+  createPageMediator.on(CROWN_SELECT_VISIBILITY_CHANGE, setCrownVisibility);
 
   function getMonsterSelectForms() {
     return _monsterSelectForms;
