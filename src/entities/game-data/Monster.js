@@ -12,7 +12,7 @@ class Monster {
    * @param {Object[]} special_attacks Monster's signature moves.
    * @param {string} special_attacks[].name Move name.
    * @param {string} special_attacks[].description Attack description.
-   * @param {Object[]} special_attacks[].skill_counters Skill that Counters that special attack. 
+   * @param {Object[]} special_attacks[].skill_counters Skill that Counters that special attack.
    * @param {Object[]} weaknesses Monster's weaknesses.
    * @param {Object[]} weaknesses[].elements Monster elemental weaknesses.
    * @param {string} weaknesses[].elements[].name Monster elemental weakness name.
@@ -69,6 +69,25 @@ class Monster {
     this.status_effectiveness = status_effectiveness;
     this.item_effectiveness = item_effectiveness;
     this.canBeCaptured = canBeCaptured;
+  }
+
+  static fromDatabaseObject(dbObject) {
+    return new Monster(
+      dbObject.id,
+      dbObject.name,
+      dbObject.icon,
+      dbObject.frenzied,
+      dbObject.tempered,
+      dbObject.arch_tempered,
+      dbObject.locales,
+      dbObject.base_health,
+      dbObject.special_attacks,
+      dbObject.weaknesses,
+      dbObject.part_dmg_effectiveness,
+      dbObject.status_effectiveness,
+      dbObject.item_effectiveness,
+      dbObject.canBeCaptured
+    );
   }
 }
 
