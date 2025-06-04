@@ -10,6 +10,8 @@ import MonsterVariant from 'entities/game-data/MonsterVariant';
 import MonsterCrown from 'entities/game-data/MonsterCrown';
 import Slot from 'entities/Slot';
 import Monster from 'entities/game-data/Monster';
+import QuestBonusReward from 'entities/QuestBonusRewards';
+import Item from 'entities/game-data/Item';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
 jest.mock('@models/GameData');
@@ -204,5 +206,29 @@ describe('Hunting Quest Component', () => {
     within(questDetailsTable)
       .getAllByAltText(regex)
       .forEach((e) => expect(e).toBeInTheDocument());
+  });
+
+  test('should display select bonus quest rewards', () => {
+    mockHuntingQuest.quest_bonus_rewards = [
+      new QuestBonusReward(Item.fromDatabaseObject(mockQuestRewards[0]), 1),
+    ];
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const questDetailsTable = screen.getByRole('table');
+
+    // Skills Column Header
+    expect(
+      within(questDetailsTable).getByRole('columnheader', {
+        name: /bonus.*rewards/i,
+      })
+    ).toBeInTheDocument();
+
+    expect(
+      within(questDetailsTable).getByAltText(mockQuestRewards[0].name)
+    ).toBeInTheDocument();
+    expect(
+      within(questDetailsTable).queryByAltText(mockQuestRewards[1].name)
+    ).not.toBeInTheDocument();
   });
 });
