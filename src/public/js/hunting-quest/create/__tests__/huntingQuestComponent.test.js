@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/dom';
+import { screen, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 
 import GameData from '@models/GameData';
@@ -20,26 +20,7 @@ const mockDrops = GameData.monsters_drops__ListGet();
 
 describe('Hunting Quest Component', () => {
   let HuntingQuestComponent;
-  let mockHuntingQuest = new HuntingQuest({
-    title: 'Mock',
-    description: 'Mock description',
-    category: QuestCategory.ASSIGNMENT,
-    star_rank: '5',
-    area: 'Windward Plains',
-    type: QuestType.SLAY,
-    hr_requirement: 21,
-    time_limit: 35,
-    crossplay_enabled: true,
-    quest_monsters: [
-      new QuestMonster(
-        Monster.fromDatabaseObject(mockMonsters[0]),
-        MonsterVariant.BASE,
-        MonsterCrown.BASE,
-        3
-      ),
-    ],
-    player_slots: [new Slot({})],
-  });
+  let mockHuntingQuest;
 
   beforeEach(async () => {
     jest.resetModules();
@@ -52,6 +33,27 @@ describe('Hunting Quest Component', () => {
     jest.isolateModules(() => {
       HuntingQuestComponent = require('js/hunting-quest/components/HuntingQuestComponent');
     });
+
+    // reset hunting quest mock
+    mockHuntingQuest = new HuntingQuest({
+      title: 'Mock',
+      description: 'Mock description',
+      category: QuestCategory.ASSIGNMENT,
+      star_rank: '5',
+      area: 'Windward Plains',
+      type: QuestType.SLAY,
+      hr_requirement: 21,
+      time_limit: 35,
+      crossplay_enabled: true,
+    });
+    mockHuntingQuest.addMonster(
+      new QuestMonster(
+        Monster.fromDatabaseObject(mockMonsters[0]),
+        MonsterVariant.BASE,
+        MonsterCrown.BASE,
+        3
+      )
+    );
   });
 
   // Cleanup
@@ -59,28 +61,119 @@ describe('Hunting Quest Component', () => {
     document.body.innerHTML = '';
   });
 
-  test('should render quest title', () => {
+  test('should render quest details tab in a tablist', () => {
     const component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
+    const tablist = screen.getByRole('tablist');
+
+    expect(tablist).toBeInTheDocument();
     expect(
-      screen.getByRole('heading', { name: mockHuntingQuest.title })
+      within(tablist).getByRole('link', { name: /quest details/i })
     ).toBeInTheDocument();
   });
 
-  test('should render different quest detail sections in a tablist', () => {
+  test('should display quest details tab contents in a table', () => {
     const component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
-    expect(screen.getByRole('tablist')).toBeInTheDocument();
-  });
+    const questDetailsTable = screen.getByRole('table');
 
-  test('should display image of monster which will be hunted', () => {
-    const component = new HuntingQuestComponent(mockHuntingQuest);
-    $(document.body).append(component.render());
-
+    // Quest title row
     expect(
-      screen.getByAltText(mockHuntingQuest.quest_monsters[0].monster.name)
+      within(questDetailsTable).getByRole('heading', {
+        name: mockHuntingQuest.title,
+      })
+    ).toBeInTheDocument();
+
+    // Monster image
+    expect(
+      within(questDetailsTable).getByAltText(
+        mockHuntingQuest.quest_monsters[0].monster.name
+      )
+    ).toBeInTheDocument();
+
+    // Quest info column in table
+    expect(
+      within(questDetailsTable).getByRole('columnheader', {
+        name: /quest info/i,
+      })
     ).toBeInTheDocument();
   });
+
+  test('should show monster crown icons if quest monster crowns are present', () => {
+    mockHuntingQuest.removeMonster(0);
+    mockHuntingQuest.addMonster(
+      new QuestMonster(
+        Monster.fromDatabaseObject(mockMonsters[0]),
+        MonsterVariant.BASE,
+        MonsterCrown.GOLD,
+        3
+      )
+    );
+    mockHuntingQuest.addMonster(
+      new QuestMonster(
+        Monster.fromDatabaseObject(mockMonsters[1]),
+        MonsterVariant.BASE,
+        MonsterCrown.SILVER,
+        3
+      )
+    );
+    let component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const questDetailsTable = screen.getByRole('table');
+
+    // Crown images
+    expect(
+      within(questDetailsTable).getByAltText(MonsterCrown.GOLD)
+    ).toBeInTheDocument();
+    expect(
+      within(questDetailsTable).getByAltText(MonsterCrown.SILVER)
+    ).toBeInTheDocument();
+  });
+
+  test.each([...Object.values(MonsterVariant)])(
+    'should modify monster image for the user to recognize monster variation ($name)',
+    (variant) => {
+      mockHuntingQuest.removeMonster(0);
+      mockHuntingQuest.addMonster(
+        new QuestMonster(
+          Monster.fromDatabaseObject(mockMonsters[0]),
+          variant,
+          MonsterCrown.BASE,
+          3
+        )
+      );
+      let component = new HuntingQuestComponent(mockHuntingQuest);
+      $(document.body).append(component.render());
+
+      const questDetailsTable = screen.getByRole('table');
+
+      // No change for BASE variant
+      if (variant.name === MonsterVariant.BASE.name) {
+        expect(
+          within(questDetailsTable).queryByAltText(
+            mockHuntingQuest.quest_monsters[0].monster.name
+          )
+        ).toBeInTheDocument();
+        return;
+      }
+      // Default Monster image (NOT PRESENT)
+      expect(
+        within(questDetailsTable).queryByAltText(
+          mockHuntingQuest.quest_monsters[0].monster.name
+        )
+      ).not.toBeInTheDocument();
+
+      // Variation Monster Image (PRESENT)
+      const regex = new RegExp(
+        `${mockHuntingQuest.quest_monsters[0].variant.name}\\s*${mockHuntingQuest.quest_monsters[0].monster.name}`,
+        'i'
+      );
+      expect(
+        within(questDetailsTable).queryByAltText(regex)
+      ).toBeInTheDocument();
+    }
+  );
 });
