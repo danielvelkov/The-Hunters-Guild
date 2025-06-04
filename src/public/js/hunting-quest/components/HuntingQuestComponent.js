@@ -178,8 +178,42 @@ class HuntingQuestComponent {
   }
 
   generateBonusRewards() {
-    //TODO
-    return '';
+    if (
+      !this.quest.quest_bonus_rewards ||
+      this.quest.quest_bonus_rewards.length === 0
+    ) {
+      return '';
+    }
+
+    return this.quest.quest_bonus_rewards
+      .map((questBonusReward) => {
+        const bonusItem = questBonusReward.item;
+        if (!bonusItem) return '';
+
+        const iconPath = `url('../icons/Item Icons/${
+          bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon
+        }.png')`;
+        return `<div class="item-img-container bonus-item" title="${
+          bonusItem.name
+        }\nRarity: ${bonusItem.rarity}"
+        data-item-id="${bonusItem.id}"
+        style="--item-color: var(--${
+          bonusItem.iconColor
+        }); --item-icon:${iconPath}; ">
+        <img height='30' src="icons/Item Icons/${
+          bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon
+        }.png" alt="${bonusItem.name}" />
+        ${
+          (+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') ||
+          (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5)
+            ? `<div class="sparkles">${[...Array(6)]
+                .map((m) => `<div class="sparkle"></div>`)
+                .join('')}</div>`
+            : ''
+        }
+      </div>`;
+      })
+      .join('');
   }
 
   generateRecommendedSkills() {
