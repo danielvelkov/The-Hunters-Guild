@@ -73,7 +73,7 @@ class HuntingQuestComponent {
           )}">${this.quest.category.name}</th>
           <th colspan="3" align="right">${this.quest.star_rank}${
       this.quest.star_rank > 1
-        ? [...new Array(+this.quest.star_rank)].map((star) => '⭐').join('')
+        ? [...new Array(+this.quest.star_rank)].map((_) => '⭐').join('')
         : '⭐'
     }</th>
         </tr>
@@ -183,8 +183,20 @@ class HuntingQuestComponent {
   }
 
   generateRecommendedSkills() {
-    //TODO
-    return '';
+    return this.quest.quest_monsters
+      .map((qm) =>
+        qm.monster.special_attacks.map((sa) => sa.skill_counters).flat()
+      )
+      .flat()
+      .map((s) => {
+        const skillDiv = $('<div>').addClass('flex-row');
+        skillDiv.append(
+          `<img src="icons/Skill Icons/${s.icon}.png" height="23" alt="${s.name}_Skill_Icon"/> <span>${s.name}</span>`
+        );
+        return skillDiv.prop('outerHTML');
+      })
+      .filter((v, i, arr) => arr.indexOf(v) === i)
+      .join('');
   }
 }
 
