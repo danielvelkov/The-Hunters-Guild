@@ -176,4 +176,33 @@ describe('Hunting Quest Component', () => {
       ).toBeInTheDocument();
     }
   );
+
+  test('should display recommended skills based on selected monsters attacks', () => {
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const questDetailsTable = screen.getByRole('table');
+
+    // Skills Column Header
+    expect(
+      within(questDetailsTable).getByRole('columnheader', {
+        name: /recom.*skills/i,
+      })
+    ).toBeInTheDocument();
+
+    const regex = new RegExp(
+      `${mockHuntingQuest.quest_monsters
+        .map((qm) =>
+          qm.monster.special_attacks.map((sa) => sa.skill_counters).flat()
+        )
+        .flat()
+        .map((skill) => `(${skill.name})|`)
+        .filter((v, i, arr) => arr.indexOf(v) === i)
+        .join('')}`,
+      'i'
+    );
+    within(questDetailsTable)
+      .getAllByAltText(regex)
+      .forEach((e) => expect(e).toBeInTheDocument());
+  });
 });
