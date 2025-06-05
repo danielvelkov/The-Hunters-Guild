@@ -1,4 +1,4 @@
-import { screen, within } from '@testing-library/dom';
+import { screen, waitFor, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 
 import GameData from '@models/GameData';
@@ -77,11 +77,45 @@ describe('Hunting Quest Component', () => {
     ).toBeInTheDocument();
   });
 
-  test('should display quest details tab contents in a table', () => {
+  test.skip('should not display inactive tab contents', async () => {
     const component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
-    const questDetailsTable = screen.getByRole('table');
+    // Check active panel
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+
+    expect(activePanel).toBeInTheDocument();
+
+    /**
+     * NOTE
+     *
+     * This will not work. Idk why but jquery widgets methods do
+     * not work in the jsdom. No aria, not additional functionality. Nada.
+     * The classes and everything, its like nothing happened
+     */
+    // expect(activePanel.getAttribute('aria-hidden')).toBe('false');
+
+    // // Check inactive panels
+    // const inactivePanels = screen
+    //   .getAllByRole('tabpanel', { hidden: true })
+    //   .filter((panel) => panel !== activePanel);
+
+    // inactivePanels.forEach((panel) => {
+    //   expect(panel.getAttribute('aria-hidden')).toBe('true');
+    //   expect(panel).toHaveClass('ui-tabs-hide');
+    // });
+  });
+
+  test('should display quest details tab contents in a table by default', async () => {
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+    const questDetailsTable = within(activePanel).getByRole('table');
 
     // Quest title row
     expect(
@@ -126,7 +160,10 @@ describe('Hunting Quest Component', () => {
     let component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
-    const questDetailsTable = screen.getByRole('table');
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+    const questDetailsTable = within(activePanel).getByRole('table');
 
     // Crown images
     expect(
@@ -152,7 +189,10 @@ describe('Hunting Quest Component', () => {
       let component = new HuntingQuestComponent(mockHuntingQuest);
       $(document.body).append(component.render());
 
-      const questDetailsTable = screen.getByRole('table');
+      const activePanel = screen.getByRole('tabpanel', {
+        name: /quest details tab/i,
+      });
+      const questDetailsTable = within(activePanel).getByRole('table');
 
       // No change for BASE variant
       if (variant.name === MonsterVariant.BASE.name) {
@@ -185,7 +225,10 @@ describe('Hunting Quest Component', () => {
     const component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
-    const questDetailsTable = screen.getByRole('table');
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+    const questDetailsTable = within(activePanel).getByRole('table');
 
     // Skills Column Header
     expect(
@@ -210,14 +253,17 @@ describe('Hunting Quest Component', () => {
       .forEach((e) => expect(e).toBeInTheDocument());
   });
 
-  test('should display select bonus quest rewards', () => {
+  test('should display selected bonus quest rewards', () => {
     mockHuntingQuest.quest_bonus_rewards = [
       new QuestBonusReward(Item.fromDatabaseObject(mockQuestRewards[0]), 1),
     ];
     const component = new HuntingQuestComponent(mockHuntingQuest);
     $(document.body).append(component.render());
 
-    const questDetailsTable = screen.getByRole('table');
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+    const questDetailsTable = within(activePanel).getByRole('table');
 
     // Skills Column Header
     expect(
@@ -264,5 +310,36 @@ describe('Hunting Quest Component', () => {
         name: mockMonsters[2].name,
       })
     ).not.toBeInTheDocument();
+  });
+
+  test('should contain tabpanel with details about the selected monster', async () => {
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const regex = new RegExp(mockHuntingQuest.quest_monsters[0].monster.name);
+    const monsterPanel = screen.getByRole('tabpanel', {
+      name: regex,
+    });
+
+    // Damage Effectiveness table
+    expect(
+      within(monsterPanel).getByRole('table', {
+        name: /damage eff/i,
+      })
+    ).toBeInTheDocument();
+
+    // Status effectiveness table
+    expect(
+      within(monsterPanel).getByRole('table', {
+        name: /status eff/i,
+      })
+    ).toBeInTheDocument();
+
+    // Item effectiveness table
+    expect(
+      within(monsterPanel).getByRole('table', {
+        name: /item eff/i,
+      })
+    ).toBeInTheDocument();
   });
 });
