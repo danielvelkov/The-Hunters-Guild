@@ -54,7 +54,7 @@ export let monstersForms = [];
 export let selectedMonsters = [];
 
 // Form submission handler
-$('#quest-post-form').on('submit', (e) => {
+$('#quest-details-form').on('submit', (e) => {
   e.preventDefault();
   selectedMonsters.forEach((m, index) => {
     console.log('Selected Monster data:');

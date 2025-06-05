@@ -5,14 +5,14 @@ import {
 import { bonusQuestRewardsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
 
-const QuestDetails = (() => {
+const QuestDetailsForm = (() => {
   // Cache DOM elements
+  const $form = $('#quest-details-form');
   const $crossPlayEnabled = $('#cross-play-enabled');
   const $platformOptions = $('#platform-options');
   const $bonusRewardsEnabled = $('#bonus-rewards-enabled');
   const $bonusRewards = $('#bonus-rewards');
   const $questCategory = $('#quest-category');
-  const $questPostForm = $('#quest-post-form');
   const $locale = $('#locale');
 
   // Bind Events
@@ -57,9 +57,9 @@ const QuestDetails = (() => {
 
   function handleSelectedMonstersChange(selectedMonsters) {
     if (selectedMonsters.length) {
-      $questPostForm.show();
+      $form.show();
     } else {
-      $questPostForm.hide();
+      $form.hide();
     }
 
     selectedMonstersChangeHandler(selectedMonsters);
@@ -176,4 +176,4 @@ function formatBonusRewardOption(item) {
   }
 }
 
-export default QuestDetails;
+export default QuestDetailsForm;
