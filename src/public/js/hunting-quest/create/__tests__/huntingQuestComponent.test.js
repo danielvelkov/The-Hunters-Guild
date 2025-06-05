@@ -231,4 +231,36 @@ describe('Hunting Quest Component', () => {
       within(questDetailsTable).queryByAltText(mockQuestRewards[1].name)
     ).not.toBeInTheDocument();
   });
+
+  test('should have tabs based on selected monsters', async () => {
+    mockHuntingQuest.addMonster(
+      new QuestMonster(
+        Monster.fromDatabaseObject(mockMonsters[1]),
+        MonsterVariant.BASE,
+        MonsterCrown.BASE,
+        1
+      )
+    );
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const tablist = screen.getByRole('tablist');
+
+    expect(tablist).toBeInTheDocument();
+    expect(
+      within(tablist).getByRole('link', {
+        name: mockMonsters[0].name,
+      })
+    ).toBeInTheDocument();
+    expect(
+      within(tablist).getByRole('link', {
+        name: mockMonsters[1].name,
+      })
+    ).toBeInTheDocument();
+    expect(
+      within(tablist).queryByRole('link', {
+        name: mockMonsters[2].name,
+      })
+    ).not.toBeInTheDocument();
+  });
 });

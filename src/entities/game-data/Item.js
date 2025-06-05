@@ -19,6 +19,19 @@ class Item {
     this.rarity = rarity;
     this.source = source;
   }
+
+  static fromDatabaseObject(dbObject) {
+    return new Item(
+      dbObject.id,
+      dbObject.name,
+      dbObject.icon,
+      dbObject.iconColor,
+      dbObject.description,
+      dbObject.type,
+      dbObject.rarity,
+      dbObject.source
+    );
+  }
 }
 
 module.exports = Item;
