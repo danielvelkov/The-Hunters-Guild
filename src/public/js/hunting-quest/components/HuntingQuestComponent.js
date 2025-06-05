@@ -86,7 +86,7 @@ export default class HuntingQuestComponent {
             <div class="flex-row" style="justify-content:center;">
             ${this.quest.quest_monsters
               .map(
-                (qm, index) =>
+                (qm) =>
                   `<div class="flex-col" style="position:relative;">
                 ${
                   qm.crown.name !== MonsterCrown.BASE.name

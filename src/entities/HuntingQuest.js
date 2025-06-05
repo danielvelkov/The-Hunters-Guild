@@ -8,7 +8,6 @@ import QuestBonusReward from './QuestBonusRewards';
 
 /** Class representing a Game Hunting Quest */
 export default class HuntingQuest {
-  // Private:
   #title;
   // Protected:
   _category;
@@ -59,7 +58,6 @@ export default class HuntingQuest {
     } = options;
 
     this.id = id;
-    this.title = title;
     this.description = description;
     this.star_rank = star_rank;
     this.area = area;
@@ -75,6 +73,8 @@ export default class HuntingQuest {
     this.quest_monsters = quest_monsters;
     this.player_slots = player_slots;
     this.quest_bonus_rewards = quest_bonus_rewards;
+
+    this.title = title;
   }
 
   get title() {
@@ -250,11 +250,11 @@ export default class HuntingQuest {
 
     if (this.quest_monsters.length === 1) {
       const monsterName = this.#formatMonsterName(this.quest_monsters[0]);
-      questTitle = questTitle + 'the ' + monsterName;
+      questTitle = questTitle + ' the ' + monsterName;
     } else {
-      const monsterNames = this.quest_monsters.map((m) => {
-        return this.#formatMonsterName(m);
-      });
+      const monsterNames = this.quest_monsters.map((qm) =>
+        this.#formatMonsterName(qm)
+      );
 
       if (monsterNames.every((mn) => mn === monsterNames[0])) {
         questTitle = questTitle + monsterNames.length + ' ' + monsterNames[0];
@@ -273,11 +273,15 @@ export default class HuntingQuest {
    */
   #formatMonsterName(questMonster) {
     const monsterVariant = questMonster.variant;
-    return `${monsterVariant === MonsterVariant.TEMPERED ? 'Tempered ' : ''}${
-      monsterVariant === MonsterVariant.FRENZIED ? 'Frenzied ' : ''
+    return `${
+      monsterVariant.name === MonsterVariant.TEMPERED.name ? 'Tempered ' : ''
     }${
-      monsterVariant === MonsterVariant.ARCH_TEMPERED ? 'Arch-Tempered ' : ''
-    }${questMonster.name}`.trim();
+      monsterVariant.name === MonsterVariant.FRENZIED.name ? 'Frenzied ' : ''
+    }${
+      monsterVariant.name === MonsterVariant.ARCH_TEMPERED.name
+        ? 'Arch-Tempered '
+        : ''
+    }${questMonster.monster.name}`.trim();
   }
 
   /**

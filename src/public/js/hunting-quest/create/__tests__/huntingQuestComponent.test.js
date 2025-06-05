@@ -139,6 +139,27 @@ describe('Hunting Quest Component', () => {
     ).toBeInTheDocument();
   });
 
+  test('should display auto generated title if no title value passed', async () => {
+    mockHuntingQuest.title = '';
+    const component = new HuntingQuestComponent(mockHuntingQuest);
+    $(document.body).append(component.render());
+
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details tab/i,
+    });
+    const questDetailsTable = within(activePanel).getByRole('table');
+
+    // Quest title row
+    expect(
+      within(questDetailsTable).getByRole('heading', {
+        name:
+          mockHuntingQuest.type.name +
+          ' the ' +
+          mockHuntingQuest.quest_monsters[0].monster.name,
+      })
+    ).toBeInTheDocument();
+  });
+
   test('should show monster crown icons if quest monster crowns are present', () => {
     mockHuntingQuest.removeMonster(0);
     mockHuntingQuest.addMonster(
