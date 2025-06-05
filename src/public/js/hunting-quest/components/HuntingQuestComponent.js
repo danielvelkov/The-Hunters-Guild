@@ -5,7 +5,9 @@ import HuntingQuest from 'entities/HuntingQuest';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 
-class HuntingQuestComponent {
+import 'css/components/hunting-quest-component.css';
+
+export default class HuntingQuestComponent {
   /**
    * @param {HuntingQuest} quest - the Hunting Quest instance
    */
@@ -41,15 +43,16 @@ class HuntingQuestComponent {
           )
           .join('')}
       </ul>
-      <div role="tabpanel" id="tabs-quest-details-${questDetailsTabId}">
+      <div role="tabpanel" aria-label="quest details tab" id="tabs-quest-details-${questDetailsTabId}">
         ${this.generateQuestDetailsTab()}
       </div>
       ${this.quest.quest_monsters
-        .map((qm) => qm.m)
         .map(
-          (m, i) => `
-        <div role="tabpanel" id="tabs-monster-${monsterTabsIds[i]}">
-          ${this.generateMonsterTab(m, isHighRankQuest)}
+          (qm, i) => `
+        <div role="tabpanel" aria-label="${
+          qm.monster.name
+        } tab" id="tabs-monster-${monsterTabsIds[i]}">
+          ${this.generateMonsterTab(qm, isHighRankQuest)}
         </div>
       `
         )

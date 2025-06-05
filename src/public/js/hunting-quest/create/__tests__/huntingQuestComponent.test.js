@@ -33,7 +33,9 @@ describe('Hunting Quest Component', () => {
     }));
 
     jest.isolateModules(() => {
-      HuntingQuestComponent = require('js/hunting-quest/components/HuntingQuestComponent');
+      ({
+        default: HuntingQuestComponent,
+      } = require('js/hunting-quest/components/HuntingQuestComponent'));
     });
 
     // reset hunting quest mock

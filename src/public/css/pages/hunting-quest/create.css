@@ -153,47 +153,6 @@ input[type='range'] + output {
   padding: 0.5em;
 }
 
-.monster-image.tempered-outline {
-  -webkit-filter: drop-shadow(2px 2px 0 #6f49c0) drop-shadow(-2px 2px 0 purple)
-    drop-shadow(2px -2px 0 #6f49c0) drop-shadow(-2px -2px 0 purple);
-
-  filter: drop-shadow(2px 2px 0 #6f49c0) drop-shadow(-2px 2px 0 purple)
-    drop-shadow(2px -2px 0 #6f49c0) drop-shadow(-2px -2px 0 purple);
-}
-
-.monster-image.frenzied-outline {
-  -webkit-filter: drop-shadow(1em 1em 10px #bc49c0);
-  filter: drop-shadow(3px 3px 5px #bc49c0);
-}
-
-.dmg-effectiveness-table th,
-.dmg-effectiveness-table td {
-  padding: 2px 3px;
-  border: 1px solid var(--border-color);
-}
-
-.drop-tables {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-.drop-tables th,
-.drop-tables td {
-  border: 1px solid var(--border-color);
-  padding: 4px 6px;
-  max-width: 10ch;
-}
-.drop-section-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  flex: 1;
-}
-
-.drop-tables .excluded-drop {
-  opacity: 0.33;
-}
-
 /* Player Composition */
 
 #player-comp {
