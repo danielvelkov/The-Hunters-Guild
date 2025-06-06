@@ -6,6 +6,8 @@ import {
 import { bonusQuestRewardsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
 
+import 'css/components/quest-details-form.css';
+
 const QuestDetailsForm = (() => {
   // Cache DOM elements
   const $form = $('#quest-details-form');

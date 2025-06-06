@@ -1,0 +1,49 @@
+#quest-details-form {
+  fieldset {
+    border: 2px solid var(--border-color);
+  }
+
+  legend {
+    display: block;
+  }
+}
+
+#quest-details {
+  width: fit-content;
+}
+
+input[type='range'] + output {
+  align-self: stretch;
+  border: 1px solid var(--border-color);
+  padding: 0.5em 1em;
+  margin-top: -1em;
+}
+
+/* Cross-play toggle */
+
+#platform-options {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--header-bg);
+  color: var(--text-color);
+}
+
+.platform-options-list > li {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+/* Quest Post Form */
+
+#quest-details-form {
+  flex: 0 1 40ch;
+}
+
+#quest-details-form button[type='submit'] {
+  font-size: large;
+  padding: 0.5em 3em;
+}

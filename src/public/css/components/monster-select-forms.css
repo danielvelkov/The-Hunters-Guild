@@ -17,8 +17,16 @@
   flex-direction: column;
   gap: 1em;
   position: relative;
-  border: 1px solid var(--border-color);
+  border: 2px solid var(--border-color);
   padding: 1em;
+
+  fieldset {
+    border: 1px solid var(--border-color);
+  }
+
+  legend {
+    display: block;
+  }
 }
 
 .monster-select-name {
