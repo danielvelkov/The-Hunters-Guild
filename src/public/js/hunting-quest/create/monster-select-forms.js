@@ -118,15 +118,17 @@ const MonsterSelectForms = (() => {
     requestAnimationFrame(() => {
       monsterSelect
         .val(monsterId || monstersList[0]?.id)
-        .trigger('change')
         .trigger({
-          type: 'select2:select',
+          type: 'select2:selecting',
           params: {
-            data: {
-              id: monsterId || monstersList[0]?.id,
+            args: {
+              data: {
+                id: monsterId || monstersList[0]?.id,
+              },
             },
           },
-        });
+        })
+        .trigger('change');
     });
 
     monsterForm
@@ -147,8 +149,8 @@ const MonsterSelectForms = (() => {
     });
 
     // Select handler
-    monsterSelect.on('select2:select', function (e) {
-      const data = e.params?.data;
+    monsterSelect.on('select2:selecting', function (e) {
+      const data = e.params?.args.data;
       if (!data?.id) return;
 
       const monster = monstersList.find((m) => m.id === data.id);

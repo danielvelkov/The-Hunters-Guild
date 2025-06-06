@@ -57,6 +57,18 @@ describe('monster select forms section', () => {
     expect(screen.getByRole('form')).toBeInTheDocument();
   });
 
+  test('should select default monster in select on add monster button click', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+    await user.click(addMonsterButton);
+    expect(
+      screen.getByRole('option', {
+        selected: true,
+        value: mockMonsters[0].name,
+      })
+    ).toBeInTheDocument();
+  });
   test('shows a MAX of 2 monster select forms', async () => {
     const addMonsterButton = screen.getByRole('button', {
       name: /add monster/i,
