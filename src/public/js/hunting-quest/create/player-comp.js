@@ -10,6 +10,7 @@ import Slot from 'entities/Slot.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
+  _playerSlots = [];
 
   constructor(playerSlots = []) {
     this.playerSlots = playerSlots;
@@ -89,8 +90,26 @@ class PlayerComp {
     return this.playerSlots.length < 4;
   }
 
+  get playerSlots() {
+    return this._playerSlots;
+  }
+
+  set playerSlots(values) {
+    if (!Array.isArray(values)) {
+      console.warn('Invalid slots. Must be array.');
+      return;
+    }
+
+    const validSlots = values.filter((slot) => slot instanceof Slot);
+
+    if (validSlots.length !== values.length) {
+      console.warn('Some invalid slots filtered out.');
+    }
+    this._playerSlots = values;
+  }
+
   addSlot(slot) {
-    this.playerSlots.push(slot);
+    this.playerSlots = [...this.playerSlots, slot];
     this.render();
   }
 
@@ -104,7 +123,7 @@ class PlayerComp {
       this.setSelectedSlot(this.playerSlots[newSelectedIndex]);
     }
 
-    this.playerSlots.splice(index, 1);
+    this.playerSlots = this.playerSlots.filter((slot, i) => i !== index);
     this.render();
   }
 
