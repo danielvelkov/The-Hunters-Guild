@@ -88,10 +88,11 @@ createPageMediator.on(QUEST_DETAILS_FORM_CHANGE, (questDetailsForm) => {
       );
   });
 
-  const bonusRewardsIds =
-    $('#bonus-rewards-enabled').is(':checked') && $('#bonus-rewards').val()
-      ? $('#bonus-rewards').val()
-      : [];
+  const questDetailsFormData = new FormData(questDetailsForm);
+
+  const bonusRewardsIds = questDetailsFormData.get('bonus-rewards-enabled')
+    ? questDetailsFormData.getAll('bonus-rewards[]')
+    : [];
   const questBonusRewards = bonusRewardsIds.map(
     (id) =>
       new QuestBonusReward(
@@ -101,17 +102,18 @@ createPageMediator.on(QUEST_DETAILS_FORM_CHANGE, (questDetailsForm) => {
   );
 
   const huntingQuest = HuntingQuestFormModel.fromFormData(
-    new FormData(questDetailsForm),
+    questDetailsFormData,
     questMonsters,
     playerComp.playerSlots,
     questBonusRewards
   );
 
-  $('#quest-preview').empty();
+  let tabs = $('#quest-preview').find('.tabs').detach();
+  tabs = null;
 
+  $('#quest-preview').empty();
   if (huntingQuest.isValidForPreview()) {
     const component = new HuntingQuestComponent(huntingQuest);
-
     $('#quest-preview').append(component.render());
   }
 });
