@@ -5,16 +5,18 @@ export const selectSelect2Option = (selectElement, value) => {
   $select.val(value);
 
   // Trigger Select2 events
-  $select.trigger({
-    type: 'select2:selecting',
-    params: {
-      args: {
-        data: {
-          id: value,
+  $select
+    .trigger({
+      type: 'select2:selecting',
+      params: {
+        args: {
+          data: {
+            id: value,
+          },
         },
       },
-    },
-  }).trigger('change');
+    })
+    .trigger('change');
 };
 
 export const select2Clear = (selectElement) => {
