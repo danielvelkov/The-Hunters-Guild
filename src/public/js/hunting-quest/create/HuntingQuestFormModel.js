@@ -67,9 +67,13 @@ class HuntingQuestFormModel extends HuntingQuest {
     if (!this.type) errors.type = 'Type is required';
     if (!this.area) errors.area = 'Area is required';
     if (this.quest_monsters.length === 0)
-      errors.monsters = 'At least one monster is required';
+      errors.quest_monsters = 'At least one selected monster is required';
     if (this.player_slots.length < 2)
-      errors.slots = 'At least 2 player slots are required';
+      errors.player_slots = 'At least 2 player slots are required for a quest';
+
+    if (this.area === '-- No Common Locale --')
+      errors.quest_monsters =
+        'Selected monsters do not exist in a common locale.';
 
     return errors;
   }
