@@ -1,4 +1,4 @@
-import { screen } from '@testing-library/dom';
+import { screen, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import path from 'path';
 import ejs from 'ejs';
@@ -6,6 +6,7 @@ import ejs from 'ejs';
 import userEvent from '@testing-library/user-event';
 
 import GameData from '@models/GameData';
+import { selectSelect2Option } from '@tests/helper';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
 jest.mock('@models/GameData');
@@ -56,7 +57,7 @@ describe('create page', () => {
       require('js/hunting-quest/create');
     });
   });
-  test('loads with monster select forms', async () => {
+  test('loads with monster select forms on "add monster" button click', async () => {
     const addMonsterButton = screen.getByRole('button', {
       name: /add monster/i,
     });
@@ -65,10 +66,94 @@ describe('create page', () => {
     expect(screen.getByRole('form')).toBeInTheDocument();
   });
 
-  test('selecting a monster updates quest preview', async () => {
-    // TBD
+  test('clicking on the "add monster" button selects a monster by default and shows quest preview', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+
+    expect(
+      screen.queryByRole('tabpanel', { name: /quest details/i })
+    ).not.toBeInTheDocument();
+    await user.click(addMonsterButton);
+    expect(
+      screen.getByRole('tabpanel', { name: /quest details/i })
+    ).toBeInTheDocument();
   });
-  test('selecting a monster displays quest details form', () => {
-    // TBD
+
+  test('selecting a monster updates quest preview to match the new monster', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+
+    await user.click(addMonsterButton);
+    const activePanel = screen.getByRole('tabpanel', {
+      name: /quest details/i,
+    });
+
+    expect(
+      within(activePanel).getByRole('heading', {
+        level: 3,
+        name: new RegExp(mockMonsters[0].name, 'i'),
+      })
+    );
+
+    const monsterSelect = screen.getByRole('combobox', {
+      name: /monster/i,
+    });
+
+    selectSelect2Option(monsterSelect, mockMonsters[1].id);
+
+    expect(
+      within(activePanel).findByRole('heading', {
+        level: 3,
+        name: new RegExp(mockMonsters[1].name, 'i'),
+      })
+    );
+  });
+  test('selecting a quest monster displays quest details form', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+
+    await user.click(addMonsterButton);
+    const monsterSelect = screen.getByRole('combobox', {
+      name: /monster/i,
+    });
+    selectSelect2Option(monsterSelect, mockMonsters[1].id);
+    expect(
+      screen.getByRole('group', { name: /quest details/i })
+    ).toBeInTheDocument();
+  });
+
+  test('removing all selected monsters hides preview and quest details', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+
+    await user.click(addMonsterButton);
+    const monsterSelect = screen.getByRole('combobox', {
+      name: /monster/i,
+    });
+    selectSelect2Option(monsterSelect, mockMonsters[1].id);
+
+    expect(
+      screen.getByRole('group', { name: /quest details/i })
+    ).toBeInTheDocument();
+
+    expect(
+      screen.getByRole('tabpanel', {
+        name: /quest details/i,
+      })
+    ).toBeInTheDocument();
+
+    await user.click(screen.getByRole('button', { name: /remove/i }));
+    expect(
+      screen.queryByRole('group', { name: /quest details/i })
+    ).not.toBeInTheDocument();
+    expect(
+      screen.queryByRole('tabpanel', {
+        name: /quest details/i,
+      })
+    ).not.toBeInTheDocument();
   });
 });

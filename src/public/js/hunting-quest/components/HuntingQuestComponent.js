@@ -20,7 +20,7 @@ export default class HuntingQuestComponent {
    * @returns {JQuery} - Resulting JQuery of the component
    */
   render() {
-    const container = $('<div>');
+    const tabsComponent = $('<div>').addClass('tabs');
 
     // Check if high rank quest
     const isHighRankQuest =
@@ -32,7 +32,6 @@ export default class HuntingQuestComponent {
     ];
     // Generate HTML for preview
     const HTMLstring = `
-    <div class="tabs" >
       <ul aria-label="quest tabs">
         <li aria-controls="tabs-quest-details-${questDetailsTabId}"><a href="#tabs-quest-details-${questDetailsTabId}">Quest Details</a></li>
         ${this.quest.quest_monsters
@@ -80,13 +79,12 @@ export default class HuntingQuestComponent {
       `
         )
         .join('')}
-    </div>
   `;
 
     // Update preview and initialize tabs
-    container.html(HTMLstring);
-    container.find('.tabs').tabs();
-    return container;
+    tabsComponent.html(HTMLstring);
+    tabsComponent.tabs();
+    return tabsComponent;
   }
 
   generateQuestDetailsTab() {
