@@ -1,5 +1,6 @@
 import {
   CROWN_SELECT_VISIBILITY_CHANGE,
+  QUEST_DETAILS_FORM_CHANGE,
   SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
 import { bonusQuestRewardsList } from '../create.js';
@@ -22,6 +23,10 @@ const QuestDetailsForm = (() => {
 
   // Subscribe to mediator events
   createPageMediator.on(SELECTED_MONSTERS_CHANGE, handleSelectedMonstersChange);
+
+  $form.on('change', () => {
+    createPageMediator.trigger(QUEST_DETAILS_FORM_CHANGE, $form[0]);
+  });
 
   function handleCrossPlayCheckboxChange() {
     if (!$crossPlayEnabled.is(':checked')) {

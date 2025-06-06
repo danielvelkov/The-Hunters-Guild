@@ -4,3 +4,4 @@
 export const MONSTER_SELECT_FORMS_CHANGE = 'monsterSelectFormsChange';
 export const CROWN_SELECT_VISIBILITY_CHANGE = 'crownSelectVisibilityChange';
 export const SELECTED_MONSTERS_CHANGE = 'selectedMonstersChange';
+export const QUEST_DETAILS_FORM_CHANGE = 'questDetailsFormChange';

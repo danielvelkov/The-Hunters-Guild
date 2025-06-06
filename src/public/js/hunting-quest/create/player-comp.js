@@ -805,6 +805,4 @@ const getWeaponAttribute = (id) =>
   weaponAttributesList.find((w) => w.id === id);
 
 // Initialize the component
-$(() => {
-  new PlayerComp();
-});
+export default PlayerComp;

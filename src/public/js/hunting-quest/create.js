@@ -1,10 +1,10 @@
 import createPageMediator from 'js/common/mediator';
 import {
   MONSTER_SELECT_FORMS_CHANGE,
+  QUEST_DETAILS_FORM_CHANGE,
   SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
-import './create/player-comp.js';
-import './create/preview.js';
+import PlayerComp from './create/player-comp.js';
 import './create/monster-select-forms.js';
 import './create/quest-details-form.js';
 
@@ -17,6 +17,12 @@ import Skill from 'entities/game-data/Skill.js';
 import WeaponType from 'entities/game-data/WeaponType.js';
 import WeaponAttribute from 'entities/game-data/WeaponAttribute.js';
 import { Loadout } from 'entities/Loadout.js';
+import HuntingQuestFormModel from './create/HuntingQuestFormModel.js';
+import QuestMonster from 'entities/QuestMonster.js';
+import QuestBonusReward from 'entities/QuestBonusRewards.js';
+import HuntingQuestComponent from './components/HuntingQuestComponent';
+import MonsterCrown from 'entities/game-data/MonsterCrown.js';
+import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 /**
  * @type {{
  *   monstersList: Array<Monster>,
@@ -50,24 +56,62 @@ createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
   createPageMediator.trigger(SELECTED_MONSTERS_CHANGE, selectedMonsters);
 });
 
-export let monstersForms = [];
-export let selectedMonsters = [];
+let monstersForms = [];
+let selectedMonsters = [];
+
+const playerComp = new PlayerComp();
 
 // Form submission handler
 $('#quest-details-form').on('submit', (e) => {
   e.preventDefault();
-  selectedMonsters.forEach((m, index) => {
-    console.log('Selected Monster data:');
-    console.log(m);
-    console.log('Monster Details Form data:');
-    console.log(new FormData(monstersForms[index][0]));
-  });
-  console.log('Quest Details form data:');
-  console.log(new FormData(e.target));
   // TODO - create hunting quest post in db
 });
 
-// Update preview when any form changes
-$('#quest-post-form').on('change', () =>
-  $('#quest-preview').trigger('preview:update')
-);
+createPageMediator.on(QUEST_DETAILS_FORM_CHANGE, (questDetailsForm) => {
+  const questMonsters = [];
+  monstersForms.forEach((monstersForm, index) => {
+    const monsterFormData = new FormData(monstersForm[0]);
+    if (monsterFormData.get('monster'))
+      questMonsters.push(
+        new QuestMonster(
+          Monster.fromDatabaseObject(selectedMonsters[index]),
+          monsterFormData.get('tempered')
+            ? MonsterVariant.TEMPERED
+            : monsterFormData.get('frenzied')
+            ? MonsterVariant.FRENZIED
+            : monsterFormData.get('arch-tempered')
+            ? MonsterVariant.ARCH_TEMPERED
+            : '',
+          MonsterCrown[monsterFormData.get('monster-crown').toUpperCase()],
+          +monsterFormData.get('monster-strength')
+        )
+      );
+  });
+
+  const bonusRewardsIds =
+    $('#bonus-rewards-enabled').is(':checked') && $('#bonus-rewards').val()
+      ? $('#bonus-rewards').val()
+      : [];
+  const questBonusRewards = bonusRewardsIds.map(
+    (id) =>
+      new QuestBonusReward(
+        Item.fromDatabaseObject(bonusQuestRewardsList.find((i) => i.id === id)),
+        1
+      )
+  );
+
+  const huntingQuest = HuntingQuestFormModel.fromFormData(
+    new FormData(questDetailsForm),
+    questMonsters,
+    playerComp.playerSlots,
+    questBonusRewards
+  );
+
+  $('#quest-preview').empty();
+
+  if (huntingQuest.isValidForPreview()) {
+    const component = new HuntingQuestComponent(huntingQuest);
+
+    $('#quest-preview').append(component.render());
+  }
+});
