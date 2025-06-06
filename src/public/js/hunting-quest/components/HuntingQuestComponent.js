@@ -36,10 +36,24 @@ export default class HuntingQuestComponent {
       <ul aria-label="quest tabs">
         <li aria-controls="tabs-quest-details-${questDetailsTabId}"><a href="#tabs-quest-details-${questDetailsTabId}">Quest Details</a></li>
         ${this.quest.quest_monsters
-          .map((qm) => qm.monster)
+          .filter(
+            (qm, i, arr) =>
+              arr.findIndex(
+                (x) =>
+                  x.monster.name === qm.monster.name &&
+                  (x.variant.name === qm.variant.name ||
+                    qm.variant.name === MonsterVariant.FRENZIED.name)
+              ) === i
+          )
           .map(
-            (m, i) =>
-              `<li aria-controls="tabs-monster-${monsterTabsIds[i]}"><a href="#tabs-monster-${monsterTabsIds[i]}">${m.name}</a></li>`
+            (qm, i) =>
+              `<li aria-controls="tabs-monster-${
+                monsterTabsIds[i]
+              }"><a href="#tabs-monster-${monsterTabsIds[i]}">${
+                qm.variant.name !== MonsterVariant.BASE.name
+                  ? qm.variant.name + ' ' + qm.monster.name
+                  : qm.monster.name
+              }</a></li>`
           )
           .join('')}
       </ul>
@@ -47,6 +61,15 @@ export default class HuntingQuestComponent {
         ${this.generateQuestDetailsTab()}
       </div>
       ${this.quest.quest_monsters
+        .filter(
+          (qm, i, arr) =>
+            arr.findIndex(
+              (x) =>
+                x.monster.name === qm.monster.name &&
+                (x.variant.name === qm.variant.name ||
+                  qm.variant.name === MonsterVariant.FRENZIED.name)
+            ) === i
+        )
         .map(
           (qm, i) => `
         <div role="tabpanel" aria-label="${
