@@ -257,7 +257,8 @@ export default class HuntingQuest {
       );
 
       if (monsterNames.every((mn) => mn === monsterNames[0])) {
-        questTitle = questTitle + monsterNames.length + ' ' + monsterNames[0];
+        questTitle =
+          questTitle + ' ' + monsterNames.length + ' ' + monsterNames[0];
       } else {
         questTitle = questTitle + monsterNames.join(' & ');
       }
