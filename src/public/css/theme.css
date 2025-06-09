@@ -5,6 +5,9 @@
   --text-color: #f7eacd;
   --border-color: #8b7a5a;
   --header-bg: #3d3126;
+  --error-bg: #8b2a2a; /* Deep red for background */
+  --error-text: #ffd2d2; /* Light pink for text */
+  --error-border: #c94242; /* Slightly brighter red for borders */
 }
 
 body {
@@ -236,4 +239,11 @@ fieldset {
 
 legend {
   display: none;
+}
+
+.errors-list {
+  color: var(--error-text);
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-border);
+  padding: 1em;
 }
