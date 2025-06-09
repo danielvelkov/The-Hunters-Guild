@@ -6,4 +6,5 @@ export const CROWN_SELECT_VISIBILITY_CHANGE = 'crownSelectVisibilityChange';
 export const SELECTED_MONSTERS_CHANGE = 'selectedMonstersChange';
 export const QUEST_DETAILS_FORM_CHANGE = 'questDetailsFormChange';
 export const QUEST_PLAYER_SLOTS_CHANGE = 'questPlaterSlotsChange';
-export const QUEST_PREVIEW_CHANGE= 'questPreviewChange';
+export const QUEST_PREVIEW_CHANGE = 'questPreviewChange';
+export const QUEST_FORM_SUBMIT = 'questFormSubmit';

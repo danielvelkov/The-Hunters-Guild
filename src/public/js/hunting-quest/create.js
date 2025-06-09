@@ -5,6 +5,7 @@ import {
   SELECTED_MONSTERS_CHANGE,
   QUEST_PLAYER_SLOTS_CHANGE,
   QUEST_PREVIEW_CHANGE,
+  QUEST_FORM_SUBMIT,
 } from 'js/common/events.js';
 import PlayerComp from './create/player-comp.js';
 import './create/monster-select-forms.js';
@@ -91,9 +92,7 @@ createPageMediator.on(QUEST_PREVIEW_CHANGE, (quest) => {
   updateQuestPreview(quest);
 });
 
-// Form submission handler
-$('#quest-details-form').on('submit', (e) => {
-  e.preventDefault();
+createPageMediator.on(QUEST_FORM_SUBMIT, () => {
   const huntingQuest = questBuilder.buildHuntingQuest();
   if (
     huntingQuest &&
