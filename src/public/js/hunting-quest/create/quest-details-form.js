@@ -2,6 +2,7 @@ import {
   CROWN_SELECT_VISIBILITY_CHANGE,
   QUEST_DETAILS_FORM_CHANGE,
   QUEST_FORM_SUBMIT,
+  QUEST_PREVIEW_CHANGE,
   SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
 import { bonusQuestRewardsList } from '../create.js';
@@ -18,6 +19,7 @@ const QuestDetailsForm = (() => {
   const $bonusRewards = $('#bonus-rewards');
   const $questCategory = $('#quest-category');
   const $locale = $('#locale');
+  const $submitButton = $('button[type="submit"]');
 
   // Bind Events
   $crossPlayEnabled.on('click', handleCrossPlayCheckboxChange);
@@ -26,6 +28,10 @@ const QuestDetailsForm = (() => {
 
   // Subscribe to mediator events
   createPageMediator.on(SELECTED_MONSTERS_CHANGE, handleSelectedMonstersChange);
+  createPageMediator.on(QUEST_PREVIEW_CHANGE, (huntingQuest) => {
+    if (!huntingQuest.isValid()) $submitButton.attr('disabled', true);
+    else $submitButton.removeAttr('disabled');
+  });
 
   $form.on('change', () => {
     createPageMediator.trigger(QUEST_DETAILS_FORM_CHANGE, $form[0]);
