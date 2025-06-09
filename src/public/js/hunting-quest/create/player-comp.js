@@ -4,9 +4,11 @@ import {
   weaponTypesList,
   systemLoadoutsList,
 } from '../create.js';
+import createPageMediator from 'js/common/mediator';
 import 'css/components/hunter-slot.css';
 
 import Slot from 'entities/Slot.js';
+import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -107,6 +109,7 @@ class PlayerComp {
       console.warn('Some invalid slots filtered out.');
     }
     this._playerSlots = values;
+    createPageMediator.trigger(QUEST_PLAYER_SLOTS_CHANGE, this.playerSlots);
   }
 
   addSlot(slot) {
