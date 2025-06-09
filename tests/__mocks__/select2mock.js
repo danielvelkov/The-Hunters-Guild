@@ -1,10 +1,7 @@
-import Monster from 'entities/game-data/Monster';
-
 /**
  * Mock Jquery Select2 fn
- * @param {Monster[]} mockMonsters list of monsters. Can also be DB entity monster
  */
-export default function createSelect2Mock(mockMonsters) {
+export default function createSelect2Mock() {
   const select2Instances = new Map();
 
   $.fn.select2 = function (options = {}) {
@@ -61,9 +58,7 @@ export default function createSelect2Mock(mockMonsters) {
             });
           }
         } else if (eventType === 'select2:selecting') {
-          // Handle select2:selecting event with monster data
-          const monsterId = event.params?.args?.data?.id || instance.value;
-          const monster = mockMonsters.find((m) => m.id === monsterId);
+          const id = event.params?.args?.data?.id || instance.value;
 
           if (monster && instance.handlers.has('select2:selecting')) {
             instance.handlers.get('select2:selecting').forEach((handler) => {
@@ -72,9 +67,23 @@ export default function createSelect2Mock(mockMonsters) {
                 params: {
                   args: {
                     data: {
-                      id: monster.id,
-                      text: monster.name,
+                      id,
                     },
+                  },
+                },
+              });
+            });
+          }
+        } else if (eventType === 'select2:select') {
+          const id = event.params?.data?.id || instance.value;
+
+          if (monster && instance.handlers.has('select2:select')) {
+            instance.handlers.get('select2:select').forEach((handler) => {
+              handler.call($element[0], {
+                type: 'select2:select',
+                params: {
+                  data: {
+                    id,
                   },
                 },
               });
