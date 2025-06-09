@@ -71,6 +71,7 @@ const MonsterSelectForms = (() => {
     if (_monsterSelectForms.size >= 2) return;
     _monsterSelectForms.add(form);
     container.append(form);
+    container.trigger('change');
   }
 
   function removeForm(form) {
