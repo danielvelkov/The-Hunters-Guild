@@ -20,4 +20,6 @@ if (typeof $.fn.select2 === 'undefined') {
   $.fn.select2 = select2;
 }
 
-global.structuredClone = (val) => JSON.parse(JSON.stringify(val))
+global.structuredClone = (val) => JSON.parse(JSON.stringify(val));
+
+global.requestAnimationFrame = jest.fn((cb) => cb());

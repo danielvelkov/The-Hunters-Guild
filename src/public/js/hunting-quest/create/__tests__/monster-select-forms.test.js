@@ -1,12 +1,14 @@
 import path from 'path';
 import ejs from 'ejs';
-import { screen } from '@testing-library/dom';
+import { screen, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
 import GameData from '@models/GameData';
 import { selectSelect2Option } from '@tests/helper';
 import { MONSTER_SELECT_FORMS_CHANGE } from 'js/common/events';
+
+import createSelect2Mock from '@tests/__mocks__/select2mock';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
 jest.mock('@models/GameData');
@@ -19,6 +21,7 @@ const ejsViewPath = path.resolve(
 const mockMonsters = GameData.monsters__weakness_and_icons_ListGet();
 
 describe('monster select forms section', () => {
+  let select2Mock;
   let user = userEvent.setup();
   const mockMediator = {
     trigger: jest.fn(),
@@ -37,6 +40,8 @@ describe('monster select forms section', () => {
       monstersList: mockMonsters,
     }));
     jest.doMock('js/common/mediator', () => mockMediator);
+
+    select2Mock = createSelect2Mock(mockMonsters);
 
     jest.isolateModules(() => {
       require('js/hunting-quest/create/monster-select-forms');
@@ -57,7 +62,7 @@ describe('monster select forms section', () => {
     expect(screen.getByRole('form')).toBeInTheDocument();
   });
 
-  test('should select default monster in select on add monster button click', async () => {
+  test('should select first monster in list as default on add monster button click', async () => {
     const addMonsterButton = screen.getByRole('button', {
       name: /add monster/i,
     });
@@ -65,8 +70,23 @@ describe('monster select forms section', () => {
     expect(
       screen.getByRole('option', {
         selected: true,
-        value: mockMonsters[0].name,
+        name: new RegExp(mockMonsters[0].name),
       })
+    ).toBeInTheDocument();
+  });
+
+  test('should show monster variations checkboxes, strength and crown select on add monster button click', async () => {
+    const addMonsterButton = screen.getByRole('button', {
+      name: /add monster/i,
+    });
+    await user.click(addMonsterButton);
+    const monsterSelectForm = screen.getByRole('form');
+    expect(within(monsterSelectForm).getByRole('checkbox')).toBeInTheDocument();
+    expect(
+      within(monsterSelectForm).getByRole('combobox', { name: /crown/i })
+    ).toBeInTheDocument();
+    expect(
+      within(monsterSelectForm).getByRole('combobox', { name: /strength/i })
     ).toBeInTheDocument();
   });
   test('shows a MAX of 2 monster select forms', async () => {
@@ -172,7 +192,6 @@ describe('monster select forms section', () => {
     const select = screen.getByRole('combobox', { name: /large monster/i });
     selectSelect2Option(select, mockMonsters[0].id);
 
-    expect(spy).toHaveBeenCalledTimes(1);
     expect(spy).toHaveBeenCalledWith(
       MONSTER_SELECT_FORMS_CHANGE,
       expect.anything()

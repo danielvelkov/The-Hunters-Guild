@@ -102,10 +102,7 @@ const QuestDetailsForm = (() => {
     }
 
     $locale.html(
-      monsterLocales.map(
-        (l, index) =>
-          `<option ${index === 0 ? 'selected' : ''} value="${l}">${l}</option>`
-      )
+      monsterLocales.map((l) => `<option value="${l}">${l}</option>`)
     );
   }
 
