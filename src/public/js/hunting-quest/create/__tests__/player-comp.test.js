@@ -84,4 +84,158 @@ describe('player composition section', () => {
       screen.getByRole('button', { name: /add slot/i })
     ).toBeInTheDocument();
   });
+
+  test('should add another slot on "add slot" button click', async () => {
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+
+    expect(within(tablist).getAllByRole('tab')).toHaveLength(2);
+
+    const addSlotButton = screen.getByRole('button', { name: /add slot/i });
+
+    await user.click(addSlotButton);
+
+    expect(within(tablist).getAllByRole('tab')).toHaveLength(3);
+  });
+
+  test('should remove "add slot" button on max allowed slots reached (4)', async () => {
+    const addSlotButton = screen.getByRole('button', { name: /add slot/i });
+
+    await user.click(addSlotButton); // 3
+    await user.click(addSlotButton); // 4 (MAX REACHED)
+
+    expect(addSlotButton).not.toBeInTheDocument();
+  });
+
+  test('should have remove button inside tab headings for slots other than the first', async () => {
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+    const tabHeadings = within(tablist).getAllByLabelText(/tab heading/i);
+
+    expect(
+      within(tabHeadings[0]).queryByRole('button')
+    ).not.toBeInTheDocument();
+    expect(within(tabHeadings[1]).queryByRole('button')).toBeInTheDocument();
+  });
+
+  test('should remove player slot on remove button click', async () => {
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+    const tabHeadings = within(tablist).getAllByLabelText(/tab heading/i);
+    const removeButton = within(tabHeadings[1]).getByRole('button');
+
+    await user.click(removeButton);
+
+    expect(within(tablist).getAllByRole('tab')).toHaveLength(1);
+  });
+
+  test('should fire PLAYER_SLOT_CHANGE on add/remove slot', async () => {
+    const createPageMediator = jest.requireMock('js/common/mediator');
+    const spy = jest.spyOn(createPageMediator, 'trigger');
+
+    const addSlotButton = screen.getByRole('button', { name: /add slot/i });
+
+    await user.click(addSlotButton);
+
+    expect(spy).toHaveBeenNthCalledWith(
+      1,
+      QUEST_PLAYER_SLOTS_CHANGE,
+      expect.anything()
+    );
+
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+    const tabHeadings = within(tablist).getAllByLabelText(/tab heading/i);
+    const removeButton = within(tabHeadings[1]).getByRole('button');
+
+    await user.click(removeButton);
+
+    expect(spy).toHaveBeenNthCalledWith(
+      2,
+      QUEST_PLAYER_SLOTS_CHANGE,
+      expect.anything()
+    );
+  });
+
+  test('should display two slot config tabs', async () => {
+    const tablist = screen.getByRole('tablist', { name: /slot config tabs/i });
+    const tabLinks = within(tablist).getAllByRole('link');
+    expect(tabLinks).toHaveLength(2);
+    expect(tabLinks[0].textContent).toContain('Loadouts');
+    expect(tabLinks[1].textContent).toContain('Custom');
+  });
+
+  test.skip('should display a form containing slot config data on tab "Custom" selection', async () => {
+    const tablist = screen.getByRole('tablist', { name: /slot config tabs/i });
+    const CustomTabLink = within(tablist).getByRole('link', {
+      name: /custom/i,
+    });
+    expect(within(tablist).queryByRole('form')).not.toBeInTheDocument();
+
+    await user.click(CustomTabLink);
+    /**
+     * NOTE
+     *
+     * This will not work. Idk why but jquery widgets methods do
+     * not work in the jsdom. No aria, not additional functionality. Nada.
+     * The classes and everything, its like nothing happened
+     */
+    // expect(within(tablist).getByRole('form')).toBeInTheDocument();
+  });
+
+  test.skip('should update current selected player slot details on "custom" tab form change', async () => {
+    // TODO - mock the tabs element somehow
+  });
+
+  test('should show searchbox and loadout list containing system loadouts', async () => {
+    const tablist = screen.getByRole('tablist', { name: /slot config tabs/i });
+    const LoadoutsTabLink = within(tablist).getByRole('link', {
+      name: /loadouts/i,
+    });
+
+    await user.click(LoadoutsTabLink);
+
+    expect(
+      within(tablist).getByRole('search', { name: /loadouts search/i })
+    ).toBeInTheDocument();
+    expect(
+      within(tablist).getByLabelText(/loadouts list/i)
+    ).toBeInTheDocument();
+    expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+      (await mockLoadouts).length
+    );
+  });
+  test('should filter system loadouts on search term specified', async () => {
+    // TODO
+  });
+  test('should filter system loadouts on ROLE BUTTON select', async () => {
+    // TODO
+  });
+
+  test('should update the player slot info on custom loadout selected', async () => {
+    const createPageMediator = jest.requireMock('js/common/mediator');
+    const spy = jest.spyOn(createPageMediator, 'trigger');
+    const tabConfigList = screen.getByRole('tablist', {
+      name: /slot config tabs/i,
+    });
+    const LoadoutsTabLink = within(tabConfigList).getByRole('link', {
+      name: /loadouts/i,
+    });
+
+    await user.click(LoadoutsTabLink);
+
+    const loadoutList = within(tabConfigList).getByLabelText(/loadouts list/i);
+    const loadoutItems = within(loadoutList).getAllByLabelText(/Loadout:/);
+    const loadout = loadoutItems[0];
+
+    const loadoutTitle = within(loadout).getByRole('heading').innerHTML;
+
+    await user.click(loadout);
+    expect(spy).toHaveBeenNthCalledWith(
+      1,
+      QUEST_PLAYER_SLOTS_CHANGE,
+      expect.anything()
+    );
+
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+    const tabs = within(tablist).getAllByRole('tab');
+
+    expect(within(tabs[0]).getByText(loadoutTitle)).toBeInTheDocument();
+  });
 });

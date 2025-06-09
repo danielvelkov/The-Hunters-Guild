@@ -17,7 +17,7 @@
 </template>
 
 <template id="player-configure-form-template">
-  <div class="config-tabs">
+  <div class="config-tabs" role="tablist" aria-label="slot config list">
     <ul>
       <li><a href="#tabs-loadouts">Loadouts</a></li>
       <li><a href="#tabs-custom">Custom</a></li>
@@ -27,14 +27,16 @@
       style="display: flex; flex-direction: column; gap: 0.5em"
     >
       <h2 style="margin: 0.5em 0em">Select Loadout</h2>
-      <div class="search-bar flex-row">
+      <search class="search-bar flex-row">
         <input
           type="text"
           placeholder=" Search..."
           style="border-radius: 1em; height: 2em; width: 100%"
           class="loadouts-search"
+          role="search"
+          aria-label="loadouts search"
         />
-      </div>
+      </search>
 
       <div class="flex-row" style="flex-wrap: wrap">
         <button
@@ -63,7 +65,11 @@
         </button>
       </div>
 
-      <div class="loadouts-list">
+      <div
+        class="loadouts-list"
+        aria-label="loadouts list results"
+        aria-role="list"
+      >
         <!-- ... loadouts loaded here -->
       </div>
     </div>

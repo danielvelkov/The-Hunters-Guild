@@ -17,23 +17,24 @@ class PlayerComp {
   _playerSlots = [];
 
   constructor(playerSlots = []) {
-    this.playerSlots = playerSlots;
     this.cacheDOM();
     this.bindEvents();
-    // Owner
-    this.addSlot(
-      new Slot({
-        displayName: 'Host',
-        isOwner: true,
-      })
-    );
-    // Guest
-    this.addSlot(
-      new Slot({
-        displayName: 'Custom Slot #' + this.nextSlotIndex++,
-        isOwner: false,
-      })
-    );
+    this._playerSlots =
+      playerSlots.length > 1
+        ? playerSlots
+        : [
+            // Owner
+            new Slot({
+              displayName: 'Host',
+              isOwner: true,
+            }),
+            // // Guest
+            new Slot({
+              displayName: 'Custom Slot #' + this.nextSlotIndex++,
+              isOwner: false,
+            }),
+          ];
+    this.setSelectedSlot(this.playerSlots[0]);
     this.render();
   }
 
@@ -137,7 +138,7 @@ class PlayerComp {
       this.setSelectedSlot(this.playerSlots[newSelectedIndex]);
     }
 
-    this.playerSlots = this.playerSlots.filter((slot, i) => i !== index);
+    this.playerSlots = this.playerSlots.filter((_, i) => i !== index);
     this.render();
   }
 
@@ -187,7 +188,8 @@ class PlayerComp {
       .addClass('accordion-title')
       .addClass(slot === this.selectedSlot ? 'selected-slot' : '')
       .css('position', 'relative')
-      .text(slot.displayName);
+      .text(slot.displayName)
+      .attr('aria-label', 'accordion tab heading');
 
     // Add remove button if not the owner slot
     if (!slot.isOwner) {
@@ -211,19 +213,23 @@ class PlayerComp {
   createSlotConfigTabs(slot) {
     if (!slot) return;
 
-    this.configureSlotSection.find('.config-tabs').remove();
+    let configTabs = this.configureSlotSection.find('.config-tabs').detach();
+    configTabs = null;
 
     const tabs = this.slotConfigTabsTemplate.clone(true);
 
     this.configureSlotSection.append(tabs);
 
     // Initialize jQuery UI tabs
-    tabs.tabs({
-      active: +this.activeConfigTabIndex,
-      activate: (_, ui) => {
-        this.activeConfigTabIndex = ui.newTab.index();
-      },
-    });
+    tabs
+      .tabs({
+        active: +this.activeConfigTabIndex,
+        activate: (_, ui) => {
+          this.activeConfigTabIndex = ui.newTab.index();
+        },
+      })
+      .attr('role', 'tablist')
+      .attr('aria-label', 'slot config tabs');
 
     const loadoutsTab = tabs.find('#tabs-loadouts');
     const customTabForm = tabs.find('.custom-tab-form');
@@ -584,7 +590,9 @@ class PlayerComp {
   }
 
   createLoadoutElement(loadout) {
-    const loadoutElement = this.loadoutElementTemplate.clone(true);
+    const loadoutElement = this.loadoutElementTemplate
+      .clone(true)
+      .attr('aria-label', 'Loadout: ' + loadout.name || 'Custom Loadout');
 
     loadoutElement
       .find('.loadout-title')
@@ -691,6 +699,7 @@ class PlayerComp {
         this.selectedSlot
       );
       this.createSlotConfigTabs(this.selectedSlot);
+      createPageMediator.trigger(QUEST_PLAYER_SLOTS_CHANGE, this.playerSlots);
     });
     return loadoutElement;
   }
