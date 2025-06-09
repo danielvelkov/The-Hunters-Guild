@@ -10,6 +10,7 @@ import Slot from 'entities/Slot.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
+  activeConfigTabIndex = 0;
   _playerSlots = [];
 
   constructor(playerSlots = []) {
@@ -204,7 +205,12 @@ class PlayerComp {
     this.configureSlotSection.append(tabs);
 
     // Initialize jQuery UI tabs
-    tabs.tabs();
+    tabs.tabs({
+      active: +this.activeConfigTabIndex,
+      activate: (_, ui) => {
+        this.activeConfigTabIndex = ui.newTab.index();
+      },
+    });
 
     const loadoutsTab = tabs.find('#tabs-loadouts');
     const customTabForm = tabs.find('.custom-tab-form');
