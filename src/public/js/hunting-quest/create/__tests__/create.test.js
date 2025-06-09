@@ -6,6 +6,7 @@ import ejs from 'ejs';
 import userEvent from '@testing-library/user-event';
 
 import GameData from '@models/GameData';
+import createSelect2Mock from '@tests/__mocks__/select2mock';
 import { selectSelect2Option } from '@tests/helper';
 
 // This tells Jest to use the mock from __mocks__/gamedata.js
@@ -41,7 +42,7 @@ describe('create page', () => {
     };
 
     const htmlString = await ejs.renderFile(ejsViewPath, {
-      title: 'Mock',
+      title: 'Create Quest Post',
       monsters: mockMonsters,
       weaponAttributes: mockAttributes,
       weaponTypes: mockWeapons,
@@ -56,6 +57,12 @@ describe('create page', () => {
     jest.isolateModules(() => {
       require('js/hunting-quest/create');
     });
+
+    createSelect2Mock(mockMonsters);
+  });
+
+  afterEach(() => {
+    jest.restoreAllMocks();
   });
   test('loads with monster select forms on "add monster" button click', async () => {
     const addMonsterButton = screen.getByRole('button', {
@@ -98,7 +105,7 @@ describe('create page', () => {
     );
 
     const monsterSelect = screen.getByRole('combobox', {
-      name: /monster/i,
+      name: /large monster/i,
     });
 
     selectSelect2Option(monsterSelect, mockMonsters[1].id);
@@ -116,10 +123,13 @@ describe('create page', () => {
     });
 
     await user.click(addMonsterButton);
+
     const monsterSelect = screen.getByRole('combobox', {
-      name: /monster/i,
+      name: /large monster/i,
     });
+
     selectSelect2Option(monsterSelect, mockMonsters[1].id);
+
     expect(
       screen.getByRole('group', { name: /quest details/i })
     ).toBeInTheDocument();
@@ -131,9 +141,11 @@ describe('create page', () => {
     });
 
     await user.click(addMonsterButton);
+
     const monsterSelect = screen.getByRole('combobox', {
-      name: /monster/i,
+      name: /large monster/i,
     });
+
     selectSelect2Option(monsterSelect, mockMonsters[1].id);
 
     expect(
@@ -147,6 +159,7 @@ describe('create page', () => {
     ).toBeInTheDocument();
 
     await user.click(screen.getByRole('button', { name: /remove/i }));
+
     expect(
       screen.queryByRole('group', { name: /quest details/i })
     ).not.toBeInTheDocument();
