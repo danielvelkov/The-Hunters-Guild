@@ -57,6 +57,11 @@ class HuntingQuestFormModel extends HuntingQuest {
     );
   }
 
+  // Submit Validation
+  isValid() {
+    return Object.keys(this.getValidationErrors()).length === 0;
+  }
+
   /**
    * Get validation errors for current state
    * @returns {Object} - Object containing validation errors

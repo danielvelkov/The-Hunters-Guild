@@ -182,10 +182,7 @@ function updateQuestPreview(huntingQuest) {
   }
 
   // Display validation errors if any
-  if (
-    huntingQuest &&
-    Object.keys(huntingQuest.getValidationErrors()).length !== 0
-  ) {
+  if (huntingQuest && !huntingQuest.isValid()) {
     displayValidationErrors(huntingQuest.getValidationErrors());
   }
 }
