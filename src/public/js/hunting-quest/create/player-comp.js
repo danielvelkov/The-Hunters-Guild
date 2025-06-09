@@ -12,6 +12,7 @@ import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
+  nextSlotIndex = 1;
   activeConfigTabIndex = 0;
   _playerSlots = [];
 
@@ -19,20 +20,30 @@ class PlayerComp {
     this.playerSlots = playerSlots;
     this.cacheDOM();
     this.bindEvents();
+    // Owner
     this.addSlot(
       new Slot({
         displayName: 'Host',
         isOwner: true,
       })
     );
+    // Guest
+    this.addSlot(
+      new Slot({
+        displayName: 'Custom Slot #' + this.nextSlotIndex++,
+        isOwner: false,
+      })
+    );
     this.render();
   }
 
   cacheDOM() {
-    this.playerSlotsList = $('.player-slots-list').accordion({
-      animate: false,
-      header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
-    });
+    this.playerSlotsList = $('.player-slots-list')
+      .attr('aria-label', 'player slot list')
+      .accordion({
+        animate: false,
+        header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
+      });
     this.configureSlotSection = $('#configure-slot');
 
     this.addPlayerSlotTemplate = $(
@@ -67,11 +78,10 @@ class PlayerComp {
   }
 
   bindEvents() {
-    let nextSlotIndex = 1;
     this.addPlayerSlotTemplate.on('click', () => {
       this.addSlot(
         new Slot({
-          displayName: 'Custom Slot #' + nextSlotIndex++,
+          displayName: 'Custom Slot #' + this.nextSlotIndex++,
           isOwner: false,
         })
       );
@@ -94,7 +104,7 @@ class PlayerComp {
   }
 
   get playerSlots() {
-    return this._playerSlots;
+    return [...this._playerSlots];
   }
 
   set playerSlots(values) {
@@ -188,7 +198,7 @@ class PlayerComp {
     }
 
     // Create slot content
-    let slotElement = $('<div>').addClass('player-slot');
+    let slotElement = $('<div>').addClass('player-slot').attr('role', 'tab');
     let slotContainer = this.playerSlotTemplate.clone(true);
     slotElement.append(slotContainer);
 
@@ -235,7 +245,7 @@ class PlayerComp {
     searchBar.on('change', (e) => {
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
-        console.log('Searchbar:', e.target.value);
+        // console.log('Searchbar:', e.target.value);
       }, 500);
     });
 
@@ -311,7 +321,9 @@ class PlayerComp {
       const updatedSlot = processFormData(formData, currentSlot);
 
       // Update the slot in the array
-      Object.assign(this.playerSlots[initialIndex], updatedSlot);
+      this.playerSlots = this.playerSlots.map((slot, index) =>
+        index === initialIndex ? Object.assign(slot, updatedSlot) : slot
+      );
 
       // Update the slot display
       const slotContainer = this.playerSlotsList
@@ -558,8 +570,8 @@ class PlayerComp {
   }
 
   updateLoadoutsDisplay(loadoutsContainer, filter) {
-    console.log('updating loadouts');
-    console.log('Filter:', filter);
+    // console.log('updating loadouts');
+    // console.log('Filter:', filter);
     const loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
       index: i,
       ...obj,
