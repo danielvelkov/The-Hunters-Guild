@@ -20,6 +20,7 @@ class HuntingQuestFormModel extends HuntingQuest {
    * @param {FormData} formData - Form data from quest form
    * @param {QuestMonster[]} monsters - Array of quest monsters
    * @param {Slot[]} slots - Array of player slots
+   * @param {QuestBonusReward[]} bonusQuestRewards - Array of bonus quest rewards
    * @returns {HuntingQuest}
    */
   static fromFormData(
