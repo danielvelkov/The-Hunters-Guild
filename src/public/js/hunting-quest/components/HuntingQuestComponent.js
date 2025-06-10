@@ -199,7 +199,7 @@ export default class HuntingQuestComponent {
   generateMonsterTab({ monster, variant }, isHighRankQuest) {
     return `
     <h2>${monster.name}</h2>
-    <div style="display:flex;justify-content: space-between;flex-wrap: wrap;">
+    <div style="display:flex;justify-content: space-between;flex-wrap: wrap;gap:1em;">
         ${this.generateDamageEffectivenessTable(monster)}
         ${this.generateStatusEffectivenessTable(monster)}
         ${this.generateItemEffectivenessTable(monster)}
