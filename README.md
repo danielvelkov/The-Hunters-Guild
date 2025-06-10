@@ -113,7 +113,7 @@ This tool is not affiliated with, sponsored by, or endorsed by CAPCOM. All trade
 
 ## Project Structure
 
-- `src/`: Contains the frontend source code
+- `src/`: Contains the app source code
 - `server.js`: Main production server entry point
 - `dev-server.js`: Development server entry point
 - `db/`: Database configuration and seed scripts
@@ -163,7 +163,6 @@ This tool is not affiliated with, sponsored by, or endorsed by CAPCOM. All trade
 - **Testing**:
   - `jest`, `jest-environment-jsdom`: JavaScript testing framework
   - `@testing-library/dom`, `@testing-library/jest-dom`: DOM testing utilities
-  - `jsdom`: JavaScript implementation of HTML and DOM
 
 ## License
 
