@@ -246,16 +246,25 @@ class PlayerComp {
   initializeLoadoutsTab(container) {
     const loadoutsList = container.find('.loadouts-list');
     const searchBar = container.find('.loadouts-search');
-    let filter = '';
+
+    const pillButtons = container.find('.pill-button');
+    pillButtons.on('click', (e) => {
+      const role = $(e.target).text().trim();
+      this.updateLoadoutsDisplay(loadoutsList, { role });
+    });
+
+    let searchValue = '';
     let searchTimer;
-    searchBar.on('change', (e) => {
-      clearTimeout(searchTimer);
+
+    searchBar.on('input', (e) => {
+      if (searchTimer) clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
-        // console.log('Searchbar:', e.target.value);
+        searchValue = e.target.value;
+        this.updateLoadoutsDisplay(loadoutsList, { name: searchValue });
       }, 500);
     });
 
-    this.updateLoadoutsDisplay(loadoutsList, filter);
+    this.updateLoadoutsDisplay(loadoutsList, {});
   }
 
   initializeCustomTabFormControls(form, slot) {
@@ -576,17 +585,29 @@ class PlayerComp {
   }
 
   updateLoadoutsDisplay(loadoutsContainer, filter) {
-    // console.log('updating loadouts');
-    // console.log('Filter:', filter);
-    const loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
+    let loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
       index: i,
       ...obj,
     }));
+
+    loadoutsWithIndex = this.filterLoadouts(loadoutsWithIndex, filter);
 
     loadoutsContainer.empty();
     loadoutsWithIndex.forEach((loadout) =>
       loadoutsContainer.append(this.createLoadoutElement(loadout))
     );
+  }
+
+  filterLoadouts(loadouts, { name, role }) {
+    // filter by loadout name
+    if (name) {
+      return loadouts.filter((l) =>
+        l.name.toLowerCase().includes(name.toLowerCase())
+      );
+    } else if (role) {
+      if (role === 'Any') return loadouts;
+      return loadouts.filter((l) => l.roles.map((r) => r.name).includes(role));
+    } else return loadouts;
   }
 
   createLoadoutElement(loadout) {
