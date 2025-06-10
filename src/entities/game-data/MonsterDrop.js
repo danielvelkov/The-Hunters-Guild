@@ -8,15 +8,15 @@ class MonsterDrop extends Item {
    * @param {string} icon Icon name.
    * @param {string} iconColor Icon coloring. DEFAULT WHITE
    * @param {string} description
-   * @param {string} type Item type - Can only be MATERIAL
+   * @param {string} type 'MATERIAL' always
    * @param {number} rarity 1-7 with 1 being common; 7 - Super Rare
    * @param {string} source Where to get the item.
-   * @param {string} rewardType Carving; Broken Part Reward; Target Reward
+   * @param {string} rewardType Carving; Broken Part Reward; Target Reward; etc.
    * @param {string} rank HIGH/LOW rank
    * @param {string} brokenPart Present if rewardType: Broken Part Reward
    * @param {string} brokenPartIcon Present if rewardType: Broken Part Reward
    * @param {number} number The num of said item as a reward.
-   * @param {number} probability The prob, not in percent yet.
+   * @param {number} probability The prob as a floating point number.
    * @param {boolean} carveSeveredPart Whether the severed part can be carved. False by default
    */
   constructor(
