@@ -327,6 +327,8 @@ class PlayerComp {
       return; // Slot not found in array
     }
 
+    let updateClearTimer;
+
     // Handle form changes
     form.off('change').on('change', () => {
       const formData = new FormData(form[0]);
@@ -345,7 +347,13 @@ class PlayerComp {
         .find(`.player-slot:eq(${initialIndex})`)
         .find('.hunter-slot');
 
-      this.updateSlotDisplay(slotContainer, updatedSlot);
+      if (updateClearTimer) {
+        clearTimeout(updateClearTimer);
+      }
+      updateClearTimer = setTimeout(
+        () => this.updateSlotDisplay(slotContainer, updatedSlot),
+        10
+      );
 
       // Update the header text
       this.playerSlotsList
@@ -713,12 +721,6 @@ class PlayerComp {
 
     loadoutElement.on('click', () => {
       this.selectedSlot.initFromLoadout(loadout);
-      this.updateSlotDisplay(
-        this.getHunterSlotContainer(
-          this.playerSlots.indexOf(this.selectedSlot)
-        ),
-        this.selectedSlot
-      );
       this.createSlotConfigTabs(this.selectedSlot);
       createPageMediator.trigger(QUEST_PLAYER_SLOTS_CHANGE, this.playerSlots);
     });
