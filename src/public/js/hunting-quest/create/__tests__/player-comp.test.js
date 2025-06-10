@@ -1,6 +1,6 @@
 import path from 'path';
 import ejs from 'ejs';
-import { screen, within } from '@testing-library/dom';
+import { fireEvent, screen, waitFor, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
@@ -198,14 +198,74 @@ describe('player composition section', () => {
       within(tablist).getByLabelText(/loadouts list/i)
     ).toBeInTheDocument();
     expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
-      (await mockLoadouts).length
+      mockLoadouts.length
     );
   });
-  test('should filter system loadouts on search term specified', async () => {
-    // TODO
+  describe('loadouts search should filter loadouts', () => {
+    test('on loadout title specified', async () => {
+      const tablist = screen.getByRole('tablist', {
+        name: /slot config tabs/i,
+      });
+
+      const search = within(tablist).getByRole('search', {
+        name: /loadouts search/i,
+      });
+
+      expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+        mockLoadouts.length
+      );
+      await user.type(search, mockLoadouts[0].name);
+
+      await waitFor(async () => {
+        expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+          (await mockLoadouts).filter((l) => l.name === mockLoadouts[0].name)
+            .length
+        );
+      });
+    });
   });
-  test('should filter system loadouts on ROLE BUTTON select', async () => {
-    // TODO
+  test.only('should filter system loadouts on ROLE BUTTON select', async () => {
+    const tablist = screen.getByRole('tablist', {
+      name: /slot config tabs/i,
+    });
+    const TankRoleFilterButton = screen.getByLabelText(/filter.*Tank/i);
+    const DPSRoleFilterButton = screen.getByLabelText(/filter.*DPS/i);
+    const AnyRoleFilterButton = screen.getByLabelText(/filter.*Any/i);
+    expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+      mockLoadouts.length
+    );
+
+    // Tank Role
+    await user.click(TankRoleFilterButton);
+    await waitFor(async () => {
+      expect(within(tablist).queryAllByLabelText(/Loadout: /i)).toHaveLength(
+        (await mockLoadouts).filter((l) =>
+          l.roles
+            .map((r) => r.name)
+            .includes(TankRoleFilterButton.textContent.trim())
+        ).length
+      );
+    });
+
+    // DPS Role
+    await user.click(DPSRoleFilterButton);
+    await waitFor(async () => {
+      expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+        (await mockLoadouts).filter((l) =>
+          l.roles
+            .map((r) => r.name)
+            .includes(DPSRoleFilterButton.textContent.trim())
+        ).length
+      );
+    });
+
+    // Any Role
+    await user.click(AnyRoleFilterButton);
+    await waitFor(async () => {
+      expect(within(tablist).getAllByLabelText(/Loadout: /i)).toHaveLength(
+        (await mockLoadouts).length
+      );
+    });
   });
 
   test('should update the player slot info on custom loadout selected', async () => {
