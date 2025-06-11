@@ -94,10 +94,7 @@ createPageMediator.on(QUEST_PREVIEW_CHANGE, (quest) => {
 
 createPageMediator.on(QUEST_FORM_SUBMIT, () => {
   const huntingQuest = questBuilder.buildHuntingQuest();
-  if (
-    huntingQuest &&
-    Object.keys(huntingQuest.getValidationErrors()).length === 0
-  ) {
+  if (huntingQuest && huntingQuest.isValid()) {
     // TODO - create hunting quest post in db
     console.log('Submitting hunting quest:', huntingQuest);
   }
