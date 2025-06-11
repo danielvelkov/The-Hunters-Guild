@@ -39,10 +39,6 @@ input[type='range'] + output {
 
 /* Quest Post Form */
 
-#quest-details-form {
-  flex: 0 1 40ch;
-}
-
 #quest-details-form button[type='submit'] {
   font-size: large;
   padding: 0.5em 3em;

@@ -6,9 +6,11 @@ import {
 } from '../create.js';
 import createPageMediator from 'js/common/mediator';
 import 'css/components/hunter-slot.css';
+import 'css/components/player-comp.css';
 
 import Slot from 'entities/Slot.js';
 import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events.js';
+import { Loadout } from 'entities/Loadout.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -618,14 +620,23 @@ class PlayerComp {
     } else return loadouts;
   }
 
+  /**
+   * Create loadout element for selection
+   * @param {Loadout} loadout
+   * @returns JQuery element
+   */
   createLoadoutElement(loadout) {
     const loadoutElement = this.loadoutElementTemplate
       .clone(true)
       .attr('aria-label', 'Loadout: ' + loadout.name || 'Custom Loadout');
 
-    loadoutElement
-      .find('.loadout-title')
-      .text(loadout.name || 'Custom Loadout');
+    const loadoutRolesItems = loadout.roles.map((r) =>
+      $('<span>').addClass('role-tag').addClass(`role-${r.name}`).text(r.name)
+    );
+
+    loadoutElement.find('.loadout-title').append(loadout.name);
+
+    loadoutElement.find('.loadout-roles').append(loadoutRolesItems);
 
     loadoutElement
       .find('.loadout-description')

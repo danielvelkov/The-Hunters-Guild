@@ -247,3 +247,13 @@ legend {
   border: 1px solid var(--error-border);
   padding: 1em;
 }
+
+.remove-button {
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: fit-content;
+  font-size: 1em;
+}

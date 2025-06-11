@@ -43,7 +43,7 @@
         />
       </search>
 
-      <div class="flex-row" style="flex-wrap: wrap">
+      <div style="display: flex; flex-wrap: wrap; gap: 5px">
         <button
           aria-label="Filter by Any loadouts"
           class="pill-button"
@@ -165,10 +165,8 @@
 <template id="loadout-template">
   <div class="loadout-item">
     <div class="loadout-header">
-      <h3 class="loadout-title">Custom Loadout</h3>
-      <div class="loadout-roles">
-        <!-- Roles will be inserted here -->
-      </div>
+      <h3 class="loadout-title"><%#-- Loadout title --%></h3>
+      <div class="loadout-roles"><%#-- Roles will be inserted here --%></div>
     </div>
 
     <div class="loadout-content">
@@ -180,20 +178,20 @@
       <div class="loadout-weapons-attributes">
         <div class="loadout-section weapons">
           <ul class="weapon-list">
-            <!-- Weapons will be inserted here -->
+            <%#-- Weapons will be inserted here --%>
           </ul>
         </div>
 
         <div class="loadout-section attributes">
           <ul class="attribute-list">
-            <!-- Attributes will be inserted here -->
+            <%#-- Attributes will be inserted here --%>
           </ul>
         </div>
       </div>
 
       <div class="loadout-skills">
         <ul class="skills-icons">
-          <!-- Skill icons will be inserted here -->
+          <%#-- Skill icons will be inserted here --%>
         </ul>
       </div>
     </div>

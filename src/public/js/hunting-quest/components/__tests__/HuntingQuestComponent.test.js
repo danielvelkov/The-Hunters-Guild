@@ -1,4 +1,4 @@
-import { screen, waitFor, within } from '@testing-library/dom';
+import { screen, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 
 import GameData from '@models/GameData';

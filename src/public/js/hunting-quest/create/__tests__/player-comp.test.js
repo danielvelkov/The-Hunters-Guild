@@ -224,7 +224,7 @@ describe('player composition section', () => {
       });
     });
   });
-  test.only('should filter system loadouts on ROLE BUTTON select', async () => {
+  test('should filter system loadouts on ROLE BUTTON select', async () => {
     const tablist = screen.getByRole('tablist', {
       name: /slot config tabs/i,
     });
@@ -296,6 +296,8 @@ describe('player composition section', () => {
     const tablist = screen.getByRole('tablist', { name: /player slot list/i });
     const tabs = within(tablist).getAllByRole('tab');
 
-    expect(within(tabs[0]).getByText(loadoutTitle)).toBeInTheDocument();
+    await waitFor(() => {
+      expect(within(tabs[0]).getByText(loadoutTitle)).toBeInTheDocument();
+    });
   });
 });
