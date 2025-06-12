@@ -24,6 +24,10 @@ class WeaponType {
   static BOW = new WeaponType('3', 'Bow');
   static HEAVY_BOWGUN = new WeaponType('2', 'Heavy Bowgun');
   static LIGHT_BOWGUN = new WeaponType('1', 'Light Bowgun');
+
+  static values() {
+    return Object.values(WeaponType).filter((v) => v instanceof WeaponType);
+  }
 }
 
 module.exports = WeaponType;
