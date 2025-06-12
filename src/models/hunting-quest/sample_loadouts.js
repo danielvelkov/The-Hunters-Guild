@@ -1,7 +1,7 @@
 const {
-  Loadout,
   LoadoutRole,
   LoadoutSkill,
+  Loadout,
 } = require('../../entities/Loadout');
 const WeaponType = require('../../entities/game-data/WeaponType');
 const WeaponAttribute = require('../../entities/game-data/WeaponAttribute');
@@ -683,7 +683,7 @@ module.exports = [
     'Focus on Super Amped Element Discharge with artillery and focus',
     [LoadoutRole.DPS],
     [WeaponType.CHARGE_BLADE],
-    [WeaponAttribute.IMPACT],
+    [WeaponAttribute.DRAGON],
     [
       skillsMap.Artillery,
       skillsMap.Focus,

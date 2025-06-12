@@ -8,7 +8,8 @@ const WeaponType = require('../../src/entities/game-data/WeaponType');
 
 const queries = require('../../db/game-data-queries');
 
-const sample_loadouts = require('../models/hunting-quest/sample_loadouts');
+const sample_loadouts =
+  require('../models/hunting-quest/sample_loadouts');
 /**
  * Retrieves a list containing base details for each monster with
  * the monsters weaknesses and icons for the monster
