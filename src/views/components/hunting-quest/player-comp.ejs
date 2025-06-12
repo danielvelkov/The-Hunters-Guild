@@ -92,6 +92,12 @@
     <div id="tabs-custom">
       <form class="custom-tab-form">
         <!-- ... slot fields, loadout config. Auto updated on change -->
+        <label for="name">Loadout name:</label>
+        <input id="name" name="name" />
+
+        <label for="description">Description:</label>
+        <textarea for="description" name="description"></textarea>
+
         <label for="roles">Role:</label>
         <select id="roles" name="roles[]" multiple="multiple">
           <option value="DPS">DPS</option>
