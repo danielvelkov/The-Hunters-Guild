@@ -1,6 +1,6 @@
 import { bonusQuestRewardsList, monstersDropsList } from '../create.js';
-import { getDmgColor, getQuestCategoryStyle } from '../../common/common.js';
-import { guidGenerator } from 'js/common/common.js';
+import { getDmgColor, getQuestCategoryStyle } from '../../common/util.js';
+import { guidGenerator } from 'js/common/util.js';
 import HuntingQuest from 'entities/HuntingQuest';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';

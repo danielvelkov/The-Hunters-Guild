@@ -5,6 +5,7 @@ import QuestType from 'entities/game-data/QuestType';
 import QuestMonster from 'entities/QuestMonster';
 import Slot from 'entities/Slot';
 import QuestBonusReward from 'entities/QuestBonusRewards';
+import { findClassEnumStaticPropInstance } from 'js/common/util';
 /**
  * Client-side model for handling Hunting Quest form data and previews
  */
@@ -204,16 +205,6 @@ class HuntingQuestFormModel extends HuntingQuest {
     super.quest_bonus_rewards = values;
     this.notifyChange('quest_bonus_rewards', this.quest_bonus_rewards);
   }
-}
-
-function findClassEnumStaticPropInstance(Class, value) {
-  const staticPropInstance = Class.values().find(
-    (staticProps) =>
-      staticProps === value ||
-      staticProps.id.toString() === value ||
-      staticProps.name === value
-  );
-  return staticPropInstance || null;
 }
 
 export default HuntingQuestFormModel;

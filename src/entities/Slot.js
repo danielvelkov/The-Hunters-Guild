@@ -1,4 +1,4 @@
-import { guidGenerator } from 'js/common/common.js';
+import { guidGenerator } from 'js/common/util.js';
 
 export default class Slot {
   /**
