@@ -368,6 +368,61 @@ class PlayerComp {
       rolesSelect.val(slot.loadout.roles.map((r) => r.name)).trigger('change');
     } else rolesSelect.val(null).trigger('change');
 
+    // Initialize monster part select
+    const monsterPartSelect = form.find('select[name="monster-part-focus[]"]');
+    if (this.selectedMonsters.length) {
+      monsterPartSelect.prop('disabled', false);
+      console.log('setting optinos');
+      monsterPartSelect.html(
+        this.selectedMonsters
+          .map((m) => ({
+            monster: m.name,
+            parts: m.part_dmg_effectiveness.map((p) => ({
+              name: p.name,
+              icon: p.icon,
+            })),
+          }))
+          .filter(
+            ({ monster }, index, arr) =>
+              arr.indexOf(arr.find((i) => i.monster === monster)) === index
+          )
+          .map(({ monster, parts }) => {
+            let optGroupHTML = `<optgroup label="${monster}">`;
+            optGroupHTML += parts
+              // .sort((qr1, qr2) => qr1.rarity - qr2.rarity)
+              .map(
+                (p) =>
+                  `<option data-icon="${
+                    p.icon === 'INVALID' ? 'ITEM_0001' : p.icon
+                  }" value="${p.name}">
+          ${p.name}
+        </option>`
+              )
+              .join('');
+            optGroupHTML += '</optgroup>';
+            return optGroupHTML;
+          })
+          .join('')
+      );
+      initializeSelect(
+        monsterPartSelect,
+        '-- Choose a monster part--',
+        (item) => formatOption(item, 'icon', 'Item Icons'),
+        true
+      );
+
+      // Select monster parts
+      if (slot.monsterPartFocus.length) {
+        monsterPartSelect
+          .val(slot.monsterPartFocus.map((r) => r.name))
+          .trigger('change');
+      } else monsterPartSelect.val(null).trigger('change');
+    } else {
+      console.log('DISABLING');
+      monsterPartSelect.prop('disabled', true);
+      monsterPartSelect.val(null).trigger('change');
+    }
+
     // Set notes
     form.find('textarea[name="notes"]').val(slot.notes || '');
 
@@ -512,7 +567,6 @@ class PlayerComp {
     slotContainer
       .find('.slot-display-name')
       .text(slotData.displayName || 'Hunter Slot');
-    console.log(slotData.configurationType);
     slotContainer
       .find('.slot-type')
       .text(slotData.configurationType.name + ' Configuration')
