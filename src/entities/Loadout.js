@@ -5,12 +5,11 @@ const WeaponType = require('./game-data/WeaponType');
 /** Class representing info about a loadout. */
 class Loadout {
   /**
-   * @param {string} id Loadout ID.
-   * @param {string} name Loadout name.
-   * @param {string} description Loadout description.
-   * @param {LoadoutRole[]} roles Any/DPS/TANK etc.
-   * @param {WeaponType[]} weapon_types Insect Glaive, SnS etc.
-   * @param {WeaponAttribute[]} weapon_attr Fire, Water, Poison
+   * @param {string} name Loadout display name.
+   * @param {string} description
+   * @param {LoadoutRole[]} roles
+   * @param {WeaponType[]} weapon_types
+   * @param {WeaponAttribute[]} weapon_attr
    * @param {LoadoutSkill[]} skills
    */
   constructor(
