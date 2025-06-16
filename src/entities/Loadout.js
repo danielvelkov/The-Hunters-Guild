@@ -13,7 +13,14 @@ class Loadout {
    * @param {WeaponAttribute[]} weapon_attr Fire, Water, Poison
    * @param {LoadoutSkill[]} skills
    */
-  constructor(name, description, roles, weapon_types, weapon_attr, skills) {
+  constructor(
+    name = 'Flexible Loadout',
+    description = 'Any skills and equipment are permitted for this slot.',
+    roles = [],
+    weapon_types = [],
+    weapon_attr = [],
+    skills = []
+  ) {
     this.name = name;
     this.description = description;
     this.roles = roles;
