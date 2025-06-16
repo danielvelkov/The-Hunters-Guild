@@ -8,9 +8,12 @@ import createPageMediator from 'js/common/mediator';
 import 'css/components/hunter-slot.css';
 import 'css/components/player-comp.css';
 
-import Slot from 'entities/Slot.js';
+import Slot, { SlotConfigType } from 'entities/Slot.js';
 import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events.js';
-import { Loadout } from 'entities/Loadout.js';
+import { Loadout, LoadoutRole, LoadoutSkill } from 'entities/Loadout.js';
+import { findClassEnumStaticPropInstance } from 'js/common/util.js';
+import WeaponType from 'entities/game-data/WeaponType.js';
+import WeaponAttribute from 'entities/game-data/WeaponAttribute.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -29,74 +32,49 @@ class PlayerComp {
             new Slot({
               displayName: 'Host',
               isOwner: true,
+              loadout: new Loadout(),
             }),
             // // Guest
             new Slot({
               displayName: 'Custom Slot #' + this.nextSlotIndex++,
               isOwner: false,
+              loadout: new Loadout(),
             }),
           ];
     this.setSelectedSlot(this.playerSlots[0]);
-    this.render();
   }
 
   cacheDOM() {
-    this.playerSlotsList = $('.player-slots-list')
-      .attr('aria-label', 'player slot list')
-      .accordion({
-        animate: false,
-        header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
-      });
-    this.configureSlotSection = $('#configure-slot');
+    $('.player-slots-list').attr('aria-label', 'player slot list').accordion({
+      animate: false,
+      header: '> h3:not(.ignore)', // stick accordion items to direct h3 children with no .ignore class
+    });
 
     this.addPlayerSlotTemplate = $(
       document
         .getElementById('add-player-slot-template')
         .content.cloneNode(true)
     ).find('.player-slot.open-slot');
-
-    this.slotConfigTabsTemplate = $(
-      document
-        .getElementById('player-configure-form-template')
-        .content.cloneNode(true)
-    ).find('.config-tabs');
-
-    this.skillElementTemplate = $(
-      document.getElementById('skill-template').content
-    )
-      .clone(true)
-      .find('.skill');
-
-    this.playerSlotTemplate = $(
-      document.getElementById('hunter-slot-template').content
-    )
-      .clone(true)
-      .find('.hunter-slot');
-
-    this.loadoutElementTemplate = $(
-      document.getElementById('loadout-template').content
-    )
-      .clone(true)
-      .find('.loadout-item');
   }
 
   bindEvents() {
-    this.addPlayerSlotTemplate.on('click', () => {
+    $('.player-slots-list').on('click', 'button#add-player', () => {
       this.addSlot(
         new Slot({
           displayName: 'Custom Slot #' + this.nextSlotIndex++,
           isOwner: false,
+          loadout: new Loadout(),
         })
       );
     });
 
-    this.playerSlotsList.on('click', '.remove-button', (event) => {
+    $('.player-slots-list').on('click', '.remove-button', (event) => {
       event.stopPropagation();
       const slotIndex = $(event.target).closest('h3').index() / 2;
       this.removeSlot(this.playerSlots[slotIndex]);
     });
 
-    this.playerSlotsList.on('click', 'h3.accordion-title', (event) => {
+    $('.player-slots-list').on('click', 'h3.accordion-title', (event) => {
       const slotIndex = $(event.target).index() / 2;
       this.setSelectedSlot(this.playerSlots[slotIndex]);
     });
@@ -122,12 +100,12 @@ class PlayerComp {
       console.warn('Some invalid slots filtered out.');
     }
     this._playerSlots = values;
+    this.render();
     createPageMediator.trigger(QUEST_PLAYER_SLOTS_CHANGE, this.playerSlots);
   }
 
   addSlot(slot) {
     this.playerSlots = [...this.playerSlots, slot];
-    this.render();
   }
 
   removeSlot(slot) {
@@ -137,52 +115,59 @@ class PlayerComp {
     // Select prev slot if the removed one was selected
     if (this.selectedSlot.id === slot.id) {
       const newSelectedIndex = Math.max(0, index - 1);
-      this.setSelectedSlot(this.playerSlots[newSelectedIndex]);
+      this.selectedSlot = this.playerSlots[newSelectedIndex];
     }
 
     this.playerSlots = this.playerSlots.filter((_, i) => i !== index);
-    this.render();
+  }
+
+  updateSlot(newSlot, index) {
+    this.playerSlots = this.playerSlots.map((slot, i) =>
+      i === index ? Object.assign(slot, newSlot) : slot
+    );
   }
 
   setSelectedSlot(slot) {
     this.selectedSlot = slot;
-    this.createSlotConfigTabs(slot);
     this.render();
   }
 
+  getIndexOfSelectedSlot() {
+    return Math.max(0, this.playerSlots.indexOf(this.selectedSlot));
+  }
+
   getHunterSlotContainer(index) {
-    return this.playerSlotsList.find(
+    return $('.player-slots-list').find(
       `> h3:eq(${index}) + .player-slot > .hunter-slot`
     );
   }
 
   // Complete rendering of all slots
   render() {
-    this.playerSlotsList.empty();
+    const playerSlotList = $('.player-slots-list');
+
+    playerSlotList.empty();
 
     this.playerSlots.forEach((slot) => {
       const [slotAccordionHeader, slotAccordionContent] =
         this.createSlotElementAccordion(slot);
-      this.playerSlotsList.append(slotAccordionHeader, slotAccordionContent);
+      playerSlotList.append(slotAccordionHeader, slotAccordionContent);
     });
 
     // Add "add slot" button if slots are available
     if (this.isSlotAvailable) {
-      this.playerSlotsList.append(this.addPlayerSlotTemplate.clone(true));
+      playerSlotList.append(this.addPlayerSlotTemplate.clone(true));
     }
 
-    this.playerSlotsList.accordion('refresh');
+    playerSlotList.accordion('refresh');
 
     // If no slot is selected, select the first one
     if (this.playerSlots.length > 0 && !this.selectedSlot) {
       this.setSelectedSlot(this.playerSlots[0]);
     }
 
-    this.playerSlotsList.accordion(
-      'option',
-      'active',
-      this.playerSlots.indexOf(this.selectedSlot)
-    );
+    playerSlotList.accordion('option', 'active', this.getIndexOfSelectedSlot());
+    this.updateSlotConfigTabs(this.selectedSlot);
   }
 
   createSlotElementAccordion(slot) {
@@ -203,7 +188,9 @@ class PlayerComp {
 
     // Create slot content
     let slotElement = $('<div>').addClass('player-slot').attr('role', 'tab');
-    let slotContainer = this.playerSlotTemplate.clone(true);
+    let slotContainer = $(
+      document.getElementById('hunter-slot-template').content.cloneNode(true)
+    ).find('.hunter-slot');
     slotElement.append(slotContainer);
 
     // Update slot display with current data
@@ -212,17 +199,28 @@ class PlayerComp {
     return [title, slotElement];
   }
 
+  updateSlotConfigTabs(slot) {
+    const tabs = $('#configure-slot').find('.config-tabs');
+    if (tabs.length === 0) this.createSlotConfigTabs(slot);
+    else {
+      const customTabForm = tabs.find('.custom-tab-form');
+      customTabForm.off('change');
+      this.initializeCustomTabFormControls(customTabForm, slot);
+      this.bindCustomTabFormEvents(customTabForm);
+    }
+  }
+
   createSlotConfigTabs(slot) {
     if (!slot) return;
 
-    let configTabs = this.configureSlotSection.find('.config-tabs').detach();
-    configTabs = null;
+    const tabs = $(
+      document
+        .getElementById('player-configure-form-template')
+        .content.cloneNode(true)
+    ).find('.config-tabs');
 
-    const tabs = this.slotConfigTabsTemplate.clone(true);
+    $('#configure-slot').append(tabs);
 
-    this.configureSlotSection.append(tabs);
-
-    // Initialize jQuery UI tabs
     tabs
       .tabs({
         active: +this.activeConfigTabIndex,
@@ -233,15 +231,12 @@ class PlayerComp {
       .attr('role', 'tablist')
       .attr('aria-label', 'slot config tabs');
 
+    // Get tab references
     const loadoutsTab = tabs.find('#tabs-loadouts');
     const customTabForm = tabs.find('.custom-tab-form');
 
     this.initializeLoadoutsTab(loadoutsTab);
-
-    // Initialize selects with current slot values
     this.initializeCustomTabFormControls(customTabForm, slot);
-
-    // Add event listeners for form changes
     this.bindCustomTabFormEvents(customTabForm, slot);
   }
 
@@ -266,10 +261,18 @@ class PlayerComp {
       }, 500);
     });
 
-    this.updateLoadoutsDisplay(loadoutsList, {});
+    this.updateLoadoutsDisplay(loadoutsList);
   }
 
   initializeCustomTabFormControls(form, slot) {
+    // Set name
+    form.find('input[name="name"]').val(slot.loadout.name || '');
+
+    // Set description
+    form
+      .find('textarea[name="description"]')
+      .val(slot.loadout.description || '');
+
     // Initialize weapon types select
     const weaponTypesSelect = form.find('select[name="weapon-types[]"]');
     initializeSelect(weaponTypesSelect, '-- Choose a weapon --', (item) =>
@@ -277,9 +280,11 @@ class PlayerComp {
     );
 
     // Select current weapon types
-    if (slot.weaponTypes && slot.weaponTypes[0] !== 'ANY') {
-      weaponTypesSelect.val(slot.weaponTypes).trigger('change');
-    }
+    if (slot.loadout.weapon_types.length) {
+      weaponTypesSelect
+        .val(slot.loadout.weapon_types.map((wp) => wp.id))
+        .trigger('change');
+    } else weaponTypesSelect.val(null).trigger('change');
 
     // Initialize weapon attributes select
     const weaponAttributesSelect = form.find(
@@ -292,168 +297,170 @@ class PlayerComp {
     );
 
     // Select current weapon attributes
-    if (slot.weaponAttributes && slot.weaponAttributes[0] !== 'ANY') {
-      weaponAttributesSelect.val(slot.weaponAttributes).trigger('change');
-    }
+    if (slot.loadout.weapon_attr.length) {
+      weaponAttributesSelect
+        .val(slot.loadout.weapon_attr.map((wa) => wa.id))
+        .trigger('change');
+    } else weaponAttributesSelect.val(null).trigger('change');
 
     // Initialize roles select
     const rolesSelect = form.find('select[name="roles[]"]');
     initializeSelect(rolesSelect, '-- Choose a role --', (item) => item.text);
 
     // Select current roles
-    if (slot.roles && slot.roles[0] !== 'ANY') {
-      rolesSelect.val(slot.roles).trigger('change');
-    }
+    if (slot.loadout.roles.length) {
+      rolesSelect.val(slot.loadout.roles.map((r) => r.name)).trigger('change');
+    } else rolesSelect.val(null).trigger('change');
 
     // Set notes
-    form.find('textarea[name="notes"]').val(slot.roleNotes || '');
+    form.find('textarea[name="notes"]').val(slot.notes || '');
 
-    // Initialize skills
-    if (slot.skills && slot.skills.length && slot.skills[0] !== 'ANY') {
-      slot.skills.forEach((skill) => {
-        this.addSkillSelectElement(form, skill);
+    // Add or update skill elements
+    const $formSkillsList = form.find('.form-skills-list');
+    $formSkillsList
+      .off('click')
+      .on('click', '.remove-skill-button', function (e) {
+        const removeButton = $(this);
+        let skillFormGroup = removeButton.closest('.skill-form-group');
+        let skillSelect = skillFormGroup.find('select.skill-dropdown');
+        skillSelect.select2('destroy'); // Destroy the Select2 instance
+        skillSelect.html('');
+        skillFormGroup.remove();
+        form.trigger('change');
+      });
+
+    const skillFormGroupElements = $formSkillsList.find('.skill-form-group');
+
+    skillFormGroupElements.each(function () {
+      $(this).find('button.remove-skill-button').trigger('click');
+    });
+
+    if (slot.loadout.skills && slot.loadout.skills.length) {
+      slot.loadout.skills.forEach((skill) => {
+        this.addSkillFormGroup($formSkillsList, skill);
       });
     }
 
     // Add skill button
-    form.find('.add-skill-button').on('click', () => {
-      this.addSkillSelectElement(form);
-    });
+    form
+      .find('.add-skill-button')
+      .off('click')
+      .on('click', () => {
+        this.addSkillFormGroup($formSkillsList);
+      });
   }
 
-  bindCustomTabFormEvents(form, slot) {
-    // Store slot's initial index for later reference
-    const initialIndex = this.playerSlots.indexOf(slot);
-    if (initialIndex === -1) {
-      console.error('Slot not found.');
-      return; // Slot not found in array
-    }
-
+  bindCustomTabFormEvents(form) {
     let updateClearTimer;
 
     // Handle form changes
-    form.off('change').on('change', () => {
-      const formData = new FormData(form[0]);
-
-      // Always use the current slot from the array instead of the closure reference
-      const currentSlot = this.playerSlots[initialIndex];
-      const updatedSlot = processFormData(formData, currentSlot);
-
-      // Update the slot in the array
-      this.playerSlots = this.playerSlots.map((slot, index) =>
-        index === initialIndex ? Object.assign(slot, updatedSlot) : slot
-      );
-
-      // Update the slot display
-      const slotContainer = this.playerSlotsList
-        .find(`.player-slot:eq(${initialIndex})`)
-        .find('.hunter-slot');
-
+    form.off('change').on('change', (e) => {
       if (updateClearTimer) {
         clearTimeout(updateClearTimer);
       }
-      updateClearTimer = setTimeout(
-        () => this.updateSlotDisplay(slotContainer, updatedSlot),
-        10
-      );
+      updateClearTimer = setTimeout(() => {
+        const formData = new FormData(form[0]);
 
-      // Update the header text
-      this.playerSlotsList
-        .find(`h3:eq(${initialIndex})`)
-        .contents()
-        .last()
-        .replaceWith(document.createTextNode(updatedSlot.displayName));
+        if (!this.selectedSlot) return;
+        const updatedSlot = processFormData(formData, this.selectedSlot);
+
+        // Update the slot in the array
+        this.updateSlot(updatedSlot, this.getIndexOfSelectedSlot());
+      }, 10);
     });
   }
 
-  addSkillSelectElement(container, existingSkill = null) {
-    const skillElement = this.skillElementTemplate.clone(true);
-    const skillFormGroup = $('<div>').addClass('skill-form-group');
+  updateSkillFormGroup(skillFormGroup, skill) {
+    const skillSelect = skillFormGroup.find('.skill-dropdown');
+    const levelSelect = skillFormGroup.find('.skill-level');
 
-    const skillSelect = skillElement.find('select[class="skill-dropdown"]');
-    const levelSelect = skillElement.find('select[class="skill-level"]');
-    const removeButton = skillElement.find('.remove-skill-button');
+    skillSelect
+      .val(skill.id)
+      .trigger('change') // Trigger change to update Select2's display
+      .trigger({
+        // Manually trigger select2:select to populate the level dropdown based on the pre-selected skill
+        type: 'select2:select',
+        params: {
+          data: {
+            id: skill.id,
+            element: {
+              dataset: {
+                skillMaxLevel: skill.max_level,
+              },
+            },
+          },
+        },
+      });
+    levelSelect.val(+skill.min_level).trigger('change'); // Set the specific level for the existing skill
+  }
 
-    skillElement.appendTo(skillFormGroup);
-    container.append(skillFormGroup);
+  addSkillFormGroup(container, existingSkill = null) {
+    const nextId = container.find('.skill-form-group').length + 1;
+    const template = document.getElementById('skill-template');
+    const templateContent = document.importNode(template.content, true);
+    const skillFormGroup = $('<div>')
+      .addClass('skill-form-group')
+      .append(templateContent);
+
+    const skillSelect = skillFormGroup.find('select[class="skill-dropdown"]');
+    const levelSelect = skillFormGroup.find('select[class="skill-level"]');
 
     // Set name attributes for form submission
-    skillFormGroup.attr('data-skill-index', this.nextSkillIndex);
-    skillSelect.attr('name', 'skill-select-' + this.nextSkillIndex);
-    levelSelect.attr('name', 'skill-level-' + this.nextSkillIndex);
+    skillFormGroup.attr('data-skill-index', nextId);
+    // skillFormGroup.data('skill-index', nextId);
+    skillSelect.attr('name', 'skill-select-' + nextId);
+    levelSelect.attr('name', 'skill-level-' + nextId);
 
-    this.nextSkillIndex++;
-
+    container.append(skillFormGroup);
+    // Initialize the skill select dropdown with Select2. This creates a new Select2 instance for each skill row.
     initializeSelect(skillSelect, '-- Choose a skill --', (item) =>
       formatOption(item, 'skillIcon', 'Skill Icons')
     );
 
-    // When skill is selected, populate level options
-    skillSelect.on('select2:select', function (e) {
+    // Event listener for when a skill is selected in the dropdown
+    skillSelect.on('select2:select', (e) => {
       const data = e.params.data;
-      if (!data.id) return;
+      if (!data.id) return; // Ignore if no actual skill selected
 
       const skillMaxLevel = data.element.dataset.skillMaxLevel;
       levelSelect.empty();
 
       if (skillMaxLevel) {
         levelSelect.prop('disabled', false);
+        // Populate level options from 1 to maxLevel
         [...new Array(+skillMaxLevel)].forEach((_, i) => {
           levelSelect.append(`<option value="${i + 1}">${i + 1}</option>`);
         });
-
-        // Default to level 1
         levelSelect.val(1).trigger('change');
       }
     });
 
-    // When skill is cleared
-    skillSelect.on('select2:clear', function () {
+    // // Event listener for when a skill is cleared (deselected)
+    skillSelect.on('select2:clear', () => {
       levelSelect.empty();
       levelSelect.prop('disabled', true);
+      container.closest('form').trigger('change'); // Trigger change on the main form to update loadout
     });
 
-    // Set existing skill if provided
+    // If an existing skill object is provided, pre-populate the dropdowns
     if (existingSkill) {
-      setTimeout(() => {
-        skillSelect
-          .val(existingSkill.id)
-          .trigger('change')
-          .trigger({
-            type: 'select2:select',
-            params: {
-              data: {
-                id: existingSkill.id,
-                element: {
-                  dataset: {
-                    skillMaxLevel: existingSkill.max_level,
-                  },
-                },
-              },
-            },
-          });
-      }, 100);
-
-      setTimeout(() => {
-        levelSelect.val(+existingSkill.min_level).trigger('change');
-      }, 200);
+      this.updateSkillFormGroup(skillFormGroup, existingSkill);
     }
-
-    // Remove button handler
-    removeButton.on('click', () => {
-      skillFormGroup.remove();
-      container.trigger('change');
-    });
   }
-
+  /**
+   * @param {JQuery} slotContainer Element slot container.
+   * @param {Slot} slotData
+   */
   updateSlotDisplay(slotContainer, slotData) {
     // Basic slot info
     slotContainer
       .find('.slot-display-name')
       .text(slotData.displayName || 'Hunter Slot');
+    console.log(slotData.configurationType);
     slotContainer
-      .find('.slot-config-type')
-      .text(slotData.configurationType + ' Configuration');
+      .find('.slot-type')
+      .text(slotData.configurationType.name + ' Configuration')
+      .attr('title', slotData.configurationType.description);
 
     // Show/hide owner badge
     const ownerBadge = slotContainer.find('.slot-owner');
@@ -462,19 +469,19 @@ class PlayerComp {
     // Loadout info
     slotContainer
       .find('.loadout-name')
-      .text(slotData.loadoutName || 'Custom Loadout');
+      .text(slotData.loadout.name || 'Custom Loadout');
     slotContainer
       .find('.loadout-description')
-      .text(slotData.loadoutDescription || 'Custom hunter configuration.');
+      .text(slotData.loadout.description || 'Custom hunter configuration.');
 
     // Roles
     const rolesList = slotContainer.find('.roles-list');
     rolesList.empty();
-    if (slotData.roles?.length && slotData.roles[0] !== 'ANY') {
-      slotData.roles.forEach((role) => {
+    if (slotData.loadout.roles?.length) {
+      slotData.loadout.roles.forEach((role) => {
         $('<li>')
-          .addClass(`role-tag role-${role}`)
-          .text(role)
+          .addClass(`role-tag role-${role.name}`)
+          .text(role.name)
           .appendTo(rolesList);
       });
     } else {
@@ -484,9 +491,9 @@ class PlayerComp {
     // Weapons
     const weaponList = slotContainer.find('.weapon-list');
     weaponList.empty();
-    if (slotData.weaponTypes?.length && slotData.weaponTypes[0] !== 'ANY') {
-      slotData.weaponTypes.forEach((weapon) => {
-        const weaponType = getWeaponType(weapon);
+    if (slotData.loadout.weapon_types?.length) {
+      slotData.loadout.weapon_types.forEach((weapon) => {
+        const weaponType = getWeaponType(weapon.id);
         if (weaponType) {
           $('<li>')
             .addClass('weapon-tag')
@@ -512,12 +519,9 @@ class PlayerComp {
     // Attributes
     const attributeList = slotContainer.find('.attribute-list');
     attributeList.empty();
-    if (
-      slotData.weaponAttributes?.length &&
-      slotData.weaponAttributes[0] !== 'ANY'
-    ) {
-      slotData.weaponAttributes.forEach((attr) => {
-        const weaponAttr = getWeaponAttribute(attr);
+    if (slotData.loadout.weapon_attr?.length) {
+      slotData.loadout.weapon_attr.forEach((attr) => {
+        const weaponAttr = getWeaponAttribute(attr.id);
         $('<li>')
           .addClass('attribute-tag')
           .html(
@@ -531,10 +535,11 @@ class PlayerComp {
     }
 
     // Skills
-    const skillsList = slotContainer.find('.skills-list');
-    skillsList.empty();
-    if (slotData.skills?.length && slotData.skills[0] !== 'ANY') {
-      slotData.skills.forEach((skill) => {
+    const $skillsList = slotContainer.find('.skills-list');
+
+    $skillsList.empty();
+    if (slotData.loadout.skills?.length) {
+      slotData.loadout.skills.forEach((skillInfo) => {
         const skillItem = $('<li>')
           .addClass('skill-item')
           .tooltip({
@@ -542,32 +547,29 @@ class PlayerComp {
               return $(this).prop('title');
             },
           });
-        const skillInfo = getSkillInfo(skill.id);
         skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
-        if (skillInfo) {
-          const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
-          const maxLevel = skillInfo?.max_level || 7;
+        const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
+        const maxLevel = skillInfo?.max_level || 7;
 
-          const skillNameEl = $('<div>').addClass('skill-name')
-            .html(`<img src="icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
+        const skillNameEl = $('<div>').addClass('skill-name')
+          .html(`<img src="icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
                   <span>${skillInfo.name}</span>`);
 
-          const skillLevelEl = $('<div>').addClass('skill-level');
-          for (let i = 0; i < maxLevel; i++) {
-            $('<div>')
-              .addClass(
-                i < skill.min_level
-                  ? 'level-circle'
-                  : 'level-circle level-empty'
-              )
-              .appendTo(skillLevelEl);
-          }
+        const skillLevelEl = $('<div>').addClass('skill-level');
+        for (let i = 0; i < maxLevel; i++) {
+          $('<div>')
+            .addClass(
+              i < skillInfo.min_level
+                ? 'level-circle'
+                : 'level-circle level-empty'
+            )
+            .appendTo(skillLevelEl);
+        }
 
-          skillItem.append(skillNameEl, skillLevelEl).appendTo(skillsList);
-        } else skillItem.append('Any Skill').appendTo(skillsList);
+        skillItem.append(skillNameEl, skillLevelEl).appendTo($skillsList);
       });
     } else {
-      skillsList.html(
+      $skillsList.html(
         '<li class="empty-message">No specific skills required</li>'
       );
     }
@@ -575,11 +577,8 @@ class PlayerComp {
     // Monster part focus
     const partFocusList = slotContainer.find('.part-focus-list');
     partFocusList.empty();
-    if (
-      slotData.monsterPartFocus?.length &&
-      slotData.monsterPartFocus[0] !== 'ANY'
-    ) {
-      slotData.monsterPartFocus.forEach((part) => {
+    if (slotData.loadout.monsterPartFocus?.length) {
+      slotData.loadout.monsterPartFocus.forEach((part) => {
         $('<li>').addClass('part-focus-tag').text(part).appendTo(partFocusList);
       });
     } else {
@@ -591,10 +590,10 @@ class PlayerComp {
     // Notes
     slotContainer
       .find('.notes-content')
-      .text(slotData.roleNotes || 'No additional notes for this slot.');
+      .text(slotData.notes || 'No additional notes for this slot.');
   }
 
-  updateLoadoutsDisplay(loadoutsContainer, filter) {
+  updateLoadoutsDisplay(loadoutsContainer, filter = {}) {
     let loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
       index: i,
       ...obj,
@@ -626,8 +625,11 @@ class PlayerComp {
    * @returns JQuery element
    */
   createLoadoutElement(loadout) {
-    const loadoutElement = this.loadoutElementTemplate
-      .clone(true)
+    const loadoutElement = $(
+      document.getElementById('loadout-template').content
+    )
+      .clone()
+      .find('.loadout-item')
       .attr('aria-label', 'Loadout: ' + loadout.name || 'Custom Loadout');
 
     const loadoutRolesItems = loadout.roles.map((r) =>
@@ -692,10 +694,10 @@ class PlayerComp {
     }
 
     // Skills
-    const skillsList = loadoutElement.find('.skills-icons');
-    skillsList.empty();
+    const $skillsList = loadoutElement.find('.skills-icons');
+    $skillsList.empty();
 
-    if (loadout.skills?.length && loadout.skills[0] !== 'ANY') {
+    if (loadout.skills?.length) {
       loadout.skills.forEach((skillInfo) => {
         const skillItem = $('<li>')
           .addClass('skill-item')
@@ -723,23 +725,34 @@ class PlayerComp {
             .text(skillInfo.min_level)
             .appendTo(skillItem);
 
-          skillItem.appendTo(skillsList);
+          skillItem.appendTo($skillsList);
         }
       });
     } else {
-      skillsList.html('<li class="empty-message">No specific skills</li>');
+      $skillsList.html('<li class="empty-message">No specific skills</li>');
     }
 
     loadoutElement.on('click', () => {
-      this.selectedSlot.initFromLoadout(loadout);
-      this.createSlotConfigTabs(this.selectedSlot);
-      createPageMediator.trigger(QUEST_PLAYER_SLOTS_CHANGE, this.playerSlots);
+      if (
+        JSON.stringify(this.selectedSlot.loadout) ===
+        JSON.stringify(Loadout.fromDatabaseObject(loadout))
+      )
+        return;
+
+      const clonedSlot = structuredClone(this.selectedSlot);
+      clonedSlot.loadout = Loadout.fromDatabaseObject(loadout);
+      clonedSlot.configurationType = SlotConfigType.PRESET;
+      this.updateSlot(clonedSlot, this.getIndexOfSelectedSlot());
     });
     return loadoutElement;
   }
 }
 
 function initializeSelect(selectElement, placeholder, formatFunction) {
+  // if already initialized skip to prevent memory leak
+  if (selectElement.data('select2')) {
+    return;
+  }
   selectElement.select2({
     placeholder: placeholder,
     allowClear: true,
@@ -789,45 +802,58 @@ function formatSkillInfoTooltip(skill) {
   </div>`;
 }
 
+/**
+ * Creates a new Slot by combining previous Slot and FormData for loadout.
+ * @param {FormData} formData Custom Loadout config FormData.
+ * @param {Slot} originalSlot Slot that will be updated from form data.
+ * @returns {Slot}
+ */
 function processFormData(formData, originalSlot) {
-  // Create a new slot object based on the original // this makes every field other than skills work
-  const slotData = new Slot({
+  // Create a new slot object based on the original
+  const newSlot = new Slot({
     id: originalSlot.id,
     displayName: originalSlot.displayName,
     isOwner: originalSlot.isOwner,
-    configurationType: 'Advanced',
-    loadoutName: originalSlot.loadoutName,
-    loadoutDescription: 'This loadout has specific requirements for joining.',
-    roles: [],
-    weaponTypes: [],
-    weaponAttributes: [],
-    skills: [],
-    monsterPartFocus: originalSlot.monsterPartFocus || ['ANY'],
-    roleNotes: '',
+    configurationType: originalSlot.configurationType,
+    monsterPartFocus: originalSlot.monsterPartFocus || [],
   });
 
   // Process form data entries
   for (const [key, value] of formData.entries()) {
     // Skip empty values
     if (!value) continue;
+    // Process name and description
+    if (key === 'name' && value) {
+      newSlot.loadout.name = value;
+    }
+    if (key === 'description' && value) {
+      newSlot.loadout.description = value;
+    }
 
     // Process roles
     if (key === 'roles[]') {
-      if (!slotData.roles.includes(value)) slotData.roles.push(value);
+      if (!newSlot.loadout.roles.map((r) => r.name).includes(value))
+        newSlot.loadout.roles.push(
+          findClassEnumStaticPropInstance(LoadoutRole, value)
+        );
     }
     // Process weapon types
     else if (key === 'weapon-types[]') {
-      if (!slotData.weaponTypes.includes(value))
-        slotData.weaponTypes.push(value);
+      if (!newSlot.loadout.weapon_types.map((wp) => wp.id).includes(value))
+        newSlot.loadout.weapon_types.push(
+          findClassEnumStaticPropInstance(WeaponType, value)
+        );
     }
     // Process weapon attributes
     else if (key === 'weapon-attributes[]') {
-      if (!slotData.weaponAttributes.includes(value))
-        slotData.weaponAttributes.push(value);
+      if (!newSlot.loadout.weapon_attr.map((wa) => wa.id).includes(value))
+        newSlot.loadout.weapon_attr.push(
+          findClassEnumStaticPropInstance(WeaponAttribute, value)
+        );
     }
     // Process notes
     else if (key === 'notes') {
-      slotData.roleNotes = value;
+      newSlot.notes = value;
     }
     // Process skills
     else if (key.startsWith('skill-select-')) {
@@ -837,49 +863,60 @@ function processFormData(formData, originalSlot) {
 
       if (value && levelValue) {
         // skill doesn't exist -> add it
-        if (!slotData.skills.find((s) => s.id === value) && getSkillInfo(value))
-          slotData.skills.push({
-            id: value,
-            min_level: parseInt(levelValue, 10),
-            max_level: parseInt(getSkillInfo(value).max_level),
-          });
+        if (
+          !newSlot.loadout.skills.find((s) => s.id === value) &&
+          getSkillInfo(value)
+        ) {
+          const skill = getSkillInfo(value);
+          newSlot.loadout.skills.push(
+            new LoadoutSkill(
+              skill.id,
+              skill.name,
+              skill.icon,
+              skill.description,
+              skill.category,
+              parseInt(levelValue, 10),
+              parseInt(getSkillInfo(value).max_level),
+              skill.set_count,
+              skill.level_descriptions
+            )
+          );
+        }
         // update min level
         else if (getSkillInfo(value))
-          slotData.skills[
-            slotData.skills.indexOf(slotData.skills.find((s) => s.id === value))
+          newSlot.loadout.skills[
+            newSlot.loadout.skills.indexOf(
+              newSlot.loadout.skills.find((s) => s.id === value)
+            )
           ].min_level = parseInt(levelValue, 10);
       }
     }
   }
 
-  // // If no specific selections were made, set to ANY
-  if (slotData.roles.length === 0) slotData.roles = ['ANY'];
-  if (slotData.weaponTypes.length === 0) slotData.weaponTypes = ['ANY'];
-  if (slotData.weaponAttributes.length === 0)
-    slotData.weaponAttributes = ['ANY'];
-  if (slotData.skills.length === 0) slotData.skills = ['ANY'];
-
   // Set configuration type based on selections
   if (
-    (slotData.weaponTypes.length > 0 && slotData.weaponTypes[0] !== 'ANY') ||
-    (slotData.weaponAttributes.length > 0 &&
-      slotData.weaponAttributes[0] !== 'ANY') ||
-    (slotData.skills.length > 0 && slotData.skills[0] !== 'ANY') ||
-    (slotData.roles.length > 0 && slotData.roles[0] !== 'ANY')
+    originalSlot.configurationType.name !== SlotConfigType.CUSTOM.name &&
+    (newSlot.loadout.roles.length > 0 ||
+      newSlot.loadout.weapon_types.length > 0 ||
+      newSlot.loadout.weapon_attr.length > 0 ||
+      newSlot.loadout.skills.length > 0)
   ) {
-    slotData.configurationType = 'Advanced';
-    slotData.loadoutName = originalSlot.loadoutName || 'Custom Loadout';
-    slotData.loadoutDescription =
-      originalSlot.loadoutDescription ||
-      'This loadout has specific requirements for joining.';
+    newSlot.configurationType = SlotConfigType.CUSTOM;
+    if (!newSlot.loadout.name)
+      newSlot.loadout.name = originalSlot.loadout.name || 'Custom Loadout';
+    if (!newSlot.loadout.description)
+      newSlot.loadout.description =
+        originalSlot.loadout.description ||
+        'This loadout has specific requirements for joining.';
   } else {
-    slotData.configurationType = 'Flexible';
-    slotData.loadoutName = 'Flexible Loadout';
-    slotData.loadoutDescription =
-      'Any skills and equipment are permitted for this slot.';
+    newSlot.configurationType = SlotConfigType.FLEXIBLE;
+    if (!newSlot.loadout.name) newSlot.loadout.name = 'Flexible Loadout';
+    if (!newSlot.loadout.description)
+      newSlot.loadout.description =
+        'Any skills and equipment are permitted for this slot.';
   }
 
-  return slotData;
+  return newSlot;
 }
 
 const getSkillInfo = (id) => skillsList.find((s) => s.id === id);
