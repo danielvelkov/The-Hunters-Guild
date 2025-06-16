@@ -169,6 +169,7 @@ function extractBonusRewardsFromForm(formData) {
  * @param {HuntingQuestFormModel} huntingQuest
  */
 function updateQuestPreview(huntingQuest) {
+  // Have to detach for tests to work
   $('#quest-preview').find('.tabs')?.detach();
   $('#quest-preview').empty();
 
