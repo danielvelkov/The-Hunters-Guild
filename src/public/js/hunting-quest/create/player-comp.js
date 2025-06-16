@@ -175,8 +175,47 @@ class PlayerComp {
       .addClass('accordion-title')
       .addClass(slot === this.selectedSlot ? 'selected-slot' : '')
       .css('position', 'relative')
-      .text(slot.displayName)
+      .css('display', 'flex')
+      .css('align-items', 'center')
+      .css('justify-content', 'space-between')
+      .css('flex-wrap', 'wrap')
       .attr('aria-label', 'accordion tab heading');
+
+    title.append(
+      $('<span>').text(slot.displayName).css('margin-right', 'auto')
+    );
+    const headerSlotDetailsSummary = $('<div>')
+      .css('position', 'relative')
+      .css('display', 'flex')
+      .css('align-items', 'center')
+      .css('gap', '1px')
+      .css('color', 'white')
+      .css('margin-right', '30px');
+
+    headerSlotDetailsSummary.append(
+      slot.loadout.weapon_types.map(
+        (weaponType) =>
+          `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+            ' ',
+            '_'
+          )}.png" alt="${weaponType.name}" class="weapon-icon">`
+      )
+    );
+
+    headerSlotDetailsSummary.append(
+      slot.loadout.weapon_attr.map(
+        (weaponAttr) =>
+          `<img src="icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">`
+      )
+    );
+
+    headerSlotDetailsSummary.append(
+      slot.loadout.roles.map((r) =>
+        $('<span>').addClass('role-tag').addClass(`role-${r.name}`).text(r.name)
+      )
+    );
+
+    title.append(headerSlotDetailsSummary);
 
     // Add remove button if not the owner slot
     if (!slot.isOwner) {
