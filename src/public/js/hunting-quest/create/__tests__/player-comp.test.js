@@ -302,6 +302,32 @@ describe('player composition section', () => {
     });
   });
 
+  test('should update the custom tab form to match on custom loadout selected', async () => {
+    const tabConfigList = screen.getByRole('tablist', {
+      name: /slot config tabs/i,
+    });
+    const loadoutList = within(tabConfigList).getByLabelText(/loadouts list/i);
+    const loadoutItems = within(loadoutList).getAllByLabelText(/Loadout:/);
+    const loadout = loadoutItems[0];
+
+    const loadoutTitle = within(loadout).getByRole('heading').innerHTML;
+
+    await user.click(loadout);
+
+    const tablist = screen.getByRole('tablist', { name: /player slot list/i });
+    const tabs = within(tablist).getAllByRole('tab');
+
+    await waitFor(() => {
+      expect(within(tabs[0]).getByText(loadoutTitle)).toBeInTheDocument();
+    });
+
+    const customTab = document.querySelector('#tabs-custom');
+
+    const loadoutNameInput = within(customTab).getByLabelText(/name/i);
+
+    expect(loadoutNameInput.value).toBe(loadoutTitle);
+  });
+
   test('should update the player slot info on custom tab form change', async () => {
     const tabConfigList = screen.getByRole('tablist', {
       name: /slot config tabs/i,
@@ -312,9 +338,9 @@ describe('player composition section', () => {
 
     await user.click(customTabLink);
 
-    const loadoutForm = document.querySelector('#tabs-custom');
+    const customTab = document.querySelector('#tabs-custom');
 
-    const loadoutNameInput = within(loadoutForm).getByLabelText(/name/i);
+    const loadoutNameInput = within(customTab).getByLabelText(/name/i);
 
     const expectedName = 'Mock Loadout';
     await user.clear(loadoutNameInput);
