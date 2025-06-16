@@ -19,6 +19,11 @@ module.exports = {
   optimization: {
     usedExports: true, // ensures unused code is removed
   },
+  performance: {
+    assetFilter: function (assetFileName) {
+      return !assetFileName.endsWith('.png');
+    },
+  },
   plugins: [
     // Automatically load jQuery as a global variable when $ or jQuery is encountered
     // This avoids needing to import jQuery in every file that uses it
