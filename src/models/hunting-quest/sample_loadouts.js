@@ -685,13 +685,11 @@ module.exports = [
     [WeaponType.CHARGE_BLADE],
     [WeaponAttribute.DRAGON],
     [
-      skillsMap.Artillery,
-      skillsMap.Focus,
       skillsMap.RapidMorph,
+      skillsMap.PowerProlonger,
       skillsMap.AttackBoost,
       skillsMap.WeaknessExploit,
       skillsMap.CriticalEye,
-      skillsMap.GuardSkill,
     ]
   ),
 
