@@ -787,7 +787,12 @@ class PlayerComp {
   }
 }
 
-function initializeSelect(selectElement, placeholder, formatFunction) {
+function initializeSelect(
+  selectElement,
+  placeholder,
+  formatFunction,
+  isMultipleSelect
+) {
   // if already initialized skip to prevent memory leak
   if (selectElement.data('select2')) {
     return;
@@ -796,6 +801,7 @@ function initializeSelect(selectElement, placeholder, formatFunction) {
     placeholder: placeholder,
     allowClear: true,
     templateResult: formatFunction,
+    multiple: isMultipleSelect,
   });
 }
 
