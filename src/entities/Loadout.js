@@ -1,3 +1,4 @@
+const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
 const Skill = require('./game-data/Skill');
 const WeaponAttribute = require('./game-data/WeaponAttribute');
 const WeaponType = require('./game-data/WeaponType');
@@ -26,6 +27,133 @@ class Loadout {
     this.weapon_types = weapon_types;
     this.weapon_attr = weapon_attr;
     this.skills = skills;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(value) {
+    if (typeof value !== 'string' || value.trim() === '') {
+      console.warn('Invalid name. Must be a non-empty string.');
+      return;
+    }
+    this._name = value;
+  }
+
+  get description() {
+    return this._description;
+  }
+
+  set description(value) {
+    if (typeof value !== 'string' || value.trim() === '') {
+      console.warn('Invalid description. Must be a non-empty string.');
+      return;
+    }
+    this._description = value;
+  }
+
+  get roles() {
+    return this._roles;
+  }
+
+  set roles(value) {
+    if (
+      !Array.isArray(value) ||
+      value.some((role) => !(role instanceof LoadoutRole))
+    ) {
+      console.warn('Invalid roles. Must be an array of LoadoutRole.');
+      return;
+    }
+    this._roles = value;
+  }
+
+  get weapon_types() {
+    return this._weapon_types;
+  }
+
+  set weapon_types(value) {
+    if (
+      !Array.isArray(value) ||
+      value.some((type) => !(type instanceof WeaponType))
+    ) {
+      console.warn('Invalid weapon_types. Must be an array of WeaponType.');
+      return;
+    }
+    this._weapon_types = value;
+  }
+
+  get weapon_attr() {
+    return this._weapon_attr;
+  }
+
+  set weapon_attr(value) {
+    if (
+      !Array.isArray(value) ||
+      (Array.isArray(value) &&
+        value.length &&
+        value.some((attr) => !(attr instanceof WeaponAttribute)))
+    ) {
+      console.log(value);
+      console.warn('Invalid weapon_attr. Must be an array of WeaponAttribute.');
+      return;
+    }
+    this._weapon_attr = value;
+  }
+
+  get skills() {
+    return this._skills;
+  }
+
+  set skills(value) {
+    if (
+      !Array.isArray(value) ||
+      (value.length && value.some((skill) => !(skill instanceof Skill)))
+    ) {
+      throw new Error('Invalid skills. Must be an array of Skill.');
+      return;
+    }
+    this._skills = value;
+  }
+
+  static fromDatabaseObject(dbObject) {
+    return new Loadout(
+      dbObject.name,
+      dbObject.description,
+      dbObject.roles.map((role) =>
+        findClassEnumStaticPropInstance(LoadoutRole, role.name)
+      ),
+      dbObject.weapon_types.map((wt) =>
+        findClassEnumStaticPropInstance(WeaponType, wt.name)
+      ),
+      dbObject.weapon_attr.map((wa) =>
+        findClassEnumStaticPropInstance(WeaponAttribute, wa.name)
+      ),
+      dbObject.skills.map(
+        (skill) =>
+          new LoadoutSkill(
+            skill.id,
+            skill.name,
+            skill.icon,
+            skill.description,
+            skill.category,
+            skill.min_level,
+            skill.max_level,
+            skill.set_count,
+            skill.level_descriptions
+          )
+      )
+    );
+  }
+  toJSON() {
+    return {
+      name: this.name,
+      description: this.description,
+      roles: this.roles,
+      weapon_types: this.weapon_types,
+      weapon_attr: this.weapon_attr,
+      skills: this.skills,
+    };
   }
 }
 
