@@ -31,15 +31,18 @@ class Loadout {
 
 /** Enum about loadout roles. */
 class LoadoutRole {
-  static Any = new LoadoutRole('Flexible', 'Can be any role.');
-  static DPS = new LoadoutRole('DPS', 'Tons of damage.');
-  static STATUS = new LoadoutRole('Status', 'Applies status.');
-  static TANK = new LoadoutRole('Tank', 'Can take a hit.');
-  static SUPPORT = new LoadoutRole('Support', 'Heals/buffs teammates.');
+  static DPS = new LoadoutRole(1, 'DPS', 'Tons of damage.');
+  static STATUS = new LoadoutRole(2, 'Status', 'Applies status.');
+  static TANK = new LoadoutRole(3, 'Tank', 'Can take a hit.');
+  static SUPPORT = new LoadoutRole(4, 'Support', 'Heals/buffs teammates.');
 
-  constructor(name, summary) {
+  constructor(id, name, summary) {
+    this.id = id;
     this.name = name;
     this.summary = summary;
+  }
+  static values() {
+    return Object.values(LoadoutRole).filter((v) => v instanceof LoadoutRole);
   }
   toString() {
     return `${this.name} ${this.summary}`;
