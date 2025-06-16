@@ -9,7 +9,10 @@ import 'css/components/hunter-slot.css';
 import 'css/components/player-comp.css';
 
 import Slot, { SlotConfigType } from 'entities/Slot.js';
-import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events.js';
+import {
+  QUEST_PLAYER_SLOTS_CHANGE,
+  SELECTED_MONSTERS_CHANGE,
+} from 'js/common/events.js';
 import { Loadout, LoadoutRole, LoadoutSkill } from 'entities/Loadout.js';
 import { findClassEnumStaticPropInstance } from 'js/common/util.js';
 import WeaponType from 'entities/game-data/WeaponType.js';
@@ -20,6 +23,7 @@ class PlayerComp {
   nextSlotIndex = 1;
   activeConfigTabIndex = 0;
   _playerSlots = [];
+  _selectedMonsters = [];
 
   constructor(playerSlots = []) {
     this.cacheDOM();
@@ -42,6 +46,10 @@ class PlayerComp {
             }),
           ];
     this.setSelectedSlot(this.playerSlots[0]);
+
+    createPageMediator.on(SELECTED_MONSTERS_CHANGE, (monsters) => {
+      this.selectedMonsters = monsters;
+    });
   }
 
   cacheDOM() {
@@ -78,6 +86,15 @@ class PlayerComp {
       const slotIndex = $(event.target).index() / 2;
       this.setSelectedSlot(this.playerSlots[slotIndex]);
     });
+  }
+
+  get selectedMonsters() {
+    return [...this._selectedMonsters];
+  }
+
+  set selectedMonsters(values) {
+    this._selectedMonsters = values;
+    this.updateSlotConfigTabs(this.selectedSlot);
   }
 
   get isSlotAvailable() {
