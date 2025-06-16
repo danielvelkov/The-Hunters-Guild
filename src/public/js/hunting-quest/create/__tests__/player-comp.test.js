@@ -3,10 +3,14 @@ import ejs from 'ejs';
 import { fireEvent, screen, waitFor, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
+import mediator from 'js/common/mediator';
 
 import GameData from '@models/GameData';
 import { selectSelect2Option } from '@tests/helper';
-import { QUEST_PLAYER_SLOTS_CHANGE } from 'js/common/events';
+import {
+  QUEST_PLAYER_SLOTS_CHANGE,
+  SELECTED_MONSTERS_CHANGE,
+} from 'js/common/events';
 
 import createSelect2Mock from '@tests/__mocks__/select2mock';
 
@@ -28,11 +32,6 @@ describe('player composition section', () => {
   let PlayerComp;
   let select2Mock;
   let user = userEvent.setup();
-  const mockMediator = {
-    trigger: jest.fn(),
-    on: jest.fn(),
-  };
-
   beforeEach(async () => {
     jest.resetModules();
 
@@ -51,7 +50,7 @@ describe('player composition section', () => {
       skillsList: mockSkills,
       systemLoadoutsList: mockLoadouts,
     }));
-    jest.doMock('js/common/mediator', () => mockMediator);
+    jest.doMock('js/common/mediator', () => mediator);
 
     jest.isolateModules(() => {
       ({
@@ -326,6 +325,36 @@ describe('player composition section', () => {
     const loadoutNameInput = within(customTab).getByLabelText(/name/i);
 
     expect(loadoutNameInput.value).toBe(loadoutTitle);
+  });
+  test('should enable monster parts dropdown on selected monster', async () => {
+    const customTab = document.querySelector('#tabs-custom');
+
+    const monsterPartDropdown =
+      within(customTab).getByLabelText(/monster part focus/i);
+    expect(monsterPartDropdown).toHaveAttribute('disabled');
+    mediator.trigger(SELECTED_MONSTERS_CHANGE, [mockMonsters[0]]);
+    expect(monsterPartDropdown).not.toHaveAttribute('disabled');
+    mediator.trigger(SELECTED_MONSTERS_CHANGE, []);
+    expect(monsterPartDropdown).toHaveAttribute('disabled');
+  });
+
+  test('should display monster parts for each selected monster in part selection dropdown ', async () => {
+    mediator.trigger(SELECTED_MONSTERS_CHANGE, [
+      mockMonsters[0],
+      mockMonsters[1],
+    ]);
+    const customTab = document.querySelector('#tabs-custom');
+
+    const monsterPartDropdown = within(customTab).getByRole('listbox', {
+      name: /monster part focus/i,
+    });
+
+    expect(within(monsterPartDropdown).getAllByRole('option')).toHaveLength(
+      mockMonsters[0].part_dmg_effectiveness.length +
+        mockMonsters[1].part_dmg_effectiveness.length
+    );
+    mediator.trigger(SELECTED_MONSTERS_CHANGE, []);
+    expect(within(monsterPartDropdown).getAllByRole('option')).toHaveLength(0);
   });
 
   test('should update the player slot info on custom tab form change', async () => {
