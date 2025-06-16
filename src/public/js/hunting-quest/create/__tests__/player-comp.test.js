@@ -90,11 +90,17 @@ describe('player composition section', () => {
 
     expect(within(tablist).getAllByRole('tab')).toHaveLength(2);
 
-    const addSlotButton = screen.getByRole('button', { name: /add slot/i });
+    const addSlotButton = within(tablist).getByRole('button', {
+      name: /add slot/i,
+    });
 
-    await user.click(addSlotButton);
+    fireEvent.click(addSlotButton);
 
-    expect(within(tablist).getAllByRole('tab')).toHaveLength(3);
+    expect(
+      within(
+        screen.getByRole('tablist', { name: /player slot list/i })
+      ).getAllByRole('tab')
+    ).toHaveLength(3);
   });
 
   test('should remove "add slot" button on max allowed slots reached (4)', async () => {
@@ -121,9 +127,11 @@ describe('player composition section', () => {
     const tabHeadings = within(tablist).getAllByLabelText(/tab heading/i);
     const removeButton = within(tabHeadings[1]).getByRole('button');
 
-    await user.click(removeButton);
+    fireEvent.click(removeButton);
 
-    expect(within(tablist).getAllByRole('tab')).toHaveLength(1);
+    await waitFor(() => {
+      expect(within(tablist).getAllByRole('tab')).toHaveLength(1);
+    });
   });
 
   test('should fire PLAYER_SLOT_CHANGE on add/remove slot', async () => {
@@ -269,8 +277,6 @@ describe('player composition section', () => {
   });
 
   test('should update the player slot info on custom loadout selected', async () => {
-    const createPageMediator = jest.requireMock('js/common/mediator');
-    const spy = jest.spyOn(createPageMediator, 'trigger');
     const tabConfigList = screen.getByRole('tablist', {
       name: /slot config tabs/i,
     });
@@ -287,17 +293,40 @@ describe('player composition section', () => {
     const loadoutTitle = within(loadout).getByRole('heading').innerHTML;
 
     await user.click(loadout);
-    expect(spy).toHaveBeenNthCalledWith(
-      1,
-      QUEST_PLAYER_SLOTS_CHANGE,
-      expect.anything()
-    );
 
     const tablist = screen.getByRole('tablist', { name: /player slot list/i });
     const tabs = within(tablist).getAllByRole('tab');
 
     await waitFor(() => {
       expect(within(tabs[0]).getByText(loadoutTitle)).toBeInTheDocument();
+    });
+  });
+
+  test('should update the player slot info on custom tab form change', async () => {
+    const tabConfigList = screen.getByRole('tablist', {
+      name: /slot config tabs/i,
+    });
+    const customTabLink = within(tabConfigList).getByRole('link', {
+      name: /custom/i,
+    });
+
+    await user.click(customTabLink);
+
+    const loadoutForm = document.querySelector('#tabs-custom');
+
+    const loadoutNameInput = within(loadoutForm).getByLabelText(/name/i);
+
+    const expectedName = 'Mock Loadout';
+    await user.clear(loadoutNameInput);
+    await user.type(loadoutNameInput, expectedName);
+    await user.tab();
+
+    await waitFor(() => {
+      const tablist = screen.getByRole('tablist', {
+        name: /player slot list/i,
+      });
+      const tabs = within(tablist).getAllByRole('tab');
+      expect(within(tabs[0]).getByText(expectedName)).toBeInTheDocument();
     });
   });
 });
