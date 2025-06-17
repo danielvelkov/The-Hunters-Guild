@@ -186,7 +186,9 @@ export default class HuntingQuestComponent {
         </tr>
         <tr>
           <th>Description:</th>
-          <td colspan="3"></td>
+          <td colspan="3" style="max-width:30ch; inline-size:30ch;overflow-wrap: break-word;" >${
+            this.quest.description
+          }</td>
         </tr>
         <tr>
           <th>Notes:</th>
