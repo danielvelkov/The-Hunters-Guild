@@ -43,8 +43,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  /* padding-left: 20vmax;
-  padding-right: 20vmax; */
+  padding-left: 20vmax;
+  padding-right: 20vmax;
 }
 
 @media screen and (max-width: 1000px) {

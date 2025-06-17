@@ -119,8 +119,8 @@ export default class HuntingQuestComponent {
                 drop-shadow(-1px -1px 1px #222) drop-shadow(-1px 1px 0px #222) drop-shadow(1px -1px 0px #222);">`
                     : ''
                 }
-
-                <img height='75' title="${
+                <div class="monster-image-container">
+                <img height='100' title="${
                   qm.variant.name !== MonsterVariant.BASE.name
                     ? qm.variant.name + ' ' + qm.monster.name
                     : qm.monster.name
@@ -144,6 +144,7 @@ export default class HuntingQuestComponent {
                   <span style="margin-top:-1em; font-size:0.65em;">${'✨'.repeat(
                     +qm.strength
                   )}</span>
+                  </div>
                 </div>`
               )
               .join('')}
