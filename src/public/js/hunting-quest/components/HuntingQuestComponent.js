@@ -56,7 +56,7 @@ export default class HuntingQuestComponent {
           )
           .join('')}
       </ul>
-      <div role="tabpanel" aria-label="quest details tab" id="tabs-quest-details-${questDetailsTabId}">
+      <div role="tabpanel" aria-label="quest details tab" id="tabs-quest-details-${questDetailsTabId}" class="freedom-unite-quest">
         ${this.generateQuestDetailsTab()}
       </div>
       ${this.quest.quest_monsters
@@ -92,7 +92,7 @@ export default class HuntingQuestComponent {
     <table class="themetable" width="100%" align="center">
       <tbody>
         <tr>
-          <th colspan="2" style="${getQuestCategoryStyle(
+          <th colspan="2" style="text-shadow:none;${getQuestCategoryStyle(
             this.quest.category.name
           )}">${this.quest.category.name}</th>
           <th colspan="3" align="right">${this.quest.star_rank}${

@@ -188,7 +188,7 @@ input[type='range'] {
 /* Jquery UI tabs styling */
 
 .ui-tabs {
-  padding: none !important;
+  padding: 0px !important;
 }
 
 .ui-tabs .ui-tabs-nav {
