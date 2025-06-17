@@ -88,3 +88,25 @@ export function findClassEnumStaticPropInstance(Class, value) {
   );
   return staticPropInstance || null;
 }
+
+export function chooseEmoteBasedOnPart(partFocus) {
+  if (partFocus.match(/Head/)) {
+    return '🤕';
+  } else if (partFocus.match(/Tail/)) {
+    return '✂️';
+  } else if (partFocus.match(/Wing/)) {
+    return '✈';
+  } else if (partFocus.match(/Claw/)) {
+    return '🐾';
+  } else if (partFocus.match(/Body/)) {
+    return '⚡';
+  } else if (partFocus.match(/Leg/)) {
+    return '🦵';
+  } else if (partFocus.match(/Horn/)) {
+    return '🦌';
+  } else if (partFocus.match(/Back/)) {
+    return '🔙';
+  } else {
+    return '🎯';
+  }
+}

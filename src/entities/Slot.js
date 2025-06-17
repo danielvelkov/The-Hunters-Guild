@@ -14,7 +14,8 @@ export default class Slot {
    * @param {Loadout} loadout - Contains loadout details like role, used weapons/weapon attributes
    * @param {Object[]} monsterPartFocus - which monster parts will be focused
    * @param {string} monsterPartFocus[].id - part id
-   * @param {string} monsterPartFocus[].name- part name
+   * @param {string} monsterPartFocus[].name - part name
+   * @param {string} monsterPartFocus[].monster - monster name
    * @param {string} notes - Specific notes for this slot.
    */
   constructor({

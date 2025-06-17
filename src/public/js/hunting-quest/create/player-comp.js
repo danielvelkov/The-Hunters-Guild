@@ -14,7 +14,10 @@ import {
   SELECTED_MONSTERS_CHANGE,
 } from 'js/common/events.js';
 import { Loadout, LoadoutRole, LoadoutSkill } from 'entities/Loadout.js';
-import { findClassEnumStaticPropInstance } from 'js/common/util.js';
+import {
+  chooseEmoteBasedOnPart,
+  findClassEnumStaticPropInstance,
+} from 'js/common/util.js';
 import WeaponType from 'entities/game-data/WeaponType.js';
 import WeaponAttribute from 'entities/game-data/WeaponAttribute.js';
 
@@ -95,6 +98,12 @@ class PlayerComp {
   set selectedMonsters(values) {
     this._selectedMonsters = values;
     this.updateSlotConfigTabs(this.selectedSlot);
+    this.playerSlots.forEach((s, i) => {
+      s.monsterPartFocus = s.monsterPartFocus.filter(({ monster }) =>
+        values.map((m) => m.name).includes(monster)
+      );
+      this.updateSlot(s, i);
+    });
   }
 
   get isSlotAvailable() {
@@ -372,7 +381,6 @@ class PlayerComp {
     const monsterPartSelect = form.find('select[name="monster-part-focus[]"]');
     if (this.selectedMonsters.length) {
       monsterPartSelect.prop('disabled', false);
-      console.log('setting optinos');
       monsterPartSelect.html(
         this.selectedMonsters
           .map((m) => ({
@@ -394,7 +402,7 @@ class PlayerComp {
                 (p) =>
                   `<option data-icon="${
                     p.icon === 'INVALID' ? 'ITEM_0001' : p.icon
-                  }" value="${p.name}">
+                  }" value="${monster}-${p.name}">
           ${p.name}
         </option>`
               )
@@ -414,11 +422,13 @@ class PlayerComp {
       // Select monster parts
       if (slot.monsterPartFocus.length) {
         monsterPartSelect
-          .val(slot.monsterPartFocus.map((r) => r.name))
+          .val(slot.monsterPartFocus.map((r) => r.monster + '-' + r.name))
           .trigger('change');
       } else monsterPartSelect.val(null).trigger('change');
     } else {
-      console.log('DISABLING');
+      if (monsterPartSelect.data('select2'))
+        monsterPartSelect.select2('destroy');
+      monsterPartSelect.html('');
       monsterPartSelect.prop('disabled', true);
       monsterPartSelect.val(null).trigger('change');
     }
@@ -687,9 +697,19 @@ class PlayerComp {
     // Monster part focus
     const partFocusList = slotContainer.find('.part-focus-list');
     partFocusList.empty();
-    if (slotData.loadout.monsterPartFocus?.length) {
-      slotData.loadout.monsterPartFocus.forEach((part) => {
-        $('<li>').addClass('part-focus-tag').text(part).appendTo(partFocusList);
+    if (slotData.monsterPartFocus?.length) {
+      slotData.monsterPartFocus.forEach((part) => {
+        $('<li>')
+          .addClass('part-focus-tag')
+          .append(
+            `<img height="30" title="${part.monster}" alt="${
+              part.monster
+            }" src="icons/Large Monster Icons/${
+              this.selectedMonsters.find((m) => m.name === part.monster).icon
+            }.png"/>`,
+            `[${part.name} ${chooseEmoteBasedOnPart(part.name)}]`
+          )
+          .appendTo(partFocusList);
       });
     } else {
       partFocusList.html(
@@ -931,7 +951,6 @@ function processFormData(formData, originalSlot) {
     displayName: originalSlot.displayName,
     isOwner: originalSlot.isOwner,
     configurationType: originalSlot.configurationType,
-    monsterPartFocus: originalSlot.monsterPartFocus || [],
   });
 
   // Process form data entries
@@ -966,6 +985,18 @@ function processFormData(formData, originalSlot) {
         newSlot.loadout.weapon_attr.push(
           findClassEnumStaticPropInstance(WeaponAttribute, value)
         );
+    }
+    // Process monster part focus
+    else if (key === 'monster-part-focus[]') {
+      if (
+        !newSlot.monsterPartFocus
+          .map((pf) => pf.name)
+          .includes(value.split('-')[1])
+      )
+        newSlot.monsterPartFocus.push({
+          name: value.split('-')[1],
+          monster: value.split('-')[0],
+        });
     }
     // Process notes
     else if (key === 'notes') {
