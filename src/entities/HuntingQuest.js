@@ -260,7 +260,7 @@ export default class HuntingQuest {
         questTitle =
           questTitle + ' ' + monsterNames.length + ' ' + monsterNames[0];
       } else {
-        questTitle = questTitle + monsterNames.join(' & ');
+        questTitle = questTitle + ' ' + monsterNames.join(' & ');
       }
     }
 
