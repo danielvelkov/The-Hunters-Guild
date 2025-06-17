@@ -1,4 +1,7 @@
-const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
+const {
+  findClassEnumStaticPropInstance,
+  filterOutMaliciousSymbols,
+} = require('../public/js/common/util');
 const Skill = require('./game-data/Skill');
 const WeaponAttribute = require('./game-data/WeaponAttribute');
 const WeaponType = require('./game-data/WeaponType');
@@ -38,7 +41,14 @@ class Loadout {
       console.warn('Invalid name. Must be a non-empty string.');
       return;
     }
-    this._name = value;
+
+    if (value.length > 50) {
+      throw new Error(
+        `Invalid loadout name: ${value}. Should be less than 50 characters.`
+      );
+    } else {
+      this._name = filterOutMaliciousSymbols(value);
+    }
   }
 
   get description() {
@@ -50,7 +60,13 @@ class Loadout {
       console.warn('Invalid description. Must be a non-empty string.');
       return;
     }
-    this._description = value;
+    if (value.length > 100) {
+      throw new Error(
+        `Invalid loadout description: ${value}. Should be less than 100 characters.`
+      );
+    } else {
+      this._description = filterOutMaliciousSymbols(value);
+    }
   }
 
   get roles() {
