@@ -64,6 +64,8 @@
   font-size: 0.9rem;
   opacity: 0.9;
   margin-bottom: 15px;
+  max-width: 50ch;
+  word-wrap: break-word;
 }
 
 .slot-details {

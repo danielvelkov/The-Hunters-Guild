@@ -16,7 +16,7 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 1em;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 
 button {

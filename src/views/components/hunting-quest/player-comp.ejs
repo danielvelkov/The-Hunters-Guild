@@ -93,10 +93,14 @@
       <form class="custom-tab-form">
         <!-- ... slot fields, loadout config. Auto updated on change -->
         <label for="name">Loadout name:</label>
-        <input id="name" name="name" />
+        <input id="name" name="name" maxlength="30" />
 
         <label for="description">Description:</label>
-        <textarea for="description" name="description"></textarea>
+        <textarea
+          for="description"
+          maxlength="100"
+          name="description"
+        ></textarea>
 
         <label for="roles">Role:</label>
         <select id="roles" name="roles[]" multiple="multiple">
@@ -147,6 +151,7 @@
           name="notes"
           id="notes"
           placeholder="Your insane strat here..."
+          maxlength="100"
         ></textarea>
 
         <label id="form-loadout-skills">Skills:</label>
