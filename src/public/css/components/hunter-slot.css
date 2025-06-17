@@ -255,6 +255,8 @@
 .notes-content {
   font-style: italic;
   white-space: pre-line;
+  max-width: 50ch;
+  word-wrap: break-word;
 }
 
 /* Part focus styling */

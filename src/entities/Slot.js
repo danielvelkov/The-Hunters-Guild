@@ -1,10 +1,11 @@
-import { guidGenerator } from 'js/common/util.js';
+import { filterOutMaliciousSymbols, guidGenerator } from 'js/common/util.js';
 import { Loadout } from './Loadout';
 
 /**
  * Slot details for Hunting Quest
  */
 export default class Slot {
+  _notes;
   _loadout;
   /**
    * @param {string} displayName - The display name for this slot (e.g., "Player 1", "Newbie Hunter").
@@ -59,6 +60,24 @@ export default class Slot {
       this._loadout = new Loadout();
     } else {
       this._loadout = value;
+    }
+  }
+
+  get notes() {
+    return this._notes;
+  }
+
+  set notes(value) {
+    if (typeof value !== 'string' || value.trim() === '') {
+      console.warn('Invalid notes. Must be a non-empty string.');
+      return;
+    }
+    if (value.length > 100) {
+      throw new Error(
+        `Invalid slot notes: ${value}. Should be less than 100 characters.`
+      );
+    } else {
+      this._notes = filterOutMaliciousSymbols(value);
     }
   }
 }

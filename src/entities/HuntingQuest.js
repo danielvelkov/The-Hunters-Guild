@@ -5,10 +5,12 @@ import QuestMonster from './QuestMonster';
 import Slot from './Slot';
 import MonsterVariant from './game-data/MonsterVariant';
 import QuestBonusReward from './QuestBonusRewards';
+import { filterOutMaliciousSymbols } from 'js/common/util';
 
 /** Class representing a Game Hunting Quest */
 export default class HuntingQuest {
   #title;
+  #description;
   // Protected:
   _category;
   _type;
@@ -95,8 +97,25 @@ export default class HuntingQuest {
       this.#auto_generated_title = true;
       this.#title = this.#generateQuestTitle(); // Set to default
     } else {
-      this.#title = value;
+      this.#title = filterOutMaliciousSymbols(value);
       this.#auto_generated_title = false;
+    }
+  }
+  get description() {
+    return this.#description;
+  }
+
+  set description(value) {
+    if (value === null || value === undefined) {
+      return;
+    }
+
+    if (value.length > 200) {
+      throw new Error(
+        `Invalid description: ${value}. Should be less than 200 characters.`
+      );
+    } else {
+      this.#description = filterOutMaliciousSymbols(value);
     }
   }
 
