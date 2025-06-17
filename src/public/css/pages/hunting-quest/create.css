@@ -110,6 +110,23 @@ main {
   padding: 0.5em;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+#quest-preview:has(.tabs)::before {
+  position: absolute;
+  top: 35px;
+  right: -5px;
+  background: red;
+  color: white;
+  padding: 5px 30px;
+  transform: rotate(45deg);
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  pointer-events: none;
+  content: 'PREVIEW';
 }
 
 .tabs {
