@@ -354,7 +354,9 @@ describe('player composition section', () => {
         mockMonsters[1].part_dmg_effectiveness.length
     );
     mediator.trigger(SELECTED_MONSTERS_CHANGE, []);
-    expect(within(monsterPartDropdown).getAllByRole('option')).toHaveLength(0);
+    expect(within(monsterPartDropdown).queryAllByRole('option')).toHaveLength(
+      0
+    );
   });
 
   test('should update the player slot info on custom tab form change', async () => {
@@ -382,6 +384,37 @@ describe('player composition section', () => {
       });
       const tabs = within(tablist).getAllByRole('tab');
       expect(within(tabs[0]).getByText(expectedName)).toBeInTheDocument();
+    });
+  });
+  test('should show which monster and which part to focus on custom tab form (monster part focus) change', async () => {
+    const tabConfigList = screen.getByRole('tablist', {
+      name: /slot config tabs/i,
+    });
+    const customTabLink = within(tabConfigList).getByRole('link', {
+      name: /custom/i,
+    });
+
+    await user.click(customTabLink);
+
+    const customTab = document.querySelector('#tabs-custom');
+    const monsterPartDropdown = within(customTab).getByRole('listbox', {
+      name: /monster part focus/i,
+    });
+
+    mediator.trigger(SELECTED_MONSTERS_CHANGE, [mockMonsters[0]]);
+    const options = within(monsterPartDropdown).getAllByRole('option');
+
+    const optionValue = options[0].textContent.trim();
+
+    await user.selectOptions(monsterPartDropdown, [options[0].value]);
+    const tablist = screen.getByRole('tablist', {
+      name: /player slot list/i,
+    });
+    await waitFor(() => {
+      const tabs = within(tablist).getAllByRole('tab');
+      expect(
+        within(tabs[0]).getByText(new RegExp(optionValue))
+      ).toBeInTheDocument();
     });
   });
 });
