@@ -1,5 +1,9 @@
 import { bonusQuestRewardsList, monstersDropsList } from '../create.js';
-import { getDmgColor, getQuestCategoryStyle } from '../../common/util.js';
+import {
+  getDmgColor,
+  getQuestCategoryStyle,
+  formatSkillInfoTooltip,
+} from '../../common/util.js';
 import { guidGenerator } from 'js/common/util.js';
 import HuntingQuest from 'entities/HuntingQuest';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
@@ -84,6 +88,16 @@ export default class HuntingQuestComponent {
     // Update preview and initialize tabs
     tabsComponent.html(HTMLstring);
     tabsComponent.tabs();
+
+    tabsComponent.tooltip({
+      content: function () {
+        return $(this).prop('title');
+      },
+      classes: {
+        'ui-tooltip': 'tooltip',
+      },
+    });
+
     return tabsComponent;
   }
 
@@ -102,7 +116,6 @@ export default class HuntingQuestComponent {
     }</th>
         </tr>
         <tr>
-          <th rowspan="2">Monsters:</th>
           <th colspan="3" >
             <div class="flex-row" style="justify-content:center;">
             ${this.quest.quest_monsters
@@ -152,7 +165,9 @@ export default class HuntingQuestComponent {
           </th>
         </tr>
         <tr>
-          <th colspan="3"><h3>${this.quest.title}</h3></th>
+          <th colspan="3" align="center"><h3 style="max-width:30ch; inline-size:30ch;overflow-wrap: break-word;">${
+            this.quest.title
+          }</h3></th>
         </tr>
         <tr>
           <th>Bonus Rewards:</th>
@@ -202,10 +217,19 @@ export default class HuntingQuestComponent {
             this.quest.description
           }</td>
         </tr>
+          <!-- NEW PLAYER SLOTS SECTION -->
         <tr>
-          <th>Notes:</th>
-          <td colspan="3"></td>
+            <th colspan="3" align="center">Player Slots:</th>
         </tr>
+          <tr>
+                <td colspan="3" class="player-slots-section">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 8px;">
+                    ${this.quest.player_slots
+                      .map((slot) => this.generateSlotSection(slot))
+                      .join('')}
+                    </div>
+                </td>
+          </tr>
       </tbody>
     </table>
   `;
@@ -261,7 +285,7 @@ export default class HuntingQuestComponent {
           (+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') ||
           (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5)
             ? `<div class="sparkles">${[...Array(6)]
-                .map((m) => `<div class="sparkle"></div>`)
+                .map((_) => `<div class="sparkle"></div>`)
                 .join('')}</div>`
             : ''
         }
@@ -482,7 +506,7 @@ export default class HuntingQuestComponent {
 
         const itemIconPath = `url('../icons/Item Icons/${p.icon}.png')`;
         dataRow.append(`
-        <td title="${'Rarity: ' + p.rarity + '\n' + p.description}">
+        <td title="${'Rarity: ' + p.rarity + '<br/>' + p.description}">
           <div style="display:flex; gap:0.5em; align-items:center;">
             <div class="item-img-container"
               data-icon-id="${p.icon}"
@@ -534,6 +558,74 @@ export default class HuntingQuestComponent {
     Object.values(similarSections).forEach((s) => dropsSection.append(s));
 
     return dropsSection[0].outerHTML;
+  }
+
+  generateSlotSection(slot) {
+    const playerSlot = $('<div>').addClass('player-slot');
+    playerSlot.append(
+      `
+        <div class="slot-header">
+            <span>${slot.displayName}</span>
+            <div>
+            ${slot.loadout.roles
+              .map(
+                (r) =>
+                  `<span class="role-badge role-${r.name}">${r.name}</span>`
+              )
+              .join('')}
+              </div>
+        </div>
+        <div class="slot-content">
+              <span style="word-wrap: break-word;">${slot.loadout.name}</span>
+            <div class="weapon-attr">
+                <div style="display: flex; align-items: center; gap: 2px;">
+                    ${
+                      slot.loadout.weapon_types
+                        .map(
+                          (weaponType) =>
+                            `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+                              ' ',
+                              '_'
+                            )}.png" alt="${weaponType.name}" title="${
+                              weaponType.name
+                            }" class="weapon-icon">`
+                        )
+                        .join('') || 'Any weapon'
+                    }
+                </div>
+                <span>|</span>
+                <div style="display: flex; align-items: center; gap: 2px;">
+                    ${
+                      slot.loadout.weapon_attr
+                        .map(
+                          (weaponAttr) =>
+                            `<img src="icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" title="${weaponAttr.name}" class="attr-icon">`
+                        )
+                        .join('') || 'Any Attribute'
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="skills-flex">
+        </div>
+        ${slot.notes ? `<p>${slot.notes}</p>` : ''}`
+    );
+
+    const skillsWithTooltips = slot.loadout.skills.map((s) => {
+      const skillSlot = $('<div>').addClass('skill-slot');
+      skillSlot.append(`
+                    <img src="icons/Skill Icons/${s.icon}.png" alt="${s.name}">
+              `);
+      skillSlot.prop('title', formatSkillInfoTooltip(s));
+      const skillLevel = $('<span>')
+        .addClass('skill-min-level')
+        .text(s.min_level)
+        .appendTo(skillSlot);
+      return skillSlot;
+    });
+    playerSlot.find('.skills-flex').append(...skillsWithTooltips);
+
+    return playerSlot[0].outerHTML;
   }
 
   groupMonsterDrops(monster) {
