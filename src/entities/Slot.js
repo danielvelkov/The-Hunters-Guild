@@ -68,7 +68,7 @@ export default class Slot {
   }
 
   set notes(value) {
-    if (typeof value !== 'string' || value.trim() === '') {
+    if (typeof value !== 'string' || (value && value.trim() === '')) {
       console.warn('Invalid notes. Must be a non-empty string.');
       return;
     }
