@@ -617,7 +617,7 @@ export default class HuntingQuestComponent {
                     <img src="icons/Skill Icons/${s.icon}.png" alt="${s.name}">
               `);
       skillSlot.prop('title', formatSkillInfoTooltip(s));
-       $('<span>')
+      $('<span>')
         .addClass('skill-min-level')
         .text(s.min_level)
         .appendTo(skillSlot);
