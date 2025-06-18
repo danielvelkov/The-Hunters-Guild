@@ -221,7 +221,6 @@ input[type='range'] {
 
 .tooltip {
   background-color: var(--bg-color);
-  border: 1px solid var(--border-color);
   padding: 1em;
 }
 

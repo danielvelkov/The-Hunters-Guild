@@ -245,4 +245,5 @@ caption {
 
 .tooltip {
   padding: 0.5em !important;
+  background-color: var(--bg-color) !important;
 }
