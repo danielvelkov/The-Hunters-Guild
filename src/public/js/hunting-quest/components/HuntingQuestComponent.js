@@ -181,6 +181,18 @@ export default class HuntingQuestComponent {
           <td>${this.quest.area}</td>
         </tr>
         <tr>
+          <th>Crossplay:</th>
+          <td>${
+            this.quest.crossplay_enabled
+              ? 'YES'
+              : this.quest.gaming_platforms.length
+              ? this.quest.gaming_platforms
+                  .map((gp) => gp.name.toUpperCase())
+                  .join(' ')
+              : 'NO'
+          } </td>
+        </tr>
+        <tr>
           <th>Time Limit:</th>
           <td>${this.quest.time_limit} mins</td>
         </tr>
