@@ -208,7 +208,7 @@
   object-fit: contain;
 }
 
-.skill-level {
+.skill-level-list {
   display: flex;
   gap: 2px;
 }

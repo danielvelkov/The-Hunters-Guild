@@ -188,7 +188,7 @@
     justify-content: center;
   }
 
-  .skill-level {
+  .skill-min-level {
     position: absolute;
     bottom: -3px;
     right: -3px;
@@ -220,4 +220,8 @@
 
 .skill > .select2 {
   flex: 1;
+}
+
+.skill > .skill-level {
+  padding: 0.3em;
 }
