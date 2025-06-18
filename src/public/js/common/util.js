@@ -124,3 +124,29 @@ export function filterOutMaliciousSymbols(value) {
     .replace(ic, '&#34;');
   return value;
 }
+
+export function formatSkillInfoTooltip(skill) {
+  if (!skill) {
+    console.error('No skill provided');
+    return '';
+  }
+  return `<div class="tooltip skill-info-tooltip">
+     <img src="icons/Skill Icons/${skill.icon}.png" alt="${
+    skill.name
+  }" height="50">
+     <h3 style="margin:0;padding:0em;">${skill.name}</h3> 
+     <span style="opacity:0.9; font-size:0.9rem;">${skill.category}</span>
+     <ul style="padding-left:1em">
+      ${skill.level_descriptions
+        .map((d, i) =>
+          skill.min_level
+            ? i + 1 === skill?.min_level
+              ? `<li><b>${d}</b></li>`
+              : `<li style="opacity:0.5">${d}</li>`
+            : `<li>${d}</li>`
+        )
+        .join('')}
+     </ul>
+     <p style="font-size: 0.9rem;"><i>${skill.description}</i></p>
+  </div>`;
+}
