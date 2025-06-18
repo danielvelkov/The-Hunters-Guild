@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Hunting Quests</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="hunting-quest/index.css" />
-  </head>
+  <%- include('../../partials/header', { title }) %>
+  <link rel="stylesheet" href="hunting-quest/index.css" />
   <body>
     <h1><%= title %></h1>
     <a href="/create">
       <button>Create Hunting Quest...</button>
     </a>
+    <ul class="hunting-quests"></ul>
+    <%- include('../../partials/footer') %>
+    <script>
+        globalThis.serverData = {
+        huntingQuests: <%- JSON.stringify(huntingQuests) -%>,
+        monstersDropsList: <%- JSON.stringify(monstersDrops) -%>,
+        weaponTypesList: <%- JSON.stringify(weaponTypes) -%>,
+        weaponAttributesList: <%- JSON.stringify(weaponAttributes) -%>,
+      };
+      Object.freeze(globalThis.serverData);
+    </script>
     <script src="/hunting-quest/index.js"></script>
   </body>
 </html>
