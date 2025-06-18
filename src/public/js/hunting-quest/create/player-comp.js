@@ -980,7 +980,7 @@ function processFormData(formData, originalSlot) {
     // Process skills
     else if (key.startsWith('skill-select-')) {
       const skillIndex = key.split('-').pop();
-      const levelKey = `skill-min-level-${skillIndex}`;
+      const levelKey = `skill-level-${skillIndex}`;
       const levelValue = formData.get(levelKey);
 
       if (value && levelValue) {
