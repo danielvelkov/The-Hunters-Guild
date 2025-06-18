@@ -13,7 +13,23 @@ const huntingQuestComponents = huntingQuests.map(
 );
 
 $('ul.hunting-quests').append(
-  huntingQuestComponents.map((hqc) =>
-    $('<li>').addClass('hunting-quest-post').append(hqc.render())
-  )
+  huntingQuestComponents.map((hqc) => {
+    const item = $('<li>')
+      .css('position', 'relative')
+      .addClass('hunting-quest-post')
+      .addClass('collapsed')
+      .append(hqc.render());
+    const expandButton = $('<button>')
+      .html('&#8690;')
+      .prop('title', 'expand')
+      .css('position', 'absolute')
+      .css('font-size', '1.2em')
+      .css('right', 0)
+      .css('top', 0)
+      .on('click', () => item.toggleClass('collapsed'));
+
+    item.append(expandButton);
+
+    return item;
+  })
 );

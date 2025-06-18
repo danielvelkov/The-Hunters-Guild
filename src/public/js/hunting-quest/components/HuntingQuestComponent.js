@@ -9,6 +9,7 @@ import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 
 import 'css/components/hunting-quest-component.css';
+import 'css/components/hunter-slot.css';
 
 export default class HuntingQuestComponent {
   /**

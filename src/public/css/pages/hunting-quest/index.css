@@ -7,3 +7,19 @@ body {
 .hunting-quests {
   list-style-type: none;
 }
+
+.hunting-quest-post.collapsed {
+  .themetable tr {
+    display: none;
+  }
+
+  .themetable tr:nth-child(3) {
+    display: table-row;
+  }
+  .themetable tr:nth-child(8) {
+    display: table-row;
+  }
+  .themetable tr:nth-last-child(1) {
+    display: table-row;
+  }
+}
