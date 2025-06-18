@@ -23,6 +23,26 @@ const index_GET = async (req, res) => {
   });
 };
 
+const show_GET = async (req, res, next) => {
+  const huntingQuest = HuntingQuest.findById(+req.params.id);
+  if (!huntingQuest) {
+    res.status(404).send('No hunting quest found with ID: ' + req.params.id);
+    next();
+  }
+  const monsters = await GameData.monsters__weakness_and_icons_ListGet();
+  const monstersDrops = await GameData.monsters_drops__ListGet();
+  huntingQuest.quest_monsters = huntingQuest.quest_monsters.map((qm) => ({
+    ...qm,
+    monster: monsters.find((m) => m.id === qm.monster.id),
+  }));
+  res.render('pages/hunting-quest/show', {
+    title: huntingQuest.title,
+    huntingQuest,
+    monstersDrops,
+    monsters,
+  });
+};
+
 const create_GET = async (req, res) => {
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
@@ -84,5 +104,6 @@ const create_GET = async (req, res) => {
 
 module.exports = {
   index_GET,
+  show_GET,
   create_GET,
 };
