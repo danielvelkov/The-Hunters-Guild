@@ -14,6 +14,7 @@ const huntingQuestComponents = huntingQuests.map(
 
 $('ul.hunting-quests').append(
   huntingQuestComponents.map((hqc) => {
+    const link = $('<a>').prop('href', `/${hqc.quest.id}`);
     const item = $('<li>')
       .css('position', 'relative')
       .addClass('hunting-quest-post')
@@ -26,10 +27,15 @@ $('ul.hunting-quests').append(
       .css('font-size', '1.2em')
       .css('right', 0)
       .css('top', 0)
-      .on('click', () => item.toggleClass('collapsed'));
+      .on('click', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        item.toggleClass('collapsed');
+      });
 
     item.append(expandButton);
+    link.append(item);
 
-    return item;
+    return link;
   })
 );

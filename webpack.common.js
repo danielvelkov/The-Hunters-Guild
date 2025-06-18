@@ -15,6 +15,10 @@ module.exports = {
       './src/public/js/common/common.js', // Common JS code shared across pages
       './src/public/js/hunting-quest/create.js', // Create page specific code
     ],
+    'hunting-quest/show': [
+      './src/public/js/common/common.js', // Common JS code shared across pages
+      './src/public/js/hunting-quest/show.js', // Show page specific code
+    ],
   },
   optimization: {
     usedExports: true, // ensures unused code is removed
