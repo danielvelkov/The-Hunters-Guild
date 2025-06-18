@@ -1,4 +1,3 @@
-import { bonusQuestRewardsList, monstersDropsList } from '../create.js';
 import {
   getDmgColor,
   getQuestCategoryStyle,
@@ -15,8 +14,9 @@ export default class HuntingQuestComponent {
   /**
    * @param {HuntingQuest} quest - the Hunting Quest instance
    */
-  constructor(quest) {
+  constructor(quest, monstersDropsList = []) {
     this.quest = quest;
+    this.monstersDropsList = monstersDropsList;
   }
 
   /**
@@ -214,7 +214,7 @@ export default class HuntingQuestComponent {
         <tr>
           <th>Description:</th>
           <td colspan="3" style="max-width:30ch; inline-size:30ch;overflow-wrap: break-word;" >${
-            this.quest.description
+            this.quest.description ?? ''
           }</td>
         </tr>
           <!-- NEW PLAYER SLOTS SECTION -->
@@ -629,7 +629,7 @@ export default class HuntingQuestComponent {
   }
 
   groupMonsterDrops(monster) {
-    const monsterDrops = monstersDropsList.filter(
+    const monsterDrops = this.monstersDropsList.filter(
       (md) => md.source === monster
     );
     const monsterDropsGroup = Object.groupBy(monsterDrops, ({ rank }) => rank);

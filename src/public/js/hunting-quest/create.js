@@ -174,7 +174,10 @@ function updateQuestPreview(huntingQuest) {
   $('#quest-preview').empty();
 
   if (huntingQuest && huntingQuest.isValidForPreview()) {
-    const component = new HuntingQuestComponent(huntingQuest);
+    const component = new HuntingQuestComponent(
+      huntingQuest,
+      monstersDropsList
+    );
     $('#quest-preview').append(component.render());
   }
 
