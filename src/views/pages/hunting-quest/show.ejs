@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../../partials/header', { title }) %>
+  <link rel="stylesheet" href="hunting-quest/show.css" />
+  <body>
+    <header>
+      <a href="/"><button>Back to hunting quests</button></a>
+    </header>
+    <main>
+      <article class="hunting-quest">
+        <h1><%= title %></h1>
+      </article>
+    </main>
+    <%- include('../../partials/footer') %>
+    <script>
+        globalThis.serverData = {
+        huntingQuest: <%- JSON.stringify(huntingQuest) -%>,
+        monstersDropsList: <%- JSON.stringify(monstersDrops) -%>,
+      };
+      Object.freeze(globalThis.serverData);
+    </script>
+    <script src="/hunting-quest/show.js"></script>
+  </body>
+</html>
