@@ -30,6 +30,11 @@ class HuntingQuestFormModel extends HuntingQuest {
     slots = [],
     bonusQuestRewards = []
   ) {
+    let gamingPlatforms = [];
+    if (formData.get('gaming-platform'))
+      gamingPlatforms.push(formData.get('gaming-platform'));
+    else if (formData.getAll('gaming-platform[]'))
+      gamingPlatforms.push(...formData.getAll('gaming-platform[]'));
     return new HuntingQuestFormModel({
       title: formData.get('quest-title') || '',
       description: formData.get('quest-description') || '',
@@ -40,7 +45,7 @@ class HuntingQuestFormModel extends HuntingQuest {
       hr_requirement: parseInt(formData.get('hunter-rank-requirement')) || 1,
       time_limit: parseInt(formData.get('time-limit')) || 50,
       crossplay_enabled: formData.get('cross-play-enabled') === 'on',
-      gaming_platforms: formData.getAll('gaming-platform') || [],
+      gaming_platforms: gamingPlatforms,
       quest_monsters: monsters,
       player_slots: slots,
       quest_bonus_rewards: bonusQuestRewards,
@@ -81,6 +86,9 @@ class HuntingQuestFormModel extends HuntingQuest {
     if (this.area === '-- No Common Locale --')
       errors.quest_monsters =
         'Selected monsters do not exist in a common locale.';
+    if (!this.crossplay_enabled && !this.gaming_platforms.length)
+      errors.crossplay =
+        'Select at least 1 gaming platform if crossplay is disabled.';
 
     return errors;
   }
