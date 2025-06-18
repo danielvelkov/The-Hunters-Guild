@@ -1,10 +1,6 @@
-const {
-  LoadoutRole,
-  LoadoutSkill,
-  Loadout,
-} = require('../../entities/Loadout');
-const WeaponType = require('../../entities/game-data/WeaponType');
-const WeaponAttribute = require('../../entities/game-data/WeaponAttribute');
+const { LoadoutRole, LoadoutSkill, Loadout } = require('../entities/Loadout');
+const WeaponType = require('../entities/game-data/WeaponType');
+const WeaponAttribute = require('../entities/game-data/WeaponAttribute');
 
 const skillsMap = {
   AttackBoost: new LoadoutSkill(
