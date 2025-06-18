@@ -1,7 +1,26 @@
 const GameData = require('../models/GameData');
+const HuntingQuest = require('../models/HuntingQuest');
 
-const index_GET = (req, res) => {
-  res.render('pages/hunting-quest/index', { title: 'Hunting Quests' });
+const index_GET = async (req, res) => {
+  const huntingQuests = HuntingQuest.getAll();
+  const weaponTypes = await GameData.weapon_types_ListGet();
+  const weaponAttributes = await GameData.weapon_attributes_ListGet();
+  const monsters = await GameData.monsters__weakness_and_icons_ListGet();
+  const monstersDrops = await GameData.monsters_drops__ListGet();
+  huntingQuests.forEach((hq) => {
+    hq.quest_monsters = hq.quest_monsters.map((qm) => ({
+      ...qm,
+      monster: monsters.find((m) => m.id === qm.monster.id),
+    }));
+  });
+  res.render('pages/hunting-quest/index', {
+    title: 'Hunting Quests',
+    huntingQuests,
+    monstersDrops,
+    monsters,
+    weaponAttributes,
+    weaponTypes,
+  });
 };
 
 const create_GET = async (req, res) => {
