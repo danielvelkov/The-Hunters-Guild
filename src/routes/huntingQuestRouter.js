@@ -9,4 +9,21 @@ huntingQuestsRouter.get('/create', huntingQuestController.create_GET);
 
 huntingQuestsRouter.get('/:questId', huntingQuestController.show_GET);
 
+// Every thrown error in the application or the previous middleware function calling `next` with an error as an argument will eventually go to this middleware function
+// the 4 parameters are required to handle errors
+huntingQuestsRouter.use((err, req, res, next) => {
+  console.error(err);
+  const { statusCode, message } = err;
+  if (statusCode === 404)
+    res.status(404).render('pages/errors/404', {
+      title: 'Error - Not Found',
+      error: message || 'Requested resource was not found',
+    });
+  else
+    res.status(500).render('pages/errors/500', {
+      title: 'Internal Server Error',
+      error: message || 'Oops! Something went wrong',
+    });
+});
+
 module.exports = huntingQuestsRouter;
