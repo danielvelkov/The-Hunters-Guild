@@ -16,6 +16,9 @@ body {
     display: none;
   }
 
+  .themetable tr:nth-child(2) {
+    display: table-row;
+  }
   .themetable tr:nth-child(3) {
     display: table-row;
   }
