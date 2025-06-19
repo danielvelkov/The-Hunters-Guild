@@ -42,8 +42,7 @@ export default class QuestMonster {
   set variant(value) {
     if (!value || value == '') {
       this.#variant = MonsterVariant.BASE;
-    }
-    else if (!Object.values(MonsterVariant).includes(value)) {
+    } else if (!Object.values(MonsterVariant).includes(value)) {
       console.warn(
         `Invalid variant: (${JSON.stringify(value)}) Using default.`
       );
@@ -77,5 +76,14 @@ export default class QuestMonster {
       );
     }
     this.#strength = value;
+  }
+
+  toJSON() {
+    return {
+      monster: { id: this.monster.id },
+      variant: this.variant,
+      crown: this.crown,
+      strength: this.strength,
+    };
   }
 }

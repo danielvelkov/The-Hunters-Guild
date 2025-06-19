@@ -80,6 +80,18 @@ export default class Slot {
       this._notes = filterOutMaliciousSymbols(value);
     }
   }
+  toJSON() {
+    return {
+      id: this.id,
+      displayName: this.displayName,
+      isOwner: this.isOwner,
+      canEdit: this.canEdit,
+      configurationType: this.configurationType,
+      loadout: this.loadout,
+      monsterPartFocus: this.monsterPartFocus,
+      notes: this.notes,
+    };
+  }
 }
 
 /** Enum about loadout roles. */

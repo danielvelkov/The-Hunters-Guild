@@ -56,7 +56,7 @@ export default class HuntingQuest {
       quest_monsters = [],
       player_slots = [],
       quest_bonus_rewards = [],
-      createdAt = new Date(),
+      createdAt,
     } = options;
 
     this.id = id;
@@ -405,26 +405,27 @@ export default class HuntingQuest {
   //  * Export quest data as plain object
   //  * @returns {Object}
   //  */
-  // toJSON() {
-  //   return {
-  //     id: this.id,
-  //     title: this.title,
-  //     description: this.description,
-  //     category: this.category,
-  //     star_rank: this.star_rank,
-  //     area: this.area,
-  //     type: this.type,
-  //     hr_requirement: this.hr_requirement,
-  //     time_limit: this.time_limit,
-  //     crossplay_enabled: this.crossplay_enabled,
-  //     gaming_platforms: this.gaming_platforms,
-  //     quest_monsters: this.quest_monsters.map((m) =>
-  //       m.toJSON ? m.toJSON() : m
-  //     ),
-  //     player_slots: this.player_slots.map((s) => (s.toJSON ? s.toJSON() : s)),
-  //     createdAt: this.createdAt,
-  //     isValid: this.isValidForPreview(),
-  //     validationErrors: this.getValidationErrors(),
-  //   };
-  // }
+  toJSON() {
+    return {
+      id: this.id,
+      title: this.title,
+      description: this.description,
+      category: this.category,
+      star_rank: this.star_rank,
+      area: this.area,
+      type: this.type,
+      hr_requirement: this.hr_requirement,
+      time_limit: this.time_limit,
+      crossplay_enabled: this.crossplay_enabled,
+      gaming_platforms: this.gaming_platforms,
+      quest_monsters: this.quest_monsters.map((m) =>
+        m.toJSON ? m.toJSON() : m
+      ),
+      quest_bonus_rewards: this.quest_bonus_rewards.map((s) =>
+        s.toJSON ? s.toJSON() : s
+      ),
+      player_slots: this.player_slots.map((s) => (s.toJSON ? s.toJSON() : s)),
+      createdAt: this.createdAt,
+    };
+  }
 }

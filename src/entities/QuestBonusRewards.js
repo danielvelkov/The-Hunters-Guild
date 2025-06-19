@@ -35,6 +35,12 @@ class QuestBonusReward {
     }
     this.#quantity = value;
   }
+  toJSON() {
+    return {
+      item: { id: this.item.id },
+      quantity: this.quantity,
+    };
+  }
 }
 
 module.exports = QuestBonusReward;
