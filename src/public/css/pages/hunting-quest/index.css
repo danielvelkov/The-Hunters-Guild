@@ -9,6 +9,9 @@ body {
 
 .hunting-quests {
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  gap: 10px;
 }
 
 .hunting-quest-post.collapsed {
@@ -36,6 +39,6 @@ li {
 }
 
 li:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 0 5px var(--primary-color);
+  transform: scale(1.01);
+  box-shadow: 0 0 0 3px var(--primary-color);
 }
