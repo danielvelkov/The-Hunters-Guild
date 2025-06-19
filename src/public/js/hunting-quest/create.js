@@ -95,8 +95,15 @@ createPageMediator.on(QUEST_PREVIEW_CHANGE, (quest) => {
 createPageMediator.on(QUEST_FORM_SUBMIT, () => {
   const huntingQuest = questBuilder.buildHuntingQuest();
   if (huntingQuest && huntingQuest.isValid()) {
-    // TODO - create hunting quest post in db
-    console.log('Submitting hunting quest:', huntingQuest);
+    fetch('/create', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(huntingQuest),
+    }).then((response) => {
+      if (response.redirected) {
+        window.location.href = response.url;
+      }
+    });
   }
 });
 
