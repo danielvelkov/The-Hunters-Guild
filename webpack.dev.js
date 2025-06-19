@@ -7,12 +7,12 @@ const { PORT } = process.env;
 /**
  * DEVELOPMENT WEBPACK CONFIG:
  * Configures webpack-dev-server to run on port 8080 and proxy all requests to your Express server running on port 3000
- * 
+ *
  * This means:
  *  - webpack-dev-server handles frontend assets (JS, CSS)
  *  - All other requests (routes, API calls) are forwarded to the Express server
  *  - Hot Module Replacement (HMR) will work properly for frontend change
- *  
+ *
  * Another added thing is a 'source map' tool so that any error messages reference files and
  * lines from our development code and not the jumbled mess inside our single bundled .js file
  */
@@ -21,7 +21,7 @@ module.exports = merge(common, {
   devtool: 'eval-source-map',
   devServer: {
     allowedHosts: 'all',
-    watchFiles: './src/**/*.ejs',
+    watchFiles: './src/**/*',
     static: {
       directory: path.join(__dirname, 'dist'),
     },
