@@ -8,6 +8,41 @@
   --error-bg: #8b2a2a; /* Deep red for background */
   --error-text: #ffd2d2; /* Light pink for text */
   --error-border: #c94242; /* Slightly brighter red for borders */
+
+  /* Game colors */
+  --I_WHITE: #e9eaeb;
+  --I_PINK: #e68a94;
+  --I_RED: #e15057;
+  --I_IVORY: #d9caad;
+  --I_LEMON: #e6e600;
+  --I_BPURPLE: #685ecd;
+  --I_VERMILION: #e16d44;
+  --I_SKY: #4ec3e5;
+  --I_YELLOW: #d9c357;
+  --I_ROSE: #bf3054;
+  --I_MOS: #3d7f3a;
+  --I_ORANGE: #df9c65;
+  --I_DPURPLE: #56379e;
+  --I_PURPLE: #9788d1;
+  --I_GREEN: #47b267;
+  --I_SGREEN: #83b239;
+  --I_GRAY: #818182;
+  --I_EMERALD: #98d9c9;
+  --I_BLUE: #6687ff;
+  --I_ULTRAMARINE: #4c4cd9;
+  --I_BROWN: #b38f48;
+  --RARE_01: #969696;
+  --RARE_02: #dedede;
+  --RARE_03: #a4c43b;
+  --RARE_04: #47a33f;
+  --RARE_05: #5caebb;
+  --RARE_06: #575fd9;
+  --RARE_07: #9272e3;
+  --RARE_08: #c76d46;
+  --RARE_09: #b3436a;
+  --RARE_10: #2ec9e6;
+  --RARE_11: #f2c21d;
+  --RARE_12: #b4f5ff;
 }
 
 body {
@@ -31,6 +66,18 @@ button {
 input {
   background-color: var(--header-bg);
   color: var(--text-color);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 /* Select styling */
@@ -255,4 +302,43 @@ legend {
   border-bottom-left-radius: 5px;
   height: fit-content;
   font-size: 1em;
+}
+
+/* Item Coloring Style */
+.item-img-container {
+  position: relative;
+  display: inline-block;
+  z-index: 5; /* Higher than tab default */
+  --item-color: var(--I_WHITE); /* Default value */
+  --item-icon: ''; /* Will be set via inline style */
+}
+
+.bonus-item {
+  border: 2px inset #806f49;
+  background-color: #b69d7d;
+}
+
+.item-img-container img {
+  z-index: 4; /* Lower than container but higher than tab background */
+  display: block;
+  mix-blend-mode: multiply;
+  filter: contrast(0.8);
+}
+
+.item-img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--item-color);
+  mask-image: var(
+    --item-icon
+  ); /* See masking: https://www.w3schools.com/css/css3_masking.asp */
+  mask-size: 100% 100%;
+  /* Safari compliance */
+  -webkit-mask-image: var(--item-icon);
+  -webkit-mask-size: 100% 100%;
 }
