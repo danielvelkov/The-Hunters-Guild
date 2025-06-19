@@ -106,8 +106,14 @@ const create_GET = async (req, res) => {
   });
 };
 
+const create_POST = async (req, res) => {
+  const { successful, id } = HuntingQuest.addQuest(req.body);
+  if (successful) res.redirect(`/${id}`);
+  else res.redirect('/create');
+};
 module.exports = {
   index_GET,
   show_GET,
   create_GET,
+  create_POST,
 };

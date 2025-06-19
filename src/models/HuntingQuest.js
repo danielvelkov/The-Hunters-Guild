@@ -1,7 +1,8 @@
 const HuntingQuest = {
+  nextId: 0,
   data: [
     {
-      id: 1,
+      id: 0,
       title: 'Hunt the Rathian',
       category: {
         id: 5,
@@ -357,6 +358,12 @@ const HuntingQuest = {
   },
   findById(id) {
     return this.data.find((hq) => hq.id === id);
+  },
+  addQuest(huntingQuest) {
+    const newId = this.nextId + 1;
+    this.data.push({ id: newId, ...huntingQuest, createdAt: new Date() });
+    this.nextId++;
+    return { successful: true, id: newId };
   },
 };
 

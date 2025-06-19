@@ -9,6 +9,7 @@ app.use(express.static(path.join(__dirname, 'dist')));
 app.set('views', path.join(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true })); // parse html form data
+app.use(express.json());
 
 app.use('/', huntingQuestsRouter);
 
