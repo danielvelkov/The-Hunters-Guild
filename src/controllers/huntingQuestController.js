@@ -1,3 +1,5 @@
+const expressAsyncHandler = require('express-async-handler');
+const CustomNotFoundError = require('../errors/CustomNotFoundError');
 const GameData = require('../models/GameData');
 const HuntingQuest = require('../models/HuntingQuest');
 
@@ -23,13 +25,12 @@ const index_GET = async (req, res) => {
   });
 };
 
-const show_GET = async (req, res) => {
-  const huntingQuest = HuntingQuest.findById(+req.params.id);
+const show_GET = expressAsyncHandler(async (req, res) => {
+  const { questId } = req.params;
+  const huntingQuest = HuntingQuest.findById(Number(questId));
 
   if (!huntingQuest)
-    return res
-      .status(404)
-      .send('No hunting quest found with ID: ' + req.params.id);
+    throw new CustomNotFoundError('No hunting quest found with ID: ' + questId);
 
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const monstersDrops = await GameData.monsters_drops__ListGet();
@@ -44,7 +45,7 @@ const show_GET = async (req, res) => {
     monstersDrops,
     monsters,
   });
-};
+});
 
 const create_GET = async (req, res) => {
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
