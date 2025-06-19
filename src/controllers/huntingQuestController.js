@@ -9,10 +9,15 @@ const index_GET = async (req, res) => {
   const weaponAttributes = await GameData.weapon_attributes_ListGet();
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const monstersDrops = await GameData.monsters_drops__ListGet();
+  const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
   huntingQuests.forEach((hq) => {
     hq.quest_monsters = hq.quest_monsters.map((qm) => ({
       ...qm,
       monster: monsters.find((m) => m.id === qm.monster.id),
+    }));
+    hq.quest_bonus_rewards = hq.quest_bonus_rewards.map((qbr) => ({
+      item: bonusQuestRewards.find((r) => r.id === qbr.item.id),
+      quantity: qbr.quantity,
     }));
   });
   res.render('pages/hunting-quest/index', {
@@ -34,11 +39,18 @@ const show_GET = expressAsyncHandler(async (req, res) => {
 
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const monstersDrops = await GameData.monsters_drops__ListGet();
+  const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
 
   huntingQuest.quest_monsters = huntingQuest.quest_monsters.map((qm) => ({
     ...qm,
     monster: monsters.find((m) => m.id === qm.monster.id),
   }));
+  huntingQuest.quest_bonus_rewards = huntingQuest.quest_bonus_rewards.map(
+    (qbr) => ({
+      item: bonusQuestRewards.find((r) => r.id === qbr.item.id),
+      quantity: qbr.quantity,
+    })
+  );
   res.render('pages/hunting-quest/show', {
     title: huntingQuest.title,
     huntingQuest,
