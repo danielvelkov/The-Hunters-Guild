@@ -7,6 +7,8 @@ const MonsterVariant = require('../entities/game-data/MonsterVariant');
 const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
 const MonsterCrown = require('../entities/game-data/MonsterCrown');
 const GamingPlatforms = require('../entities/game-data/GamingPlatforms');
+const QuestCategory = require('../entities/game-data/QuestCategory');
+const QuestType = require('../entities/game-data/QuestType');
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -39,6 +41,16 @@ const huntingQuestValidationChain = [
     .escape()
     .isLength({ max: 200 })
     .withMessage(maxLengthError(200)),
+  body('category').custom((value) => {
+    const isValid = findClassEnumStaticPropInstance(QuestCategory, value?.id);
+    if (!isValid) throw new Error('Invalid monster category selected.');
+    return true;
+  }),
+  body('type').custom((value) => {
+    const isValid = findClassEnumStaticPropInstance(QuestType, value?.id);
+    if (!isValid) throw new Error('Invalid quest type selected.');
+    return true;
+  }),
 
   body('time_limit')
     .isInt({ min: 15, max: 60 })
