@@ -1,5 +1,10 @@
 // Utility functions shared across modules
 
+export const snakeCaseToTitleCase = (s) =>
+  s
+    .replace(/^[-_]*(.)/, (_, c) => c.toUpperCase()) // Initial char (after -/_)
+    .replace(/[-_]+(.)/g, (_, c) => ' ' + c.toUpperCase()); // First char after each -/_
+
 export const createObservableArray = (arr, callback) => {
   return new Proxy(arr, {
     set(target, property, value) {
