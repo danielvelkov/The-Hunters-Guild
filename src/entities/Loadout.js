@@ -9,8 +9,8 @@ const WeaponType = require('./game-data/WeaponType');
 /** Class representing info about a loadout. */
 class Loadout {
   /**
-   * @param {string} name Loadout display name.
-   * @param {string} description
+   * @param {string} name Loadout display name. Max length - 50
+   * @param {string} description Loadout description. Max length - 100
    * @param {LoadoutRole[]} roles
    * @param {WeaponType[]} weapon_types
    * @param {WeaponAttribute[]} weapon_attr
