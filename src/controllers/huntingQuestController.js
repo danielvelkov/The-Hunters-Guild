@@ -68,7 +68,13 @@ const huntingQuestValidationChain = [
     .exists()
     .withMessage('ID required.')
     .isString()
-    .withMessage('ID must be a string'),
+    .withMessage('ID must be a string')
+    .custom(async (id) => {
+      const monsters = await GameData.monsters__weakness_and_icons_ListGet();
+      const monster = monsters.find((m) => m.id == id);
+      if (monster) return true;
+      throw new Error('No such monster exists.');
+    }),
 
   body('quest_monsters.*.variant').custom((value) => {
     const isValid = findClassEnumStaticPropInstance(MonsterVariant, value?.id);
