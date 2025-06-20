@@ -100,10 +100,21 @@ createPageMediator.on(QUEST_FORM_SUBMIT, () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(huntingQuest),
-    }).then((response) => {
-      if (response.redirected) {
-        window.location.href = response.url;
-      }
+    }).then(async (response) => {
+      const contentType = response.headers.get('content-type');
+      if (
+        !response.ok &&
+        contentType &&
+        contentType.includes('application/json')
+      ) {
+        // Handle server-side validation errors
+        const errors = {};
+        const data = await response.json();
+
+        data?.errors.forEach((e) => (errors[e.path] = e.msg));
+
+        if (errors) displayValidationErrors(errors);
+      } else if (response.redirected) window.location.href = response.url;
     });
   }
 });
