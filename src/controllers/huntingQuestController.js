@@ -2,6 +2,73 @@ const expressAsyncHandler = require('express-async-handler');
 const CustomNotFoundError = require('../errors/CustomNotFoundError');
 const GameData = require('../models/GameData');
 const HuntingQuest = require('../models/HuntingQuest');
+const { body, validationResult } = require('express-validator');
+
+// FYI: SCHEMA Alternative
+// const huntingQuestSchema = {
+//   description: {
+//     isLength: {
+//       errorMessage: 'Must be at least 8 chars.',
+//       options: {
+//         min: 8,
+//       },
+//     },
+//   },
+// };
+const emptyError = 'Must not be empty.';
+const maxLengthError = (max) =>
+  `Maximum limit is [${max}] characters. Please shorten your text.`;
+const numberBetweenError = (min, max) =>
+  `Please enter a number between ${min} and ${max}.`;
+
+const huntingQuestValidationChain = [
+  body('title')
+    .trim()
+    .escape()
+    .notEmpty()
+    .withMessage(emptyError)
+    .isLength({ max: 100 })
+    .withMessage(maxLengthError(100)),
+
+  body('description')
+    .trim()
+    .escape()
+    .isLength({ max: 200 })
+    .withMessage(maxLengthError(200)),
+
+  body('time_limit')
+    .isInt({ min: 15, max: 60 })
+    .withMessage(numberBetweenError(15, 60))
+    .isDivisibleBy(5)
+    .withMessage('Must be divisible by 5.'),
+
+  body('hr_requirement')
+    .isInt({ min: 1, max: 191 })
+    .withMessage(numberBetweenError(1, 191)),
+
+  body('crossplay_enabled').isBoolean(),
+  body('gaming_platforms').custom((value, { req }) => {
+    if (
+      !req.body.crossplay_enabled &&
+      (!Array.isArray(value) || value.length === 0)
+    )
+      throw new Error(
+        'If crossplay field is disabled, at least 1 gaming platform must be selected'
+      );
+    return true;
+  }),
+
+  body('quest_monsters')
+    .isArray({ min: 1, max: 2 })
+    .withMessage('Please select 1 or 2 monsters to hunt.'),
+
+  body('player_slots')
+    .isArray({ min: 2, max: 4 })
+    .withMessage('Between 2 or 4 players are required.'),
+  body('quest_bonus_rewards')
+    .isArray({ max: 30 })
+    .withMessage('A maximum of 30 reward types are allowed.'),
+];
 
 const index_GET = async (req, res) => {
   const huntingQuests = HuntingQuest.getAll();
@@ -118,11 +185,39 @@ const create_GET = async (req, res) => {
   });
 };
 
-const create_POST = async (req, res) => {
-  const { successful, id } = HuntingQuest.addQuest(req.body);
-  if (successful) res.redirect(`/${id}`);
-  else res.redirect('/create');
-};
+const create_POST = [
+  huntingQuestValidationChain,
+  // checkSchema(huntingQuestSchema, ['body']),
+  expressAsyncHandler(async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({
+        success: false,
+        errors: errors.array(), // Convert validation result to array
+      });
+    }
+
+    const { successful, id } = HuntingQuest.addQuest(req.body);
+    // if (successful) {
+    //   res.status(201).json({
+    //     success: true,
+    //     id,
+    //     message: 'Hunting Quest created successfully',
+    //   });
+    // }
+    if (successful) res.status(201).redirect(`${id}`);
+    else {
+      return res.status(400).json({
+        success: false,
+        errors: [
+          {
+            msg: 'Failed to create Hunting Quest Post. Something is wrong with the server',
+          },
+        ],
+      });
+    }
+  }),
+];
 module.exports = {
   index_GET,
   show_GET,
