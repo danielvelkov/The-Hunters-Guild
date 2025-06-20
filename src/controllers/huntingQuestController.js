@@ -6,6 +6,7 @@ const { body, validationResult } = require('express-validator');
 const MonsterVariant = require('../entities/game-data/MonsterVariant');
 const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
 const MonsterCrown = require('../entities/game-data/MonsterCrown');
+const GamingPlatforms = require('../entities/game-data/GamingPlatforms');
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -50,16 +51,29 @@ const huntingQuestValidationChain = [
     .withMessage(numberBetweenError(1, 191)),
 
   body('crossplay_enabled').isBoolean(),
-  body('gaming_platforms').custom((value, { req }) => {
-    if (
-      !req.body.crossplay_enabled &&
-      (!Array.isArray(value) || value.length === 0)
-    )
-      throw new Error(
-        'If crossplay field is disabled, at least 1 gaming platform must be selected'
-      );
-    return true;
-  }),
+  body('gaming_platforms')
+    .isArray({ max: 3 })
+    .custom((value, { req }) => {
+      if (
+        !req.body.crossplay_enabled &&
+        (!Array.isArray(value) || value.length === 0)
+      )
+        throw new Error(
+          'If crossplay field is disabled, at least 1 gaming platform must be selected'
+        );
+      if (Array.isArray(value) && value.length > 0)
+        value.forEach((gp) => {
+          const gamingPlatform = findClassEnumStaticPropInstance(
+            GamingPlatforms,
+            gp.id
+          );
+          if (!gamingPlatform)
+            throw new Error(
+              'No such gaming platform. Please select Xbox, PlayStation or PC'
+            );
+        });
+      return true;
+    }),
 
   body('quest_monsters')
     .isArray({ min: 1, max: 2 })
