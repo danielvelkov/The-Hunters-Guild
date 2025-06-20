@@ -88,8 +88,8 @@ export function findClassEnumStaticPropInstance(Class, value) {
   const staticPropInstance = Class.values().find(
     (staticProps) =>
       staticProps === value ||
-      staticProps.id.toString() === value ||
-      staticProps.name === value
+      staticProps.id == value ||
+      staticProps.name == value
   );
   return staticPropInstance || null;
 }

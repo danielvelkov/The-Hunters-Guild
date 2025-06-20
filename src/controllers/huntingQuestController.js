@@ -3,6 +3,9 @@ const CustomNotFoundError = require('../errors/CustomNotFoundError');
 const GameData = require('../models/GameData');
 const HuntingQuest = require('../models/HuntingQuest');
 const { body, validationResult } = require('express-validator');
+const MonsterVariant = require('../entities/game-data/MonsterVariant');
+const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
+const MonsterCrown = require('../entities/game-data/MonsterCrown');
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -61,6 +64,27 @@ const huntingQuestValidationChain = [
   body('quest_monsters')
     .isArray({ min: 1, max: 2 })
     .withMessage('Please select 1 or 2 monsters to hunt.'),
+  body('quest_monsters.*.monster.id')
+    .exists()
+    .withMessage('ID required.')
+    .isString()
+    .withMessage('ID must be a string'),
+
+  body('quest_monsters.*.variant').custom((value) => {
+    const isValid = findClassEnumStaticPropInstance(MonsterVariant, value?.id);
+    if (!isValid) throw new Error('Invalid monster variant selected.');
+    return true;
+  }),
+  body('quest_monsters.*.crown').custom((value) => {
+    const isValid = findClassEnumStaticPropInstance(MonsterCrown, value?.id);
+    if (!isValid) throw new Error('Invalid monster crown selected.');
+    return true;
+  }),
+
+  body('quest_monsters.*.strength')
+    .exists()
+    .isInt({ min: 1, max: 5 })
+    .withMessage('Strength level must be a number between 1 - 5 (including).'),
 
   body('player_slots')
     .isArray({ min: 2, max: 4 })
