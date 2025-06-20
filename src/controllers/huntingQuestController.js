@@ -10,6 +10,9 @@ const GamingPlatforms = require('../entities/game-data/GamingPlatforms');
 const QuestCategory = require('../entities/game-data/QuestCategory');
 const QuestType = require('../entities/game-data/QuestType');
 const SlotConfigType = require('../entities/SlotConfigType');
+const { LoadoutRole } = require('../entities/Loadout');
+const WeaponType = require('../entities/game-data/WeaponType');
+const WeaponAttribute = require('../entities/game-data/WeaponAttribute');
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -152,6 +155,45 @@ const huntingQuestValidationChain = [
     .escape()
     .isLength({ max: 100 })
     .withMessage(maxLengthError(100)),
+  body('player_slots.*.loadout.name')
+    .isString()
+    .trim()
+    .escape()
+    .isLength({ max: 50 })
+    .withMessage(maxLengthError(50)),
+  body('player_slots.*.loadout.description')
+    .isString()
+    .trim()
+    .escape()
+    .isLength({ max: 100 })
+    .withMessage(maxLengthError(100)),
+  body('player_slots.*.loadout.roles').exists().isArray(),
+  body('player_slots.*.loadout.roles.*.id').custom((id) => {
+    const isValid = findClassEnumStaticPropInstance(LoadoutRole, id);
+    if (!isValid) throw new Error('Invalid loadout role selected.');
+    return true;
+  }),
+
+  body('player_slots.*.loadout.weapon_types').exists().isArray(),
+  body('player_slots.*.loadout.weapon_types.*.id').custom((id) => {
+    const isValid = findClassEnumStaticPropInstance(WeaponType, id);
+    if (!isValid) throw new Error('Invalid weapon type selected.');
+    return true;
+  }),
+
+  body('player_slots.*.loadout.weapon_attr').exists().isArray(),
+  body('player_slots.*.loadout.weapon_attr.*.id').custom((id) => {
+    const isValid = findClassEnumStaticPropInstance(WeaponAttribute, id);
+    if (!isValid) throw new Error('Invalid weapon attribute selected.');
+    return true;
+  }),
+
+  body('player_slots.*.loadout.skills.*.id').custom(async (id) => {
+    const skills = await GameData.skills_ListGet();
+    const skill = skills.find((m) => m.id == id);
+    if (skill) return true;
+    throw new Error('No such skill exists.');
+  }),
 
   body('quest_bonus_rewards')
     .isArray({ max: 30 })
