@@ -1,5 +1,6 @@
 import { filterOutMaliciousSymbols, guidGenerator } from 'js/common/util.js';
 import { Loadout } from './Loadout';
+import SlotConfigType from './SlotConfigType';
 
 /**
  * Slot details for Hunting Quest
@@ -8,7 +9,7 @@ export default class Slot {
   _notes;
   _loadout;
   /**
-   * @param {string} displayName - The display name for this slot (e.g., "Player 1", "Newbie Hunter").
+   * @param {string} displayName - The display name for this slot (e.g., "Player 1", "Newbie Hunter"). Max length - 50
    * @param {boolean} [isOwner=false] - Flag indicating if this slot is for the quest owner.
    * @param {boolean} canEdit - Flag indicating if this slot can be edited.
    * @param {SlotConfigType} configurationType - Flag indicating if this slot can be edited.
@@ -17,7 +18,7 @@ export default class Slot {
    * @param {string} monsterPartFocus[].id - part id
    * @param {string} monsterPartFocus[].name - part name
    * @param {string} monsterPartFocus[].monster - monster name
-   * @param {string} notes - Specific notes for this slot.
+   * @param {string} notes - Specific notes for this slot. Max length - 100
    */
   constructor({
     id = guidGenerator().substring(0, 4),
@@ -91,20 +92,5 @@ export default class Slot {
       monsterPartFocus: this.monsterPartFocus,
       notes: this.notes,
     };
-  }
-}
-
-/** Enum about loadout roles. */
-export class SlotConfigType {
-  static FLEXIBLE = new SlotConfigType('Flexible', 'No loadout requirements.');
-  static CUSTOM = new SlotConfigType('Custom', 'Customized loadout.');
-  static PRESET = new SlotConfigType('Preset', 'Set from a loadout preset.');
-
-  constructor(name, description) {
-    this.name = name;
-    this.description = description;
-  }
-  toString() {
-    return `${this.name}`;
   }
 }

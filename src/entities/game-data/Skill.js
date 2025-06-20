@@ -26,7 +26,7 @@ class Skill {
     this.description = description;
     this.category = category;
     this.max_level = max_level;
-    this.set_count= set_count;
+    this.set_count = set_count;
     this.level_descriptions = level_descriptions;
   }
 }

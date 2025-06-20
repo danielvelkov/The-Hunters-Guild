@@ -8,7 +8,8 @@ import createPageMediator from 'js/common/mediator';
 import 'css/components/hunter-slot.css';
 import 'css/components/player-comp.css';
 
-import Slot, { SlotConfigType } from 'entities/Slot.js';
+import Slot from 'entities/Slot.js';
+import SlotConfigType from 'entities/SlotConfigType.js';
 import {
   QUEST_PLAYER_SLOTS_CHANGE,
   SELECTED_MONSTERS_CHANGE,
