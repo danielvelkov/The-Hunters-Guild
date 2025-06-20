@@ -9,6 +9,7 @@ const MonsterCrown = require('../entities/game-data/MonsterCrown');
 const GamingPlatforms = require('../entities/game-data/GamingPlatforms');
 const QuestCategory = require('../entities/game-data/QuestCategory');
 const QuestType = require('../entities/game-data/QuestType');
+const SlotConfigType = require('../entities/SlotConfigType');
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -121,6 +122,37 @@ const huntingQuestValidationChain = [
   body('player_slots')
     .isArray({ min: 2, max: 4 })
     .withMessage('Between 2 or 4 players are required.'),
+
+  body('player_slots.*.displayName')
+    .notEmpty()
+    .withMessage(emptyError)
+    .trim()
+    .escape()
+    .isLength({ max: 50 })
+    .withMessage(maxLengthError(50)),
+  body('player_slots.*.isOwner').isBoolean(),
+  body('player_slots.*.canEdit').isBoolean(),
+  body('player_slots.*.configurationType').custom((value) => {
+    const isValid = findClassEnumStaticPropInstance(
+      SlotConfigType,
+      value?.name
+    );
+    if (!isValid) throw new Error('Invalid slot configuration selected.');
+    return true;
+  }),
+  body('player_slots.*.monsterPartFocus.*.id')
+    .notEmpty()
+    .withMessage(emptyError),
+  body('player_slots.*.monsterPartFocus.*.monster')
+    .notEmpty()
+    .withMessage(emptyError),
+  body('player_slots.*.notes')
+    .isString()
+    .trim()
+    .escape()
+    .isLength({ max: 100 })
+    .withMessage(maxLengthError(100)),
+
   body('quest_bonus_rewards')
     .isArray({ max: 30 })
     .withMessage('A maximum of 30 reward types are allowed.'),
