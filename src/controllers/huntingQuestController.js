@@ -156,6 +156,14 @@ const huntingQuestValidationChain = [
   body('quest_bonus_rewards')
     .isArray({ max: 30 })
     .withMessage('A maximum of 30 reward types are allowed.'),
+  body('quest_bonus_rewards.*.quantity')
+    .isInt({ min: 1, max: 20 })
+    .withMessage(numberBetweenError(1, 20)),
+  body('quest_bonus_rewards.*.item.id')
+    .exists()
+    .withMessage('ID required.')
+    .isString()
+    .withMessage('ID must be a string'),
 ];
 
 const index_GET = async (req, res) => {
