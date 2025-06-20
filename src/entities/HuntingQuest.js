@@ -26,18 +26,18 @@ export default class HuntingQuest {
    * @param {Object} options - Quest configuration object
    * @param {string} [options.id] - Unique ID
    * @param {string} [options.title] - Quest title. Max 100 characters
-   * @param {string} [options.description] - Quest description. Max 250 characters
+   * @param {string} [options.description] - Quest description. Max 200 characters
    * @param {QuestCategory} [options.category] - Quest category
    * @param {string} [options.star_rank] - Quest Star Rank
    * @param {string} [options.area] - Quest area
    * @param {QuestType} [options.type] - Quest type
-   * @param {number} [options.hr_requirement] - Min HR needed
-   * @param {number} [options.time_limit] - Time limit in minutes
+   * @param {number} [options.hr_requirement] - Min HR needed. Min 1, Max 191 (cap is actually 999 , doesn't really matter tho)
+   * @param {number} [options.time_limit] - Time limit in minutes. Min 15 , Max 60
    * @param {boolean} [options.crossplay_enabled=false] - Crossplay enabled
    * @param {GamingPlatforms[]} [options.gaming_platforms=[]] - Gaming platforms
    * @param {QuestMonster[]} [options.quest_monsters=[]] - Quest monsters
    * @param {Slot[]} [options.player_slots=[]] - Player slots
-   * @param {QuestBonusReward[]} [options.quest_bonus_rewards=[]] - Quest Bonus rewards. Can only be defined by user who has the quest.
+   * @param {QuestBonusReward[]} [options.quest_bonus_rewards=[]] - Quest Bonus rewards. Can only be defined by user who has the quest. Max 30 types (idk gaming cap)
    * @param {Date} [options.createdAt] - Creation date
    */
   constructor(options = {}) {
