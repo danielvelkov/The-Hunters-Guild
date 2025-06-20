@@ -28,6 +28,7 @@ import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 
 import HuntingQuestBuilder from './create/HuntingQuestBuilder.js';
+import { snakeCaseToTitleCase } from 'js/common/util.js';
 /**
  * @type {{
  *   monstersList: Array<Monster>,
@@ -198,9 +199,13 @@ function updateQuestPreview(huntingQuest) {
  * Display validation errors
  */
 function displayValidationErrors(errors) {
-  const errorsSection = $('<section>')
-    .addClass('errors-list')
-    .attr('aria-label', 'quest errors');
+  let errorsSection = $('.errors-list');
+  if (!errorsSection.length)
+    errorsSection = $('<section>')
+      .addClass('errors-list')
+      .attr('aria-label', 'quest errors')
+      .appendTo($('#quest-preview'));
+  errorsSection.empty();
   const errorHeading = $('<h3>').text(
     '⚠ Please correct the following validation errors for the post:'
   );
@@ -208,10 +213,9 @@ function displayValidationErrors(errors) {
 
   errorsList.append(
     Object.entries(errors).map(([key, value]) =>
-      $('<li>').html(`<b>${key}</b> - ${value}`)
+      $('<li>').html(`<b>${snakeCaseToTitleCase(key)}</b> - ${value}`)
     )
   );
 
   errorsSection.append(errorHeading, errorsList);
-  $('#quest-preview').append(errorsSection);
 }
