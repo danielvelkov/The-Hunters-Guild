@@ -9,3 +9,10 @@ const huntingQuestComponent = new HuntingQuestComponent(
 );
 
 $('article').append(huntingQuestComponent.render());
+
+$('form').on('submit', (e) => {
+  var result = confirm('Are you sure you want to delete?');
+  if (!result) {
+    e.preventDefault();
+  }
+});
