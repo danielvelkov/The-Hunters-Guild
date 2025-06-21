@@ -335,7 +335,7 @@ const create_POST = [
       });
     }
 
-    const { successful, id } = HuntingQuest.addQuest(req.body);
+    const { success, id } = HuntingQuest.addQuest(req.body);
     // if (successful) {
     //   res.status(201).json({
     //     success: true,
@@ -343,10 +343,10 @@ const create_POST = [
     //     message: 'Hunting Quest created successfully',
     //   });
     // }
-    if (successful) res.status(201).redirect(`${id}`);
+    if (success) res.status(201).redirect(`${id}`);
     else {
       return res.status(400).json({
-        success: false,
+        success,
         errors: [
           {
             msg: 'Failed to create Hunting Quest Post. Something is wrong with the server',

@@ -363,7 +363,8 @@ const HuntingQuest = {
     const newId = this.nextId + 1;
     this.data.push({ id: newId, ...huntingQuest, createdAt: new Date() });
     this.nextId++;
-    return { successful: true, id: newId };
+    return { success: true, id: newId };
+  },
   },
 };
 
