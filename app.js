@@ -4,7 +4,9 @@ const { PORT } = process.env;
 const path = require('path');
 const express = require('express');
 const app = express();
+const methodOverride = require('method-override');
 
+app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'dist')));
 app.set('views', path.join(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');

@@ -43,6 +43,7 @@
     "jquery": "^3.7.1",
     "jquery-ui": "^1.14.1",
     "jquery-ui-css": "^1.11.5",
+    "method-override": "^3.0.0",
     "mini-css-extract-plugin": "^2.9.2",
     "pg": "^8.14.1",
     "select2": "^4.1.0-rc.0"
