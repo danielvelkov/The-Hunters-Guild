@@ -223,7 +223,7 @@ class PlayerComp {
     headerSlotDetailsSummary.append(
       slot.loadout.weapon_types.map(
         (weaponType) =>
-          `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+          `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
             ' ',
             '_'
           )}.png" alt="${weaponType.name}" class="weapon-icon">`
@@ -233,7 +233,7 @@ class PlayerComp {
     headerSlotDetailsSummary.append(
       slot.loadout.weapon_attr.map(
         (weaponAttr) =>
-          `<img src="icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">`
+          `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">`
       )
     );
 
@@ -620,7 +620,7 @@ class PlayerComp {
           $('<li>')
             .addClass('weapon-tag')
             .html(
-              `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+              `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
                 ' ',
                 '_'
               )}.png" alt="${weaponType.name}" class="weapon-icon">
@@ -647,7 +647,7 @@ class PlayerComp {
         $('<li>')
           .addClass('attribute-tag')
           .html(
-            `<img src="icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">
+            `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">
                   <span>${weaponAttr.name}</span>`
           )
           .appendTo(attributeList);
@@ -674,7 +674,7 @@ class PlayerComp {
         const maxLevel = skillInfo?.max_level || 7;
 
         const skillNameEl = $('<div>').addClass('skill-name')
-          .html(`<img src="icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
+          .html(`<img src="/icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
                   <span>${skillInfo.name}</span>`);
 
         const skillLevelEl = $('<div>').addClass('skill-level-list');
@@ -706,7 +706,7 @@ class PlayerComp {
           .append(
             `<img height="30" title="${part.monster}" alt="${
               part.monster
-            }" src="icons/Large Monster Icons/${
+            }" src="/icons/Large Monster Icons/${
               this.selectedMonsters.find((m) => m.name === part.monster).icon
             }.png"/>`,
             `[${part.name} ${chooseEmoteBasedOnPart(part.name)}]`
@@ -786,7 +786,7 @@ class PlayerComp {
           $('<li>')
             .addClass('weapon-tag')
             .html(
-              `<img src="icons/Weapon Types/${weaponType.name.replaceAll(
+              `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
                 ' ',
                 '_'
               )}.png" 
@@ -815,7 +815,7 @@ class PlayerComp {
           $('<li>')
             .addClass('attribute-tag')
             .html(
-              `<img src="icons/Status Icons/${weaponAttr.icon}.png" 
+              `<img src="/icons/Status Icons/${weaponAttr.icon}.png" 
               alt="${weaponAttr.name}" class="attribute-icon">
           <span>${weaponAttr.name}</span>`
             )
@@ -847,7 +847,7 @@ class PlayerComp {
           // Add skill icon
           $('<img>')
             .addClass('skill-icon')
-            .attr('src', `icons/Skill Icons/${iconSrc}`)
+            .attr('src', `/icons/Skill Icons/${iconSrc}`)
             .attr('alt', skillInfo.name)
             .appendTo(skillItem);
 
@@ -903,7 +903,7 @@ function formatOption(item, iconType, folderName) {
       <span class='monster-select-name'>
         ${
           item.element?.dataset[iconType]
-            ? `<img height='18' src="icons/${folderName}/${item.element?.dataset[iconType]}.png"/>`
+            ? `<img height='18' src="/icons/${folderName}/${item.element?.dataset[iconType]}.png"/>`
             : ''
         }
         <b>${

@@ -136,7 +136,7 @@ export function formatSkillInfoTooltip(skill) {
     return '';
   }
   return `<div class="tooltip skill-info-tooltip">
-     <img src="icons/Skill Icons/${skill.icon}.png" alt="${
+     <img src="/icons/Skill Icons/${skill.icon}.png" alt="${
     skill.name
   }" height="50">
      <h3 style="margin:0;padding:0em;">${skill.name}</h3> 
