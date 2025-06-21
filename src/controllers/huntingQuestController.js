@@ -356,9 +356,17 @@ const create_POST = [
     }
   }),
 ];
+
+const remove_DELETE = expressAsyncHandler(async (req, res) => {
+  const { questId } = req.params;
+  const { success, errors } = HuntingQuest.findByIdAndRemove(Number(questId));
+  if (success) res.status(200).redirect('/');
+  else throw new CustomNotFoundError(errors.join(' '));
+});
 module.exports = {
   index_GET,
   show_GET,
   create_GET,
   create_POST,
+  remove_DELETE,
 };

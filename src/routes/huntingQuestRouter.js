@@ -11,6 +11,8 @@ huntingQuestsRouter.post('/create', huntingQuestController.create_POST);
 
 huntingQuestsRouter.get('/:questId', huntingQuestController.show_GET);
 
+huntingQuestsRouter.delete('/:questId', huntingQuestController.remove_DELETE);
+
 // Every thrown error in the application or the previous middleware function calling `next` with an error as an argument will eventually go to this middleware function
 // the 4 parameters are required to handle errors
 huntingQuestsRouter.use((err, req, res, next) => {
