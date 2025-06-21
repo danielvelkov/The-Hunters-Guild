@@ -365,6 +365,16 @@ const HuntingQuest = {
     this.nextId++;
     return { success: true, id: newId };
   },
+  findByIdAndRemove(id) {
+    const huntingQuest = this.data.find((hq) => hq.id === id);
+    if (huntingQuest) {
+      this.data = this.data.filter((hq) => hq !== huntingQuest);
+      return { success: true };
+    } else
+      return {
+        success: false,
+        errors: ['No such quest ID exists.', 'Failed to delete resource.'],
+      };
   },
 };
 
