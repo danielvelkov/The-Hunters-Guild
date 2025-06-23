@@ -182,7 +182,7 @@ const HuntingQuest = {
             description: 'Set from a loadout preset.',
           },
           canEdit: true,
-          monsterPartFocus: [],
+          focusedMonsterParts: [],
         },
         {
           notes: '',
@@ -342,7 +342,7 @@ const HuntingQuest = {
             description: 'Set from a loadout preset.',
           },
           canEdit: true,
-          monsterPartFocus: [],
+          focusedMonsterParts: [],
         },
       ],
       quest_bonus_rewards: [],

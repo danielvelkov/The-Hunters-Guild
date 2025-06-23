@@ -40,7 +40,7 @@ export default class HuntingQuest {
    * @param {QuestType} [options.type] - Quest type
    * @param {number} [options.hr_requirement] - Min HR needed. Min 1, Max 191 (cap is actually 999 , doesn't really matter tho)
    * @param {number} [options.time_limit] - Time limit in minutes. Min 15 , Max 60
-   * @param {boolean} [options.crossplay_enabled=false] - Crossplay enabled
+   * @param {boolean} [options.crossplay_enabled=true] - Crossplay enabled
    * @param {GamingPlatforms[]} [options.gaming_platforms=[]] - Gaming platforms
    * @param {QuestMonster[]} [options.quest_monsters=[]] - Quest monsters
    * @param {Slot[]} [options.player_slots=[]] - Player slots
@@ -58,7 +58,7 @@ export default class HuntingQuest {
       type = QuestType.HUNT,
       hr_requirement = 21,
       time_limit = 35,
-      crossplay_enabled = false,
+      crossplay_enabled = true,
       gaming_platforms = [],
       quest_monsters = [],
       player_slots = [],

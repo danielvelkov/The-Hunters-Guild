@@ -101,7 +101,7 @@ class PlayerComp {
     this._selectedMonsters = values;
     this.updateSlotConfigTabs(this.selectedSlot);
     this.playerSlots.forEach((s, i) => {
-      s.monsterPartFocus = s.monsterPartFocus.filter(({ monster }) =>
+      s.focusedMonsterParts = s.focusedMonsterParts.filter(({ monster }) =>
         values.map((m) => m.name).includes(monster)
       );
       this.updateSlot(s, i);
@@ -422,9 +422,9 @@ class PlayerComp {
       );
 
       // Select monster parts
-      if (slot.monsterPartFocus.length) {
+      if (slot.focusedMonsterParts.length) {
         monsterPartSelect
-          .val(slot.monsterPartFocus.map((r) => r.monster + '-' + r.name))
+          .val(slot.focusedMonsterParts.map((r) => r.monster + '-' + r.name))
           .trigger('change');
       } else monsterPartSelect.val(null).trigger('change');
     } else {
@@ -699,8 +699,8 @@ class PlayerComp {
     // Monster part focus
     const partFocusList = slotContainer.find('.part-focus-list');
     partFocusList.empty();
-    if (slotData.monsterPartFocus?.length && this.selectedMonsters?.length) {
-      slotData.monsterPartFocus.forEach((part) => {
+    if (slotData.focusedMonsterParts?.length && this.selectedMonsters?.length) {
+      slotData.focusedMonsterParts.forEach((part) => {
         $('<li>')
           .addClass('part-focus-tag')
           .append(
@@ -965,11 +965,11 @@ function processFormData(formData, originalSlot) {
     // Process monster part focus
     else if (key === 'monster-part-focus[]') {
       if (
-        !newSlot.monsterPartFocus
+        !newSlot.focusedMonsterParts
           .map((pf) => pf.name)
           .includes(value.split('-')[1])
       )
-        newSlot.monsterPartFocus.push({
+        newSlot.focusedMonsterParts.push({
           name: value.split('-')[1],
           monster: value.split('-')[0],
         });

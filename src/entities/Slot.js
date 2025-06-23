@@ -14,10 +14,10 @@ export default class Slot {
    * @param {boolean} canEdit - Flag indicating if this slot can be edited.
    * @param {SlotConfigType} configurationType - Flag indicating if this slot can be edited.
    * @param {Loadout} loadout - Contains loadout details like role, used weapons/weapon attributes
-   * @param {Object[]} monsterPartFocus - which monster parts will be focused
-   * @param {string} monsterPartFocus[].id - part id
-   * @param {string} monsterPartFocus[].name - part name
-   * @param {string} monsterPartFocus[].monster - monster name
+   * @param {Object[]} focusedMonsterParts - which monster parts will be focused
+   * @param {string} focusedMonsterParts[].id - part id
+   * @param {string} focusedMonsterParts[].name - part name
+   * @param {string} focusedMonsterParts[].monster - monster name
    * @param {string} notes - Specific notes for this slot. Max length - 100
    */
   constructor({
@@ -27,7 +27,7 @@ export default class Slot {
     canEdit = true,
     configurationType = SlotConfigType.FLEXIBLE,
     loadout,
-    monsterPartFocus = [],
+    focusedMonsterParts = [],
     notes = '',
   }) {
     // Generate ID
@@ -40,7 +40,7 @@ export default class Slot {
     this.configurationType = configurationType;
     this.canEdit = canEdit;
 
-    this.monsterPartFocus = monsterPartFocus;
+    this.focusedMonsterParts = focusedMonsterParts;
 
     // General Loadout Information
     this.loadout = loadout;
@@ -89,7 +89,7 @@ export default class Slot {
       canEdit: this.canEdit,
       configurationType: this.configurationType,
       loadout: this.loadout,
-      monsterPartFocus: this.monsterPartFocus,
+      focusedMonsterParts: this.focusedMonsterParts,
       notes: this.notes,
     };
   }

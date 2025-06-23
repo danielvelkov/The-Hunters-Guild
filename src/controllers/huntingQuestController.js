@@ -143,10 +143,10 @@ const huntingQuestValidationChain = [
     if (!isValid) throw new Error('Invalid slot configuration selected.');
     return true;
   }),
-  body('player_slots.*.monsterPartFocus.*.name')
+  body('player_slots.*.focusedMonsterParts.*.name')
     .notEmpty()
     .withMessage(emptyError),
-  body('player_slots.*.monsterPartFocus.*.monster')
+  body('player_slots.*.focusedMonsterParts.*.monster')
     .notEmpty()
     .withMessage(emptyError),
   body('player_slots.*.notes')
