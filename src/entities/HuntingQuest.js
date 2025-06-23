@@ -5,7 +5,14 @@ import QuestMonster from './QuestMonster';
 import Slot from './Slot';
 import MonsterVariant from './game-data/MonsterVariant';
 import QuestBonusReward from './QuestBonusRewards';
-import { filterOutMaliciousSymbols } from 'js/common/util';
+import {
+  filterOutMaliciousSymbols,
+  findClassEnumStaticPropInstance,
+} from 'js/common/util';
+import Monster from './game-data/Monster';
+import MonsterCrown from './game-data/MonsterCrown';
+import { Loadout } from './Loadout';
+import Item from './game-data/Item';
 
 /** Class representing a Game Hunting Quest */
 export default class HuntingQuest {
@@ -427,5 +434,43 @@ export default class HuntingQuest {
       player_slots: this.player_slots.map((s) => (s.toJSON ? s.toJSON() : s)),
       createdAt: this.createdAt,
     };
+  }
+
+  static fromDatabaseObject(dbObject, itemsList) {
+    return new HuntingQuest({
+      ...dbObject,
+      category: findClassEnumStaticPropInstance(
+        QuestCategory,
+        dbObject.category.id
+      ),
+      type: findClassEnumStaticPropInstance(QuestType, dbObject.type.id),
+      gaming_platforms: dbObject.gaming_platforms?.map((qp) =>
+        findClassEnumStaticPropInstance(GamingPlatforms, qp.id)
+      ) ?? [],
+      quest_monsters: dbObject.quest_monsters.map(
+        (qm) =>
+          new QuestMonster(
+            Monster.fromDatabaseObject(qm.monster),
+            findClassEnumStaticPropInstance(MonsterVariant, qm.variant.id),
+
+            findClassEnumStaticPropInstance(MonsterCrown, qm.crown.id),
+            Number(qm.strength)
+          )
+      ),
+      player_slots: dbObject.player_slots.map(
+        (slot) =>
+          new Slot({
+            ...slot,
+            loadout: Loadout.fromDatabaseObject(slot.loadout),
+          })
+      ),
+      quest_bonus_rewards: dbObject.quest_bonus_rewards.map((qbr) => {
+        const item = Item.fromDatabaseObject(
+          itemsList.find((r) => r.id === qbr.item.id.toString())
+        );
+        const bonusReward = new QuestBonusReward(item, qbr.quantity);
+        return bonusReward;
+      }),
+    });
   }
 }
