@@ -26,6 +26,7 @@ const HuntingQuest = {
             id: 1,
             name: 'Base',
           },
+          strength: 5,
         },
       ],
       player_slots: [
@@ -364,6 +365,18 @@ const HuntingQuest = {
     this.data.push({ id: newId, ...huntingQuest, createdAt: new Date() });
     this.nextId++;
     return { success: true, id: newId };
+  },
+  findByIdAndUpdate(id, updatedHuntingQuest) {
+    const index = this.data.findIndex((hq) => hq.id == id);
+    if (index === -1) {
+      return {
+        success: false,
+        errors: ['No such quest ID exists.', 'Failed to update resource.'],
+      };
+    }
+    updatedHuntingQuest.id = Number(id);
+    this.data[index] = updatedHuntingQuest;
+    return { success: true };
   },
   findByIdAndRemove(id) {
     const huntingQuest = this.data.find((hq) => hq.id === id);
