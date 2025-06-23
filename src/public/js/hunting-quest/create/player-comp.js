@@ -699,7 +699,7 @@ class PlayerComp {
     // Monster part focus
     const partFocusList = slotContainer.find('.part-focus-list');
     partFocusList.empty();
-    if (slotData.monsterPartFocus?.length) {
+    if (slotData.monsterPartFocus?.length && this.selectedMonsters?.length) {
       slotData.monsterPartFocus.forEach((part) => {
         $('<li>')
           .addClass('part-focus-tag')
