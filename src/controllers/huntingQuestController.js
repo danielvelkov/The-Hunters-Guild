@@ -356,6 +356,32 @@ const create_POST = [
     }
   }),
 ];
+const edit_PUT = [
+  huntingQuestValidationChain,
+  async (req, res) => {
+    const { questId } = req.params;
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({
+        success: false,
+        errors: errors.array(), // Convert validation result to array
+      });
+    }
+
+    const { success } = HuntingQuest.findByIdAndUpdate(questId, req.body);
+    if (success) res.status(201).redirect(`/${questId}`);
+    else {
+      return res.status(400).json({
+        success,
+        errors: [
+          {
+            msg: 'Failed to edit Hunting Quest Post. Something is wrong with the server',
+          },
+        ],
+      });
+    }
+  },
+];
 
 const remove_DELETE = expressAsyncHandler(async (req, res) => {
   const { questId } = req.params;
@@ -369,4 +395,5 @@ module.exports = {
   create_GET,
   create_POST,
   remove_DELETE,
+  edit_PUT,
 };
