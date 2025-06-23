@@ -9,9 +9,12 @@
     <main>
       <article class="hunting-quest">
         <h2><%= title %></h2>
-        <form action="/<%= huntingQuest.id %>?_method=DELETE" method="post">
-          <input class="remove-button" type="submit" value="Delete" />
-        </form>
+        <div class="action-list">
+          <a href="/<%= huntingQuest.id %>/edit"><button>Update</button></a>
+          <form action="/<%= huntingQuest.id %>?_method=DELETE" method="post">
+            <button type="submit">Delete</button>
+          </form>
+        </div>
       </article>
     </main>
     <%- include('../../partials/footer') %>
