@@ -8,8 +8,8 @@ import {
   QUEST_FORM_SUBMIT,
 } from 'js/common/events.js';
 import PlayerComp from './create/player-comp.js';
-import './create/monster-select-forms.js';
-import './create/quest-details-form.js';
+import MonsterSelectForms from './create/monster-select-forms.js';
+import QuestDetailsForm from './create/quest-details-form.js';
 
 import 'css/pages/hunting-quest/create.css';
 
@@ -26,6 +26,7 @@ import QuestBonusReward from 'entities/QuestBonusRewards.js';
 import HuntingQuestComponent from './components/HuntingQuestComponent';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
+import HuntingQuest from 'entities/HuntingQuest.js';
 
 import HuntingQuestBuilder from './create/HuntingQuestBuilder.js';
 import { snakeCaseToTitleCase } from 'js/common/util.js';
@@ -38,6 +39,7 @@ import { snakeCaseToTitleCase } from 'js/common/util.js';
  *   weaponTypesList: Array<WeaponType>,
  *   weaponAttributesList: Array<WeaponAttribute>,
  *   systemLoadoutsList: Array<Loadout>
+ *   existingHuntingQuest: HuntingQuest
  * }}
  */
 export const {
@@ -48,12 +50,12 @@ export const {
   weaponTypesList,
   weaponAttributesList,
   systemLoadoutsList,
+  existingHuntingQuest, // Present if in Edit mode
 } = globalThis.serverData;
 
-const questBuilder = new HuntingQuestBuilder();
-const playerComp = new PlayerComp();
+const isEditMode = !!existingHuntingQuest;
 
-questBuilder.setPlayerSlots(playerComp.playerSlots);
+const questBuilder = new HuntingQuestBuilder();
 
 createPageMediator.on(MONSTER_SELECT_FORMS_CHANGE, (monsterSelectForms) => {
   const monstersForms = Array.from(monsterSelectForms);
@@ -96,7 +98,7 @@ createPageMediator.on(QUEST_PREVIEW_CHANGE, (quest) => {
 createPageMediator.on(QUEST_FORM_SUBMIT, () => {
   const huntingQuest = questBuilder.buildHuntingQuest();
   if (huntingQuest && huntingQuest.isValid()) {
-    fetch('/create', {
+    fetch(isEditMode ? `/${existingHuntingQuest.id}?_method=PUT` : '/create', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(huntingQuest),
@@ -118,6 +120,18 @@ createPageMediator.on(QUEST_FORM_SUBMIT, () => {
     });
   }
 });
+
+if (isEditMode) {
+  const huntingQuest = HuntingQuest.fromDatabaseObject(
+    existingHuntingQuest,
+    bonusQuestRewardsList.concat(monstersDropsList)
+  );
+  MonsterSelectForms.initFromHuntingQuest(huntingQuest);
+  QuestDetailsForm.initFromHuntingQuest(huntingQuest);
+  new PlayerComp(huntingQuest.player_slots);
+} else {
+  questBuilder.setPlayerSlots(new PlayerComp().playerSlots);
+}
 
 /**
  * Build quest monsters from monster select forms
