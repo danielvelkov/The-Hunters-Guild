@@ -5,6 +5,7 @@ import {
 } from 'js/common/events.js';
 import 'css/components/monster-select-forms.css';
 import createPageMediator from 'js/common/mediator';
+import HuntingQuest from 'entities/HuntingQuest.js';
 
 const MonsterSelectForms = (() => {
   let _monsterFormCounter = 0;
@@ -34,8 +35,36 @@ const MonsterSelectForms = (() => {
 
   createPageMediator.on(CROWN_SELECT_VISIBILITY_CHANGE, setCrownVisibility);
 
-  function getMonsterSelectForms() {
-    return _monsterSelectForms;
+  /**
+   * Sets monster select forms from Hunting Quest object.
+   * @param {HuntingQuest} huntingQuest
+   */
+  function initFromHuntingQuest(huntingQuest) {
+    const questMonsters = huntingQuest.quest_monsters;
+    _monsterSelectForms = new Set();
+    questMonsters.forEach((qm) => {
+      const form = generateFormFromQuestMonster(qm);
+      addForm(form);
+    });
+  }
+
+  function generateFormFromQuestMonster(questMonster) {
+    if (!questMonster) return;
+
+    const form = createForm(questMonster.monster.id);
+
+    requestAnimationFrame(() => {
+      if (questMonster.variant.name !== 'Base')
+        form
+          .find(`input[name="${questMonster.variant.name.toLowerCase()}"]`)
+          .prop('checked', true);
+
+      form.find(`select[name="monster-crown"]`).val(questMonster.crown.name);
+      form.find(`select[name="monster-strength"]`).val(questMonster.strength);
+      form.trigger('change');
+    });
+
+    return form;
   }
 
   function setCrownVisibility(value) {
@@ -167,7 +196,7 @@ const MonsterSelectForms = (() => {
   }
 
   return {
-    getMonsterSelectForms,
+    initFromHuntingQuest,
   };
 })();
 
