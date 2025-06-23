@@ -13,12 +13,17 @@ import 'css/components/quest-details-form.css';
 const QuestDetailsForm = (() => {
   // Cache DOM elements
   const $form = $('#quest-details-form');
+  const $questCategory = $('#quest-category');
+  const $questRank = $('#quest-star-rank');
+  const $locale = $('#locale');
+  const $questType = $('#quest-type');
+  const $questHunterRankRequirement = $('#hunter-rank-requirement');
+  const $timeLimit = $('#time-limit');
+  const $questDescription = $('#quest-description');
   const $crossPlayEnabled = $('#cross-play-enabled');
   const $platformOptions = $('#platform-options');
   const $bonusRewardsEnabled = $('#bonus-rewards-enabled');
   const $bonusRewards = $('#bonus-rewards');
-  const $questCategory = $('#quest-category');
-  const $locale = $('#locale');
   const $submitButton = $('button[type="submit"]');
 
   // Bind Events
