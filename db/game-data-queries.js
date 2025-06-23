@@ -3,7 +3,7 @@ const path = require('path');
 
 // Helper function to load SQL files
 function loadSqlFile(filename) {
-  return fs.readFileSync(path.join(__dirname, './queries', filename), 'utf8');
+  return fs.readFileSync(path.join(__dirname, 'queries', filename), 'utf8');
 }
 
 // Load all SQL queries
