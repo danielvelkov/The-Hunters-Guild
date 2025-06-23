@@ -319,9 +319,9 @@ export default class HuntingQuestComponent {
       <tbody align="center">
         <tr>
           <th align="left">Part</th>
-          <th><img height="20" src="/icons/slash.png" alt="Slash"></th>
-          <th><img height="20" src="/icons/blow.png" alt="Blow"></th>
-          <th><img height="20" src="/icons/shot.png" alt="Shot"></th>
+          <th><img height="20" src="/icons/slash.png" title="Slash" alt="Slash"></th>
+          <th><img height="20" src="/icons/blow.png" title="Blow" alt="Blow"></th>
+          <th><img height="20" src="/icons/shot.png" title="Shot" alt="Shot"></th>
           <th><img height="20" src="/icons/Status Icons/STATUS_0000.png" title="Fire" alt="Fire"></th>
           <th><img height="20" src="/icons/Status Icons/STATUS_0001.png" title="Water" alt="Water"></th>
           <th><img height="20" src="/icons/Status Icons/STATUS_0002.png" title="Thunder" alt="Thunder"></th>
