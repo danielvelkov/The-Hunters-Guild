@@ -141,6 +141,13 @@ const QuestDetailsForm = (() => {
       questRewardsGroupsMap[qr.type].push(qr);
     });
 
+    // Save previously selected values before destroying
+    let selectedValues = [];
+    if ($bonusRewards.data('select2')) {
+      selectedValues = $bonusRewards.val();
+      $bonusRewards.select2('destroy');
+    }
+
     // Build HTML for bonus rewards select
     $bonusRewards.html(
       Object.entries(questRewardsGroupsMap)
@@ -171,6 +178,10 @@ const QuestDetailsForm = (() => {
       placeholder: '-- Select Bonus Rewards --',
       templateResult: formatBonusRewardOption,
     });
+
+    $bonusRewards.val(selectedValues).trigger('change');
+  }
+
   }
 
   // Public API
