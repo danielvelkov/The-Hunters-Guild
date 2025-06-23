@@ -9,6 +9,7 @@ import { bonusQuestRewardsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
 
 import 'css/components/quest-details-form.css';
+import HuntingQuest from 'entities/HuntingQuest.js';
 
 const QuestDetailsForm = (() => {
   // Cache DOM elements
@@ -182,11 +183,41 @@ const QuestDetailsForm = (() => {
     $bonusRewards.val(selectedValues).trigger('change');
   }
 
+  /**
+   * Sets quest details form from a HuntingQuest object.
+   * @param {HuntingQuest} huntingQuest
+   */
+  function initFromHuntingQuest(huntingQuest) {
+    $questCategory.val(huntingQuest.category.name);
+    $questRank.val(huntingQuest.star_rank);
+    $locale.val(huntingQuest.area);
+    $questType.val(huntingQuest.type.name);
+    $questHunterRankRequirement.val(huntingQuest.hr_requirement);
+    $timeLimit.val(huntingQuest.time_limit);
+    $questDescription.val(huntingQuest.description);
+    $crossPlayEnabled.prop('checked', huntingQuest.crossplay_enabled);
+
+    if (!huntingQuest.crossplay_enabled) {
+      huntingQuest.gaming_platforms.forEach((gp) =>
+        $platformOptions.find(`input[value="${gp.name}"]`).prop('checked', true)
+      );
+      handleCrossPlayCheckboxChange();
+    }
+
+    if (huntingQuest.quest_bonus_rewards.length) {
+      $bonusRewards
+        .val([
+          ...huntingQuest.quest_bonus_rewards.map((qbr) =>
+            qbr.item.id.toString()
+          ),
+        ])
+        .trigger('change');
+    }
   }
 
   // Public API
   return {
-    selectedMonstersChangeHandler,
+    initFromHuntingQuest,
   };
 })();
 
