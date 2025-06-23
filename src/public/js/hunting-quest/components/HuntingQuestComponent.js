@@ -472,7 +472,26 @@ export default class HuntingQuestComponent {
       const tableBody = $('<tbody>');
 
       const titleRow = $('<tr>').append(
-        `<th colspan="100%">${rewardType}</th>`
+        `<th colspan="100%">${
+          rewardType == 'Basic Rewards'
+            ? `
+          <div style="display:flex; gap:0.5em; align-items:center;justify-content:center;">
+            <img height='23' src="/icons/Item Icons/ITEM_0000.png"/>
+            ${rewardType}
+          </div>`
+            : rewardType == 'Valuable Rewards'
+            ? `
+          <div style="display:flex; gap:0.5em; align-items:center;justify-content:center;">
+            <div class="item-img-container"
+              data-icon-id="9999"
+              style="--item-icon:url('../icons/Item Icons/ITEM_0000.png'); --item-color: var(--I_BROWN);">
+              <img height='23' src="/icons/Item Icons/ITEM_0000.png" />
+            </div>
+            ${rewardType}
+          </div>
+       `
+            : rewardType
+        } </th>`
       );
       const colRow = $('<tr>').addClass('header-row');
       titleRow.attr('align', 'center');
