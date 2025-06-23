@@ -11,6 +11,8 @@ huntingQuestsRouter.post('/create', huntingQuestController.create_POST);
 
 huntingQuestsRouter.get('/:questId', huntingQuestController.show_GET);
 
+huntingQuestsRouter.get('/:questId/edit', huntingQuestController.edit_GET);
+
 huntingQuestsRouter.put('/:questId', huntingQuestController.edit_PUT);
 
 huntingQuestsRouter.delete('/:questId', huntingQuestController.remove_DELETE);

@@ -356,6 +356,33 @@ const create_POST = [
     }
   }),
 ];
+
+const edit_GET = expressAsyncHandler(async (req, res) => {
+  const { questId } = req.params;
+  const existingHuntingQuest = HuntingQuest.findById(Number(questId));
+  if (!existingHuntingQuest)
+    throw new CustomNotFoundError('No hunting quest found with ID: ' + questId);
+  const monsters = await GameData.monsters__weakness_and_icons_ListGet();
+  const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
+  const monstersDrops = await GameData.monsters_drops__ListGet();
+  const skills = await GameData.skills_ListGet();
+  const weaponTypes = await GameData.weapon_types_ListGet();
+  const weaponAttributes = await GameData.weapon_attributes_ListGet();
+  const systemLoadouts = await GameData.system_loadouts_ListGet();
+
+  res.render('pages/hunting-quest/create', {
+    title: 'Edit Hunting Quest Post',
+    monsters,
+    bonusQuestRewards,
+    monstersDrops,
+    skills,
+    weaponTypes,
+    weaponAttributes,
+    systemLoadouts,
+    existingHuntingQuest,
+  });
+});
+
 const edit_PUT = [
   huntingQuestValidationChain,
   async (req, res) => {
@@ -395,5 +422,6 @@ module.exports = {
   create_GET,
   create_POST,
   remove_DELETE,
+  edit_GET,
   edit_PUT,
 };
