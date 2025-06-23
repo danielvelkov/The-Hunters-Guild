@@ -28,6 +28,7 @@
         weaponTypesList: <%- JSON.stringify(weaponTypes) -%>,
         weaponAttributesList: <%- JSON.stringify(weaponAttributes) -%>,
         systemLoadoutsList: <%- JSON.stringify(systemLoadouts) -%>,
+        existingHuntingQuest: <%- JSON.stringify(locals?.existingHuntingQuest) ?? 'undefined' -%>
       };
       Object.freeze(globalThis.serverData);
     </script>
