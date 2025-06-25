@@ -351,7 +351,7 @@ const HuntingQuest = {
       hr_requirement: 21,
       time_limit: 35,
       crossplay_enabled: true,
-      createdAt: '2025-06-18T13:45:56.974Z',
+      created_at: '2025-06-18T13:45:56.974Z',
     },
   ],
   getAll() {
@@ -362,7 +362,7 @@ const HuntingQuest = {
   },
   addQuest(huntingQuest) {
     const newId = this.nextId + 1;
-    this.data.push({ id: newId, ...huntingQuest, createdAt: new Date() });
+    this.data.push({ id: newId, ...huntingQuest, created_at: new Date() });
     this.nextId++;
     return { success: true, id: newId };
   },

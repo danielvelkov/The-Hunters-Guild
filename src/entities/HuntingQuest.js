@@ -45,7 +45,7 @@ export default class HuntingQuest {
    * @param {QuestMonster[]} [options.quest_monsters=[]] - Quest monsters
    * @param {Slot[]} [options.player_slots=[]] - Player slots
    * @param {QuestBonusReward[]} [options.quest_bonus_rewards=[]] - Quest Bonus rewards. Can only be defined by user who has the quest. Max 30 types (idk gaming cap)
-   * @param {Date} [options.createdAt] - Creation date
+   * @param {Date} [options.created_at] - Creation date
    */
   constructor(options = {}) {
     const {
@@ -63,7 +63,7 @@ export default class HuntingQuest {
       quest_monsters = [],
       player_slots = [],
       quest_bonus_rewards = [],
-      createdAt,
+      created_at,
     } = options;
 
     this.id = id;
@@ -73,7 +73,7 @@ export default class HuntingQuest {
     this.hr_requirement = hr_requirement;
     this.time_limit = time_limit;
     this.crossplay_enabled = crossplay_enabled;
-    this.createdAt = createdAt;
+    this.created_at = created_at;
 
     // Use setters for validation (will be null/empty if invalid during preview)
     this.category = category;
@@ -432,7 +432,7 @@ export default class HuntingQuest {
         s.toJSON ? s.toJSON() : s
       ),
       player_slots: this.player_slots.map((s) => (s.toJSON ? s.toJSON() : s)),
-      createdAt: this.createdAt,
+      created_at: this.created_at,
     };
   }
 
@@ -444,9 +444,10 @@ export default class HuntingQuest {
         dbObject.category.id
       ),
       type: findClassEnumStaticPropInstance(QuestType, dbObject.type.id),
-      gaming_platforms: dbObject.gaming_platforms?.map((qp) =>
-        findClassEnumStaticPropInstance(GamingPlatforms, qp.id)
-      ) ?? [],
+      gaming_platforms:
+        dbObject.gaming_platforms?.map((qp) =>
+          findClassEnumStaticPropInstance(GamingPlatforms, qp.id)
+        ) ?? [],
       quest_monsters: dbObject.quest_monsters.map(
         (qm) =>
           new QuestMonster(
