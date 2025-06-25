@@ -25,6 +25,9 @@ body {
   .themetable tr:nth-child(3) {
     display: table-row;
   }
+  .themetable tr:nth-child(4):has(img) {
+    display: block;
+  }
   .themetable tr:nth-child(8) {
     display: table-row;
   }
