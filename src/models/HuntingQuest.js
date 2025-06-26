@@ -1,3 +1,5 @@
+import pool from '../../db/pool.js';
+
 const MockHuntingQuestStorage = {
   nextId: 0,
   data: [
@@ -388,6 +390,135 @@ const MockHuntingQuestStorage = {
         success: false,
         errors: ['No such quest ID exists.', 'Failed to delete resource.'],
       };
+  },
+};
+
+const HuntingQuestStorage = {
+  /**
+   * Add hunting quest and all related fields to hunting_quests and related tables
+   * @param {HuntingQuest} huntingQuest
+   * @returns
+   */
+  async addQuest(huntingQuest) {
+    try {
+      await pool.query('BEGIN');
+      const insertQuestText = `
+        INSERT INTO hunting_quests (title, description, category_id, type_id,
+          star_rank, area, hr_requirement, time_limit, crossplay_enabled)
+        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+        RETURNING id`;
+
+      const questValues = [
+        huntingQuest.title,
+        huntingQuest.description,
+        huntingQuest.category.id,
+        huntingQuest.type.id,
+        huntingQuest.star_rank,
+        huntingQuest.area,
+        huntingQuest.hr_requirement,
+        huntingQuest.time_limit,
+        huntingQuest.crossplay_enabled,
+      ];
+      const { rows } = await pool.query(insertQuestText, questValues);
+      const questId = rows[0].id;
+
+      // Add gaming platforms if crossplay disabled
+      if (!huntingQuest.crossplay_enabled)
+        for (const gp of huntingQuest.gaming_platforms)
+          await pool.query(
+            `INSERT INTO quest_crossplay_platforms (quest_id, gaming_platform_id)
+       VALUES ($1, $2)`,
+            [questId, gp.id]
+          );
+
+      // Add quest monsters
+      for (const m of huntingQuest.quest_monsters) {
+        await pool.query(
+          `INSERT INTO quest_monsters (quest_id, monster_id, variant_id, crown_id, strength)
+       VALUES ($1, $2, $3, $4, $5)`,
+          [questId, m.monster.id, m.variant.id, m.crown.id, m.strength]
+        );
+      }
+
+      // Add quest bonus rewards
+      for (const r of huntingQuest.quest_bonus_rewards) {
+        await pool.query(
+          `INSERT INTO quest_bonus_rewards (quest_id, item_id, quantity)
+       VALUES ($1, $2, $3)`,
+          [questId, r.item.id, r.quantity]
+        );
+      }
+
+      // Add player slots
+      for (let [index, s] of huntingQuest.player_slots.entries()) {
+        const { rows: loadoutRows } = await pool.query(
+          `INSERT INTO loadouts (name, description) 
+          VALUES ($1, $2)
+          RETURNING id`,
+          [s.loadout.name, s.loadout.description]
+        );
+        const loadoutId = loadoutRows[0].id;
+
+        // Roles
+        for (const r of s.loadout.roles)
+          await pool.query(
+            `INSERT INTO loadout_roles (loadout_id, role_id) 
+          VALUES ($1, $2)`,
+            [loadoutId, r.id]
+          );
+
+        // Weapon Types
+        for (const wt of s.loadout.weapon_types)
+          await pool.query(
+            `INSERT INTO loadout_weapon_types (loadout_id, weapon_type_id) 
+          VALUES ($1, $2)`,
+            [loadoutId, wt.id]
+          );
+
+        // Weapon Attr
+        for (const attr of s.loadout.weapon_attr)
+          await pool.query(
+            `INSERT INTO loadout_weapon_attributes (loadout_id, weapon_attribute_id) 
+          VALUES ($1, $2)`,
+            [loadoutId, attr.id]
+          );
+
+        // Skills
+        for (const skill of s.loadout.skills)
+          await pool.query(
+            `INSERT INTO loadout_skills (loadout_id, skill_id, min_level) 
+          VALUES ($1, $2, $3)`,
+            [loadoutId, skill.id, skill.min_level]
+          );
+
+        // Convert to PostgreSQL composite type array string
+        const formattedArray = `ARRAY[${s.focusedMonsterParts
+          .map((mp) => `ROW(${mp.id}, '${mp.name}', '${mp.monster}')`)
+          .join(', ')}]::monster_part_focus[]`;
+
+        await pool.query(
+          `INSERT INTO player_slots (quest_id, slot_index, 
+          loadout_id, slot_config_type, display_name, is_owner, notes, can_edit,
+        focused_monster_parts)
+        VALUES($1, $2, $3, $4, $5, $6, $7, $8, ${formattedArray} ) `,
+          [
+            questId,
+            index,
+            loadoutId,
+            s.configurationType.name,
+            s.displayName,
+            s.isOwner,
+            s.notes,
+            s.canEdit,
+          ]
+        );
+      }
+      await pool.query('COMMIT');
+      return { success: true, id: questId };
+    } catch (e) {
+      await pool.query('ROLLBACK');
+      return { success: false, errors: [e.message] };
+    }
   },
 };
 
