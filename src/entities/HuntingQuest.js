@@ -1,18 +1,18 @@
-import QuestCategory from './game-data/QuestCategory';
-import QuestType from './game-data/QuestType';
-import GamingPlatforms from './game-data/GamingPlatforms';
-import QuestMonster from './QuestMonster';
-import Slot from './Slot';
-import MonsterVariant from './game-data/MonsterVariant';
-import QuestBonusReward from './QuestBonusRewards';
+import QuestCategory from './game-data/QuestCategory.js';
+import QuestType from './game-data/QuestType.js';
+import GamingPlatforms from './game-data/GamingPlatforms.js';
+import QuestMonster from './QuestMonster.js';
+import Slot from './Slot.js';
+import MonsterVariant from './game-data/MonsterVariant.js';
+import QuestBonusReward from './QuestBonusRewards.js';
 import {
   filterOutMaliciousSymbols,
   findClassEnumStaticPropInstance,
-} from 'js/common/util';
-import Monster from './game-data/Monster';
-import MonsterCrown from './game-data/MonsterCrown';
-import { Loadout } from './Loadout';
-import Item from './game-data/Item';
+} from '../public/js/common/util.js';
+import Monster from './game-data/Monster.js';
+import MonsterCrown from './game-data/MonsterCrown.js';
+import { Loadout } from './Loadout.js';
+import Item from './game-data/Item.js';
 
 /** Class representing a Game Hunting Quest */
 export default class HuntingQuest {

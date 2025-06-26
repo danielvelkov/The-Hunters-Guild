@@ -1,5 +1,6 @@
 {
   "name": "the-hunters-guild",
+  "type": "module",
   "version": "1.0.0",
   "description": "A simple express app serving as an LFG hub, specifically made for \"Monster Hunter Wilds\"",
   "main": "app.js",

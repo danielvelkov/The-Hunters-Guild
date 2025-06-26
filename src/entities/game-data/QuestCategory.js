@@ -29,4 +29,4 @@ class QuestCategory {
   }
 }
 
-module.exports = QuestCategory;
+export default QuestCategory;

@@ -29,4 +29,4 @@ class WeaponAttribute {
   }
 }
 
-module.exports = WeaponAttribute;
+export default WeaponAttribute;

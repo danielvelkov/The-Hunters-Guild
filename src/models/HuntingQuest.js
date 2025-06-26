@@ -1,4 +1,4 @@
-const HuntingQuest = {
+const MockHuntingQuestStorage = {
   nextId: 0,
   data: [
     {
@@ -391,4 +391,4 @@ const HuntingQuest = {
   },
 };
 
-module.exports = HuntingQuest;
+export default MockHuntingQuestStorage;

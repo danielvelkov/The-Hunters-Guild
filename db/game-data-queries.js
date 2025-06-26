@@ -1,5 +1,8 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Helper function to load SQL files
 function loadSqlFile(filename) {
@@ -22,5 +25,4 @@ const queries = {
      FROM weapon_attributes JOIN status_icons on status_icons.name ILIKE weapon_attributes.id ;`,
 };
 
-
-module.exports = queries;
+export default queries;

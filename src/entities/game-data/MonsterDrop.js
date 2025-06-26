@@ -1,4 +1,4 @@
-const Item = require('./Item');
+import Item from './Item.js';
 
 /** Represents monster drop item info. */
 class MonsterDrop extends Item {
@@ -48,4 +48,4 @@ class MonsterDrop extends Item {
   }
 }
 
-module.exports = MonsterDrop;
+export default MonsterDrop;

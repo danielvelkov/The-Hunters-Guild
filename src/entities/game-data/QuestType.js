@@ -23,4 +23,4 @@ class QuestType {
   }
 }
 
-module.exports = QuestType;
+export default QuestType;

@@ -19,6 +19,9 @@ const config = {
   },
   // If using subpath imports
   resolver: undefined, // Jest handles subpath imports automatically in newer versions
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
 };
 
-module.exports = config;
+export default config;

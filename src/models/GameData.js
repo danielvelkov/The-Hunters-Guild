@@ -1,14 +1,14 @@
-const pool = require('../../db/pool');
-const Item = require('../entities/game-data/Item');
-const Monster = require('../../src/entities/game-data/Monster');
-const MonsterDrop = require('../../src/entities/game-data/MonsterDrop');
-const Skill = require('../../src/entities/game-data/Skill');
-const WeaponAttribute = require('../../src/entities/game-data/WeaponAttribute');
-const WeaponType = require('../../src/entities/game-data/WeaponType');
+import pool from '../../db/pool.js';
+import Item from '../entities/game-data/Item.js';
+import Monster from '../../src/entities/game-data/Monster.js';
+import MonsterDrop from '../../src/entities/game-data/MonsterDrop.js';
+import Skill from '../../src/entities/game-data/Skill.js';
+import WeaponAttribute from '../../src/entities/game-data/WeaponAttribute.js';
+import WeaponType from '../../src/entities/game-data/WeaponType.js';
 
-const queries = require('../../db/game-data-queries');
+import queries from '../../db/game-data-queries.js';
 
-const sample_loadouts = require('./sample_loadouts');
+import sample_loadouts from './sample_loadouts.js';
 /**
  * Retrieves a list containing base details for each monster with
  * the monsters weaknesses and icons for the monster
@@ -359,7 +359,7 @@ function getSkillsDescriptionsArr(row) {
   return skillDescriptions;
 }
 
-module.exports = {
+export default {
   bonus_quest_rewards__ListGet,
   monsters__weakness_and_icons_ListGet,
   monsters_drops__ListGet,

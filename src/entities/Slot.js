@@ -1,6 +1,9 @@
-import { filterOutMaliciousSymbols, guidGenerator } from 'js/common/util.js';
-import { Loadout } from './Loadout';
-import SlotConfigType from './SlotConfigType';
+import {
+  filterOutMaliciousSymbols,
+  guidGenerator,
+} from '../public/js/common/util.js';
+import { Loadout } from './Loadout.js';
+import SlotConfigType from './SlotConfigType.js';
 
 /**
  * Slot details for Hunting Quest

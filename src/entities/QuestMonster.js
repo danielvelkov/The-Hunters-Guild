@@ -1,6 +1,6 @@
-import Monster from './game-data/Monster';
-import MonsterVariant from './game-data/MonsterVariant';
-import MonsterCrown from './game-data/MonsterCrown';
+import Monster from './game-data/Monster.js';
+import MonsterVariant from './game-data/MonsterVariant.js';
+import MonsterCrown from './game-data/MonsterCrown.js';
 
 /** Class representing selected monster and additional details like if it has a crown.  */
 export default class QuestMonster {

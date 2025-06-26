@@ -30,4 +30,4 @@ class WeaponType {
   }
 }
 
-module.exports = WeaponType;
+export default WeaponType;

@@ -1,5 +1,5 @@
 import 'css/pages/hunting-quest/index.css';
-import HuntingQuestComponent from './components/HuntingQuestComponent';
+import HuntingQuestComponent from './components/HuntingQuestComponent.js';
 
 const {
   huntingQuests,

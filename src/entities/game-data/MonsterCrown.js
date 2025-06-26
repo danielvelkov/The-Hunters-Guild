@@ -23,4 +23,4 @@ class MonsterCrown {
   }
 }
 
-module.exports = MonsterCrown;
+export default MonsterCrown;

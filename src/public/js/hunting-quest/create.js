@@ -23,7 +23,7 @@ import { Loadout } from 'entities/Loadout.js';
 import HuntingQuestFormModel from './create/HuntingQuestFormModel.js';
 import QuestMonster from 'entities/QuestMonster.js';
 import QuestBonusReward from 'entities/QuestBonusRewards.js';
-import HuntingQuestComponent from './components/HuntingQuestComponent';
+import HuntingQuestComponent from './components/HuntingQuestComponent.js';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 import HuntingQuest from 'entities/HuntingQuest.js';

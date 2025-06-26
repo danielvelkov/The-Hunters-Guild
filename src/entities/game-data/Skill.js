@@ -31,4 +31,4 @@ class Skill {
   }
 }
 
-module.exports = Skill;
+export default Skill;

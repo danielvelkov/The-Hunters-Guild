@@ -20,4 +20,4 @@ class GamingPlatforms {
   }
 }
 
-module.exports = GamingPlatforms;
+export default GamingPlatforms;

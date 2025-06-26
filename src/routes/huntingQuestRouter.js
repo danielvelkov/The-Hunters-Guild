@@ -1,5 +1,5 @@
-const express = require('express');
-const huntingQuestController = require('../controllers/huntingQuestController');
+import express from 'express';
+import huntingQuestController from '../controllers/huntingQuestController.js';
 
 const huntingQuestsRouter = express.Router();
 
@@ -34,4 +34,4 @@ huntingQuestsRouter.use((err, req, res, next) => {
     });
 });
 
-module.exports = huntingQuestsRouter;
+export default huntingQuestsRouter;

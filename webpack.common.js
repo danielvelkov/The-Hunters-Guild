@@ -1,9 +1,12 @@
-const path = require('path');
-const webpack = require('webpack');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // Extracts CSS into separate files
-const CopyWebpackPlugin = require('copy-webpack-plugin'); // Copies files/directories to the build directory
+import path from 'path';
+import webpack from 'webpack';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'; // Extracts CSS into separate files
+import CopyWebpackPlugin from 'copy-webpack-plugin'; // Copies files/directories to the build directory
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-module.exports = {
+export default {
   // Entry points define where Webpack starts building the bundle
   // Each entry point will produce a separate output file
   entry: {

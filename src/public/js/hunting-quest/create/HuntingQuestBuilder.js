@@ -1,9 +1,9 @@
-import createPageMediator from 'js/common/mediator';
-import HuntingQuestFormModel from './HuntingQuestFormModel';
-import { QUEST_PREVIEW_CHANGE } from 'js/common/events';
+import createPageMediator from 'js/common/mediator.js';
+import HuntingQuestFormModel from './HuntingQuestFormModel.js';
+import { QUEST_PREVIEW_CHANGE } from 'js/common/events.js';
 
 /**
- * Builds a hunting quest and remembers different sections 
+ * Builds a hunting quest and remembers different sections
  */
 export default class HuntingQuestBuilder {
   constructor() {

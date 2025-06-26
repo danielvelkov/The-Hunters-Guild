@@ -1,11 +1,11 @@
 #! /usr/bin/env node
 
-require('dotenv').config();
-const fs = require('fs');
-const path = require('path');
-const os = require('os');
-const readline = require('readline');
-const { Client } = require('pg');
+import 'dotenv/config';
+import path from 'path';
+import fs from 'fs';
+import os from 'os';
+import readline from 'readline';
+import { Client } from 'pg';
 
 async function getFirstLine(pathToFile) {
   const readable = fs.createReadStream(pathToFile);

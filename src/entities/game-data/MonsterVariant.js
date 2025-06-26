@@ -25,4 +25,4 @@ class MonsterVariant {
   }
 }
 
-module.exports = MonsterVariant;
+export default MonsterVariant;

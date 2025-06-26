@@ -1,5 +1,5 @@
 import 'css/pages/hunting-quest/show.css';
-import HuntingQuestComponent from './components/HuntingQuestComponent';
+import HuntingQuestComponent from './components/HuntingQuestComponent.js';
 
 const { huntingQuest, monstersDropsList } = globalThis.serverData;
 

@@ -1,18 +1,18 @@
-const expressAsyncHandler = require('express-async-handler');
-const CustomNotFoundError = require('../errors/CustomNotFoundError');
-const GameData = require('../models/GameData');
-const HuntingQuest = require('../models/HuntingQuest');
-const { body, validationResult } = require('express-validator');
-const MonsterVariant = require('../entities/game-data/MonsterVariant');
-const { findClassEnumStaticPropInstance } = require('../public/js/common/util');
-const MonsterCrown = require('../entities/game-data/MonsterCrown');
-const GamingPlatforms = require('../entities/game-data/GamingPlatforms');
-const QuestCategory = require('../entities/game-data/QuestCategory');
-const QuestType = require('../entities/game-data/QuestType');
-const SlotConfigType = require('../entities/SlotConfigType');
-const { LoadoutRole } = require('../entities/Loadout');
-const WeaponType = require('../entities/game-data/WeaponType');
-const WeaponAttribute = require('../entities/game-data/WeaponAttribute');
+import expressAsyncHandler from 'express-async-handler';
+import CustomNotFoundError from '../errors/CustomNotFoundError.js';
+import GameData from '../models/GameData.js';
+import HuntingQuest from '../models/HuntingQuest.js';
+import { body, validationResult } from 'express-validator';
+import MonsterVariant from '../entities/game-data/MonsterVariant.js';
+import { findClassEnumStaticPropInstance } from '../public/js/common/util.js';
+import MonsterCrown from '../entities/game-data/MonsterCrown.js';
+import GamingPlatforms from '../entities/game-data/GamingPlatforms.js';
+import QuestCategory from '../entities/game-data/QuestCategory.js';
+import QuestType from '../entities/game-data/QuestType.js';
+import SlotConfigType from '../entities/SlotConfigType.js';
+import { LoadoutRole } from '../entities/Loadout.js';
+import WeaponType from '../entities/game-data/WeaponType.js';
+import WeaponAttribute from '../entities/game-data/WeaponAttribute.js';
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -416,7 +416,7 @@ const remove_DELETE = expressAsyncHandler(async (req, res) => {
   if (success) res.status(200).redirect('/');
   else throw new CustomNotFoundError(errors.join(' '));
 });
-module.exports = {
+export default {
   index_GET,
   show_GET,
   create_GET,

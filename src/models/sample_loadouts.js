@@ -1,6 +1,6 @@
-const { LoadoutRole, LoadoutSkill, Loadout } = require('../entities/Loadout');
-const WeaponType = require('../entities/game-data/WeaponType');
-const WeaponAttribute = require('../entities/game-data/WeaponAttribute');
+import { LoadoutRole, LoadoutSkill, Loadout } from '../entities/Loadout.js';
+import WeaponType from '../entities/game-data/WeaponType.js';
+import WeaponAttribute from '../entities/game-data/WeaponAttribute.js';
 
 const skillsMap = {
   AttackBoost: new LoadoutSkill(
@@ -528,7 +528,7 @@ const skillsMap = {
   ),
 };
 
-module.exports = [
+export default [
   // Great Sword Meta Build
   new Loadout(
     'Crit Draw Great Sword',

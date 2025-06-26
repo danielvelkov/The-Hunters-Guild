@@ -1,10 +1,15 @@
-require('dotenv').config();
-const huntingQuestsRouter = require('./src/routes/huntingQuestRouter');
+import 'dotenv/config';
+import huntingQuestsRouter from './src/routes/huntingQuestRouter.js';
+import path from 'path';
+import express from 'express';
+import methodOverride from 'method-override';
+import { fileURLToPath } from 'url';
+
 const { PORT } = process.env;
-const path = require('path');
-const express = require('express');
 const app = express();
-const methodOverride = require('method-override');
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'dist')));
@@ -16,10 +21,9 @@ app.use(express.json());
 app.use('/', huntingQuestsRouter);
 
 // Export the app for use with browser-sync in development mode
-module.exports = app;
+export default app;
 
-// Only start the server directly if not being imported elsewhere
-if (require.main === module) {
+if (import.meta.url === `file://${process.argv[1]}`) {
   app.listen(PORT, () => {
     console.log('Hunters guild listening on port:' + PORT);
   });

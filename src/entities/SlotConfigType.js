@@ -21,4 +21,4 @@ class SlotConfigType {
   }
 }
 
-module.exports = SlotConfigType;
+export default SlotConfigType;

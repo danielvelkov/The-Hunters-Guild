@@ -1,13 +1,13 @@
-const {
+import {
   findClassEnumStaticPropInstance,
   filterOutMaliciousSymbols,
-} = require('../public/js/common/util');
-const Skill = require('./game-data/Skill');
-const WeaponAttribute = require('./game-data/WeaponAttribute');
-const WeaponType = require('./game-data/WeaponType');
+} from '../public/js/common/util.js';
+import Skill from './game-data/Skill.js';
+import WeaponAttribute from './game-data/WeaponAttribute.js';
+import WeaponType from './game-data/WeaponType.js';
 
 /** Class representing info about a loadout. */
-class Loadout {
+export class Loadout {
   /**
    * @param {string} name Loadout display name. Max length - 50
    * @param {string} description Loadout description. Max length - 100
@@ -174,7 +174,7 @@ class Loadout {
 }
 
 /** Enum about loadout roles. */
-class LoadoutRole {
+export class LoadoutRole {
   static DPS = new LoadoutRole(1, 'DPS', 'Tons of damage.');
   static STATUS = new LoadoutRole(2, 'Status', 'Applies status.');
   static TANK = new LoadoutRole(3, 'Tank', 'Can take a hit.');
@@ -196,7 +196,7 @@ class LoadoutRole {
 /**
  * Loadout Skill info
  */
-class LoadoutSkill extends Skill {
+export class LoadoutSkill extends Skill {
   /**
    * @param {string} id Unique Skill ID.
    * @param {string} name Skill name.
@@ -232,9 +232,3 @@ class LoadoutSkill extends Skill {
     this.min_level = min_level;
   }
 }
-
-module.exports = {
-  Loadout,
-  LoadoutRole,
-  LoadoutSkill,
-};

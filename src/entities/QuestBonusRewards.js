@@ -1,4 +1,4 @@
-const Item = require('./game-data/Item');
+import Item from './game-data/Item.js';
 
 class QuestBonusReward {
   #item;
@@ -43,4 +43,4 @@ class QuestBonusReward {
   }
 }
 
-module.exports = QuestBonusReward;
+export default QuestBonusReward;

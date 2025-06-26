@@ -1,8 +1,12 @@
-require('dotenv').config();
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
+import 'dotenv/config';
+import path from 'path';
+import { merge } from 'webpack-merge';
+import common from './webpack.common.js';
 const { PORT } = process.env;
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 /**
  * DEVELOPMENT WEBPACK CONFIG:
@@ -16,7 +20,7 @@ const { PORT } = process.env;
  * Another added thing is a 'source map' tool so that any error messages reference files and
  * lines from our development code and not the jumbled mess inside our single bundled .js file
  */
-module.exports = merge(common, {
+export default merge(common, {
   mode: 'development',
   devtool: 'eval-source-map',
   devServer: {
