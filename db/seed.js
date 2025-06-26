@@ -3,6 +3,7 @@
 import 'dotenv/config';
 import path from 'path';
 import fs from 'fs';
+import fsp from 'fs/promises';
 import os from 'os';
 import readline from 'readline';
 import { fileURLToPath } from 'url';
@@ -44,6 +45,9 @@ const setStatusIconsNamesSQL = fs
   .toString();
 const setTablesPrimaryKeys = fs
   .readFileSync(path.join(__dirname, 'manual-seed/setTablesPrimaryKeys.sql'))
+  .toString();
+const triggersSetupQuery = fs
+  .readFileSync(path.join(__dirname, 'triggers.sql'))
   .toString();
 
 const csvDir = path.join(__dirname, '../data/csv');
@@ -93,6 +97,23 @@ async function seed() {
 
     console.log('adding web app tables/enums related to hunting quest');
     await client.query(huntingQuestSchemaQuery);
+
+    console.log('adding triggers functions');
+    const triggerDir = path.join(__dirname, 'triggers');
+    const files = await fsp.readdir(triggerDir, { withFileTypes: true });
+
+    for (const file of files) {
+      if (file.isFile()) {
+        const sql = await fsp.readFile(
+          path.join(triggerDir, file.name),
+          'utf-8'
+        );
+        await client.query(sql);
+      }
+    }
+
+    await client.query(triggersSetupQuery);
+
     await client.query('COMMIT');
     console.log('done');
   } catch (err) {
