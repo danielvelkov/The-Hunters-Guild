@@ -404,7 +404,7 @@ describe('player composition section', () => {
     mediator.trigger(SELECTED_MONSTERS_CHANGE, [mockMonsters[0]]);
     const options = within(monsterPartDropdown).getAllByRole('option');
 
-    const optionValue = options[0].textContent.trim();
+    const optionValue = options[0].textContent.trim().split(' ')[0];
 
     await user.selectOptions(monsterPartDropdown, [options[0].value]);
     const tablist = screen.getByRole('tablist', {
