@@ -21,6 +21,7 @@ class Monster {
    * @param {string} weaknesses[].ailments[].name Monster ailment weakness name.
    * @param {string} weaknesses[].ailments[].icon Icon name
    * @param {Object[]} part_dmg_effectiveness Damage effectiveness of certain elements or types to a monster part.
+   * @param {string} part_dmg_effectiveness[].id Monster part id.
    * @param {string} part_dmg_effectiveness[].name Monster part name.
    * @param {string} part_dmg_effectiveness[].icon Monster part Icon name.
    * @param {Object[]} part_dmg_effectiveness[].damages Damage type name and effectiveness value.

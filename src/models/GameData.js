@@ -283,6 +283,7 @@ function getPartDamageEffectivenessForMonster(
   const result = [];
   monsterPartDamagesRows.forEach((row) => {
     const part = {};
+    part.id = row.id;
     part.name = row.parts_type;
     part.icon = row.icon;
     const damagesArr = [];

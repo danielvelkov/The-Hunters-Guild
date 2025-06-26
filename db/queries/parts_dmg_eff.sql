@@ -1,6 +1,7 @@
 -- parts_dmg_eff.sql
 -- Selects all dmg effectiveness for all monsters' parts. Higher is better.
 SELECT DISTINCT
+    monster_parts.index as id,
     m.monster_id,
     m.monster,
     name as parts_type,

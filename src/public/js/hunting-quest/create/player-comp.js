@@ -388,6 +388,7 @@ class PlayerComp {
           .map((m) => ({
             monster: m.name,
             parts: m.part_dmg_effectiveness.map((p) => ({
+              id: p.id,
               name: p.name,
               icon: p.icon,
             })),
@@ -403,7 +404,7 @@ class PlayerComp {
                 (p) =>
                   `<option data-icon="${
                     p.icon === 'INVALID' ? 'ITEM_0001' : p.icon
-                  }" value="${monster}-${p.name}">
+                  }" value="${monster}-${p.name}-${p.id}">
                     ${p.name + ` (${monster})`}
                   </option>`
               )
@@ -423,7 +424,11 @@ class PlayerComp {
       // Select monster parts
       if (slot.focusedMonsterParts.length) {
         monsterPartSelect
-          .val(slot.focusedMonsterParts.map((r) => r.monster + '-' + r.name))
+          .val(
+            slot.focusedMonsterParts.map(
+              (r) => r.monster + '-' + r.name + '-' + r.id
+            )
+          )
           .trigger('change');
       } else monsterPartSelect.val(null).trigger('change');
     } else {
@@ -971,6 +976,7 @@ function processFormData(formData, originalSlot) {
           .includes(value.split('-')[1])
       )
         newSlot.focusedMonsterParts.push({
+          id: value.split('-')[2],
           name: value.split('-')[1],
           monster: value.split('-')[0],
         });
