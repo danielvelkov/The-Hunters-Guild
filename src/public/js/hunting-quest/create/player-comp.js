@@ -399,14 +399,13 @@ class PlayerComp {
           .map(({ monster, parts }) => {
             let optGroupHTML = `<optgroup label="${monster}">`;
             optGroupHTML += parts
-              // .sort((qr1, qr2) => qr1.rarity - qr2.rarity)
               .map(
                 (p) =>
                   `<option data-icon="${
                     p.icon === 'INVALID' ? 'ITEM_0001' : p.icon
                   }" value="${monster}-${p.name}">
-          ${p.name}
-        </option>`
+                    ${p.name + ` (${monster})`}
+                  </option>`
               )
               .join('');
             optGroupHTML += '</optgroup>';
