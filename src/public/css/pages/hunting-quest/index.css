@@ -29,7 +29,7 @@ body {
     display: block;
   }
   .themetable tr:nth-child(8) {
-    display: table-row;
+    display: block;
   }
   .themetable tr:nth-last-child(1) {
     display: table-row;
