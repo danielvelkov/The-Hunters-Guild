@@ -78,8 +78,8 @@ export class Loadout {
       !Array.isArray(value) ||
       value.some((role) => !(role instanceof LoadoutRole))
     ) {
-      console.warn('Invalid roles. Must be an array of LoadoutRole.');
-      return;
+      console.warn('Invalid roles. Must be an array of LoadoutRole. Setting default: empty roles.');
+      return [];
     }
     this._roles = value;
   }
@@ -93,8 +93,8 @@ export class Loadout {
       !Array.isArray(value) ||
       value.some((type) => !(type instanceof WeaponType))
     ) {
-      console.warn('Invalid weapon_types. Must be an array of WeaponType.');
-      return;
+      console.warn('Invalid weapon_types. Must be an array of WeaponType. Setting default: empty weapon_types.');
+      return [];
     }
     this._weapon_types = value;
   }
@@ -110,9 +110,8 @@ export class Loadout {
         value.length &&
         value.some((attr) => !(attr instanceof WeaponAttribute)))
     ) {
-      console.log(value);
-      console.warn('Invalid weapon_attr. Must be an array of WeaponAttribute.');
-      return;
+      console.warn('Invalid weapon_attr. Must be an array of WeaponAttribute. Setting default: empty weapon_attr.');
+      return [];
     }
     this._weapon_attr = value;
   }
