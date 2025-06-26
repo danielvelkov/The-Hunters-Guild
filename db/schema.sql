@@ -77,3 +77,18 @@ INSERT INTO monster_crowns VALUES
     (3, 'Silver'),
     (4, 'Gold');
 
+-- MAIN HUNTING QUESTS TABLE
+
+CREATE TABLE hunting_quests (
+    id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    title VARCHAR(100),
+    description VARCHAR(100),
+    category_id INTEGER NOT NULL REFERENCES quest_categories(id),
+    type_id INTEGER NOT NULL REFERENCES quest_types(id),
+    star_rank star_rank_enum NOT NULL,
+    area locale_enum NOT NULL,
+    hr_requirement INTEGER,
+    time_limit INTEGER,
+    crossplay_enabled BOOLEAN DEFAULT true,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
