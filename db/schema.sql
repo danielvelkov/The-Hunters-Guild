@@ -142,3 +142,44 @@ CREATE TABLE player_slots (
     focused_monster_parts monster_part_focus[]
 );
 
+-- LOADOUT-RELATED TABLES
+
+CREATE TABLE roles (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    summary VARCHAR(100) NOT NULL
+);
+
+INSERT INTO roles VALUES 
+    (1, 'DPS', 'Tons of damage.'),
+    (2, 'Status', 'Applies status.'),
+    (3, 'Tank', 'Can take a hit.'),
+    (4, 'Support', 'Heals/buffs teammates.');
+
+-- LOADOUT JOIN TABLES
+
+CREATE TABLE loadout_roles (
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    role_id INTEGER NOT NULL REFERENCES roles(id),
+    UNIQUE(loadout_id, role_id)
+);
+
+CREATE TABLE loadout_weapon_types (
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    weapon_type_id text NOT NULL REFERENCES weapon_types(index), --MANUALLY MADE INTO A PK
+    UNIQUE (loadout_id, weapon_type_id)
+);
+
+CREATE TABLE loadout_weapon_attributes (
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    weapon_attribute_id text NOT NULL REFERENCES weapon_attributes(index), --MANUALLY MADE INTO A PK
+    UNIQUE (loadout_id, weapon_attribute_id)
+);
+
+CREATE TABLE loadout_skills (
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    skill_id text NOT NULL REFERENCES skills(id), --MANUALLY MADE INTO A PK
+    min_level INTEGER NOT NULL DEFAULT 1,
+    UNIQUE(loadout_id, skill_id)
+);
+
