@@ -1,10 +1,10 @@
-var monsters = require('./jsondata/monsters.json');
-var bonusQuestRewards = require('./jsondata/bonusQuestRewards.json');
-var monstersDrops = require('./jsondata/monstersDrops.json');
-var skills = require('./jsondata/skills.json');
-var systemLoadouts = require('./jsondata/systemLoadouts.json');
-var weaponAttributes = require('./jsondata/weaponAttributes.json');
-var weaponTypes = require('./jsondata/weaponTypes.json');
+import monsters from './jsondata/monsters.json' with { type: 'json' };
+import bonusQuestRewards from './jsondata/bonusQuestRewards.json' with { type: 'json' };
+import monstersDrops from './jsondata/monstersDrops.json' with { type: 'json' };
+import skills from './jsondata/skills.json' with { type: 'json' };
+import systemLoadouts from './jsondata/systemLoadouts.json' with { type: 'json' };
+import weaponAttributes from './jsondata/weaponAttributes.json' with { type: 'json' };
+import weaponTypes from './jsondata/weaponTypes.json' with { type: 'json' };
 
 const monsters__weakness_and_icons_ListGet = () => {
   return monsters;
