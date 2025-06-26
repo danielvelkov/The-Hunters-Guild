@@ -92,3 +92,27 @@ CREATE TABLE hunting_quests (
     crossplay_enabled BOOLEAN DEFAULT true,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+-- HUNTING QUEST JOIN TABLES
+
+CREATE TABLE quest_monsters (
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    monster_id text NOT NULL REFERENCES monsters(em_id), --PK MUST BE MANUALLY SET
+    variant_id INTEGER NOT NULL REFERENCES monster_variants(id),
+    crown_id INTEGER NOT NULL REFERENCES monster_crowns(id),
+    strength INTEGER
+);
+
+
+CREATE TABLE quest_bonus_rewards (
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    item_id text NOT NULL REFERENCES items(id), --PK MUST BE MANUALLY SET
+    quantity INTEGER,
+    UNIQUE(quest_id, item_id)
+);
+
+CREATE TABLE quest_crossplay_platforms (
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    gaming_platform_id INTEGER NOT NULL REFERENCES gaming_platforms(id),
+    UNIQUE(quest_id, gaming_platform_id)
+);
+
