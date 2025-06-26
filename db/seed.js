@@ -42,6 +42,9 @@ const huntingQuestSchemaQuery = fs.readFileSync('db/schema.sql').toString();
 const setStatusIconsNamesSQL = fs
   .readFileSync(path.join(__dirname, 'manual-seed/updateStatusIconsNames.sql'))
   .toString();
+const setTablesPrimaryKeys = fs
+  .readFileSync(path.join(__dirname, 'manual-seed/setTablesPrimaryKeys.sql'))
+  .toString();
 
 const csvDir = path.join(__dirname, '../data/csv');
 const csvFiles = fs.readdirSync(csvDir);
@@ -81,6 +84,9 @@ async function seed() {
       fs.unlinkSync(tempFilePath);
       console.log('Temp File deleted after use');
     }
+
+    console.log('setting primary keys to some imported tables...');
+    await client.query(setTablesPrimaryKeys);
 
     // no references for some icons anywhere, so they're manually added
     await client.query(setStatusIconsNamesSQL);
