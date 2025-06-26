@@ -75,11 +75,13 @@ class HuntingQuestFormModel extends HuntingQuest {
   getValidationErrors() {
     const errors = {};
 
+    if (this.quest_monsters.length === 0) {
+      errors.quest_monsters = 'At least one selected monster is required';
+      return errors;
+    }
     if (!this.category) errors.category = 'Category is required';
     if (!this.type) errors.type = 'Type is required';
     if (!this.area) errors.area = 'Area is required';
-    if (this.quest_monsters.length === 0)
-      errors.quest_monsters = 'At least one selected monster is required';
     if (this.player_slots.length < 2)
       errors.player_slots = 'At least 2 player slots are required for a quest';
 
