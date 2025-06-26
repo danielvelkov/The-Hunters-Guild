@@ -2,6 +2,7 @@ import {
   getDmgColor,
   getQuestCategoryStyle,
   formatSkillInfoTooltip,
+  chooseEmoteBasedOnPart,
 } from '../../common/util.js';
 import { guidGenerator } from 'js/common/util.js';
 import HuntingQuest from 'entities/HuntingQuest';
@@ -628,7 +629,35 @@ export default class HuntingQuestComponent {
         </div>
         <div class="skills-flex">
         </div>
-        ${slot.notes ? `<p>${slot.notes}</p>` : ''}`
+        ${
+          slot.focusedMonsterParts?.length
+            ? `<div class="focused-parts-container"><hr style="width:100%"><span>Focused parts:</span><div class="flex-row" style="background-color: var(--secondary-color)">
+            ${Object.values(
+              Object.groupBy(slot.focusedMonsterParts, ({ monster }) => monster)
+            )
+              .map((partsArr) => {
+                const monsterFocusSection = $('<div>')
+                  .addClass('flex-col')
+                  .css('align-items', 'center')
+                  .css('width', '100%');
+                monsterFocusSection.append(
+                  `<span><u>${partsArr[0].monster}</u></span>`
+                );
+                partsArr.forEach((p) => {
+                  monsterFocusSection.append(
+                    `<span>[ ${p.name} ${chooseEmoteBasedOnPart(
+                      p.name
+                    )} ]</span>`
+                  );
+                });
+                return monsterFocusSection[0].outerHTML;
+              })
+              .join('')}
+          </div></div>`
+            : ''
+        }
+        ${slot.notes ? `<p><i>${slot.notes}</i></p>` : ''}
+        `
     );
 
     const skillsWithTooltips = slot.loadout.skills.map((s) => {
