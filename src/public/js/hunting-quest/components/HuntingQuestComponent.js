@@ -332,6 +332,15 @@ export default class HuntingQuestComponent {
           <th><img height="20" src="/icons/Status Icons/STATUS_0047.png" title="Flash" alt="Flash"></th>
         </tr>
         ${monster.part_dmg_effectiveness
+          .sort((pde1, pde2) => {
+            const dmgSum1 = Math.sumPrecise(
+              pde1.damages.map((d) => Number(d.value))
+            );
+            const dmgSum2 = Math.sumPrecise(
+              pde2.damages.map((d) => Number(d.value))
+            );
+            return dmgSum2 - dmgSum1;
+          })
           .map((de) => {
             let tableRow = '<tr>';
             tableRow = tableRow.concat(
