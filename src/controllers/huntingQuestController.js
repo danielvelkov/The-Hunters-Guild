@@ -209,12 +209,13 @@ const huntingQuestValidationChain = [
 ];
 
 const index_GET = async (req, res) => {
-  const huntingQuests = HuntingQuest.getAll();
+  const huntingQuests = await HuntingQuest.getAll();
   const weaponTypes = await GameData.weapon_types_ListGet();
   const weaponAttributes = await GameData.weapon_attributes_ListGet();
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const monstersDrops = await GameData.monsters_drops__ListGet();
   const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
+  const skills = await GameData.skills_ListGet();
   huntingQuests.forEach((hq) => {
     hq.quest_monsters = hq.quest_monsters.map((qm) => ({
       ...qm,
@@ -224,6 +225,16 @@ const index_GET = async (req, res) => {
       item: bonusQuestRewards.find((r) => r.id === qbr.item.id),
       quantity: qbr.quantity,
     }));
+    hq.player_slots = hq.player_slots.map((s) => {
+      s.loadout.skills = s.loadout.skills.map((skill) => {
+        skill = {
+          ...skills.find((sk) => sk.id == skill.id),
+          min_level: skill.min_level,
+        };
+        return skill;
+      });
+      return s;
+    });
   });
   res.render('pages/hunting-quest/index', {
     title: 'Hunting Quests',
@@ -237,7 +248,7 @@ const index_GET = async (req, res) => {
 
 const show_GET = expressAsyncHandler(async (req, res) => {
   const { questId } = req.params;
-  const huntingQuest = HuntingQuest.findById(Number(questId));
+  const huntingQuest = await HuntingQuest.findById(Number(questId));
 
   if (!huntingQuest)
     throw new CustomNotFoundError('No hunting quest found with ID: ' + questId);
@@ -245,6 +256,7 @@ const show_GET = expressAsyncHandler(async (req, res) => {
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
   const monstersDrops = await GameData.monsters_drops__ListGet();
   const bonusQuestRewards = await GameData.bonus_quest_rewards__ListGet();
+  const skills = await GameData.skills_ListGet();
 
   huntingQuest.quest_monsters = huntingQuest.quest_monsters.map((qm) => ({
     ...qm,
@@ -256,6 +268,16 @@ const show_GET = expressAsyncHandler(async (req, res) => {
       quantity: qbr.quantity,
     })
   );
+  huntingQuest.player_slots = huntingQuest.player_slots.map((s) => {
+    s.loadout.skills = s.loadout.skills.map((skill) => {
+      skill = {
+        ...skills.find((sk) => sk.id == skill.id),
+        min_level: skill.min_level,
+      };
+      return skill;
+    });
+    return s;
+  });
   res.render('pages/hunting-quest/show', {
     title: huntingQuest.title,
     huntingQuest,
@@ -335,7 +357,11 @@ const create_POST = [
       });
     }
 
-    const { success, id } = HuntingQuest.addQuest(req.body);
+    const {
+      success,
+      id,
+      errors: dbErrors,
+    } = await HuntingQuest.addQuest(req.body);
     // if (successful) {
     //   res.status(201).json({
     //     success: true,
@@ -351,6 +377,7 @@ const create_POST = [
           {
             msg: 'Failed to create Hunting Quest Post. Something is wrong with the server',
           },
+          dbErrors,
         ],
       });
     }
@@ -359,7 +386,7 @@ const create_POST = [
 
 const edit_GET = expressAsyncHandler(async (req, res) => {
   const { questId } = req.params;
-  const existingHuntingQuest = HuntingQuest.findById(Number(questId));
+  const existingHuntingQuest = await HuntingQuest.findById(Number(questId));
   if (!existingHuntingQuest)
     throw new CustomNotFoundError('No hunting quest found with ID: ' + questId);
   const monsters = await GameData.monsters__weakness_and_icons_ListGet();
@@ -369,6 +396,18 @@ const edit_GET = expressAsyncHandler(async (req, res) => {
   const weaponTypes = await GameData.weapon_types_ListGet();
   const weaponAttributes = await GameData.weapon_attributes_ListGet();
   const systemLoadouts = await GameData.system_loadouts_ListGet();
+  existingHuntingQuest.player_slots = existingHuntingQuest.player_slots.map(
+    (s) => {
+      s.loadout.skills = s.loadout.skills.map((skill) => {
+        skill = {
+          ...skills.find((sk) => sk.id == skill.id),
+          min_level: skill.min_level,
+        };
+        return skill;
+      });
+      return s;
+    }
+  );
 
   res.render('pages/hunting-quest/create', {
     title: 'Edit Hunting Quest Post',

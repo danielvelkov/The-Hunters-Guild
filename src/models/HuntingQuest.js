@@ -354,19 +354,19 @@ const MockHuntingQuestStorage = {
       created_at: '2025-06-18T13:45:56.974Z',
     },
   ],
-  getAll() {
+  async getAll() {
     return this.data;
   },
-  findById(id) {
+  async findById(id) {
     return this.data.find((hq) => hq.id === id);
   },
-  addQuest(huntingQuest) {
+  async addQuest(huntingQuest) {
     const newId = this.nextId + 1;
     this.data.push({ id: newId, ...huntingQuest, created_at: new Date() });
     this.nextId++;
     return { success: true, id: newId };
   },
-  findByIdAndUpdate(id, updatedHuntingQuest) {
+  async findByIdAndUpdate(id, updatedHuntingQuest) {
     const index = this.data.findIndex((hq) => hq.id == id);
     if (index === -1) {
       return {
@@ -378,7 +378,7 @@ const MockHuntingQuestStorage = {
     this.data[index] = updatedHuntingQuest;
     return { success: true };
   },
-  findByIdAndRemove(id) {
+  async findByIdAndRemove(id) {
     const huntingQuest = this.data.find((hq) => hq.id === id);
     if (huntingQuest) {
       this.data = this.data.filter((hq) => hq !== huntingQuest);
@@ -391,4 +391,8 @@ const MockHuntingQuestStorage = {
   },
 };
 
-export default MockHuntingQuestStorage;
+let huntingQuestModel;
+if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test')
+  huntingQuestModel = MockHuntingQuestStorage;
+
+export default huntingQuestModel;
