@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 
 import 'dotenv/config';
-import { Client } from 'pg';
+import pg from 'pg';
+const { Client } = pg;
 
 const DB_NAME = process.env.DB_NAME || 'wilds_data';
 

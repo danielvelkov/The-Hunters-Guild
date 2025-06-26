@@ -5,7 +5,11 @@ import path from 'path';
 import fs from 'fs';
 import os from 'os';
 import readline from 'readline';
-import { Client } from 'pg';
+import { fileURLToPath } from 'url';
+import pg from 'pg';
+const { Client } = pg;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function getFirstLine(pathToFile) {
   const readable = fs.createReadStream(pathToFile);
@@ -34,12 +38,15 @@ const client = new Client({
 
 const loadCSVfunc = fs.readFileSync('db/utils/load-csv-file.sql').toString();
 const hex2decFunc = fs.readFileSync('db/utils/hex-to-dec.sql').toString();
+const setStatusIconsNamesSQL = fs
+  .readFileSync(path.join(__dirname, 'manual-seed/updateStatusIconsNames.sql'))
+  .toString();
 
 const csvDir = path.join(__dirname, '../data/csv');
 const csvFiles = fs.readdirSync(csvDir);
 
 // this dir holds the CSVs for postgres to access them because only there it has permission
-const tempDir = path.join(os.tmpdir(), 'huntersguild-wilds-data');
+const tempDir = path.join(os.tmpdir(), 'hunters-guild-wilds-data');
 console.log('tmp dir created:', tempDir);
 fs.mkdirSync(tempDir, { recursive: true });
 
@@ -51,7 +58,7 @@ async function seed() {
     await client.query(loadCSVfunc);
     await client.query(hex2decFunc);
 
-    console.log('seeding...');
+    console.log('adding game data...');
 
     for (const csv of csvFiles) {
       const filePath = path.join(csvDir, csv);
@@ -75,11 +82,6 @@ async function seed() {
     }
 
     // no references for some icons anywhere, so they're manually added
-    const setStatusIconsNamesSQL = fs
-      .readFileSync(
-        path.join(__dirname, 'manual-seed/updateStatusIconsNames.sql')
-      )
-      .toString();
     await client.query(setStatusIconsNamesSQL);
 
     await client.query('COMMIT');
