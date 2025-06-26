@@ -38,6 +38,7 @@ const client = new Client({
 
 const loadCSVfunc = fs.readFileSync('db/utils/load-csv-file.sql').toString();
 const hex2decFunc = fs.readFileSync('db/utils/hex-to-dec.sql').toString();
+const huntingQuestSchemaQuery = fs.readFileSync('db/schema.sql').toString();
 const setStatusIconsNamesSQL = fs
   .readFileSync(path.join(__dirname, 'manual-seed/updateStatusIconsNames.sql'))
   .toString();
@@ -84,6 +85,8 @@ async function seed() {
     // no references for some icons anywhere, so they're manually added
     await client.query(setStatusIconsNamesSQL);
 
+    console.log('adding web app tables/enums related to hunting quest');
+    await client.query(huntingQuestSchemaQuery);
     await client.query('COMMIT');
     console.log('done');
   } catch (err) {
