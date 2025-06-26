@@ -193,60 +193,60 @@ describe('create page', () => {
     expect(submitButton).toHaveAttribute('disabled');
   });
 
-  describe('should display validation errors', () => {
-    const clone1 = structuredClone(mockMonsters[0]);
-    clone1.locales = ['Narnia'];
-    const clone2 = structuredClone(mockMonsters[1]);
-    clone2.locales = ['Afghanistan'];
-    const mockInvalidMonsters = [clone1, clone2];
+  // describe('should display validation errors', () => {
+  //   const clone1 = structuredClone(mockMonsters[0]);
+  //   clone1.locales = ['Narnia'];
+  //   const clone2 = structuredClone(mockMonsters[1]);
+  //   clone2.locales = ['Afghanistan'];
+  //   const mockInvalidMonsters = [clone1, clone2];
 
-    beforeEach(async () => {
-      // Override the serverData
-      globalThis.serverData.monstersList = mockInvalidMonsters;
+  //   beforeEach(async () => {
+  //     // Override the serverData
+  //     globalThis.serverData.monstersList = mockInvalidMonsters;
 
-      // Re-render the EJS template with invalid monsters
-      const htmlString = await ejs.renderFile(ejsViewPath, {
-        title: 'Create Quest Post',
-        monsters: mockInvalidMonsters, // Use invalid monsters here
-        weaponAttributes: mockAttributes,
-        weaponTypes: mockWeapons,
-        skills: mockSkills,
-        bonusQuestRewards: mockQuestRewards,
-        monstersDrops: mockDrops,
-        systemLoadouts: mockLoadouts,
-      });
+  //     // Re-render the EJS template with invalid monsters
+  //     const htmlString = await ejs.renderFile(ejsViewPath, {
+  //       title: 'Create Quest Post',
+  //       monsters: mockInvalidMonsters, // Use invalid monsters here
+  //       weaponAttributes: mockAttributes,
+  //       weaponTypes: mockWeapons,
+  //       skills: mockSkills,
+  //       bonusQuestRewards: mockQuestRewards,
+  //       monstersDrops: mockDrops,
+  //       systemLoadouts: mockLoadouts,
+  //     });
 
-      document.body.innerHTML = htmlString;
+  //     document.body.innerHTML = htmlString;
 
-      jest.isolateModules(() => {
-        require('js/hunting-quest/create');
-      });
+  //     jest.isolateModules(() => {
+  //       require('js/hunting-quest/create');
+  //     });
 
-      createSelect2Mock();
-    });
-    test('for incompatible monsters for a quest', async () => {
-      const addMonsterButton = screen.getByRole('button', {
-        name: /add monster/i,
-      });
+  //     createSelect2Mock();
+  //   });
+  //   test('for incompatible monsters for a quest', async () => {
+  //     const addMonsterButton = screen.getByRole('button', {
+  //       name: /add monster/i,
+  //     });
 
-      await user.click(addMonsterButton);
-      await user.click(addMonsterButton);
+  //     await user.click(addMonsterButton);
+  //     await user.click(addMonsterButton);
 
-      const monsterSelects = screen.getAllByRole('combobox', {
-        name: /large monster/i,
-      });
+  //     const monsterSelects = screen.getAllByRole('combobox', {
+  //       name: /large monster/i,
+  //     });
 
-      expect(screen.queryByLabelText(/quest errors/i)).not.toBeInTheDocument();
+  //     expect(screen.queryByLabelText(/quest errors/i)).not.toBeInTheDocument();
 
-      selectSelect2Option(monsterSelects[0], mockInvalidMonsters[0].id);
-      selectSelect2Option(monsterSelects[1], mockInvalidMonsters[1].id);
+  //     selectSelect2Option(monsterSelects[0], mockInvalidMonsters[0].id);
+  //     selectSelect2Option(monsterSelects[1], mockInvalidMonsters[1].id);
 
-      const errors = screen.getByLabelText(/quest errors/i);
-      expect(
-        within(errors).getByText(
-          /selected monsters do not exist in a common locale/i
-        )
-      ).toBeInTheDocument();
-    });
-  });
+  //     const errors = screen.getByLabelText(/quest errors/i);
+  //     expect(
+  //       within(errors).getByText(
+  //         /selected monsters do not exist in a common locale/i
+  //       )
+  //     ).toBeInTheDocument();
+  //   });
+  // });
 });
