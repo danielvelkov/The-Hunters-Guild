@@ -221,7 +221,7 @@ class PlayerComp {
       .css('margin-right', '30px');
 
     headerSlotDetailsSummary.append(
-      slot.loadout.weapon_types.map(
+      slot.loadout.weapon_types?.map(
         (weaponType) =>
           `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
             ' ',
@@ -231,14 +231,14 @@ class PlayerComp {
     );
 
     headerSlotDetailsSummary.append(
-      slot.loadout.weapon_attr.map(
+      slot.loadout.weapon_attr?.map(
         (weaponAttr) =>
           `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">`
       )
     );
 
     headerSlotDetailsSummary.append(
-      slot.loadout.roles.map((r) =>
+      slot.loadout.roles?.map((r) =>
         $('<span>').addClass('role-tag').addClass(`role-${r.name}`).text(r.name)
       )
     );
@@ -375,7 +375,7 @@ class PlayerComp {
     initializeSelect(rolesSelect, '-- Choose a role --', (item) => item.text);
 
     // Select current roles
-    if (slot.loadout.roles.length) {
+    if (slot.loadout.roles?.length) {
       rolesSelect.val(slot.loadout.roles.map((r) => r.name)).trigger('change');
     } else rolesSelect.val(null).trigger('change');
 
@@ -726,17 +726,19 @@ class PlayerComp {
   }
 
   updateLoadoutsDisplay(loadoutsContainer, filter = {}) {
-    let loadoutsWithIndex = systemLoadoutsList.map((obj, i) => ({
-      index: i,
-      ...obj,
-    }));
+    let loadoutsWithIndex =
+      systemLoadoutsList?.map((obj, i) => ({
+        index: i,
+        ...obj,
+      })) ?? [];
 
     loadoutsWithIndex = this.filterLoadouts(loadoutsWithIndex, filter);
 
     loadoutsContainer.empty();
-    loadoutsWithIndex.forEach((loadout) =>
-      loadoutsContainer.append(this.createLoadoutElement(loadout))
-    );
+    if (loadoutsWithIndex)
+      loadoutsWithIndex.forEach((loadout) =>
+        loadoutsContainer.append(this.createLoadoutElement(loadout))
+      );
   }
 
   filterLoadouts(loadouts, { name, role }) {
