@@ -136,13 +136,13 @@ export class Loadout {
       dbObject.name,
       dbObject.description,
       dbObject.roles.map((role) =>
-        findClassEnumStaticPropInstance(LoadoutRole, role.name)
+        findClassEnumStaticPropInstance(LoadoutRole, role.id)
       ),
       dbObject.weapon_types.map((wt) =>
-        findClassEnumStaticPropInstance(WeaponType, wt.name)
+        findClassEnumStaticPropInstance(WeaponType, wt.id)
       ),
       dbObject.weapon_attr.map((wa) =>
-        findClassEnumStaticPropInstance(WeaponAttribute, wa.name)
+        findClassEnumStaticPropInstance(WeaponAttribute, wa.id)
       ),
       dbObject.skills.map(
         (skill) =>
