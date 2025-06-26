@@ -377,7 +377,9 @@ const create_POST = [
           {
             msg: 'Failed to create Hunting Quest Post. Something is wrong with the server',
           },
-          dbErrors,
+          ...dbErrors.map((e) => ({
+            msg: e,
+          })),
         ],
       });
     }

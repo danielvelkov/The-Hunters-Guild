@@ -113,7 +113,7 @@ createPageMediator.on(QUEST_FORM_SUBMIT, () => {
         const errors = {};
         const data = await response.json();
 
-        data?.errors.forEach((e) => (errors[e.path] = e.msg));
+        data?.errors.forEach((e, i) => (errors[e.path ?? i + 1] = e.msg));
 
         if (errors) displayValidationErrors(errors);
       } else if (response.redirected) window.location.href = response.url;
