@@ -20,6 +20,10 @@ if (typeof $.fn.select2 === 'undefined') {
   $.fn.select2 = select2;
 }
 
+if (typeof Math.sumPrecise === 'undefined') {
+  Math.sumPrecise = (...args) => args.reduce((sum, v) => sum + v, 0);
+}
+
 global.structuredClone = (val) => JSON.parse(JSON.stringify(val));
 
 global.requestAnimationFrame = jest.fn((cb) => cb());
