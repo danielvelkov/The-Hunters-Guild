@@ -527,10 +527,226 @@ const HuntingQuestStorage = {
       return { success: false, errors: [e.message] };
     }
   },
-  findByIdAndUpdate(id, updatedHuntingQuest) {
-    // TODO
-    return { success: true };
+  async findByIdAndUpdate(id, updatedHuntingQuest) {
+    try {
+      await pool.query('BEGIN');
+
+      // First, check if the quest exists
+      const existingQuest = await pool.query(
+        'SELECT id FROM hunting_quests WHERE id = $1',
+        [id]
+      );
+
+      if (existingQuest.rows.length === 0) {
+        await pool.query('ROLLBACK');
+        return {
+          success: false,
+          errors: ['No such quest ID exists.', 'Failed to update resource.'],
+        };
+      }
+
+      // Update basic quest information
+      const updateQuestText = `
+        UPDATE hunting_quests 
+        SET title = $1, description = $2, category_id = $3, type_id = $4,
+            star_rank = $5, area = $6, hr_requirement = $7, time_limit = $8, 
+            crossplay_enabled = $9
+        WHERE id = $10`;
+
+      const questValues = [
+        updatedHuntingQuest.title,
+        updatedHuntingQuest.description,
+        updatedHuntingQuest.category.id,
+        updatedHuntingQuest.type.id,
+        updatedHuntingQuest.star_rank,
+        updatedHuntingQuest.area,
+        updatedHuntingQuest.hr_requirement,
+        updatedHuntingQuest.time_limit,
+        updatedHuntingQuest.crossplay_enabled,
+        id,
+      ];
+
+      await pool.query(updateQuestText, questValues);
+
+      // Delete existing related data
+      await this.deleteQuestRelatedData(pool, id);
+
+      // Re-add gaming platforms if crossplay disabled
+      if (
+        !updatedHuntingQuest.crossplay_enabled &&
+        updatedHuntingQuest.gaming_platforms
+      ) {
+        for (const gp of updatedHuntingQuest.gaming_platforms) {
+          await pool.query(
+            `INSERT INTO quest_crossplay_platforms (quest_id, gaming_platform_id)
+             VALUES ($1, $2)`,
+            [id, gp.id]
+          );
+        }
+      }
+
+      // Re-add quest monsters
+      if (updatedHuntingQuest.quest_monsters) {
+        for (const m of updatedHuntingQuest.quest_monsters) {
+          await pool.query(
+            `INSERT INTO quest_monsters (quest_id, monster_id, variant_id, crown_id, strength)
+             VALUES ($1, $2, $3, $4, $5)`,
+            [id, m.monster.id, m.variant.id, m.crown.id, m.strength]
+          );
+        }
+      }
+
+      // Re-add quest bonus rewards
+      if (updatedHuntingQuest.quest_bonus_rewards) {
+        for (const r of updatedHuntingQuest.quest_bonus_rewards) {
+          await pool.query(
+            `INSERT INTO quest_bonus_rewards (quest_id, item_id, quantity)
+             VALUES ($1, $2, $3)`,
+            [id, r.item.id, r.quantity]
+          );
+        }
+      }
+
+      // Re-add player slots
+      if (updatedHuntingQuest.player_slots) {
+        for (let [index, s] of updatedHuntingQuest.player_slots.entries()) {
+          const { rows: loadoutRows } = await pool.query(
+            `INSERT INTO loadouts (name, description) 
+             VALUES ($1, $2)
+             RETURNING id`,
+            [s.loadout.name, s.loadout.description]
+          );
+          const loadoutId = loadoutRows[0].id;
+
+          // Add loadout roles
+          if (s.loadout.roles) {
+            for (const r of s.loadout.roles) {
+              await pool.query(
+                `INSERT INTO loadout_roles (loadout_id, role_id) 
+                 VALUES ($1, $2)`,
+                [loadoutId, r.id]
+              );
+            }
+          }
+
+          // Add loadout weapon types
+          if (s.loadout.weapon_types) {
+            for (const wt of s.loadout.weapon_types) {
+              await pool.query(
+                `INSERT INTO loadout_weapon_types (loadout_id, weapon_type_id) 
+                 VALUES ($1, $2)`,
+                [loadoutId, wt.id]
+              );
+            }
+          }
+
+          // Add loadout weapon attributes
+          if (s.loadout.weapon_attr) {
+            for (const attr of s.loadout.weapon_attr) {
+              await pool.query(
+                `INSERT INTO loadout_weapon_attributes (loadout_id, weapon_attribute_id) 
+                 VALUES ($1, $2)`,
+                [loadoutId, attr.id]
+              );
+            }
+          }
+
+          // Add loadout skills
+          if (s.loadout.skills) {
+            for (const skill of s.loadout.skills) {
+              await pool.query(
+                `INSERT INTO loadout_skills (loadout_id, skill_id, min_level) 
+                 VALUES ($1, $2, $3)`,
+                [loadoutId, skill.id, skill.min_level]
+              );
+            }
+          }
+
+          // Format focused monster parts array
+          const focusedParts = s.focusedMonsterParts || [];
+          const formattedArray =
+            focusedParts.length > 0
+              ? `ARRAY[${focusedParts
+                  .map((mp) => `ROW(${mp.id}, '${mp.name}', '${mp.monster}')`)
+                  .join(', ')}]::monster_part_focus[]`
+              : 'ARRAY[]::monster_part_focus[]';
+
+          await pool.query(
+            `INSERT INTO player_slots (quest_id, slot_index, 
+             loadout_id, slot_config_type, display_name, is_owner, notes, can_edit,
+             focused_monster_parts)
+             VALUES($1, $2, $3, $4, $5, $6, $7, $8, ${formattedArray})`,
+            [
+              id,
+              index,
+              loadoutId,
+              s.configurationType.name,
+              s.displayName,
+              s.isOwner,
+              s.notes || '',
+              s.canEdit,
+            ]
+          );
+        }
+      }
+
+      await pool.query('COMMIT');
+      return { success: true };
+    } catch (e) {
+      await pool.query('ROLLBACK');
+      return { success: false, errors: [e.message] };
+    }
   },
+
+  /**
+   * Delete all related data for a quest (used during updates)
+   * @param {pool} client - Database client
+   * @param {number} questId - Quest ID
+   */
+  async deleteQuestRelatedData(client, questId) {
+    // Get all loadout IDs associated with this quest before deleting player slots
+    const { rows: loadoutIds } = await client.query(
+      'SELECT loadout_id FROM player_slots WHERE quest_id = $1',
+      [questId]
+    );
+
+    // Delete player slots first (references loadouts)
+    await client.query('DELETE FROM player_slots WHERE quest_id = $1', [
+      questId,
+    ]);
+
+    // Delete loadout-related data for each loadout
+    for (const { loadout_id } of loadoutIds) {
+      await client.query('DELETE FROM loadout_roles WHERE loadout_id = $1', [
+        loadout_id,
+      ]);
+      await client.query(
+        'DELETE FROM loadout_weapon_types WHERE loadout_id = $1',
+        [loadout_id]
+      );
+      await client.query(
+        'DELETE FROM loadout_weapon_attributes WHERE loadout_id = $1',
+        [loadout_id]
+      );
+      await client.query('DELETE FROM loadout_skills WHERE loadout_id = $1', [
+        loadout_id,
+      ]);
+      await client.query('DELETE FROM loadouts WHERE id = $1', [loadout_id]);
+    }
+
+    // Delete other quest-related data
+    await client.query(
+      'DELETE FROM quest_crossplay_platforms WHERE quest_id = $1',
+      [questId]
+    );
+    await client.query('DELETE FROM quest_monsters WHERE quest_id = $1', [
+      questId,
+    ]);
+    await client.query('DELETE FROM quest_bonus_rewards WHERE quest_id = $1', [
+      questId,
+    ]);
+  },
+
   async findByIdAndRemove(id) {
     const { rowCount } = await pool.query(
       'DELETE FROM hunting_quests WHERE id = $1;',

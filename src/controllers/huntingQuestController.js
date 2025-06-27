@@ -436,7 +436,7 @@ const edit_PUT = [
       });
     }
 
-    const { success } = HuntingQuest.findByIdAndUpdate(questId, req.body);
+    const { success } = await HuntingQuest.findByIdAndUpdate(questId, req.body);
     if (success) res.status(201).redirect(`/${questId}`);
     else {
       return res.status(400).json({
