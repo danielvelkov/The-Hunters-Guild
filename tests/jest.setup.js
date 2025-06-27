@@ -10,9 +10,9 @@ require('jquery-ui/ui/version');
 require('jquery-ui/ui/plugin');
 require('jquery-ui/ui/widget');
 
-const accordion = require('jquery-ui/ui/widgets/accordion');
-const tabs = require('jquery-ui/ui/widgets/tabs');
-const tooltip = require('jquery-ui/ui/widgets/tooltip');
+require('jquery-ui/ui/widgets/accordion');
+require('jquery-ui/ui/widgets/tabs');
+require('jquery-ui/ui/widgets/tooltip');
 
 const select2 = require('select2');
 
