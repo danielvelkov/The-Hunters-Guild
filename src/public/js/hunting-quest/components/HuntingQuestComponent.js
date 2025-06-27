@@ -167,7 +167,7 @@ export default class HuntingQuestComponent {
           </th>
         </tr>
         <tr>
-          <th colspan="3" align="center"><h3 style="max-width:30ch; inline-size:30ch;overflow-wrap: break-word;">${
+          <th colspan="3" align="center"><h3 style="max-width:50ch; inline-size:50ch;overflow-wrap: break-word;">${
             this.quest.title
           }</h3></th>
         </tr>
