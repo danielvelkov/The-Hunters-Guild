@@ -96,7 +96,7 @@ CREATE TABLE hunting_quests (
 -- HUNTING QUEST JOIN TABLES
 
 CREATE TABLE quest_monsters (
-    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id) ON DELETE CASCADE,
     monster_id text NOT NULL REFERENCES monsters(em_id), --PK MUST BE MANUALLY SET
     variant_id INTEGER NOT NULL REFERENCES monster_variants(id),
     crown_id INTEGER NOT NULL REFERENCES monster_crowns(id),
@@ -105,14 +105,14 @@ CREATE TABLE quest_monsters (
 
 
 CREATE TABLE quest_bonus_rewards (
-    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id) ON DELETE CASCADE,
     item_id text NOT NULL REFERENCES items(id), --PK MUST BE MANUALLY SET
     quantity INTEGER,
     UNIQUE(quest_id, item_id)
 );
 
 CREATE TABLE quest_crossplay_platforms (
-    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id) ON DELETE CASCADE,
     gaming_platform_id INTEGER NOT NULL REFERENCES gaming_platforms(id),
     UNIQUE(quest_id, gaming_platform_id)
 );
@@ -131,7 +131,7 @@ CREATE TABLE loadouts (
 
 CREATE TABLE player_slots (
     id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id),
+    quest_id INTEGER NOT NULL REFERENCES hunting_quests(id) ON DELETE CASCADE,
     slot_index INTEGER NOT NULL,
     loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
     slot_config_type slot_config_type_enum NOT NULL,
@@ -159,25 +159,25 @@ INSERT INTO roles VALUES
 -- LOADOUT JOIN TABLES
 
 CREATE TABLE loadout_roles (
-    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id) ON DELETE CASCADE,
     role_id INTEGER NOT NULL REFERENCES roles(id),
     UNIQUE(loadout_id, role_id)
 );
 
 CREATE TABLE loadout_weapon_types (
-    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id) ON DELETE CASCADE,
     weapon_type_id text NOT NULL REFERENCES weapon_types(index), --MANUALLY MADE INTO A PK
     UNIQUE (loadout_id, weapon_type_id)
 );
 
 CREATE TABLE loadout_weapon_attributes (
-    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id) ON DELETE CASCADE,
     weapon_attribute_id text NOT NULL REFERENCES weapon_attributes(index), --MANUALLY MADE INTO A PK
     UNIQUE (loadout_id, weapon_attribute_id)
 );
 
 CREATE TABLE loadout_skills (
-    loadout_id INTEGER NOT NULL REFERENCES loadouts(id),
+    loadout_id INTEGER NOT NULL REFERENCES loadouts(id) ON DELETE CASCADE,
     skill_id text NOT NULL REFERENCES skills(id), --MANUALLY MADE INTO A PK
     min_level INTEGER NOT NULL DEFAULT 1,
     UNIQUE(loadout_id, skill_id)
