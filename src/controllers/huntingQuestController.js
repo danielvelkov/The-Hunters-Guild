@@ -453,10 +453,13 @@ const edit_PUT = [
 
 const remove_DELETE = expressAsyncHandler(async (req, res) => {
   const { questId } = req.params;
-  const { success, errors } = HuntingQuest.findByIdAndRemove(Number(questId));
+  const { success, errors } = await HuntingQuest.findByIdAndRemove(
+    Number(questId)
+  );
   if (success) res.status(200).redirect('/');
   else throw new CustomNotFoundError(errors.join(' '));
 });
+
 export default {
   index_GET,
   show_GET,

@@ -531,17 +531,17 @@ const HuntingQuestStorage = {
     // TODO
     return { success: true };
   },
-  findByIdAndRemove(id) {
-    // TODO
-    return { success: true };
-    // const huntingQuest = this.data.find((hq) => hq.id === id);
-    // if (huntingQuest) {
-    //   return { success: true };
-    // } else
-    //   return {
-    //     success: false,
-    //     errors: ['No such quest ID exists.', 'Failed to delete resource.'],
-    //   };
+  async findByIdAndRemove(id) {
+    const { rowCount } = await pool.query(
+      'DELETE FROM hunting_quests WHERE id = $1;',
+      [id]
+    );
+    if (rowCount) return { success: true };
+    else
+      return {
+        success: false,
+        errors: ['Failed to delete resource', 'No such quest ID exists.'],
+      };
   },
 
   async findById(questId) {
