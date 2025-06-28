@@ -9,6 +9,9 @@ import WeaponType from '../../src/entities/game-data/WeaponType.js';
 import queries from '../../db/game-data-queries.js';
 
 import sample_loadouts from './sample_loadouts.js';
+
+const gameDataCache = {};
+
 /**
  * Retrieves a list containing base details for each monster with
  * the monsters weaknesses and icons for the monster
@@ -16,6 +19,9 @@ import sample_loadouts from './sample_loadouts.js';
  * @returns {Monster[]}
  */
 const monsters__weakness_and_icons_ListGet = async () => {
+  const cacheKey = monsters__weakness_and_icons_ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const { rows: monstersRows } = await pool.query(
     queries.getMonsters__AllWeaknesses
   );
@@ -74,10 +80,14 @@ const monsters__weakness_and_icons_ListGet = async () => {
     );
     monsters.push(monster);
   });
+  gameDataCache[cacheKey] = monsters;
   return monsters;
 };
 
 const bonus_quest_rewards__ListGet = async () => {
+  const cacheKey = bonus_quest_rewards__ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const bonusRewards = [];
   const { rows: itemRows } = await pool.query(queries.getBonusQuestRewardsList);
   itemRows.forEach((i) =>
@@ -95,6 +105,7 @@ const bonus_quest_rewards__ListGet = async () => {
     )
   );
 
+  gameDataCache[cacheKey] = bonusRewards;
   return bonusRewards;
 };
 
@@ -107,6 +118,9 @@ const monster__drops_TablesGet = async (monster) => {
 };
 
 const monsters_drops__ListGet = async () => {
+  const cacheKey = monsters_drops__ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const monstersDrops = [];
   const { rows: dropsRows } = await pool.query(queries.getMonsterDropsList);
   dropsRows.forEach((i) =>
@@ -130,26 +144,38 @@ const monsters_drops__ListGet = async () => {
       )
     )
   );
+  gameDataCache[cacheKey] = monstersDrops;
   return monstersDrops;
 };
 
 const weapon_types_ListGet = async () => {
+  const cacheKey = weapon_types_ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const weaponTypes = [];
   const { rows: typesRows } = await pool.query(queries.getWeaponTypes);
   typesRows.forEach((i) => weaponTypes.push(new WeaponType(i.id, i.name)));
+  gameDataCache[cacheKey] = weaponTypes;
   return weaponTypes;
 };
 
 const weapon_attributes_ListGet = async () => {
+  const cacheKey = weapon_attributes_ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const weaponAttributes = [];
   const { rows: typesRows } = await pool.query(queries.getWeaponAttributes);
   typesRows.forEach((i) =>
     weaponAttributes.push(new WeaponAttribute(i.id, i.name, i.icon))
   );
+  gameDataCache[cacheKey] = weaponAttributes;
   return weaponAttributes;
 };
 
 const skills_ListGet = async () => {
+  const cacheKey = skills_ListGet.name;
+  if (gameDataCache[cacheKey]) return gameDataCache[cacheKey];
+
   const skills = [];
   const { rows: skillsRows } = await pool.query(queries.getSkills);
   skillsRows.forEach((i) =>
@@ -166,6 +192,7 @@ const skills_ListGet = async () => {
       )
     )
   );
+  gameDataCache[cacheKey] = skills;
   return skills;
 };
 
