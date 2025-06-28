@@ -4,18 +4,51 @@
   <title><%= title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link
-    rel="stylesheet"
-    href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
-  />
-  <link
-    href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-    rel="stylesheet"
-  />
+  <!-- DNS PREFETCH FOR EXTERNAL DOMAINS -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//code.jquery.com" />
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+
+  <!-- PRECONNECT TO CRITICAL EXTERNAL DOMAINS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ASYNC LOAD NON-CRITICAL CSS -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet"
+    rel="preload"
+    href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
   />
+  <link
+    rel="preload"
+    href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+
+  <!-- FALLBACK FOR BROWSERS THAT DON'T SUPPORT PRELOAD -->
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+    />
+  </noscript>
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+    media="print"
+    onload="this.media='all'"
+  />
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+    />
+  </noscript>
 </head>
