@@ -4,9 +4,9 @@ import { merge } from 'webpack-merge';
 import common from './webpack.common.js';
 const { PORT } = process.env;
 import { fileURLToPath } from 'url';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
 
 /**
  * DEVELOPMENT WEBPACK CONFIG:
@@ -37,4 +37,5 @@ export default merge(common, {
       },
     ],
   },
+  plugins: [new BundleAnalyzerPlugin()],
 });
