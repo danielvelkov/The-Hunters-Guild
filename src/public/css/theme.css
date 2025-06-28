@@ -80,6 +80,10 @@ input {
   gap: 1em;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 /* Select styling */
 
 select {
