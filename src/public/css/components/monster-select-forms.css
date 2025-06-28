@@ -61,3 +61,16 @@
   background-color: var(--secondary-color);
   color: var(--text-color);
 }
+
+@media screen and (max-width: 600px) {
+  .add-monster-container {
+    flex-direction: column;
+  }
+  #monster-forms {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .monster-form {
+    flex: auto;
+  }
+}

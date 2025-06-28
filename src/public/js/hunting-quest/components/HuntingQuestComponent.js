@@ -167,7 +167,7 @@ export default class HuntingQuestComponent {
           </th>
         </tr>
         <tr>
-          <th colspan="3" align="center"><h3 style="max-width:50ch; inline-size:50ch;overflow-wrap: break-word;">${
+          <th colspan="3" align="center"><h3 style="max-width:50ch; overflow-wrap: break-word;">${
             this.quest.title
           }</h3></th>
         </tr>
@@ -182,12 +182,12 @@ export default class HuntingQuestComponent {
         <tr>
           <th width="10%"></th>
           <th width="20%">Quest Info:</th>
-          <th width="70%" align="left">Recom. Skills:</th>
+          <th width="70%" class="desktop-only" align="left">Recom. Skills:</th>
         </tr>
         <tr>
           <th>HR req:</th>
           <td>${this.quest.hr_requirement}+</td>
-          <td rowspan="3">
+          <td class="desktop-only" rowspan="3">
             ${this.generateRecommendedSkills(
               this.quest.quest_monsters.map((qm) => qm.monster)
             )}
@@ -215,7 +215,7 @@ export default class HuntingQuestComponent {
         </tr>
         <tr>
           <th>Description:</th>
-          <td colspan="3" style="max-width:30ch; inline-size:30ch;overflow-wrap: break-word;" >${
+          <td colspan="3" style="max-width:30ch; overflow-wrap: break-word;" >${
             this.quest.description ?? ''
           }</td>
         </tr>
@@ -225,7 +225,7 @@ export default class HuntingQuestComponent {
         </tr>
           <tr>
                 <td colspan="3" class="player-slots-section">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 8px;">
+                    <div class="flex-row wrap" style="gap: 5px; padding: 5px;">
                     ${this.quest.player_slots
                       .map((slot) => this.generateSlotSection(slot))
                       .join('')}
@@ -665,7 +665,7 @@ export default class HuntingQuestComponent {
           </div></div>`
             : ''
         }
-        ${slot.notes ? `<p><i>${slot.notes}</i></p>` : ''}
+        ${slot.notes ? `<p class="notes-content"><i>${slot.notes}</i></p>` : ''}
         `
     );
 

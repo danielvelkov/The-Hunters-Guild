@@ -225,3 +225,12 @@
 .skill > .skill-level {
   padding: 0.3em;
 }
+
+@media screen and (max-width: 600px) {
+  #player-comp {
+    flex: auto;
+  }
+  #configure-slot {
+    flex: 1;
+  }
+}

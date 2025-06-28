@@ -247,3 +247,19 @@ caption {
   padding: 0.5em !important;
   background-color: var(--bg-color) !important;
 }
+
+@media screen and (max-width: 600px) {
+  .quest-main-section {
+    flex-wrap: wrap-reverse;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .ui-tabs {
+    font-size: 0.9em;
+  }
+  .themetable,
+  fieldset {
+    border: none;
+  }
+}

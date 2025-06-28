@@ -47,3 +47,17 @@ input[type='range'] + output {
 #quest-details-form button[type='submit']:disabled {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 600px) {
+  #quest-details > legend {
+    display: none;
+  }
+  #quest-details-form {
+    width: 100%;
+  }
+  #quest-details {
+    width: auto;
+    border: none !important;
+    padding: 2em;
+  }
+}

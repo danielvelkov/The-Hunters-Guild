@@ -7,12 +7,12 @@
     <main>
       <%- include('../../components/hunting-quest/monster-select-forms') %>
 
-      <div class="flex-row">
+      <div class="flex-row wrap">
         <%- include('../../components/hunting-quest/player-comp',
         {weaponAttributes, weaponTypes, skills}) %>
       </div>
 
-      <div class="flex-row">
+      <div class="flex-row wrap quest-main-section">
         <%- include('../../components/hunting-quest/quest-details-form') %>
         <section id="quest-preview"></section>
       </div>
