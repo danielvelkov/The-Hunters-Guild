@@ -226,14 +226,14 @@ class PlayerComp {
           `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
             ' ',
             '_'
-          )}.png" alt="${weaponType.name}" class="weapon-icon">`
+          )}.webp" alt="${weaponType.name}" class="weapon-icon">`
       )
     );
 
     headerSlotDetailsSummary.append(
       slot.loadout.weapon_attr?.map(
         (weaponAttr) =>
-          `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">`
+          `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" alt="${weaponAttr.name}" class="attribute-icon">`
       )
     );
 
@@ -627,7 +627,7 @@ class PlayerComp {
               `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
                 ' ',
                 '_'
-              )}.png" alt="${weaponType.name}" class="weapon-icon">
+              )}.webp" alt="${weaponType.name}" class="weapon-icon">
                   <span>${weaponType.name}</span>`
             )
             .appendTo(weaponList);
@@ -651,7 +651,7 @@ class PlayerComp {
         $('<li>')
           .addClass('attribute-tag')
           .html(
-            `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" class="attribute-icon">
+            `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" alt="${weaponAttr.name}" class="attribute-icon">
                   <span>${weaponAttr.name}</span>`
           )
           .appendTo(attributeList);
@@ -674,7 +674,7 @@ class PlayerComp {
             },
           });
         skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
-        const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
+        const iconSrc = skillInfo?.icon + '.webp' || 'SKILL_0000.webp';
         const maxLevel = skillInfo?.max_level || 7;
 
         const skillNameEl = $('<div>').addClass('skill-name')
@@ -712,7 +712,7 @@ class PlayerComp {
               part.monster
             }" src="/icons/Large Monster Icons/${
               this.selectedMonsters.find((m) => m.name === part.monster).icon
-            }.png"/>`,
+            }.webp"/>`,
             `[${part.name} ${chooseEmoteBasedOnPart(part.name)}]`
           )
           .appendTo(partFocusList);
@@ -795,7 +795,7 @@ class PlayerComp {
               `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
                 ' ',
                 '_'
-              )}.png" 
+              )}.webp" 
                 alt="${weaponType.name}" class="weapon-icon">
             <span>${weaponType.name}</span>`
             )
@@ -821,7 +821,7 @@ class PlayerComp {
           $('<li>')
             .addClass('attribute-tag')
             .html(
-              `<img src="/icons/Status Icons/${weaponAttr.icon}.png" 
+              `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" 
               alt="${weaponAttr.name}" class="attribute-icon">
           <span>${weaponAttr.name}</span>`
             )
@@ -848,7 +848,7 @@ class PlayerComp {
         if (skillInfo) {
           skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
 
-          const iconSrc = skillInfo?.icon + '.png' || 'SKILL_0000.png';
+          const iconSrc = skillInfo?.icon + '.webp' || 'SKILL_0000.webp';
 
           // Add skill icon
           $('<img>')
@@ -909,7 +909,7 @@ function formatOption(item, iconType, folderName) {
       <span class='monster-select-name'>
         ${
           item.element?.dataset[iconType]
-            ? `<img height='18' src="/icons/${folderName}/${item.element?.dataset[iconType]}.png"/>`
+            ? `<img height='18' src="/icons/${folderName}/${item.element?.dataset[iconType]}.webp"/>`
             : ''
         }
         <b>${

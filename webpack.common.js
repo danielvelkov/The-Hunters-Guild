@@ -2,6 +2,7 @@ import path from 'path';
 import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'; // Extracts CSS into separate files
 import CopyWebpackPlugin from 'copy-webpack-plugin'; // Copies files/directories to the build directory
+import ImageMinimizerPlugin from 'image-minimizer-webpack-plugin';
 import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -61,9 +62,32 @@ export default {
           // globOptions: { ignore: ['**/*.txt'] },  // Optional: exclude certain files
         },
         { from: 'src/public/favicon.ico' },
-        // You can add more patterns here to copy additional directories:
-        // { from: 'src/public/images', to: 'images' },
-        // { from: 'src/public/fonts', to: 'fonts' },
+      ],
+    }),
+    // after copying we minimize them by changing format to webp and reducing w x h
+    new ImageMinimizerPlugin({
+      test: /icons\/.*\.(jpe?g|png|gif|svg)$/i,
+      generator: [
+        {
+          type: 'asset',
+          preset: 'webp-custom-name',
+          implementation: ImageMinimizerPlugin.sharpGenerate, // you need to have sharp package installed to work
+          options: {
+            encodeOptions: {
+              webp: {
+                quality: 90,
+              },
+            },
+            resize: {
+              enabled: true,
+              width: 64,
+              height: 64,
+              fit: 'cover',
+              kernel: 'mitchell', // better for smaller images
+              withoutEnlargement: true,
+            },
+          },
+        },
       ],
     }),
   ],

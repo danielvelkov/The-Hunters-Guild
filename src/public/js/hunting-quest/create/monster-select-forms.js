@@ -208,7 +208,7 @@ function formatMonsterOption(item) {
       <span class='monster-select-name'>
         <img height='18' src="/icons/Large Monster Icons/${
           item.element?.dataset.monsterIcon
-        }.png"/>
+        }.webp"/>
         <b>${item.text}</b>
       </span>
       <div class='monster-elements'>
@@ -229,7 +229,7 @@ function formatWeaknessIcons(dataString) {
     .map((e) => {
       const [name, icon] = e.split(',');
       if (icon) {
-        return `<img height='18' alt='${name}' title='${name}' src="/icons/Status Icons/${icon}.png" />`;
+        return `<img height='18' alt='${name}' title='${name}' src="/icons/Status Icons/${icon}.webp" />`;
       }
       return '';
     })

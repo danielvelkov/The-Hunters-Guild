@@ -223,13 +223,13 @@ const QuestDetailsForm = (() => {
 
 function formatBonusRewardOption(item) {
   if (item.element && item.text && item.id) {
-    const iconPath = `url('../icons/Item Icons/${item.element?.dataset.icon}.png')`;
+    const iconPath = `url('../icons/Item Icons/${item.element?.dataset.icon}.webp')`;
     return $(`
         <span class='bonus-select-name' style="display:flex; gap:0.5em; align-items:center;">
           <div class="item-img-container"
             data-icon-id="${item.id}"
             style="--item-color: var(--${item.element?.dataset.color}); --item-icon:${iconPath}">
-            <img height='23' src="/icons/Item Icons/${item.element?.dataset.icon}.png"/>
+            <img height='23' src="/icons/Item Icons/${item.element?.dataset.icon}.webp"/>
           </div>
           <b>${item.text}</b>
         </span>

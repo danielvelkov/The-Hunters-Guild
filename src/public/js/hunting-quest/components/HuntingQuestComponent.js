@@ -129,13 +129,13 @@ export default class HuntingQuestComponent {
                     ? `<img height='25' title="${qm.crown.name}" alt="${
                         qm.crown.name
                       }"
-                src="/icons/${qm.crown.name.toLowerCase()}-crown.png"
+                src="/icons/${qm.crown.name.toLowerCase()}-crown.webp"
                 style="position:absolute; z-index: 1; top:0px; right:-10px;filter: drop-shadow(1px 1px 1px #222)
                 drop-shadow(-1px -1px 1px #222) drop-shadow(-1px 1px 0px #222) drop-shadow(1px -1px 0px #222);">`
                     : ''
                 }
                 <div class="monster-image-container">
-                <img height='100' title="${
+                <img height='100' width='100' title="${
                   qm.variant.name !== MonsterVariant.BASE.name
                     ? qm.variant.name + ' ' + qm.monster.name
                     : qm.monster.name
@@ -155,7 +155,7 @@ export default class HuntingQuestComponent {
                       ? 'frenzied-outline'
                       : ''
                   }"
-                  src="/icons/Large Monster Icons/${qm.monster.icon}.png"/>
+                  src="/icons/Large Monster Icons/${qm.monster.icon}.webp"/>
                   <span style="margin-top:-1em; font-size:0.65em;">${'✨'.repeat(
                     +qm.strength
                   )}</span>
@@ -272,7 +272,7 @@ export default class HuntingQuestComponent {
 
         const iconPath = `url('../icons/Item Icons/${
           bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon
-        }.png')`;
+        }.webp')`;
         return `<div class="item-img-container bonus-item" title="${
           bonusItem.name
         }\nRarity: ${bonusItem.rarity}"
@@ -282,7 +282,7 @@ export default class HuntingQuestComponent {
         }); --item-icon:${iconPath}; ">
         <img height='30' src="/icons/Item Icons/${
           bonusItem.icon === 'INVALID' ? 'ITEM_0001' : bonusItem.icon
-        }.png" alt="${bonusItem.name}" />
+        }.webp" alt="${bonusItem.name}" />
         ${
           (+bonusItem.rarity >= 6 && bonusItem.type === 'Rare Drop') ||
           (bonusItem.type === 'Food Ingredient' && +bonusItem.rarity >= 5)
@@ -305,7 +305,7 @@ export default class HuntingQuestComponent {
       .map((s) => {
         const skillDiv = $('<div>').addClass('flex-row');
         skillDiv.append(
-          `<img src="/icons/Skill Icons/${s.icon}.png" height="23" alt="${s.name}_Skill_Icon"/> <span>${s.name}</span>`
+          `<img src="/icons/Skill Icons/${s.icon}.webp" height="23" alt="${s.name}_Skill_Icon"/> <span>${s.name}</span>`
         );
         return skillDiv.prop('outerHTML');
       })
@@ -320,16 +320,16 @@ export default class HuntingQuestComponent {
       <tbody align="center">
         <tr>
           <th align="left">Part</th>
-          <th><img height="20" src="/icons/slash.png" title="Slash" alt="Slash"></th>
-          <th><img height="20" src="/icons/blow.png" title="Blow" alt="Blow"></th>
-          <th><img height="20" src="/icons/shot.png" title="Shot" alt="Shot"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0000.png" title="Fire" alt="Fire"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0001.png" title="Water" alt="Water"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0002.png" title="Thunder" alt="Thunder"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0003.png" title="Ice" alt="Ice"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0004.png" title="Dragon" alt="Dragon"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0008.png" title="KO" alt="KO"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0047.png" title="Flash" alt="Flash"></th>
+          <th><img height="20" src="/icons/slash.webp" title="Slash" alt="Slash"></th>
+          <th><img height="20" src="/icons/blow.webp" title="Blow" alt="Blow"></th>
+          <th><img height="20" src="/icons/shot.webp" title="Shot" alt="Shot"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0000.webp" title="Fire" alt="Fire"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0001.webp" title="Water" alt="Water"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0002.webp" title="Thunder" alt="Thunder"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0003.webp" title="Ice" alt="Ice"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0004.webp" title="Dragon" alt="Dragon"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0008.webp" title="KO" alt="KO"></th>
+          <th><img height="20" src="/icons/Status Icons/STATUS_0047.webp" title="Flash" alt="Flash"></th>
         </tr>
         ${monster.part_dmg_effectiveness
           .sort((pde1, pde2) => {
@@ -344,7 +344,7 @@ export default class HuntingQuestComponent {
           .map((de) => {
             let tableRow = '<tr>';
             tableRow = tableRow.concat(
-              `<td align="left"><img height="20" src="/icons/Item Icons/${de.icon}.png"/> <b>${de.name}</b></td>`
+              `<td align="left"><img height="20" src="/icons/Item Icons/${de.icon}.webp"/> <b>${de.name}</b></td>`
             );
             de.damages.forEach((d) => {
               let dmgColor = 'white';
@@ -408,7 +408,7 @@ export default class HuntingQuestComponent {
           .map((se) => {
             let tableRow = $('<tr>');
             tableRow.append(
-              `<td align="left"><img height="20" src="/icons/Status Icons/${se.icon}.png"/> <b>${se.name}</b></td>`
+              `<td align="left"><img height="20" src="/icons/Status Icons/${se.icon}.webp"/> <b>${se.name}</b></td>`
             );
             tableRow.append(`<td>${se.stats.value}</td>`);
             return tableRow.prop('outerHTML');
@@ -433,12 +433,12 @@ export default class HuntingQuestComponent {
         ${monster.item_effectiveness
           .map((ie) => {
             let tableRow = $('<tr>');
-            const iconPath = `url('../icons/Item Icons/${ie.icon}.png')`;
+            const iconPath = `url('../icons/Item Icons/${ie.icon}.webp')`;
             tableRow.append(`<td align="left" >
             <div class="item-img-container"
                 data-item-id="${ie.name}"
                 style="--item-color: var(--${ie.iconColor}); --item-icon:${iconPath};">
-                <img height="20" src="/icons/Item Icons/${ie.icon}.png"/>
+                <img height="20" src="/icons/Item Icons/${ie.icon}.webp"/>
             </div>
             <b>${ie.name}</b>
           </td>`);
@@ -486,7 +486,7 @@ export default class HuntingQuestComponent {
           rewardType == 'Basic Rewards'
             ? `
           <div style="display:flex; gap:0.5em; align-items:center;justify-content:center;">
-            <img height='23' src="/icons/Item Icons/ITEM_0000.png"/>
+            <img height='23' src="/icons/Item Icons/ITEM_0000.webp"/>
             ${rewardType}
           </div>`
             : rewardType == 'Valuable Rewards'
@@ -494,8 +494,8 @@ export default class HuntingQuestComponent {
           <div style="display:flex; gap:0.5em; align-items:center;justify-content:center;">
             <div class="item-img-container"
               data-icon-id="9999"
-              style="--item-icon:url('../icons/Item Icons/ITEM_0000.png'); --item-color: var(--I_BROWN);">
-              <img height='23' src="/icons/Item Icons/ITEM_0000.png" />
+              style="--item-icon:url('../icons/Item Icons/ITEM_0000.webp'); --item-color: var(--I_BROWN);">
+              <img height='23' src="/icons/Item Icons/ITEM_0000.webp" />
             </div>
             ${rewardType}
           </div>
@@ -517,14 +517,14 @@ export default class HuntingQuestComponent {
       partsArr.forEach((p) => {
         const dataRow = $('<tr>');
         if (p.brokenPart) {
-          const brokenPartIconPath = `url('../icons/Item Icons/${p.brokenPartIcon}.png')`;
+          const brokenPartIconPath = `url('../icons/Item Icons/${p.brokenPartIcon}.webp')`;
           dataRow.append(`
           <td>
             <div style="display:flex; gap:0.5em; align-items:center;">
               <div class="item-img-container"
                 data-icon-id="${p.brokenPartIcon}"
                 style="--item-icon:${brokenPartIconPath}">
-                <img height='23' src="/icons/Item Icons/${p.brokenPartIcon}.png"/>
+                <img height='23' src="/icons/Item Icons/${p.brokenPartIcon}.webp"/>
               </div>
               <b>${p.brokenPart}</b>
             </div>
@@ -534,7 +534,7 @@ export default class HuntingQuestComponent {
           dataRow.append('<td>-</td>');
         }
 
-        const itemIconPath = `url('../icons/Item Icons/${p.icon}.png')`;
+        const itemIconPath = `url('../icons/Item Icons/${p.icon}.webp')`;
         dataRow.append(`
         <td title="${'Rarity: ' + p.rarity + '<br/>' + p.description}">
           <div style="display:flex; gap:0.5em; align-items:center;">
@@ -543,7 +543,7 @@ export default class HuntingQuestComponent {
               style="--item-icon:${itemIconPath}; --item-color: var(--${
           p.iconColor
         });">
-              <img height='23' src="/icons/Item Icons/${p.icon}.png" />
+              <img height='23' src="/icons/Item Icons/${p.icon}.webp" />
             </div>
             ${p.name}<b>${+p.number !== 1 ? ` x${p.number}` : ''}</b>
           </div>
@@ -616,7 +616,7 @@ export default class HuntingQuestComponent {
                             `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
                               ' ',
                               '_'
-                            )}.png" alt="${weaponType.name}" title="${
+                            )}.webp" alt="${weaponType.name}" title="${
                               weaponType.name
                             }" class="weapon-icon">`
                         )
@@ -629,7 +629,7 @@ export default class HuntingQuestComponent {
                       slot.loadout.weapon_attr
                         .map(
                           (weaponAttr) =>
-                            `<img src="/icons/Status Icons/${weaponAttr.icon}.png" alt="${weaponAttr.name}" title="${weaponAttr.name}" class="attr-icon">`
+                            `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" alt="${weaponAttr.name}" title="${weaponAttr.name}" class="attr-icon">`
                         )
                         .join('') || 'Any Attribute'
                     }
@@ -672,7 +672,7 @@ export default class HuntingQuestComponent {
     const skillsWithTooltips = slot.loadout.skills.map((s) => {
       const skillSlot = $('<div>').addClass('skill-slot');
       skillSlot.append(`
-                    <img src="/icons/Skill Icons/${s.icon}.png" alt="${s.name}">
+                    <img src="/icons/Skill Icons/${s.icon}.webp" alt="${s.name}">
               `);
       skillSlot.prop('title', formatSkillInfoTooltip(s));
       $('<span>')
