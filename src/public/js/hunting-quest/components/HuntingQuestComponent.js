@@ -107,7 +107,10 @@ export default class HuntingQuestComponent {
     return `
     <table class="themetable" width="100%" align="center">
       <tbody>
-        <tr>
+        <tr style="
+          display: flex;
+          flex-wrap: wrap;"
+        >
           <th colspan="2" style="text-shadow:none;${getQuestCategoryStyle(
             this.quest.category.name
           )}">${this.quest.category.name}</th>
@@ -215,6 +218,8 @@ export default class HuntingQuestComponent {
         </tr>
         <tr>
           <th>Description:</th>
+        </tr>
+        <tr>
           <td colspan="3" style="max-width:30ch; overflow-wrap: break-word;" >${
             this.quest.description ?? ''
           }</td>
