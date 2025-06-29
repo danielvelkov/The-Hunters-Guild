@@ -881,6 +881,10 @@ class PlayerComp {
       clonedSlot.loadout = Loadout.fromDatabaseObject(loadout);
       clonedSlot.configurationType = SlotConfigType.PRESET;
       this.updateSlot(clonedSlot, this.getIndexOfSelectedSlot());
+      document.getElementById('player-comp').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
     });
     return loadoutElement;
   }

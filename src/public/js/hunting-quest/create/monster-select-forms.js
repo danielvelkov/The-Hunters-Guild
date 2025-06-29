@@ -25,6 +25,10 @@ const MonsterSelectForms = (() => {
   $addButton.on('click', () => {
     const newForm = createForm();
     addForm(newForm);
+    $addButton[0].scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
   });
   container.on('change', () => {
     createPageMediator.trigger(
@@ -72,7 +76,7 @@ const MonsterSelectForms = (() => {
     changeCrownSelectVisibility(_crownSelectVisibility);
   }
 
-  function changeCrownSelectVisibility(visible) {
+  function changeCrownSelectVisibility() {
     _monsterSelectForms.forEach((form) => {
       // Only apply to forms that have monster details
       if (form.find('.monster-details').length > 0) {
@@ -100,6 +104,7 @@ const MonsterSelectForms = (() => {
     if (_monsterSelectForms.size >= 2) return;
     _monsterSelectForms.add(form);
     container.append(form);
+    requestAnimationFrame(() => form.addClass('visible'));
     container.trigger('change');
   }
 

@@ -27,3 +27,5 @@ if (typeof Math.sumPrecise === 'undefined') {
 global.structuredClone = (val) => JSON.parse(JSON.stringify(val));
 
 global.requestAnimationFrame = jest.fn((cb) => cb());
+
+global.HTMLElement.prototype.scrollIntoView = function () {};
