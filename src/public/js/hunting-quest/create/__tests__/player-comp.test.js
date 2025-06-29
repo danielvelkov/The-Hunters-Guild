@@ -160,10 +160,10 @@ describe('player composition section', () => {
     );
   });
 
-  test('should display two slot config tabs', async () => {
+  test('should display three slot config tabs', async () => {
     const tablist = screen.getByRole('tablist', { name: /slot config tabs/i });
     const tabLinks = within(tablist).getAllByRole('link');
-    expect(tabLinks).toHaveLength(2);
+    expect(tabLinks).toHaveLength(3);
     expect(tabLinks[0].textContent).toContain('Loadouts');
     expect(tabLinks[1].textContent).toContain('Custom');
   });
