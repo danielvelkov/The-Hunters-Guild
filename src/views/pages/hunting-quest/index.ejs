@@ -3,11 +3,11 @@
   <%- include('../../partials/head', { title }) %>
   <link rel="stylesheet" href="/hunting-quest/index.css" />
   <body>
-    <h1><%= title %></h1>
-    <a href="/create">
-      <button>Create Hunting Quest...</button>
-    </a>
-    <ul class="hunting-quests"></ul>
+    <%- include('../../partials/header') %>
+    <main>
+      <h2><%= title %></h2>
+      <ul class="hunting-quests"></ul>
+    </main>
     <%- include('../../partials/footer') %>
     <script>
         globalThis.serverData = {

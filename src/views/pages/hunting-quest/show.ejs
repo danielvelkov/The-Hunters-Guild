@@ -3,12 +3,10 @@
   <%- include('../../partials/head', { title }) %>
   <link rel="stylesheet" href="/hunting-quest/show.css" />
   <body>
-    <header>
-      <a href="/"><button>Back to hunting quests</button></a>
-    </header>
+    <%- include('../../partials/header') %>
     <main>
+      <h2>Quest Details:</h2>
       <article class="hunting-quest">
-        <h2>Quest Details</h2>
         <div class="action-list">
           <a href="/<%= huntingQuest.id %>/edit"><button>Update</button></a>
           <form action="/<%= huntingQuest.id %>?_method=DELETE" method="post">
