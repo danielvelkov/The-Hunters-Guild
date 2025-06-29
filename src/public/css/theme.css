@@ -47,11 +47,23 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 0;
-  padding: 1em;
-  /* line-height: 1.2; */
+  padding: 1em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
 }
 
 button {
@@ -238,6 +250,10 @@ input[type='range'] {
 
 /* Jquery UI tabs styling */
 
+.tabs {
+  box-shadow: 0 0 5px 5px rgba(117, 114, 114, 0.2);
+}
+
 .ui-tabs {
   padding: 0px !important;
 }
@@ -254,6 +270,11 @@ input[type='range'] {
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   background-color: orange !important;
+}
+
+.ui-widget {
+  font-family: inherit !important;
+  font-size: inherit !important;
 }
 
 .ui-widget.ui-widget-content {
@@ -345,4 +366,10 @@ legend {
   /* Safari compliance */
   -webkit-mask-image: var(--item-icon);
   -webkit-mask-size: 100% 100%;
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    align-self: center;
+  }
 }
