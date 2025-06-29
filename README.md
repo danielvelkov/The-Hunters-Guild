@@ -116,6 +116,7 @@ This tool is not affiliated with, sponsored by, or endorsed by CAPCOM. All trade
 - `src/`: Contains the app source code
 - `server.js`: Main production server entry point
 - `dev-server.js`: Development server entry point
+- `data/`: Gamedata extracted from wilds .
 - `db/`: Database configuration and seed scripts
 - `webpack.dev.js` & `webpack.prod.js`: Webpack configurations
 
