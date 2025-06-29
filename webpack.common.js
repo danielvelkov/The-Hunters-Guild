@@ -54,6 +54,10 @@ export default {
           noErrorOnMissing: true, // Optional: don't fail if directory doesn't exist
           // globOptions: { ignore: ['**/*.txt'] },  // Optional: exclude certain files
         },
+        {
+          from: 'src/public/images',
+          to: 'images',
+        },
         { from: 'src/public/favicon.ico' },
       ],
     }),
