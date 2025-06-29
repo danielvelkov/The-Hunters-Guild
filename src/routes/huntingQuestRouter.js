@@ -27,6 +27,11 @@ huntingQuestsRouter.use((err, req, res, next) => {
       title: 'Error - Not Found',
       error: message || 'Requested resource was not found',
     });
+  else if (statusCode === 401)
+    res.status(401).render('pages/errors/401', {
+      title: 'Error - Unauthorized',
+      error: message || 'Unauthorized access',
+    });
   else
     res.status(500).render('pages/errors/500', {
       title: 'Internal Server Error',

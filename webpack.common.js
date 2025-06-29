@@ -22,6 +22,7 @@ export default {
       './src/public/js/common/common.js', // Common JS code shared across pages
       './src/public/js/hunting-quest/show.js', // Show page specific code
     ],
+    'errors/401': './src/public/js/common/common.js', // Common JS code shared across pages
     'errors/404': './src/public/js/common/common.js', // Common JS code shared across pages
     'errors/500': './src/public/js/common/common.js', // Common JS code shared across pages
     // TODO: use glob to add entries dynamically e.g. glob.sync('./src/public/views/pages/errors/*.ejs');
