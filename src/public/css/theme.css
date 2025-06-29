@@ -66,6 +66,15 @@ main {
   max-width: fit-content;
 }
 
+main > h2 {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
 button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
