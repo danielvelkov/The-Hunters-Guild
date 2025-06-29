@@ -13,6 +13,7 @@ import SlotConfigType from '../entities/SlotConfigType.js';
 import { LoadoutRole } from '../entities/Loadout.js';
 import WeaponType from '../entities/game-data/WeaponType.js';
 import WeaponAttribute from '../entities/game-data/WeaponAttribute.js';
+import CustomUnauthorizedError from '../errors/CustomUnauthorizedError.js';
 
 // FYI: SCHEMA Alternative
 // const huntingQuestSchema = {
@@ -206,6 +207,8 @@ const huntingQuestValidationChain = [
     .withMessage('ID required.')
     .isString()
     .withMessage('ID must be a string'),
+
+  body('passkey').optional(),
 ];
 
 const index_GET = async (req, res) => {
@@ -426,8 +429,12 @@ const edit_GET = expressAsyncHandler(async (req, res) => {
 
 const edit_PUT = [
   huntingQuestValidationChain,
-  async (req, res) => {
+  expressAsyncHandler(async (req, res) => {
     const { questId } = req.params;
+    const { passkey } = req.body;
+    if (process.env.SUPER_DUPER_ULTRA_SECRET_PASSWORD !== passkey)
+      throw new CustomUnauthorizedError('Invalid pass provided.');
+
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({
@@ -448,11 +455,14 @@ const edit_PUT = [
         ],
       });
     }
-  },
+  }),
 ];
 
 const remove_DELETE = expressAsyncHandler(async (req, res) => {
   const { questId } = req.params;
+  const { passkey } = req.body;
+  if (process.env.SUPER_DUPER_ULTRA_SECRET_PASSWORD !== passkey)
+    throw new CustomUnauthorizedError('Invalid pass provided.');
   const { success, errors } = await HuntingQuest.findByIdAndRemove(
     Number(questId)
   );

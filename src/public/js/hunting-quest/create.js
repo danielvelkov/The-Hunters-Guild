@@ -96,8 +96,13 @@ createPageMediator.on(QUEST_PREVIEW_CHANGE, (quest) => {
 });
 
 createPageMediator.on(QUEST_FORM_SUBMIT, () => {
-  const huntingQuest = questBuilder.buildHuntingQuest();
+  let huntingQuest = questBuilder.buildHuntingQuest();
   if (huntingQuest && huntingQuest.isValid()) {
+    if (isEditMode) {
+      const passkey = prompt("What's the super duper secret password?");
+      // SCUFFED AF
+      huntingQuest = { ...JSON.parse(JSON.stringify(huntingQuest)), passkey };
+    }
     fetch(isEditMode ? `/${existingHuntingQuest.id}?_method=PUT` : '/create', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -117,6 +122,10 @@ createPageMediator.on(QUEST_FORM_SUBMIT, () => {
 
         if (errors) displayValidationErrors(errors);
       } else if (response.redirected) window.location.href = response.url;
+      else if (response.status === 401) {
+        const errors = { 1: 'Wrong credentials provided.' };
+        displayValidationErrors(errors);
+      }
     });
   }
 });

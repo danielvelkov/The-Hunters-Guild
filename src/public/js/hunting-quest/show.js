@@ -15,4 +15,6 @@ $('form').on('submit', (e) => {
   if (!result) {
     e.preventDefault();
   }
+  let pass = prompt("What's the super duper secret password?");
+  $('form').append($('<input>').attr('name', 'passkey').val(pass).hide());
 });
