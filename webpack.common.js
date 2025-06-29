@@ -1,5 +1,4 @@
 import path from 'path';
-import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin'; // Extracts CSS into separate files
 import CopyWebpackPlugin from 'copy-webpack-plugin'; // Copies files/directories to the build directory
 import ImageMinimizerPlugin from 'image-minimizer-webpack-plugin';
@@ -36,13 +35,6 @@ export default {
     },
   },
   plugins: [
-    // Automatically load jQuery as a global variable when $ or jQuery is encountered
-    // This avoids needing to import jQuery in every file that uses it
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-    }),
-
     // Extract CSS into separate files, one per JavaScript entry point
     // This improves performance by allowing the browser to load CSS in parallel with JS
     new MiniCssExtractPlugin({
