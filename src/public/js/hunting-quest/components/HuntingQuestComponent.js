@@ -107,10 +107,7 @@ export default class HuntingQuestComponent {
     return `
     <table class="themetable" width="100%" align="center">
       <tbody>
-        <tr style="
-          display: flex;
-          flex-wrap: wrap;"
-        >
+        <tr class="row-flex-wrap">
           <th colspan="2" style="text-shadow:none;${getQuestCategoryStyle(
             this.quest.category.name
           )}">${this.quest.category.name}</th>
