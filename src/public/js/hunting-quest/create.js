@@ -220,6 +220,8 @@ function updateQuestPreview(huntingQuest) {
       huntingQuest,
       monstersDropsList
     );
+    let errorsSection = $('.errors-list');
+    errorsSection.remove();
     $('#quest-preview').append(component.render());
   }
 
@@ -238,7 +240,7 @@ function displayValidationErrors(errors) {
     errorsSection = $('<section>')
       .addClass('errors-list')
       .attr('aria-label', 'quest errors')
-      .appendTo($('#quest-preview'));
+      .appendTo($('main'));
   errorsSection.empty();
   const errorHeading = $('<h3>').text(
     '⚠ Please correct the following validation errors for the post:'
