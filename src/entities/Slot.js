@@ -1,7 +1,4 @@
-import {
-  filterOutMaliciousSymbols,
-  guidGenerator,
-} from '../public/js/common/util.js';
+import { guidGenerator } from '../public/js/common/util.js';
 import { Loadout } from './Loadout.js';
 import SlotConfigType from './SlotConfigType.js';
 
@@ -81,7 +78,7 @@ export default class Slot {
         `Invalid slot notes: ${value}. Should be less than 100 characters.`
       );
     } else {
-      this._notes = filterOutMaliciousSymbols(value);
+      this._notes = value;
     }
   }
   toJSON() {

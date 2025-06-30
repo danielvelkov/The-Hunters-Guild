@@ -1,7 +1,4 @@
-import {
-  findClassEnumStaticPropInstance,
-  filterOutMaliciousSymbols,
-} from '../public/js/common/util.js';
+import { findClassEnumStaticPropInstance } from '../public/js/common/util.js';
 import Skill from './game-data/Skill.js';
 import WeaponAttribute from './game-data/WeaponAttribute.js';
 import WeaponType from './game-data/WeaponType.js';
@@ -47,7 +44,7 @@ export class Loadout {
         `Invalid loadout name: ${value}. Should be less than 50 characters.`
       );
     } else {
-      this._name = filterOutMaliciousSymbols(value);
+      this._name = value;
     }
   }
 
@@ -65,7 +62,7 @@ export class Loadout {
         `Invalid loadout description: ${value}. Should be less than 100 characters.`
       );
     } else {
-      this._description = filterOutMaliciousSymbols(value);
+      this._description = value;
     }
   }
 
@@ -78,7 +75,9 @@ export class Loadout {
       !Array.isArray(value) ||
       value.some((role) => !(role instanceof LoadoutRole))
     ) {
-      console.warn('Invalid roles. Must be an array of LoadoutRole. Setting default: empty roles.');
+      console.warn(
+        'Invalid roles. Must be an array of LoadoutRole. Setting default: empty roles.'
+      );
       return [];
     }
     this._roles = value;
@@ -93,7 +92,9 @@ export class Loadout {
       !Array.isArray(value) ||
       value.some((type) => !(type instanceof WeaponType))
     ) {
-      console.warn('Invalid weapon_types. Must be an array of WeaponType. Setting default: empty weapon_types.');
+      console.warn(
+        'Invalid weapon_types. Must be an array of WeaponType. Setting default: empty weapon_types.'
+      );
       return [];
     }
     this._weapon_types = value;
@@ -110,7 +111,9 @@ export class Loadout {
         value.length &&
         value.some((attr) => !(attr instanceof WeaponAttribute)))
     ) {
-      console.warn('Invalid weapon_attr. Must be an array of WeaponAttribute. Setting default: empty weapon_attr.');
+      console.warn(
+        'Invalid weapon_attr. Must be an array of WeaponAttribute. Setting default: empty weapon_attr.'
+      );
       return [];
     }
     this._weapon_attr = value;

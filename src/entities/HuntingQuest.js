@@ -5,10 +5,7 @@ import QuestMonster from './QuestMonster.js';
 import Slot from './Slot.js';
 import MonsterVariant from './game-data/MonsterVariant.js';
 import QuestBonusReward from './QuestBonusRewards.js';
-import {
-  filterOutMaliciousSymbols,
-  findClassEnumStaticPropInstance,
-} from '../public/js/common/util.js';
+import { findClassEnumStaticPropInstance } from '../public/js/common/util.js';
 import Monster from './game-data/Monster.js';
 import MonsterCrown from './game-data/MonsterCrown.js';
 import { Loadout } from './Loadout.js';
@@ -104,7 +101,7 @@ export default class HuntingQuest {
       this.#auto_generated_title = true;
       this.#title = this.#generateQuestTitle(); // Set to default
     } else {
-      this.#title = filterOutMaliciousSymbols(value);
+      this.#title = value;
       this.#auto_generated_title = false;
     }
   }
@@ -122,7 +119,7 @@ export default class HuntingQuest {
         `Invalid description: ${value}. Should be less than 200 characters.`
       );
     } else {
-      this.#description = filterOutMaliciousSymbols(value);
+      this.#description = value;
     }
   }
 

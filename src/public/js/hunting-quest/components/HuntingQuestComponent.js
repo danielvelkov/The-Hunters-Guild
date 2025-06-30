@@ -4,13 +4,14 @@ import {
   formatSkillInfoTooltip,
   chooseEmoteBasedOnPart,
 } from '../../common/util.js';
-import { guidGenerator } from 'js/common/util.js';
+import { guidGenerator, filterOutMaliciousSymbols } from 'js/common/util.js';
 import HuntingQuest from 'entities/HuntingQuest';
 import MonsterCrown from 'entities/game-data/MonsterCrown.js';
 import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 
 import 'css/components/hunting-quest-component.css';
 import 'css/components/hunter-slot.css';
+import Slot from 'entities/Slot.js';
 
 export default class HuntingQuestComponent {
   /**
@@ -218,7 +219,10 @@ export default class HuntingQuestComponent {
         </tr>
         <tr>
           <td colspan="3" style="max-width:30ch; overflow-wrap: break-word;" >${
-            this.quest.description ?? ''
+            filterOutMaliciousSymbols(this.quest.description).substring(
+              0,
+              200
+            ) ?? ''
           }</td>
         </tr>
           <!-- NEW PLAYER SLOTS SECTION -->
@@ -592,6 +596,10 @@ export default class HuntingQuestComponent {
     return dropsSection[0].outerHTML;
   }
 
+  /**
+   * @param {Slot} slot player slot containing details like loadout
+   * @returns {string} HTML output
+   */
   generateSlotSection(slot) {
     const playerSlot = $('<div>').addClass('player-slot');
     playerSlot.append(
@@ -608,7 +616,9 @@ export default class HuntingQuestComponent {
               </div>
         </div>
         <div class="slot-content">
-              <span style="word-wrap: break-word;">${slot.loadout.name}</span>
+              <span style="word-wrap: break-word;">${filterOutMaliciousSymbols(
+                slot.loadout.name
+              ).substring(0, 50)}</span>
             <div class="weapon-attr">
                 <div style="display: flex; align-items: center; gap: 2px;">
                     ${
@@ -667,7 +677,13 @@ export default class HuntingQuestComponent {
           </div></div>`
             : ''
         }
-        ${slot.notes ? `<p class="notes-content"><i>${slot.notes}</i></p>` : ''}
+        ${
+          slot.notes
+            ? `<p class="notes-content"><i>${filterOutMaliciousSymbols(
+                slot.notes
+              ).substring(0, 100)}</i></p>`
+            : ''
+        }
         `
     );
 
