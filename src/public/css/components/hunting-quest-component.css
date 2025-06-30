@@ -150,6 +150,7 @@ caption {
 
 .player-slots-section {
   .player-slot {
+    flex: 1 0 30ch;
     display: flex;
     flex-direction: column;
     gap: 5px;
