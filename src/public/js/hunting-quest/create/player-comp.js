@@ -1,11 +1,5 @@
-import {
-  skillsList,
-  weaponAttributesList,
-  weaponTypesList,
-  systemLoadoutsList,
-} from '../create.js';
+import { skillsList, systemLoadoutsList } from '../create.js';
 import createPageMediator from 'js/common/mediator';
-import 'css/components/hunter-slot.css';
 import 'css/components/player-comp.css';
 
 import Slot from 'entities/Slot.js';
@@ -16,12 +10,12 @@ import {
 } from 'js/common/events.js';
 import { Loadout, LoadoutRole, LoadoutSkill } from 'entities/Loadout.js';
 import {
-  chooseEmoteBasedOnPart,
   findClassEnumStaticPropInstance,
   formatSkillInfoTooltip,
 } from 'js/common/util.js';
 import WeaponType from 'entities/game-data/WeaponType.js';
 import WeaponAttribute from 'entities/game-data/WeaponAttribute.js';
+import HunterSlotComponent from 'js/hunting-quest/components/HunterSlotComponent.js';
 
 class PlayerComp {
   nextSkillIndex = 0;
@@ -255,13 +249,8 @@ class PlayerComp {
 
     // Create slot content
     let slotElement = $('<div>').addClass('player-slot').attr('role', 'tab');
-    let slotContainer = $(
-      document.getElementById('hunter-slot-template').content.cloneNode(true)
-    ).find('.hunter-slot');
-    slotElement.append(slotContainer);
-
-    // Update slot display with current data
-    this.updateSlotDisplay(slotContainer, slot);
+    const slotComponent = new HunterSlotComponent(slot);
+    slotElement.append(slotComponent.render());
 
     return [title, slotElement];
   }
@@ -574,161 +563,6 @@ class PlayerComp {
       this.updateSkillFormGroup(skillFormGroup, existingSkill);
     }
   }
-  /**
-   * @param {JQuery} slotContainer Element slot container.
-   * @param {Slot} slotData
-   */
-  updateSlotDisplay(slotContainer, slotData) {
-    // Basic slot info
-    slotContainer
-      .find('.slot-display-name')
-      .text(slotData.displayName || 'Hunter Slot');
-    slotContainer
-      .find('.slot-type')
-      .text(slotData.configurationType.name + ' Configuration')
-      .attr('title', slotData.configurationType.description);
-
-    // Show/hide owner badge
-    const ownerBadge = slotContainer.find('.slot-owner');
-    ownerBadge.css('display', slotData.isOwner ? 'inline-block' : 'none');
-
-    // Loadout info
-    slotContainer
-      .find('.loadout-name')
-      .text(slotData.loadout.name || 'Custom Loadout');
-    slotContainer
-      .find('.loadout-description')
-      .text(slotData.loadout.description || 'Custom hunter configuration.');
-
-    // Roles
-    const rolesList = slotContainer.find('.roles-list');
-    rolesList.empty();
-    if (slotData.loadout.roles?.length) {
-      slotData.loadout.roles.forEach((role) => {
-        $('<li>')
-          .addClass(`role-tag role-${role.name}`)
-          .text(role.name)
-          .appendTo(rolesList);
-      });
-    } else {
-      rolesList.html('<li class="empty-message">Any role</li>');
-    }
-
-    // Weapons
-    const weaponList = slotContainer.find('.weapon-list');
-    weaponList.empty();
-    if (slotData.loadout.weapon_types?.length) {
-      slotData.loadout.weapon_types.forEach((weapon) => {
-        const weaponType = getWeaponType(weapon.id);
-        if (weaponType) {
-          $('<li>')
-            .addClass('weapon-tag')
-            .html(
-              `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
-                ' ',
-                '_'
-              )}.webp" alt="${weaponType.name}" class="weapon-icon">
-                  <span>${weaponType.name}</span>`
-            )
-            .appendTo(weaponList);
-        } else {
-          $('<li>')
-            .addClass('weapon-tag')
-            .html(`<span>${weapon}</span>`)
-            .appendTo(weaponList);
-        }
-      });
-    } else {
-      weaponList.html('<li class="empty-message">Any weapon type</li>');
-    }
-
-    // Attributes
-    const attributeList = slotContainer.find('.attribute-list');
-    attributeList.empty();
-    if (slotData.loadout.weapon_attr?.length) {
-      slotData.loadout.weapon_attr.forEach((attr) => {
-        const weaponAttr = getWeaponAttribute(attr.id);
-        $('<li>')
-          .addClass('attribute-tag')
-          .html(
-            `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" alt="${weaponAttr.name}" class="attribute-icon">
-                  <span>${weaponAttr.name}</span>`
-          )
-          .appendTo(attributeList);
-      });
-    } else {
-      attributeList.html('<li class="empty-message">Any element/status</li>');
-    }
-
-    // Skills
-    const $skillsList = slotContainer.find('.skills-list');
-
-    $skillsList.empty();
-    if (slotData.loadout.skills?.length) {
-      slotData.loadout.skills.forEach((skillInfo) => {
-        const skillItem = $('<li>')
-          .addClass('skill-item')
-          .tooltip({
-            content: function () {
-              return $(this).prop('title');
-            },
-          });
-        skillItem.prop('title', formatSkillInfoTooltip(skillInfo));
-        const iconSrc = skillInfo?.icon + '.webp' || 'SKILL_0000.webp';
-        const maxLevel = skillInfo?.max_level || 7;
-
-        const skillNameEl = $('<div>').addClass('skill-name')
-          .html(`<img src="/icons/Skill Icons/${iconSrc}" alt="${skillInfo.name}" class="skill-icon">
-                  <span>${skillInfo.name}</span>`);
-
-        const skillLevelEl = $('<div>').addClass('skill-level-list');
-        for (let i = 0; i < maxLevel; i++) {
-          $('<div>')
-            .addClass(
-              i < skillInfo.min_level
-                ? 'level-circle'
-                : 'level-circle level-empty'
-            )
-            .appendTo(skillLevelEl);
-        }
-
-        skillItem.append(skillNameEl, skillLevelEl).appendTo($skillsList);
-      });
-    } else {
-      $skillsList.html(
-        '<li class="empty-message">No specific skills required</li>'
-      );
-    }
-
-    // Monster part focus
-    const partFocusList = slotContainer.find('.part-focus-list');
-    partFocusList.empty();
-    if (slotData.focusedMonsterParts?.length && this.selectedMonsters?.length) {
-      slotData.focusedMonsterParts.forEach((part) => {
-        $('<li>')
-          .addClass('part-focus-tag')
-          .append(
-            `<img height="30" title="${part.monster}" alt="${
-              part.monster
-            }" src="/icons/Large Monster Icons/${
-              this.selectedMonsters.find((m) => m.name === part.monster).icon
-            }.webp"/>`,
-            `[${part.name} ${chooseEmoteBasedOnPart(part.name)}]`
-          )
-          .appendTo(partFocusList);
-      });
-    } else {
-      partFocusList.html(
-        '<li class="empty-message">No specific part focus required</li>'
-      );
-    }
-
-    // Notes
-    slotContainer
-      .find('.notes-content')
-      .text(slotData.notes || 'No additional notes for this slot.');
-  }
-
   updateLoadoutsDisplay(loadoutsContainer, filter = {}) {
     let loadoutsWithIndex =
       systemLoadoutsList?.map((obj, i) => ({
@@ -1054,9 +888,6 @@ function processFormData(formData, originalSlot) {
 }
 
 const getSkillInfo = (id) => skillsList.find((s) => s.id === id);
-const getWeaponType = (id) => weaponTypesList.find((w) => w.id === id);
-const getWeaponAttribute = (id) =>
-  weaponAttributesList.find((w) => w.id === id);
 
 // Initialize the component
 export default PlayerComp;
