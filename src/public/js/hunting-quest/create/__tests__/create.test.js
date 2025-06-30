@@ -1,4 +1,4 @@
-import { screen, within } from '@testing-library/dom';
+import { screen, waitFor, within } from '@testing-library/dom';
 import '@testing-library/jest-dom';
 import path from 'path';
 import ejs from 'ejs';
@@ -163,11 +163,13 @@ describe('create page', () => {
     expect(
       screen.queryByRole('group', { name: /quest details/i })
     ).not.toBeInTheDocument();
-    expect(
-      screen.queryByRole('tabpanel', {
-        name: /quest details/i,
-      })
-    ).not.toBeInTheDocument();
+    await waitFor(() => {
+      expect(
+        screen.queryByRole('tabpanel', {
+          name: /quest details/i,
+        })
+      ).not.toBeInTheDocument();
+    });
   });
 
   test('should disable submit button if quest details are invalid', async () => {
@@ -190,7 +192,9 @@ describe('create page', () => {
     await user.click(removeButton);
     expect(within(tablist).getAllByRole('tab')).toHaveLength(1); // Below minimumm
 
-    expect(submitButton).toHaveAttribute('disabled');
+    await waitFor(() => {
+      expect(submitButton).toHaveAttribute('disabled');
+    });
   });
 
   // describe('should display validation errors', () => {

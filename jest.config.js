@@ -16,11 +16,14 @@ const config = {
     '^css/(.*)$': '<rootDir>/tests/__mocks__/styleMock.js', // mock all css imports
     '@tests/(.*)$': '<rootDir>/tests/$1',
     '^entities/(.*)$': '<rootDir>/src/entities/$1',
+    '^views/(.*)$': '<rootDir>/src/views/$1',
   },
   // If using subpath imports
   resolver: undefined, // Jest handles subpath imports automatically in newer versions
+  moduleFileExtensions: ['js', 'html'],
   transform: {
     '^.+\\.js$': 'babel-jest',
+    '^.+\\.html$': '<rootDir>/tests/utils/htmlLoader.js',
   },
 };
 
