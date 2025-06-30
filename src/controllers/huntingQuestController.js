@@ -29,23 +29,29 @@ import CustomUnauthorizedError from '../errors/CustomUnauthorizedError.js';
 const emptyError = 'Must not be empty.';
 const maxLengthError = (max) =>
   `Maximum limit is [${max}] characters. Please shorten your text.`;
+const maxLengthAfterEscapeError = (max) =>
+  `Final stored value exceeds length limit [${max}] after escaping. Remove special characters like [@$<>;] or shorten your text.`;
 const numberBetweenError = (min, max) =>
   `Please enter a number between ${min} and ${max}.`;
 
 const huntingQuestValidationChain = [
   body('title')
     .trim()
-    .escape()
     .notEmpty()
     .withMessage(emptyError)
     .isLength({ max: 100 })
-    .withMessage(maxLengthError(100)),
+    .withMessage(maxLengthError(100))
+    .escape()
+    .custom((value) => value.length < 100)
+    .withMessage(maxLengthAfterEscapeError(100)),
 
   body('description')
     .trim()
-    .escape()
     .isLength({ max: 200 })
-    .withMessage(maxLengthError(200)),
+    .withMessage(maxLengthError(200))
+    .escape()
+    .custom((value) => value.length < 200)
+    .withMessage(maxLengthAfterEscapeError(200)),
   body('category').custom((value) => {
     const isValid = findClassEnumStaticPropInstance(QuestCategory, value?.id);
     if (!isValid) throw new Error('Invalid monster category selected.');
@@ -131,9 +137,11 @@ const huntingQuestValidationChain = [
     .notEmpty()
     .withMessage(emptyError)
     .trim()
-    .escape()
     .isLength({ max: 50 })
-    .withMessage(maxLengthError(50)),
+    .withMessage(maxLengthError(50))
+    .escape()
+    .custom((value) => value.length < 50)
+    .withMessage(maxLengthAfterEscapeError(50)),
   body('player_slots.*.isOwner').isBoolean(),
   body('player_slots.*.canEdit').isBoolean(),
   body('player_slots.*.configurationType').custom((value) => {
@@ -153,21 +161,27 @@ const huntingQuestValidationChain = [
   body('player_slots.*.notes')
     .isString()
     .trim()
-    .escape()
     .isLength({ max: 100 })
-    .withMessage(maxLengthError(100)),
+    .withMessage(maxLengthError(100))
+    .escape()
+    .custom((value) => value.length < 100)
+    .withMessage(maxLengthAfterEscapeError(100)),
   body('player_slots.*.loadout.name')
     .isString()
     .trim()
-    .escape()
     .isLength({ max: 50 })
-    .withMessage(maxLengthError(50)),
+    .withMessage(maxLengthError(50))
+    .escape()
+    .custom((value) => value.length < 50)
+    .withMessage(maxLengthAfterEscapeError(50)),
   body('player_slots.*.loadout.description')
     .isString()
     .trim()
-    .escape()
     .isLength({ max: 100 })
-    .withMessage(maxLengthError(100)),
+    .withMessage(maxLengthError(100))
+    .escape()
+    .custom((value) => value.length < 100)
+    .withMessage(maxLengthAfterEscapeError(100)),
   body('player_slots.*.loadout.roles').exists().isArray(),
   body('player_slots.*.loadout.roles.*.id').custom((id) => {
     const isValid = findClassEnumStaticPropInstance(LoadoutRole, id);

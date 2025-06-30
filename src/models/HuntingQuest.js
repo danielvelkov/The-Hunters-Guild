@@ -960,8 +960,8 @@ const HuntingQuestStorage = {
 };
 
 let huntingQuestModel;
-// if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test')
-//   huntingQuestModel = MockHuntingQuestStorage;
-huntingQuestModel = HuntingQuestStorage;
+if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test')
+  huntingQuestModel = MockHuntingQuestStorage;
+else huntingQuestModel = HuntingQuestStorage;
 
 export default huntingQuestModel;
