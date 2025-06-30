@@ -96,6 +96,7 @@ export default {
       js: path.resolve(__dirname, 'src/public/js'),
       icons: path.resolve(__dirname, 'src/public/icons'),
       entities: path.resolve(__dirname, 'src/entities'),
+      views: path.resolve(__dirname, 'src/views'),
     },
   },
 
@@ -144,6 +145,10 @@ export default {
         generator: {
           filename: 'fonts/[hash][ext][query]', // Output pattern with content hash
         },
+      },
+      {
+        test: /\.html$/i,
+        use: 'html-loader',
       },
     ],
   },

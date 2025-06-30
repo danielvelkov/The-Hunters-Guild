@@ -7,7 +7,8 @@
       "icons/*": ["./src/public/icons/*"],
       "@tests/*": ["./tests/*"],
       "@models/*": ["./src/models/*"],
-      "entities/*": ["./src/entities/*"]
+      "entities/*": ["./src/entities/*"],
+      "views/*": ["./src/views/*"]
     }
   }
 }
