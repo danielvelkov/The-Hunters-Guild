@@ -12,6 +12,7 @@ import MonsterVariant from 'entities/game-data/MonsterVariant.js';
 import 'css/components/hunting-quest-component.css';
 import 'css/components/hunter-slot.css';
 import Slot from 'entities/Slot.js';
+import HunterSlotComponent from './HunterSlotComponent.js';
 
 export default class HuntingQuestComponent {
   /**
@@ -62,9 +63,72 @@ export default class HuntingQuestComponent {
               }</a></li>`
           )
           .join('')}
+        <li aria-controls="tabs-player-comp-${questDetailsTabId}"><a href="#tabs-player-comp-${questDetailsTabId}">Player Comp</a></li>
       </ul>
       <div role="tabpanel" aria-label="quest details tab" id="tabs-quest-details-${questDetailsTabId}" class="freedom-unite-quest">
         ${this.generateQuestDetailsTab()}
+      </div>
+      <div role="tabpanel"  aria-label="player comp tab" id="tabs-player-comp-${questDetailsTabId}">
+          <section class="flex-col">
+        ${this.quest.player_slots
+          .map((slot) => {
+            let title = $('<h3>')
+              .addClass('accordion-title')
+              .css('width', '95%')
+              .css('display', 'inline-flex')
+              .css('justify-content', 'space-between')
+              .css('flex-wrap', 'wrap')
+              .attr('aria-label', 'player slot details section heading');
+
+            title.append(
+              $('<span>').text(slot.displayName).css('margin-right', 'auto')
+            );
+            const headerSlotDetailsSummary = $('<div>')
+              .css('display', 'flex')
+              .css('gap', '1px')
+              .css('color', 'white');
+
+            headerSlotDetailsSummary.append(
+              slot.loadout.weapon_types?.map(
+                (weaponType) =>
+                  `<img src="/icons/Weapon Types/${weaponType.name.replaceAll(
+                    ' ',
+                    '_'
+                  )}.webp" alt="${weaponType.name}" class="weapon-icon">`
+              )
+            );
+
+            headerSlotDetailsSummary.append(
+              slot.loadout.weapon_attr?.map(
+                (weaponAttr) =>
+                  `<img src="/icons/Status Icons/${weaponAttr.icon}.webp" alt="${weaponAttr.name}" class="attribute-icon">`
+              )
+            );
+
+            headerSlotDetailsSummary.append(
+              slot.loadout.roles?.map((r) =>
+                $('<span>')
+                  .addClass('role-tag')
+                  .addClass(`role-${r.name}`)
+                  .text(r.name)
+              )
+            );
+
+            title.append(headerSlotDetailsSummary);
+            const summary = $('<summary>')
+              .css('background-color', 'var(--primary-color)')
+              .css('padding', '0em 1em')
+              .css('color', 'var(--secondary-color)')
+              .append(title);
+
+            const container = $('<details>').append(
+              summary,
+              new HunterSlotComponent(slot).render()
+            );
+            return container[0].outerHTML;
+          })
+          .join('')}
+          </section>
       </div>
       ${this.quest.quest_monsters
         .filter(
