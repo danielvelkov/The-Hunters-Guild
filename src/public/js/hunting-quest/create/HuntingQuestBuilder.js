@@ -6,6 +6,7 @@ import { QUEST_PREVIEW_CHANGE } from 'js/common/events.js';
  * Builds a hunting quest and remembers different sections
  */
 export default class HuntingQuestBuilder {
+  #previewUpdateTimer;
   constructor() {
     this.questMonsters = [];
     this.questDetails = {};
@@ -63,6 +64,12 @@ export default class HuntingQuestBuilder {
 
   triggerPreviewUpdate() {
     const quest = this.buildHuntingQuest();
-    if (quest) createPageMediator.trigger(QUEST_PREVIEW_CHANGE, quest);
+    if (quest) {
+      clearTimeout(this.#previewUpdateTimer);
+      this.#previewUpdateTimer = setTimeout(
+        () => createPageMediator.trigger(QUEST_PREVIEW_CHANGE, quest),
+        100
+      );
+    }
   }
 }
