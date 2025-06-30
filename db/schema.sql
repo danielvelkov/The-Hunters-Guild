@@ -82,7 +82,7 @@ INSERT INTO monster_crowns VALUES
 CREATE TABLE hunting_quests (
     id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     title VARCHAR(100),
-    description VARCHAR(100),
+    description VARCHAR(200),
     category_id INTEGER NOT NULL REFERENCES quest_categories(id),
     type_id INTEGER NOT NULL REFERENCES quest_types(id),
     star_rank star_rank_enum NOT NULL,
