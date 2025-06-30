@@ -59,15 +59,15 @@ body {
   min-height: 100vh;
 }
 
+body > h2 {
+  font-family: 'Cinzel Decorative', serif;
+}
+
 main {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  max-width: fit-content;
-}
-
-main > h2 {
-  font-family: 'Cinzel Decorative', serif;
+  padding: 1em;
 }
 
 footer {
@@ -377,8 +377,9 @@ legend {
   -webkit-mask-size: 100% 100%;
 }
 
-@media screen and (max-width: 800px) {
-  h2 {
-    align-self: center;
+@media screen and (min-width: 900px) {
+  main {
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
