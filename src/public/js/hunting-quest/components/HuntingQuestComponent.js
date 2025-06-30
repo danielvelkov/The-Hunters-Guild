@@ -218,7 +218,7 @@ export default class HuntingQuestComponent {
           <th>Description:</th>
         </tr>
         <tr>
-          <td colspan="3" style="max-width:30ch; overflow-wrap: break-word;" >${
+          <td colspan="3" style="max-width:min(30ch, 80vw); word-wrap: break-word;" >${
             filterOutMaliciousSymbols(this.quest.description).substring(
               0,
               200
@@ -230,8 +230,8 @@ export default class HuntingQuestComponent {
             <th colspan="3" align="center">Player Slots:</th>
         </tr>
           <tr>
-                <td colspan="3" class="player-slots-section">
-                    <div class="flex-row wrap" style="gap: 5px; padding: 5px;">
+                <td colspan="3" >
+                    <div class="player-slots-section flex-row wrap" style="gap: 5px;">
                     ${this.quest.player_slots
                       .map((slot) => this.generateSlotSection(slot))
                       .join('')}
@@ -616,7 +616,7 @@ export default class HuntingQuestComponent {
               </div>
         </div>
         <div class="slot-content">
-              <span style="word-wrap: break-word;">${filterOutMaliciousSymbols(
+              <div style="max-width: min(30ch, 80vw);word-wrap: break-word; ">${filterOutMaliciousSymbols(
                 slot.loadout.name
               ).substring(0, 50)}</span>
             <div class="weapon-attr">

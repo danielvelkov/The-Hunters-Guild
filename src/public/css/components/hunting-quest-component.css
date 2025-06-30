@@ -200,7 +200,7 @@ caption {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-    padding: 0.5em;
+    padding: 0.5em 0em;
   }
 
   .skill-slot {

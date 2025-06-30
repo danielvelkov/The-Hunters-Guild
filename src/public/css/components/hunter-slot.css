@@ -58,13 +58,15 @@
   font-size: 1.2rem;
   margin-bottom: 5px;
   font-weight: bold;
+  max-width: min(45ch, 80vw);
+  word-wrap: break-word;
 }
 
 .loadout-description {
   font-size: 0.9rem;
   opacity: 0.9;
   margin-bottom: 15px;
-  max-width: 50ch;
+  max-width: min(50ch, 80vw);
   word-wrap: break-word;
 }
 
@@ -255,7 +257,7 @@
 .notes-content {
   font-style: italic;
   white-space: pre-line;
-  max-width: 50ch;
+  max-width: min(45ch, 80vw);
   word-wrap: break-word;
 }
 
