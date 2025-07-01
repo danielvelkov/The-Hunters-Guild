@@ -6,6 +6,12 @@
     <%- include('../../partials/header') %>
     <h2><%= title %></h2>
     <main>
+      <% if (!huntingQuests || !huntingQuests.length) { %>
+      <p>No hunting quests added yet. Be the first one?</p>
+      <a style="align-self: center" href="/create">
+        <button>CREATE A QUEST</button>
+      </a>
+      <% } %>
       <ul class="hunting-quests"></ul>
     </main>
     <%- include('../../partials/footer') %>
@@ -18,6 +24,6 @@
       };
       Object.freeze(globalThis.serverData);
     </script>
-    <script src="/hunting-quest/index.js"></script>
+    <script defer src="/hunting-quest/index.js"></script>
   </body>
 </html>
