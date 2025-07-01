@@ -10,6 +10,7 @@
 
   > li {
     flex: 1 1 min(80vw, 500px);
+    height: 100%;
   }
 }
 
