@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start:HMR": "concurrently \"webpack serve --open --config webpack.dev.js\" \"node --watch server.js\"",
-    "build": "concurrently \"webpack --config webpack.prod.js\" \"node server.js\"",
+    "start:prod": "concurrently \"webpack --config webpack.prod.js\" \"node server.js\"",
+    "build": "webpack --config webpack.prod.js",
     "create-db": "node db/config.js",
     "seed": "node db/seed.js",
     "start": "node server.js",
