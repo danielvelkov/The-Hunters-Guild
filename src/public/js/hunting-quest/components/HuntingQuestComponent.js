@@ -69,7 +69,7 @@ export default class HuntingQuestComponent {
         ${this.generateQuestDetailsTab()}
       </div>
       <div role="tabpanel"  aria-label="player comp tab" id="tabs-player-comp-${questDetailsTabId}">
-          <section class="flex-col">
+          <section class="flex-row wrap">
         ${this.quest.player_slots
           .map((slot) => {
             let title = $('<h3>')
@@ -121,10 +121,9 @@ export default class HuntingQuestComponent {
               .css('color', 'var(--secondary-color)')
               .append(title);
 
-            const container = $('<details>').append(
-              summary,
-              new HunterSlotComponent(slot).render()
-            );
+            const container = $('<details>')
+              .css('flex', 'auto')
+              .append(summary, new HunterSlotComponent(slot).render());
             return container[0].outerHTML;
           })
           .join('')}
