@@ -87,7 +87,7 @@ This tool is not affiliated with, sponsored by, or endorsed by CAPCOM. All trade
   npm run build
   ```
 
-  Builds the frontend assets for production and starts the server.
+  Builds the frontend assets for production.
 
 - **Start Production Server**:
 
