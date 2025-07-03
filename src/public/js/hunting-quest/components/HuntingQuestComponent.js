@@ -232,7 +232,7 @@ export default class HuntingQuestComponent {
           </th>
         </tr>
         <tr>
-          <th colspan="3" align="center"><h3 style="max-width:50ch; overflow-wrap: break-word;">${
+          <th colspan="3" align="center"><h3 style="max-width:min(30ch, 80vw); overflow-wrap: break-word;">${
             this.quest.title
           }</h3></th>
         </tr>
@@ -260,7 +260,9 @@ export default class HuntingQuestComponent {
         </tr>
         <tr>
           <th>Area:</th>
-          <td>${this.quest.area}</td>
+          <td style="overflow-wrap:break-word; min-width: 5ch;">${
+            this.quest.area
+          }</td>
         </tr>
         <tr>
           <th>Crossplay:</th>
@@ -398,8 +400,8 @@ export default class HuntingQuestComponent {
           <th><img height="20" src="/icons/Status Icons/STATUS_0002.webp" title="Thunder" alt="Thunder"></th>
           <th><img height="20" src="/icons/Status Icons/STATUS_0003.webp" title="Ice" alt="Ice"></th>
           <th><img height="20" src="/icons/Status Icons/STATUS_0004.webp" title="Dragon" alt="Dragon"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0008.webp" title="KO" alt="KO"></th>
-          <th><img height="20" src="/icons/Status Icons/STATUS_0047.webp" title="Flash" alt="Flash"></th>
+          <th class="desktop-only"><img height="20" src="/icons/Status Icons/STATUS_0008.webp" title="KO" alt="KO"></th>
+          <th class="desktop-only"><img height="20" src="/icons/Status Icons/STATUS_0047.webp" title="Flash" alt="Flash"></th>
         </tr>
         ${monster.part_dmg_effectiveness
           .sort((pde1, pde2) => {
@@ -416,7 +418,8 @@ export default class HuntingQuestComponent {
             tableRow = tableRow.concat(
               `<td align="left"><img height="20" src="/icons/Item Icons/${de.icon}.webp"/> <b>${de.name}</b></td>`
             );
-            de.damages.forEach((d) => {
+            const damagesLen = de.damages.length;
+            de.damages.forEach((d, i) => {
               let dmgColor = 'white';
               switch (d.type) {
                 case 'fire':
@@ -436,10 +439,9 @@ export default class HuntingQuestComponent {
                   break;
               }
               tableRow = tableRow.concat(
-                `<td style="background-color: ${getDmgColor(
-                  d.value,
-                  dmgColor
-                )};${
+                `<td ${
+                  damagesLen - i < 3 ? 'class="desktop-only"' : ''
+                } style="background-color: ${getDmgColor(d.value, dmgColor)};${
                   dmgColor !== 'white'
                     ? `
                            color: var(--secondary-color);
